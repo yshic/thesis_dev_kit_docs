@@ -1,0 +1,14 @@
+.. _exhale_enum_bmp280_8h_1a591c10d85466fc2af5058a2af914635e:
+
+Enum bmp280_mode_t
+==================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_bmp280_src_bmp280.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: bmp280_mode_t
+   :project: thesis_dev_kit_docs

@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_d_f_mobile" kind="class" language="C++" prot="public">
+    <compoundname>DFMobile</compoundname>
+    <includes refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8h" local="no">DFMobile.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_f_mobile_1a1af1831edd264e06ad8aef09c376c8ed" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DFMobile::_left_advance</definition>
+        <argsstring></argsstring>
+        <name>_left_advance</name>
+        <qualifiedname>DFMobile::_left_advance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="12" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1af17d9ecf59747f28123c664780d7ff92" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DFMobile::_left_back</definition>
+        <argsstring></argsstring>
+        <name>_left_back</name>
+        <qualifiedname>DFMobile::_left_back</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="13" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1ac28709f4dd65009063050700d47b78e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DFMobile::_right_advance</definition>
+        <argsstring></argsstring>
+        <name>_right_advance</name>
+        <qualifiedname>DFMobile::_right_advance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="14" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1a49e744c1a9578ba85d04c225527f1709" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DFMobile::_right_back</definition>
+        <argsstring></argsstring>
+        <name>_right_back</name>
+        <qualifiedname>DFMobile::_right_back</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="15" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1a7681334495b113c2db1ddadf8a6e0892" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t DFMobile::_left_en</definition>
+        <argsstring></argsstring>
+        <name>_left_en</name>
+        <qualifiedname>DFMobile::_left_en</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="17" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1aead449781e56156f5a2258043f09e130" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t DFMobile::_left_pwm</definition>
+        <argsstring></argsstring>
+        <name>_left_pwm</name>
+        <qualifiedname>DFMobile::_left_pwm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="18" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1a683ead58eb131abedceeb733e0c2a420" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t DFMobile::_right_en</definition>
+        <argsstring></argsstring>
+        <name>_right_en</name>
+        <qualifiedname>DFMobile::_right_en</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="19" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_f_mobile_1a8d0cbefe1af8f9cc777e21c82bf21851" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t DFMobile::_right_pwm</definition>
+        <argsstring></argsstring>
+        <name>_right_pwm</name>
+        <qualifiedname>DFMobile::_right_pwm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="20" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DFMobile::DFMobile</definition>
+        <argsstring>(uint8_t left_en, uint8_t left_pwm, uint8_t right_en, uint8_t right_pwm)</argsstring>
+        <name>DFMobile</name>
+        <qualifiedname>DFMobile::DFMobile</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>left_en</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>left_pwm</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>right_en</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>right_pwm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>@file DFRobotCar.cpp
+</verbatim> Romeo library of car Speed Copyright (C) 2015 DFRobot </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="23" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="16" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_f_mobile_1a6e388592ea1b4152e5bbf749c1b1455e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DFMobile::Direction</definition>
+        <argsstring>(bool left, bool right)</argsstring>
+        <name>Direction</name>
+        <qualifiedname>DFMobile::Direction</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="25" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_f_mobile_1a259683a49d6e7d21fc5295bb0fad2d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DFMobile::Speed</definition>
+        <argsstring>(int16_t left, int16_t right)</argsstring>
+        <name>Speed</name>
+        <qualifiedname>DFMobile::Speed</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="27" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="46" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DFMobile::DFMobile</definition>
+        <argsstring>(uint8_t left_en, uint8_t left_pwm, uint8_t right_en, uint8_t right_pwm)</argsstring>
+        <name>DFMobile</name>
+        <qualifiedname>DFMobile::DFMobile</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>left_en</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>left_pwm</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>right_en</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>right_pwm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="23" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_f_mobile_1a6e388592ea1b4152e5bbf749c1b1455e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DFMobile::Direction</definition>
+        <argsstring>(bool left, bool right)</argsstring>
+        <name>Direction</name>
+        <qualifiedname>DFMobile::Direction</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="25" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_f_mobile_1a259683a49d6e7d21fc5295bb0fad2d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DFMobile::Speed</definition>
+        <argsstring>(int16_t left, int16_t right)</argsstring>
+        <name>Speed</name>
+        <qualifiedname>DFMobile::Speed</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="27" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@file    DFMobile.h
+</verbatim> heading library file of Romeo <ref refid="class_d_f_mobile" kindref="compound">DFMobile</ref> Speed Copyright (C) 2015 DFRobot </para>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="10" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_d_f_mobile_1a1af1831edd264e06ad8aef09c376c8ed" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_left_advance</name></member>
+      <member refid="class_d_f_mobile_1af17d9ecf59747f28123c664780d7ff92" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_left_back</name></member>
+      <member refid="class_d_f_mobile_1a7681334495b113c2db1ddadf8a6e0892" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_left_en</name></member>
+      <member refid="class_d_f_mobile_1aead449781e56156f5a2258043f09e130" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_left_pwm</name></member>
+      <member refid="class_d_f_mobile_1ac28709f4dd65009063050700d47b78e2" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_right_advance</name></member>
+      <member refid="class_d_f_mobile_1a49e744c1a9578ba85d04c225527f1709" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_right_back</name></member>
+      <member refid="class_d_f_mobile_1a683ead58eb131abedceeb733e0c2a420" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_right_en</name></member>
+      <member refid="class_d_f_mobile_1a8d0cbefe1af8f9cc777e21c82bf21851" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_right_pwm</name></member>
+      <member refid="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" prot="public" virt="non-virtual"><scope>DFMobile</scope><name>DFMobile</name></member>
+      <member refid="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" prot="public" virt="non-virtual"><scope>DFMobile</scope><name>DFMobile</name></member>
+      <member refid="class_d_f_mobile_1a6e388592ea1b4152e5bbf749c1b1455e" prot="public" virt="non-virtual"><scope>DFMobile</scope><name>Direction</name></member>
+      <member refid="class_d_f_mobile_1a6e388592ea1b4152e5bbf749c1b1455e" prot="public" virt="non-virtual"><scope>DFMobile</scope><name>Direction</name></member>
+      <member refid="class_d_f_mobile_1a259683a49d6e7d21fc5295bb0fad2d29" prot="public" virt="non-virtual"><scope>DFMobile</scope><name>Speed</name></member>
+      <member refid="class_d_f_mobile_1a259683a49d6e7d21fc5295bb0fad2d29" prot="public" virt="non-virtual"><scope>DFMobile</scope><name>Speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a609e5dd017321dcf8cfe83525920a42" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Strings/Adapters</compoundname>
+    <innerfile refid="_flash_string_8hpp">FlashString.hpp</innerfile>
+    <innerfile refid="_adapters_2_json_string_8hpp">JsonString.hpp</innerfile>
+    <innerfile refid="_ram_string_8hpp">RamString.hpp</innerfile>
+    <innerfile refid="_string_object_8hpp">StringObject.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/"/>
+  </compounddef>
+</doxygen>

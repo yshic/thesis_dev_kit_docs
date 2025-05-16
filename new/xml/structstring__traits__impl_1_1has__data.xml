@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structstring__traits__impl_1_1has__data" kind="struct" language="C++" prot="public">
+    <compoundname>string_traits_impl::has_data</compoundname>
+    <basecompoundref refid="structintegral__constant" prot="public" virt="non-virtual">integral_constant&lt; bool, false &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+      <param>
+        <type>class</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>false_type</label>
+        <link refid="structintegral__constant"/>
+      </node>
+      <node id="1">
+        <label>string_traits_impl::has_data&lt; T, class &gt;</label>
+        <link refid="structstring__traits__impl_1_1has__data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>false_type</label>
+        <link refid="structintegral__constant"/>
+      </node>
+      <node id="1">
+        <label>string_traits_impl::has_data&lt; T, class &gt;</label>
+        <link refid="structstring__traits__impl_1_1has__data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="33" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="33" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>string_traits_impl::has_data</scope><name>value</name></member>
+      <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>string_traits_impl::has_data</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

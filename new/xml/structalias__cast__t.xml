@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structalias__cast__t" kind="struct" language="C++" prot="public">
+    <compoundname>alias_cast_t</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structalias__cast__t_1a88897f6c77d618d389126d868e292089" prot="public" static="no" mutable="no">
+        <type>F</type>
+        <definition>F alias_cast_t&lt; T, F &gt;::raw</definition>
+        <argsstring></argsstring>
+        <name>raw</name>
+        <qualifiedname>alias_cast_t::raw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" line="18" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structalias__cast__t_1a47c250cc46d55cc16d7bf24d519d7a0f" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T alias_cast_t&lt; T, F &gt;::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>alias_cast_t::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" line="19" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structalias__cast__t_1a675a041d8aa815af70795f50d1685cb9" prot="public" static="no" mutable="no">
+        <type>union <ref refid="structalias__cast__t" kindref="compound">alias_cast_t</ref></type>
+        <definition>union alias_cast_t alias_cast_t&lt; T, F &gt;</definition>
+        <argsstring></argsstring>
+        <name></name>
+        <qualifiedname>alias_cast_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" line="20" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" line="16" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp" bodystart="16" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structalias__cast__t_1a47c250cc46d55cc16d7bf24d519d7a0f" prot="public" virt="non-virtual"><scope>alias_cast_t</scope><name>data</name></member>
+      <member refid="structalias__cast__t_1a88897f6c77d618d389126d868e292089" prot="public" virt="non-virtual"><scope>alias_cast_t</scope><name>raw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

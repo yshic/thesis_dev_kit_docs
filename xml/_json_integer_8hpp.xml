@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_json_integer_8hpp" kind="file" language="C++">
+    <compoundname>JsonInteger.hpp</compoundname>
+    <includes refid="_configuration_8hpp" local="no">ArduinoJson/Configuration.hpp</includes>
+    <includes refid="_namespace_8hpp" local="no">ArduinoJson/Namespace.hpp</includes>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="_text_formatter_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</includedby>
+    <includedby refid="arithmetic_compare_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Numbers/arithmeticCompare.hpp</includedby>
+    <includedby refid="_variant_content_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp</includedby>
+    <includedby refid="_visitor_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>ArduinoJson/Configuration.hpp</label>
+        <link refid="_configuration_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>ArduinoJson/Namespace.hpp</label>
+        <link refid="_namespace_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp</label>
+        <link refid="_json_integer_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ArduinoJson/Polyfills/preprocessor.hpp</label>
+        <link refid="preprocessor_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>ArduinoJson/version.hpp</label>
+        <link refid="version_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <link refid="_arduino_json_8hpp_source"/>
+      </node>
+      <node id="32">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
+        <link refid="_element_proxy_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <link refid="_json_array_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
+        <link refid="_json_array_const_8hpp_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <link refid="_json_array_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
+        <link refid="_json_array_iterator_8hpp_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
+        <link refid="_utilities_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
+        <link refid="_collection_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
+        <link refid="_reader_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
+        <link refid="_variant_reader_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <link refid="deserialize_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <link refid="_basic_json_document_8hpp_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <link refid="_dynamic_json_document_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
+        <link refid="_json_document_8hpp_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
+        <link refid="_static_json_document_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <link refid="_json_deserializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <link refid="_json_serializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <link refid="_pretty_json_serializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</label>
+        <link refid="_text_formatter_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp</label>
+        <link refid="_memory_pool_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <link refid="_msg_pack_deserializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <link refid="_msg_pack_serializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp</label>
+        <link refid="_json_integer_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/arithmeticCompare.hpp</label>
+        <link refid="arithmetic_compare_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
+        <link refid="parse_number_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
+        <link refid="_json_object_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
+        <link refid="_json_object_const_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
+        <link refid="_json_object_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
+        <link refid="_json_object_iterator_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
+        <link refid="_json_pair_8hpp_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
+        <link refid="_member_proxy_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
+        <link refid="measure_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
+        <link refid="serialize_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp</label>
+        <link refid="_string_copier_8hpp_source"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</label>
+        <link refid="_string_storage_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <link refid="_converter_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
+        <link refid="_json_variant_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
+        <link refid="_json_variant_const_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp</label>
+        <link refid="_slot_functions_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
+        <link refid="_variant_attorney_8hpp_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</label>
+        <link refid="_variant_compare_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp</label>
+        <link refid="_variant_content_8hpp_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</label>
+        <link refid="_variant_data_8hpp_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
+        <link refid="_variant_functions_8hpp_source"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <link refid="_variant_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp</label>
+        <link refid="_variant_operators_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
+        <link refid="_variant_ref_base_8hpp_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantSlot.hpp</label>
+        <link refid="_variant_slot_8hpp_source"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp</label>
+        <link refid="_visitor_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_json_integer_8hpp_1a1fbbaa2c13a397ef07dc6b0d6325b744" prot="public" static="no">
+        <name>ARDUINOJSON_ASSERT_INTEGER_TYPE_IS_SUPPORTED</name>
+        <param><defname>T</defname></param>
+        <initializer>  static_assert(sizeof(T) &lt;= sizeof(ArduinoJson::JsonInteger),           \
+                &quot;To use 64-bit integers with ArduinoJson, you must set &quot; \
+                &quot;ARDUINOJSON_USE_LONG_LONG to 1. See &quot;                   \
+                &quot;https://arduinojson.org/v6/api/config/use_long_long/&quot;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp" line="24" column="9" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_json_integer_8hpp_1a1c9077eb1eae40901aa4c6d4cbd9970d" prot="public" static="no" mutable="no">
+        <type>ARDUINOJSON_BEGIN_PUBLIC_NAMESPACE typedef long</type>
+        <definition>ARDUINOJSON_BEGIN_PUBLIC_NAMESPACE typedef long JsonInteger</definition>
+        <argsstring></argsstring>
+        <name>JsonInteger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp" line="18" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_json_integer_8hpp_1a2fd94bd0f24431d73201999fbd7df354" prot="public" static="no">
+        <type>unsigned long</type>
+        <definition>typedef unsigned long JsonUInt</definition>
+        <argsstring></argsstring>
+        <name>JsonUInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp" line="19" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>ArduinoJson<sp/>-<sp/>https://arduinojson.org</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>©<sp/>2014-2023,<sp/>Benoit<sp/>BLANCHON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Configuration.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Namespace.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>int64_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">ARDUINOJSON_BEGIN_PUBLIC_NAMESPACE</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ARDUINOJSON_USE_LONG_LONG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int64_t<sp/>JsonInteger;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint64_t<sp/>JsonUInt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>JsonInteger;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>JsonUInt;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARDUINOJSON_ASSERT_INTEGER_TYPE_IS_SUPPORTED(T)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/>static_assert(sizeof(T)<sp/>&lt;=<sp/>sizeof(ArduinoJson::JsonInteger),<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;To<sp/>use<sp/>64-bit<sp/>integers<sp/>with<sp/>ArduinoJson,<sp/>you<sp/>must<sp/>set<sp/>&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;ARDUINOJSON_USE_LONG_LONG<sp/>to<sp/>1.<sp/>See<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;https://arduinojson.org/v6/api/config/use_long_long/&quot;);</highlight></codeline>
+    </programlisting>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="Protocol_t" name="Protocol_t">
+<area shape="rect" id="node1" title=" " alt="" coords="384,81,464,108"/>
+<area shape="rect" id="node2" href="$struct_protocol_custom_name_header__t.html" title=" " alt="" coords="7,5,210,32"/>
+<area shape="rect" id="node3" href="$struct_protocol_received_knowledges__t.html" title=" " alt="" coords="5,56,212,83"/>
+<area shape="rect" id="node4" href="$struct_protocol_custom_text__t.html" title=" " alt="" coords="33,107,184,133"/>
+<area shape="rect" id="node5" href="$struct_protocol_firmware_version__t.html" title=" " alt="" coords="20,157,197,184"/>
+</map>

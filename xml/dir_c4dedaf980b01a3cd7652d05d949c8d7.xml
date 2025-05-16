@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_c4dedaf980b01a3cd7652d05d949c8d7" kind="dir">
+    <compoundname>lib/ArduinoJson</compoundname>
+    <innerdir refid="dir_ef373e993157965aa769903d9db0e322">lib/ArduinoJson/src</innerdir>
+    <innerfile refid="_arduino_json_8h">ArduinoJson.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/"/>
+  </compounddef>
+</doxygen>

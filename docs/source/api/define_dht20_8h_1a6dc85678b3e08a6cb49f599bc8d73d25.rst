@@ -1,0 +1,14 @@
+.. _exhale_define_dht20_8h_1a6dc85678b3e08a6cb49f599bc8d73d25:
+
+Define DHT20_TEMPERATURE_INDEX
+==============================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_dht20_src_dht20.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: DHT20_TEMPERATURE_INDEX
+   :project: thesis_dev_kit_docs

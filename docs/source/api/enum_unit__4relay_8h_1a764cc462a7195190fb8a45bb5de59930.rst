@@ -1,0 +1,14 @@
+.. _exhale_enum_unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930:
+
+Enum unit_4relay_error_t
+========================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_unit_4relay_src_unit_4relay.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: unit_4relay_error_t
+   :project: thesis_dev_kit_docs

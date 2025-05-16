@@ -1,0 +1,4135 @@
+
+Full API
+--------
+
+Namespaces
+**********
+
+
+.. toctree::
+   :maxdepth: 5
+
+   namespace_DeserializationOption.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   namespace_detail.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   namespace_string_traits_impl.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   namespace_StringStoragePolicy.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   namespace_Utf16.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   namespace_Utf8.rst
+
+Classes and Structs
+*******************
+
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_add_padding.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structalias__cast__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_array_comparer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_b_m_p280_1_1config.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_b_m_p280_1_1ctrl__meas.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structbmp280__calib__data.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_bounded_reader.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_bounded_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_bounded_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_9b7dc667778463d5ab18e09c707348b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structchoose__largest.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_comparer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_comparer_3_01decltype_07nullptr_08_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__convertible_3_01_t_00_01_arduino_json_576417456680cf57a91cfe6f778cfea8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_comparer_base.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structconditional.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structconditional_3_01false_00_01_true_type_00_01_false_type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01bool_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01const_01char_01_5_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01decltype_07nullptr_08_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_array_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_array_const_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_object_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_object_const_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_string_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_variant_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_json_variant_const_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_serialized_value_3_01_t_01_4_00_01typename_01detail_1_1enable__if_3_9detai54869f88718113a80308efe9c1ce6926.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_converter_needs_writeable_ref.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_default_allocator.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_deserialization_options.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structdetail_1_1_allow_all_filter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structdetail_1_1_converter_needs_writeable_ref.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structenable__if.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structenable__if_3_01true_00_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structfirst__or__void.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structfirst__or__void_3_01_t_00_01_rest_8_8_8_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_float_parts.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_float_traits.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_float_traits_3_01_t_00_014_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_float_traits_3_01_t_00_018_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structhttp__parser__url.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_h_u_s_k_y_l_e_n_s_arrow_direct_info__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_h_u_s_k_y_l_e_n_s_arrow_info__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_h_u_s_k_y_l_e_n_s_block_direct_info__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_h_u_s_k_y_l_e_n_s_block_info__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structint__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structint__t_3_0116_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structint__t_3_0132_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structint__t_3_018_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structintegral__constant.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__array.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__array_3_01_t_0f_0e_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__array_3_01_t_0f_n_0e_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__class.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__const.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__const_3_01const_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__convertible.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__enum.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__floating__point.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__integral.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__pointer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__pointer_3_01_t_01_5_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__same.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__same_3_01_t_00_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__signed.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__std__string.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__std__string_3_01_t_00_01void__t_3_01decltype_07_t_07_08_8push__back_07_01_0ja_0j_08_0858d28b4bbc134e4a574ccf31692d05b9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structis__unsigned.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_is_char.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_is_char_or_void.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_is_char_or_void_3_01const_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_is_string.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_is_string_3_01_t_00_01typename_01make__void_3_01typename_01_string_adapter_3_01_t_01_4_1_65297904f2a75011764222d2f136df7d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_is_variant.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01char_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01signed_01char_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01signed_01int_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01signed_01long_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01signed_01long_01long_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01signed_01short_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01unsigned_01char_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01unsigned_01int_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01unsigned_01long_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01unsigned_01long_01long_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__unsigned_3_01unsigned_01short_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structmake__void.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_max.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_max_3_01_x_00_01_y_00_01false_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_max_3_01_x_00_01_y_00_01true_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_null_comparer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structnumeric__limits.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structnumeric__limits_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_018d3e9eb81f15bd2efe9154d90c4d7058.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structnumeric__limits_3_01_t_00_01typename_01enable__if_3_01is__unsigned_3_01_t_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_object_comparer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_output_state.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structpgm__p.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_protocol__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_protocol_custom_name_header__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_protocol_custom_text__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_protocol_firmware_version__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_protocol_received_knowledges__t.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_raw_comparer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_raw_data.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_source_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01_stream_00_01_t_sour9f3d5ae0961435f61359866e47353987.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01_t_source_00_01typename_01void___3_01typename_01_t_source_1_1const__iterator_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__const.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__const_3_01const_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__cv.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__cv_3_01const_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__cv_3_01const_01volatile_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__cv_3_01volatile_01_t_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__reference.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structremove__reference_3_01_t_01_6_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_sized_string_adapter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_sized_string_adapter_3_01const_01_____flash_string_helper_01_5_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_sized_string_adapter_3_01_t_char_01_5_00_01typename_01enable__if_3_01_is_char_3_01_t_char1a0599bc90a3c386cac7bee9eed2eb62.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_slot_key_setter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__cstr.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__cstr_3_01_t_00_01typename_01enable__if_3_01is__same_3_01declt236b6fe71a77ce5b095881c43205761a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__data.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__data_3_01_t_00_01typename_01enable__if_3_01is__same_3_01decltd3999b87fd3300a950158078bd5e2cff.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__length.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__length_3_01_t_00_01typename_01enable__if_3_01is__same_3_01deca935f9aeb6e4809fe2a3087a502c5dee.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__size.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structstring__traits__impl_1_1has__size_3_01_t_00_01typename_01enable__if_3_01is__same_3_01decltef0f2995c142201702069b7a64004a78.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter_3_01const_01_____flash_string_helper_01_5_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter_3_01const_01char_01_5_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter_3_01_json_string_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter_3_01_t_char_01_5_00_01typename_01enable__if_3_01_is_char_3_01_t_char_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_adapter_3_01_t_char_0f_n_0e_00_01typename_01enable__if_3_01_is_char_3_01_t_char_01_4_1_1value_01_4_1_1type_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_storage_policy_1_1_copy.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_storage_policy_1_1_link.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_string_storage_policy_1_1_link_or_copy.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structtype__identity.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_attorney_1_1_result_of_get_data.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_comparer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_data_1_1_variant_string_setter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_operators.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_operator_tag.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_tag.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_to.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_to_3_01_json_array_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_to_3_01_json_object_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_variant_to_3_01_json_variant_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   struct_visitor.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   structvoid__.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_ac_measure.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_allocator_owner.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_basic_json_document.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_b_m_p280.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_bsp_pwm.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_bsp_rs485.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_bsp_uart.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_button_handler.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_collection_data.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_counting_decorator.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_deserialization_error.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_deserialization_option_1_1_filter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_deserialization_option_1_1_nesting_limit.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_d_f_mobile.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_d_f_robot___husky_lens.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_d_h_t20.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_dummy_writer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_element_proxy.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_escape_sequence.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_es_soil7n1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_flash_string.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_http_client.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_h_u_s_k_y_l_e_n_s.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_h_u_s_k_y_l_e_n_s_mind_plus.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_invalid_conversion.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   classis__base__of.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_iterator_reader.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_array.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_array_const.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_array_const_iterator.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_array_iterator.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_deserializer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_document.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_object.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_object_const.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_object_const_iterator.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_object_iterator.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_pair.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_pair_const.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_pair_const_ptr.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_pair_ptr.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_serializer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_string.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_string_adapter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_variant.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_json_variant_const.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_latch.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_l_c_d___i2_c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_light_sensor.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_member_proxy.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_memory_pool.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_mini_fan.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_msg_pack_deserializer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_msg_pack_serializer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   classpgm__ptr.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_p_i_d_loop.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_p_i_r_sensor.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_pretty_json_serializer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_pub_sub_client.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_relay.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_serialized_value.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_serialized_value_3_01_t_char_01_5_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_s_h_t3_x.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_s_h_t4_x.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_sized_ram_string.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_soil_moisture.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_static_json_document.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_static_string_adapter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_static_string_writer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_string_copier.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_string_mover.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_text_formatter.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_ultrasonic.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_unit4_relay.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_u_r_l_encoder_class.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_usb_switch.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_utf16_1_1_codepoint.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_variant_attorney.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_variant_const_ptr.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_variant_data.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_variant_ptr.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_variant_ref_base.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_variant_slot.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_web_socket_client.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_writer.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_1_1_print_00_01_t_17918fbe08742d8a3e7677fb9fd13199.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_writer_3_1_1_string_00_01void_01_4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   class_zero_terminated_ram_string.rst
+
+Enums
+*****
+
+
+.. toctree::
+   :maxdepth: 5
+
+   enum__variant_content_8hpp_1a1fc606cf78ea0cbd8f397e7481748daf.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bmp280_8h_1ae1e49263ba10debd5176a4e2078b031e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_ac__measure_8h_1a75a12622a3394e35f043c54d03934203.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bmp280_8h_1a591c10d85466fc2af5058a2af914635e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bmp280_8h_1a078433df125db1cdc92e431b12af6782.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feb.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_bsp__uart_8h_1a9e17496424ed5e391fe2ff5670312e64.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_button_8h_1a24c06c718d50035c6c77794e475356a7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_arithmetic_compare_8hpp_1af701370a338671ae24da9926dd39487d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_dht20_8h_1a481cf5b28fd24618eb1540dffe5cfaa2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_es__soil__7n1_8h_1addbd7d66c774382343e136c531d28f14.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4eb.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum__d_f_robot___husky_lens_8h_1a14e15ac32d28e5f47d23c145ed9de0fe.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum__h_u_s_k_y_l_e_n_s_mind_plus_8h_1a14e15ac32d28e5f47d23c145ed9de0fe.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum__l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_light__sensor_8h_1a9a15d8bb6fc4d43728ace3823ad4d24b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum__h_u_s_k_y_l_e_n_s_8h_1a95ce0f22cd36da42ad337d90e4ffbc94.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum__h_u_s_k_y_l_e_n_s_8h_1ae6c53fbb1ee3ef882a31aeb89fa94f22.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_sht3x_8h_1a1072385b2a343fc1f387021f086ad6ec.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_sht4x_8h_1a302ae532119b7258d4291db14490ab90.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_ultrasonic_8h_1a2da24020278294e2b407cc96ceda4d6b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   enum_unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930.rst
+
+Unions
+******
+
+
+.. toctree::
+   :maxdepth: 5
+
+   union_variant_content.rst
+
+Functions
+*********
+
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapter_8hpp_1a54f9f7a7ad6aa5b37736a1573ac5fe1b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapter_8hpp_1ae48cd2947faaf3e7e1a08b7a8c1b9118.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapter_8hpp_1a9f8dc37d92414626d6d1c15a643c72ac.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__alignment_8hpp_1ae8b142cc9c15a1ac6d2bc80db4a5b74d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__alignment_8hpp_1adf8776668531f6c4ea1e9483400683a7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_alias__cast_8hpp_1aef49625146582576476ac5f1f0dcbac0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1ad6bb59f65f52c4fba0873351f7c41be1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1a871ecec1c69fa2622d1b28417fae47c3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1a2aed44ea973d669c669cef8c46d0d887.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1aaf51277299a80c30c09cf028acefcc45.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1a104ecedbb09cc2081590c5b7b33bce89.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1a129e0cc75c01fa851844b56d98d165d5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1a0070687a42b93f0e3a834a1a6debc819.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1a90aa357eed5dfebd74ef2bed2277261b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1abe494ae2c4b8e0195debe164dd25c70a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_arithmetic_compare_8hpp_1ad79de333bcd557f93a47851c19a1901e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_b64_8cpp_1a3fb97d3b3150f9399551f3403ae4d219.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_b64_8h_1a3fb97d3b3150f9399551f3403ae4d219.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a34347317f123b2222eb416e5e5c56091.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1aa6be43410ae12aa3bbb746fb562352cd.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1aa6be43410ae12aa3bbb746fb562352cd.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a9b2f7d9d0077df86b5fbd73942bcaffc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a473ea43016c7438bcf6c54ae0953b44b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a473ea43016c7438bcf6c54ae0953b44b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a78c1d8d8fa1cad00fd20e9973e8b9d1a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a8c56622b894fbc2433dadc6fb4a95b97.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a859d94545c79f456b2914ae7f5a39b70.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a859d94545c79f456b2914ae7f5a39b70.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a566a8a135b7fc73ec916f8757d7018b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1ae34c54e5d546069251711d34013ad77c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a731555025d3fbbb56328f1be7c9c0d77.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a13956440c507dceed7197d935672b66d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1adc9a22797ea3eacf3756a635db48d91a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1aaa4e5b753eb7721876bae26166b45e81.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1aaa4e5b753eb7721876bae26166b45e81.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a8ab3bbd2afa6df50db6e4affc45d2577.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a8ab3bbd2afa6df50db6e4affc45d2577.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8cpp_1a6b231e4d7b1dd20157b0885b022f9dff.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__gpio_8h_1a6b231e4d7b1dd20157b0885b022f9dff.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1af58fb882ae51cda816e6bd72ea107575.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1af58fb882ae51cda816e6bd72ea107575.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a4b4d163033723fee1c983f99bd8d2861.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1ab434829a1761a2b03362658218b03da1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a4b4d163033723fee1c983f99bd8d2861.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1ab434829a1761a2b03362658218b03da1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1ae83e63b33815dd89044a69afe454d55e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a3da6eebd848529a33b69e3d73ee0e523.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1acdc186021d6567a22584adb9373329ed.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1ae83e63b33815dd89044a69afe454d55e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a3da6eebd848529a33b69e3d73ee0e523.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1acdc186021d6567a22584adb9373329ed.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a1c2c4c03d89b44dcd7a6112d83310640.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a4c0219faaa13d68f206b2e43db544705.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a1c2c4c03d89b44dcd7a6112d83310640.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a4c0219faaa13d68f206b2e43db544705.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1acc6322b83a6e34f4b9d486caaf87308c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1aa683c4156ea03ac0836a009229affe54.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1aa683c4156ea03ac0836a009229affe54.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1ac0bbc36506d28cdb0a2ec20a6393a784.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1ac0bbc36506d28cdb0a2ec20a6393a784.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a6c0e7a766512688b491b975c8235d5a6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a6c0e7a766512688b491b975c8235d5a6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a408cb7690a6aec304eb774ba016922f0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a7cd81829f88f85d45cff03b0fe91c83a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a408cb7690a6aec304eb774ba016922f0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1aa53bbb56cc38bd91b8d31efaa1824ae4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a78cbdf9442b29147d38e4e23eaa0013e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1aa53bbb56cc38bd91b8d31efaa1824ae4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1ae526d36f61bf096d8a1f6d6d820dad05.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1ac981b7ec4869fba98f27f4e6e0089c80.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a15cad080c8941c0c2a201483033b4de1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a52192456261cbe85b591f5616dec26f9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a8671b871daa1044684a9124f3fdd314c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1af4e60536c9759774640210e4ff2d4b5b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a2a5eb297cb36bc3a98c6a3c80a12780e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a5498bcfd5d6a49b40d30aae3e1b89b42.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1afbcc1741fc6e22aa25f3d5ec36fb2228.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1ae526d36f61bf096d8a1f6d6d820dad05.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1ac981b7ec4869fba98f27f4e6e0089c80.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a15cad080c8941c0c2a201483033b4de1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a52192456261cbe85b591f5616dec26f9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a8671b871daa1044684a9124f3fdd314c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1af4e60536c9759774640210e4ff2d4b5b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a2a5eb297cb36bc3a98c6a3c80a12780e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a5498bcfd5d6a49b40d30aae3e1b89b42.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1afbcc1741fc6e22aa25f3d5ec36fb2228.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1aee0096731ce62e0b4c7a95f57f880e35.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a4a420687f639f66ad8ada18efa391226.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1aee0096731ce62e0b4c7a95f57f880e35.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a4a420687f639f66ad8ada18efa391226.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a14000fc85c5999b783fcf2f826f27f78.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_bsp__i2c_8h_1a6fa08d56ba5abcaf8827af4c3164f5b7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_convert_number_8hpp_1ac6ca1772948a810c27667798296b8d72.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__collection_data_8hpp_1a24c1297459bc8a18631e2d737afe3214.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__collection_data_8hpp_1a47cd24aa0f779b8f57d3c4f9c1db70c7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_compare_8hpp_1a5273721e2f842941186f00414a628bca.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_operators_8hpp_1a9cb4eac648a7a0971a8fcb76a7150b90.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8cpp_1ae035ab017746978f2bc4555ec5c8b86d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8h_1ae035ab017746978f2bc4555ec5c8b86d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__json_document_8hpp_1a7cba9124aaf47b760f5e95882b6b1756.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__converter_impl_8hpp_1aa6b7539f40bb3350854584c5996a4a96.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_impl_8hpp_1a9097267440680f6045b2a0c426877b1e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a5ee2064b6d9d8d89aad1197635a8e913.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1aa216e080bc44a4c3716dd12c781add35.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1aa2427365542c3d80ef5d2bd8993bb4b6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a162e0da68b006d12464c2f312cf6480b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1af7d4dabcea243dd98b5c6fd9472b6352.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a3c45b9b84f4dd7d0dc13ada91462c395.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a5887e0c8ca0fe91943b4d10e0c667a3a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a220d072ae807f3a08cc406930481509f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1aab5adb7747813e2beedc8403c59d4abc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a9ecd13e963015ce146455e5e3b5ba6d2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utilities_8hpp_1a4f98c37f17caf45b7444cb1fcb74bf1e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8cpp_1a732bb003220387dc7af9c2751c1b2465.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8h_1a732bb003220387dc7af9c2751c1b2465.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_declval_8hpp_1a077e042eff0abc601b403113bca09807.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_deserialize_8hpp_1aa25e8d9f8b45dde53d6b8009fc2774ee.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_deserialize_8hpp_1ad0744ea28a786a0bc281ef9e5fd95bb9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__json_deserializer_8hpp_1aea0b37b1a0abcdc9c50c8984820b1b59.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__json_deserializer_8hpp_1ad718f430249a7bb8ef6dde886bb61605.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__msg_pack_deserializer_8hpp_1a0d72a4095a40340299a78711ffd7416d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__msg_pack_deserializer_8hpp_1a17123c057989f56951525658e59e1f50.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_serialize_8hpp_1a018d603fbe3241e4752798744b714913.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_ieee754_8hpp_1add8b9e9325d9b3cb593b70ee20d24e9a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_endianess_8hpp_1ae8b8f9ebda3251070b4b1400be36f5ce.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8hpp_1a2653cf281b2616028036cdd0e74cd401.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_http__parser_8h_1a9ae94633de6c9d9c2aea34810107bbd5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_http__parser_8h_1a64e907d36fbcc883033c6bbe5a78b1b3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_http__parser_8h_1a2559b4d373c7f0d85c77a2a3c308a5ee.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1ab114ee4ba98f77ed17a19d69de7f25c2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1ab114ee4ba98f77ed17a19d69de7f25c2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a73507c062b731375ecf9f8a8ce683b29.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a73507c062b731375ecf9f8a8ce683b29.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1af86bdd2343a54ff54d50e6b708022f89.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1af86bdd2343a54ff54d50e6b708022f89.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a4904dc626dd964b4c227021e8ef263b1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a4904dc626dd964b4c227021e8ef263b1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a3cfb630f08005c929b677b998633d6b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a3cfb630f08005c929b677b998633d6b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a64a67795748cae247905ccc85ce6cb00.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a64a67795748cae247905ccc85ce6cb00.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a9b16cdf4814f3f8519ee9dd4f947c433.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a9b16cdf4814f3f8519ee9dd4f947c433.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a0ebbf9e36a6106522f8b9930c8d1a543.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a0ebbf9e36a6106522f8b9930c8d1a543.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1ae4735c30c524a6896e652821f57f6f97.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1ae4735c30c524a6896e652821f57f6f97.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1ad2343af21d33c7406560a7747e8a8b9a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1ad2343af21d33c7406560a7747e8a8b9a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1afd53363acf69634029a8cddae25faae6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1afd53363acf69634029a8cddae25faae6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1aaa3148f39ed4d451fcd9d3cfb2b5f80e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1aaa3148f39ed4d451fcd9d3cfb2b5f80e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1ac226d5d0c1bd4293aa9d5eb5df8a9826.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1ac226d5d0c1bd4293aa9d5eb5df8a9826.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a154f453fe823fefac3de096d3df17a1a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8h_1a154f453fe823fefac3de096d3df17a1a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__alignment_8hpp_1a76f47619f423eca0d827858244fd6c36.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__alignment_8hpp_1a457c074b39a43e2578725220bef45322.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_ctype_8hpp_1a90f6c3aaa38fb673b3763c24e5a8c360.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_math_8hpp_1a5a80c2c417e4e4cffc015682947d26c1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_math_8hpp_1a70355ffda08d5af3f0b304086e7dee77.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_ctype_8hpp_1a76401c6d7bdd407fc8899da37664b253.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_dht20__simple__read_8cpp_1afe461d27b9c48d5921c00d521181f12f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__float_traits_8hpp_1ad45559eb050c5b4da2df0d6752ae0ec5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__deserialization_options_8hpp_1a06be33d744040a730fd7f5e9408fade4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__deserialization_options_8hpp_1a9fa468782c2115faeaf45f568a112ac3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__deserialization_options_8hpp_1a59907b93cc0c56e4070d95798f1053d7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_deserialize_8hpp_1a60627a29df639a2eb8e08b39ffd8a9c4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__reader_8hpp_1a91315f2414120611c8c2455fdc8eb205.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__reader_8hpp_1a66b03cae2e213369ff04a3935f93cd1a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_storage_8hpp_1a724cc6b6303903de7618ed057f0c1f45.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_storage_8hpp_1ae7c423bc694359ba19bd876acd029f1c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_measure_8hpp_1aeab831c613d5e38ddf6a9b7c211b0501.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__json_serializer_8hpp_1a50c94add85401cc876b770be8d65eac3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__pretty_json_serializer_8hpp_1a477c26677612e920474bf2224a25b14a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__msg_pack_serializer_8hpp_1a1ebcacdac3fb45d8ce439ee6c60078d7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1a9693a370fcff88a519529efb7daf55c0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1a7c63d03034b9fa1ce876e61a1c5a9330.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__collection_impl_8hpp_1a349ef8155589c541ffd173b799adada8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_parse_number_8hpp_1a6b6036b18f0b485b351d0c1307a2314f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_parse_number_8hpp_1a70e126858d7e77c9a9236633b8948091.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace__generic_8hpp_1a3d7881dbdf28057788e58270cf6135ef.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1a18b8d9b66fc48bdde01c70ae0460431b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1a183cbcd0db3ac04c2fc75a6a2eaf4875.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1aa4eecf580eb188fe244d5ddf55cc6c0a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1a6fc3fde9d1074265beb1f4b85878218a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8cpp_1a2ada518ecc2aaee50304c0c3ecec7370.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_utility_8h_1a8fae21c12475addf28c404a0e1c5eab3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_serialize_8hpp_1a73d746ee1fff918caea55aaaf2de1031.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_serialize_8hpp_1a30603c88d24480c38b4534c164003972.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_serialize_8hpp_1a48c6934bb9a60ec4b1c623974f06ddd5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_serialize_8hpp_1a57b2b38d7693567abd2b2439842d2d84.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__serialized_value_8hpp_1aede11b86ea2b2a91a97784bf44959bad.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__serialized_value_8hpp_1a454afbc8810abae17f51fae31e14af93.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__serialized_value_8hpp_1a55e68ddd64fe16641403f23c89e29e08.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__json_serializer_8hpp_1ade3bc01fe23221fdd49d63d529b558ff.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__json_serializer_8hpp_1a82f703fa01b312c30f87680717283cc8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__pretty_json_serializer_8hpp_1a041f91ad3bf2320d0c6a775812bb806b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__pretty_json_serializer_8hpp_1a5f1efa26317bf9f153cc2facde7c115c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__msg_pack_serializer_8hpp_1a672f9675987a67cfa51949e168a473ed.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__msg_pack_serializer_8hpp_1a47c2e3944f5a1d117dc00d21b5d719e9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_dht20__simple__read_8cpp_1a4fc01d736fe50cf5b977f755b675f11d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__slot_functions_8hpp_1a8aa2ce63aa42e61c2a38fdc7861f91e6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__slot_functions_8hpp_1abe83544a7f306ab285ba9355872418aa.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__slot_functions_8hpp_1a71c28d5a4a05a27781030254c2d20ba7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__memory_pool_8hpp_1a4c9ea6e2b1c5cf88465f28710d1202e6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__memory_pool_8hpp_1ac1e69c717a9a0ff92d069e02bffa05e0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__memory_pool_8hpp_1a94bf60e0b87960fba042619150ff7cf0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__memory_pool_8hpp_1aecd5cb0687375ab978b8ab75676a3194.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1aadd1f653cc06f5b9d4c66487e5fcc5aa.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapters_8hpp_1ac67617b17e187bc669fae92cff0dbe9f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapters_8hpp_1adcf8e4511f069c247c502e642aef6053.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapters_8hpp_1a09d0af07310cf7468ae7008a854c963f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapters_8hpp_1a4528bca4899a4f52d30b4114f5d56aa7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__string_adapters_8hpp_1af7b5600b1f74aa7bbd6e3c5315592a0b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1a27f8c07814c3c5a95caa1a3469fffae7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function_pgmspace_8hpp_1afc32e6ac91d4d18bddc183e80db7eed5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utf16_8hpp_1a03040ff38d00bfb4fe9c622e9baa7c1d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utf16_8hpp_1a2d5b9f8162ba16046baa68690d6217c4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__utf8_8hpp_1ac216635a9cbbd43b4a822d32b87725ba.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__husky_lens_protocol_core_8c_1a7c32c59fbb596b286f80e7c5f0380305.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a59182d09714a6059d5d54d096bd03c40.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1aa160073792cba27062a805809df0b39a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a2981f20d7e0e10e8c806ac77da3f48b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a9a5ed439a76fe91cc7b1bf175ce4b245.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1ad53365546a956cc821cf895435cd32b6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1aa640b8996b9e121ba19d7ab4264fbefa.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1aa27c1b757efeeeb5174a7e6d89229f94.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a523a51eb2e3f4b2c39061cde666ac4f2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1af7612853449626f5fe99ad5447ea61e7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a10f8e70a7d017a9ba1d5d6281480894a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1aeaaf932e12fb742fff5c4c8143eaec0d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1ad82615598c4237019ac17b4de5119c98.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a335c8aed1572900d0b14eb856a994f3f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   function__variant_functions_8hpp_1a0d64765407c460c41655221b313e9df2.rst
+
+Variables
+*********
+
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1aafaa38df81baf5348bfbb0752bc4ce70.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1a09cba39b8887114c6c909b2180603885.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1a33d403fc42184c5402b4417a3cb96351.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_dht20__simple__read_8cpp_1ae349845a181f85b0970f66826d901988.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ad3698efb9e27f4cef0bf379d1d3d9e23.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a1b2079b300b455e8e8d04477ab8356f4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ab28b190841fbbab19ec24f081ce19998.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a6b31e56db8113849fe1a77e029396aec.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ab427a071825c6dd86202fb2351e40bf4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a5b04e8ddbae268d7c5fc1401d73a9e08.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1aee0f0b95cc4b5797a45da19abf2796b5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1af631ff38248d60a7a124e468d77210e4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ad9eb5623ae9fb4797140376f3e45da2c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ab9f938d9a92489ecd8f53a7d00c398e0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ad8cdfb68949711f09bbf6aaec8f9c4ad.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a30f6404b2ee69970bbd16ccc97bd96b3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a49d177497aa16f2c8531fc8ed6621610.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a8d3d813eb2df2f5cd024c9e426984f0f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a2322d284a7270e0b76b8d9a66a8babe6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a6f8afbc7c3de1d8c6aecd2c553ee192c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1ac7c0cb0f96223120d7ae0a04e423109d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a58175b2a7b9a8b5e635ecafd8f488c56.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a98ba02ec75886b5ef007a7cea79135ef.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1aa07ed6047dcc8fc9ccda89fd9022cc15.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__l_c_d___constants_8h_1a640a7ab86f58ee7a248aa50200cd189a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__http_client_8h_1a8267f39bd62a4d6738fa5d8f270b3180.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__http_client_8h_1a8822b1b761a6a311119929e5a56d1eb8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__http_client_8h_1af08ba2ad305ffbe1e4876ab20982eea6.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__http_client_8h_1a122da10549f183f55a00c62543661b8c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__http_client_8h_1a147e75630aeef0b1adb751b21b1b5ee7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__i2c_8cpp_1a6b04a3623bd42c1bf53167b90dcc567e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__json_float_8hpp_1abade631a874deee1f71becfb9b55b806.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__json_integer_8hpp_1a1c9077eb1eae40901aa4c6d4cbd9970d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1a466a25268c5e1f3030f8f44c5312518d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1a07a5b81e340d431f1c9cd8c43f74890f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1a87657f94443badbb292a4aec3dfa91a2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__rs485_8cpp_1a727bde0153d359311776b856e7b478c2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__rs485_8h_1adb6f6827744b7fb828a342e0cd3ee213.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__rs485_8cpp_1ace836c1d242ded49d3e07420cd37514a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__rs485_8h_1aa0695bc0b898a39e03a948d0f5b2b186.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__rs485_8cpp_1a9247439acc9e7be6b0c08a1df4c6324c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__rs485_8h_1a82ca0597e02abd9f6bc429f0b2ce7320.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1aea475bed17d78caae05ddfe14014c51f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1aeded0b0706673ffe946b36d3c0c55070.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__husky_lens_protocol_core_8c_1a2501df72ede807900d72d4554ed2dd00.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__web_socket_client_8h_1adb67993e4e4201a48fab076b9920f0b1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__web_socket_client_8h_1ab78317d82f9bf9e1127fd2c6901f2c26.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__web_socket_client_8h_1a6087b21c91b8b177715419add99e6e0d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__web_socket_client_8h_1af009975b1702e538d31a5f9ed94839c9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__web_socket_client_8h_1ad4324a51c0a40b2ec7382917983b076e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__web_socket_client_8h_1ac91575877026d05c28902eda51e3ec3d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__uart_8cpp_1a5a4567acea94181b988d197a3b68c424.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__uart_8h_1ad7f8572ba9c9e9e38033a5892a7344f8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__uart_8cpp_1a8d11f68a4f916e82bdd19e42ea205bab.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__uart_8h_1a0e0f53e7653e6316a4b5b85c83dc5d2c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__uart_8cpp_1af2df41a6db102ceb950d66c56d05f246.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable_bsp__uart_8h_1aedc82c6f0c34184ea87042b87ebd78ab.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__u_r_l_encoder_8cpp_1ae8c41672cddc661cf5cb8d679cda3f10.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__u_r_l_encoder_8h_1ae8c41672cddc661cf5cb8d679cda3f10.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   variable__variant_slot_8hpp_1a3c61b0737d3b2f83ef9215abded3e7a6.rst
+
+Defines
+*******
+
+
+.. toctree::
+   :maxdepth: 5
+
+   define__d_f_robot___husky_lens_8h_1a3fd59af79c3cf16b77baac3a4a9c0917.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a270001d76399800499bb4b95a009e174.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1abad4a4167a46ee48865f5c033e91a4b2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_assert_8hpp_1a4f652d4e0928800d4032c655d1813d14.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__json_integer_8hpp_1a1fbbaa2c13a397ef07dc6b0d6325b744.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__namespace_8hpp_1a2b6b4d2c540e38165997b9b2e9252764.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__namespace_8hpp_1a96effc5c80afbdf8ef9572443e0349b0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a4b77d44a5ed72128cf7a3ed090bfcf28.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1adfa7fe8488405a81a56bc56013f8aca0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a553e5890378a225ba2f39857c79ac506.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a7feffb28fb5b8a9b9fb70f949c03d1ca.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1acdeaf0be96cc171c9418e800edf96ee9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a0ac398cbf91fd62ba972c911a86007b4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1ad51e3a37a660401cd61fae280b4c9c41.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1abe0c470c4295f8a7d27d1ea8e1c7468c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a7abc6d48f92823d9dd3500ccc6682616.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1acb31183385244e67193a70fb30e33414.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a5c88a9cc0a2c820cfd6390a5271eb62f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a19384e4cc267dbddca1064ae5077478b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a6ff81ea8fd5b720e05cf07baa3ebbc18.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1aa7cc5a4fd2b173a716e8303cb5b04723.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1aef636d96ab94be758756290dbeded8cb.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1ad1bf9284c315275116793ba721cc1c49.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a280c6509bb4894d8759b7254a8fd180a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a8595e0bc4dce408d3258e1f45b1619b5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a9e93c6c727df89f7181810763590e2b8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a392c7adb19beb14f4bbe081faf892567.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_preprocessor_8hpp_1a6a5a7231b6093e582f705e53f2edf703.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a278596ba6dd17b6a1290957220c5560c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a335b842b5c1d56001f7bb14a0da46990.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1adb3f9ff6eeacc0a7093b59f9d38a55fc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_pgmspace__generic_8hpp_1a798683ae842f36ceca35f536e4f3613f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a0ed1784aeccb05af3658377334448e80.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a3cc662620cc0feb39673691e8ef50ede.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1ac26a2848a7b385e044949610607595c9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a8c1d882322eba89f78249dab4d1f8d5f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1add9d43a80ea4935a00b9a4ef61f73efd.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a1aaff361303bcde4f7e51f8cebaafecf.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1adefb3aafff103b7998d4a8702c832427.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a17ff353e6e213cb064a3b71b549a8859.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a9df92f524f78471921cf8a272ed3b492.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1af5b2b6b4e14c101382c65f3ca93f0014.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a2240e7b02431ac60aed131bc91487234.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a21eec5d4b774b6bf12cb2c2ebe156f48.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__namespace_8hpp_1a9374623846cbdb0300fce52cc5c5dc38.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__namespace_8hpp_1ae6a5ae69507932bdaf13d157782784cc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1ae42233f7c7111ac5e5d03edd3311bacc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a636553fb5cbee59c45fa83505936189a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_attributes_8hpp_1ab06b7d24c3c0dc569c3af73313211cb5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a20cc67f526f48dfea65509d544c03dd8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a8ef7f7ef8c5430b5226e58e8ba5dc9da.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a3a969d879116bd8fad00a015ce8b5bb3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a81e50b2d53bbf47873cea77bfb704df3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1a1afec97a40ef4dbe15b949af95a66553.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__configuration_8hpp_1ad04364871efb11788ea94d5f5417072c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_version_8hpp_1a92a886d7b397e33997fc22ff87055479.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_version_8hpp_1a8e45ac0cbb267fcfec111d2418f686ea.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_version_8hpp_1a954719b562f5212b0969eaec8e56cfec.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_version_8hpp_1ac6d5a956ea64ed07e7471bcf92a02fb1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__namespace_8hpp_1a2d6f656a8409391dbeade32c47ce1370.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_version_8hpp_1ad24b5f46afce29303c4653ad84a48a7d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_bmp280_8h_1aa58a90f8c2ec9ac45d8b345f91fdfab1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_bmp280_8h_1a696905a7c50b980e5775da96479dfae3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_bsp__pwm_8h_1a2029fe9e05431e9e1f40d9479f0e7f4d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_bsp__rs485_8h_1ae8787ac282eebb311f1aac7d4ec59238.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_bsp__uart_8h_1aa74f38fda8b4722b6121d89713746c5b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a2b5e3eb7905bdee2cd08a861302fa82e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1a6fd0d303c203c556efe6d1387b8274bf.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1a1c1b11e6ec686bb15dad48292fe01c24.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1a59d6d5ba88924b3c1b75a58aab856099.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1a71cbc2883943c8348463e3e12a7a77b9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1ac21c151711c213a1769bf9450c566c02.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_config_8h_1ad5aeca1a1a793c8ba18f85cbac89e768.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_config_8h_1ac5a2126b0fffc034a25862fa0b3200b2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_dht20_8h_1a744c9731db17ec127be87226f612b0bc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_dht20_8h_1a5187929b30503b11456d6e28873be909.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_dht20_8h_1ab30e82b2d0e7802714fb51e84ddffb81.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_dht20_8h_1a6dc85678b3e08a6cb49f599bc8d73d25.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_es__soil__7n1_8h_1aaf71d89ae2aa8638d2ece3da548ee313.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_attributes_8hpp_1ac032d233a8ebfcd82fd49d0824eefb18.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1a7d23518d759519cde9b955735701ad46.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1a4bf532b24eb9cd828f341a87f7d7337a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1a5191001cf2df5518f208cc78f568aa22.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a40ddf5f8257286d98534081ddc3c0d1f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a46aa73d58026fc6ef40d5cc5b400933f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a9cecb5a44a36a9a305a8c61065fe10dd.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a8996054c0a947fe3e0270ecdc08decc3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a2954b6cc4682aa527f8fa3b3d4ed9a59.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1af1da82a7eeddf06ec779bba81f33592f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a43a9ed9e8f05a4c5ef42641b2202de67.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a91faefe43f8d3577719ba174c8a5ebcd.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a4f08eeaed61e5e1226892047acd92d3e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1a6c5872fb505bc0d37a9de2e2192dc7c9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__http_client_8h_1ac1999442fe79f9c13dc51086c61e8774.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_http__parser_8h_1a7daf883828d97fafe5726998f0e05146.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_http__parser_8h_1abfeef6f3e39791acc311791feda09d27.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_http__parser_8h_1ab8479153443ca4fe95b3de5adb0224de.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_http__parser_8h_1afb999672cce2ebd7f952bd3f28d8f5e5.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s_8h_1a966a54c23c02a14a8dba091d4281d443.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1a8ee9322fb94a2cfa9cdd92acd8764e81.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1a9743c11d3ed0a535709ce0220a53c76c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8h_1aa1835565210c14fb46d24a5f713f2dbd.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__memory_pool_8hpp_1aac02a77c9bffa9a3b305e4fe14a936cf.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__memory_pool_8hpp_1aa5b097409c5737886895b41e898d4729.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__memory_pool_8hpp_1a42c160146b8bd6d11f7a29e7192e0587.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1a98e92be1904c746b953b59fce5a3cd78.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1ad37fe2bd9aeef369ac6cf9d228fb7a98.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a20b35a8e27959a2b227c6d3c80799122.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ae1a1a5ad79f98bad6645c6332c522952.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a3a6c0837ee9a7791d5392829bcf27553.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ad76e7d21b1bda9adb81c7d4b392b1424.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ac80cae63b769440c31b8c294ac5ea191.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ac465229204d105d09ae871df488b94b3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a26d38ea448bc45efbc83c5730b83b171.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1abb5539db14c26155eebe929fa84d1e96.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ad8f5592739ea2c329fe320ffa14731e9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a4c164f322b892ab16d49dafea0073ca3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1adaf86a906a305dd129164982d50111b3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8cpp_1a2a058a9bce477b71e5cc11907f69b716.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1afb4dd8c75385ab30e659314df7c2c335.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a979b4fc18388bc4f25631fbae542db8d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ae09b594688a59f1427c7e45259e039b9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a092cc564e4d7f03fdab6137e30a7f05b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a702197a21870dfd505d92530b27754ac.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1af98dfc7d42750b53391878cc3598a37e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a7c621dd360dd439f0d6d8dc5d951a619.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1aab5f09c2492326e40c0c9be6e30f9ac4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a54e1cbf1e860b7628d9c73add908c564.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a4605328c2c5c52f38b6c289bef505f84.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a41c76538ada72cdb07ec185f01bcd579.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1af59e738a766613861161dc5904604c82.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1af05fa79262740fd579ecbb4a67d1b15f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ad2236b08e051260c5e7015721034ae0b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a673aa9dd952b13bf964449d67d21db85.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1af40a84f5de82816b5b147faca79e5c8d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a593dae210c66818290a31ecd64dc0281.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a13c0719bffd6090cceb672c92edc2125.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a2365b1c4755e7dc1136c3f02488d1d41.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a444640f17771484a123850d011f5d914.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1acde87c18340127809a39abe5fbd73ae7.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1add2cb70f24e21d25fb8dc05ec989fbd0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a1f8fd9ffa42a4c4b444d2f3690476ff0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1ad5c89c83c9c76263f5d2026c35e386cb.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__pub_sub_client_8h_1a23699f4f798fdb9d0fdaca83843c9634.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_attributes_8hpp_1ab5ce7bd7fe4169a9f709815f03f9870b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a6acf03572542d23d435325bd40593ed9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a6acf03572542d23d435325bd40593ed9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a9182417344deee5ca45dba835416a1a3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a9182417344deee5ca45dba835416a1a3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a2336b04d0e7669f8491241a455653af8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a2336b04d0e7669f8491241a455653af8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a5361e5e4628b4f8577d2febafc4da088.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a5361e5e4628b4f8577d2febafc4da088.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s_8h_1aad1e12cb14951b2c8fb8853902527118.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__husky_lens_protocol_core_8c_1ad649636bb53707ca7a4001164f6ef5dc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht3x_8h_1aa94d23b95cf1d73a89496d3d9cf2a1cc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht3x_8h_1a1cb474d1094f0afc2d55252a30ce4e25.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht3x_8h_1ab5e29924fc855b5abab9ed62134e2fea.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht3x_8h_1aaed3b1d3b38061d6ee8318ed67982932.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a90da7a7b7b4129eef7b1816e4a25d745.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1af5e956b6d3d59b5383b5177a3c6b0505.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a3d6c91d80d55f421db642d649a0d2da8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1aa805d8f455503aecab017c2c7293e380.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a9f3db90f8e6a611a47e702b0f90d9326.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1ac88a08d2b48868cf1ae10558b3ddd324.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a2fb7d88091e07c0cb8143c8afa2814e2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a9fcd128872fa5ca952aca05aa13e044d.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1af9ddb1621a0326b1f63109eff76397a3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a24b51ccf081be32e9ca02f9378724ad9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a134c3a72f6889a7a8329a1f0c3770d94.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1accd53040e6490c381650e0993d3bddfc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a91b57b4e93a9c7b13f1d669e73d7953e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a049294cd9be0242a004f03bf71e4040c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1addcecb65679488737d7f6cf46a8b1c51.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a4e62e47c6f2e65ea5808e35ca4979fc3.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1abe9ccba606128cbc067e62a606a407e1.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1ac1f2c4e001c32116087ad040c43cd4bf.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1a1830bf6fe9926c78966c7dc5c23e99d8.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_sht4x_8h_1ab12e1401f1798618eb079c83594e511c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ultrasonic_8h_1a4cd84c34bf2430e322c03409af3add07.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_unit__4relay_8h_1a99883cf964269794ea7e2fc9c3fc1e9e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_unit__4relay_8h_1a65b5e90bb2f90ae59a80c89bfe2988a2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_unit__4relay_8h_1a1b53adc2b3a97fbdf477ae7d8d8b32c0.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_unit__4relay_8h_1a9c334538471c29476e55b283dd640c54.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_unit__4relay_8h_1a17ecc8e16923074d2a4e1fd82209590a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a5a7228fcb610b63f7a25c277d73e0077.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a6589362af4c1efdd7b98253698f9b149.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1aed4fa052af06944dd1e8292ab09ddd1b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1aa4e796a80339b98897f4e6264386e805.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a0078eca2c595a6f26911216e44325cb9.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a77097696f5d44e7eb7069b6bbbb7aa00.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a14f202364c7a2251ae28128817606827.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a51c95d2eeff54fe1460563031ed0a483.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a4ba49d096ae201a86675894c6ba8d79f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a978b84f26c346d362540d1cd31b8336a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1af527b5813e7c3ea2df682b2b45f79036.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1afd7a471c60c40c8dbfcb2b83f4170a03.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a50c25290514e41c635168d25a8fb383e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a19d603b78240edba870cf6a5813c6f3b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a03427e66056b8927b19e159e839e3676.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1ade25593a46506467ff87bd8fe286872c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a2473ee389e0f2f202a9f6c5cca5d397a.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1a545377612c87d394cf79c948eff0ba79.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1aad9c452379c85cab9f915361683ab850.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_ac__measure_8h_1ae37a38fb93e91877eac9189dd110c35e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_config_8h_1a180fcde6221857b98a4c07c2b65fd115.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__web_socket_client_8h_1aac31cb88a548eb2c820a8f2ef5b36d39.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a80aa387a70f5faacd6f6d4dd642bb644.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define__h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a80aa387a70f5faacd6f6d4dd642bb644.rst
+
+Typedefs
+********
+
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef_button_8h_1a1215bb12352cdd7d958a3f346adf2f8c.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__dynamic_json_document_8hpp_1a1ce448e15bce3ab02dcaa763e7b6047e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef_integral__constant_8hpp_1abd169cf87574a4cc36294b9e9b951326.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__d_f_robot___husky_lens_8h_1a1a3f3b3b950f6eba9aa2d1c1f0cefe5f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__h_u_s_k_y_l_e_n_s_mind_plus_8h_1a1a3f3b3b950f6eba9aa2d1c1f0cefe5f.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__d_f_robot___husky_lens_8h_1a2b724622cef9b849b1193247d775b638.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__h_u_s_k_y_l_e_n_s_mind_plus_8h_1a2b724622cef9b849b1193247d775b638.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__d_f_robot___husky_lens_8h_1a716f73ff2fe4db7aaceeb23a64b48015.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__h_u_s_k_y_l_e_n_s_mind_plus_8h_1a716f73ff2fe4db7aaceeb23a64b48015.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__d_f_robot___husky_lens_8h_1a63a95b8dfecae8d6d13232c387f58381.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__h_u_s_k_y_l_e_n_s_mind_plus_8h_1a63a95b8dfecae8d6d13232c387f58381.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__h_u_s_k_y_l_e_n_s_8h_1a3304b218c303c3b8941f9c659d7b55d2.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__d_f_robot___husky_lens_8h_1ae7b8ae1e3bfe10d0e42706f0ebf57e4b.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__json_integer_8hpp_1a2fd94bd0f24431d73201999fbd7df354.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef_integral__constant_8hpp_1a6c81ea038643ab8e585e6149d67261e4.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   typedef__std_string_writer_8hpp_1ab8ddf9531fc4ac7ce28574db20c8f20e.rst

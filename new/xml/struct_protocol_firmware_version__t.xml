@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_protocol_firmware_version__t" kind="struct" language="C++" prot="public">
+    <compoundname>ProtocolFirmwareVersion_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_protocol_firmware_version__t_1a63ff172d7f523c18ff9a2142001f123e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ProtocolFirmwareVersion_t::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>ProtocolFirmwareVersion_t::length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="90" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_protocol_firmware_version__t_1a7d4d353edd3d7c8aa0635d3058325795" prot="public" static="no" mutable="no">
+        <type>uint8_t *</type>
+        <definition>uint8_t* ProtocolFirmwareVersion_t::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>ProtocolFirmwareVersion_t::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="91" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="88" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="89" bodyend="92"/>
+    <listofallmembers>
+      <member refid="struct_protocol_firmware_version__t_1a7d4d353edd3d7c8aa0635d3058325795" prot="public" virt="non-virtual"><scope>ProtocolFirmwareVersion_t</scope><name>data</name></member>
+      <member refid="struct_protocol_firmware_version__t_1a63ff172d7f523c18ff9a2142001f123e" prot="public" virt="non-virtual"><scope>ProtocolFirmwareVersion_t</scope><name>length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

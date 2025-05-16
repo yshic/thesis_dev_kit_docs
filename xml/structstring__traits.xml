@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structstring__traits" kind="struct" language="C++" prot="public">
+    <compoundname>string_traits</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structstring__traits_1ade96059d6a053231e0774578fb9072b2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@3</name>
+        <qualifiedname>string_traits::@3</qualifiedname>
+        <enumvalue id="structstring__traits_1ade96059d6a053231e0774578fb9072b2a94061d71c1039cdcf73787883946c595" prot="public">
+          <name>has_cstr</name>
+          <initializer>= string_traits_impl::has_cstr&lt;T&gt;::value</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structstring__traits_1ade96059d6a053231e0774578fb9072b2a4c4b3900b4b1bb6514ff2662b7905901" prot="public">
+          <name>has_length</name>
+          <initializer>= string_traits_impl::has_length&lt;T&gt;::value</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structstring__traits_1ade96059d6a053231e0774578fb9072b2a91b8ed7e42e82a0e6ec1ec85f53acdc7" prot="public">
+          <name>has_data</name>
+          <initializer>= string_traits_impl::has_data&lt;T&gt;::value</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structstring__traits_1ade96059d6a053231e0774578fb9072b2a1b59204acca9d9e2e1f0f68213c152e0" prot="public">
+          <name>has_size</name>
+          <initializer>= string_traits_impl::has_size&lt;T&gt;::value</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="71" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="71" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="70" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="70" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a94061d71c1039cdcf73787883946c595" prot="public" virt="non-virtual"><scope>string_traits</scope><name>has_cstr</name></member>
+      <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a91b8ed7e42e82a0e6ec1ec85f53acdc7" prot="public" virt="non-virtual"><scope>string_traits</scope><name>has_data</name></member>
+      <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a4c4b3900b4b1bb6514ff2662b7905901" prot="public" virt="non-virtual"><scope>string_traits</scope><name>has_length</name></member>
+      <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a1b59204acca9d9e2e1f0f68213c152e0" prot="public" virt="non-virtual"><scope>string_traits</scope><name>has_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

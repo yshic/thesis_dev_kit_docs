@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_memory_pool" kind="class" language="C++" prot="public">
+    <compoundname>MemoryPool</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_memory_pool_1a084396b400abb97be2b15e77d8868264" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* MemoryPool::begin_</definition>
+        <argsstring></argsstring>
+        <name>begin_</name>
+        <qualifiedname>MemoryPool::begin_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="218" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_memory_pool_1a3efdb492bf31599a2f0e360ba8bc9ff0" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char * MemoryPool::left_</definition>
+        <argsstring></argsstring>
+        <name>left_</name>
+        <qualifiedname>MemoryPool::left_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="218" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_memory_pool_1aacbce2ef7c258701241eebb3003eecc6" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char * MemoryPool::right_</definition>
+        <argsstring></argsstring>
+        <name>right_</name>
+        <qualifiedname>MemoryPool::right_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="218" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_memory_pool_1a421ad6d89b5f896ce9a87ecb16cf2cc9" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char * MemoryPool::end_</definition>
+        <argsstring></argsstring>
+        <name>end_</name>
+        <qualifiedname>MemoryPool::end_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="218" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_memory_pool_1a88842848422313f16de81213f91fa8d8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MemoryPool::overflowed_</definition>
+        <argsstring></argsstring>
+        <name>overflowed_</name>
+        <qualifiedname>MemoryPool::overflowed_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="219" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="219" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_memory_pool_1aca2839cb21157b61bc10f71e8a039578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MemoryPool::MemoryPool</definition>
+        <argsstring>(char *buf, size_t capa)</argsstring>
+        <name>MemoryPool</name>
+        <qualifiedname>MemoryPool::MemoryPool</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>capa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="39" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="39" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a6da889a5c40517f46ffca3620e10bc71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * MemoryPool::buffer</definition>
+        <argsstring>()</argsstring>
+        <name>buffer</name>
+        <qualifiedname>MemoryPool::buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="50" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a471bfef21b675b36a8fce6b48f07b96c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MemoryPool::capacity</definition>
+        <argsstring>() const</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MemoryPool::capacity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="56" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a9faac0d6c29b79c1a98ae84bd69a337c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MemoryPool::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MemoryPool::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="60" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1af48b7df3016f642f66cdd561c2dbdb6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MemoryPool::overflowed</definition>
+        <argsstring>() const</argsstring>
+        <name>overflowed</name>
+        <qualifiedname>MemoryPool::overflowed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="64" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a158e8ec79c6ef0f81cdc88896c1b1016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref> *</type>
+        <definition>VariantSlot * MemoryPool::allocVariant</definition>
+        <argsstring>()</argsstring>
+        <name>allocVariant</name>
+        <qualifiedname>MemoryPool::allocVariant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="68" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a4b4fd858bbddf83f7699aa3af6490dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>const char *</type>
+        <definition>const char * MemoryPool::saveString</definition>
+        <argsstring>(TAdaptedString str)</argsstring>
+        <name>saveString</name>
+        <qualifiedname>MemoryPool::saveString</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="73" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="73" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1aeaa0c7dddf19df0f35b3db8e1c32486f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MemoryPool::getFreeZone</definition>
+        <argsstring>(char **zoneStart, size_t *zoneSize) const</argsstring>
+        <name>getFreeZone</name>
+        <qualifiedname>MemoryPool::getFreeZone</qualifiedname>
+        <param>
+          <type>char **</type>
+          <declname>zoneStart</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>zoneSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="93" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a090cf836336a4559c5731555a0f5e08f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * MemoryPool::saveStringFromFreeZone</definition>
+        <argsstring>(size_t len)</argsstring>
+        <name>saveStringFromFreeZone</name>
+        <qualifiedname>MemoryPool::saveStringFromFreeZone</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="98" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1afec06adfdaa24859fff6d806218a4ef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MemoryPool::markAsOverflowed</definition>
+        <argsstring>()</argsstring>
+        <name>markAsOverflowed</name>
+        <qualifiedname>MemoryPool::markAsOverflowed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="112" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a6259e605841a71d68b64413d4542d106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MemoryPool::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MemoryPool::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="116" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="116" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1ab2bccf33f3c2e8261327ff8162ae95e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MemoryPool::canAlloc</definition>
+        <argsstring>(size_t bytes) const</argsstring>
+        <name>canAlloc</name>
+        <qualifiedname>MemoryPool::canAlloc</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="122" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a73e35b8abef3e929bc4207de2ed7235e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MemoryPool::owns</definition>
+        <argsstring>(void *p) const</argsstring>
+        <name>owns</name>
+        <qualifiedname>MemoryPool::owns</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="126" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a1bd315f98e276473ade17102984b59f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * MemoryPool::operator new</definition>
+        <argsstring>(size_t, void *p)</argsstring>
+        <name>operator new</name>
+        <qualifiedname>MemoryPool::operator new</qualifiedname>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="131" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a4d015e9590d2228c559dccf38556ad93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ptrdiff_t</type>
+        <definition>ptrdiff_t MemoryPool::squash</definition>
+        <argsstring>()</argsstring>
+        <name>squash</name>
+        <qualifiedname>MemoryPool::squash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="146" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="146" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a623e5609a6283cc0c674d5bbe3157336" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MemoryPool::movePointers</definition>
+        <argsstring>(ptrdiff_t offset)</argsstring>
+        <name>movePointers</name>
+        <qualifiedname>MemoryPool::movePointers</qualifiedname>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="162" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="162" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_memory_pool_1a1edd99a1915591b31518fa6abfcc9908" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MemoryPool::checkInvariants</definition>
+        <argsstring>()</argsstring>
+        <name>checkInvariants</name>
+        <qualifiedname>MemoryPool::checkInvariants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="170" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a33dfbc0ba484f2e07991e27f96d71758" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * MemoryPool::allocString</definition>
+        <argsstring>(size_t n)</argsstring>
+        <name>allocString</name>
+        <qualifiedname>MemoryPool::allocString</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="193" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="193" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1a2d737804a29486a1a5f5ca487c2186cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * MemoryPool::allocRight</definition>
+        <argsstring>()</argsstring>
+        <name>allocRight</name>
+        <qualifiedname>MemoryPool::allocRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="205" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memory_pool_1aef6b0374a2084cb7dc8a0c259c5c74fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * MemoryPool::allocRight</definition>
+        <argsstring>(size_t bytes)</argsstring>
+        <name>allocRight</name>
+        <qualifiedname>MemoryPool::allocRight</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="209" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="209" bodyend="216"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" line="37" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp" bodystart="37" bodyend="220"/>
+    <listofallmembers>
+      <member refid="class_memory_pool_1a2d737804a29486a1a5f5ca487c2186cb" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>allocRight</name></member>
+      <member refid="class_memory_pool_1aef6b0374a2084cb7dc8a0c259c5c74fd" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>allocRight</name></member>
+      <member refid="class_memory_pool_1a33dfbc0ba484f2e07991e27f96d71758" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>allocString</name></member>
+      <member refid="class_memory_pool_1a158e8ec79c6ef0f81cdc88896c1b1016" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>allocVariant</name></member>
+      <member refid="class_memory_pool_1a084396b400abb97be2b15e77d8868264" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>begin_</name></member>
+      <member refid="class_memory_pool_1a6da889a5c40517f46ffca3620e10bc71" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>buffer</name></member>
+      <member refid="class_memory_pool_1ab2bccf33f3c2e8261327ff8162ae95e2" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>canAlloc</name></member>
+      <member refid="class_memory_pool_1a471bfef21b675b36a8fce6b48f07b96c" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>capacity</name></member>
+      <member refid="class_memory_pool_1a1edd99a1915591b31518fa6abfcc9908" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>checkInvariants</name></member>
+      <member refid="class_memory_pool_1a6259e605841a71d68b64413d4542d106" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>clear</name></member>
+      <member refid="class_memory_pool_1a421ad6d89b5f896ce9a87ecb16cf2cc9" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>end_</name></member>
+      <member refid="class_memory_pool_1aeaa0c7dddf19df0f35b3db8e1c32486f" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>getFreeZone</name></member>
+      <member refid="class_memory_pool_1a3efdb492bf31599a2f0e360ba8bc9ff0" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>left_</name></member>
+      <member refid="class_memory_pool_1afec06adfdaa24859fff6d806218a4ef3" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>markAsOverflowed</name></member>
+      <member refid="class_memory_pool_1aca2839cb21157b61bc10f71e8a039578" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>MemoryPool</name></member>
+      <member refid="class_memory_pool_1a623e5609a6283cc0c674d5bbe3157336" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>movePointers</name></member>
+      <member refid="class_memory_pool_1a1bd315f98e276473ade17102984b59f4" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>operator new</name></member>
+      <member refid="class_memory_pool_1af48b7df3016f642f66cdd561c2dbdb6b" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>overflowed</name></member>
+      <member refid="class_memory_pool_1a88842848422313f16de81213f91fa8d8" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>overflowed_</name></member>
+      <member refid="class_memory_pool_1a73e35b8abef3e929bc4207de2ed7235e" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>owns</name></member>
+      <member refid="class_memory_pool_1aacbce2ef7c258701241eebb3003eecc6" prot="private" virt="non-virtual"><scope>MemoryPool</scope><name>right_</name></member>
+      <member refid="class_memory_pool_1a4b4fd858bbddf83f7699aa3af6490dc3" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>saveString</name></member>
+      <member refid="class_memory_pool_1a090cf836336a4559c5731555a0f5e08f" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>saveStringFromFreeZone</name></member>
+      <member refid="class_memory_pool_1a9faac0d6c29b79c1a98ae84bd69a337c" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>size</name></member>
+      <member refid="class_memory_pool_1a4d015e9590d2228c559dccf38556ad93" prot="public" virt="non-virtual"><scope>MemoryPool</scope><name>squash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

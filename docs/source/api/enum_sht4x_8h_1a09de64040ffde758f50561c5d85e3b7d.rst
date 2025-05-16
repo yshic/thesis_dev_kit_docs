@@ -1,0 +1,14 @@
+.. _exhale_enum_sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d:
+
+Enum sht4x_heater_t
+===================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_sht4x_src_sht4x.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sht4x_heater_t
+   :project: thesis_dev_kit_docs

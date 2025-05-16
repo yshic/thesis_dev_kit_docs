@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_json_array_const_iterator" kind="class" language="C++" prot="public">
+    <compoundname>JsonArrayConstIterator</compoundname>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_json_array_const_iterator_1af31f5e7b4dce7249e7685d724bce62cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class JsonArray</definition>
+        <argsstring></argsstring>
+        <name>JsonArray</name>
+        <qualifiedname>JsonArrayConstIterator::JsonArray</qualifiedname>
+        <param>
+          <type><ref refid="class_json_array" kindref="compound">JsonArray</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="85" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_array_const_iterator_1a6862874ff942cc5d8f940de22de27779" prot="private" static="no" mutable="no">
+        <type>const detail::VariantSlot *</type>
+        <definition>const detail::VariantSlot* JsonArrayConstIterator::slot_</definition>
+        <argsstring></argsstring>
+        <name>slot_</name>
+        <qualifiedname>JsonArrayConstIterator::slot_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="118" column="29" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_array_const_iterator_1afc9e1ac4ad513a95aac33873320276e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonArrayConstIterator::JsonArrayConstIterator</definition>
+        <argsstring>()</argsstring>
+        <name>JsonArrayConstIterator</name>
+        <qualifiedname>JsonArrayConstIterator::JsonArrayConstIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="88" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1a2d8fec3d4d2d6eeace773d93e34a7319" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonArrayConstIterator::JsonArrayConstIterator</definition>
+        <argsstring>(const detail::VariantSlot *slot)</argsstring>
+        <name>JsonArrayConstIterator</name>
+        <qualifiedname>JsonArrayConstIterator::JsonArrayConstIterator</qualifiedname>
+        <param>
+          <type>const detail::VariantSlot *</type>
+          <declname>slot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="89" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="89" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1aef23e2aba2f7aaded6cd65d2555c003b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+        <definition>JsonVariantConst JsonArrayConstIterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>JsonArrayConstIterator::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="92" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1a0f0bb01d2a4c770e10d225f24873d57d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_variant_const_ptr" kindref="compound">VariantConstPtr</ref></type>
+        <definition>VariantConstPtr JsonArrayConstIterator::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>JsonArrayConstIterator::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="95" column="19" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1a23c33e15b0b0b925e146643f1c8e3507" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JsonArrayConstIterator::operator==</definition>
+        <argsstring>(const JsonArrayConstIterator &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>JsonArrayConstIterator::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_json_array_const_iterator" kindref="compound">JsonArrayConstIterator</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="99" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1a43fe881348ac42669be29bed19496c44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JsonArrayConstIterator::operator!=</definition>
+        <argsstring>(const JsonArrayConstIterator &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>JsonArrayConstIterator::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_json_array_const_iterator" kindref="compound">JsonArrayConstIterator</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="103" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1a611957136b199dc3b94087f81b884820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_array_const_iterator" kindref="compound">JsonArrayConstIterator</ref> &amp;</type>
+        <definition>JsonArrayConstIterator &amp; JsonArrayConstIterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>JsonArrayConstIterator::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="107" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_array_const_iterator_1a10b936d2c3a0af5cfc669ce252fe4459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_array_const_iterator" kindref="compound">JsonArrayConstIterator</ref> &amp;</type>
+        <definition>JsonArrayConstIterator &amp; JsonArrayConstIterator::operator+=</definition>
+        <argsstring>(size_t distance)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>JsonArrayConstIterator::operator+=</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="112" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" line="84" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp" bodystart="84" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_json_array_const_iterator_1af31f5e7b4dce7249e7685d724bce62cb" prot="private" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>JsonArray</name></member>
+      <member refid="class_json_array_const_iterator_1afc9e1ac4ad513a95aac33873320276e0" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>JsonArrayConstIterator</name></member>
+      <member refid="class_json_array_const_iterator_1a2d8fec3d4d2d6eeace773d93e34a7319" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>JsonArrayConstIterator</name></member>
+      <member refid="class_json_array_const_iterator_1a43fe881348ac42669be29bed19496c44" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>operator!=</name></member>
+      <member refid="class_json_array_const_iterator_1aef23e2aba2f7aaded6cd65d2555c003b" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>operator*</name></member>
+      <member refid="class_json_array_const_iterator_1a611957136b199dc3b94087f81b884820" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>operator++</name></member>
+      <member refid="class_json_array_const_iterator_1a10b936d2c3a0af5cfc669ce252fe4459" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>operator+=</name></member>
+      <member refid="class_json_array_const_iterator_1a0f0bb01d2a4c770e10d225f24873d57d" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>operator-&gt;</name></member>
+      <member refid="class_json_array_const_iterator_1a23c33e15b0b0b925e146643f1c8e3507" prot="public" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>operator==</name></member>
+      <member refid="class_json_array_const_iterator_1a6862874ff942cc5d8f940de22de27779" prot="private" virt="non-virtual"><scope>JsonArrayConstIterator</scope><name>slot_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

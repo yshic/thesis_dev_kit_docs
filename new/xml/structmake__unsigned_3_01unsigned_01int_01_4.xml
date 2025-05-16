@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structmake__unsigned_3_01unsigned_01int_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>make_unsigned&lt; unsigned int &gt;</compoundname>
+    <basecompoundref refid="structtype__identity" prot="public" virt="non-virtual">type_identity&lt; unsigned int &gt;</basecompoundref>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>make_unsigned&lt; unsigned int &gt;</label>
+        <link refid="structmake__unsigned_3_01unsigned_01int_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>type_identity&lt; unsigned int &gt;</label>
+        <link refid="structtype__identity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>make_unsigned&lt; unsigned int &gt;</label>
+        <link refid="structmake__unsigned_3_01unsigned_01int_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>type_identity&lt; unsigned int &gt;</label>
+        <link refid="structtype__identity"/>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp" line="29" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp" bodystart="29" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structtype__identity_1afd4273f3b171e349aee4f2013f81210f" prot="public" virt="non-virtual"><scope>make_unsigned&lt; unsigned int &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

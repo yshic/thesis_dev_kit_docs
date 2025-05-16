@@ -1,0 +1,14 @@
+.. _exhale_enum_sht4x_8h_1a302ae532119b7258d4291db14490ab90:
+
+Enum sht4x_precision_t
+======================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_sht4x_src_sht4x.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sht4x_precision_t
+   :project: thesis_dev_kit_docs

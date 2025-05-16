@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_deserialization_options_8hpp" kind="file" language="C++">
+    <compoundname>DeserializationOptions.hpp</compoundname>
+    <includes refid="_filter_8hpp" local="no">ArduinoJson/Deserialization/Filter.hpp</includes>
+    <includes refid="_nesting_limit_8hpp" local="no">ArduinoJson/Deserialization/NestingLimit.hpp</includes>
+    <includedby refid="deserialize_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>ArduinoJson/Configuration.hpp</label>
+        <link refid="_configuration_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp</label>
+        <link refid="_deserialization_options_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ArduinoJson/Deserialization/Filter.hpp</label>
+        <link refid="_filter_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ArduinoJson/Deserialization/NestingLimit.hpp</label>
+        <link refid="_nesting_limit_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ArduinoJson/Namespace.hpp</label>
+        <link refid="_namespace_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ArduinoJson/Polyfills/assert.hpp</label>
+        <link refid="assert_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ArduinoJson/Polyfills/preprocessor.hpp</label>
+        <link refid="preprocessor_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>ArduinoJson/version.hpp</label>
+        <link refid="version_8hpp_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <link refid="_arduino_json_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp</label>
+        <link refid="_deserialization_options_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <link refid="deserialize_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <link refid="_json_deserializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <link refid="_msg_pack_deserializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_deserialization_options" prot="public">DeserializationOptions</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_deserialization_options_8hpp_1a06be33d744040a730fd7f5e9408fade4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TFilter</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions</ref>&lt; TFilter &gt;</type>
+        <definition>DeserializationOptions&lt; TFilter &gt; makeDeserializationOptions</definition>
+        <argsstring>(TFilter filter, DeserializationOption::NestingLimit nestingLimit={})</argsstring>
+        <name>makeDeserializationOptions</name>
+        <param>
+          <type>TFilter</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="19" column="31" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="_deserialization_options_8hpp_1a9fa468782c2115faeaf45f568a112ac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TFilter</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions</ref>&lt; TFilter &gt;</type>
+        <definition>DeserializationOptions&lt; TFilter &gt; makeDeserializationOptions</definition>
+        <argsstring>(DeserializationOption::NestingLimit nestingLimit, TFilter filter)</argsstring>
+        <name>makeDeserializationOptions</name>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <param>
+          <type>TFilter</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="25" column="31" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="_deserialization_options_8hpp_1a59907b93cc0c56e4070d95798f1053d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions</ref>&lt; AllowAllFilter &gt;</type>
+        <definition>DeserializationOptions&lt; AllowAllFilter &gt; makeDeserializationOptions</definition>
+        <argsstring>(DeserializationOption::NestingLimit nestingLimit={})</argsstring>
+        <name>makeDeserializationOptions</name>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="30" column="31" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>ArduinoJson<sp/>-<sp/>https://arduinojson.org</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>©<sp/>2014-2023,<sp/>Benoit<sp/>BLANCHON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Deserialization/Filter.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Deserialization/NestingLimit.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TFilter&gt;</highlight></codeline>
+<codeline lineno="13" refid="struct_deserialization_options" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>TFilter<sp/>filter;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref><sp/>nestingLimit;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TFilter&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions&lt;TFilter&gt;</ref><sp/>makeDeserializationOptions(</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>TFilter<sp/>filter,<sp/><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref><sp/>nestingLimit<sp/>=<sp/>{})<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{filter,<sp/>nestingLimit};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TFilter&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions&lt;TFilter&gt;</ref><sp/>makeDeserializationOptions(</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref><sp/>nestingLimit,<sp/>TFilter<sp/>filter)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{filter,<sp/>nestingLimit};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="struct_deserialization_options" kindref="compound">DeserializationOptions&lt;AllowAllFilter&gt;</ref><sp/>makeDeserializationOptions(</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref><sp/>nestingLimit<sp/>=<sp/>{})<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{{},<sp/>nestingLimit};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
+    </programlisting>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp"/>
+  </compounddef>
+</doxygen>

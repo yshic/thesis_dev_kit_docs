@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dummy_writer" kind="class" language="C++" prot="public">
+    <compoundname>DummyWriter</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dummy_writer_1acb86b065af919369dd6dd9fdd0c55cb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t DummyWriter::write</definition>
+        <argsstring>(uint8_t)</argsstring>
+        <name>write</name>
+        <qualifiedname>DummyWriter::write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="13" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dummy_writer_1abcfb201dea4b3923cb9462d29b191ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t DummyWriter::write</definition>
+        <argsstring>(const uint8_t *, size_t n)</argsstring>
+        <name>write</name>
+        <qualifiedname>DummyWriter::write</qualifiedname>
+        <param>
+          <type>const uint8_t *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="17" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="11" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="11" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_dummy_writer_1acb86b065af919369dd6dd9fdd0c55cb7" prot="public" virt="non-virtual"><scope>DummyWriter</scope><name>write</name></member>
+      <member refid="class_dummy_writer_1abcfb201dea4b3923cb9462d29b191ae4" prot="public" virt="non-virtual"><scope>DummyWriter</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

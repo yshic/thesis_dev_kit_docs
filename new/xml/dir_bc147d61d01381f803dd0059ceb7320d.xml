@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_bc147d61d01381f803dd0059ceb7320d" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility</compoundname>
+    <innerdir refid="dir_3cd44837f31178a3c5dcfdbf7da4951b">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_65578b42aff5261b98bf2715ddbe0961" kind="dir">
+    <compoundname>lib/mini_fan/src</compoundname>
+    <innerfile refid="mini__fan_8cpp">mini_fan.cpp</innerfile>
+    <innerfile refid="mini__fan_8h">mini_fan.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/mini_fan/src/"/>
+  </compounddef>
+</doxygen>

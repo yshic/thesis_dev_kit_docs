@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_object_comparer" kind="struct" language="C++" prot="public">
+    <compoundname>ObjectComparer</compoundname>
+    <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_object_comparer_1a557dd050fa573557eaf857c4ad3c70b1" prot="public" static="no" mutable="no">
+        <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>const CollectionData* ObjectComparer::rhs_</definition>
+        <argsstring></argsstring>
+        <name>rhs_</name>
+        <qualifiedname>ObjectComparer::rhs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="97" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_object_comparer_1af238dc27512142fbb00439bc4b396db1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjectComparer::ObjectComparer</definition>
+        <argsstring>(const CollectionData &amp;rhs)</argsstring>
+        <name>ObjectComparer</name>
+        <qualifiedname>ObjectComparer::ObjectComparer</qualifiedname>
+        <param>
+          <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="99" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_object_comparer_1a0c1f2291c09799ab0cbb9149f28f366f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult ObjectComparer::visitObject</definition>
+        <argsstring>(const CollectionData &amp;lhs)</argsstring>
+        <name>visitObject</name>
+        <qualifiedname>ObjectComparer::visitObject</qualifiedname>
+        <param>
+          <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="101" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="101" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ObjectComparer</label>
+        <link refid="struct_object_comparer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CollectionData</label>
+        <link refid="class_collection_data"/>
+      </node>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ObjectComparer</label>
+        <link refid="struct_object_comparer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>rhs_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="96" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="96" bodyend="107"/>
+    <listofallmembers>
+      <member refid="struct_object_comparer_1af238dc27512142fbb00439bc4b396db1" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>ObjectComparer</name></member>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>result_type</name></member>
+      <member refid="struct_object_comparer_1a557dd050fa573557eaf857c4ad3c70b1" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>rhs_</name></member>
+      <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitArray</name></member>
+      <member refid="struct_visitor_1a026b326c33c02e22a79248d8ce08b568" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitBoolean</name></member>
+      <member refid="struct_visitor_1afc7797fcb70c09ed30f7e5fa14174837" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitFloat</name></member>
+      <member refid="struct_visitor_1af10a7e43d2eb2d479999980717a819e0" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitNull</name></member>
+      <member refid="struct_object_comparer_1a0c1f2291c09799ab0cbb9149f28f366f" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitObject</name></member>
+      <member refid="struct_visitor_1a2d26ee3a178dc49d1771842d12e3408f" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitRawJson</name></member>
+      <member refid="struct_visitor_1aa46617a82127c176a63fef7d735e2d31" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitSignedInteger</name></member>
+      <member refid="struct_visitor_1a5c860e833be6c04180907bbe87a30927" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitString</name></member>
+      <member refid="struct_visitor_1af7f111c2a204c66ca5b1869d536ac266" prot="public" virt="non-virtual"><scope>ObjectComparer</scope><name>visitUnsignedInteger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

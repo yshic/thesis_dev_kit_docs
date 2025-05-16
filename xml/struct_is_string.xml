@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_is_string" kind="struct" language="C++" prot="public">
+    <compoundname>IsString</compoundname>
+    <basecompoundref refid="structintegral__constant" prot="public" virt="non-virtual">integral_constant&lt; bool, false &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Enable</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IsString&lt; T, Enable &gt;</label>
+        <link refid="struct_is_string"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>false_type</label>
+        <link refid="structintegral__constant"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IsString&lt; T, Enable &gt;</label>
+        <link refid="struct_is_string"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>false_type</label>
+        <link refid="structintegral__constant"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp" bodystart="13" bodyend="13"/>
+    <listofallmembers>
+      <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>IsString</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

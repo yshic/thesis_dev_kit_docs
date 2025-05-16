@@ -1,0 +1,14 @@
+.. _exhale_enum_ac__measure_8h_1a75a12622a3394e35f043c54d03934203:
+
+Enum ac_measure_error_t
+=======================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_ac_measure_src_ac_measure.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: ac_measure_error_t
+   :project: thesis_dev_kit_docs

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_a7af8095b253248118ab1a1be6e42ba5" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack</compoundname>
+    <innerfile refid="endianess_8hpp">endianess.hpp</innerfile>
+    <innerfile refid="ieee754_8hpp">ieee754.hpp</innerfile>
+    <innerfile refid="_msg_pack_deserializer_8hpp">MsgPackDeserializer.hpp</innerfile>
+    <innerfile refid="_msg_pack_serializer_8hpp">MsgPackSerializer.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_pretty_json_serializer" kind="class" language="C++" prot="public">
+    <compoundname>PrettyJsonSerializer</compoundname>
+    <basecompoundref refid="class_json_serializer" prot="public" virt="non-virtual">JsonSerializer&lt; TWriter &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TWriter</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_pretty_json_serializer_1ad70382e2df173c9b70531798836aa1cb" prot="private" static="no">
+        <type><ref refid="class_json_serializer" kindref="compound">JsonSerializer</ref>&lt; TWriter &gt;</type>
+        <definition>typedef JsonSerializer&lt;TWriter&gt; PrettyJsonSerializer&lt; TWriter &gt;::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>PrettyJsonSerializer::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="16" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pretty_json_serializer_1abbd9a90f25d1f9825e5d65a240ecac5b" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t PrettyJsonSerializer&lt; TWriter &gt;::nesting_</definition>
+        <argsstring></argsstring>
+        <name>nesting_</name>
+        <qualifiedname>PrettyJsonSerializer::nesting_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="71" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pretty_json_serializer_1ae532be7163b3b8bfd59d19c63725332e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrettyJsonSerializer&lt; TWriter &gt;::PrettyJsonSerializer</definition>
+        <argsstring>(TWriter writer)</argsstring>
+        <name>PrettyJsonSerializer</name>
+        <qualifiedname>PrettyJsonSerializer::PrettyJsonSerializer</qualifiedname>
+        <param>
+          <type>TWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="19" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretty_json_serializer_1af0fccd274941089326405f71bd927d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t PrettyJsonSerializer&lt; TWriter &gt;::visitArray</definition>
+        <argsstring>(const CollectionData &amp;array)</argsstring>
+        <name>visitArray</name>
+        <qualifiedname>PrettyJsonSerializer::visitArray</qualifiedname>
+        <param>
+          <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="21" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="21" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretty_json_serializer_1ae538856a7f68d913291fd204be5fcf27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t PrettyJsonSerializer&lt; TWriter &gt;::visitObject</definition>
+        <argsstring>(const CollectionData &amp;object)</argsstring>
+        <name>visitObject</name>
+        <qualifiedname>PrettyJsonSerializer::visitObject</qualifiedname>
+        <param>
+          <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="42" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="42" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pretty_json_serializer_1ae74ce5319c8a3dac04790df6fbe95a19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrettyJsonSerializer&lt; TWriter &gt;::indent</definition>
+        <argsstring>()</argsstring>
+        <name>indent</name>
+        <qualifiedname>PrettyJsonSerializer::indent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="66" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JsonSerializer&lt; TWriter &gt;</label>
+        <link refid="class_json_serializer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PrettyJsonSerializer&lt; TWriter &gt;</label>
+        <link refid="class_pretty_json_serializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; size_t &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>JsonSerializer&lt; TWriter &gt;</label>
+        <link refid="class_json_serializer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PrettyJsonSerializer&lt; TWriter &gt;</label>
+        <link refid="class_pretty_json_serializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; size_t &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" line="15" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp" bodystart="15" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_pretty_json_serializer_1ad70382e2df173c9b70531798836aa1cb" prot="private" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>base</name></member>
+      <member refid="class_json_serializer_1a3de8f1916abddde0b773fb0fd3bb2360" prot="protected" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>bytesWritten</name></member>
+      <member refid="class_pretty_json_serializer_1ae74ce5319c8a3dac04790df6fbe95a19" prot="private" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>indent</name></member>
+      <member refid="class_json_serializer_1a71e7f62a50d9feda17d63ebe35bd3d49" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>JsonSerializer</name></member>
+      <member refid="class_pretty_json_serializer_1abbd9a90f25d1f9825e5d65a240ecac5b" prot="private" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>nesting_</name></member>
+      <member refid="class_pretty_json_serializer_1ae532be7163b3b8bfd59d19c63725332e" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>PrettyJsonSerializer</name></member>
+      <member refid="class_json_serializer_1a94ac531a4ea4d3a4e65457b341ce6f5a" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>producesText</name></member>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>result_type</name></member>
+      <member refid="class_pretty_json_serializer_1af0fccd274941089326405f71bd927d2e" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitArray</name></member>
+      <member refid="class_json_serializer_1a2dedbf035428e03bd0210eb5195b9eb3" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitBoolean</name></member>
+      <member refid="class_json_serializer_1acf28bce74c96fba83e49097ec2b0cbff" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitFloat</name></member>
+      <member refid="class_json_serializer_1a81b2e0273ec7a9642417618d11dac788" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitNull</name></member>
+      <member refid="class_pretty_json_serializer_1ae538856a7f68d913291fd204be5fcf27" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitObject</name></member>
+      <member refid="class_json_serializer_1a11d0e3a29498c79d6836509dda9d595c" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitRawJson</name></member>
+      <member refid="class_json_serializer_1a473797bd667ff8372dfa2a0fb5e6fa92" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitSignedInteger</name></member>
+      <member refid="class_json_serializer_1a4107c01365d50fa255b2c05d17a057bf" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitString</name></member>
+      <member refid="class_json_serializer_1a9b96c3a9d002451bdf09390c034ac453" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitString</name></member>
+      <member refid="class_json_serializer_1a32e0bf16201b92245abba069983b631b" prot="public" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>visitUnsignedInteger</name></member>
+      <member refid="class_json_serializer_1a13f6e04b8ae1d63cc2605857cfbfed70" prot="protected" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>write</name></member>
+      <member refid="class_json_serializer_1a5110d3e0113ff2c58cfe94955050e7f4" prot="protected" virt="non-virtual"><scope>PrettyJsonSerializer</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

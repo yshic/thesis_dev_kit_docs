@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_soil_moisture" kind="class" language="C++" prot="public">
+    <compoundname>SoilMoisture</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_soil_moisture_1a8cdd252a660bec5692a48a3d87c627cb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SoilMoisture::_pin</definition>
+        <argsstring></argsstring>
+        <name>_pin</name>
+        <qualifiedname>SoilMoisture::_pin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="105" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_soil_moisture_1aabd29033854cd76bbf52f38dad03d4f3" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t SoilMoisture::sensorValue[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>sensorValue</name>
+        <qualifiedname>SoilMoisture::sensorValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SIG pin of the Soil Moisture Sensor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="106" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_soil_moisture_1af32cc864950d3d1daf487bc480146840" prot="private" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* SoilMoisture::_callback) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>_callback</name>
+        <qualifiedname>SoilMoisture::_callback</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value from the sensor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="107" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_soil_moisture_1ac780e72c4b0422565baa3963ea42228b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SoilMoisture::SoilMoisture</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>SoilMoisture</name>
+        <qualifiedname>SoilMoisture::SoilMoisture</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>init the Soil Moisture Sensor with a specified pin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="38" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoilMoisture::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>SoilMoisture::read</qualifiedname>
+        <briefdescription>
+<para>Read the analog value from the sensor using the arduino function analogRead. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">void</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint32_t The analog value read from the sensor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="48" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t SoilMoisture::readAndMap</definition>
+        <argsstring>(int minValue, int maxValue)</argsstring>
+        <name>readAndMap</name>
+        <qualifiedname>SoilMoisture::readAndMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minValue</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxValue</declname>
+        </param>
+        <briefdescription>
+<para>Read the sensor and map its raw analog values to a range (e.g., 0-100). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">minValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minimum value of the range </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">maxValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum value of the range</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint32_t The calibrated sensor value mapped to a range of minValue to maxValue. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="58" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="43" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SoilMoisture::isAboveThreshold</definition>
+        <argsstring>(int threshold)</argsstring>
+        <name>isAboveThreshold</name>
+        <qualifiedname>SoilMoisture::isAboveThreshold</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+<para>Check if the moisture level is above or below a threshold. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Threshold value for moisture.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool True if moisture is above the threshold, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="67" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1ab4a3beaa095bffdc280796ce194d3902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SoilMoisture::getMoisture</definition>
+        <argsstring>()</argsstring>
+        <name>getMoisture</name>
+        <qualifiedname>SoilMoisture::getMoisture</qualifiedname>
+        <briefdescription>
+<para>Get the analog sensor value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The analog sensor value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="76" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1af363e82e2ef868de6820705a49b6cd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SoilMoisture::getMoisturePercentage</definition>
+        <argsstring>()</argsstring>
+        <name>getMoisturePercentage</name>
+        <qualifiedname>SoilMoisture::getMoisturePercentage</qualifiedname>
+        <briefdescription>
+<para>Get the percentage sensor value from the analog value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The percentage value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="85" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SoilMoisture::getAverageReading</definition>
+        <argsstring>(int samples=10)</argsstring>
+        <name>getAverageReading</name>
+        <qualifiedname>SoilMoisture::getAverageReading</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samples</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+<para>Get the average sensor reading over a specified number of samples. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">samples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of samples to average.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The averaged sensor value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="94" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="60" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoilMoisture::onThresholdCross</definition>
+        <argsstring>(int threshold, void(*callback)())</argsstring>
+        <name>onThresholdCross</name>
+        <qualifiedname>SoilMoisture::onThresholdCross</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>void(*)()</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Set a callback function to trigger when moisture crosses a threshold. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Threshold for triggering the callback. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function to call when threshold is crossed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="102" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="72" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="32" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="33" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_soil_moisture_1af32cc864950d3d1daf487bc480146840" prot="private" virt="non-virtual"><scope>SoilMoisture</scope><name>_callback</name></member>
+      <member refid="class_soil_moisture_1a8cdd252a660bec5692a48a3d87c627cb" prot="private" virt="non-virtual"><scope>SoilMoisture</scope><name>_pin</name></member>
+      <member refid="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>getAverageReading</name></member>
+      <member refid="class_soil_moisture_1ab4a3beaa095bffdc280796ce194d3902" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>getMoisture</name></member>
+      <member refid="class_soil_moisture_1af363e82e2ef868de6820705a49b6cd7e" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>getMoisturePercentage</name></member>
+      <member refid="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>isAboveThreshold</name></member>
+      <member refid="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>onThresholdCross</name></member>
+      <member refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>read</name></member>
+      <member refid="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>readAndMap</name></member>
+      <member refid="class_soil_moisture_1aabd29033854cd76bbf52f38dad03d4f3" prot="private" virt="non-virtual"><scope>SoilMoisture</scope><name>sensorValue</name></member>
+      <member refid="class_soil_moisture_1ac780e72c4b0422565baa3963ea42228b" prot="public" virt="non-virtual"><scope>SoilMoisture</scope><name>SoilMoisture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

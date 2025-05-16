@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737" kind="struct" language="C++" prot="public">
+    <compoundname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TSource</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1ad33b044ef4a5ab536c1365257a0f1bb1" prot="private" static="no" mutable="no">
+        <type>std::istream *</type>
+        <definition>std::istream* Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::stream_</definition>
+        <argsstring></argsstring>
+        <name>stream_</name>
+        <qualifiedname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::stream_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" line="27" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1a9d0f06e973e6b031280e05b09fa772d2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::Reader</definition>
+        <argsstring>(std::istream &amp;stream)</argsstring>
+        <name>Reader</name>
+        <qualifiedname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::Reader</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1a967ee10926cfbbedf38fa3f5eb33967e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" line="17" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1ad102fda6c044f0760c0581c85ed65627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::readBytes</definition>
+        <argsstring>(char *buffer, size_t length)</argsstring>
+        <name>readBytes</name>
+        <qualifiedname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;::readBytes</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" line="21" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp" bodystart="13" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1a967ee10926cfbbedf38fa3f5eb33967e" prot="public" virt="non-virtual"><scope>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;</scope><name>read</name></member>
+      <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1ad102fda6c044f0760c0581c85ed65627" prot="public" virt="non-virtual"><scope>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;</scope><name>readBytes</name></member>
+      <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1a9d0f06e973e6b031280e05b09fa772d2" prot="public" virt="non-virtual"><scope>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;</scope><name>Reader</name></member>
+      <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1ad33b044ef4a5ab536c1365257a0f1bb1" prot="private" virt="non-virtual"><scope>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;</scope><name>stream_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

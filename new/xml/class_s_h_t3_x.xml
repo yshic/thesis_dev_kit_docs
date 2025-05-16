@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_s_h_t3_x" kind="class" language="C++" prot="public">
+    <compoundname>SHT3X</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_h_t3_x_1a2ba005f3d435d5c00b2d66ec9b502dfd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SHT3X::sensorValues[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>sensorValues</name>
+        <qualifiedname>SHT3X::sensorValues</qualifiedname>
+        <initializer>= {0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="58" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_h_t3_x_1ab4901e6173cd8d794d07229e02ed6f83" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t SHT3X::_addr</definition>
+        <argsstring></argsstring>
+        <name>_addr</name>
+        <qualifiedname>SHT3X::_addr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="60" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sht3x_error_t</type>
+        <definition>sht3x_error_t SHT3X::begin</definition>
+        <argsstring>(uint8_t i2c_addr=SHT3X_I2C_ADDR_DEFAULT)</argsstring>
+        <name>begin</name>
+        <qualifiedname>SHT3X::begin</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>i2c_addr</declname>
+          <defval>SHT3X_I2C_ADDR_DEFAULT</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="50" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sht3x_error_t</type>
+        <definition>sht3x_error_t SHT3X::update</definition>
+        <argsstring>(void)</argsstring>
+        <name>update</name>
+        <qualifiedname>SHT3X::update</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="51" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="33" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t3_x_1a28b58bfa80e31c626e01658828a299bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SHT3X::getHumidity</definition>
+        <argsstring>()</argsstring>
+        <name>getHumidity</name>
+        <qualifiedname>SHT3X::getHumidity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="53" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t3_x_1a3a319390dc73f5443f2dfee66a4ec569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SHT3X::getTemperatureCelcius</definition>
+        <argsstring>()</argsstring>
+        <name>getTemperatureCelcius</name>
+        <qualifiedname>SHT3X::getTemperatureCelcius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="54" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t3_x_1a7a5e300023f92886f16f153151726640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SHT3X::getTemperatureFahrenheit</definition>
+        <argsstring>()</argsstring>
+        <name>getTemperatureFahrenheit</name>
+        <qualifiedname>SHT3X::getTemperatureFahrenheit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="55" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="47" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="48" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_s_h_t3_x_1ab4901e6173cd8d794d07229e02ed6f83" prot="private" virt="non-virtual"><scope>SHT3X</scope><name>_addr</name></member>
+      <member refid="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" prot="public" virt="non-virtual"><scope>SHT3X</scope><name>begin</name></member>
+      <member refid="class_s_h_t3_x_1a28b58bfa80e31c626e01658828a299bf" prot="public" virt="non-virtual"><scope>SHT3X</scope><name>getHumidity</name></member>
+      <member refid="class_s_h_t3_x_1a3a319390dc73f5443f2dfee66a4ec569" prot="public" virt="non-virtual"><scope>SHT3X</scope><name>getTemperatureCelcius</name></member>
+      <member refid="class_s_h_t3_x_1a7a5e300023f92886f16f153151726640" prot="public" virt="non-virtual"><scope>SHT3X</scope><name>getTemperatureFahrenheit</name></member>
+      <member refid="class_s_h_t3_x_1a2ba005f3d435d5c00b2d66ec9b502dfd" prot="private" virt="non-virtual"><scope>SHT3X</scope><name>sensorValues</name></member>
+      <member refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" prot="public" virt="non-virtual"><scope>SHT3X</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

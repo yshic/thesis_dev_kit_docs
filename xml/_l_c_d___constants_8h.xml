@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_l_c_d___constants_8h" kind="file" language="C++">
+    <compoundname>LCD_Constants.h</compoundname>
+    <includedby refid="_l_c_d-_i2_c_8cpp" local="no">lib/LCD_I2C/src/LCD-I2C.cpp</includedby>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ad9eb5623ae9fb4797140376f3e45da2c" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int HD44780_CLEAR_DISPLAY</definition>
+        <argsstring></argsstring>
+        <name>HD44780_CLEAR_DISPLAY</name>
+        <initializer>{0b00000001}</initializer>
+        <briefdescription>
+<para>Define Instructions Constants of HD44780U. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="10" column="15" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ab9f938d9a92489ecd8f53a7d00c398e0" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_CURSOR_HOME</definition>
+        <argsstring></argsstring>
+        <name>HD44780_CURSOR_HOME</name>
+        <initializer>{0b00000010}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="13" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a6f8afbc7c3de1d8c6aecd2c553ee192c" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_ENTRY_MODE_SET</definition>
+        <argsstring></argsstring>
+        <name>HD44780_ENTRY_MODE_SET</name>
+        <initializer>{0b00000100}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="16" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1aee0f0b95cc4b5797a45da19abf2796b5" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_ACCOMPANIES_DISPLAY_SHIFT</definition>
+        <argsstring></argsstring>
+        <name>HD44780_ACCOMPANIES_DISPLAY_SHIFT</name>
+        <initializer>{0b00000001}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="17" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ac7c0cb0f96223120d7ae0a04e423109d" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_ENTRY_SHIFTINCREMENT</definition>
+        <argsstring></argsstring>
+        <name>HD44780_ENTRY_SHIFTINCREMENT</name>
+        <initializer>{0b00000010}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="18" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a49d177497aa16f2c8531fc8ed6621610" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_DISPLAY_CONTROL</definition>
+        <argsstring></argsstring>
+        <name>HD44780_DISPLAY_CONTROL</name>
+        <initializer>{0b00001000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="22" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1af631ff38248d60a7a124e468d77210e4" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_BLINK_ON</definition>
+        <argsstring></argsstring>
+        <name>HD44780_BLINK_ON</name>
+        <initializer>{0b00000001}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="23" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ad8cdfb68949711f09bbf6aaec8f9c4ad" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_CURSOR_ON</definition>
+        <argsstring></argsstring>
+        <name>HD44780_CURSOR_ON</name>
+        <initializer>{0b00000010}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="24" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a8d3d813eb2df2f5cd024c9e426984f0f" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_DISPLAY_ON</definition>
+        <argsstring></argsstring>
+        <name>HD44780_DISPLAY_ON</name>
+        <initializer>{0b00000100}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="25" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a30f6404b2ee69970bbd16ccc97bd96b3" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_CURSOR_OR_DISPLAY_SHIFT</definition>
+        <argsstring></argsstring>
+        <name>HD44780_CURSOR_OR_DISPLAY_SHIFT</name>
+        <initializer>{0b00010000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="28" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a640a7ab86f58ee7a248aa50200cd189a" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_SHIFT_RIGHT</definition>
+        <argsstring></argsstring>
+        <name>HD44780_SHIFT_RIGHT</name>
+        <initializer>{0b00000100}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="29" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a2322d284a7270e0b76b8d9a66a8babe6" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_DISPLAY_SHIFT</definition>
+        <argsstring></argsstring>
+        <name>HD44780_DISPLAY_SHIFT</name>
+        <initializer>{0b00001000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="31" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a58175b2a7b9a8b5e635ecafd8f488c56" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_FUNCTION_SET</definition>
+        <argsstring></argsstring>
+        <name>HD44780_FUNCTION_SET</name>
+        <initializer>{0b00100000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="35" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a6b31e56db8113849fe1a77e029396aec" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_5x10_DOTS</definition>
+        <argsstring></argsstring>
+        <name>HD44780_5x10_DOTS</name>
+        <initializer>{0b00000100}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="36" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ab427a071825c6dd86202fb2351e40bf4" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_5x8_DOTS</definition>
+        <argsstring></argsstring>
+        <name>HD44780_5x8_DOTS</name>
+        <initializer>{0b00000000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="37" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a1b2079b300b455e8e8d04477ab8356f4" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_2_LINE</definition>
+        <argsstring></argsstring>
+        <name>HD44780_2_LINE</name>
+        <initializer>{0b00001000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="38" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ad3698efb9e27f4cef0bf379d1d3d9e23" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_1_LINE</definition>
+        <argsstring></argsstring>
+        <name>HD44780_1_LINE</name>
+        <initializer>{0b00000000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="39" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a5b04e8ddbae268d7c5fc1401d73a9e08" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_8_BIT_MODE</definition>
+        <argsstring></argsstring>
+        <name>HD44780_8_BIT_MODE</name>
+        <initializer>{0b00010000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="40" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1ab28b190841fbbab19ec24f081ce19998" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t HD44780_4_BIT_MODE</definition>
+        <argsstring></argsstring>
+        <name>HD44780_4_BIT_MODE</name>
+        <initializer>{0b00000000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="41" column="19" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1a98ba02ec75886b5ef007a7cea79135ef" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int HD44780_SET_CGRAM_ADDR</definition>
+        <argsstring></argsstring>
+        <name>HD44780_SET_CGRAM_ADDR</name>
+        <initializer>{0b01000000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="43" column="15" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_l_c_d___constants_8h_1aa07ed6047dcc8fc9ccda89fd9022cc15" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int HD44780_SET_DDRRAM_ADDR</definition>
+        <argsstring></argsstring>
+        <name>HD44780_SET_DDRRAM_ADDR</name>
+        <initializer>{0b10000000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/LCD_I2C/src/LCD_Constants.h" line="44" column="15" bodyfile="lib/LCD_I2C/src/LCD_Constants.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_LCD_CONSTANTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LCD_CONSTANTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Clear<sp/>Display</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>HD44780_CLEAR_DISPLAY{0b00000001};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>Home<sp/>1.52<sp/>ms</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_CURSOR_HOME{0b00000010};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Entry<sp/>Mode<sp/>Set<sp/>37<sp/>µs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_ENTRY_MODE_SET{0b00000100};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_ACCOMPANIES_DISPLAY_SHIFT{0b00000001};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_ENTRY_SHIFTINCREMENT{0b00000010};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constexpr<sp/>uint8_t<sp/>HD44780_ENTRY_SHIFTDECREMENT<sp/><sp/><sp/><sp/>{0b00000000};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Display<sp/>ON/OFF<sp/>control<sp/>37<sp/>µs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_DISPLAY_CONTROL{0b00001000};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_BLINK_ON{0b00000001};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_CURSOR_ON{0b00000010};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_DISPLAY_ON{0b00000100};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Cursor<sp/>or<sp/>Display<sp/>Shift<sp/>37<sp/>µs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_CURSOR_OR_DISPLAY_SHIFT{0b00010000};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_SHIFT_RIGHT{0b00000100};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constexpr<sp/>uint8_t<sp/>HD44780_SHIFT_LEFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{0b00000000};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_DISPLAY_SHIFT{0b00001000};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>constexpr<sp/>uint8_t<sp/>HD44780_CURSOR_MOVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{0b00000000};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Function<sp/>Set<sp/>37<sp/>µs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_FUNCTION_SET{0b00100000};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_5x10_DOTS{0b00000100};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_5x8_DOTS{0b00000000};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_2_LINE{0b00001000};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_1_LINE{0b00000000};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_8_BIT_MODE{0b00010000};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint8_t<sp/>HD44780_4_BIT_MODE{0b00000000};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>HD44780_SET_CGRAM_ADDR{0b01000000};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>HD44780_SET_DDRRAM_ADDR{0b10000000};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="lib/LCD_I2C/src/LCD_Constants.h"/>
+  </compounddef>
+</doxygen>

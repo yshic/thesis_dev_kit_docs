@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_null_comparer" kind="struct" language="C++" prot="public">
+    <compoundname>NullComparer</compoundname>
+    <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
+    <derivedcompoundref refid="struct_comparer_3_01decltype_07nullptr_08_00_01void_01_4" prot="public" virt="non-virtual">Comparer&lt; decltype(nullptr), void &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_null_comparer_1a2c32c531a1b9f91e88a920712de2b3bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult NullComparer::visitNull</definition>
+        <argsstring>()</argsstring>
+        <name>visitNull</name>
+        <qualifiedname>NullComparer::visitNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="73" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="73" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Comparer&lt; decltype(nullptr), void &gt;</label>
+        <link refid="struct_comparer_3_01decltype_07nullptr_08_00_01void_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>NullComparer</label>
+        <link refid="struct_null_comparer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>NullComparer</label>
+        <link refid="struct_null_comparer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="72" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="72" bodyend="76"/>
+    <listofallmembers>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>result_type</name></member>
+      <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitArray</name></member>
+      <member refid="struct_visitor_1a026b326c33c02e22a79248d8ce08b568" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitBoolean</name></member>
+      <member refid="struct_visitor_1afc7797fcb70c09ed30f7e5fa14174837" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitFloat</name></member>
+      <member refid="struct_null_comparer_1a2c32c531a1b9f91e88a920712de2b3bd" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitNull</name></member>
+      <member refid="struct_visitor_1a762432b182778bb588dc33535706bd0f" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitObject</name></member>
+      <member refid="struct_visitor_1a2d26ee3a178dc49d1771842d12e3408f" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitRawJson</name></member>
+      <member refid="struct_visitor_1aa46617a82127c176a63fef7d735e2d31" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitSignedInteger</name></member>
+      <member refid="struct_visitor_1a5c860e833be6c04180907bbe87a30927" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitString</name></member>
+      <member refid="struct_visitor_1af7f111c2a204c66ca5b1869d536ac266" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitUnsignedInteger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

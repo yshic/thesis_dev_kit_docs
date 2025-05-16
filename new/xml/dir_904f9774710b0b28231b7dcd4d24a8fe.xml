@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_904f9774710b0b28231b7dcd4d24a8fe" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json</compoundname>
+    <innerfile refid="_escape_sequence_8hpp">EscapeSequence.hpp</innerfile>
+    <innerfile refid="_json_deserializer_8hpp">JsonDeserializer.hpp</innerfile>
+    <innerfile refid="_json_serializer_8hpp">JsonSerializer.hpp</innerfile>
+    <innerfile refid="_latch_8hpp">Latch.hpp</innerfile>
+    <innerfile refid="_pretty_json_serializer_8hpp">PrettyJsonSerializer.hpp</innerfile>
+    <innerfile refid="_text_formatter_8hpp">TextFormatter.hpp</innerfile>
+    <innerfile refid="_utf16_8hpp">Utf16.hpp</innerfile>
+    <innerfile refid="_utf8_8hpp">Utf8.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/"/>
+  </compounddef>
+</doxygen>

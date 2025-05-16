@@ -1,0 +1,12 @@
+digraph "thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_cf25332c20820cd179137fb308b9f2ba {
+    graph [ bgcolor="#ebf4f5", pencolor="grey50", label="examples", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_cf25332c20820cd179137fb308b9f2ba.html",tooltip=""]
+  dir_d5b996ebfaa2df3844f47df138fafa92 [label="HUSKYLENS_OBJECT_TRACKING", fillcolor="#ebf4f5", color="grey25", style="filled,bold", URL="dir_d5b996ebfaa2df3844f47df138fafa92.html",tooltip=""];
+  }
+}

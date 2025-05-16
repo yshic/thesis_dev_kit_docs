@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_member_proxy" kind="class" language="C++" prot="public">
+    <compoundname>MemberProxy</compoundname>
+    <basecompoundref refid="class_variant_ref_base" prot="public" virt="non-virtual">VariantRefBase&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</basecompoundref>
+    <basecompoundref refid="struct_variant_operators" prot="public" virt="non-virtual">VariantOperators&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TUpstream</type>
+      </param>
+      <param>
+        <type>typename TStringRef</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_member_proxy_1abd7287a435c7b673974e9cf6c0fd3178" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class VariantAttorney</definition>
+        <argsstring></argsstring>
+        <name>VariantAttorney</name>
+        <qualifiedname>MemberProxy::VariantAttorney</qualifiedname>
+        <param>
+          <type><ref refid="class_variant_attorney" kindref="compound">VariantAttorney</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="17" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_member_proxy_1aaf7b1159155fef1b7205c1a1de488f7d" prot="private" static="no" mutable="no">
+        <type>TUpstream</type>
+        <definition>TUpstream MemberProxy&lt; TUpstream, TStringRef &gt;::upstream_</definition>
+        <argsstring></argsstring>
+        <name>upstream_</name>
+        <qualifiedname>MemberProxy::upstream_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="60" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_member_proxy_1a68fe13405a7b8dd94b004f68ce1aa2f0" prot="private" static="no" mutable="no">
+        <type>TStringRef</type>
+        <definition>TStringRef MemberProxy&lt; TUpstream, TStringRef &gt;::key_</definition>
+        <argsstring></argsstring>
+        <name>key_</name>
+        <qualifiedname>MemberProxy::key_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="61" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_member_proxy_1aea344d5a2e7d8da90f0d3ea902c17ce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE</type>
+        <definition>FORCE_INLINE MemberProxy&lt; TUpstream, TStringRef &gt;::MemberProxy</definition>
+        <argsstring>(TUpstream upstream, TStringRef key)</argsstring>
+        <name>MemberProxy</name>
+        <qualifiedname>MemberProxy::MemberProxy</qualifiedname>
+        <param>
+          <type>TUpstream</type>
+          <declname>upstream</declname>
+        </param>
+        <param>
+          <type>TStringRef</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="20" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_member_proxy_1ae330df3456f9d9022e47934553d7e182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MemberProxy&lt; TUpstream, TStringRef &gt;::MemberProxy</definition>
+        <argsstring>(const MemberProxy &amp;src)</argsstring>
+        <name>MemberProxy</name>
+        <qualifiedname>MemberProxy::MemberProxy</qualifiedname>
+        <param>
+          <type>const <ref refid="class_member_proxy" kindref="compound">MemberProxy</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="23" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_member_proxy_1a718adc369dbea115251b5362ca764abf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_member_proxy" kindref="compound">MemberProxy</ref> &amp;</type>
+        <definition>FORCE_INLINE MemberProxy &amp; MemberProxy&lt; TUpstream, TStringRef &gt;::operator=</definition>
+        <argsstring>(const MemberProxy &amp;src)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MemberProxy::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_member_proxy" kindref="compound">MemberProxy</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="26" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_member_proxy_1a72c83b18bc3117770b6f0796cba7c9c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE <ref refid="class_member_proxy" kindref="compound">MemberProxy</ref> &amp;</type>
+        <definition>FORCE_INLINE MemberProxy &amp; MemberProxy&lt; TUpstream, TStringRef &gt;::operator=</definition>
+        <argsstring>(const T &amp;src)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MemberProxy::operator=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="32" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_member_proxy_1ac5b656575397a474607b75ed2c65a7c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE <ref refid="class_member_proxy" kindref="compound">MemberProxy</ref> &amp;</type>
+        <definition>FORCE_INLINE MemberProxy &amp; MemberProxy&lt; TUpstream, TStringRef &gt;::operator=</definition>
+        <argsstring>(T *src)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MemberProxy::operator=</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="38" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_member_proxy_1a11b1f5aa098708f36d4a901f730d7cf3" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+        <definition>FORCE_INLINE MemoryPool * MemberProxy&lt; TUpstream, TStringRef &gt;::getPool</definition>
+        <argsstring>() const</argsstring>
+        <name>getPool</name>
+        <qualifiedname>MemberProxy::getPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="44" column="27" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_member_proxy_1a2f10c182edb93a73f7bd1bec400ffeb7" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>FORCE_INLINE VariantData * MemberProxy&lt; TUpstream, TStringRef &gt;::getData</definition>
+        <argsstring>() const</argsstring>
+        <name>getData</name>
+        <qualifiedname>MemberProxy::getData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="48" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_member_proxy_1ad1134cc0b73cde0fa12e8b8b8fced3c6" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>FORCE_INLINE VariantData * MemberProxy&lt; TUpstream, TStringRef &gt;::getOrCreateData</definition>
+        <argsstring>() const</argsstring>
+        <name>getOrCreateData</name>
+        <qualifiedname>MemberProxy::getOrCreateData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="53" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="53" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MemberProxy&lt; TUpstream, TStringRef &gt;</label>
+        <link refid="class_member_proxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>VariantOperatorTag</label>
+        <link refid="struct_variant_operator_tag"/>
+      </node>
+      <node id="4">
+        <label>VariantOperators&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VariantRefBase&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</label>
+        <link refid="class_variant_ref_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>VariantTag</label>
+        <link refid="struct_variant_tag"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MemberProxy&lt; TUpstream, TStringRef &gt;</label>
+        <link refid="class_member_proxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>VariantOperatorTag</label>
+        <link refid="struct_variant_operator_tag"/>
+      </node>
+      <node id="4">
+        <label>VariantOperators&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VariantRefBase&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</label>
+        <link refid="class_variant_ref_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>VariantTag</label>
+        <link refid="struct_variant_tag"/>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" line="14" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp" bodystart="16" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_variant_ref_base_1abe14b177b7d7168d0cdbba53e71b1ec2" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>add</name></member>
+      <member refid="class_variant_ref_base_1acc6257e03f08ca776a9105f82f572474" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>add</name></member>
+      <member refid="class_variant_ref_base_1a68f6c82045f79f82cf56f5466245923f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>add</name></member>
+      <member refid="class_variant_ref_base_1af7c643f93f85f1cc38d440ba360e8a72" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>as</name></member>
+      <member refid="class_variant_ref_base_1ae79007ba4ec49c9ebbdd584e0474f22a" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>as</name></member>
+      <member refid="class_variant_ref_base_1acde5d160d839bfc8c577e508cb4156e5" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>as</name></member>
+      <member refid="class_variant_ref_base_1af7c643f93f85f1cc38d440ba360e8a72" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>as</name></member>
+      <member refid="class_variant_ref_base_1a34570bd4a11bc058020c54d6d4458f14" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>clear</name></member>
+      <member refid="class_variant_ref_base_1a0b177fc70d0f10485c099ca4dd4a6782" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1a81d061d32ddd976ca7bbbe8e3fdb63cc" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1ad5fd46ad15d47fdcd10af696bed81e1a" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1afb6b198b96fa15fb63b87771c66966b4" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1a0b177fc70d0f10485c099ca4dd4a6782" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1a81d061d32ddd976ca7bbbe8e3fdb63cc" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1ad81ab3b49d1a96f2e98ea35e4872609f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1af92505813419eeb7f20df62780ca1f83" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1a8b5a4fc30547ee44bf0e494ab379c007" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1aa332c8f0df81ef9c1ec45cd72e9b08e5" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1a14b9e86c6dde017d2a1b6fc534424bb7" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1ad81ab3b49d1a96f2e98ea35e4872609f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1af92505813419eeb7f20df62780ca1f83" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1a3157ac16680e20dd243a557cdcead8ec" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedObject</name></member>
+      <member refid="class_variant_ref_base_1a962e91ed57c8ce5384ca7d6d92daa14a" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedObject</name></member>
+      <member refid="class_variant_ref_base_1a7b7598ad36aa1e921936f220865d64b2" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>createNestedObject</name></member>
+      <member refid="class_member_proxy_1a2f10c182edb93a73f7bd1bec400ffeb7" prot="private" virt="non-virtual"><scope>MemberProxy</scope><name>getData</name></member>
+      <member refid="class_member_proxy_1ad1134cc0b73cde0fa12e8b8b8fced3c6" prot="private" virt="non-virtual"><scope>MemberProxy</scope><name>getOrCreateData</name></member>
+      <member refid="class_member_proxy_1a11b1f5aa098708f36d4a901f730d7cf3" prot="private" virt="non-virtual"><scope>MemberProxy</scope><name>getPool</name></member>
+      <member refid="class_variant_ref_base_1a4f67f48defd8135ec855a2eceae2664b" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>is</name></member>
+      <member refid="class_variant_ref_base_1ad5479cf4e80c56ce4a055372f1f3667c" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>is</name></member>
+      <member refid="class_variant_ref_base_1a030c410012f66974bbfea2fc1446ce9e" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>is</name></member>
+      <member refid="class_variant_ref_base_1a4f67f48defd8135ec855a2eceae2664b" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>is</name></member>
+      <member refid="class_variant_ref_base_1a3447c5c3b33cfc3e6a1ea1ac454c0a8f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>isNull</name></member>
+      <member refid="class_variant_ref_base_1aa96fa22a0908e08fd948219ff8a44175" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>isUnbound</name></member>
+      <member refid="class_member_proxy_1a68fe13405a7b8dd94b004f68ce1aa2f0" prot="private" virt="non-virtual"><scope>MemberProxy</scope><name>key_</name></member>
+      <member refid="class_member_proxy_1aea344d5a2e7d8da90f0d3ea902c17ce2" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>MemberProxy</name></member>
+      <member refid="class_member_proxy_1ae330df3456f9d9022e47934553d7e182" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>MemberProxy</name></member>
+      <member refid="class_variant_ref_base_1a380663c8bc3f115e62c02c7e85d1cc7a" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>memoryUsage</name></member>
+      <member refid="class_variant_ref_base_1ac541491c97f201bd17ef77be5310f44f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>nesting</name></member>
+      <member refid="class_variant_ref_base_1a1851dcd0b4e5752e3aefac5f4b85aab8" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator T</name></member>
+      <member refid="class_member_proxy_1a718adc369dbea115251b5362ca764abf" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator=</name></member>
+      <member refid="class_member_proxy_1a72c83b18bc3117770b6f0796cba7c9c3" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator=</name></member>
+      <member refid="class_member_proxy_1ac5b656575397a474607b75ed2c65a7c9" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator=</name></member>
+      <member refid="class_variant_ref_base_1a0f2d84c89bec48f337f7d6f31c7e53da" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1a74b8ec2fce71b64ff8c2fbcb4547280f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1ad82440d0f35a802319024ba40caf186b" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1a3d18acb45ac16ab02169331558b91dad" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1aded02fc56a775f5fcd0324c99810132d" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1a0f2d84c89bec48f337f7d6f31c7e53da" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1a74b8ec2fce71b64ff8c2fbcb4547280f" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1a20f760365d551eb7c9337de0ada2abf0" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>remove</name></member>
+      <member refid="class_variant_ref_base_1a908e9dc230a9aa601c5949057ba5f807" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>remove</name></member>
+      <member refid="class_variant_ref_base_1ab08bdf9846c199f53591a6c20386b309" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>remove</name></member>
+      <member refid="class_variant_ref_base_1a999bbd39360966769da334d5aa8c6a06" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a13051488056db0c6d1b8c46ffce06968" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a02f0f9b570a16c39c97878cd7825e0c1" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a41127b0e0dc6026b9f11413eaaad8354" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a999bbd39360966769da334d5aa8c6a06" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a13051488056db0c6d1b8c46ffce06968" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a047fc09635128b593f8e51fb2ab6e3cf" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>shallowCopy</name></member>
+      <member refid="class_variant_ref_base_1ad80bcae1fb743074d89f27c171617e0d" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>size</name></member>
+      <member refid="class_variant_ref_base_1a3635eb259aaaa3dbfe2f2f0d36a7e963" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>to</name></member>
+      <member refid="class_variant_ref_base_1a4c0ddce4d50927958470e0f35239f483" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>to</name></member>
+      <member refid="class_variant_ref_base_1a3635eb259aaaa3dbfe2f2f0d36a7e963" prot="public" virt="non-virtual"><scope>MemberProxy</scope><name>to</name></member>
+      <member refid="class_member_proxy_1aaf7b1159155fef1b7205c1a1de488f7d" prot="private" virt="non-virtual"><scope>MemberProxy</scope><name>upstream_</name></member>
+      <member refid="class_member_proxy_1abd7287a435c7b673974e9cf6c0fd3178" prot="private" virt="non-virtual"><scope>MemberProxy</scope><name>VariantAttorney</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

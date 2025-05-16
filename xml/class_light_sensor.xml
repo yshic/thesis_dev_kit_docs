@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_light_sensor" kind="class" language="C++" prot="public">
+    <compoundname>LightSensor</compoundname>
+    <includes refid="light__sensor_8h" local="no">light_sensor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_light_sensor_1a27f49407f116c92f7df44a84a6048f82" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LightSensor::_pin</definition>
+        <argsstring></argsstring>
+        <name>_pin</name>
+        <qualifiedname>LightSensor::_pin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="197" column="12" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_light_sensor_1a851a76e3775c9b6d504410bcfa15f928" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t LightSensor::sensorValue[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>sensorValue</name>
+        <qualifiedname>LightSensor::sensorValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SIG pin of the Light Sensor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="198" column="12" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_light_sensor_1acf5877df0effb774e11b1b13889ab7a9" prot="private" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* LightSensor::_callback) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>_callback</name>
+        <qualifiedname>LightSensor::_callback</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value from the sensor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="199" column="3" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_light_sensor_1a9add6ef1b1b4ff5bf6bd2dc34b84cbbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LightSensor::LightSensor</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>LightSensor</name>
+        <qualifiedname>LightSensor::LightSensor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to initialize the <ref refid="class_light_sensor" kindref="compound">LightSensor</ref> with a specified pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the <ref refid="class_light_sensor" kindref="compound">LightSensor</ref> to use the provided analog pin for reading light intensity and sets the ADC resolution to 12 bits.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The analog pin connected to the light sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the pin is a valid analog input pin on the microcontroller. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="89" column="3" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="29" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>light_sensor_error_t</type>
+        <definition>light_sensor_error_t LightSensor::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>LightSensor::read</qualifiedname>
+        <briefdescription>
+<para>Reads the analog value from the light sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Uses the <computeroutput>bspGpioAnalogRead</computeroutput> function to retrieve the raw 12-bit analog value (0–4095) from the sensor and computes a percentage value (0–100), storing both internally.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the sensor is properly connected to the specified pin.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>LIGHT_SENSOR_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>LIGHT_SENSOR_ERR</computeroutput>: Reading error </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="106" column="24" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LightSensor::readAndMap</definition>
+        <argsstring>(int minValue, int maxValue)</argsstring>
+        <name>readAndMap</name>
+        <qualifiedname>LightSensor::readAndMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minValue</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxValue</declname>
+        </param>
+        <briefdescription>
+<para>Reads and maps the sensor value to a specified range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the raw analog value from the sensor and maps it to a user-defined range (e.g., 0–100) using linear scaling.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">minValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minimum value of the output range. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">maxValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum value of the output range.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure <computeroutput>minValue</computeroutput> is less than <computeroutput>maxValue</computeroutput> and the sensor is connected.</para>
+</simplesect>
+<simplesect kind="return"><para>int The mapped sensor value within the specified range. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="121" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LightSensor::isAboveThreshold</definition>
+        <argsstring>(int threshold)</argsstring>
+        <name>isAboveThreshold</name>
+        <qualifiedname>LightSensor::isAboveThreshold</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+<para>Checks if the light intensity exceeds a threshold. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares the current raw sensor value against a specified threshold to determine if the light intensity is above it.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The threshold value for light intensity (0–4095).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior call to <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to update the sensor value.</para>
+</simplesect>
+<simplesect kind="return"><para>bool <computeroutput>true</computeroutput> if the light intensity is above the threshold, <computeroutput>false</computeroutput> otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="135" column="8" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1a8e5f8fc679864dd9e7dd7e71e926a613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LightSensor::getLightValue</definition>
+        <argsstring>()</argsstring>
+        <name>getLightValue</name>
+        <qualifiedname>LightSensor::getLightValue</qualifiedname>
+        <briefdescription>
+<para>Retrieves the raw analog light sensor value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the most recent raw 12-bit analog value (0–4095) read from the sensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>int The raw analog sensor value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="148" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1a751212ac84d8b0541fbcdc35478f733e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LightSensor::getLightValuePercentage</definition>
+        <argsstring>()</argsstring>
+        <name>getLightValuePercentage</name>
+        <qualifiedname>LightSensor::getLightValuePercentage</qualifiedname>
+        <briefdescription>
+<para>Retrieves the light intensity as a percentage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the internally stored percentage value (0–100) computed from the raw analog sensor value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>int The light intensity as a percentage. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="161" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LightSensor::getAverageReading</definition>
+        <argsstring>(int samples=10)</argsstring>
+        <name>getAverageReading</name>
+        <qualifiedname>LightSensor::getAverageReading</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samples</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+<para>Computes the average sensor reading over multiple samples. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes multiple readings from the sensor with a 10ms delay between each and returns their average to reduce noise.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">samples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of samples to average (default: 10).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the sensor is connected and <computeroutput>samples</computeroutput> is a positive integer.</para>
+</simplesect>
+<simplesect kind="return"><para>int The averaged raw sensor value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="175" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="63" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>light_sensor_error_t</type>
+        <definition>light_sensor_error_t LightSensor::onThresholdCross</definition>
+        <argsstring>(int threshold, void(*callback)())</argsstring>
+        <name>onThresholdCross</name>
+        <qualifiedname>LightSensor::onThresholdCross</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>void(*)()</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Sets a callback function for threshold-crossing events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures a callback function to be triggered when the light intensity crosses the specified threshold, invoking the callback if the threshold is currently exceeded.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The threshold value for triggering the callback (0–4095). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The function to call when the threshold is crossed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The callback function must be defined, have no parameters, and no return value. Requires a prior call to <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> for accurate threshold detection.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>LIGHT_SENSOR_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>LIGHT_SENSOR_ERR</computeroutput>: Invalid callback or configuration error </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/light_sensor/src/light_sensor.h" line="194" column="24" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="75" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manages light intensity measurements using an analog light sensor. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_light_sensor" kindref="compound">LightSensor</ref></computeroutput> class provides functionality for reading and processing light intensity data from an analog light sensor connected to a specified Arduino pin. It supports raw analog readings with 12-bit ADC resolution, mapped values, threshold detection, averaging, and callback triggering for threshold events.</para>
+<sect3 id="class_light_sensor_1autotoc_md25">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Reads raw analog light intensity values with 12-bit resolution.</para>
+</listitem><listitem><para>Maps raw values to a user-defined range (e.g., 0–100).</para>
+</listitem><listitem><para>Detects if light intensity exceeds a specified threshold.</para>
+</listitem><listitem><para>Computes average readings over multiple samples.</para>
+</listitem><listitem><para>Supports callback functions for threshold-crossing events.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_light_sensor_1autotoc_md26">
+<title>Usage:</title>
+<para>Instantiate the class with the appropriate analog pin. Call <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to retrieve raw sensor data or <computeroutput><ref refid="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" kindref="member">readAndMap()</ref></computeroutput> for scaled values. Use <computeroutput><ref refid="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" kindref="member">isAboveThreshold()</ref></computeroutput> for conditional checks, <computeroutput><ref refid="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" kindref="member">getAverageReading()</ref></computeroutput> for smoothed data, or <computeroutput><ref refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" kindref="member">onThresholdCross()</ref></computeroutput> to set up event-driven callbacks. Regularly call <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to update sensor values.</para>
+</sect3>
+<sect3 id="class_light_sensor_1autotoc_md27">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with analog input support (12-bit ADC).</para>
+</listitem><listitem><para>Sensor must be connected to a valid analog pin.</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for analog reading (<computeroutput>bspGpioAnalogRead</computeroutput>).</para>
+</listitem><listitem><para>Callback functions must be defined before use with <computeroutput><ref refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" kindref="member">onThresholdCross()</ref></computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+    </detaileddescription>
+    <location file="lib/light_sensor/src/light_sensor.h" line="76" column="1" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="77" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_light_sensor_1acf5877df0effb774e11b1b13889ab7a9" prot="private" virt="non-virtual"><scope>LightSensor</scope><name>_callback</name></member>
+      <member refid="class_light_sensor_1a27f49407f116c92f7df44a84a6048f82" prot="private" virt="non-virtual"><scope>LightSensor</scope><name>_pin</name></member>
+      <member refid="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>getAverageReading</name></member>
+      <member refid="class_light_sensor_1a8e5f8fc679864dd9e7dd7e71e926a613" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>getLightValue</name></member>
+      <member refid="class_light_sensor_1a751212ac84d8b0541fbcdc35478f733e" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>getLightValuePercentage</name></member>
+      <member refid="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>isAboveThreshold</name></member>
+      <member refid="class_light_sensor_1a9add6ef1b1b4ff5bf6bd2dc34b84cbbb" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>LightSensor</name></member>
+      <member refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>onThresholdCross</name></member>
+      <member refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>read</name></member>
+      <member refid="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" prot="public" virt="non-virtual"><scope>LightSensor</scope><name>readAndMap</name></member>
+      <member refid="class_light_sensor_1a851a76e3775c9b6d504410bcfa15f928" prot="private" virt="non-virtual"><scope>LightSensor</scope><name>sensorValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

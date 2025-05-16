@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_iterator_reader" kind="class" language="C++" prot="public">
+    <compoundname>IteratorReader</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TIterator</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_iterator_reader_1a2a30efc62c6e3615d47b088a9b611a6f" prot="private" static="no" mutable="no">
+        <type>TIterator</type>
+        <definition>TIterator IteratorReader&lt; TIterator &gt;::ptr_</definition>
+        <argsstring></argsstring>
+        <name>ptr_</name>
+        <qualifiedname>IteratorReader::ptr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" line="11" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_iterator_reader_1a2fdeb0b65b06c6b8abf897da9c62fb88" prot="private" static="no" mutable="no">
+        <type>TIterator</type>
+        <definition>TIterator IteratorReader&lt; TIterator &gt;::end_</definition>
+        <argsstring></argsstring>
+        <name>end_</name>
+        <qualifiedname>IteratorReader::end_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" line="11" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_iterator_reader_1a116354043d7acee9fdaa5afcd22c1bf6" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IteratorReader&lt; TIterator &gt;::IteratorReader</definition>
+        <argsstring>(TIterator begin, TIterator end)</argsstring>
+        <name>IteratorReader</name>
+        <qualifiedname>IteratorReader::IteratorReader</qualifiedname>
+        <param>
+          <type>TIterator</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>TIterator</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" line="14" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_iterator_reader_1ac3bd27f656c1c4e73fa1b18b6e03c98b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int IteratorReader&lt; TIterator &gt;::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>IteratorReader::read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" line="17" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_iterator_reader_1a346d5c2e5d815ec1bf614d4def8848a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t IteratorReader&lt; TIterator &gt;::readBytes</definition>
+        <argsstring>(char *buffer, size_t length)</argsstring>
+        <name>readBytes</name>
+        <qualifiedname>IteratorReader::readBytes</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" line="24" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" bodystart="24" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" line="10" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp" bodystart="10" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_iterator_reader_1a2fdeb0b65b06c6b8abf897da9c62fb88" prot="private" virt="non-virtual"><scope>IteratorReader</scope><name>end_</name></member>
+      <member refid="class_iterator_reader_1a116354043d7acee9fdaa5afcd22c1bf6" prot="public" virt="non-virtual"><scope>IteratorReader</scope><name>IteratorReader</name></member>
+      <member refid="class_iterator_reader_1a2a30efc62c6e3615d47b088a9b611a6f" prot="private" virt="non-virtual"><scope>IteratorReader</scope><name>ptr_</name></member>
+      <member refid="class_iterator_reader_1ac3bd27f656c1c4e73fa1b18b6e03c98b" prot="public" virt="non-virtual"><scope>IteratorReader</scope><name>read</name></member>
+      <member refid="class_iterator_reader_1a346d5c2e5d815ec1bf614d4def8848a6" prot="public" virt="non-virtual"><scope>IteratorReader</scope><name>readBytes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

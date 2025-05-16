@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_h_u_s_k_y_l_e_n_s_arrow_info__t" kind="struct" language="C++" prot="public">
+    <compoundname>HUSKYLENSArrowInfo_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1af29ba490071bfa3eda49e8ce5b6b35b8" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t HUSKYLENSArrowInfo_t::xOrigin</definition>
+        <argsstring></argsstring>
+        <name>xOrigin</name>
+        <qualifiedname>HUSKYLENSArrowInfo_t::xOrigin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="16" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1a7b63570d3371d4bb73d2439628e47bc4" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t HUSKYLENSArrowInfo_t::yOrigin</definition>
+        <argsstring></argsstring>
+        <name>yOrigin</name>
+        <qualifiedname>HUSKYLENSArrowInfo_t::yOrigin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="17" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1a32dc695017e8076c7f577af936bb4a72" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t HUSKYLENSArrowInfo_t::xTarget</definition>
+        <argsstring></argsstring>
+        <name>xTarget</name>
+        <qualifiedname>HUSKYLENSArrowInfo_t::xTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="18" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1a05f9781b8b324476d1b8de437ca9fc52" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t HUSKYLENSArrowInfo_t::yTarget</definition>
+        <argsstring></argsstring>
+        <name>yTarget</name>
+        <qualifiedname>HUSKYLENSArrowInfo_t::yTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="19" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="14" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1af29ba490071bfa3eda49e8ce5b6b35b8" prot="public" virt="non-virtual"><scope>HUSKYLENSArrowInfo_t</scope><name>xOrigin</name></member>
+      <member refid="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1a32dc695017e8076c7f577af936bb4a72" prot="public" virt="non-virtual"><scope>HUSKYLENSArrowInfo_t</scope><name>xTarget</name></member>
+      <member refid="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1a7b63570d3371d4bb73d2439628e47bc4" prot="public" virt="non-virtual"><scope>HUSKYLENSArrowInfo_t</scope><name>yOrigin</name></member>
+      <member refid="struct_h_u_s_k_y_l_e_n_s_arrow_info__t_1a05f9781b8b324476d1b8de437ca9fc52" prot="public" virt="non-virtual"><scope>HUSKYLENSArrowInfo_t</scope><name>yTarget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

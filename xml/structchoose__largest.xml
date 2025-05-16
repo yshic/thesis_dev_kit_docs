@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structchoose__largest" kind="struct" language="C++" prot="public">
+    <compoundname>choose_largest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">conditional&lt;(sizeof(A) &gt; sizeof(B)), A, B &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename A</type>
+      </param>
+      <param>
+        <type>typename B</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>choose_largest&lt; A, B &gt;</label>
+        <link refid="structchoose__largest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>conditional&lt;(sizeof(A) &gt; sizeof(B)), A, B &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>choose_largest&lt; A, B &gt;</label>
+        <link refid="structchoose__largest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>conditional&lt;(sizeof(A) &gt; sizeof(B)), A, B &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="19" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="19" bodyend="19"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

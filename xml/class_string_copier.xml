@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_string_copier" kind="class" language="C++" prot="public">
+    <compoundname>StringCopier</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_string_copier_1ac69f7931ebf61e481f1f729a289cda95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+        <definition>MemoryPool* StringCopier::pool_</definition>
+        <argsstring></argsstring>
+        <name>pool_</name>
+        <qualifiedname>StringCopier::pool_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="62" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_string_copier_1a50a54f4097da10a0255f7d7a0aef0103" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* StringCopier::ptr_</definition>
+        <argsstring></argsstring>
+        <name>ptr_</name>
+        <qualifiedname>StringCopier::ptr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="67" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_string_copier_1aca4069a62a60c73ddb797497052eecd8" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t StringCopier::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>StringCopier::size_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="69" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_string_copier_1a7dea9257e214f42658131ef12e2556c6" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t StringCopier::capacity_</definition>
+        <argsstring></argsstring>
+        <name>capacity_</name>
+        <qualifiedname>StringCopier::capacity_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="69" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_string_copier_1a8fe2eca698acb4474a9de8e0db4d37d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StringCopier::StringCopier</definition>
+        <argsstring>(MemoryPool *pool)</argsstring>
+        <name>StringCopier</name>
+        <qualifiedname>StringCopier::StringCopier</qualifiedname>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="13" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1a3d2b6c93235655b96d8f188d28b3af4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StringCopier::startString</definition>
+        <argsstring>()</argsstring>
+        <name>startString</name>
+        <qualifiedname>StringCopier::startString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="15" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1ae7c1047349dc0565094db2af13010f21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>JsonString StringCopier::save</definition>
+        <argsstring>()</argsstring>
+        <name>save</name>
+        <qualifiedname>StringCopier::save</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="22" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1acfc8f11ac0db73f01bd6cb538a764a2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StringCopier::append</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>append</name>
+        <qualifiedname>StringCopier::append</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="29" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1a20cb14e997776398c4750dd1a4766744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StringCopier::append</definition>
+        <argsstring>(const char *s, size_t n)</argsstring>
+        <name>append</name>
+        <qualifiedname>StringCopier::append</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="34" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1a32d0e2d4134032a00533658491f41c78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StringCopier::append</definition>
+        <argsstring>(char c)</argsstring>
+        <name>append</name>
+        <qualifiedname>StringCopier::append</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="39" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1a21e02223605cc91f8b5a7b27d5c0317d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool StringCopier::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <qualifiedname>StringCopier::isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="46" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1a7ed173718bbf955ac61e97ae93155b38" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t StringCopier::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>StringCopier::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="50" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_copier_1addb1d46c9629a01501def62c34eba364" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>JsonString StringCopier::str</definition>
+        <argsstring>() const</argsstring>
+        <name>str</name>
+        <qualifiedname>StringCopier::str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="54" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="54" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="11" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="11" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_string_copier_1acfc8f11ac0db73f01bd6cb538a764a2a" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>append</name></member>
+      <member refid="class_string_copier_1a20cb14e997776398c4750dd1a4766744" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>append</name></member>
+      <member refid="class_string_copier_1a32d0e2d4134032a00533658491f41c78" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>append</name></member>
+      <member refid="class_string_copier_1a7dea9257e214f42658131ef12e2556c6" prot="private" virt="non-virtual"><scope>StringCopier</scope><name>capacity_</name></member>
+      <member refid="class_string_copier_1a21e02223605cc91f8b5a7b27d5c0317d" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>isValid</name></member>
+      <member refid="class_string_copier_1ac69f7931ebf61e481f1f729a289cda95" prot="private" virt="non-virtual"><scope>StringCopier</scope><name>pool_</name></member>
+      <member refid="class_string_copier_1a50a54f4097da10a0255f7d7a0aef0103" prot="private" virt="non-virtual"><scope>StringCopier</scope><name>ptr_</name></member>
+      <member refid="class_string_copier_1ae7c1047349dc0565094db2af13010f21" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>save</name></member>
+      <member refid="class_string_copier_1a7ed173718bbf955ac61e97ae93155b38" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>size</name></member>
+      <member refid="class_string_copier_1aca4069a62a60c73ddb797497052eecd8" prot="private" virt="non-virtual"><scope>StringCopier</scope><name>size_</name></member>
+      <member refid="class_string_copier_1a3d2b6c93235655b96d8f188d28b3af4b" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>startString</name></member>
+      <member refid="class_string_copier_1addb1d46c9629a01501def62c34eba364" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>str</name></member>
+      <member refid="class_string_copier_1a8fe2eca698acb4474a9de8e0db4d37d3" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>StringCopier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

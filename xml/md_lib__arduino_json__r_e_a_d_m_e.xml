@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="md_lib__arduino_json__r_e_a_d_m_e" kind="page">
+    <compoundname>md_lib_ArduinoJson_README</compoundname>
+    <title>README</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para></para>
+<para><ulink url="https://arduinojson.org/"><image type="html" name="https://arduinojson.org/images/logo.svg" alt="ArduinoJson" inline="yes"></image>
+</ulink> </para>
+<para><hruler/>
+</para>
+<para><ulink url="https://github.com/bblanchon/ArduinoJson/actions?query=workflow%3A%22Continuous+Integration%22+branch%3A6.x"><image type="html" name="https://img.shields.io/github/actions/workflow/status/bblanchon/ArduinoJson/ci.yml?branch=6.x&amp;logo=github" alt="GitHub Workflow Status" inline="yes"></image>
+</ulink> <ulink url="https://ci.appveyor.com/project/bblanchon/arduinojson/branch/6.x"><image type="html" name="https://ci.appveyor.com/api/projects/status/m7s53wav1l0abssg/branch/6.x?svg=true" alt="Continuous Integration" inline="yes"></image>
+</ulink> <ulink url="https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&amp;can=1&amp;q=proj:arduinojson"><image type="html" name="https://oss-fuzz-build-logs.storage.googleapis.com/badges/arduinojson.svg" alt="Fuzzing Status" inline="yes"></image>
+</ulink> <ulink url="https://coveralls.io/github/bblanchon/ArduinoJson?branch=6.x"><image type="html" name="https://img.shields.io/coveralls/github/bblanchon/ArduinoJson/6.x?logo=coveralls" alt="Coveralls branch" inline="yes"></image>
+</ulink> <linebreak/>
+ <ulink url="https://www.ardu-badge.com/ArduinoJson/6.21.5"><image type="html" name="https://img.shields.io/static/v1?label=Arduino&amp;message=v6.21.5&amp;logo=arduino&amp;logoColor=white&amp;color=blue" alt="Arduino Library Manager" inline="yes"></image>
+</ulink> <ulink url="https://registry.platformio.org/packages/libraries/bblanchon/ArduinoJson?version=6.21.5"><image type="html" name="https://badges.registry.platformio.org/packages/bblanchon/library/ArduinoJson.svg?version=6.21.5" alt="PlatformIO Registry" inline="yes"></image>
+</ulink> <ulink url="https://components.espressif.com/components/bblanchon/arduinojson"><image type="html" name="https://img.shields.io/static/v1?label=ESP+IDF&amp;message=v6.21.5&amp;logo=cpu&amp;logoColor=white&amp;color=blue" alt="ESP IDF" inline="yes"></image>
+</ulink> <linebreak/>
+ <ulink url="https://github.com/bblanchon/ArduinoJson/stargazers"><image type="html" name="https://img.shields.io/github/stars/bblanchon/ArduinoJson?style=flat&amp;logo=github&amp;color=orange" alt="GitHub stars" inline="yes"></image>
+</ulink> <ulink url="https://github.com/sponsors/bblanchon"><image type="html" name="https://img.shields.io/github/sponsors/bblanchon?logo=github&amp;color=orange" alt="GitHub Sponsors" inline="yes"></image>
+</ulink></para>
+<para>ArduinoJson is a C++ JSON library for Arduino and IoT (Internet Of Things).</para>
+<sect2 id="md_lib__arduino_json__r_e_a_d_m_e_1autotoc_md5">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para><ulink url="https://arduinojson.org/v6/api/json/deserializejson/">JSON deserialization</ulink><itemizedlist>
+<listitem><para><ulink url="https://arduinojson.org/v6/api/config/decode_unicode/">Optionally decodes UTF-16 escape sequences to UTF-8</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/json/deserializejson/">Optionally stores links to the input buffer (zero-copy)</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/config/enable_comments/">Optionally supports comments in the input</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/json/deserializejson/#filtering">Optionally filters the input to keep only desired values</ulink></para>
+</listitem><listitem><para>Supports single quotes as a string delimiter</para>
+</listitem><listitem><para>Compatible with <ulink url="http://ndjson.org/">NDJSON</ulink> and <ulink url="https://jsonlines.org/">JSON Lines</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/json/serializejson/">JSON serialization</ulink><itemizedlist>
+<listitem><para><ulink url="https://arduinojson.org/v6/api/json/serializejson/">Can write to a buffer or a stream</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/json/serializejsonpretty/">Optionally indents the document (prettified JSON)</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/msgpack/serializemsgpack/">MessagePack serialization</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/msgpack/deserializemsgpack/">MessagePack deserialization</ulink></para>
+</listitem><listitem><para>Efficient<itemizedlist>
+<listitem><para><ulink url="https://arduinojson.org/2019/11/19/arduinojson-vs-arduino_json/">Twice smaller than the "official" Arduino_JSON library</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/2019/11/19/arduinojson-vs-arduino_json/">Almost 10% faster than the "official" Arduino_JSON library</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/2019/11/19/arduinojson-vs-arduino_json/">Consumes roughly 10% less RAM than the "official" Arduino_JSON library</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/jsondocument/">Fixed memory allocation, no heap fragmentation</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/staticjsondocument/">Optionally works without heap memory (zero malloc)</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/news/2020/08/01/version-6-16-0/">Deduplicates strings</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Versatile<itemizedlist>
+<listitem><para>Supports <ulink url="https://arduinojson.org/v6/how-to/use-external-ram-on-esp32/">custom allocators (to use external RAM chip, for example)</ulink></para>
+</listitem><listitem><para>Supports <ulink url="https://arduinojson.org/v6/api/config/enable_arduino_string/"><computeroutput>String</computeroutput></ulink>, <ulink url="https://arduinojson.org/v6/api/config/enable_std_string/"><computeroutput>std::string</computeroutput></ulink>, and <ulink url="https://arduinojson.org/v6/api/config/enable_string_view/"><computeroutput>std::string_view</computeroutput></ulink></para>
+</listitem><listitem><para>Supports <ulink url="https://arduinojson.org/v6/api/config/enable_arduino_stream/"><computeroutput>Stream</computeroutput></ulink> and <ulink url="https://arduinojson.org/v6/api/config/enable_std_stream/"><computeroutput>std::istream</computeroutput>/<computeroutput>std::ostream</computeroutput></ulink></para>
+</listitem><listitem><para>Supports <ulink url="https://arduinojson.org/v6/api/config/enable_progmem/">Flash strings</ulink></para>
+</listitem><listitem><para>Supports <ulink url="https://arduinojson.org/v6/api/json/deserializejson/#custom-reader">custom readers</ulink> and <ulink url="https://arduinojson.org/v6/api/json/serializejson/#custom-writer">custom writers</ulink></para>
+</listitem><listitem><para>Supports <ulink url="https://arduinojson.org/news/2021/05/04/version-6-18-0/">custom converters</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Portable<itemizedlist>
+<listitem><para>Usable on any C++ project (not limited to Arduino)</para>
+</listitem><listitem><para>Compatible with C++11, C++14 and C++17</para>
+</listitem><listitem><para>Support for C++98/C++03 available on <ulink url="https://github.com/bblanchon/ArduinoJson/tree/6.20.x">ArduinoJson 6.20.x</ulink></para>
+</listitem><listitem><para>Zero warnings with <computeroutput>-Wall -Wextra -pedantic</computeroutput> and <computeroutput>/W4</computeroutput></para>
+</listitem><listitem><para><ulink url="https://en.wikipedia.org/wiki/Header-only">Header-only library</ulink></para>
+</listitem><listitem><para>Works with virtually any board<itemizedlist>
+<listitem><para>Arduino boards: <ulink url="https://amzn.to/38aL2ik">Uno</ulink>, <ulink url="https://amzn.to/36YkWi2">Due</ulink>, <ulink url="https://amzn.to/35WkdwG">Micro</ulink>, <ulink url="https://amzn.to/2QTvwRX">Nano</ulink>, <ulink url="https://amzn.to/36XWhuf">Mega</ulink>, <ulink url="https://amzn.to/30odURc">Yun</ulink>, <ulink url="https://amzn.to/36XWjlR">Leonardo</ulink>...</para>
+</listitem><listitem><para>Espressif chips: <ulink url="https://amzn.to/36YluV8">ESP8266</ulink>, <ulink url="https://amzn.to/2G4pRCB">ESP32</ulink></para>
+</listitem><listitem><para>Lolin (WeMos) boards: <ulink url="https://amzn.to/2QUpz7q">D1 mini</ulink>, <ulink url="https://amzn.to/36UsGSs">D1 Mini Pro</ulink>...</para>
+</listitem><listitem><para>Teensy boards: <ulink url="https://amzn.to/30ljXGq">4.0</ulink>, <ulink url="https://amzn.to/2FT0EuC">3.2</ulink>, <ulink url="https://amzn.to/2QXUMXj">2.0</ulink></para>
+</listitem><listitem><para>Particle boards: <ulink url="https://amzn.to/2FQHa9X">Argon</ulink>, <ulink url="https://amzn.to/36WgLUd">Boron</ulink>, <ulink url="https://amzn.to/30vEc4k">Electron</ulink>, <ulink url="https://amzn.to/387F9Cd">Photon</ulink>...</para>
+</listitem><listitem><para>Texas Instruments boards: <ulink url="https://amzn.to/30nJWgg">MSP430</ulink>...</para>
+</listitem><listitem><para>Soft cores: <ulink url="https://en.wikipedia.org/wiki/Nios_II">Nios II</ulink>...</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Tested on all major development environments<itemizedlist>
+<listitem><para><ulink url="https://www.arduino.cc/en/Main/Software">Arduino IDE</ulink></para>
+</listitem><listitem><para><ulink url="http://www.atmel.com/microsite/atmel-studio/">Atmel Studio</ulink></para>
+</listitem><listitem><para><ulink url="https://atollic.com/truestudio/">Atollic TrueSTUDIO</ulink></para>
+</listitem><listitem><para><ulink url="http://energia.nu/">Energia</ulink></para>
+</listitem><listitem><para><ulink url="https://www.iar.com/iar-embedded-workbench/">IAR Embedded Workbench</ulink></para>
+</listitem><listitem><para><ulink url="http://www.keil.com/">Keil uVision</ulink></para>
+</listitem><listitem><para><ulink url="http://www.microchip.com/mplab/mplab-x-ide">MPLAB X IDE</ulink></para>
+</listitem><listitem><para><ulink url="https://www.particle.io/">Particle</ulink></para>
+</listitem><listitem><para><ulink url="http://platformio.org/">PlatformIO</ulink></para>
+</listitem><listitem><para><ulink url="https://eclipse.baeyens.it/">Sloeber plugin for Eclipse</ulink></para>
+</listitem><listitem><para><ulink url="http://www.visualmicro.com/">Visual Micro</ulink></para>
+</listitem><listitem><para><ulink url="https://www.visualstudio.com/">Visual Studio</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://wandbox.org/permlink/RlZSKy17DjJ6HcdN">Even works with online compilers like wandbox.org</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/how-to/use-arduinojson-with-cmake/">CMake friendly</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Well designed<itemizedlist>
+<listitem><para><ulink url="http://arduinojson.org/v6/example/">Elegant API</ulink></para>
+</listitem><listitem><para><ulink url="https://en.wikipedia.org/wiki/Thread_safety">Thread-safe</ulink></para>
+</listitem><listitem><para>Self-contained (no external dependency)</para>
+</listitem><listitem><para><computeroutput>const</computeroutput> friendly</para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/api/jsonobject/begin_end/"><computeroutput>for</computeroutput> friendly</ulink></para>
+</listitem><listitem><para><ulink url="https://en.wikipedia.org/wiki/Template_metaprogramming">TMP friendly</ulink></para>
+</listitem><listitem><para>Handles <ulink url="https://arduinojson.org/v6/api/jsonvariant/as/#integer-overflows">integer overflows</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Well tested<itemizedlist>
+<listitem><para><ulink url="https://coveralls.io/github/bblanchon/ArduinoJson?branch=6.x">Unit test coverage close to 100%</ulink></para>
+</listitem><listitem><para>Continuously tested on<itemizedlist>
+<listitem><para><ulink url="https://ci.appveyor.com/project/bblanchon/arduinojson/branch/6.x">Visual Studio 2017, 2019, 2022</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/bblanchon/ArduinoJson/actions?query=workflow%3A%22Continuous+Integration%22">GCC 5, 6, 7, 8, 9, 10, 11</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/bblanchon/ArduinoJson/actions?query=workflow%3A%22Continuous+Integration%22">Clang 3.8, 3.9, 4.0, 5.0, 6.0, 7, 8, 9, 10</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&amp;can=1&amp;q=proj:arduinojson">Continuously fuzzed with Google OSS Fuzz</ulink></para>
+</listitem><listitem><para>Passes all default checks of <ulink url="https://releases.llvm.org/10.0.0/tools/clang/tools/extra/docs/clang-tidy/">clang-tidy</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Well documented<itemizedlist>
+<listitem><para><ulink url="https://arduinojson.org/v6/doc/deserialization/">Tutorials</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/example/">Examples</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/example/">How-tos</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/faq/">FAQ</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/v6/troubleshooter/">Troubleshooter</ulink></para>
+</listitem><listitem><para><ulink url="https://arduinojson.org/book/">Book</ulink></para>
+</listitem><listitem><para>Changelog</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Vibrant user community<itemizedlist>
+<listitem><para>Most popular of all Arduino libraries on <ulink url="https://github.com/search?o=desc&amp;q=arduino+library&amp;s=stars&amp;type=Repositories">GitHub</ulink></para>
+</listitem><listitem><para><ulink url="https://www.hackster.io/search?i=projects&amp;q=arduinojson">Used in hundreds of projects</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/bblanchon/ArduinoJson/issues?q=is%3Aissue+is%3Aclosed">Responsive support</ulink></para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md_lib__arduino_json__r_e_a_d_m_e_1autotoc_md6">
+<title>Quickstart</title>
+<sect3 id="md_lib__arduino_json__r_e_a_d_m_e_1autotoc_md7">
+<title>Deserialization</title>
+<para>Here is a program that parses a JSON document with ArduinoJson.</para>
+<para><programlisting><codeline><highlight class="normal"><sp/>{c++}</highlight></codeline>
+<codeline><highlight class="normal">char<sp/>json[]<sp/>=<sp/>&quot;{\&quot;sensor\&quot;:\&quot;gps\&quot;,\&quot;time\&quot;:1351824120,\&quot;data\&quot;:[48.756080,2.302038]}&quot;;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">DynamicJsonDocument<sp/>doc(1024);</highlight></codeline>
+<codeline><highlight class="normal">deserializeJson(doc,<sp/>json);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">const<sp/>char*<sp/>sensor<sp/>=<sp/>doc[&quot;sensor&quot;];</highlight></codeline>
+<codeline><highlight class="normal">long<sp/>time<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>doc[&quot;time&quot;];</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>latitude<sp/><sp/><sp/><sp/>=<sp/>doc[&quot;data&quot;][0];</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>longitude<sp/><sp/><sp/>=<sp/>doc[&quot;data&quot;][1];</highlight></codeline>
+</programlisting></para>
+<para>See the <ulink url="https://arduinojson.org/v6/doc/deserialization/">tutorial on arduinojson.org</ulink></para>
+</sect3>
+<sect3 id="md_lib__arduino_json__r_e_a_d_m_e_1autotoc_md8">
+<title>Serialization</title>
+<para>Here is a program that generates a JSON document with ArduinoJson:</para>
+<para><programlisting><codeline><highlight class="normal"><sp/>{c++}</highlight></codeline>
+<codeline><highlight class="normal">DynamicJsonDocument<sp/>doc(1024);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">doc[&quot;sensor&quot;]<sp/>=<sp/>&quot;gps&quot;;</highlight></codeline>
+<codeline><highlight class="normal">doc[&quot;time&quot;]<sp/><sp/><sp/>=<sp/>1351824120;</highlight></codeline>
+<codeline><highlight class="normal">doc[&quot;data&quot;][0]<sp/>=<sp/>48.756080;</highlight></codeline>
+<codeline><highlight class="normal">doc[&quot;data&quot;][1]<sp/>=<sp/>2.302038;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">serializeJson(doc,<sp/>Serial);</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>This<sp/>prints:</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>{&quot;sensor&quot;:&quot;gps&quot;,&quot;time&quot;:1351824120,&quot;data&quot;:[48.756080,2.302038]}</highlight></codeline>
+</programlisting></para>
+<para>See the <ulink url="https://arduinojson.org/v6/doc/serialization/">tutorial on arduinojson.org</ulink></para>
+</sect3>
+</sect2>
+<sect2 id="md_lib__arduino_json__r_e_a_d_m_e_1autotoc_md9">
+<title>Sponsors</title>
+<para>ArduinoJson is thankful to its sponsors. Please give them a visit; they deserve it!</para>
+<para><ulink url="https://www.programmingelectronics.com/"><image type="html" name="https://arduinojson.org/images/2021/10/programmingeleactronicsacademy.png" alt="Programming Electronics Academy" inline="yes"></image>
+ </ulink> </para>
+<para><ulink url="https://github.com/1technophile"><image type="html" name="https://avatars.githubusercontent.com/u/12672732?s=40&amp;v=4" alt="1technophile" inline="yes"></image>
+ </ulink> </para>
+<para>If you run a commercial project that embeds ArduinoJson, think about <ulink url="https://github.com/sponsors/bblanchon">sponsoring the library&apos;s development</ulink>: it ensures the code that your products rely on stays actively maintained. It can also give your project some exposure to the makers&apos; community.</para>
+<para>If you are an individual user and want to support the development (or give a sign of appreciation), consider purchasing the book <ulink url="https://arduinojson.org/book/">Mastering ArduinoJson</ulink><nonbreakablespace/>❤, or simply <ulink url="https://github.com/bblanchon/ArduinoJson/stargazers">cast a star</ulink><nonbreakablespace/>⭐. </para>
+</sect2>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/README.md"/>
+  </compounddef>
+</doxygen>

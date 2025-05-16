@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_husky_lens_protocol_core_8h" kind="file" language="C++">
+    <compoundname>HuskyLensProtocolCore.h</compoundname>
+    <includes local="yes">stdio.h</includes>
+    <includes local="yes">stdbool.h</includes>
+    <includes local="yes">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="yes">stdint.h</includes>
+    <includedby refid="_h_u_s_k_y_l_e_n_s_8h" local="yes">lib/HUSKYLENS/HUSKYLENS.h</includedby>
+    <includedby refid="_husky_lens_protocol_core_8c" local="yes">lib/HUSKYLENS/HuskyLensProtocolCore.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>lib/HUSKYLENS/HuskyLensProtocolCore.h</label>
+        <link refid="_husky_lens_protocol_core_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>lib/HUSKYLENS/DFRobot_HuskyLens.h</label>
+        <link refid="_d_f_robot___husky_lens_8h_source"/>
+      </node>
+      <node id="2">
+        <label>lib/HUSKYLENS/HUSKYLENS.h</label>
+        <link refid="_h_u_s_k_y_l_e_n_s_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>lib/HUSKYLENS/HUSKYLENSMindPlus.h</label>
+        <link refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_source"/>
+      </node>
+      <node id="1">
+        <label>lib/HUSKYLENS/HuskyLensProtocolCore.h</label>
+        <link refid="_husky_lens_protocol_core_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_husky_lens_protocol_core_8h_1aa1835565210c14fb46d24a5f713f2dbd" prot="public" static="no">
+        <name>IS_BIG_ENDIAN</name>
+        <param></param>
+        <initializer>(!*(uint8_t *)&amp;(uint16_t){1})</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="30" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a9b16cdf4814f3f8519ee9dd4f947c433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool husky_lens_protocol_receive</definition>
+        <argsstring>(uint8_t data)</argsstring>
+        <name>husky_lens_protocol_receive</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="14" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="42" bodyend="71" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1ab114ee4ba98f77ed17a19d69de7f25c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool husky_lens_protocol_read_begin</definition>
+        <argsstring>(uint8_t command)</argsstring>
+        <name>husky_lens_protocol_read_begin</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="15" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="73" bodyend="82" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a64a67795748cae247905ccc85ce6cb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t husky_lens_protocol_read_uint8</definition>
+        <argsstring>()</argsstring>
+        <name>husky_lens_protocol_read_uint8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="16" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="84" bodyend="90" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="16" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a4904dc626dd964b4c227021e8ef263b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int16_t</type>
+        <definition>int16_t husky_lens_protocol_read_int16</definition>
+        <argsstring>()</argsstring>
+        <name>husky_lens_protocol_read_int16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="17" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="92" bodyend="99" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="17" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a3cfb630f08005c929b677b998633d6b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t husky_lens_protocol_read_int32</definition>
+        <argsstring>()</argsstring>
+        <name>husky_lens_protocol_read_int32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="18" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="101" bodyend="108" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="18" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1af86bdd2343a54ff54d50e6b708022f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float husky_lens_protocol_read_float</definition>
+        <argsstring>()</argsstring>
+        <name>husky_lens_protocol_read_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="19" column="7" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="110" bodyend="117" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="19" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a73507c062b731375ecf9f8a8ce683b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool husky_lens_protocol_read_end</definition>
+        <argsstring>()</argsstring>
+        <name>husky_lens_protocol_read_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="20" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="119" bodyend="126" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a0ebbf9e36a6106522f8b9930c8d1a543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * husky_lens_protocol_write_begin</definition>
+        <argsstring>(uint8_t command)</argsstring>
+        <name>husky_lens_protocol_write_begin</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="22" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="128" bodyend="136" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="22" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1a154f453fe823fefac3de096d3df17a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void husky_lens_protocol_write_uint8</definition>
+        <argsstring>(uint8_t content)</argsstring>
+        <name>husky_lens_protocol_write_uint8</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="23" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="138" bodyend="142" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1aaa3148f39ed4d451fcd9d3cfb2b5f80e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void husky_lens_protocol_write_int16</definition>
+        <argsstring>(int16_t content)</argsstring>
+        <name>husky_lens_protocol_write_int16</name>
+        <param>
+          <type>int16_t</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="24" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="144" bodyend="149" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1ac226d5d0c1bd4293aa9d5eb5df8a9826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void husky_lens_protocol_write_int32</definition>
+        <argsstring>(int32_t content)</argsstring>
+        <name>husky_lens_protocol_write_int32</name>
+        <param>
+          <type>int32_t</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="25" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="151" bodyend="156" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1afd53363acf69634029a8cddae25faae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void husky_lens_protocol_write_float</definition>
+        <argsstring>(float content)</argsstring>
+        <name>husky_lens_protocol_write_float</name>
+        <param>
+          <type>float</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="26" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="158" bodyend="163" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1ae4735c30c524a6896e652821f57f6f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void husky_lens_protocol_write_buffer_uint8</definition>
+        <argsstring>(uint8_t *content, uint32_t length)</argsstring>
+        <name>husky_lens_protocol_write_buffer_uint8</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="27" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="165" bodyend="170" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_husky_lens_protocol_core_8h_1ad2343af21d33c7406560a7747e8a8b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int husky_lens_protocol_write_end</definition>
+        <argsstring>()</argsstring>
+        <name>husky_lens_protocol_write_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h" line="28" column="5" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="172" bodyend="184" declfile="lib/HUSKYLENS/HuskyLensProtocolCore.h" declline="28" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_HUSKY_LENS_PROTOCOL_CORE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_HUSKY_LENS_PROTOCOL_CORE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdbool.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>husky_lens_protocol_receive(uint8_t<sp/>data);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>husky_lens_protocol_read_begin(uint8_t<sp/>command);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">uint8_t<sp/>husky_lens_protocol_read_uint8();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">int16_t<sp/>husky_lens_protocol_read_int16();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">int32_t<sp/>husky_lens_protocol_read_int32();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>husky_lens_protocol_read_float();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>husky_lens_protocol_read_end();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">uint8_t*<sp/>husky_lens_protocol_write_begin(uint8_t<sp/>command);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>husky_lens_protocol_write_uint8(uint8_t<sp/>content);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>husky_lens_protocol_write_int16(int16_t<sp/>content);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>husky_lens_protocol_write_int32(int32_t<sp/>content);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>husky_lens_protocol_write_float(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>content);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>husky_lens_protocol_write_buffer_uint8(uint8_t<sp/>*content,<sp/>uint32_t<sp/>length);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>husky_lens_protocol_write_end();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_BIG_ENDIAN()<sp/>(!*(uint8_t<sp/>*)&amp;(uint16_t){1})</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="lib/HUSKYLENS/HuskyLensProtocolCore.h"/>
+  </compounddef>
+</doxygen>

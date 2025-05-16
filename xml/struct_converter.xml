@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_converter" kind="struct" language="C++" prot="public">
+    <compoundname>Converter</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Enable</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_converter_1acee93a9334b03b60080226d6cbed33e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Converter&lt; T, Enable &gt;::toJson</definition>
+        <argsstring>(const T &amp;src, JsonVariant dst)</argsstring>
+        <name>toJson</name>
+        <qualifiedname>Converter::toJson</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_json_variant" kindref="compound">JsonVariant</ref></type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="23" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Converter&lt; T, Enable &gt;::fromJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>fromJson</name>
+        <qualifiedname>Converter::fromJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="29" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Converter&lt; T, Enable &gt;::checkJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>checkJson</name>
+        <qualifiedname>Converter::checkJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="37" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="37" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="22" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="22" bodyend="43"/>
+    <listofallmembers>
+      <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" prot="public" virt="non-virtual"><scope>Converter</scope><name>checkJson</name></member>
+      <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" prot="public" virt="non-virtual"><scope>Converter</scope><name>fromJson</name></member>
+      <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" prot="public" virt="non-virtual"><scope>Converter</scope><name>toJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacestring__traits__impl" kind="namespace" language="C++">
+    <compoundname>string_traits_impl</compoundname>
+    <innerclass refid="structstring__traits__impl_1_1has__cstr" prot="public">string_traits_impl::has_cstr</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__cstr_3_01_t_00_01typename_01enable__if_3_01is__same_3_01declt236b6fe71a77ce5b095881c43205761a" prot="public">string_traits_impl::has_cstr&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().c_str()), const char * &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__data" prot="public">string_traits_impl::has_data</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__data_3_01_t_00_01typename_01enable__if_3_01is__same_3_01decltd3999b87fd3300a950158078bd5e2cff" prot="public">string_traits_impl::has_data&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().data()), const char * &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__length" prot="public">string_traits_impl::has_length</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__length_3_01_t_00_01typename_01enable__if_3_01is__same_3_01deca935f9aeb6e4809fe2a3087a502c5dee" prot="public">string_traits_impl::has_length&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().length()), size_t &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__size" prot="public">string_traits_impl::has_size</innerclass>
+    <innerclass refid="structstring__traits__impl_1_1has__size_3_01_t_00_01typename_01enable__if_3_01is__same_3_01decltef0f2995c142201702069b7a64004a78" prot="public">string_traits_impl::has_size&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().size()), size_t &gt;::value &gt;::type &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="12" column="1"/>
+  </compounddef>
+</doxygen>

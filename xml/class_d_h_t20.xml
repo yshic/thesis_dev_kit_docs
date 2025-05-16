@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_d_h_t20" kind="class" language="C++" prot="public">
+    <compoundname>DHT20</compoundname>
+    <includes refid="dht20_8h" local="no">dht20.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_h_t20_1a3217933b98490ad3662282d49697425e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DHT20::sensorValue[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>sensorValue</name>
+        <qualifiedname>DHT20::sensorValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="137" column="9" bodyfile="lib/dht20/src/dht20.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_h_t20_1a40a083a5c1114c27e99dbe6a35333f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DHT20::DHT20</definition>
+        <argsstring>()</argsstring>
+        <name>DHT20</name>
+        <qualifiedname>DHT20::DHT20</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="78" column="3" bodyfile="lib/dht20/src/dht20.cpp" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dht20_error_t</type>
+        <definition>dht20_error_t DHT20::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>DHT20::begin</qualifiedname>
+        <briefdescription>
+<para>Initializes the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function initializes the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor by waiting for a brief period after power-on and then resetting the sensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and powered on before calling this function. This function includes a 100ms delay to allow the sensor to stabilize after power-on.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>DHT20_OK</computeroutput>: Initialization success. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="94" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dht20_error_t</type>
+        <definition>dht20_error_t DHT20::readTempAndHumidity</definition>
+        <argsstring>()</argsstring>
+        <name>readTempAndHumidity</name>
+        <qualifiedname>DHT20::readTempAndHumidity</qualifiedname>
+        <briefdescription>
+<para>Reads temperature and humidity data from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function attempts to read temperature and humidity data from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. It retries the operation multiple times if the sensor is not ready or data is not available. The raw sensor values are then converted to floating-point temperature and humidity values.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and that I2C communication is functioning. This function may block for short periods while waiting for the sensor to be ready and for data to be available.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>DHT20_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>DHT20_TIMEOUT</computeroutput>: Timeout, the sensor is not ready or data is not available after multiple attempts. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="114" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="148" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float DHT20::getHumidity</definition>
+        <argsstring>()</argsstring>
+        <name>getHumidity</name>
+        <qualifiedname>DHT20::getHumidity</qualifiedname>
+        <briefdescription>
+<para>Get humidity data from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The humidity data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="124" column="9" bodyfile="lib/dht20/src/dht20.cpp" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float DHT20::getTemperature</definition>
+        <argsstring>()</argsstring>
+        <name>getTemperature</name>
+        <qualifiedname>DHT20::getTemperature</qualifiedname>
+        <briefdescription>
+<para>Get temperature data from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The temperature data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="134" column="9" bodyfile="lib/dht20/src/dht20.cpp" bodystart="184" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_h_t20_1a1588d5663bf1c45f0cd01ff4b3a01b88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dht20_error_t</type>
+        <definition>dht20_error_t DHT20::readTargetData</definition>
+        <argsstring>(uint32_t *data)</argsstring>
+        <name>readTargetData</name>
+        <qualifiedname>DHT20::readTargetData</qualifiedname>
+        <param>
+          <type>uint32_t *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Reads temperature and humidity data from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function reads a 6-byte buffer from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor, where the first byte is the status register, and the remaining 5 bytes contain temperature and humidity data. It processes these bytes to extract the humidity and temperature values.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a buffer where the temperature and humidity data will be stored.<itemizedlist>
+<listitem><para><computeroutput>data[HUMIDITY_INDEX]</computeroutput> will hold the processed humidity data.</para>
+</listitem><listitem><para><computeroutput>data[TEMPERATURE_INDEX]</computeroutput> will hold the processed temperature data.</para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is properly connected and that the I2C communication is functioning. The function waits for 80 milliseconds for the measurement to complete, which might block other operations during this time.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>DHT20_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>DHT20_ERR_I2C_WRITE</computeroutput>: Error writing to the I2C bus</para>
+</listitem><listitem><para><computeroutput>DHT20_ERR_I2C_READ</computeroutput>: Error reading from the I2C bus</para>
+</listitem><listitem><para><computeroutput>DHT20_ERR</computeroutput>: Sensor is still busy or not ready </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="164" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="108" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1a34bc5381d463604f9789bc3a2dcfbfb0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DHT20::readStatus</definition>
+        <argsstring>()</argsstring>
+        <name>readStatus</name>
+        <qualifiedname>DHT20::readStatus</qualifiedname>
+        <briefdescription>
+<para>Reads the status register of the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function reads the status register byte from the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor and checks specific bits to determine the status of the sensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and that I2C communication is functioning. This function may print an error message if the byte read operation fails.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>1: If <computeroutput>(status byte &amp; 0x18) == 0x18</computeroutput></para>
+</listitem><listitem><para>0: If <computeroutput>(status byte &amp; 0x18) != 0x18</computeroutput> </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="182" column="7" bodyfile="lib/dht20/src/dht20.cpp" bodystart="86" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1affbb1ad27f215b9db2c74a0c130c5d73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DHT20::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>DHT20::reset</qualifiedname>
+        <briefdescription>
+<para>Resets the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function resets the sensor by writing to specific registers. The logic for resetting the sensor is adapted from another source with modifications. The function checks the sensor status and attempts to reset the registers. Use with care.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>See datasheet 7.4 Sensor Reading Process, point 1. </para>
+</simplesect>
+<simplesect kind="attention"><para>Use with care.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>3: OK, all registers reset successfully.</para>
+</listitem><listitem><para>0, 1, 2: Error, not all registers reset.</para>
+</listitem><listitem><para>255: No reset needed. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="203" column="7" bodyfile="lib/dht20/src/dht20.cpp" bodystart="44" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_h_t20_1a69419789f1b2d4bb8fe051eb4b568f84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DHT20::_resetRegister</definition>
+        <argsstring>(uint8_t reg)</argsstring>
+        <name>_resetRegister</name>
+        <qualifiedname>DHT20::_resetRegister</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+<para>Resets a specific register of the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function writes to a specific register to reset it. The logic is based on demo code provided by AOSONG.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">reg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The register address to reset.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the I2C communication is functioning correctly.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>true: Register reset successfully.</para>
+</listitem><listitem><para>false: Failed to reset the register. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/dht20/src/dht20.h" line="219" column="8" bodyfile="lib/dht20/src/dht20.cpp" bodystart="62" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manages communication with the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> temperature and humidity sensor. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_d_h_t20" kindref="compound">DHT20</ref></computeroutput> class provides an interface for interacting with the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor using I2C communication. It allows users to initialize the sensor, read temperature and humidity data, and handle sensor status.</para>
+<sect3 id="class_d_h_t20_1autotoc_md19">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Initialization and status management.</para>
+</listitem><listitem><para>Reading humidity and temperature values.</para>
+</listitem><listitem><para>Handling errors related to sensor communication.</para>
+</listitem><listitem><para>Provides retry mechanisms for stable sensor interaction.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_d_h_t20_1autotoc_md20">
+<title>Usage:</title>
+<para>The class should be instantiated, followed by calling <computeroutput><ref refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Temperature and humidity data can be retrieved using <computeroutput><ref refid="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" kindref="member">readTempAndHumidity()</ref></computeroutput>, <computeroutput><ref refid="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" kindref="member">getTemperature()</ref></computeroutput>, and <computeroutput><ref refid="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" kindref="member">getHumidity()</ref></computeroutput>. The class also includes internal mechanisms to manage sensor resets and diagnostics.</para>
+</sect3>
+<sect3 id="class_d_h_t20_1autotoc_md21">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires I2C communication for data retrieval.</para>
+</listitem><listitem><para>Ensure correct wiring for stable operation. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+    </detaileddescription>
+    <location file="lib/dht20/src/dht20.h" line="75" column="1" bodyfile="lib/dht20/src/dht20.h" bodystart="76" bodyend="220"/>
+    <listofallmembers>
+      <member refid="class_d_h_t20_1a69419789f1b2d4bb8fe051eb4b568f84" prot="private" virt="non-virtual"><scope>DHT20</scope><name>_resetRegister</name></member>
+      <member refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" prot="public" virt="non-virtual"><scope>DHT20</scope><name>begin</name></member>
+      <member refid="class_d_h_t20_1a40a083a5c1114c27e99dbe6a35333f12" prot="public" virt="non-virtual"><scope>DHT20</scope><name>DHT20</name></member>
+      <member refid="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" prot="public" virt="non-virtual"><scope>DHT20</scope><name>getHumidity</name></member>
+      <member refid="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" prot="public" virt="non-virtual"><scope>DHT20</scope><name>getTemperature</name></member>
+      <member refid="class_d_h_t20_1a34bc5381d463604f9789bc3a2dcfbfb0" prot="private" virt="non-virtual"><scope>DHT20</scope><name>readStatus</name></member>
+      <member refid="class_d_h_t20_1a1588d5663bf1c45f0cd01ff4b3a01b88" prot="private" virt="non-virtual"><scope>DHT20</scope><name>readTargetData</name></member>
+      <member refid="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" prot="public" virt="non-virtual"><scope>DHT20</scope><name>readTempAndHumidity</name></member>
+      <member refid="class_d_h_t20_1affbb1ad27f215b9db2c74a0c130c5d73" prot="private" virt="non-virtual"><scope>DHT20</scope><name>reset</name></member>
+      <member refid="class_d_h_t20_1a3217933b98490ad3662282d49697425e" prot="private" virt="non-virtual"><scope>DHT20</scope><name>sensorValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

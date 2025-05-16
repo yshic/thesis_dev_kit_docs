@@ -1,0 +1,12 @@
+digraph "thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="thesis_mdt266_iotdevkit\l/lib/HUSKYLENS/HUSKYLENS.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="HUSKYLENS - An Easy-to-use AI Machine Vision Sensor   Header file for HUSKYLENS."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="thesis_mdt266_iotdevkit\l/lib/HUSKYLENS/DFRobot\l_HuskyLens.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_d_f_robot___husky_lens_8h_source.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="thesis_mdt266_iotdevkit\l/lib/HUSKYLENS/HUSKYLENSMind\lPlus.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_h_u_s_k_y_l_e_n_s_mind_plus_8h_source.html",tooltip=" "];
+}

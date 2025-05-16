@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_utf8_8hpp" kind="file" language="C++">
+    <compoundname>Utf8.hpp</compoundname>
+    <includes refid="_namespace_8hpp" local="no">ArduinoJson/Namespace.hpp</includes>
+    <includedby refid="_json_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>ArduinoJson/Configuration.hpp</label>
+        <link refid="_configuration_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp</label>
+        <link refid="_utf8_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ArduinoJson/Namespace.hpp</label>
+        <link refid="_namespace_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ArduinoJson/Polyfills/preprocessor.hpp</label>
+        <link refid="preprocessor_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>ArduinoJson/version.hpp</label>
+        <link refid="version_8hpp_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <link refid="_arduino_json_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <link refid="_json_deserializer_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp</label>
+        <link refid="_utf8_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_utf8">Utf8</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>ArduinoJson<sp/>-<sp/>https://arduinojson.org</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>©<sp/>2014-2023,<sp/>Benoit<sp/>BLANCHON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Namespace.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utf8<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TStringBuilder&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>encodeCodepoint(uint32_t<sp/>codepoint32,<sp/>TStringBuilder&amp;<sp/>str)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>function<sp/>was<sp/>optimize<sp/>for<sp/>code<sp/>size<sp/>on<sp/>AVR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(codepoint32<sp/>&lt;<sp/>0x80)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>str.append(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">(codepoint32));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>buffer<sp/>to<sp/>store<sp/>the<sp/>string<sp/>in<sp/>reverse</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[5];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>p<sp/>=<sp/>buf;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">((codepoint32<sp/>|<sp/>0x80)<sp/>&amp;<sp/>0xBF);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>codepoint16<sp/>=<sp/>uint16_t(codepoint32<sp/>&gt;&gt;<sp/>6);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(codepoint16<sp/>&lt;<sp/>0x20)<sp/>{<sp/><sp/></highlight><highlight class="comment">//<sp/>0x800</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">(codepoint16<sp/>|<sp/>0xC0);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">((codepoint16<sp/>|<sp/>0x80)<sp/>&amp;<sp/>0xBF);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>codepoint16<sp/>=<sp/>uint16_t(codepoint16<sp/>&gt;&gt;<sp/>6);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(codepoint16<sp/>&lt;<sp/>0x10)<sp/>{<sp/><sp/></highlight><highlight class="comment">//<sp/>0x10000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">(codepoint16<sp/>|<sp/>0xE0);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">((codepoint16<sp/>|<sp/>0x80)<sp/>&amp;<sp/>0xBF);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>codepoint16<sp/>=<sp/>uint16_t(codepoint16<sp/>&gt;&gt;<sp/>6);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(p++)<sp/>=<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">(codepoint16<sp/>|<sp/>0xF0);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(*(--p))<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>str.append(*p);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Utf8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
+    </programlisting>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp"/>
+  </compounddef>
+</doxygen>

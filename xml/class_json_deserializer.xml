@@ -1,0 +1,664 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_json_deserializer" kind="class" language="C++" prot="public">
+    <compoundname>JsonDeserializer</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TReader</type>
+      </param>
+      <param>
+        <type>typename TStringStorage</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_deserializer_1a356ba6bb869a0c374d2c137606ab9c81" prot="private" static="no" mutable="no">
+        <type>TStringStorage</type>
+        <definition>TStringStorage JsonDeserializer&lt; TReader, TStringStorage &gt;::stringStorage_</definition>
+        <argsstring></argsstring>
+        <name>stringStorage_</name>
+        <qualifiedname>JsonDeserializer::stringStorage_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="662" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_deserializer_1a8c674410fbe2415066008e50df2a5016" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool JsonDeserializer&lt; TReader, TStringStorage &gt;::foundSomething_</definition>
+        <argsstring></argsstring>
+        <name>foundSomething_</name>
+        <qualifiedname>JsonDeserializer::foundSomething_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="663" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="663" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_deserializer_1a6371bc8ecf3a6cb6f336001ecabb066d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_latch" kindref="compound">Latch</ref>&lt; TReader &gt;</type>
+        <definition>Latch&lt;TReader&gt; JsonDeserializer&lt; TReader, TStringStorage &gt;::latch_</definition>
+        <argsstring></argsstring>
+        <name>latch_</name>
+        <qualifiedname>JsonDeserializer::latch_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="664" column="9" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_deserializer_1adf5d194e22154cbb59ffb8c45bd5d63d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+        <definition>MemoryPool* JsonDeserializer&lt; TReader, TStringStorage &gt;::pool_</definition>
+        <argsstring></argsstring>
+        <name>pool_</name>
+        <qualifiedname>JsonDeserializer::pool_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="665" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_deserializer_1ae1eb6bd153a8c6e528f9b097e020a712" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char JsonDeserializer&lt; TReader, TStringStorage &gt;::buffer_[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>buffer_</name>
+        <qualifiedname>JsonDeserializer::buffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="666" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_deserializer_1ab24006b82a3097c6d3db4c815623c39a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonDeserializer&lt; TReader, TStringStorage &gt;::JsonDeserializer</definition>
+        <argsstring>(MemoryPool *pool, TReader reader, TStringStorage stringStorage)</argsstring>
+        <name>JsonDeserializer</name>
+        <qualifiedname>JsonDeserializer::JsonDeserializer</qualifiedname>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <param>
+          <type>TReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>TStringStorage</type>
+          <declname>stringStorage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="24" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a2fed3562c475469d397c8ea4bb84be60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TFilter</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_deserialization_error" kindref="compound">DeserializationError</ref></type>
+        <definition>DeserializationError JsonDeserializer&lt; TReader, TStringStorage &gt;::parse</definition>
+        <argsstring>(VariantData &amp;variant, TFilter filter, DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>parse</name>
+        <qualifiedname>JsonDeserializer::parse</qualifiedname>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <param>
+          <type>TFilter</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="32" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="32" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_json_deserializer_1a5685197cad486d3b518110302ad2e882" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char JsonDeserializer&lt; TReader, TStringStorage &gt;::current</definition>
+        <argsstring>()</argsstring>
+        <name>current</name>
+        <qualifiedname>JsonDeserializer::current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="47" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a4f0524c952b15c0b5aed0bc65d8a42b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonDeserializer&lt; TReader, TStringStorage &gt;::move</definition>
+        <argsstring>()</argsstring>
+        <name>move</name>
+        <qualifiedname>JsonDeserializer::move</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="51" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a1add65a90c00decf49ede578a4f2d3e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JsonDeserializer&lt; TReader, TStringStorage &gt;::eat</definition>
+        <argsstring>(char charToSkip)</argsstring>
+        <name>eat</name>
+        <qualifiedname>JsonDeserializer::eat</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>charToSkip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="55" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1af0fe17908c47bb030f98e2efa11ce44f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TFilter</type>
+          </param>
+        </templateparamlist>
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseVariant</definition>
+        <argsstring>(VariantData &amp;variant, TFilter filter, DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>parseVariant</name>
+        <qualifiedname>JsonDeserializer::parseVariant</qualifiedname>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <param>
+          <type>TFilter</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="63" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="63" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1afcf184214f9e341939fb99f18a12b050" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipVariant</definition>
+        <argsstring>(DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>skipVariant</name>
+        <qualifiedname>JsonDeserializer::skipVariant</qualifiedname>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="115" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="115" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a4d40d8d1cb885ed3937e57601c8c9b10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TFilter</type>
+          </param>
+        </templateparamlist>
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseArray</definition>
+        <argsstring>(CollectionData &amp;array, TFilter filter, DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>parseArray</name>
+        <qualifiedname>JsonDeserializer::parseArray</qualifiedname>
+        <param>
+          <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>TFilter</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="149" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="149" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a136bddd056bdd65aad1b343e3e07c38a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipArray</definition>
+        <argsstring>(DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>skipArray</name>
+        <qualifiedname>JsonDeserializer::skipArray</qualifiedname>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="203" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="203" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1afd62f82898abc4fd35418be53936d818" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TFilter</type>
+          </param>
+        </templateparamlist>
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseObject</definition>
+        <argsstring>(CollectionData &amp;object, TFilter filter, DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>parseObject</name>
+        <qualifiedname>JsonDeserializer::parseObject</qualifiedname>
+        <param>
+          <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>TFilter</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="235" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="235" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a85971e44a15c11c40123a4a4d99174ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipObject</definition>
+        <argsstring>(DeserializationOption::NestingLimit nestingLimit)</argsstring>
+        <name>skipObject</name>
+        <qualifiedname>JsonDeserializer::skipObject</qualifiedname>
+        <param>
+          <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
+          <declname>nestingLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="321" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="321" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1acf22ba4715bec445f1208c662132f25e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseKey</definition>
+        <argsstring>()</argsstring>
+        <name>parseKey</name>
+        <qualifiedname>JsonDeserializer::parseKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="379" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="379" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a7b38bd95e77330374cb5b5bab78e0813" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseStringValue</definition>
+        <argsstring>(VariantData &amp;variant)</argsstring>
+        <name>parseStringValue</name>
+        <qualifiedname>JsonDeserializer::parseStringValue</qualifiedname>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="388" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="388" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a2fd754a5bac8bff9067679cbba4cc168" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseQuotedString</definition>
+        <argsstring>()</argsstring>
+        <name>parseQuotedString</name>
+        <qualifiedname>JsonDeserializer::parseQuotedString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="402" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="402" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a60dd08028afd16c15bd2cff0c7a5cf4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseNonQuotedString</definition>
+        <argsstring>()</argsstring>
+        <name>parseNonQuotedString</name>
+        <qualifiedname>JsonDeserializer::parseNonQuotedString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="456" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="456" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a665ca0f8683e9c2cf528a54f373b667d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipKey</definition>
+        <argsstring>()</argsstring>
+        <name>skipKey</name>
+        <qualifiedname>JsonDeserializer::skipKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="476" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="476" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1aca22161e23a1b8731c778077481161b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipQuotedString</definition>
+        <argsstring>()</argsstring>
+        <name>skipQuotedString</name>
+        <qualifiedname>JsonDeserializer::skipQuotedString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="484" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="484" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a3ce0bde4e0479eb7b05bc34fd1594662" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipNonQuotedString</definition>
+        <argsstring>()</argsstring>
+        <name>skipNonQuotedString</name>
+        <qualifiedname>JsonDeserializer::skipNonQuotedString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="504" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="504" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1aa8f759c8d07d92d9f22ccf091bd81fe6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseNumericValue</definition>
+        <argsstring>(VariantData &amp;result)</argsstring>
+        <name>parseNumericValue</name>
+        <qualifiedname>JsonDeserializer::parseNumericValue</qualifiedname>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="513" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="513" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a12e7676984543292c9f59a1578d2c342" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipNumericValue</definition>
+        <argsstring>()</argsstring>
+        <name>skipNumericValue</name>
+        <qualifiedname>JsonDeserializer::skipNumericValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="530" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="530" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a7b55e9749485ee840ba66455a4c50094" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::parseHex4</definition>
+        <argsstring>(uint16_t &amp;result)</argsstring>
+        <name>parseHex4</name>
+        <qualifiedname>JsonDeserializer::parseHex4</qualifiedname>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="539" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="539" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a8826e0a715426a0e03cb4052af426f39" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipSpacesAndComments</definition>
+        <argsstring>()</argsstring>
+        <name>skipSpacesAndComments</name>
+        <qualifiedname>JsonDeserializer::skipSpacesAndComments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="583" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="583" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a30cd73f9bb18c288f83085d3436159f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DeserializationError::Code</type>
+        <definition>DeserializationError::Code JsonDeserializer&lt; TReader, TStringStorage &gt;::skipKeyword</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>skipKeyword</name>
+        <qualifiedname>JsonDeserializer::skipKeyword</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="649" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="649" bodyend="660"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_json_deserializer_1a791c888e6c9b24e2312b7e1395dbf363" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool JsonDeserializer&lt; TReader, TStringStorage &gt;::isBetween</definition>
+        <argsstring>(char c, char min, char max)</argsstring>
+        <name>isBetween</name>
+        <qualifiedname>JsonDeserializer::isBetween</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="554" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="554" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1abc21159e87b9b59e7ea89f0ef0652e4b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool JsonDeserializer&lt; TReader, TStringStorage &gt;::canBeInNumber</definition>
+        <argsstring>(char c)</argsstring>
+        <name>canBeInNumber</name>
+        <qualifiedname>JsonDeserializer::canBeInNumber</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="558" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="558" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1aaf4a3bb5de7e4d770d520ccf72bf8fd2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool JsonDeserializer&lt; TReader, TStringStorage &gt;::canBeInNonQuotedString</definition>
+        <argsstring>(char c)</argsstring>
+        <name>canBeInNonQuotedString</name>
+        <qualifiedname>JsonDeserializer::canBeInNonQuotedString</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="567" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="567" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a8ab6fd6c3a5d94fac7110d3dea5ac655" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool JsonDeserializer&lt; TReader, TStringStorage &gt;::isQuote</definition>
+        <argsstring>(char c)</argsstring>
+        <name>isQuote</name>
+        <qualifiedname>JsonDeserializer::isQuote</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="572" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="572" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_deserializer_1a1ef16df68def5085e4193bb145627b0d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>static uint8_t JsonDeserializer&lt; TReader, TStringStorage &gt;::decodeHex</definition>
+        <argsstring>(char c)</argsstring>
+        <name>decodeHex</name>
+        <qualifiedname>JsonDeserializer::decodeHex</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="576" column="25" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="576" bodyend="581"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" line="22" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp" bodystart="22" bodyend="669"/>
+    <listofallmembers>
+      <member refid="class_json_deserializer_1ae1eb6bd153a8c6e528f9b097e020a712" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>buffer_</name></member>
+      <member refid="class_json_deserializer_1aaf4a3bb5de7e4d770d520ccf72bf8fd2" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>canBeInNonQuotedString</name></member>
+      <member refid="class_json_deserializer_1abc21159e87b9b59e7ea89f0ef0652e4b" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>canBeInNumber</name></member>
+      <member refid="class_json_deserializer_1a5685197cad486d3b518110302ad2e882" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>current</name></member>
+      <member refid="class_json_deserializer_1a1ef16df68def5085e4193bb145627b0d" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>decodeHex</name></member>
+      <member refid="class_json_deserializer_1a1add65a90c00decf49ede578a4f2d3e8" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>eat</name></member>
+      <member refid="class_json_deserializer_1a8c674410fbe2415066008e50df2a5016" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>foundSomething_</name></member>
+      <member refid="class_json_deserializer_1a791c888e6c9b24e2312b7e1395dbf363" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>isBetween</name></member>
+      <member refid="class_json_deserializer_1a8ab6fd6c3a5d94fac7110d3dea5ac655" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>isQuote</name></member>
+      <member refid="class_json_deserializer_1ab24006b82a3097c6d3db4c815623c39a" prot="public" virt="non-virtual"><scope>JsonDeserializer</scope><name>JsonDeserializer</name></member>
+      <member refid="class_json_deserializer_1a6371bc8ecf3a6cb6f336001ecabb066d" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>latch_</name></member>
+      <member refid="class_json_deserializer_1a4f0524c952b15c0b5aed0bc65d8a42b2" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>move</name></member>
+      <member refid="class_json_deserializer_1a2fed3562c475469d397c8ea4bb84be60" prot="public" virt="non-virtual"><scope>JsonDeserializer</scope><name>parse</name></member>
+      <member refid="class_json_deserializer_1a4d40d8d1cb885ed3937e57601c8c9b10" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseArray</name></member>
+      <member refid="class_json_deserializer_1a7b55e9749485ee840ba66455a4c50094" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseHex4</name></member>
+      <member refid="class_json_deserializer_1acf22ba4715bec445f1208c662132f25e" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseKey</name></member>
+      <member refid="class_json_deserializer_1a60dd08028afd16c15bd2cff0c7a5cf4b" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseNonQuotedString</name></member>
+      <member refid="class_json_deserializer_1aa8f759c8d07d92d9f22ccf091bd81fe6" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseNumericValue</name></member>
+      <member refid="class_json_deserializer_1afd62f82898abc4fd35418be53936d818" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseObject</name></member>
+      <member refid="class_json_deserializer_1a2fd754a5bac8bff9067679cbba4cc168" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseQuotedString</name></member>
+      <member refid="class_json_deserializer_1a7b38bd95e77330374cb5b5bab78e0813" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseStringValue</name></member>
+      <member refid="class_json_deserializer_1af0fe17908c47bb030f98e2efa11ce44f" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>parseVariant</name></member>
+      <member refid="class_json_deserializer_1adf5d194e22154cbb59ffb8c45bd5d63d" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>pool_</name></member>
+      <member refid="class_json_deserializer_1a136bddd056bdd65aad1b343e3e07c38a" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipArray</name></member>
+      <member refid="class_json_deserializer_1a665ca0f8683e9c2cf528a54f373b667d" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipKey</name></member>
+      <member refid="class_json_deserializer_1a30cd73f9bb18c288f83085d3436159f0" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipKeyword</name></member>
+      <member refid="class_json_deserializer_1a3ce0bde4e0479eb7b05bc34fd1594662" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipNonQuotedString</name></member>
+      <member refid="class_json_deserializer_1a12e7676984543292c9f59a1578d2c342" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipNumericValue</name></member>
+      <member refid="class_json_deserializer_1a85971e44a15c11c40123a4a4d99174ed" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipObject</name></member>
+      <member refid="class_json_deserializer_1aca22161e23a1b8731c778077481161b5" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipQuotedString</name></member>
+      <member refid="class_json_deserializer_1a8826e0a715426a0e03cb4052af426f39" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipSpacesAndComments</name></member>
+      <member refid="class_json_deserializer_1afcf184214f9e341939fb99f18a12b050" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>skipVariant</name></member>
+      <member refid="class_json_deserializer_1a356ba6bb869a0c374d2c137606ab9c81" prot="private" virt="non-virtual"><scope>JsonDeserializer</scope><name>stringStorage_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

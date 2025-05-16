@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_ec2d9c87f6992fa367d6b9c5ce8d0362" kind="dir">
+    <compoundname>lib/HUSKYLENS/examples</compoundname>
+    <innerdir refid="dir_dc7531a01726af7e9320ee923c9d2908">lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING</innerdir>
+    <innerdir refid="dir_f8868e94cf7ce72f98e8cafd0d1bbc46">lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/HUSKYLENS/examples/"/>
+  </compounddef>
+</doxygen>

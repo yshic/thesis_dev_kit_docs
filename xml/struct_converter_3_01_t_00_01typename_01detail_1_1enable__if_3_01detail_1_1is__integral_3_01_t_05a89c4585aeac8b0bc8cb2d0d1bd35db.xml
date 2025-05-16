@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db" kind="struct" language="C++" prot="public">
+    <compoundname>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">detail::VariantAttorney</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1aedfc4f60cdff10437f0fe3c5bc6586a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;::toJson</definition>
+        <argsstring>(T src, JsonVariant dst)</argsstring>
+        <name>toJson</name>
+        <qualifiedname>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;::toJson</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_json_variant" kindref="compound">JsonVariant</ref></type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="51" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1af7415e902edd27d68e216743eae79d59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;::fromJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>fromJson</name>
+        <qualifiedname>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;::fromJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="58" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1a8cc9e9fa906c7ce0ba8188330cd91dbf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;::checkJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>checkJson</name>
+        <qualifiedname>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;::checkJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="64" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="46" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="50" bodyend="68"/>
+    <listofallmembers>
+      <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1a8cc9e9fa906c7ce0ba8188330cd91dbf" prot="public" virt="non-virtual"><scope>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</scope><name>checkJson</name></member>
+      <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1af7415e902edd27d68e216743eae79d59" prot="public" virt="non-virtual"><scope>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</scope><name>fromJson</name></member>
+      <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1aedfc4f60cdff10437f0fe3c5bc6586a6" prot="public" virt="non-virtual"><scope>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</scope><name>toJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

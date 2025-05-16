@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_variant_data" kind="class" language="C++" prot="public">
+    <compoundname>VariantData</compoundname>
+    <innerclass refid="struct_variant_data_1_1_variant_string_setter" prot="private">VariantData::VariantStringSetter</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_variant_data_1ada038c16245d71deba5f5fdecd3e4a9d" prot="private" static="no" mutable="no">
+        <type><ref refid="union_variant_content" kindref="compound">VariantContent</ref></type>
+        <definition>VariantContent VariantData::content_</definition>
+        <argsstring></argsstring>
+        <name>content_</name>
+        <qualifiedname>VariantData::content_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="17" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_variant_data_1aecfe24a16a6f2ec9c24f40e0849fafe0" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t VariantData::flags_</definition>
+        <argsstring></argsstring>
+        <name>flags_</name>
+        <qualifiedname>VariantData::flags_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="18" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_variant_data_1a618823141fdcdba5f6cbf2be5d86e37d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VariantData::VariantData</definition>
+        <argsstring>()</argsstring>
+        <name>VariantData</name>
+        <qualifiedname>VariantData::VariantData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="21" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ab45b45def37635deceeced633ec03660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::operator=</definition>
+        <argsstring>(const VariantData &amp;src)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>VariantData::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="23" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a6d8fcf0e0e5981246bb31a6d6cc3e7c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TVisitor</type>
+          </param>
+        </templateparamlist>
+        <type>TVisitor::result_type</type>
+        <definition>TVisitor::result_type VariantData::accept</definition>
+        <argsstring>(TVisitor &amp;visitor) const</argsstring>
+        <name>accept</name>
+        <qualifiedname>VariantData::accept</qualifiedname>
+        <param>
+          <type>TVisitor &amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="29" column="34" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="29" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ad691ee812e222d33f4e2916bd52cf175" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T VariantData::asIntegral</definition>
+        <argsstring>() const</argsstring>
+        <name>asIntegral</name>
+        <qualifiedname>VariantData::asIntegral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="65" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a32bdd81265355fe7f95696adb857dc07" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T VariantData::asFloat</definition>
+        <argsstring>() const</argsstring>
+        <name>asFloat</name>
+        <qualifiedname>VariantData::asFloat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="68" column="5" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp" bodystart="55" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a87d9036ea19ddae4356f4fc57532f5de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>JsonString VariantData::asString</definition>
+        <argsstring>() const</argsstring>
+        <name>asString</name>
+        <qualifiedname>VariantData::asString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="70" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp" bodystart="73" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a90716843b6fa954264d80613df2d7423" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::asBoolean</definition>
+        <argsstring>() const</argsstring>
+        <name>asBoolean</name>
+        <qualifiedname>VariantData::asBoolean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="72" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp" bodystart="37" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a4bfa33369b23fc891789661307a61ee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>CollectionData * VariantData::asArray</definition>
+        <argsstring>()</argsstring>
+        <name>asArray</name>
+        <qualifiedname>VariantData::asArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="74" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1af7b8224b2cc868e350c747c02105957f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>const CollectionData * VariantData::asArray</definition>
+        <argsstring>() const</argsstring>
+        <name>asArray</name>
+        <qualifiedname>VariantData::asArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="78" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ad1b7e0710a418216b998c8b62d1b4233" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>const CollectionData * VariantData::asCollection</definition>
+        <argsstring>() const</argsstring>
+        <name>asCollection</name>
+        <qualifiedname>VariantData::asCollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="82" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1acb7ff513b4d9649bf8446960947484f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>CollectionData * VariantData::asObject</definition>
+        <argsstring>()</argsstring>
+        <name>asObject</name>
+        <qualifiedname>VariantData::asObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="86" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1aec613d3076b4b77780d58d58b3553ebf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>const CollectionData * VariantData::asObject</definition>
+        <argsstring>() const</argsstring>
+        <name>asObject</name>
+        <qualifiedname>VariantData::asObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="90" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ad25a09d85cde6e8065de7b8375740907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::copyFrom</definition>
+        <argsstring>(const VariantData &amp;src, MemoryPool *pool)</argsstring>
+        <name>copyFrom</name>
+        <qualifiedname>VariantData::copyFrom</qualifiedname>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="94" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp" bodystart="86" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a61e7eaa0d9fb4d2b8314e6eb40008aa6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isArray</definition>
+        <argsstring>() const</argsstring>
+        <name>isArray</name>
+        <qualifiedname>VariantData::isArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="96" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a58233de90d198aee90863721a1806580" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isBoolean</definition>
+        <argsstring>() const</argsstring>
+        <name>isBoolean</name>
+        <qualifiedname>VariantData::isBoolean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="100" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a0dbb6d39fbe3acce8af191b79a1a76f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isCollection</definition>
+        <argsstring>() const</argsstring>
+        <name>isCollection</name>
+        <qualifiedname>VariantData::isCollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="104" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a25d4b51638e21fdeab4fbd0ce5dfa7d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool VariantData::isInteger</definition>
+        <argsstring>() const</argsstring>
+        <name>isInteger</name>
+        <qualifiedname>VariantData::isInteger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="109" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="109" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a3917a0cf355c04b27137ae2059f32c22" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isFloat</definition>
+        <argsstring>() const</argsstring>
+        <name>isFloat</name>
+        <qualifiedname>VariantData::isFloat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="122" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a4e1e745520037a9de32d6066b12ffefe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isString</definition>
+        <argsstring>() const</argsstring>
+        <name>isString</name>
+        <qualifiedname>VariantData::isString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="126" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ae066049bac34366573b9a22f9537c0ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isObject</definition>
+        <argsstring>() const</argsstring>
+        <name>isObject</name>
+        <qualifiedname>VariantData::isObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="130" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ae18922a8d56279f88ab7adc784fd70a8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isNull</definition>
+        <argsstring>() const</argsstring>
+        <name>isNull</name>
+        <qualifiedname>VariantData::isNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="134" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a5d407a2e13f07f8b7176b7b095617d10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VariantData::isEnclosed</definition>
+        <argsstring>() const</argsstring>
+        <name>isEnclosed</name>
+        <qualifiedname>VariantData::isEnclosed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="138" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a3c18931f465e1b705c4577e9afbc550c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::remove</definition>
+        <argsstring>(size_t index)</argsstring>
+        <name>remove</name>
+        <qualifiedname>VariantData::remove</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="142" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ae8a3dee6270b423b45102e26baca4f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void VariantData::remove</definition>
+        <argsstring>(TAdaptedString key)</argsstring>
+        <name>remove</name>
+        <qualifiedname>VariantData::remove</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="148" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ade1c1c89a511d4f81a0470c763637499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::setBoolean</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setBoolean</name>
+        <qualifiedname>VariantData::setBoolean</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="153" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1aa46ce2e22041913d62257d419c37d88b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::setFloat</definition>
+        <argsstring>(JsonFloat value)</argsstring>
+        <name>setFloat</name>
+        <qualifiedname>VariantData::setFloat</qualifiedname>
+        <param>
+          <type>JsonFloat</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="158" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a1729ea75319d1f7646fd662b0d0dc1eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::setLinkedRaw</definition>
+        <argsstring>(SerializedValue&lt; const char * &gt; value)</argsstring>
+        <name>setLinkedRaw</name>
+        <qualifiedname>VariantData::setLinkedRaw</qualifiedname>
+        <param>
+          <type><ref refid="class_serialized_value" kindref="compound">SerializedValue</ref>&lt; const char * &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="163" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="163" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a69a898319e598cc202a6ace187aae6c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool VariantData::storeOwnedRaw</definition>
+        <argsstring>(SerializedValue&lt; T &gt; value, MemoryPool *pool)</argsstring>
+        <name>storeOwnedRaw</name>
+        <qualifiedname>VariantData::storeOwnedRaw</qualifiedname>
+        <param>
+          <type><ref refid="class_serialized_value" kindref="compound">SerializedValue</ref>&lt; T &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="174" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="174" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ae60f79287bcb99956d63ecd41993b70b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; <ref refid="structis__unsigned" kindref="compound">is_unsigned</ref>&lt; T &gt;::value &gt;::type</type>
+        <definition>enable_if&lt; is_unsigned&lt; T &gt;::value &gt;::type VariantData::setInteger</definition>
+        <argsstring>(T value)</argsstring>
+        <name>setInteger</name>
+        <qualifiedname>VariantData::setInteger</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="188" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a0475bbe390de22f1fa4127a6d7c18a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; <ref refid="structis__signed" kindref="compound">is_signed</ref>&lt; T &gt;::value &gt;::type</type>
+        <definition>enable_if&lt; is_signed&lt; T &gt;::value &gt;::type VariantData::setInteger</definition>
+        <argsstring>(T value)</argsstring>
+        <name>setInteger</name>
+        <qualifiedname>VariantData::setInteger</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="194" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a4f5b12e6a0a33903a1de9af74d019a7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::setNull</definition>
+        <argsstring>()</argsstring>
+        <name>setNull</name>
+        <qualifiedname>VariantData::setNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="199" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="199" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a223e2b28c0386c29986d0f55d4b6f32d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::setString</definition>
+        <argsstring>(JsonString s)</argsstring>
+        <name>setString</name>
+        <qualifiedname>VariantData::setString</qualifiedname>
+        <param>
+          <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="203" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="203" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a8f2be6df7a8e20e319772dd5601e42d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+        <definition>CollectionData &amp; VariantData::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>VariantData::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="213" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="213" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a2d347411b610d910de75a1e8e3bbb695" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+        <definition>CollectionData &amp; VariantData::toObject</definition>
+        <argsstring>()</argsstring>
+        <name>toObject</name>
+        <qualifiedname>VariantData::toObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="219" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="219" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a9d4fa65c871e5353885422de4737443c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t VariantData::memoryUsage</definition>
+        <argsstring>() const</argsstring>
+        <name>memoryUsage</name>
+        <qualifiedname>VariantData::memoryUsage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="225" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="225" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a63490e5ce33bab6755f491a3e1bd11bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t VariantData::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>VariantData::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="240" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="240" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a51dfa0cea6b55378d4ba6ef382223ab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * VariantData::addElement</definition>
+        <argsstring>(MemoryPool *pool)</argsstring>
+        <name>addElement</name>
+        <qualifiedname>VariantData::addElement</qualifiedname>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="244" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="244" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ae4c6059c5c8ffac678a1621e8d00fa12" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * VariantData::getElement</definition>
+        <argsstring>(size_t index) const</argsstring>
+        <name>getElement</name>
+        <qualifiedname>VariantData::getElement</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="252" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="252" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1af8473330f28aa2892d40873b1d5b9712" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * VariantData::getOrAddElement</definition>
+        <argsstring>(size_t index, MemoryPool *pool)</argsstring>
+        <name>getOrAddElement</name>
+        <qualifiedname>VariantData::getOrAddElement</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="257" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="257" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1ae71107a37f2ab6f7a28739b9bdea3aae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * VariantData::getMember</definition>
+        <argsstring>(TAdaptedString key) const</argsstring>
+        <name>getMember</name>
+        <qualifiedname>VariantData::getMember</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="266" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="266" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a982bff15b92741c03c1a961cf2e49bc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * VariantData::getOrAddMember</definition>
+        <argsstring>(TAdaptedString key, MemoryPool *pool)</argsstring>
+        <name>getOrAddMember</name>
+        <qualifiedname>VariantData::getOrAddMember</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="272" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="272" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1adfbf94e251eaf988bd91f25e3bb5b834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::movePointers</definition>
+        <argsstring>(ptrdiff_t stringDistance, ptrdiff_t variantDistance)</argsstring>
+        <name>movePointers</name>
+        <qualifiedname>VariantData::movePointers</qualifiedname>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>stringDistance</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>variantDistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="280" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="280" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a96b3db9b4cb98331dd1d4209297bc95b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t VariantData::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <qualifiedname>VariantData::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="287" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="287" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a05e7ab2cd3bae3f48c0633080014e505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool VariantData::setString</definition>
+        <argsstring>(TAdaptedString value, MemoryPool *pool)</argsstring>
+        <name>setString</name>
+        <qualifiedname>VariantData::setString</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="292" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="292" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_data_1a0970a12d6fe3c57d172fc6a6c3e1165f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE T</type>
+        <definition>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE T VariantData::asIntegral</definition>
+        <argsstring>() const</argsstring>
+        <name>asIntegral</name>
+        <qualifiedname>VariantData::asIntegral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp" line="19" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp" bodystart="19" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_variant_data_1a4b04823fe6673ce71fb72813146a8156" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantData::setType</definition>
+        <argsstring>(uint8_t t)</argsstring>
+        <name>setType</name>
+        <qualifiedname>VariantData::setType</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="302" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="302" bodyend="305"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="16" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="16" bodyend="320"/>
+    <listofallmembers>
+      <member refid="class_variant_data_1a6d8fcf0e0e5981246bb31a6d6cc3e7c6" prot="public" virt="non-virtual"><scope>VariantData</scope><name>accept</name></member>
+      <member refid="class_variant_data_1a51dfa0cea6b55378d4ba6ef382223ab4" prot="public" virt="non-virtual"><scope>VariantData</scope><name>addElement</name></member>
+      <member refid="class_variant_data_1a4bfa33369b23fc891789661307a61ee1" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asArray</name></member>
+      <member refid="class_variant_data_1af7b8224b2cc868e350c747c02105957f" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asArray</name></member>
+      <member refid="class_variant_data_1a90716843b6fa954264d80613df2d7423" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asBoolean</name></member>
+      <member refid="class_variant_data_1ad1b7e0710a418216b998c8b62d1b4233" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asCollection</name></member>
+      <member refid="class_variant_data_1a32bdd81265355fe7f95696adb857dc07" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asFloat</name></member>
+      <member refid="class_variant_data_1ad691ee812e222d33f4e2916bd52cf175" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asIntegral</name></member>
+      <member refid="class_variant_data_1a0970a12d6fe3c57d172fc6a6c3e1165f" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asIntegral</name></member>
+      <member refid="class_variant_data_1acb7ff513b4d9649bf8446960947484f2" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asObject</name></member>
+      <member refid="class_variant_data_1aec613d3076b4b77780d58d58b3553ebf" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asObject</name></member>
+      <member refid="class_variant_data_1a87d9036ea19ddae4356f4fc57532f5de" prot="public" virt="non-virtual"><scope>VariantData</scope><name>asString</name></member>
+      <member refid="class_variant_data_1ada038c16245d71deba5f5fdecd3e4a9d" prot="private" virt="non-virtual"><scope>VariantData</scope><name>content_</name></member>
+      <member refid="class_variant_data_1ad25a09d85cde6e8065de7b8375740907" prot="public" virt="non-virtual"><scope>VariantData</scope><name>copyFrom</name></member>
+      <member refid="class_variant_data_1aecfe24a16a6f2ec9c24f40e0849fafe0" prot="private" virt="non-virtual"><scope>VariantData</scope><name>flags_</name></member>
+      <member refid="class_variant_data_1ae4c6059c5c8ffac678a1621e8d00fa12" prot="public" virt="non-virtual"><scope>VariantData</scope><name>getElement</name></member>
+      <member refid="class_variant_data_1ae71107a37f2ab6f7a28739b9bdea3aae" prot="public" virt="non-virtual"><scope>VariantData</scope><name>getMember</name></member>
+      <member refid="class_variant_data_1af8473330f28aa2892d40873b1d5b9712" prot="public" virt="non-virtual"><scope>VariantData</scope><name>getOrAddElement</name></member>
+      <member refid="class_variant_data_1a982bff15b92741c03c1a961cf2e49bc4" prot="public" virt="non-virtual"><scope>VariantData</scope><name>getOrAddMember</name></member>
+      <member refid="class_variant_data_1a61e7eaa0d9fb4d2b8314e6eb40008aa6" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isArray</name></member>
+      <member refid="class_variant_data_1a58233de90d198aee90863721a1806580" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isBoolean</name></member>
+      <member refid="class_variant_data_1a0dbb6d39fbe3acce8af191b79a1a76f2" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isCollection</name></member>
+      <member refid="class_variant_data_1a5d407a2e13f07f8b7176b7b095617d10" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isEnclosed</name></member>
+      <member refid="class_variant_data_1a3917a0cf355c04b27137ae2059f32c22" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isFloat</name></member>
+      <member refid="class_variant_data_1a25d4b51638e21fdeab4fbd0ce5dfa7d3" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isInteger</name></member>
+      <member refid="class_variant_data_1ae18922a8d56279f88ab7adc784fd70a8" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isNull</name></member>
+      <member refid="class_variant_data_1ae066049bac34366573b9a22f9537c0ec" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isObject</name></member>
+      <member refid="class_variant_data_1a4e1e745520037a9de32d6066b12ffefe" prot="public" virt="non-virtual"><scope>VariantData</scope><name>isString</name></member>
+      <member refid="class_variant_data_1a9d4fa65c871e5353885422de4737443c" prot="public" virt="non-virtual"><scope>VariantData</scope><name>memoryUsage</name></member>
+      <member refid="class_variant_data_1adfbf94e251eaf988bd91f25e3bb5b834" prot="public" virt="non-virtual"><scope>VariantData</scope><name>movePointers</name></member>
+      <member refid="class_variant_data_1ab45b45def37635deceeced633ec03660" prot="public" virt="non-virtual"><scope>VariantData</scope><name>operator=</name></member>
+      <member refid="class_variant_data_1a3c18931f465e1b705c4577e9afbc550c" prot="public" virt="non-virtual"><scope>VariantData</scope><name>remove</name></member>
+      <member refid="class_variant_data_1ae8a3dee6270b423b45102e26baca4f53" prot="public" virt="non-virtual"><scope>VariantData</scope><name>remove</name></member>
+      <member refid="class_variant_data_1ade1c1c89a511d4f81a0470c763637499" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setBoolean</name></member>
+      <member refid="class_variant_data_1aa46ce2e22041913d62257d419c37d88b" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setFloat</name></member>
+      <member refid="class_variant_data_1ae60f79287bcb99956d63ecd41993b70b" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setInteger</name></member>
+      <member refid="class_variant_data_1a0475bbe390de22f1fa4127a6d7c18a89" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setInteger</name></member>
+      <member refid="class_variant_data_1a1729ea75319d1f7646fd662b0d0dc1eb" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setLinkedRaw</name></member>
+      <member refid="class_variant_data_1a4f5b12e6a0a33903a1de9af74d019a7c" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setNull</name></member>
+      <member refid="class_variant_data_1a223e2b28c0386c29986d0f55d4b6f32d" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setString</name></member>
+      <member refid="class_variant_data_1a05e7ab2cd3bae3f48c0633080014e505" prot="public" virt="non-virtual"><scope>VariantData</scope><name>setString</name></member>
+      <member refid="class_variant_data_1a4b04823fe6673ce71fb72813146a8156" prot="private" virt="non-virtual"><scope>VariantData</scope><name>setType</name></member>
+      <member refid="class_variant_data_1a63490e5ce33bab6755f491a3e1bd11bd" prot="public" virt="non-virtual"><scope>VariantData</scope><name>size</name></member>
+      <member refid="class_variant_data_1a69a898319e598cc202a6ace187aae6c0" prot="public" virt="non-virtual"><scope>VariantData</scope><name>storeOwnedRaw</name></member>
+      <member refid="class_variant_data_1a8f2be6df7a8e20e319772dd5601e42d1" prot="public" virt="non-virtual"><scope>VariantData</scope><name>toArray</name></member>
+      <member refid="class_variant_data_1a2d347411b610d910de75a1e8e3bbb695" prot="public" virt="non-virtual"><scope>VariantData</scope><name>toObject</name></member>
+      <member refid="class_variant_data_1a96b3db9b4cb98331dd1d4209297bc95b" prot="public" virt="non-virtual"><scope>VariantData</scope><name>type</name></member>
+      <member refid="class_variant_data_1a618823141fdcdba5f6cbf2be5d86e37d" prot="public" virt="non-virtual"><scope>VariantData</scope><name>VariantData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

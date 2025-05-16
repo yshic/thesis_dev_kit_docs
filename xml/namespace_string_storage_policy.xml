@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_string_storage_policy" kind="namespace" language="C++">
+    <compoundname>StringStoragePolicy</compoundname>
+    <innerclass refid="struct_string_storage_policy_1_1_copy" prot="public">StringStoragePolicy::Copy</innerclass>
+    <innerclass refid="struct_string_storage_policy_1_1_link" prot="public">StringStoragePolicy::Link</innerclass>
+    <innerclass refid="struct_string_storage_policy_1_1_link_or_copy" prot="public">StringStoragePolicy::LinkOrCopy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

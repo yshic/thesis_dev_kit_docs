@@ -1,0 +1,14 @@
+.. _exhale_define_bmp280_8h_1a696905a7c50b980e5775da96479dfae3:
+
+Define BMP280_LIB_VERSION
+=========================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_bmp280_src_bmp280.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: BMP280_LIB_VERSION
+   :project: thesis_dev_kit_docs

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_visitor" kind="struct" language="C++" prot="public">
+    <compoundname>Visitor</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TResult</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" static="no">
+        <type>TResult</type>
+        <definition>typedef TResult Visitor&lt; TResult &gt;::result_type</definition>
+        <argsstring></argsstring>
+        <name>result_type</name>
+        <qualifiedname>Visitor::result_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="15" column="19" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitArray</definition>
+        <argsstring>(const CollectionData &amp;)</argsstring>
+        <name>visitArray</name>
+        <qualifiedname>Visitor::visitArray</qualifiedname>
+        <param>
+          <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="17" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1a026b326c33c02e22a79248d8ce08b568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitBoolean</definition>
+        <argsstring>(bool)</argsstring>
+        <name>visitBoolean</name>
+        <qualifiedname>Visitor::visitBoolean</qualifiedname>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="21" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1afc7797fcb70c09ed30f7e5fa14174837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitFloat</definition>
+        <argsstring>(JsonFloat)</argsstring>
+        <name>visitFloat</name>
+        <qualifiedname>Visitor::visitFloat</qualifiedname>
+        <param>
+          <type>JsonFloat</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="25" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1aa46617a82127c176a63fef7d735e2d31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitSignedInteger</definition>
+        <argsstring>(JsonInteger)</argsstring>
+        <name>visitSignedInteger</name>
+        <qualifiedname>Visitor::visitSignedInteger</qualifiedname>
+        <param>
+          <type>JsonInteger</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="29" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1af10a7e43d2eb2d479999980717a819e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitNull</definition>
+        <argsstring>()</argsstring>
+        <name>visitNull</name>
+        <qualifiedname>Visitor::visitNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="33" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1a762432b182778bb588dc33535706bd0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitObject</definition>
+        <argsstring>(const CollectionData &amp;)</argsstring>
+        <name>visitObject</name>
+        <qualifiedname>Visitor::visitObject</qualifiedname>
+        <param>
+          <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="37" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1af7f111c2a204c66ca5b1869d536ac266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitUnsignedInteger</definition>
+        <argsstring>(JsonUInt)</argsstring>
+        <name>visitUnsignedInteger</name>
+        <qualifiedname>Visitor::visitUnsignedInteger</qualifiedname>
+        <param>
+          <type>JsonUInt</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="41" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1a2d26ee3a178dc49d1771842d12e3408f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitRawJson</definition>
+        <argsstring>(const char *, size_t)</argsstring>
+        <name>visitRawJson</name>
+        <qualifiedname>Visitor::visitRawJson</qualifiedname>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="45" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_visitor_1a5c860e833be6c04180907bbe87a30927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Visitor&lt; TResult &gt;::visitString</definition>
+        <argsstring>(const char *, size_t)</argsstring>
+        <name>visitString</name>
+        <qualifiedname>Visitor::visitString</qualifiedname>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="49" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" line="14" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>Visitor</scope><name>result_type</name></member>
+      <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitArray</name></member>
+      <member refid="struct_visitor_1a026b326c33c02e22a79248d8ce08b568" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitBoolean</name></member>
+      <member refid="struct_visitor_1afc7797fcb70c09ed30f7e5fa14174837" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitFloat</name></member>
+      <member refid="struct_visitor_1af10a7e43d2eb2d479999980717a819e0" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitNull</name></member>
+      <member refid="struct_visitor_1a762432b182778bb588dc33535706bd0f" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitObject</name></member>
+      <member refid="struct_visitor_1a2d26ee3a178dc49d1771842d12e3408f" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitRawJson</name></member>
+      <member refid="struct_visitor_1aa46617a82127c176a63fef7d735e2d31" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitSignedInteger</name></member>
+      <member refid="struct_visitor_1a5c860e833be6c04180907bbe87a30927" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitString</name></member>
+      <member refid="struct_visitor_1af7f111c2a204c66ca5b1869d536ac266" prot="public" virt="non-virtual"><scope>Visitor</scope><name>visitUnsignedInteger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

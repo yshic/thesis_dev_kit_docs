@@ -1,0 +1,761 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="bsp__gpio_8h" kind="file" language="C++">
+    <compoundname>bsp_gpio.h</compoundname>
+    <includes local="no">Arduino.h</includes>
+    <includedby refid="bsp__gpio_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp</includedby>
+    <includedby refid="button_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/button/src/button.cpp</includedby>
+    <includedby refid="light__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</includedby>
+    <includedby refid="mini__fan_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp</includedby>
+    <includedby refid="pir__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</includedby>
+    <includedby refid="relay_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp</includedby>
+    <includedby refid="soil__moisture_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp</includedby>
+    <includedby refid="ultrasonic_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
+    <includedby refid="usb__switch_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h</label>
+        <link refid="bsp__gpio_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp</label>
+        <link refid="bsp__gpio_8cpp"/>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h</label>
+        <link refid="bsp__gpio_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</label>
+        <link refid="light__sensor_8cpp"/>
+      </node>
+      <node id="4">
+        <label>thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp</label>
+        <link refid="mini__fan_8cpp"/>
+      </node>
+      <node id="5">
+        <label>thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</label>
+        <link refid="pir__sensor_8cpp"/>
+      </node>
+      <node id="6">
+        <label>thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp</label>
+        <link refid="relay_8cpp"/>
+      </node>
+      <node id="7">
+        <label>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp</label>
+        <link refid="soil__moisture_8cpp"/>
+      </node>
+      <node id="8">
+        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
+        <link refid="ultrasonic_8cpp"/>
+      </node>
+      <node id="9">
+        <label>thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp</label>
+        <link refid="usb__switch_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="bsp__gpio_8h_1a566a8a135b7fc73ec916f8757d7018b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioPinMode</definition>
+        <argsstring>(uint8_t pin, uint8_t mode)</argsstring>
+        <name>bspGpioPinMode</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>This function sets the mode of a GPIO pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GPIO Pin </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GPIO Mode</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>None</para>
+</simplesect>
+<simplesect kind="return"><para></para>
+</simplesect>
+None </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="43" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="32" bodyend="54" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="43" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a8c56622b894fbc2433dadc6fb4a95b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioDigitalWrite</definition>
+        <argsstring>(uint8_t pin, uint8_t state)</argsstring>
+        <name>bspGpioDigitalWrite</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>This function writes the state of a digital pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GPIO Pin </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>State to write to the GPIO Pin</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>None</para>
+</simplesect>
+<simplesect kind="return"><para></para>
+</simplesect>
+None </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="59" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="56" bodyend="69" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="59" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool bspGpioDigitalRead</definition>
+        <argsstring>(uint8_t pin)</argsstring>
+        <name>bspGpioDigitalRead</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>This function reads the state of a digital pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GPIO Pin</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>If the pin isn’t connected to anything, <ref refid="bsp__gpio_8h_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" kindref="member">bspGpioDigitalRead()</ref> can return either HIGH or LOW (and this can change randomly).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>true - HIGH</para>
+</listitem><listitem><para>false - LOW</para>
+</listitem><listitem><para>Data type: bool </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="76" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="71" bodyend="71" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="76" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a34347317f123b2222eb416e5e5c56091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int bspGpioAnalogRead</definition>
+        <argsstring>(uint8_t pin)</argsstring>
+        <name>bspGpioAnalogRead</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>This function reads the value from the specified analog pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Analog input pin</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>If the analog input pin is not connected to anything, the value returned by bspGpioAnalogRead will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>The analog reading on the pin. Although it is limited to the resolution of the analog to digital converter * (0-1023 for 10 bits or 0-4095 for 12 bits).</para>
+</listitem><listitem><para>Data type: int </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="96" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="75" bodyend="75" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="96" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1aa6be43410ae12aa3bbb746fb562352cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioAnalogReadResolution</definition>
+        <argsstring>(uint8_t bits)</argsstring>
+        <name>bspGpioAnalogReadResolution</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+<para>This function sets the size (in bits) of the value returned by <ref refid="bsp__gpio_8h_1a34347317f123b2222eb416e5e5c56091" kindref="member">bspGpioAnalogRead()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resolution (in bits). You can set this between 1 and 32.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para><itemizedlist>
+<listitem><para>If you set the <ref refid="bsp__gpio_8h_1aa6be43410ae12aa3bbb746fb562352cd" kindref="member">bspGpioAnalogReadResolution()</ref> value to a value higher than your board’s capabilities, the board will only report back at its highest resolution, padding the extra bits with zeros.</para>
+</listitem><listitem><para>If you set the <ref refid="bsp__gpio_8h_1aa6be43410ae12aa3bbb746fb562352cd" kindref="member">bspGpioAnalogReadResolution()</ref> value to a value lower than your board’s capabilities, the extra least significant bits read from the ADC will be discarded.</para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="114" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="76" bodyend="76" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="114" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a9b2f7d9d0077df86b5fbd73942bcaffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioAnalogWrite</definition>
+        <argsstring>(uint8_t pin, int value)</argsstring>
+        <name>bspGpioAnalogWrite</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>This function writes an analog value (PWM wave) to a pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin to write to. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duty cycle: between 0 (always off) and 255 (always on). Allowed data types: int</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="125" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="77" bodyend="77" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="125" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a473ea43016c7438bcf6c54ae0953b44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioAnalogWriteResolution</definition>
+        <argsstring>(uint8_t bits)</argsstring>
+        <name>bspGpioAnalogWriteResolution</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+<para>This function sets the resolution of the <ref refid="bsp__gpio_8h_1a9b2f7d9d0077df86b5fbd73942bcaffc" kindref="member">bspGpioAnalogWrite()</ref> function. It defaults to 8 bits (values between 0-255). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resolution (in bits). The value can range from 1 to 32.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para><itemizedlist>
+<listitem><para>If you set the <ref refid="bsp__gpio_8h_1a473ea43016c7438bcf6c54ae0953b44b" kindref="member">bspGpioAnalogWriteResolution()</ref> value to a value higher than your board’s capabilities, the board will discard the extra bits.</para>
+</listitem><listitem><para>If you set the <ref refid="bsp__gpio_8h_1a473ea43016c7438bcf6c54ae0953b44b" kindref="member">bspGpioAnalogWriteResolution()</ref> value to a value lower than your board’s capabilities, the missing bits will be padded with zeros to fill the hardware required size.</para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="143" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="78" bodyend="78" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="143" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a731555025d3fbbb56328f1be7c9c0d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long bspGpioPulseIn</definition>
+        <argsstring>(uint8_t pin, uint8_t state, unsigned long timeout=1000000UL)</argsstring>
+        <name>bspGpioPulseIn</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>timeout</declname>
+          <defval>1000000UL</defval>
+        </param>
+        <briefdescription>
+<para>This function reads a pulse (either HIGH or LOW) on a pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin on which you want to read the pulse. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of pulse to read: either HIGH or LOW. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(optional): The number of microseconds to wait for the pulse to start; default is one second. Allowed data types: unsigned long.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>The length of the pulse (in microseconds) or 0 if no pulse started before the timeout.</para>
+</listitem><listitem><para>Data type: unsigned long </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="160" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="82" bodyend="85" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="160" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1adc9a22797ea3eacf3756a635db48d91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long bspGpioPulseInLong</definition>
+        <argsstring>(uint8_t pin, uint8_t state, unsigned long timeout=1000000UL)</argsstring>
+        <name>bspGpioPulseInLong</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>timeout</declname>
+          <defval>1000000UL</defval>
+        </param>
+        <briefdescription>
+<para>This function is an alternative to <ref refid="bsp__gpio_8h_1a731555025d3fbbb56328f1be7c9c0d77" kindref="member">bspGpioPulseIn()</ref> which is better at handling long pulse and interrupt affected scenarios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin on which you want to read the pulse. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of pulse to read: either HIGH or LOW. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(optional): The number of microseconds to wait for the pulse to start; default is one second. Allowed data types: unsigned long.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>The length of the pulse (in microseconds) or 0 if no pulse started before the timeout.</para>
+</listitem><listitem><para>Data type: unsigned long </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="176" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="86" bodyend="89" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="176" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1aaa4e5b753eb7721876bae26166b45e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspGpioShiftIn</definition>
+        <argsstring>(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder)</argsstring>
+        <name>bspGpioShiftIn</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>dataPin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>clockPin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bitOrder</declname>
+        </param>
+        <briefdescription>
+<para>This function shifts in a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. For each bit, the clock pin is pulled high, the next bit is read from the data line, and then the clock pin is taken low. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dataPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin on which to input each bit. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">clockPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin to toggle to signal a read from dataPin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">bitOrder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Order to shift in the bits; either MSBFIRST or LSBFIRST. (Most Significant Bit First, or, Least Significant Bit First).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>The value read.</para>
+</listitem><listitem><para>Data type: uint8_t </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="193" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="90" bodyend="93" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="193" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a8ab3bbd2afa6df50db6e4affc45d2577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioShiftOut</definition>
+        <argsstring>(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val)</argsstring>
+        <name>bspGpioShiftOut</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>dataPin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>clockPin</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bitOrder</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>This function shifts out a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. Each bit is written in turn to a data pin, after which a clock pin is pulsed (taken high, then low) to indicate that the bit is available. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dataPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin on which to output each bit. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">clockPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin to toggle once the dataPin has been set to the correct value. Allowed data types: int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">bitOrder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Order to shift out the bits; either MSBFIRST or LSBFIRST. (Most Significant Bit First, or, Least Significant Bit First). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to shift out. Allowed data types: uint8_t.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="210" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="94" bodyend="97" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="210" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a6b231e4d7b1dd20157b0885b022f9dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioTone</definition>
+        <argsstring>(uint8_t pin, unsigned int frequency, unsigned long duration)</argsstring>
+        <name>bspGpioTone</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+<para>This function generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to <ref refid="bsp__gpio_8h_1a859d94545c79f456b2914ae7f5a39b70" kindref="member">bspGpioNoTone()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin on which to generate the tone. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frequency of the tone in hertz. Allowed data types: unsigned int. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(optional): The duration of the tone in milliseconds . Allowed data types: unsigned long.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="224" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="98" bodyend="101" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="224" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__gpio_8h_1a859d94545c79f456b2914ae7f5a39b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bspGpioNoTone</definition>
+        <argsstring>(uint8_t pin)</argsstring>
+        <name>bspGpioNoTone</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>This function stops the generation of a square wave triggered by <ref refid="bsp__gpio_8h_1a6b231e4d7b1dd20157b0885b022f9dff" kindref="member">bspGpioTone()</ref>. Has no effect if no tone is being generated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin on which to stop generating the tone</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>If you want to play different pitches on multiple pins, you need to call <ref refid="bsp__gpio_8h_1a859d94545c79f456b2914ae7f5a39b70" kindref="member">bspGpioNoTone()</ref> on one pin before calling <ref refid="bsp__gpio_8h_1a6b231e4d7b1dd20157b0885b022f9dff" kindref="member">bspGpioTone()</ref> on the next pin.</para>
+</simplesect>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="239" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="102" bodyend="102" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="239" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Header file for bsp_gpio. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>@license This project is released under the MIT License. <simplesect kind="version"><para>1.0.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2024-12-31 </para>
+</simplesect>
+<simplesect kind="author"><para>Tuan Nguyen</para>
+</simplesect>
+</para>
+<para><simplesect kind="note"><para>None </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BSP_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BSP_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Includes<sp/>-----------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#include<sp/>&lt;Arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>function<sp/>prototypes<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a566a8a135b7fc73ec916f8757d7018b4" kindref="member">bspGpioPinMode</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>mode);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Digital<sp/>Pin<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a8c56622b894fbc2433dadc6fb4a95b97" kindref="member">bspGpioDigitalWrite</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" kindref="member">bspGpioDigitalRead</ref>(uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Analog<sp/>Pin<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a34347317f123b2222eb416e5e5c56091" kindref="member">bspGpioAnalogRead</ref>(uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1aa6be43410ae12aa3bbb746fb562352cd" kindref="member">bspGpioAnalogReadResolution</ref>(uint8_t<sp/>bits);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a9b2f7d9d0077df86b5fbd73942bcaffc" kindref="member">bspGpioAnalogWrite</ref>(uint8_t<sp/>pin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a473ea43016c7438bcf6c54ae0953b44b" kindref="member">bspGpioAnalogWriteResolution</ref>(uint8_t<sp/>bits);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Advanced<sp/>I/O<sp/>-------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a731555025d3fbbb56328f1be7c9c0d77" kindref="member">bspGpioPulseIn</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout<sp/>=<sp/>1000000UL);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1adc9a22797ea3eacf3756a635db48d91a" kindref="member">bspGpioPulseInLong</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout<sp/>=<sp/>1000000UL);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">uint8_t<sp/><ref refid="bsp__gpio_8h_1aaa4e5b753eb7721876bae26166b45e81" kindref="member">bspGpioShiftIn</ref>(uint8_t<sp/>dataPin,<sp/>uint8_t<sp/>clockPin,<sp/>uint8_t<sp/>bitOrder);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a8ab3bbd2afa6df50db6e4affc45d2577" kindref="member">bspGpioShiftOut</ref>(uint8_t<sp/>dataPin,<sp/>uint8_t<sp/>clockPin,<sp/>uint8_t<sp/>bitOrder,<sp/>uint8_t<sp/>val);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a6b231e4d7b1dd20157b0885b022f9dff" kindref="member">bspGpioTone</ref>(uint8_t<sp/>pin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frequency,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8h_1a859d94545c79f456b2914ae7f5a39b70" kindref="member">bspGpioNoTone</ref>(uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BSP_GPIO_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h"/>
+  </compounddef>
+</doxygen>

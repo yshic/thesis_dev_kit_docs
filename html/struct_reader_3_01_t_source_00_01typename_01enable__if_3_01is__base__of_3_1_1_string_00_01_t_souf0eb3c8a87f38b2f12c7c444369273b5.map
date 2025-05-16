@@ -1,0 +1,4 @@
+<map id="Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;" name="Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,96,194,171"/>
+<area shape="rect" id="node2" href="$struct_bounded_reader.html" title=" " alt="" coords="20,5,179,48"/>
+</map>

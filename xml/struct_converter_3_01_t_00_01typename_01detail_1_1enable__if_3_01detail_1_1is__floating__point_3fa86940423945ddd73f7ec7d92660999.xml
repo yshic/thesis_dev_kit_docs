@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999" kind="struct" language="C++" prot="public">
+    <compoundname>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">detail::VariantAttorney</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a86739f04e11a4799e5b3071a87230369" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;::toJson</definition>
+        <argsstring>(T src, JsonVariant dst)</argsstring>
+        <name>toJson</name>
+        <qualifiedname>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;::toJson</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_json_variant" kindref="compound">JsonVariant</ref></type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="111" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a91300260bb8f6dcea253ecd66bd1fdb1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;::fromJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>fromJson</name>
+        <qualifiedname>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;::fromJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="117" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a727f3bf3bc2f3fa475444237a231a3ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;::checkJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>checkJson</name>
+        <qualifiedname>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;::checkJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="122" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="108" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="110" bodyend="126"/>
+    <listofallmembers>
+      <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a727f3bf3bc2f3fa475444237a231a3ae" prot="public" virt="non-virtual"><scope>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>checkJson</name></member>
+      <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a91300260bb8f6dcea253ecd66bd1fdb1" prot="public" virt="non-virtual"><scope>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>fromJson</name></member>
+      <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a86739f04e11a4799e5b3071a87230369" prot="public" virt="non-virtual"><scope>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>toJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

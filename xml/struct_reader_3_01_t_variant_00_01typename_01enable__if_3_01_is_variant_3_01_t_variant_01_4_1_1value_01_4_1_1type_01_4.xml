@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref refid="struct_reader" prot="public" virt="non-virtual">Reader&lt; char *, void &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TVariant</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4_1a7859ba5b9de8f964887f55149429047a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;::Reader</definition>
+        <argsstring>(const TVariant &amp;x)</argsstring>
+        <name>Reader</name>
+        <qualifiedname>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;::Reader</qualifiedname>
+        <param>
+          <type>const TVariant &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp" bodystart="15" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Reader&lt; char *, void &gt;</label>
+        <link refid="struct_reader"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Reader&lt; char *, void &gt;</label>
+        <link refid="struct_reader"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" prot="public" virt="non-virtual"><scope>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</scope><name>read</name></member>
+      <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" prot="public" virt="non-virtual"><scope>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</scope><name>readBytes</name></member>
+      <member refid="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4_1a7859ba5b9de8f964887f55149429047a" prot="public" virt="non-virtual"><scope>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</scope><name>Reader</name></member>
+      <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" prot="public" virt="non-virtual" ambiguityscope="Reader&lt; char *, void &gt;::"><scope>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</scope><name>Reader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

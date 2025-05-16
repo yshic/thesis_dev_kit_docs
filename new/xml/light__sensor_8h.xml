@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="light__sensor_8h" kind="file" language="C++">
+    <compoundname>light_sensor.h</compoundname>
+    <includes local="yes">WProgram.h</includes>
+    <includedby refid="light__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h</label>
+        <link refid="light__sensor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WProgram.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</label>
+        <link refid="light__sensor_8cpp"/>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h</label>
+        <link refid="light__sensor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_light_sensor" prot="public">LightSensor</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="light__sensor_8h_1a9a15d8bb6fc4d43728ace3823ad4d24b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>light_sensor_error_t</name>
+        <enumvalue id="light__sensor_8h_1a9a15d8bb6fc4d43728ace3823ad4d24baed299c3820b7d38a8345140691966951" prot="public">
+          <name>LIGHT_SENSOR_OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="light__sensor_8h_1a9a15d8bb6fc4d43728ace3823ad4d24bafdffe952cc0db9cff7fdf6be3eb5dcb2" prot="public">
+          <name>LIGHT_SENSOR_ERR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="light__sensor_8h_1a9a15d8bb6fc4d43728ace3823ad4d24ba254e773751bfd9ec9169b28161828955" prot="public">
+          <name>LIGHT_SENSOR_ERR_INIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="light__sensor_8h_1a9a15d8bb6fc4d43728ace3823ad4d24baf636cd77c471d6912379c94f1698759b" prot="public">
+          <name>LIGHT_SENSOR_TIMEOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="24" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" bodystart="25" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Header for Light Sensor Library. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>@license This library is released under the MIT License <simplesect kind="version"><para>0.1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2024-11-01 </para>
+</simplesect>
+<simplesect kind="author"><para>Tuan Nguyen</para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LIGHT_SENSOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIGHT_SENSOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Includes<sp/>-----------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>LIGHT_SENSOR_OK<sp/>=<sp/>0,<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>LIGHT_SENSOR_ERR,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>LIGHT_SENSOR_ERR_INIT,<sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>LIGHT_SENSOR_TIMEOUT,<sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>error*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<sp/>light_sensor_error_t;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_light_sensor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_light_sensor_1a9add6ef1b1b4ff5bf6bd2dc34b84cbbb" kindref="member">LightSensor</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><ref refid="class_light_sensor_1a9add6ef1b1b4ff5bf6bd2dc34b84cbbb" kindref="member">LightSensor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>light_sensor_error_t<sp/><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" kindref="member">readAndMap</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minValue,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxValue);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" kindref="member">isAboveThreshold</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threshold);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_light_sensor_1a8e5f8fc679864dd9e7dd7e71e926a613" kindref="member">getLightValue</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_light_sensor_1a751212ac84d8b0541fbcdc35478f733e" kindref="member">getLightValuePercentage</ref>();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" kindref="member">getAverageReading</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samples<sp/>=<sp/>10);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>light_sensor_error_t<sp/><ref refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" kindref="member">onThresholdCross</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threshold,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*callback)());</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_pin;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>uint32_t<sp/>sensorValue[2];<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>void<sp/>(*_callback)()<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="200"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>LIGHT_SENSOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h"/>
+  </compounddef>
+</doxygen>

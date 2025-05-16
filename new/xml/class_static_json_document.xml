@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_static_json_document" kind="class" language="C++" prot="public">
+    <compoundname>StaticJsonDocument</compoundname>
+    <basecompoundref refid="class_json_document" prot="public" virt="non-virtual">JsonDocument</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>desiredCapacity</declname>
+        <defname>desiredCapacity</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_static_json_document_1ac81e5d73dd2ac83737057140756789d0" prot="private" static="yes" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t StaticJsonDocument&lt; desiredCapacity &gt;::capacity_</definition>
+        <argsstring></argsstring>
+        <name>capacity_</name>
+        <qualifiedname>StaticJsonDocument::capacity_</qualifiedname>
+        <initializer>=
+      detail::AddPadding&lt;detail::Max&lt;1, desiredCapacity&gt;::value&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="14" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_static_json_document_1a45d30439dc7afe55698091ebaea9ec29" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char StaticJsonDocument&lt; desiredCapacity &gt;::buffer_[capacity_]</definition>
+        <argsstring>[capacity_]</argsstring>
+        <name>buffer_</name>
+        <qualifiedname>StaticJsonDocument::buffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="58" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_static_json_document_1abd797f8cbcd85de704079a6656667b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StaticJsonDocument&lt; desiredCapacity &gt;::StaticJsonDocument</definition>
+        <argsstring>()</argsstring>
+        <name>StaticJsonDocument</name>
+        <qualifiedname>StaticJsonDocument::StaticJsonDocument</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="18" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_json_document_1acfb2bb037404bb6f333586a993b9608e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StaticJsonDocument&lt; desiredCapacity &gt;::StaticJsonDocument</definition>
+        <argsstring>(const StaticJsonDocument &amp;src)</argsstring>
+        <name>StaticJsonDocument</name>
+        <qualifiedname>StaticJsonDocument::StaticJsonDocument</qualifiedname>
+        <param>
+          <type>const <ref refid="class_static_json_document" kindref="compound">StaticJsonDocument</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="20" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_json_document_1ad2529f6e864132dac3b87caa4599de4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>StaticJsonDocument&lt; desiredCapacity &gt;::StaticJsonDocument</definition>
+        <argsstring>(const T &amp;src, typename detail::enable_if&lt; detail::is_convertible&lt; T, JsonVariantConst &gt;::value &gt;::type *=0)</argsstring>
+        <name>StaticJsonDocument</name>
+        <qualifiedname>StaticJsonDocument::StaticJsonDocument</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>typename detail::enable_if&lt; detail::is_convertible&lt; T, <ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref> &gt;::value &gt;<ref refid="structconditional" kindref="compound">::type</ref> *</type>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="26" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_json_document_1a7ff543af9235fbd94db607d8c028689d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StaticJsonDocument&lt; desiredCapacity &gt;::StaticJsonDocument</definition>
+        <argsstring>(JsonVariant src)</argsstring>
+        <name>StaticJsonDocument</name>
+        <qualifiedname>StaticJsonDocument::StaticJsonDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant" kindref="compound">JsonVariant</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="35" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_json_document_1ab71a242b4c5c465238f82fd7f37e5847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_static_json_document" kindref="compound">StaticJsonDocument</ref> &amp;</type>
+        <definition>StaticJsonDocument &amp; StaticJsonDocument&lt; desiredCapacity &gt;::operator=</definition>
+        <argsstring>(const StaticJsonDocument &amp;src)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>StaticJsonDocument::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_static_json_document" kindref="compound">StaticJsonDocument</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="39" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_json_document_1af633de1ab78ad2e6350f671573e2676a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_static_json_document" kindref="compound">StaticJsonDocument</ref> &amp;</type>
+        <definition>StaticJsonDocument &amp; StaticJsonDocument&lt; desiredCapacity &gt;::operator=</definition>
+        <argsstring>(const T &amp;src)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>StaticJsonDocument::operator=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="45" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_json_document_1a324df93b4e511765561ff2b6c13b943d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StaticJsonDocument&lt; desiredCapacity &gt;::garbageCollect</definition>
+        <argsstring>()</argsstring>
+        <name>garbageCollect</name>
+        <qualifiedname>StaticJsonDocument::garbageCollect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="52" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JsonDocument</label>
+        <link refid="class_json_document"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>StaticJsonDocument&lt; desiredCapacity &gt;</label>
+        <link refid="class_static_json_document"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>detail::VariantOperators&lt; const JsonDocument &amp; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>JsonDocument</label>
+        <link refid="class_json_document"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>StaticJsonDocument&lt; desiredCapacity &gt;</label>
+        <link refid="class_static_json_document"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>detail::VariantOperators&lt; const JsonDocument &amp; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" line="13" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp" bodystart="13" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_json_document_1a660c7530398914b0958d1e94f7704ad6" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>add</name></member>
+      <member refid="class_json_document_1a7144d1f601ac932085baf85f6049a973" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>add</name></member>
+      <member refid="class_json_document_1a831a99fc307922eb07b2d86b72bceee7" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>add</name></member>
+      <member refid="class_json_document_1a47c6ac550777e00a0b72933e32258e4c" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>as</name></member>
+      <member refid="class_json_document_1ac9d93504cf9a5b2fd80471c9d96e6969" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>as</name></member>
+      <member refid="class_static_json_document_1a45d30439dc7afe55698091ebaea9ec29" prot="private" virt="non-virtual"><scope>StaticJsonDocument</scope><name>buffer_</name></member>
+      <member refid="class_json_document_1a29ca37b6ca92d4d6abcd5e34faef6106" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>capacity</name></member>
+      <member refid="class_static_json_document_1ac81e5d73dd2ac83737057140756789d0" prot="private" virt="non-virtual"><scope>StaticJsonDocument</scope><name>capacity_</name></member>
+      <member refid="class_json_document_1aee8fe7018edc1a14a529296f28051ebd" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>clear</name></member>
+      <member refid="class_json_document_1afd49bad30bd08862b1f2086f469054eb" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>containsKey</name></member>
+      <member refid="class_json_document_1a921c0b7b7f3b44ae8cc418cbe0982646" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>containsKey</name></member>
+      <member refid="class_json_document_1a03955c3a6a25777ad73346e577c95981" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>createNestedArray</name></member>
+      <member refid="class_json_document_1a0f30f32458ae42a757e26ef8c4f28d2c" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>createNestedArray</name></member>
+      <member refid="class_json_document_1a3aaabec90082db63fb840fd0f66f1265" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>createNestedArray</name></member>
+      <member refid="class_json_document_1a7ee19cd5e9aad66f0fe0324f4bb73446" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>createNestedObject</name></member>
+      <member refid="class_json_document_1a393979dfa3a6f9f554cf5c08afcff45e" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>createNestedObject</name></member>
+      <member refid="class_json_document_1a3e93da7635d670f84ab14c0b510b5e0d" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>createNestedObject</name></member>
+      <member refid="class_json_document_1ad09d764a5114087a7401aa5443db52cb" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>data_</name></member>
+      <member refid="class_static_json_document_1a324df93b4e511765561ff2b6c13b943d" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>garbageCollect</name></member>
+      <member refid="class_json_document_1a29e15dc509a1f41fea5bad85497e1607" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>getData</name></member>
+      <member refid="class_json_document_1a1360a198e8aa89cd46d235e3ef9ecc11" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>getData</name></member>
+      <member refid="class_json_document_1af488651ad34cb5b8678fda975a1e3ab3" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>getOrCreateData</name></member>
+      <member refid="class_json_document_1a40ab7803607b879888f66ad5e984f597" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>getPool</name></member>
+      <member refid="class_json_document_1ae09101c2f31ec3dad4119a31321cad25" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>getVariant</name></member>
+      <member refid="class_json_document_1af2235fe47e6533461b57c625e8983b18" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>getVariant</name></member>
+      <member refid="class_json_document_1a95a36033fea4984f68aef5c2d24e60e0" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>is</name></member>
+      <member refid="class_json_document_1a5a9823057dbc69784058f5906cc9fb8d" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>is</name></member>
+      <member refid="class_json_document_1a7467a6bdc3419bea8cee2917eae577ef" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>isNull</name></member>
+      <member refid="class_json_document_1a334a4d433785e1a506bdb440d8e183ea" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>JsonDocument</name></member>
+      <member refid="class_json_document_1ad01087696f0f618dacbfcf7ce6a4b46e" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>JsonDocument</name></member>
+      <member refid="class_json_document_1a126ecb0c2fdb9c0c82641990497d90ac" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>JsonDocument</name></member>
+      <member refid="class_json_document_1aceff2fb28267f42689e32181bb4a5490" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>JsonDocument</name></member>
+      <member refid="class_json_document_1a2f0fab97d5b8b5d25804f73e535b21a6" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>memoryUsage</name></member>
+      <member refid="class_json_document_1ad3ec25daf128a3828dfa9e3dce302af1" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>nesting</name></member>
+      <member refid="class_json_document_1af4d9e0d5941f988edbca9ce00aa51495" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator JsonVariant</name></member>
+      <member refid="class_json_document_1a399c505668e3de16400a9fac2a8cdd99" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator JsonVariantConst</name></member>
+      <member refid="class_static_json_document_1ab71a242b4c5c465238f82fd7f37e5847" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator=</name></member>
+      <member refid="class_static_json_document_1af633de1ab78ad2e6350f671573e2676a" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator=</name></member>
+      <member refid="class_json_document_1aba1e01dacaf1a9f91a14b3c6e9c20eb6" prot="public" virt="non-virtual" ambiguityscope="JsonDocument::"><scope>StaticJsonDocument</scope><name>operator=</name></member>
+      <member refid="class_json_document_1ae1487b3f56a2c9c9c4562852fd0aa93e" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator[]</name></member>
+      <member refid="class_json_document_1a861f1220f7bc376ffcfb3146b42c858e" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator[]</name></member>
+      <member refid="class_json_document_1ac542213a984a4b79c3cdd738015cb896" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator[]</name></member>
+      <member refid="class_json_document_1a1c61f759cc5002e0088ad84c72153bdc" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator[]</name></member>
+      <member refid="class_json_document_1a285fc738fe7e5f1b81a2bb047437d3b5" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator[]</name></member>
+      <member refid="class_json_document_1a1ab6f3db74f1c2c4e4360f34575d11d0" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>operator[]</name></member>
+      <member refid="class_json_document_1ac6c759d5062575c8898c0c576591f3df" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>overflowed</name></member>
+      <member refid="class_json_document_1a6a6177a68f41b0f4c75463b09fe7dd7a" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>pool_</name></member>
+      <member refid="class_json_document_1a4e9ab05cf7ce1ee2d197415ceeebefb1" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>remove</name></member>
+      <member refid="class_json_document_1ab71e678c43de85c211f7899bf99749e3" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>remove</name></member>
+      <member refid="class_json_document_1a37d5c25b9907fe34f6aec00beb9e6b36" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>remove</name></member>
+      <member refid="class_json_document_1af50e27fe250e96c2433e7177712c14bf" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>replacePool</name></member>
+      <member refid="class_json_document_1aebec59908510b7a02e9e5f1f43a6a051" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>set</name></member>
+      <member refid="class_json_document_1adb5822fd043dbf9660253956228f9bee" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>set</name></member>
+      <member refid="class_json_document_1ae95ed5080e9a6f1a1dc02d0397f2e021" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>size</name></member>
+      <member refid="class_static_json_document_1abd797f8cbcd85de704079a6656667b2b" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>StaticJsonDocument</name></member>
+      <member refid="class_static_json_document_1acfb2bb037404bb6f333586a993b9608e" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>StaticJsonDocument</name></member>
+      <member refid="class_static_json_document_1ad2529f6e864132dac3b87caa4599de4b" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>StaticJsonDocument</name></member>
+      <member refid="class_static_json_document_1a7ff543af9235fbd94db607d8c028689d" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>StaticJsonDocument</name></member>
+      <member refid="class_json_document_1ae1a506ac8df97b72a1f63af7c1eede75" prot="public" virt="non-virtual"><scope>StaticJsonDocument</scope><name>to</name></member>
+      <member refid="class_json_document_1a1a2e2a6536ed88c2acc75c5e3dcf425f" prot="protected" virt="non-virtual"><scope>StaticJsonDocument</scope><name>~JsonDocument</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

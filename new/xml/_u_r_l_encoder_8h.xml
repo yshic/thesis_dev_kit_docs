@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_u_r_l_encoder_8h" kind="file" language="C++">
+    <compoundname>URLEncoder.h</compoundname>
+    <includes local="no">Arduino.h</includes>
+    <includedby refid="_arduino_http_client_8h" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/ArduinoHttpClient.h</includedby>
+    <includedby refid="_u_r_l_encoder_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.h</label>
+        <link refid="_u_r_l_encoder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/ArduinoHttpClient.h</label>
+        <link refid="_arduino_http_client_8h_source"/>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.h</label>
+        <link refid="_u_r_l_encoder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_u_r_l_encoder_class" prot="public">URLEncoderClass</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_r_l_encoder_8h_1ae8c41672cddc661cf5cb8d679cda3f10" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_u_r_l_encoder_class" kindref="compound">URLEncoderClass</ref></type>
+        <definition>URLEncoderClass URLEncoder</definition>
+        <argsstring></argsstring>
+        <name>URLEncoder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.h" line="23" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp" bodystart="53" bodyend="-1" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.h" declline="23" declcolumn="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Library<sp/>to<sp/>simplify<sp/>HTTP<sp/>fetching<sp/>on<sp/>Arduino</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(c)<sp/>Copyright<sp/>Arduino.<sp/>2019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Released<sp/>under<sp/>Apache<sp/>License,<sp/>version<sp/>2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>URL_ENCODER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>URL_ENCODER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_u_r_l_encoder_class" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">URLEncoderClass</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>URLEncoderClass();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~URLEncoderClass();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/>encode(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/>encode(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>str);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/>encode(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_u_r_l_encoder_class" kindref="compound">URLEncoderClass</ref><sp/>URLEncoder;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.h"/>
+  </compounddef>
+</doxygen>

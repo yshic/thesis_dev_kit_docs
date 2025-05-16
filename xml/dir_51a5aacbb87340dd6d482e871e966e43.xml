@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_51a5aacbb87340dd6d482e871e966e43" kind="dir">
+    <compoundname>lib/ArduinoHttpClient</compoundname>
+    <innerdir refid="dir_de6b731208ca3647f59e46130a87452d">lib/ArduinoHttpClient/utility</innerdir>
+    <innerfile refid="_arduino_http_client_8h">ArduinoHttpClient.h</innerfile>
+    <innerfile refid="b64_8cpp">b64.cpp</innerfile>
+    <innerfile refid="b64_8h">b64.h</innerfile>
+    <innerfile refid="_http_client_8cpp">HttpClient.cpp</innerfile>
+    <innerfile refid="_http_client_8h">HttpClient.h</innerfile>
+    <innerfile refid="_u_r_l_encoder_8cpp">URLEncoder.cpp</innerfile>
+    <innerfile refid="_u_r_l_encoder_8h">URLEncoder.h</innerfile>
+    <innerfile refid="_u_r_l_parser_8h">URLParser.h</innerfile>
+    <innerfile refid="_web_socket_client_8cpp">WebSocketClient.cpp</innerfile>
+    <innerfile refid="_web_socket_client_8h">WebSocketClient.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoHttpClient/"/>
+  </compounddef>
+</doxygen>

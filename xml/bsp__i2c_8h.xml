@@ -1,0 +1,1075 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="bsp__i2c_8h" kind="file" language="C++">
+    <compoundname>bsp_i2c.h</compoundname>
+    <includes local="yes">WProgram.h</includes>
+    <includedby refid="ac__measure_8cpp" local="yes">lib/ac_measure/src/ac_measure.cpp</includedby>
+    <includedby refid="bmp280_8cpp" local="yes">lib/bmp280/src/bmp280.cpp</includedby>
+    <includedby refid="bsp__i2c_8cpp" local="yes">lib/bsp/bsp_i2c.cpp</includedby>
+    <includedby refid="dht20_8cpp" local="yes">lib/dht20/src/dht20.cpp</includedby>
+    <includedby refid="sht3x_8cpp" local="yes">lib/sht3x/src/sht3x.cpp</includedby>
+    <includedby refid="sht4x_8cpp" local="yes">lib/sht4x/src/sht4x.cpp</includedby>
+    <includedby refid="unit__4relay_8cpp" local="yes">lib/unit_4relay/src/unit_4relay.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>lib/bsp/bsp_i2c.h</label>
+        <link refid="bsp__i2c_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WProgram.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>lib/ac_measure/src/ac_measure.cpp</label>
+        <link refid="ac__measure_8cpp"/>
+      </node>
+      <node id="3">
+        <label>lib/bsp/bsp_i2c.cpp</label>
+        <link refid="bsp__i2c_8cpp"/>
+      </node>
+      <node id="1">
+        <label>lib/bsp/bsp_i2c.h</label>
+        <link refid="bsp__i2c_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>lib/dht20/src/dht20.cpp</label>
+        <link refid="dht20_8cpp"/>
+      </node>
+      <node id="5">
+        <label>lib/sht3x/src/sht3x.cpp</label>
+        <link refid="sht3x_8cpp"/>
+      </node>
+      <node id="6">
+        <label>lib/sht4x/src/sht4x.cpp</label>
+        <link refid="sht4x_8cpp"/>
+      </node>
+      <node id="7">
+        <label>lib/unit_4relay/src/unit_4relay.cpp</label>
+        <link refid="unit__4relay_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bsp_i2c_error_t</name>
+        <enumvalue id="bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626a882708f9dddc18420f7c4998eac7c79d" prot="public">
+          <name>BSP_I2C_OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626a238fe571c1bba735f7b14db95911484e" prot="public">
+          <name>BSP_I2C_ERR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626a7b86295373b82c449d09fc7f827c27ec" prot="public">
+          <name>BSP_I2C_ERR_READ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626a04aa8b1ec312e5742d4057f77e50e114" prot="public">
+          <name>BSP_I2C_ERR_WRITE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__i2c_8h_1a94df390452b0cbaee6007ebe95c46626a31ff4d3e8440975547e2a3277fa73811" prot="public">
+          <name>BSP_I2C_TIMEOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="30" column="1" bodyfile="lib/bsp/bsp_i2c.h" bodystart="31" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="bsp__i2c_8h_1a4b4d163033723fee1c983f99bd8d2861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CBegin</definition>
+        <argsstring>()</argsstring>
+        <name>bspI2CBegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="44" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="33" bodyend="37" declfile="lib/bsp/bsp_i2c.h" declline="44" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1ab434829a1761a2b03362658218b03da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CBegin</definition>
+        <argsstring>(uint8_t address)</argsstring>
+        <name>bspI2CBegin</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="45" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="39" bodyend="43" declfile="lib/bsp/bsp_i2c.h" declline="45" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1ae83e63b33815dd89044a69afe454d55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CBeginTransmission</definition>
+        <argsstring>(uint16_t address)</argsstring>
+        <name>bspI2CBeginTransmission</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="48" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="45" bodyend="49" declfile="lib/bsp/bsp_i2c.h" declline="48" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a3da6eebd848529a33b69e3d73ee0e523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CBeginTransmission</definition>
+        <argsstring>(uint8_t address)</argsstring>
+        <name>bspI2CBeginTransmission</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="50" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="51" bodyend="55" declfile="lib/bsp/bsp_i2c.h" declline="50" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1acdc186021d6567a22584adb9373329ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CBeginTransmission</definition>
+        <argsstring>(int address)</argsstring>
+        <name>bspI2CBeginTransmission</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="52" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="57" bodyend="61" declfile="lib/bsp/bsp_i2c.h" declline="52" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a1c2c4c03d89b44dcd7a6112d83310640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CEndTransmission</definition>
+        <argsstring>(bool sendStop)</argsstring>
+        <name>bspI2CEndTransmission</name>
+        <param>
+          <type>bool</type>
+          <declname>sendStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="55" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="63" bodyend="63" declfile="lib/bsp/bsp_i2c.h" declline="55" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a4c0219faaa13d68f206b2e43db544705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CEndTransmission</definition>
+        <argsstring>(void)</argsstring>
+        <name>bspI2CEndTransmission</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="57" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="65" bodyend="65" declfile="lib/bsp/bsp_i2c.h" declline="57" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1ae526d36f61bf096d8a1f6d6d820dad05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t bspI2CRequestFrom</definition>
+        <argsstring>(uint16_t address, size_t size, bool sendStop)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sendStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="60" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="67" bodyend="70" declfile="lib/bsp/bsp_i2c.h" declline="60" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1ac981b7ec4869fba98f27f4e6e0089c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(uint16_t address, uint8_t size, bool sendStop)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sendStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="62" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="72" bodyend="75" declfile="lib/bsp/bsp_i2c.h" declline="62" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a15cad080c8941c0c2a201483033b4de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(uint16_t address, uint8_t size, uint8_t sendStop)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>sendStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="64" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="77" bodyend="80" declfile="lib/bsp/bsp_i2c.h" declline="64" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a52192456261cbe85b591f5616dec26f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t bspI2CRequestFrom</definition>
+        <argsstring>(uint8_t address, size_t len, bool stopBit)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stopBit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="66" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="81" bodyend="84" declfile="lib/bsp/bsp_i2c.h" declline="66" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a8671b871daa1044684a9124f3fdd314c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(uint16_t address, uint8_t size)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="68" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="85" bodyend="85" declfile="lib/bsp/bsp_i2c.h" declline="68" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1af4e60536c9759774640210e4ff2d4b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(uint8_t address, uint8_t size, uint8_t sendStop)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>sendStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="70" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="87" bodyend="90" declfile="lib/bsp/bsp_i2c.h" declline="70" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a2a5eb297cb36bc3a98c6a3c80a12780e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(uint8_t address, uint8_t size)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="72" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="91" bodyend="91" declfile="lib/bsp/bsp_i2c.h" declline="72" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a5498bcfd5d6a49b40d30aae3e1b89b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(int address, int size, int sendStop)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sendStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="74" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="93" bodyend="96" declfile="lib/bsp/bsp_i2c.h" declline="74" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1afbcc1741fc6e22aa25f3d5ec36fb2228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t bspI2CRequestFrom</definition>
+        <argsstring>(int address, int size)</argsstring>
+        <name>bspI2CRequestFrom</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="76" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="97" bodyend="97" declfile="lib/bsp/bsp_i2c.h" declline="76" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1aee0096731ce62e0b4c7a95f57f880e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t bspI2CWrite</definition>
+        <argsstring>(uint8_t data)</argsstring>
+        <name>bspI2CWrite</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="79" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="99" bodyend="99" declfile="lib/bsp/bsp_i2c.h" declline="79" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a4a420687f639f66ad8ada18efa391226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t bspI2CWrite</definition>
+        <argsstring>(const uint8_t *data, size_t quantity)</argsstring>
+        <name>bspI2CWrite</name>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="81" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="101" bodyend="101" declfile="lib/bsp/bsp_i2c.h" declline="81" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1af58fb882ae51cda816e6bd72ea107575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int bspI2CAvailable</definition>
+        <argsstring>(void)</argsstring>
+        <name>bspI2CAvailable</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="83" column="5" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="103" bodyend="103" declfile="lib/bsp/bsp_i2c.h" declline="83" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a6c0e7a766512688b491b975c8235d5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int bspI2CRead</definition>
+        <argsstring>(void)</argsstring>
+        <name>bspI2CRead</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="85" column="5" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="105" bodyend="105" declfile="lib/bsp/bsp_i2c.h" declline="85" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1ac0bbc36506d28cdb0a2ec20a6393a784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int bspI2CPeek</definition>
+        <argsstring>(void)</argsstring>
+        <name>bspI2CPeek</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="87" column="5" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="107" bodyend="107" declfile="lib/bsp/bsp_i2c.h" declline="87" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1aa683c4156ea03ac0836a009229affe54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CFlush</definition>
+        <argsstring>(void)</argsstring>
+        <name>bspI2CFlush</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="89" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="109" bodyend="113" declfile="lib/bsp/bsp_i2c.h" declline="89" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a7cd81829f88f85d45cff03b0fe91c83a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CReadByte</definition>
+        <argsstring>(int address, uint8_t reg, uint8_t &amp;byte)</argsstring>
+        <name>bspI2CReadByte</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>byte</declname>
+        </param>
+        <briefdescription>
+<para>Reads a single byte using I2C from a register. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function read a single byte over the I2C interface from a register and stores it in the provided reference variable.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">reg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The register to read from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">byte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to a variable where the read byte will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the device is correctly connected and that I2C communication is functioning. The function includes a loop with retries and delays to handle cases where the byte is not immediately available.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>BSP_I2C_OK</computeroutput> : Success</para>
+</listitem><listitem><para><computeroutput>BSP_I2C_ERR_READ</computeroutput>: Error reading from the I2C bus. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="109" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="115" bodyend="135" declfile="lib/bsp/bsp_i2c.h" declline="109" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a408cb7690a6aec304eb774ba016922f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CReadByte</definition>
+        <argsstring>(int address, uint8_t &amp;byte)</argsstring>
+        <name>bspI2CReadByte</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>byte</declname>
+        </param>
+        <briefdescription>
+<para>Reads a single byte using I2C. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function request a single byte over the I2C interface and stores it in the provided reference variable.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">byte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to a variable where the read byte will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the device is correctly connected and that I2C communication is functioning. The function includes a loop with retries and delays to handle cases where the byte is not immediately available.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>BSP_I2C_OK</computeroutput> : Success</para>
+</listitem><listitem><para><computeroutput>BSP_I2C_ERR_READ</computeroutput>: Error reading from the I2C bus. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="128" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="137" bodyend="152" declfile="lib/bsp/bsp_i2c.h" declline="128" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a78cbdf9442b29147d38e4e23eaa0013e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CReadBytes</definition>
+        <argsstring>(int address, uint8_t reg, uint8_t *bytes, uint32_t len)</argsstring>
+        <name>bspI2CReadBytes</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Reads multiple bytes using I2C from a register. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function requests multiple bytes over the I2C interface from a register and stores them in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">reg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The register to read from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a buffer where the read bytes will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of bytes to read.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and that I2C communication is functioning. The function includes a loop with retries and delays to handle cases where the bytes are not immediately available.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>BSP_I2C_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>BSP_I2C_ERR_READ</computeroutput>: Error reading from the I2C bus. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="149" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="154" bodyend="177" declfile="lib/bsp/bsp_i2c.h" declline="149" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1aa53bbb56cc38bd91b8d31efaa1824ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CReadBytes</definition>
+        <argsstring>(int address, uint8_t *bytes, uint32_t len)</argsstring>
+        <name>bspI2CReadBytes</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Reads multiple bytes using I2C. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function requests multiple bytes over the I2C interface and stores them in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a buffer where the read bytes will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of bytes to read.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and that I2C communication is functioning. The function includes a loop with retries and delays to handle cases where the bytes are not immediately available.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>BSP_I2C_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>BSP_I2C_ERR_READ</computeroutput>: Error reading from the I2C bus. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="169" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="179" bodyend="197" declfile="lib/bsp/bsp_i2c.h" declline="169" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a14000fc85c5999b783fcf2f826f27f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CWriteByte</definition>
+        <argsstring>(int address, uint8_t reg, uint8_t byte)</argsstring>
+        <name>bspI2CWriteByte</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>byte</declname>
+        </param>
+        <briefdescription>
+<para>Writes a single byte to a register using I2C. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function writes a single byte to a register over the I2C interface.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">reg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The register to read from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">byte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The byte to write.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and that I2C communication is functioning.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>BSP_I2C_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>BSP_I2C_ERR_WRITE</computeroutput>: Error writing to the I2C bus. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="186" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="199" bodyend="205" declfile="lib/bsp/bsp_i2c.h" declline="186" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1a6fa08d56ba5abcaf8827af4c3164f5b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bsp_i2c_error_t</type>
+        <definition>bsp_i2c_error_t bspI2CWriteBytes</definition>
+        <argsstring>(int address, uint8_t reg, uint8_t *bytes, uint32_t len)</argsstring>
+        <name>bspI2CWriteBytes</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Writes multiple bytes to a register using I2C. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function writes multiple bytes to a register over the I2C interface.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">reg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The register to read from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a buffer containing the bytes to write. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of bytes to write.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the sensor is correctly connected and that I2C communication is functioning.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>BSP_I2C_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>BSP_I2C_ERR_WRITE</computeroutput>: Error writing to the I2C bus. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="204" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="207" bodyend="216" declfile="lib/bsp/bsp_i2c.h" declline="204" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="bsp__i2c_8h_1acc6322b83a6e34f4b9d486caaf87308c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool bspI2CExist</definition>
+        <argsstring>(uint8_t address)</argsstring>
+        <name>bspI2CExist</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Checks if an I2C device is present on the bus. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function verifies the presence of an I2C device by initiating a transmission and checking for an acknowledgment.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Device&apos;s I2C address.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the I2C bus is initialized before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>true</computeroutput>: Device is present.</para>
+</listitem><listitem><para><computeroutput>false</computeroutput>: Device is not responding. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bsp/bsp_i2c.h" line="221" column="6" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="218" bodyend="222" declfile="lib/bsp/bsp_i2c.h" declline="221" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Header file for bsp_i2c. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>@license This project is released under the MIT License. <simplesect kind="version"><para>0.1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2024-12-31 </para>
+</simplesect>
+<simplesect kind="author"><para>Tuan Nguyen</para>
+</simplesect>
+</para>
+<para><simplesect kind="note"><para>None </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BSP_I2C_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BSP_I2C_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Includes<sp/>---------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Error<sp/>codes<sp/>for<sp/>I2C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>BSP_I2C_OK<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>BSP_I2C_ERR,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>BSP_I2C_ERR_READ,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>BSP_I2C_ERR_WRITE,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>BSP_I2C_TIMEOUT</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}<sp/>bsp_i2c_error_t;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>function<sp/>prototypes<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">bsp_i2c_error_t<sp/>bspI2CBegin();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">bsp_i2c_error_t<sp/>bspI2CBegin(uint8_t<sp/>address);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>beginTransmission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">bsp_i2c_error_t<sp/>bspI2CBeginTransmission(uint16_t<sp/>address);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">bsp_i2c_error_t<sp/>bspI2CBeginTransmission(uint8_t<sp/>address);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">bsp_i2c_error_t<sp/>bspI2CBeginTransmission(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>endTransmission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">uint8_t<sp/>bspI2CEndTransmission(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sendStop);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">uint8_t<sp/>bspI2CEndTransmission(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//<sp/>requestFrom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bspI2CRequestFrom(uint16_t<sp/>address,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sendStop);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(uint16_t<sp/>address,<sp/>uint8_t<sp/>size,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sendStop);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(uint16_t<sp/>address,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>sendStop);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bspI2CRequestFrom(uint8_t<sp/>address,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>stopBit);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(uint16_t<sp/>address,<sp/>uint8_t<sp/>size);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(uint8_t<sp/>address,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>sendStop);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(uint8_t<sp/>address,<sp/>uint8_t<sp/>size);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sendStop);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">uint8_t<sp/>bspI2CRequestFrom(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>write</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bspI2CWrite(uint8_t<sp/>data);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bspI2CWrite(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>quantity);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bspI2CAvailable(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bspI2CRead(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bspI2CPeek(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">bsp_i2c_error_t<sp/>bspI2CFlush(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8h_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>&amp;</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8h_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>&amp;</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8h_1a78cbdf9442b29147d38e4e23eaa0013e" kindref="member">bspI2CReadBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8h_1a78cbdf9442b29147d38e4e23eaa0013e" kindref="member">bspI2CReadBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8h_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8h_1a6fa08d56ba5abcaf8827af4c3164f5b7" kindref="member">bspI2CWriteBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="bsp__i2c_8h_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(uint8_t<sp/>address);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>BSP_I2C_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/bsp/bsp_i2c.h"/>
+  </compounddef>
+</doxygen>

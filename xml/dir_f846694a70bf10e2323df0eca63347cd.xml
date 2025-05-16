@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f846694a70bf10e2323df0eca63347cd" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits</compoundname>
+    <innerfile refid="conditional_8hpp">conditional.hpp</innerfile>
+    <innerfile refid="declval_8hpp">declval.hpp</innerfile>
+    <innerfile refid="enable__if_8hpp">enable_if.hpp</innerfile>
+    <innerfile refid="integral__constant_8hpp">integral_constant.hpp</innerfile>
+    <innerfile refid="is__array_8hpp">is_array.hpp</innerfile>
+    <innerfile refid="is__base__of_8hpp">is_base_of.hpp</innerfile>
+    <innerfile refid="is__class_8hpp">is_class.hpp</innerfile>
+    <innerfile refid="is__const_8hpp">is_const.hpp</innerfile>
+    <innerfile refid="is__convertible_8hpp">is_convertible.hpp</innerfile>
+    <innerfile refid="is__enum_8hpp">is_enum.hpp</innerfile>
+    <innerfile refid="is__floating__point_8hpp">is_floating_point.hpp</innerfile>
+    <innerfile refid="is__integral_8hpp">is_integral.hpp</innerfile>
+    <innerfile refid="is__pointer_8hpp">is_pointer.hpp</innerfile>
+    <innerfile refid="is__same_8hpp">is_same.hpp</innerfile>
+    <innerfile refid="is__signed_8hpp">is_signed.hpp</innerfile>
+    <innerfile refid="is__unsigned_8hpp">is_unsigned.hpp</innerfile>
+    <innerfile refid="make__unsigned_8hpp">make_unsigned.hpp</innerfile>
+    <innerfile refid="make__void_8hpp">make_void.hpp</innerfile>
+    <innerfile refid="remove__const_8hpp">remove_const.hpp</innerfile>
+    <innerfile refid="remove__cv_8hpp">remove_cv.hpp</innerfile>
+    <innerfile refid="remove__reference_8hpp">remove_reference.hpp</innerfile>
+    <innerfile refid="type__identity_8hpp">type_identity.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/"/>
+  </compounddef>
+</doxygen>

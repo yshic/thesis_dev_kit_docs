@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_ab2c8b514eb223f3d4ba664674854729" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers</compoundname>
+    <innerfile refid="arithmetic_compare_8hpp">arithmeticCompare.hpp</innerfile>
+    <innerfile refid="convert_number_8hpp">convertNumber.hpp</innerfile>
+    <innerfile refid="_float_parts_8hpp">FloatParts.hpp</innerfile>
+    <innerfile refid="_float_traits_8hpp">FloatTraits.hpp</innerfile>
+    <innerfile refid="_json_float_8hpp">JsonFloat.hpp</innerfile>
+    <innerfile refid="_json_integer_8hpp">JsonInteger.hpp</innerfile>
+    <innerfile refid="parse_number_8hpp">parseNumber.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/"/>
+  </compounddef>
+</doxygen>

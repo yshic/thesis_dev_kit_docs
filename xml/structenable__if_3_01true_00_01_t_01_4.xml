@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structenable__if_3_01true_00_01_t_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>enable_if&lt; true, T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structenable__if_3_01true_00_01_t_01_4_1ab83a8093e1970e57ad25521ed0780705" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T enable_if&lt; true, T &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>enable_if&lt; true, T &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp" line="17" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp" line="16" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp" bodystart="16" bodyend="18"/>
+    <listofallmembers>
+      <member refid="structenable__if_3_01true_00_01_t_01_4_1ab83a8093e1970e57ad25521ed0780705" prot="public" virt="non-virtual"><scope>enable_if&lt; true, T &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

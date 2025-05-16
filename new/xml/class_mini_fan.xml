@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_mini_fan" kind="class" language="C++" prot="public">
+    <compoundname>MiniFan</compoundname>
+    <includes refid="mini__fan_8h" local="no">mini_fan.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mini_fan_1a042607be815e7b0604b8c67086b9f78d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MiniFan::_pin</definition>
+        <argsstring></argsstring>
+        <name>_pin</name>
+        <qualifiedname>MiniFan::_pin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="150" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mini_fan_1a6f3ec23f1d90e1d04dd97e725220f03a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MiniFan::_speed[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>_speed</name>
+        <qualifiedname>MiniFan::_speed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SIG pin of the Mini Fan </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="151" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mini_fan_1ab4241edd228b87f32d88bb4d769e1465" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MiniFan::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MiniFan::status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Speed of the fan Status of the fan (ON/OFF) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="152" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MiniFan::MiniFan</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>MiniFan</name>
+        <qualifiedname>MiniFan::MiniFan</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to initialize the <ref refid="class_mini_fan" kindref="compound">MiniFan</ref> with a specified pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the <ref refid="class_mini_fan" kindref="compound">MiniFan</ref> to use the provided PWM-capable pin as an output for controlling the fan.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pin number connected to the fan&apos;s control signal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the pin is PWM-capable and properly connected to the fan. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="78" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MiniFan::setFanSpeed</definition>
+        <argsstring>(int speed)</argsstring>
+        <name>setFanSpeed</name>
+        <qualifiedname>MiniFan::setFanSpeed</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+<para>Sets the fan speed using a PWM value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a PWM value to the control pin to set the fan speed and updates the internal speed and state.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fan speed as a PWM value (0–255).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the speed is within the valid range (0–255). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="89" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="36" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mini_fan_1abd39975cb9ab28471121e461794951d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MiniFan::setFanSpeedPercentage</definition>
+        <argsstring>(int percentage)</argsstring>
+        <name>setFanSpeedPercentage</name>
+        <qualifiedname>MiniFan::setFanSpeedPercentage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>percentage</declname>
+        </param>
+        <briefdescription>
+<para>Sets the fan speed as a percentage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the percentage to a PWM value, writes it to the control pin, and updates the internal speed and state.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">percentage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fan speed as a percentage (0–100%).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the percentage is within the valid range (0–100). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="101" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="49" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MiniFan::getFanSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>getFanSpeed</name>
+        <qualifiedname>MiniFan::getFanSpeed</qualifiedname>
+        <briefdescription>
+<para>Retrieves the current fan speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current fan speed as a PWM value stored internally.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The current fan speed as a PWM value (0–255). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="112" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MiniFan::getFanSpeedPercentage</definition>
+        <argsstring>()</argsstring>
+        <name>getFanSpeedPercentage</name>
+        <qualifiedname>MiniFan::getFanSpeedPercentage</qualifiedname>
+        <briefdescription>
+<para>Retrieves the current fan speed as a percentage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current fan speed as a percentage stored internally.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The current fan speed as a percentage (0–100%). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="123" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MiniFan::toggleFan</definition>
+        <argsstring>()</argsstring>
+        <name>toggleFan</name>
+        <qualifiedname>MiniFan::toggleFan</qualifiedname>
+        <briefdescription>
+<para>Toggles the fan state between ON and OFF. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Switches the fan state: if ON, turns it OFF by setting the PWM to 0; if OFF, turns it ON by restoring the previous speed or defaulting to maximum (PWM 255, 100%) if no prior speed was set.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The fan speed is preserved when turning OFF and restored when turning ON, unless no prior speed was set, in which case maximum speed is used. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="136" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="69" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MiniFan::isFanRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isFanRunning</name>
+        <qualifiedname>MiniFan::isFanRunning</qualifiedname>
+        <briefdescription>
+<para>Checks if the fan is currently running. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current state of the fan based on the internally stored status.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <computeroutput>true</computeroutput> if the fan is running, <computeroutput>false</computeroutput> otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="147" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="91" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Manages operations of a mini fan module, providing control over speed and state. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_mini_fan" kindref="compound">MiniFan</ref></computeroutput> class facilitates interaction with a mini fan module connected to an Arduino pin. It supports setting the fan speed via PWM, toggling the fan state, and retrieving the current speed as a raw PWM value or percentage. The class maintains the fan&apos;s state internally for consistent control.</para>
+<sect1 id="class_mini_fan_1autotoc_md28_1s1"><sect2 id="class_mini_fan_1autotoc_md28_1s2"><sect3 id="class_mini_fan_1autotoc_md28">
+<title>Features:</title><para><itemizedlist>
+<listitem><para>Sets fan speed using PWM values (0–255).</para>
+</listitem><listitem><para>Sets and retrieves fan speed as a percentage (0–100%).</para>
+</listitem><listitem><para>Toggles fan state between ON and OFF.</para>
+</listitem><listitem><para>Checks if the fan is currently running.</para>
+</listitem><listitem><para>Stores fan speed and state internally for consistent control.</para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+<sect1 id="class_mini_fan_1autotoc_md29_1s1"><sect2 id="class_mini_fan_1autotoc_md29_1s2"><sect3 id="class_mini_fan_1autotoc_md29">
+<title>Usage:</title><para>Instantiate the class with a PWM-capable pin. Use <computeroutput><ref refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" kindref="member">setFanSpeed()</ref></computeroutput> or <computeroutput><ref refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" kindref="member">setFanSpeedPercentage()</ref></computeroutput> to control the fan speed, <computeroutput><ref refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" kindref="member">toggleFan()</ref></computeroutput> to switch the fan ON or OFF, and <computeroutput><ref refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" kindref="member">isFanRunning()</ref></computeroutput> to check the fan&apos;s state. Retrieve the current speed with <computeroutput><ref refid="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" kindref="member">getFanSpeed()</ref></computeroutput> or <computeroutput><ref refid="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" kindref="member">getFanSpeedPercentage()</ref></computeroutput>.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_mini_fan_1autotoc_md30_1s1"><sect2 id="class_mini_fan_1autotoc_md30_1s2"><sect3 id="class_mini_fan_1autotoc_md30">
+<title>Dependencies:</title><para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with PWM support.</para>
+</listitem><listitem><para>Fan must be connected to a valid PWM-capable pin.</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for GPIO operations (<computeroutput>bspGpioAnalogWrite</computeroutput>, <computeroutput>bspGpioDigitalWrite</computeroutput>). </para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="66" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="67" bodyend="153"/>
+    <listofallmembers>
+      <member refid="class_mini_fan_1a042607be815e7b0604b8c67086b9f78d" prot="private" virt="non-virtual"><scope>MiniFan</scope><name>_pin</name></member>
+      <member refid="class_mini_fan_1a6f3ec23f1d90e1d04dd97e725220f03a" prot="private" virt="non-virtual"><scope>MiniFan</scope><name>_speed</name></member>
+      <member refid="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>getFanSpeed</name></member>
+      <member refid="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>getFanSpeedPercentage</name></member>
+      <member refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>isFanRunning</name></member>
+      <member refid="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>MiniFan</name></member>
+      <member refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>setFanSpeed</name></member>
+      <member refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>setFanSpeedPercentage</name></member>
+      <member refid="class_mini_fan_1ab4241edd228b87f32d88bb4d769e1465" prot="private" virt="non-virtual"><scope>MiniFan</scope><name>status</name></member>
+      <member refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" prot="public" virt="non-virtual"><scope>MiniFan</scope><name>toggleFan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

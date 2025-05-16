@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a3b5c57cb91440e2268e221c386903dd" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</compoundname>
+    <innerfile refid="_arduino_stream_reader_8hpp">ArduinoStreamReader.hpp</innerfile>
+    <innerfile refid="_arduino_string_reader_8hpp">ArduinoStringReader.hpp</innerfile>
+    <innerfile refid="_flash_reader_8hpp">FlashReader.hpp</innerfile>
+    <innerfile refid="_iterator_reader_8hpp">IteratorReader.hpp</innerfile>
+    <innerfile refid="_ram_reader_8hpp">RamReader.hpp</innerfile>
+    <innerfile refid="_std_stream_reader_8hpp">StdStreamReader.hpp</innerfile>
+    <innerfile refid="_variant_reader_8hpp">VariantReader.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/"/>
+  </compounddef>
+</doxygen>

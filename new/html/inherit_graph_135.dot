@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="StringAdapter\< T, typename\l enable_if\<(string_traits\l\< T \>::has_cstr\|\|string_traits\l\< T \>::has_data) &&(string_traits\l\< T \>::has_length\|\|string_traits\l\< T \>::has_size)\>::type \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e.html",tooltip=" "];
+}

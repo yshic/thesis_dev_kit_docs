@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f5420b6d77e365820cde539fe1155c5c" kind="dir">
+    <compoundname>lib/sht3x</compoundname>
+    <innerdir refid="dir_aaf79a6e3d79da4b818e42bd05d3b868">lib/sht3x/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/sht3x/"/>
+  </compounddef>
+</doxygen>

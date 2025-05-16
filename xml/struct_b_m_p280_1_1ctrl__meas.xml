@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_b_m_p280_1_1ctrl__meas" kind="struct" language="C++" prot="private">
+    <compoundname>BMP280::ctrl_meas</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_b_m_p280_1_1ctrl__meas_1a2745c26a403914bd00ea8d50062912ab" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BMP280::ctrl_meas::osrs_t</definition>
+        <argsstring></argsstring>
+        <name>osrs_t</name>
+        <qualifiedname>BMP280::ctrl_meas::osrs_t</qualifiedname>
+        <bitfield> 3</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Temperature oversampling. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="420" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_m_p280_1_1ctrl__meas_1a310095e651f7124b8f8cae80d7889d3f" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BMP280::ctrl_meas::osrs_p</definition>
+        <argsstring></argsstring>
+        <name>osrs_p</name>
+        <qualifiedname>BMP280::ctrl_meas::osrs_p</qualifiedname>
+        <bitfield> 3</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pressure oversampling. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="422" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_m_p280_1_1ctrl__meas_1a3bde57755ac52310d79c804cd7b72684" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BMP280::ctrl_meas::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>BMP280::ctrl_meas::mode</qualifiedname>
+        <bitfield> 2</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Device mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="424" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_b_m_p280_1_1ctrl__meas_1a8234fedabca25f442c93d48a4a015333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BMP280::ctrl_meas::ctrl_meas</definition>
+        <argsstring>()</argsstring>
+        <name>ctrl_meas</name>
+        <qualifiedname>BMP280::ctrl_meas::ctrl_meas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize to power-on-reset state </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="418" column="5" bodyfile="lib/bmp280/src/bmp280.h" bodystart="418" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_b_m_p280_1_1ctrl__meas_1a279b6712fd41b0a2eb23297dcc37f26c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int BMP280::ctrl_meas::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>BMP280::ctrl_meas::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used to retrieve the assembled ctrl_meas register&apos;s byte value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="426" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="426" bodyend="426"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Encapsulates trhe ctrl_meas register </para>
+    </detaileddescription>
+    <location file="lib/bmp280/src/bmp280.h" line="415" column="3" bodyfile="lib/bmp280/src/bmp280.h" bodystart="416" bodyend="427"/>
+    <listofallmembers>
+      <member refid="struct_b_m_p280_1_1ctrl__meas_1a8234fedabca25f442c93d48a4a015333" prot="public" virt="non-virtual"><scope>BMP280::ctrl_meas</scope><name>ctrl_meas</name></member>
+      <member refid="struct_b_m_p280_1_1ctrl__meas_1a279b6712fd41b0a2eb23297dcc37f26c" prot="public" virt="non-virtual"><scope>BMP280::ctrl_meas</scope><name>get</name></member>
+      <member refid="struct_b_m_p280_1_1ctrl__meas_1a3bde57755ac52310d79c804cd7b72684" prot="public" virt="non-virtual"><scope>BMP280::ctrl_meas</scope><name>mode</name></member>
+      <member refid="struct_b_m_p280_1_1ctrl__meas_1a310095e651f7124b8f8cae80d7889d3f" prot="public" virt="non-virtual"><scope>BMP280::ctrl_meas</scope><name>osrs_p</name></member>
+      <member refid="struct_b_m_p280_1_1ctrl__meas_1a2745c26a403914bd00ea8d50062912ab" prot="public" virt="non-virtual"><scope>BMP280::ctrl_meas</scope><name>osrs_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_default_allocator" kind="struct" language="C++" prot="public">
+    <compoundname>DefaultAllocator</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_default_allocator_1afb3361dd5888b7e04c8d5a9f3945b113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * DefaultAllocator::allocate</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>allocate</name>
+        <qualifiedname>DefaultAllocator::allocate</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="15" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_default_allocator_1a5da35a2846fe39b3ba73db200a3cc692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DefaultAllocator::deallocate</definition>
+        <argsstring>(void *ptr)</argsstring>
+        <name>deallocate</name>
+        <qualifiedname>DefaultAllocator::deallocate</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="19" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_default_allocator_1a5e6eb08b17809a2262aee1b645e3f8b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * DefaultAllocator::reallocate</definition>
+        <argsstring>(void *ptr, size_t new_size)</argsstring>
+        <name>reallocate</name>
+        <qualifiedname>DefaultAllocator::reallocate</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="23" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="14" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="14" bodyend="26"/>
+    <listofallmembers>
+      <member refid="struct_default_allocator_1afb3361dd5888b7e04c8d5a9f3945b113" prot="public" virt="non-virtual"><scope>DefaultAllocator</scope><name>allocate</name></member>
+      <member refid="struct_default_allocator_1a5da35a2846fe39b3ba73db200a3cc692" prot="public" virt="non-virtual"><scope>DefaultAllocator</scope><name>deallocate</name></member>
+      <member refid="struct_default_allocator_1a5e6eb08b17809a2262aee1b645e3f8b0" prot="public" virt="non-virtual"><scope>DefaultAllocator</scope><name>reallocate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

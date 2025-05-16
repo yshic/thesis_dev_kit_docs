@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_utf16" kind="namespace" language="C++">
+    <compoundname>Utf16</compoundname>
+    <innerclass refid="class_utf16_1_1_codepoint" prot="public">Utf16::Codepoint</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_utf16_8hpp_1a03040ff38d00bfb4fe9c622e9baa7c1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utf16::isHighSurrogate</definition>
+        <argsstring>(uint16_t codeunit)</argsstring>
+        <name>isHighSurrogate</name>
+        <qualifiedname>Utf16::isHighSurrogate</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>codeunit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="24" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="_utf16_8hpp_1a2d5b9f8162ba16046baa68690d6217c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utf16::isLowSurrogate</definition>
+        <argsstring>(uint16_t codeunit)</argsstring>
+        <name>isLowSurrogate</name>
+        <qualifiedname>Utf16::isLowSurrogate</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>codeunit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="28" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="23" column="1"/>
+  </compounddef>
+</doxygen>

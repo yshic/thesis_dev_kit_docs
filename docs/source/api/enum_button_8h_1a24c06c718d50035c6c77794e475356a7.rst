@@ -1,0 +1,14 @@
+.. _exhale_enum_button_8h_1a24c06c718d50035c6c77794e475356a7:
+
+Enum button_handler_error_t
+===========================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_button_src_button.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: button_handler_error_t
+   :project: thesis_dev_kit_docs

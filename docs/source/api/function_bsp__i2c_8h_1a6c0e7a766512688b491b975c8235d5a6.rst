@@ -1,0 +1,14 @@
+.. _exhale_function_bsp__i2c_8h_1a6c0e7a766512688b491b975c8235d5a6:
+
+Function bspI2CRead(void)
+=========================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_bsp_bsp_i2c.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: bspI2CRead(void)
+   :project: thesis_dev_kit_docs

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="bsp__rs485_8h" kind="file" language="C++">
+    <compoundname>bsp_rs485.h</compoundname>
+    <includes local="yes">WProgram.h</includes>
+    <includes refid="bsp__uart_8h" local="yes">bsp_uart.h</includes>
+    <includedby refid="bsp__rs485_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp</includedby>
+    <includedby refid="es__soil__7n1_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h</label>
+        <link refid="bsp__rs485_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bsp_uart.h</label>
+        <link refid="bsp__uart_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WProgram.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp</label>
+        <link refid="bsp__rs485_8cpp"/>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h</label>
+        <link refid="bsp__rs485_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_bsp_rs485" prot="public">BspRs485</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="bsp__rs485_8h_1ae8787ac282eebb311f1aac7d4ec59238" prot="public" static="no">
+        <name>BSP_RS485_LIB_VERSION</name>
+        <initializer>(F(&quot;0.1.0&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bsp_rs485_error_t</name>
+        <enumvalue id="bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9aa3c43dd9e670ed779030feb62675d7d6" prot="public">
+          <name>BSP_RS485_OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9a408bc54ff62594aa109f6d5073d329f0" prot="public">
+          <name>BSP_RS485_ERR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9a09795bd4a729db095210b4c66d074637" prot="public">
+          <name>BSP_RS485_ERR_READ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9aa488a36f87609917b2c122305dc5470a" prot="public">
+          <name>BSP_RS485_ERR_WRITE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bsp__rs485_8h_1a9f9eadc416247dce36d745671f94dfa9af45d9b2868f1bef1c358c6d0183e6966" prot="public">
+          <name>BSP_RS485_TIMEOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" line="29" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" bodystart="30" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="bsp__rs485_8h_1adb6f6827744b7fb828a342e0cd3ee213" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref></type>
+        <definition>BspRs485 rs485Serial0</definition>
+        <argsstring></argsstring>
+        <name>rs485Serial0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" line="64" column="17" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" declline="64" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="bsp__rs485_8h_1aa0695bc0b898a39e03a948d0f5b2b186" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref></type>
+        <definition>BspRs485 rs485Serial1</definition>
+        <argsstring></argsstring>
+        <name>rs485Serial1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" line="66" column="17" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" declline="66" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="bsp__rs485_8h_1a82ca0597e02abd9f6bc429f0b2ce7320" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref></type>
+        <definition>BspRs485 rs485Serial2</definition>
+        <argsstring></argsstring>
+        <name>rs485Serial2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" line="68" column="17" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h" declline="68" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Header file for BSP_RS485 library. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>@license This library is released under the MIT License. <simplesect kind="version"><para>0.1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2025-03-29 </para>
+</simplesect>
+<simplesect kind="author"><para>Tuan Nguyen </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BSP_RS485_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BSP_RS485_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Includes<sp/>-----------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#include<sp/>&quot;<ref refid="bsp__uart_8h" kindref="compound">bsp_uart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BSP_RS485_LIB_VERSION<sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Error<sp/>codes<sp/>for<sp/>RS485</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>BSP_RS485_OK<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>BSP_RS485_ERR,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>BSP_RS485_ERR_READ,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>BSP_RS485_ERR_WRITE,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>BSP_RS485_TIMEOUT</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/>bsp_rs485_error_t;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_bsp_rs485" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">BspRs485<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Stream</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>BspRs485(uint8_t<sp/>uart_nr);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>bsp_rs485_error_t<sp/>begin(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>baud,<sp/>uint32_t<sp/>config<sp/>=<sp/>SERIAL_8N1,<sp/>int8_t<sp/>rxPin<sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int8_t<sp/>txPin<sp/>=<sp/>-1,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>invert<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout_ms<sp/>=<sp/>20000UL,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>rxfifo_full_thrhd<sp/>=<sp/>112);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>bsp_rs485_error_t<sp/>end();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>available(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>peek(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>read(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flush()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>write(uint8_t);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sendModbusCommand(</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>*command,<sp/>uint32_t<sp/>cmdLen,<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>*response,<sp/>uint32_t<sp/>resLen);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><ref refid="class_bsp_uart" kindref="compound">BspUart</ref><sp/>*_uart;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref><sp/>rs485Serial0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref><sp/>rs485Serial1;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref><sp/>rs485Serial2;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>BSP_RS485_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.h"/>
+  </compounddef>
+</doxygen>

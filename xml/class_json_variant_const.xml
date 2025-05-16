@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_json_variant_const" kind="class" language="C++" prot="public">
+    <compoundname>JsonVariantConst</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">detail::VariantTag</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">detail::VariantOperators&lt; JsonVariantConst &gt;</basecompoundref>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_json_variant_const_1a4fb48047f96b1f9e639e7e0f87f33733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class detail::VariantAttorney</definition>
+        <argsstring></argsstring>
+        <name>detail::VariantAttorney</name>
+        <qualifiedname>JsonVariantConst::VariantAttorney</qualifiedname>
+        <param>
+          <type>detail::VariantAttorney</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="29" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_variant_const_1a8a533ffb1d059289047113b6a1a21ffb" prot="private" static="no" mutable="no">
+        <type>const detail::VariantData *</type>
+        <definition>const detail::VariantData* JsonVariantConst::data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>JsonVariantConst::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="141" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_variant_const_1a8b60b01ae5c9ad18cd077535a6df943a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonVariantConst::JsonVariantConst</definition>
+        <argsstring>()</argsstring>
+        <name>JsonVariantConst</name>
+        <qualifiedname>JsonVariantConst::JsonVariantConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="33" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1aad858704fde916b606169a7a6f6d6056" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonVariantConst::JsonVariantConst</definition>
+        <argsstring>(const detail::VariantData *data)</argsstring>
+        <name>JsonVariantConst</name>
+        <qualifiedname>JsonVariantConst::JsonVariantConst</qualifiedname>
+        <param>
+          <type>const detail::VariantData *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="36" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1a18bafec6c332ce5647d33d1ff5743a6a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE bool</type>
+        <definition>FORCE_INLINE bool JsonVariantConst::isNull</definition>
+        <argsstring>() const</argsstring>
+        <name>isNull</name>
+        <qualifiedname>JsonVariantConst::isNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="40" column="21" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1ae5482073948878b4c137f929b71ee873" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE bool</type>
+        <definition>FORCE_INLINE bool JsonVariantConst::isUnbound</definition>
+        <argsstring>() const</argsstring>
+        <name>isUnbound</name>
+        <qualifiedname>JsonVariantConst::isUnbound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="46" column="21" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1ac4147f89ecc4e9167276753660cccf1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE size_t</type>
+        <definition>FORCE_INLINE size_t JsonVariantConst::memoryUsage</definition>
+        <argsstring>() const</argsstring>
+        <name>memoryUsage</name>
+        <qualifiedname>JsonVariantConst::memoryUsage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="52" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1ae1982e3880821cdd073dfdf5cd1c532b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE size_t</type>
+        <definition>FORCE_INLINE size_t JsonVariantConst::nesting</definition>
+        <argsstring>() const</argsstring>
+        <name>nesting</name>
+        <qualifiedname>JsonVariantConst::nesting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="58" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1ae365d5873434ce6cf198a7d6f8358ada" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t JsonVariantConst::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>JsonVariantConst::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="64" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1a86532727f460ef0d29bdcc769c5f2f77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt;!detail::is_same&lt; T, char * &gt;::value &amp;&amp;!detail::is_same&lt; T, char &gt;::value, T &gt;::type</type>
+        <definition>FORCE_INLINE detail::enable_if&lt;!detail::is_same&lt; T, char * &gt;::value &amp;&amp;!detail::is_same&lt; T, char &gt;::value, T &gt;::type JsonVariantConst::as</definition>
+        <argsstring>() const</argsstring>
+        <name>as</name>
+        <qualifiedname>JsonVariantConst::as</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="74" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1ac8e56ef7f945b50f0cd4c788ebdbaff9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt;!detail::is_same&lt; T, char * &gt;::value &amp;&amp;!detail::is_same&lt; T, char &gt;::value, bool &gt;::type</type>
+        <definition>FORCE_INLINE detail::enable_if&lt;!detail::is_same&lt; T, char * &gt;::value &amp;&amp;!detail::is_same&lt; T, char &gt;::value, bool &gt;::type JsonVariantConst::is</definition>
+        <argsstring>() const</argsstring>
+        <name>is</name>
+        <qualifiedname>JsonVariantConst::is</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="84" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1a22f0a4b521bcccf7adcf04bf6434994b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE</type>
+        <definition>FORCE_INLINE JsonVariantConst::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>JsonVariantConst::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="89" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1a3c62e12ca1cf230a2d765d715f35112d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+        <definition>FORCE_INLINE JsonVariantConst JsonVariantConst::operator[]</definition>
+        <argsstring>(size_t index) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>JsonVariantConst::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="95" column="33" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1abd91cd350d84ca285ed177d8c5d4d09a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, <ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref> &gt;::type</type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, JsonVariantConst &gt;::type JsonVariantConst::operator[]</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>JsonVariantConst::operator[]</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="104" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1af452766281a6dc02563695d89ef4a495" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, <ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref> &gt;::type</type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, JsonVariantConst &gt;::type JsonVariantConst::operator[]</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>JsonVariantConst::operator[]</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="113" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1a1c4ff4b256d93fabf731c7a376b2b825" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, bool &gt;::type</type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, bool &gt;::type JsonVariantConst::containsKey</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>containsKey</name>
+        <qualifiedname>JsonVariantConst::containsKey</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="122" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_variant_const_1a3be748363a28c8367e95b750fc2a58ba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, bool &gt;::type</type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, bool &gt;::type JsonVariantConst::containsKey</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>containsKey</name>
+        <qualifiedname>JsonVariantConst::containsKey</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="131" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="131" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_json_variant_const_1a99ab50eb8111eb16703c3b62ba8595da" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const detail::VariantData *</type>
+        <definition>const detail::VariantData * JsonVariantConst::getData</definition>
+        <argsstring>() const</argsstring>
+        <name>getData</name>
+        <qualifiedname>JsonVariantConst::getData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="136" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="136" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>JsonVariantConst</label>
+        <link refid="class_json_variant_const"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>detail::VariantOperators&lt; JsonVariantConst &gt;</label>
+      </node>
+      <node id="2">
+        <label>detail::VariantTag</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>JsonVariantConst</label>
+        <link refid="class_json_variant_const"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>detail::VariantOperators&lt; JsonVariantConst &gt;</label>
+      </node>
+      <node id="2">
+        <label>detail::VariantTag</label>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" line="27" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp" bodystart="28" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_json_variant_const_1a86532727f460ef0d29bdcc769c5f2f77" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>as</name></member>
+      <member refid="class_json_variant_const_1a1c4ff4b256d93fabf731c7a376b2b825" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>containsKey</name></member>
+      <member refid="class_json_variant_const_1a3be748363a28c8367e95b750fc2a58ba" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>containsKey</name></member>
+      <member refid="class_json_variant_const_1a8a533ffb1d059289047113b6a1a21ffb" prot="private" virt="non-virtual"><scope>JsonVariantConst</scope><name>data_</name></member>
+      <member refid="class_json_variant_const_1a4fb48047f96b1f9e639e7e0f87f33733" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>detail::VariantAttorney</name></member>
+      <member refid="class_json_variant_const_1a99ab50eb8111eb16703c3b62ba8595da" prot="protected" virt="non-virtual"><scope>JsonVariantConst</scope><name>getData</name></member>
+      <member refid="class_json_variant_const_1ac8e56ef7f945b50f0cd4c788ebdbaff9" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>is</name></member>
+      <member refid="class_json_variant_const_1a18bafec6c332ce5647d33d1ff5743a6a" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>isNull</name></member>
+      <member refid="class_json_variant_const_1ae5482073948878b4c137f929b71ee873" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>isUnbound</name></member>
+      <member refid="class_json_variant_const_1a8b60b01ae5c9ad18cd077535a6df943a" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>JsonVariantConst</name></member>
+      <member refid="class_json_variant_const_1aad858704fde916b606169a7a6f6d6056" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>JsonVariantConst</name></member>
+      <member refid="class_json_variant_const_1ac4147f89ecc4e9167276753660cccf1e" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>memoryUsage</name></member>
+      <member refid="class_json_variant_const_1ae1982e3880821cdd073dfdf5cd1c532b" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>nesting</name></member>
+      <member refid="class_json_variant_const_1a22f0a4b521bcccf7adcf04bf6434994b" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>operator T</name></member>
+      <member refid="class_json_variant_const_1a3c62e12ca1cf230a2d765d715f35112d" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>operator[]</name></member>
+      <member refid="class_json_variant_const_1abd91cd350d84ca285ed177d8c5d4d09a" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>operator[]</name></member>
+      <member refid="class_json_variant_const_1af452766281a6dc02563695d89ef4a495" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>operator[]</name></member>
+      <member refid="class_json_variant_const_1ae365d5873434ce6cf198a7d6f8358ada" prot="public" virt="non-virtual"><scope>JsonVariantConst</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

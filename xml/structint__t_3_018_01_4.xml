@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structint__t_3_018_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>int_t&lt; 8 &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structint__t_3_018_01_4_1a6e6a2f5837fa16953fd49551900ee667" prot="public" static="no">
+        <type>int8_t</type>
+        <definition>typedef int8_t int_t&lt; 8 &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>int_t&lt; 8 &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" line="18" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" line="17" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" bodystart="17" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structint__t_3_018_01_4_1a6e6a2f5837fa16953fd49551900ee667" prot="public" virt="non-virtual"><scope>int_t&lt; 8 &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structis__convertible" kind="struct" language="C++" prot="public">
+    <compoundname>is_convertible</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename From</type>
+      </param>
+      <param>
+        <type>typename To</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="structis__convertible_1af4efef28d06ad0602328dfe320e6f47d" prot="protected" static="yes" mutable="no">
+        <type>From &amp;</type>
+        <definition>From&amp; is_convertible&lt; From, To &gt;::from_</definition>
+        <argsstring></argsstring>
+        <name>from_</name>
+        <qualifiedname>is_convertible::from_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" line="30" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structis__convertible_1ae961431c0a8dc3506828194f8ec1c684" prot="public" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool is_convertible&lt; From, To &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>is_convertible::value</qualifiedname>
+        <initializer>= sizeof(probe(from_)) == sizeof(int)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" line="33" column="21" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="structis__convertible_1a827d7bb4bc19958bb60b7837af5e177e" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int is_convertible&lt; From, To &gt;::probe</definition>
+        <argsstring>(To)</argsstring>
+        <name>probe</name>
+        <qualifiedname>is_convertible::probe</qualifiedname>
+        <param>
+          <type>To</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" line="27" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structis__convertible_1a4b67fbbf807af90352d6b38f46f2ee81" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>static char is_convertible&lt; From, To &gt;::probe</definition>
+        <argsstring>(...)</argsstring>
+        <name>probe</name>
+        <qualifiedname>is_convertible::probe</qualifiedname>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" line="28" column="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" line="25" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp" bodystart="25" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structis__convertible_1af4efef28d06ad0602328dfe320e6f47d" prot="protected" virt="non-virtual"><scope>is_convertible</scope><name>from_</name></member>
+      <member refid="structis__convertible_1a827d7bb4bc19958bb60b7837af5e177e" prot="protected" virt="non-virtual"><scope>is_convertible</scope><name>probe</name></member>
+      <member refid="structis__convertible_1a4b67fbbf807af90352d6b38f46f2ee81" prot="protected" virt="non-virtual"><scope>is_convertible</scope><name>probe</name></member>
+      <member refid="structis__convertible_1ae961431c0a8dc3506828194f8ec1c684" prot="public" virt="non-virtual"><scope>is_convertible</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

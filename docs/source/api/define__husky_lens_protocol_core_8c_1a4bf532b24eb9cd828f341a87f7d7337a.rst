@@ -1,0 +1,14 @@
+.. _exhale_define__husky_lens_protocol_core_8c_1a4bf532b24eb9cd828f341a87f7d7337a:
+
+Define HEADER_0_INDEX
+=====================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_HUSKYLENS_HuskyLensProtocolCore.c`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: HEADER_0_INDEX
+   :project: thesis_dev_kit_docs

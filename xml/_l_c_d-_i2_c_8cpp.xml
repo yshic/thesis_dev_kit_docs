@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_l_c_d-_i2_c_8cpp" kind="file" language="C++">
+    <compoundname>LCD-I2C.cpp</compoundname>
+    <includes refid="_l_c_d-_i2_c_8h" local="yes">LCD-I2C.h</includes>
+    <includes refid="_l_c_d___constants_8h" local="no">LCD_Constants.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>lib/LCD_I2C/src/LCD-I2C.cpp</label>
+        <link refid="_l_c_d-_i2_c_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>LCD-I2C.h</label>
+        <link refid="_l_c_d-_i2_c_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>LCD_Constants.h</label>
+        <link refid="_l_c_d___constants_8h_source"/>
+      </node>
+      <node id="4">
+        <label>Wire.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;LCD-I2C.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;LCD_Constants.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1aa5cb738174b216d2b06b7b11849ee61d" kindref="member">LCD_I2C::begin</ref>(TwoWire<sp/>*wire)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>_wire<sp/>=<sp/>wire;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>i2c<sp/>adapter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>I2C_Write(0b00000000);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Wait<sp/>more<sp/>than<sp/>40<sp/>ms<sp/>after<sp/>powerOn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>delay(50);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>InitializeLCD();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a5262240ccbb83ec6f37522b8d9322bd7" kindref="member">LCD_I2C::backlight</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>_output.led<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Led<sp/>pin<sp/>is<sp/>independent<sp/>from<sp/>LCD<sp/>data<sp/>and<sp/>control<sp/>lines.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>I2C_Write(0b00000000<sp/>|<sp/>_output.led<sp/>&lt;&lt;<sp/>3);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a4f0d21551d40edb54ac1b942bef76d6c" kindref="member">LCD_I2C::backlightOff</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>_output.led<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Led<sp/>pin<sp/>is<sp/>independent<sp/>from<sp/>LCD<sp/>data<sp/>and<sp/>control<sp/>lines.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>I2C_Write(0b00000000<sp/>|<sp/>_output.led<sp/>&lt;&lt;<sp/>3);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" kindref="member">LCD_I2C::clear</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_CLEAR_DISPLAY);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>delayMicroseconds(1550);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1af64793f4fed5a850a998619d277248fa" kindref="member">LCD_I2C::home</ref>()</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_CURSOR_HOME);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>delayMicroseconds(1550);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a62a262300317053d98481750e588f12e" kindref="member">LCD_I2C::leftToRight</ref>()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>_entryState<sp/>|=<sp/>HD44780_ENTRY_SHIFTINCREMENT;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_ENTRY_MODE_SET<sp/>|<sp/>_entryState);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a477dc9c04b7b0f010fcf5288be9f4050" kindref="member">LCD_I2C::rightToLeft</ref>()</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>_entryState<sp/>&amp;=<sp/>~HD44780_ENTRY_SHIFTINCREMENT;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_ENTRY_MODE_SET<sp/>|<sp/>_entryState);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a5564c2b6fdb35ba40d7b99399e9ad100" kindref="member">LCD_I2C::autoscroll</ref>()</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>_entryState<sp/>|=<sp/>HD44780_ACCOMPANIES_DISPLAY_SHIFT;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_ENTRY_MODE_SET<sp/>|<sp/>_entryState);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1ad0431cb8cd92563eaae80d73f6cb6d9b" kindref="member">LCD_I2C::autoscrollOff</ref>()</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>_entryState<sp/>&amp;=<sp/>~HD44780_ACCOMPANIES_DISPLAY_SHIFT;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_ENTRY_MODE_SET<sp/>|<sp/>_entryState);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a9ecc6249b017a867ba83c0b37dbb4d1b" kindref="member">LCD_I2C::display</ref>()</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>_displayState<sp/>|=<sp/>HD44780_DISPLAY_ON;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_DISPLAY_CONTROL<sp/>|<sp/>_displayState);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a3d309d59c218c17ce0da39a4b32b3be1" kindref="member">LCD_I2C::displayOff</ref>()</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>_displayState<sp/>&amp;=<sp/>~HD44780_DISPLAY_ON;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_DISPLAY_CONTROL<sp/>|<sp/>_displayState);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a090e1dc11adac2ecf4b51c33fbe2d16a" kindref="member">LCD_I2C::cursor</ref>()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>_displayState<sp/>|=<sp/>HD44780_CURSOR_ON;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_DISPLAY_CONTROL<sp/>|<sp/>_displayState);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a9148c308bc60405264acd2caebb42035" kindref="member">LCD_I2C::cursorOff</ref>()</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>_displayState<sp/>&amp;=<sp/>~HD44780_CURSOR_ON;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_DISPLAY_CONTROL<sp/>|<sp/>_displayState);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a824106f0d24f9cc3b133330491821390" kindref="member">LCD_I2C::blink</ref>()</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>_displayState<sp/>|=<sp/>HD44780_BLINK_ON;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_DISPLAY_CONTROL<sp/>|<sp/>_displayState);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a3a77ab88ae1d7655a54f09d2e5159ff9" kindref="member">LCD_I2C::blinkOff</ref>()</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/>_displayState<sp/>&amp;=<sp/>~HD44780_BLINK_ON;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_DISPLAY_CONTROL<sp/>|<sp/>_displayState);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a5c77d5a6768b076dfd9a0cd4e54cf7e7" kindref="member">LCD_I2C::scrollDisplayLeft</ref>()</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/>LCD_Write(0b00011000);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1ae12bf5d4ae108dcca9b879f3777df484" kindref="member">LCD_I2C::scrollDisplayRight</ref>()</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>LCD_Write(0b00011100);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" kindref="member">LCD_I2C::createChar</ref>(uint8_t<sp/>memory_location,<sp/>uint8_t<sp/>charmap[])</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>memory_location<sp/>%=<sp/>8;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_SET_CGRAM_ADDR<sp/>|<sp/>(memory_location<sp/>&lt;&lt;<sp/>3));</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>8;<sp/>i++)</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">write</ref>(charmap[i]);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><ref refid="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" kindref="member">setCursor</ref>(0,<sp/>0);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>address<sp/>pointer<sp/>back<sp/>to<sp/>the<sp/>DDRAM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" kindref="member">LCD_I2C::setCursor</ref>(uint8_t<sp/>column,<sp/>uint8_t<sp/>row)</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>row_offsets[]<sp/>=<sp/>{0x00,<sp/>0x40,<sp/>0x14,<sp/>0x54};</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/>_output.rs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/>_output.rw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>sanity<sp/>limits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(column<sp/>&gt;<sp/>_columnMax)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>column<sp/>=<sp/>_columnMax;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>sanity<sp/>limits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(row<sp/>&gt;<sp/>_rowMax)</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>row<sp/>=<sp/>_rowMax;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/>uint8_t<sp/>newAddress<sp/>=<sp/>row_offsets[row]<sp/>+<sp/>column;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_SET_DDRRAM_ADDR<sp/>|<sp/>newAddress);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">LCD_I2C::write</ref>(uint8_t<sp/>character)</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/>LCD_Write(character);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/>delayMicroseconds(41);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_I2C::InitializeLCD()</highlight></codeline>
+<codeline lineno="334"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>See<sp/>HD44780U<sp/>datasheet<sp/>&quot;Initializing<sp/>by<sp/>Instruction&quot;<sp/>Figure<sp/>24<sp/>(4-Bit<sp/>Interface)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>SEE<sp/>PAGE<sp/>45/46<sp/>FOR<sp/>INITIALIZATION<sp/>SPECIFICATION!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>according<sp/>to<sp/>datasheet,<sp/>we<sp/>need<sp/>at<sp/>least<sp/>40<sp/>ms<sp/>after<sp/>power<sp/>rises<sp/>above<sp/>2.7<sp/>V</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>before<sp/>sending<sp/>commands.<sp/>Arduino<sp/>can<sp/>turn<sp/>on<sp/>way<sp/>before<sp/>4.5<sp/>V<sp/>so<sp/>we&apos;ll<sp/>wait<sp/>50</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/>_output.rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>wait<sp/>more<sp/>than<sp/>40<sp/>ms<sp/>after<sp/>Vcc<sp/>=<sp/>2.7<sp/>V</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/>delay(50);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>first<sp/>-<sp/>0x30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/>LCD_Write(0b00110000,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/>delayMicroseconds(4200);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>second<sp/>-<sp/>0x30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/>LCD_Write(0b00110000,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/>delayMicroseconds(150);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>third<sp/>-<sp/>0x30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/>LCD_Write(0b00110000,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Function<sp/>Set<sp/>-<sp/>4<sp/>bits<sp/>mode<sp/>write<sp/>0x20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/>LCD_Write(0b00100000,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>Display<sp/>Function<sp/>Set<sp/><sp/>-<sp/>4<sp/>bit<sp/>Interface,<sp/>1<sp/>=<sp/>2<sp/>lines,<sp/>0<sp/>=<sp/>5x8<sp/>font</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/>LCD_Write(HD44780_FUNCTION_SET<sp/>|<sp/>HD44780_4_BIT_MODE<sp/>|<sp/>HD44780_2_LINE<sp/>|<sp/>HD44780_5x8_DOTS);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><ref refid="class_l_c_d___i2_c_1a3d309d59c218c17ce0da39a4b32b3be1" kindref="member">displayOff</ref>();</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><ref refid="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><ref refid="class_l_c_d___i2_c_1a62a262300317053d98481750e588f12e" kindref="member">leftToRight</ref>();</highlight></codeline>
+<codeline lineno="366"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1aaf831006a92860fc2e3e9f79578b2e0b" kindref="member">LCD_I2C::writeCharCode</ref>(uint8_t<sp/>code)</highlight></codeline>
+<codeline lineno="376"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/>_output.rs<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/>LCD_Write(code);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_I2C::I2C_Write(uint8_t<sp/>output)</highlight></codeline>
+<codeline lineno="388"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/>_wire-&gt;beginTransmission(_address);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/>_wire-&gt;write(output);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/>_wire-&gt;endTransmission();</highlight></codeline>
+<codeline lineno="392"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_I2C::LCD_Write(uint8_t<sp/>output,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>initialization)</highlight></codeline>
+<codeline lineno="401"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/>_output.data<sp/>=<sp/>output;</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/>_output.en<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/>I2C_Write(_output.GetHighData());</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>High<sp/>part<sp/>of<sp/>enable<sp/>should<sp/>be<sp/>&gt;<sp/>450<sp/>ns</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/>delayMicroseconds(1);</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/>_output.en<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/>I2C_Write(_output.GetHighData());</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>During<sp/>initialization<sp/>we<sp/>only<sp/>send<sp/>half<sp/>a<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!initialization)</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>I<sp/>think<sp/>we<sp/>need<sp/>a<sp/>delay<sp/>between<sp/>half<sp/>byte<sp/>writes,<sp/>but<sp/>no<sp/>sure<sp/>how<sp/>long<sp/>it<sp/>needs<sp/>to<sp/>be.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/>delayMicroseconds(37);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/>_output.en<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/>I2C_Write(_output.GetLowData());</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>High<sp/>part<sp/>of<sp/>enable<sp/>should<sp/>be<sp/>&gt;<sp/>450<sp/>ns</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>delayMicroseconds(1);</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/>_output.en<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/>I2C_Write(_output.GetLowData());</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="426"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_I2C::progressBar(uint8_t<sp/>row,<sp/>uint8_t<sp/>progress)</highlight></codeline>
+<codeline lineno="429"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Define<sp/>the<sp/>width<sp/>of<sp/>the<sp/>progress<sp/>bar<sp/>(in<sp/>characters)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>progressBarWidth<sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Define<sp/>the<sp/>number<sp/>of<sp/>custom<sp/>characters<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>customChars<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Define<sp/>the<sp/>custom<sp/>characters<sp/>for<sp/>the<sp/>progress<sp/>bar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/>uint8_t<sp/>progressChars[customChars][8]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/>{0b10000,<sp/>0b10000,<sp/>0b10000,<sp/>0b10000,<sp/>0b10000,<sp/>0b10000,<sp/>0b10000,<sp/>0b10000},<sp/></highlight><highlight class="comment">//<sp/>1/5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/>{0b11000,<sp/>0b11000,<sp/>0b11000,<sp/>0b11000,<sp/>0b11000,<sp/>0b11000,<sp/>0b11000,<sp/>0b11000},<sp/></highlight><highlight class="comment">//<sp/>2/5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/>{0b11100,<sp/>0b11100,<sp/>0b11100,<sp/>0b11100,<sp/>0b11100,<sp/>0b11100,<sp/>0b11100,<sp/>0b11100},<sp/></highlight><highlight class="comment">//<sp/>3/5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/>{0b11110,<sp/>0b11110,<sp/>0b11110,<sp/>0b11110,<sp/>0b11110,<sp/>0b11110,<sp/>0b11110,<sp/>0b11110},<sp/></highlight><highlight class="comment">//<sp/>4/5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/>{0b11111,<sp/>0b11111,<sp/>0b11111,<sp/>0b11111,<sp/>0b11111,<sp/>0b11111,<sp/>0b11111,<sp/>0b11111}<sp/><sp/></highlight><highlight class="comment">//<sp/>5/5<sp/>(full<sp/>block)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>the<sp/>custom<sp/>characters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint8_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>customChars;<sp/>i++)</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" kindref="member">createChar</ref>(i,<sp/>progressChars[i]);</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Calculate<sp/>the<sp/>number<sp/>of<sp/>full<sp/>and<sp/>partial<sp/>blocks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/>uint8_t<sp/>fullBlocks<sp/><sp/><sp/>=<sp/>(progress<sp/>*<sp/>progressBarWidth)<sp/>/<sp/>100;</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/>uint8_t<sp/>partialBlock<sp/>=<sp/>((progress<sp/>*<sp/>progressBarWidth)<sp/>%<sp/>100)<sp/>/<sp/>(100<sp/>/<sp/>customChars);</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>cursor<sp/>to<sp/>the<sp/>specified<sp/>row</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><ref refid="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" kindref="member">setCursor</ref>(0,<sp/>row);</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Display<sp/>the<sp/>progress<sp/>bar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint8_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>progressBarWidth;<sp/>i++)</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&lt;<sp/>fullBlocks)</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">write</ref>(0xFF);<sp/></highlight><highlight class="comment">//<sp/>Full<sp/>block<sp/>character<sp/>(use<sp/>0xFF<sp/>for<sp/>a<sp/>full<sp/>block)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>==<sp/>fullBlocks)</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">write</ref>(partialBlock);<sp/></highlight><highlight class="comment">//<sp/>Partial<sp/>block<sp/>character</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">write</ref>(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Empty<sp/>space</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="473"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight></codeline>
+<codeline lineno="475"><highlight class="normal">lcd_screen_state_t<sp/>LCD_I2C::getScreenState()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lcdScreenState;<sp/>}</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_I2C::setScreenState(lcd_screen_state_t<sp/>screenState)<sp/>{<sp/>lcdScreenState<sp/>=<sp/>screenState;<sp/>}</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_I2C::updateScreenState(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>increment)</highlight></codeline>
+<codeline lineno="480"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(LCD_SCREEN_COUNT<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(increment)</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/>lcdScreenState<sp/>=<sp/>(lcd_screen_state_t)<sp/>((lcdScreenState<sp/>+<sp/>1)<sp/>%<sp/>LCD_SCREEN_COUNT);</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG_PRINT_SCREEN_STATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="489"><highlight class="normal"><sp/><sp/><sp/><sp/>Serial.println(lcdScreenState);</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>DEBUG_PRINT_SCREEN_STATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/>lcdScreenState<sp/>=<sp/>(lcd_screen_state_t)<sp/>((lcdScreenState<sp/>-<sp/>1<sp/>+<sp/>LCD_SCREEN_COUNT)<sp/>%<sp/>LCD_SCREEN_COUNT);</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG_PRINT_SCREEN_STATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/>Serial.println(lcdScreenState);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>DEBUG_PRINT_SCREEN_STATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="499"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="lib/LCD_I2C/src/LCD-I2C.cpp"/>
+  </compounddef>
+</doxygen>

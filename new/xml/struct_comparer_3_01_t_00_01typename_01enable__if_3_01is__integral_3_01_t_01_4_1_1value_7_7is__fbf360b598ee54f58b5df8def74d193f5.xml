@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5" kind="struct" language="C++" prot="public">
+    <compoundname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1ae13af2685e9a0a7f24181d391920c44d" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::rhs</definition>
+        <argsstring></argsstring>
+        <name>rhs</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::rhs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="51" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1a693c823bd17655daac7fa84045c638ab" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::Comparer</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Comparer</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::Comparer</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="53" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1a72299829f73c0203e391f35b21c578dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitFloat</definition>
+        <argsstring>(JsonFloat lhs)</argsstring>
+        <name>visitFloat</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitFloat</qualifiedname>
+        <param>
+          <type>JsonFloat</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="55" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1ae35aae50c9da525feb910442c36ac0d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitSignedInteger</definition>
+        <argsstring>(JsonInteger lhs)</argsstring>
+        <name>visitSignedInteger</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitSignedInteger</qualifiedname>
+        <param>
+          <type>JsonInteger</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="59" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1ac881bc685295643fa3785719cdcdd896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitUnsignedInteger</definition>
+        <argsstring>(JsonUInt lhs)</argsstring>
+        <name>visitUnsignedInteger</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitUnsignedInteger</qualifiedname>
+        <param>
+          <type>JsonUInt</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="63" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1adb47e0b573753378ae47b4c5204cb0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitBoolean</definition>
+        <argsstring>(bool lhs)</argsstring>
+        <name>visitBoolean</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;::visitBoolean</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="67" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="67" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="48" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="50" bodyend="70"/>
+    <listofallmembers>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1a693c823bd17655daac7fa84045c638ab" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>Comparer</name></member>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>result_type</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1ae13af2685e9a0a7f24181d391920c44d" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>rhs</name></member>
+      <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitArray</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1adb47e0b573753378ae47b4c5204cb0e2" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitBoolean</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1a72299829f73c0203e391f35b21c578dd" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitFloat</name></member>
+      <member refid="struct_visitor_1af10a7e43d2eb2d479999980717a819e0" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitNull</name></member>
+      <member refid="struct_visitor_1a762432b182778bb588dc33535706bd0f" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitObject</name></member>
+      <member refid="struct_visitor_1a2d26ee3a178dc49d1771842d12e3408f" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitRawJson</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1ae35aae50c9da525feb910442c36ac0d0" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitSignedInteger</name></member>
+      <member refid="struct_visitor_1a5c860e833be6c04180907bbe87a30927" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitString</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__integral_3_01_t_01_4_1_1value_7_7is__fbf360b598ee54f58b5df8def74d193f5_1ac881bc685295643fa3785719cdcdd896" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_integral&lt; T &gt;::value||is_floating_point&lt; T &gt;::value &gt;::type &gt;</scope><name>visitUnsignedInteger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

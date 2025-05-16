@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_d08c672f8236a5b999347236f7c32810" kind="dir">
+    <compoundname>lib/light_sensor</compoundname>
+    <innerdir refid="dir_a9252817dd168cda17285f792d6657a3">lib/light_sensor/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/light_sensor/"/>
+  </compounddef>
+</doxygen>

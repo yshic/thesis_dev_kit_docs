@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_041c30d86fba71cfdd4326779c15ad1b" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING</compoundname>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp">DFMobile.cpp</innerfile>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8h">DFMobile.h</innerfile>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h">PIDLoop.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/"/>
+  </compounddef>
+</doxygen>

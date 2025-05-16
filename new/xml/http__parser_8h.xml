@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="http__parser_8h" kind="file" language="C++">
+    <compoundname>http_parser.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h</label>
+        <link refid="http__parser_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structhttp__parser__url" prot="public">http_parser_url</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="http__parser_8h_1abfeef6f3e39791acc311791feda09d27" prot="public" static="no">
+        <name>HTTP_PARSER_VERSION_MAJOR</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="29" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="http__parser_8h_1ab8479153443ca4fe95b3de5adb0224de" prot="public" static="no">
+        <name>HTTP_PARSER_VERSION_MINOR</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="30" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="http__parser_8h_1afb999672cce2ebd7f952bd3f28d8f5e5" prot="public" static="no">
+        <name>HTTP_PARSER_VERSION_PATCH</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="31" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="http__parser_8h_1a7daf883828d97fafe5726998f0e05146" prot="public" static="no">
+        <name>HTTP_PARSER_STRICT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="39" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4eb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>http_parser_url_fields</name>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4ebab2b8b31b30d6bc897dde653f6cc9f06c" prot="public">
+          <name>UF_SCHEMA</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4ebaf2aeb0b896645bd8100ca0f1e263a12f" prot="public">
+          <name>UF_HOST</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4eba357b6dc1326ed55be377b0d839e8ca0f" prot="public">
+          <name>UF_PORT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4eba86b9abfa220db7b834490d8b36e915af" prot="public">
+          <name>UF_PATH</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4ebabc8500a49ccad1cd91d66d1eefb503cc" prot="public">
+          <name>UF_QUERY</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4eba32fb35461b96b6872f1427b2d51d1c30" prot="public">
+          <name>UF_FRAGMENT</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4ebacb4a85c6a7d6cd0b64ec6e91e7ba8689" prot="public">
+          <name>UF_USERINFO</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="http__parser_8h_1a9ca1f91c2958091e2ac9e9b2f903d4eba4b40c88291e4fa018de04553e7e1adfd" prot="public">
+          <name>UF_MAX</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="43" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="44" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="http__parser_8h_1a2559b4d373c7f0d85c77a2a3c308a5ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long http_parser_version</definition>
+        <argsstring>(void)</argsstring>
+        <name>http_parser_version</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="83" column="15" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="83" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="http__parser_8h_1a64e907d36fbcc883033c6bbe5a78b1b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void http_parser_url_init</definition>
+        <argsstring>(struct http_parser_url *u)</argsstring>
+        <name>http_parser_url_init</name>
+        <param>
+          <type>struct <ref refid="structhttp__parser__url" kindref="compound">http_parser_url</ref> *</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="86" column="6" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="86" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="http__parser_8h_1a9ae94633de6c9d9c2aea34810107bbd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int http_parser_parse_url</definition>
+        <argsstring>(const char *buf, uint32_t buflen, int is_connect, struct http_parser_url *u)</argsstring>
+        <name>http_parser_parse_url</name>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>buflen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>is_connect</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structhttp__parser__url" kindref="compound">http_parser_url</ref> *</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="89" column="5" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="89" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>Joyent,<sp/>Inc.<sp/>and<sp/>other<sp/>Node<sp/>contributors.<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>deal<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>http_parser_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>http_parser_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Also<sp/>update<sp/>SONAME<sp/>in<sp/>the<sp/>Makefile<sp/>whenever<sp/>you<sp/>change<sp/>these.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HTTP_PARSER_VERSION_MAJOR<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HTTP_PARSER_VERSION_MINOR<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HTTP_PARSER_VERSION_PATCH<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Compile<sp/>with<sp/>-DHTTP_PARSER_STRICT=0<sp/>to<sp/>make<sp/>less<sp/>checks,<sp/>but<sp/>run</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>faster</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HTTP_PARSER_STRICT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>HTTP_PARSER_STRICT<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>http_parser_url_fields</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>{<sp/>UF_SCHEMA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>,<sp/>UF_HOST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>,<sp/>UF_PORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>,<sp/>UF_PATH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>,<sp/>UF_QUERY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>,<sp/>UF_FRAGMENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>,<sp/>UF_USERINFO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>,<sp/>UF_MAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Result<sp/>structure<sp/>for<sp/>http_parser_parse_url().</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>Callers<sp/>should<sp/>index<sp/>into<sp/>field_data[]<sp/>with<sp/>UF_*<sp/>values<sp/>iff<sp/>field_set</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>has<sp/>the<sp/>relevant<sp/>(1<sp/>&lt;&lt;<sp/>UF_*)<sp/>bit<sp/>set.<sp/>As<sp/>a<sp/>courtesy<sp/>to<sp/>clients<sp/>(and</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>because<sp/>we<sp/>probably<sp/>have<sp/>padding<sp/>left<sp/>over),<sp/>we<sp/>convert<sp/>any<sp/>port<sp/>to</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>a<sp/>uint16_t.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structhttp__parser__url" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structhttp__parser__url" kindref="compound">http_parser_url</ref><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>uint16_t<sp/>field_set;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Bitmask<sp/>of<sp/>(1<sp/>&lt;&lt;<sp/>UF_*)<sp/>values<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>uint16_t<sp/>port;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Converted<sp/>UF_PORT<sp/>string<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>off;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Offset<sp/>into<sp/>buffer<sp/>in<sp/>which<sp/>field<sp/>starts<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>len;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Length<sp/>of<sp/>run<sp/>in<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>}<sp/>field_data[UF_MAX];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Returns<sp/>the<sp/>library<sp/>version.<sp/>Bits<sp/>16-23<sp/>contain<sp/>the<sp/>major<sp/>version<sp/>number,</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>bits<sp/>8-15<sp/>the<sp/>minor<sp/>version<sp/>number<sp/>and<sp/>bits<sp/>0-7<sp/>the<sp/>patch<sp/>level.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>Usage<sp/>example:</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*<sp/><sp/><sp/>unsigned<sp/>long<sp/>version<sp/>=<sp/>http_parser_version();</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/><sp/><sp/>unsigned<sp/>major<sp/>=<sp/>(version<sp/>&gt;&gt;<sp/>16)<sp/>&amp;<sp/>255;</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/><sp/><sp/>unsigned<sp/>minor<sp/>=<sp/>(version<sp/>&gt;&gt;<sp/>8)<sp/>&amp;<sp/>255;</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/><sp/><sp/>unsigned<sp/>patch<sp/>=<sp/>version<sp/>&amp;<sp/>255;</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/><sp/><sp/>printf(&quot;http_parser<sp/>v%u.%u.%u\n&quot;,<sp/>major,<sp/>minor,<sp/>patch);</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>http_parser_version(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Initialize<sp/>all<sp/>http_parser_url<sp/>members<sp/>to<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>http_parser_url_init(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structhttp__parser__url" kindref="compound">http_parser_url</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Parse<sp/>a<sp/>URL;<sp/>return<sp/>nonzero<sp/>on<sp/>failure<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>http_parser_parse_url(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf,<sp/>uint32_t<sp/>buflen,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>is_connect,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structhttp__parser__url" kindref="compound">http_parser_url</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h"/>
+  </compounddef>
+</doxygen>

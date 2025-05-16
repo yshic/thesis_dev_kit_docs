@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structstring__traits__impl_1_1has__cstr_3_01_t_00_01typename_01enable__if_3_01is__same_3_01declt236b6fe71a77ce5b095881c43205761a" kind="struct" language="C++" prot="public">
+    <compoundname>string_traits_impl::has_cstr&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().c_str()), const char * &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref refid="structintegral__constant" prot="public" virt="non-virtual">integral_constant&lt; bool, true &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>string_traits_impl::has_cstr&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().c_str()), const char * &gt;::value &gt;::type &gt;</label>
+        <link refid="structstring__traits__impl_1_1has__cstr_3_01_t_00_01typename_01enable__if_3_01is__same_3_01declt236b6fe71a77ce5b095881c43205761a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>true_type</label>
+        <link refid="structintegral__constant"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>string_traits_impl::has_cstr&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().c_str()), const char * &gt;::value &gt;::type &gt;</label>
+        <link refid="structstring__traits__impl_1_1has__cstr_3_01_t_00_01typename_01enable__if_3_01is__same_3_01declt236b6fe71a77ce5b095881c43205761a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>true_type</label>
+        <link refid="structintegral__constant"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="22" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="25" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>string_traits_impl::has_cstr&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().c_str()), const char * &gt;::value &gt;::type &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

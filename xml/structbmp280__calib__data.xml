@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structbmp280__calib__data" kind="struct" language="C++" prot="public">
+    <compoundname>bmp280_calib_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbmp280__calib__data_1a512563b392052c4d687d92e0fa4c69fc" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t bmp280_calib_data::dig_T1</definition>
+        <argsstring></argsstring>
+        <name>dig_T1</name>
+        <qualifiedname>bmp280_calib_data::dig_T1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_T1 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="110" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a110637cd80d4c20cbf018370b1687a19" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_T2</definition>
+        <argsstring></argsstring>
+        <name>dig_T2</name>
+        <qualifiedname>bmp280_calib_data::dig_T2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_T2 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="111" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1ab47d67ad2a52c66956c7c6aa7a5006d3" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_T3</definition>
+        <argsstring></argsstring>
+        <name>dig_T3</name>
+        <qualifiedname>bmp280_calib_data::dig_T3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_T3 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="112" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1aadffbb78b62b6b52d952c89bf78286e0" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t bmp280_calib_data::dig_P1</definition>
+        <argsstring></argsstring>
+        <name>dig_P1</name>
+        <qualifiedname>bmp280_calib_data::dig_P1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P1 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="113" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a8e8f4e91586272463abf5e7ca3d2a371" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P2</definition>
+        <argsstring></argsstring>
+        <name>dig_P2</name>
+        <qualifiedname>bmp280_calib_data::dig_P2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P2 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="114" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a088f2845708e76334f4a441c01977766" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P3</definition>
+        <argsstring></argsstring>
+        <name>dig_P3</name>
+        <qualifiedname>bmp280_calib_data::dig_P3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P3 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="115" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a73f05510565c594116b2074ab0ff73d7" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P4</definition>
+        <argsstring></argsstring>
+        <name>dig_P4</name>
+        <qualifiedname>bmp280_calib_data::dig_P4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P4 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="116" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a37e51f1053d031cc747e8700093719e6" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P5</definition>
+        <argsstring></argsstring>
+        <name>dig_P5</name>
+        <qualifiedname>bmp280_calib_data::dig_P5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P5 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="117" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a9a76e6e6a0ae74859a2f4ecc7b04f0a7" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P6</definition>
+        <argsstring></argsstring>
+        <name>dig_P6</name>
+        <qualifiedname>bmp280_calib_data::dig_P6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P6 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="118" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a65d0abb061f85a294731e4466f28e5c9" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P7</definition>
+        <argsstring></argsstring>
+        <name>dig_P7</name>
+        <qualifiedname>bmp280_calib_data::dig_P7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P7 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="119" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a84831980d460c469926abee7e4230714" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P8</definition>
+        <argsstring></argsstring>
+        <name>dig_P8</name>
+        <qualifiedname>bmp280_calib_data::dig_P8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P8 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="120" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbmp280__calib__data_1a75facb42146d3294c4b3502429bb11ff" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t bmp280_calib_data::dig_P9</definition>
+        <argsstring></argsstring>
+        <name>dig_P9</name>
+        <qualifiedname>bmp280_calib_data::dig_P9</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dig_P9 cal register. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/bmp280/src/bmp280.h" line="121" column="12" bodyfile="lib/bmp280/src/bmp280.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/bmp280/src/bmp280.h" line="108" column="1" bodyfile="lib/bmp280/src/bmp280.h" bodystart="109" bodyend="122"/>
+    <listofallmembers>
+      <member refid="structbmp280__calib__data_1aadffbb78b62b6b52d952c89bf78286e0" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P1</name></member>
+      <member refid="structbmp280__calib__data_1a8e8f4e91586272463abf5e7ca3d2a371" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P2</name></member>
+      <member refid="structbmp280__calib__data_1a088f2845708e76334f4a441c01977766" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P3</name></member>
+      <member refid="structbmp280__calib__data_1a73f05510565c594116b2074ab0ff73d7" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P4</name></member>
+      <member refid="structbmp280__calib__data_1a37e51f1053d031cc747e8700093719e6" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P5</name></member>
+      <member refid="structbmp280__calib__data_1a9a76e6e6a0ae74859a2f4ecc7b04f0a7" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P6</name></member>
+      <member refid="structbmp280__calib__data_1a65d0abb061f85a294731e4466f28e5c9" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P7</name></member>
+      <member refid="structbmp280__calib__data_1a84831980d460c469926abee7e4230714" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P8</name></member>
+      <member refid="structbmp280__calib__data_1a75facb42146d3294c4b3502429bb11ff" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_P9</name></member>
+      <member refid="structbmp280__calib__data_1a512563b392052c4d687d92e0fa4c69fc" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_T1</name></member>
+      <member refid="structbmp280__calib__data_1a110637cd80d4c20cbf018370b1687a19" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_T2</name></member>
+      <member refid="structbmp280__calib__data_1ab47d67ad2a52c66956c7c6aa7a5006d3" prot="public" virt="non-virtual"><scope>bmp280_calib_data</scope><name>dig_T3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

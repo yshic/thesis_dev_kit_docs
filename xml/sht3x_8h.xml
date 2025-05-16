@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="sht3x_8h" kind="file" language="C++">
+    <compoundname>sht3x.h</compoundname>
+    <includes local="yes">WProgram.h</includes>
+    <includedby refid="sht3x_8cpp" local="yes">lib/sht3x/src/sht3x.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>lib/sht3x/src/sht3x.h</label>
+        <link refid="sht3x_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WProgram.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>lib/sht3x/src/sht3x.cpp</label>
+        <link refid="sht3x_8cpp"/>
+      </node>
+      <node id="1">
+        <label>lib/sht3x/src/sht3x.h</label>
+        <link refid="sht3x_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_s_h_t3_x" prot="public">SHT3X</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="sht3x_8h_1ab5e29924fc855b5abab9ed62134e2fea" prot="public" static="no">
+        <name>SHT3X_LIB_VERSION</name>
+        <initializer>(F(&quot;0.1.0&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/sht3x/src/sht3x.h" line="23" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sht3x_8h_1a1cb474d1094f0afc2d55252a30ce4e25" prot="public" static="no">
+        <name>SHT3X_I2C_ADDR_DEFAULT</name>
+        <initializer>0x44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/sht3x/src/sht3x.h" line="25" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sht3x_8h_1aa94d23b95cf1d73a89496d3d9cf2a1cc" prot="public" static="no">
+        <name>SHT3X_HUMIDITY_INDEX</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/sht3x/src/sht3x.h" line="26" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sht3x_8h_1aaed3b1d3b38061d6ee8318ed67982932" prot="public" static="no">
+        <name>SHT3X_TEMPERATURE_INDEX</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/sht3x/src/sht3x.h" line="27" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6ec" prot="public" static="no" strong="no">
+        <type></type>
+        <name>sht3x_error_t</name>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6ecaabf39b2c05170a3c0909b5764ff69760" prot="public">
+          <name>SHT3X_OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6eca9459a71592acbc1369f1d4d791022483" prot="public">
+          <name>SHT3X_ERR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6eca233ce2181f42c28714b8807ff6872656" prot="public">
+          <name>SHT3X_ERR_INIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6eca5f69bc6b480eaeaadad1bf89d43ca933" prot="public">
+          <name>SHT3X_ERR_RESET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6eca861371b931d2b0cbb1eb1b0d0b18dbf9" prot="public">
+          <name>SHT3X_TIMEOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6eca4087b199093c11f9c4fd252a4fa284b1" prot="public">
+          <name>SHT3X_ERR_I2C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sht3x_8h_1a1072385b2a343fc1f387021f086ad6eca2b5098336c235de7134755eb341738f9" prot="public">
+          <name>SHT3X_ERR_CHECKSUM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/sht3x/src/sht3x.h" line="31" column="1" bodyfile="lib/sht3x/src/sht3x.h" bodystart="32" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Header file for <ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref> library. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>@license This library is released under the MIT License. <simplesect kind="version"><para>0.1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2025-04-21 </para>
+</simplesect>
+<simplesect kind="author"><para>Tuan Nguyen </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SHT3X_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT3X_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Includes<sp/>-----------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT3X_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT3X_I2C_ADDR_DEFAULT<sp/><sp/>0x44</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT3X_HUMIDITY_INDEX<sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT3X_TEMPERATURE_INDEX<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>SHT3X_OK<sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>SHT3X_ERR,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>SHT3X_ERR_INIT,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>SHT3X_ERR_RESET,<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Reset<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>SHT3X_TIMEOUT,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>error*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>SHT3X_ERR_I2C,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>I2C<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>SHT3X_ERR_CHECKSUM<sp/></highlight><highlight class="comment">/*<sp/>Checksum<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}<sp/>sht3x_error_t;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_s_h_t3_x" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>sht3x_error_t<sp/>begin(uint8_t<sp/>i2c_addr<sp/>=<sp/>SHT3X_I2C_ADDR_DEFAULT);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>sht3x_error_t<sp/>update(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>getHumidity();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>getTemperatureCelcius();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>getTemperatureFahrenheit();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sensorValues[2]<sp/>=<sp/>{0};<sp/></highlight><highlight class="comment">//<sp/>index<sp/>0<sp/>:<sp/>Humidity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>index<sp/>1<sp/>:<sp/>Temperature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>uint8_t<sp/>_addr;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SHT3X_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="lib/sht3x/src/sht3x.h"/>
+  </compounddef>
+</doxygen>

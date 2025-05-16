@@ -1,0 +1,1232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_variant_functions_8hpp" kind="file" language="C++">
+    <compoundname>VariantFunctions.hpp</compoundname>
+    <includes refid="attributes_8hpp" local="no">ArduinoJson/Polyfills/attributes.hpp</includes>
+    <includes refid="_storage_policy_8hpp" local="no">ArduinoJson/Strings/StoragePolicy.hpp</includes>
+    <includes refid="_variant_data_8hpp" local="no">ArduinoJson/Variant/VariantData.hpp</includes>
+    <includes refid="_visitor_8hpp" local="no">ArduinoJson/Variant/Visitor.hpp</includes>
+    <includedby refid="measure_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</includedby>
+    <includedby refid="serialize_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</includedby>
+    <includedby refid="_converter_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</includedby>
+    <includedby refid="_json_variant_const_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</includedby>
+    <incdepgraph>
+      <node id="50">
+        <label>ArduinoJson/Collection/CollectionData.hpp</label>
+        <link refid="_collection_data_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ArduinoJson/Configuration.hpp</label>
+        <link refid="_configuration_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>ArduinoJson/Memory/Alignment.hpp</label>
+        <link refid="_alignment_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ArduinoJson/Memory/MemoryPool.hpp</label>
+        <link refid="_memory_pool_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>ArduinoJson/Misc/SerializedValue.hpp</label>
+        <link refid="_serialized_value_8hpp_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ArduinoJson/Namespace.hpp</label>
+        <link refid="_namespace_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>ArduinoJson/Numbers/FloatTraits.hpp</label>
+        <link refid="_float_traits_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>ArduinoJson/Numbers/JsonFloat.hpp</label>
+        <link refid="_json_float_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>ArduinoJson/Numbers/JsonInteger.hpp</label>
+        <link refid="_json_integer_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>ArduinoJson/Numbers/convertNumber.hpp</label>
+        <link refid="convert_number_8hpp_source"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>ArduinoJson/Polyfills/alias_cast.hpp</label>
+        <link refid="alias__cast_8hpp_source"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ArduinoJson/Polyfills/assert.hpp</label>
+        <link refid="assert_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ArduinoJson/Polyfills/attributes.hpp</label>
+        <link refid="attributes_8hpp_source"/>
+      </node>
+      <node id="46">
+        <label>ArduinoJson/Polyfills/integer.hpp</label>
+        <link refid="integer_8hpp_source"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>ArduinoJson/Polyfills/limits.hpp</label>
+        <link refid="limits_8hpp_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ArduinoJson/Polyfills/mpl/max.hpp</label>
+        <link refid="max_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>ArduinoJson/Polyfills/pgmspace_generic.hpp</label>
+        <link refid="pgmspace__generic_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ArduinoJson/Polyfills/preprocessor.hpp</label>
+        <link refid="preprocessor_8hpp_source"/>
+      </node>
+      <node id="15">
+        <label>ArduinoJson/Polyfills/type_traits.hpp</label>
+        <link refid="type__traits_8hpp_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>type_traits/conditional.hpp</label>
+        <link refid="conditional_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>declval.hpp</label>
+        <link refid="declval_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>type_traits/enable_if.hpp</label>
+        <link refid="enable__if_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>type_traits/integral_constant.hpp</label>
+        <link refid="integral__constant_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>type_traits/is_array.hpp</label>
+        <link refid="is__array_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>type_traits/is_base_of.hpp</label>
+        <link refid="is__base__of_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>type_traits/is_class.hpp</label>
+        <link refid="is__class_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>type_traits/is_const.hpp</label>
+        <link refid="is__const_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>type_traits/is_convertible.hpp</label>
+        <link refid="is__convertible_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>type_traits/is_enum.hpp</label>
+        <link refid="is__enum_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>is_floating_point.hpp</label>
+        <link refid="is__floating__point_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>is_integral.hpp</label>
+        <link refid="is__integral_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>type_traits/is_pointer.hpp</label>
+        <link refid="is__pointer_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>is_same.hpp</label>
+        <link refid="is__same_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>type_traits/is_signed.hpp</label>
+        <link refid="is__signed_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>type_traits/is_unsigned.hpp</label>
+        <link refid="is__unsigned_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>type_traits/make_unsigned.hpp</label>
+        <link refid="make__unsigned_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>type_traits/make_void.hpp</label>
+        <link refid="make__void_8hpp_source"/>
+      </node>
+      <node id="37">
+        <label>type_traits/remove_const.hpp</label>
+        <link refid="remove__const_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>remove_cv.hpp</label>
+        <link refid="remove__cv_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>remove_reference.hpp</label>
+        <link refid="remove__reference_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>type_identity.hpp</label>
+        <link refid="type__identity_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>ArduinoJson/Strings/Adapters/JsonString.hpp</label>
+        <link refid="_adapters_2_json_string_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>ArduinoJson/Strings/Adapters/RamString.hpp</label>
+        <link refid="_ram_string_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>ArduinoJson/Strings/Adapters/StringObject.hpp</label>
+        <link refid="_string_object_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>ArduinoJson/Strings/JsonString.hpp</label>
+        <link refid="_json_string_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>ArduinoJson/Strings/StoragePolicy.hpp</label>
+        <link refid="_storage_policy_8hpp_source"/>
+      </node>
+      <node id="41">
+        <label>ArduinoJson/Strings/StringAdapter.hpp</label>
+        <link refid="_string_adapter_8hpp_source"/>
+      </node>
+      <node id="14">
+        <label>ArduinoJson/Strings/StringAdapters.hpp</label>
+        <link refid="_string_adapters_8hpp_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>ArduinoJson/Strings/StringTraits.hpp</label>
+        <link refid="_string_traits_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>ArduinoJson/Variant/VariantContent.hpp</label>
+        <link refid="_variant_content_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ArduinoJson/Variant/VariantData.hpp</label>
+        <link refid="_variant_data_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
+        <link refid="_variant_functions_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>ArduinoJson/Variant/VariantSlot.hpp</label>
+        <link refid="_variant_slot_8hpp_source"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>ArduinoJson/Variant/Visitor.hpp</label>
+        <link refid="_visitor_8hpp_source"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ArduinoJson/version.hpp</label>
+        <link refid="version_8hpp_source"/>
+      </node>
+      <node id="11">
+        <label>stddef.h</label>
+      </node>
+      <node id="47">
+        <label>stdint.h</label>
+      </node>
+      <node id="57">
+        <label>stdlib.h</label>
+      </node>
+      <node id="40">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <link refid="_arduino_json_8hpp_source"/>
+      </node>
+      <node id="31">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
+        <link refid="_element_proxy_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <link refid="_json_array_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
+        <link refid="_json_array_const_8hpp_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <link refid="_json_array_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
+        <link refid="_json_array_iterator_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
+        <link refid="_utilities_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
+        <link refid="_reader_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
+        <link refid="_variant_reader_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <link refid="deserialize_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <link refid="_basic_json_document_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <link refid="_dynamic_json_document_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
+        <link refid="_json_document_8hpp_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
+        <link refid="_static_json_document_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <link refid="_json_deserializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <link refid="_json_serializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <link refid="_pretty_json_serializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <link refid="_msg_pack_deserializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <link refid="_msg_pack_serializer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
+        <link refid="_json_object_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
+        <link refid="_json_object_const_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
+        <link refid="_json_object_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
+        <link refid="_json_object_iterator_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
+        <link refid="_json_pair_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
+        <link refid="_member_proxy_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
+        <link refid="measure_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
+        <link refid="serialize_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <link refid="_converter_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
+        <link refid="_json_variant_8hpp_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
+        <link refid="_json_variant_const_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
+        <link refid="_variant_attorney_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
+        <link refid="_variant_functions_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <link refid="_variant_impl_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
+        <link refid="_variant_ref_base_8hpp_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_variant_functions_8hpp_1a59182d09714a6059d5d54d096bd03c40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TVisitor</type>
+          </param>
+        </templateparamlist>
+        <type>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE TVisitor::result_type</type>
+        <definition>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE TVisitor::result_type variantAccept</definition>
+        <argsstring>(const VariantData *var, TVisitor &amp;visitor)</argsstring>
+        <name>variantAccept</name>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>TVisitor &amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="15" column="39" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="15" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1a2981f20d7e0e10e8c806ac77da3f48b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool variantCopyFrom</definition>
+        <argsstring>(VariantData *dst, const VariantData *src, MemoryPool *pool)</argsstring>
+        <name>variantCopyFrom</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="23" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1a10f8e70a7d017a9ba1d5d6281480894a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void variantSetNull</definition>
+        <argsstring>(VariantData *var)</argsstring>
+        <name>variantSetNull</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="34" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1aeaaf932e12fb742fff5c4c8143eaec0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool variantSetString</definition>
+        <argsstring>(VariantData *var, TAdaptedString value, MemoryPool *pool)</argsstring>
+        <name>variantSetString</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="41" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1ad82615598c4237019ac17b4de5119c98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t variantSize</definition>
+        <argsstring>(const VariantData *var)</argsstring>
+        <name>variantSize</name>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="46" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1a335c8aed1572900d0b14eb856a994f3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>CollectionData * variantToArray</definition>
+        <argsstring>(VariantData *var)</argsstring>
+        <name>variantToArray</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="50" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1a0d64765407c460c41655221b313e9df2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
+        <definition>CollectionData * variantToObject</definition>
+        <argsstring>(VariantData *var)</argsstring>
+        <name>variantToObject</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="56" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1a9a5ed439a76fe91cc7b1bf175ce4b245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * variantGetElement</definition>
+        <argsstring>(const VariantData *var, size_t index)</argsstring>
+        <name>variantGetElement</name>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="62" column="20" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1aa160073792cba27062a805809df0b39a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NO_INLINE <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>NO_INLINE VariantData * variantAddElement</definition>
+        <argsstring>(VariantData *var, MemoryPool *pool)</argsstring>
+        <name>variantAddElement</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="66" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1aa640b8996b9e121ba19d7ab4264fbefa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NO_INLINE <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>NO_INLINE VariantData * variantGetOrAddElement</definition>
+        <argsstring>(VariantData *var, size_t index, MemoryPool *pool)</argsstring>
+        <name>variantGetOrAddElement</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="71" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1ad53365546a956cc821cf895435cd32b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * variantGetMember</definition>
+        <argsstring>(const VariantData *var, TAdaptedString key)</argsstring>
+        <name>variantGetMember</name>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="78" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1aa27c1b757efeeeb5174a7e6d89229f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+        <definition>VariantData * variantGetOrAddMember</definition>
+        <argsstring>(VariantData *var, TAdaptedString key, MemoryPool *pool)</argsstring>
+        <name>variantGetOrAddMember</name>
+        <param>
+          <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="85" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1a523a51eb2e3f4b2c39061cde666ac4f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool variantIsNull</definition>
+        <argsstring>(const VariantData *var)</argsstring>
+        <name>variantIsNull</name>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="92" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="_variant_functions_8hpp_1af7612853449626f5fe99ad5447ea61e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t variantNesting</definition>
+        <argsstring>(const VariantData *var)</argsstring>
+        <name>variantNesting</name>
+        <param>
+          <type>const <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" line="96" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp" bodystart="96" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>ArduinoJson<sp/>-<sp/>https://arduinojson.org</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>©<sp/>2014-2023,<sp/>Benoit<sp/>BLANCHON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Polyfills/attributes.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Strings/StoragePolicy.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Variant/VariantData.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoJson/Variant/Visitor.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TVisitor&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TVisitor::result_type<sp/>variantAccept(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVisitor&amp;<sp/>visitor)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(var<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var-&gt;accept(visitor);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>visitor.visitNull();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>variantCopyFrom(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>src,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dst)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!src)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>dst-&gt;setNull();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dst-&gt;copyFrom(*src,<sp/>pool);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>variantSetNull(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!var)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>var-&gt;setNull();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString&gt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>variantSetString(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,<sp/>TAdaptedString<sp/>value,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var<sp/>!=<sp/>0<sp/>?<sp/>var-&gt;setString(value,<sp/>pool)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>variantSize(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var<sp/>!=<sp/>0<sp/>?<sp/>var-&gt;size()<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_collection_data" kindref="compound">CollectionData</ref>*<sp/>variantToArray(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!var)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;var-&gt;toArray();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_collection_data" kindref="compound">CollectionData</ref>*<sp/>variantToObject(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var)<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!var)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;var-&gt;toObject();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>variantGetElement(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var<sp/>!=<sp/>0<sp/>?<sp/>var-&gt;getElement(index)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>NO_INLINE<sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>variantAddElement(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var<sp/>!=<sp/>0<sp/>?<sp/>var-&gt;addElement(pool)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>NO_INLINE<sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>variantGetOrAddElement(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var<sp/>!=<sp/>0<sp/>?<sp/>var-&gt;getOrAddElement(index,<sp/>pool)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString&gt;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>variantGetMember(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,<sp/>TAdaptedString<sp/>key)<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!var)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var-&gt;getMember(key);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString&gt;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>variantGetOrAddMember(<ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var,<sp/>TAdaptedString<sp/>key,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!var)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var-&gt;getOrAddMember(key,<sp/>pool);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>variantIsNull(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>var<sp/>==<sp/>0<sp/>||<sp/>var-&gt;isNull();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>variantNesting(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var)<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!var)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_collection_data" kindref="compound">CollectionData</ref>*<sp/>collection<sp/>=<sp/>var-&gt;asCollection();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!collection)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>maxChildNesting<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>s<sp/>=<sp/>collection-&gt;head();<sp/>s;<sp/>s<sp/>=<sp/>s-&gt;next())<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>childNesting<sp/>=<sp/>variantNesting(s-&gt;data());</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(childNesting<sp/>&gt;<sp/>maxChildNesting)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>maxChildNesting<sp/>=<sp/>childNesting;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>maxChildNesting<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
+    </programlisting>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_variant_operator_tag" kind="struct" language="C++" prot="public">
+    <compoundname>VariantOperatorTag</compoundname>
+    <derivedcompoundref refid="struct_variant_operators" prot="public" virt="non-virtual">VariantOperators&lt; ElementProxy&lt; TUpstream &gt; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="struct_variant_operators" prot="public" virt="non-virtual">VariantOperators&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="struct_variant_operators" prot="public" virt="non-virtual">VariantOperators&lt; TVariant &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ElementProxy&lt; TUpstream &gt;</label>
+        <link refid="class_element_proxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MemberProxy&lt; TUpstream, TStringRef &gt;</label>
+        <link refid="class_member_proxy"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>VariantOperatorTag</label>
+        <link refid="struct_variant_operator_tag"/>
+      </node>
+      <node id="6">
+        <label>VariantOperators&lt; TVariant &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VariantOperators&lt; ElementProxy&lt; TUpstream &gt; &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>VariantOperators&lt; MemberProxy&lt; TUpstream, TStringRef &gt; &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="24" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="24" bodyend="24"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

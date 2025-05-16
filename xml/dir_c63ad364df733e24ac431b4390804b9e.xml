@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_c63ad364df733e24ac431b4390804b9e" kind="dir">
+    <compoundname>lib/dht20</compoundname>
+    <innerdir refid="dir_a9aa24c78570c67e7c42e1c756d0cf23">lib/dht20/examples</innerdir>
+    <innerdir refid="dir_81b3ecb8ae1f4859251bae603fecb964">lib/dht20/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/dht20/"/>
+  </compounddef>
+</doxygen>

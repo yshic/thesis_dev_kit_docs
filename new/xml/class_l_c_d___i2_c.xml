@@ -1,0 +1,794 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_l_c_d___i2_c" kind="class" language="C++" prot="public">
+    <compoundname>LCD_I2C</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Print</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1a4630953a99ebadadc8a22183e838ade0" prot="private" static="no" mutable="no">
+        <type>TwoWire *</type>
+        <definition>TwoWire* LCD_I2C::_wire</definition>
+        <argsstring></argsstring>
+        <name>_wire</name>
+        <qualifiedname>LCD_I2C::_wire</qualifiedname>
+        <initializer>{nullptr}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="103" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1a00ef7b035b3a775d8d4fd2b3014f699b" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LCD_I2C::_address</definition>
+        <argsstring></argsstring>
+        <name>_address</name>
+        <qualifiedname>LCD_I2C::_address</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="104" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1a6fb05a41bbaf023955b8c1d0c40b49a0" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LCD_I2C::_columnMax</definition>
+        <argsstring></argsstring>
+        <name>_columnMax</name>
+        <qualifiedname>LCD_I2C::_columnMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="105" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1a0e4a390668d7a6cd5d83975e11a0eaf9" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LCD_I2C::_rowMax</definition>
+        <argsstring></argsstring>
+        <name>_rowMax</name>
+        <qualifiedname>LCD_I2C::_rowMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="106" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1a4e213222bce58d7146fcd331bb40a34c" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_output_state" kindref="compound">OutputState</ref></type>
+        <definition>OutputState LCD_I2C::_output</definition>
+        <argsstring></argsstring>
+        <name>_output</name>
+        <qualifiedname>LCD_I2C::_output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="107" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1acc8143f0db43845e03ef5f9c076b78c3" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LCD_I2C::_displayState</definition>
+        <argsstring></argsstring>
+        <name>_displayState</name>
+        <qualifiedname>LCD_I2C::_displayState</qualifiedname>
+        <initializer>= 0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="108" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1a6f81f37c9941f82b0f3215c4c83060d7" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LCD_I2C::_entryState</definition>
+        <argsstring></argsstring>
+        <name>_entryState</name>
+        <qualifiedname>LCD_I2C::_entryState</qualifiedname>
+        <initializer>= 0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="109" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_c_d___i2_c_1afc4575ae1857fee823e8b43535f726b8" prot="private" static="no" mutable="no">
+        <type>lcd_screen_state_t</type>
+        <definition>lcd_screen_state_t LCD_I2C::lcdScreenState</definition>
+        <argsstring></argsstring>
+        <name>lcdScreenState</name>
+        <qualifiedname>LCD_I2C::lcdScreenState</qualifiedname>
+        <initializer>= LCD_SCREEN_SHT4X</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="110" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a9ab0aabe9eb94b74610e091467e43725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LCD_I2C::LCD_I2C</definition>
+        <argsstring>(uint8_t address, uint8_t columns=16, uint8_t rows=2)</argsstring>
+        <name>LCD_I2C</name>
+        <qualifiedname>LCD_I2C::LCD_I2C</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>columns</declname>
+          <defval>16</defval>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>rows</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="68" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1aa5cb738174b216d2b06b7b11849ee61d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::begin</definition>
+        <argsstring>(TwoWire *wire)</argsstring>
+        <name>begin</name>
+        <qualifiedname>LCD_I2C::begin</qualifiedname>
+        <param>
+          <type>TwoWire *</type>
+          <declname>wire</declname>
+        </param>
+        <briefdescription>
+<para>function begin </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beginWire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true start I²C wire </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="73" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="10" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a5262240ccbb83ec6f37522b8d9322bd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::backlight</definition>
+        <argsstring>()</argsstring>
+        <name>backlight</name>
+        <qualifiedname>LCD_I2C::backlight</qualifiedname>
+        <briefdescription>
+<para>switch backlight on </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="74" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a4f0d21551d40edb54ac1b942bef76d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::backlightOff</definition>
+        <argsstring>()</argsstring>
+        <name>backlightOff</name>
+        <qualifiedname>LCD_I2C::backlightOff</qualifiedname>
+        <briefdescription>
+<para>switch backlight off </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="75" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>LCD_I2C::clear</qualifiedname>
+        <briefdescription>
+<para>Clears the LCD screen and positions the cursor in the upper-left corner. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="77" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1af64793f4fed5a850a998619d277248fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::home</definition>
+        <argsstring>()</argsstring>
+        <name>home</name>
+        <qualifiedname>LCD_I2C::home</qualifiedname>
+        <briefdescription>
+<para>Positions the cursor in the upper-left of the LCD. That is, use that location in outputting subsequent text to the display. To also clear the display, use the <ref refid="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" kindref="member">clear()</ref> function instead. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="78" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a62a262300317053d98481750e588f12e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::leftToRight</definition>
+        <argsstring>()</argsstring>
+        <name>leftToRight</name>
+        <qualifiedname>LCD_I2C::leftToRight</qualifiedname>
+        <briefdescription>
+<para>Set the direction for text written to the LCD to left-to-right, the default. This means that subsequent characters written to the display will go from left to right, but does not affect previously-output text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="79" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="77" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a477dc9c04b7b0f010fcf5288be9f4050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::rightToLeft</definition>
+        <argsstring>()</argsstring>
+        <name>rightToLeft</name>
+        <qualifiedname>LCD_I2C::rightToLeft</qualifiedname>
+        <briefdescription>
+<para>Set the direction for text written to the LCD to right-to-left (the default is left-to-right). This means that subsequent characters written to the display will go from right to left, but does not affect previously-output text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="80" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="94" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a5564c2b6fdb35ba40d7b99399e9ad100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::autoscroll</definition>
+        <argsstring>()</argsstring>
+        <name>autoscroll</name>
+        <qualifiedname>LCD_I2C::autoscroll</qualifiedname>
+        <briefdescription>
+<para>set autoscroll on. Each character is printed on the same location on the LCD. Depending on the current text direction, autoscroll moves each character to the left when left =&gt; right is set. Or moves each character to the right when right =&gt; left is set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="81" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1ad0431cb8cd92563eaae80d73f6cb6d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::autoscrollOff</definition>
+        <argsstring>()</argsstring>
+        <name>autoscrollOff</name>
+        <qualifiedname>LCD_I2C::autoscrollOff</qualifiedname>
+        <briefdescription>
+<para>Set autoscroll off. Moves the cursor one step when adding a character. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="82" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="129" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a9ecc6249b017a867ba83c0b37dbb4d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::display</definition>
+        <argsstring>()</argsstring>
+        <name>display</name>
+        <qualifiedname>LCD_I2C::display</qualifiedname>
+        <briefdescription>
+<para>Turns on the LCD display, after it’s been turned off with noDisplay(). This will restore the text (and cursor) that was on the display. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="83" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="145" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a3d309d59c218c17ce0da39a4b32b3be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::displayOff</definition>
+        <argsstring>()</argsstring>
+        <name>displayOff</name>
+        <qualifiedname>LCD_I2C::displayOff</qualifiedname>
+        <briefdescription>
+<para>Turns off the LCD display, without losing the text currently shown on it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="84" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="160" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a090e1dc11adac2ecf4b51c33fbe2d16a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::cursor</definition>
+        <argsstring>()</argsstring>
+        <name>cursor</name>
+        <qualifiedname>LCD_I2C::cursor</qualifiedname>
+        <briefdescription>
+<para>Shows the cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="85" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="175" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a9148c308bc60405264acd2caebb42035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::cursorOff</definition>
+        <argsstring>()</argsstring>
+        <name>cursorOff</name>
+        <qualifiedname>LCD_I2C::cursorOff</qualifiedname>
+        <briefdescription>
+<para>Hides the cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="86" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="190" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a824106f0d24f9cc3b133330491821390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::blink</definition>
+        <argsstring>()</argsstring>
+        <name>blink</name>
+        <qualifiedname>LCD_I2C::blink</qualifiedname>
+        <briefdescription>
+<para>Display the blinking LCD cursor. If used in combination with the <ref refid="class_l_c_d___i2_c_1a090e1dc11adac2ecf4b51c33fbe2d16a" kindref="member">cursor()</ref> function, the result will depend on the particular display. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="87" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="206" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a3a77ab88ae1d7655a54f09d2e5159ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::blinkOff</definition>
+        <argsstring>()</argsstring>
+        <name>blinkOff</name>
+        <qualifiedname>LCD_I2C::blinkOff</qualifiedname>
+        <briefdescription>
+<para>Turns off the blinking LCD cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="88" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="221" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a5c77d5a6768b076dfd9a0cd4e54cf7e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::scrollDisplayLeft</definition>
+        <argsstring>()</argsstring>
+        <name>scrollDisplayLeft</name>
+        <qualifiedname>LCD_I2C::scrollDisplayLeft</qualifiedname>
+        <briefdescription>
+<para>Scrolls the contents of the display (text and cursor) one space to the left. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="89" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="236" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1ae12bf5d4ae108dcca9b879f3777df484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::scrollDisplayRight</definition>
+        <argsstring>()</argsstring>
+        <name>scrollDisplayRight</name>
+        <qualifiedname>LCD_I2C::scrollDisplayRight</qualifiedname>
+        <briefdescription>
+<para>Scrolls the contents of the display (text and cursor) one space to the right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="90" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="249" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::createChar</definition>
+        <argsstring>(uint8_t memory_location, uint8_t charmap[])</argsstring>
+        <name>createChar</name>
+        <qualifiedname>LCD_I2C::createChar</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>memory_location</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>charmap</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Create a custom character (glyph) for use on the LCD. Up to eight characters of 5x8 pixels are supported (numbered 0 to 7). The appearance of each custom character is specified by an array of eight bytes, one for each row. The five least significant bits of each byte determine the pixels in that row. To display a custom character on the screen, <ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">write()</ref> its number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>memory_location</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>memory location where char is saved </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>charmap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>defined character map </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="91" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="268" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::setCursor</definition>
+        <argsstring>(uint8_t column, uint8_t row)</argsstring>
+        <name>setCursor</name>
+        <qualifiedname>LCD_I2C::setCursor</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>Set Cursor to position defined by column and row. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="92" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="290" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1aaf831006a92860fc2e3e9f79578b2e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::writeCharCode</definition>
+        <argsstring>(uint8_t code)</argsstring>
+        <name>writeCharCode</name>
+        <qualifiedname>LCD_I2C::writeCharCode</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+<para>write character code from corresponding code table </para>
+        </briefdescription>
+        <detaileddescription>
+<para>see HD44780.pdf =&gt; page 17</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="93" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="375" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a669b57b170aa0dfcbc28f87a43ddc302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::progressBar</definition>
+        <argsstring>(uint8_t row, uint8_t progress)</argsstring>
+        <name>progressBar</name>
+        <qualifiedname>LCD_I2C::progressBar</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="94" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="428" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1aeeb5bee9ba464c8579c1e5abf95eebd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>lcd_screen_state_t</type>
+        <definition>lcd_screen_state_t LCD_I2C::getScreenState</definition>
+        <argsstring>()</argsstring>
+        <name>getScreenState</name>
+        <qualifiedname>LCD_I2C::getScreenState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="95" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="475" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a5e292a6e8e968200d4ca9e86cc9f5ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::setScreenState</definition>
+        <argsstring>(lcd_screen_state_t screenState)</argsstring>
+        <name>setScreenState</name>
+        <qualifiedname>LCD_I2C::setScreenState</qualifiedname>
+        <param>
+          <type>lcd_screen_state_t</type>
+          <declname>screenState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="96" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="477" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a85c9e6f2e4e0898ba1daf4b96a91b28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::updateScreenState</definition>
+        <argsstring>(bool increment)</argsstring>
+        <name>updateScreenState</name>
+        <qualifiedname>LCD_I2C::updateScreenState</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>increment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="97" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="479" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t LCD_I2C::write</definition>
+        <argsstring>(uint8_t character)</argsstring>
+        <name>write</name>
+        <qualifiedname>LCD_I2C::write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+<para>Write a character to the LCD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>character</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>size_t written bytes </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="100" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="318" bodyend="327"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_l_c_d___i2_c_1aa81db0b677f6e58498b06882880b562c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::InitializeLCD</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeLCD</name>
+        <qualifiedname>LCD_I2C::InitializeLCD</qualifiedname>
+        <briefdescription>
+<para>Function to initialize LCD. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="112" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="333" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1a71db848d8826e6c08c2693d762f6a93b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::I2C_Write</definition>
+        <argsstring>(uint8_t output)</argsstring>
+        <name>I2C_Write</name>
+        <qualifiedname>LCD_I2C::I2C_Write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>I²C write function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data to write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="113" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="387" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_c_d___i2_c_1ae98fa69bff62f2a850fb6104da7a6259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LCD_I2C::LCD_Write</definition>
+        <argsstring>(uint8_t output, bool initialization=false)</argsstring>
+        <name>LCD_Write</name>
+        <qualifiedname>LCD_I2C::LCD_Write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>initialization</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>LCD_Write function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data to write </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initialization</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initialization </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="114" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="400" bodyend="426"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LCD_I2C</label>
+        <link refid="class_l_c_d___i2_c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Print</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LCD_I2C</label>
+        <link refid="class_l_c_d___i2_c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Print</label>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="65" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="66" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_l_c_d___i2_c_1a00ef7b035b3a775d8d4fd2b3014f699b" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_address</name></member>
+      <member refid="class_l_c_d___i2_c_1a6fb05a41bbaf023955b8c1d0c40b49a0" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_columnMax</name></member>
+      <member refid="class_l_c_d___i2_c_1acc8143f0db43845e03ef5f9c076b78c3" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_displayState</name></member>
+      <member refid="class_l_c_d___i2_c_1a6f81f37c9941f82b0f3215c4c83060d7" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_entryState</name></member>
+      <member refid="class_l_c_d___i2_c_1a4e213222bce58d7146fcd331bb40a34c" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_output</name></member>
+      <member refid="class_l_c_d___i2_c_1a0e4a390668d7a6cd5d83975e11a0eaf9" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_rowMax</name></member>
+      <member refid="class_l_c_d___i2_c_1a4630953a99ebadadc8a22183e838ade0" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_wire</name></member>
+      <member refid="class_l_c_d___i2_c_1a5564c2b6fdb35ba40d7b99399e9ad100" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>autoscroll</name></member>
+      <member refid="class_l_c_d___i2_c_1ad0431cb8cd92563eaae80d73f6cb6d9b" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>autoscrollOff</name></member>
+      <member refid="class_l_c_d___i2_c_1a5262240ccbb83ec6f37522b8d9322bd7" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>backlight</name></member>
+      <member refid="class_l_c_d___i2_c_1a4f0d21551d40edb54ac1b942bef76d6c" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>backlightOff</name></member>
+      <member refid="class_l_c_d___i2_c_1aa5cb738174b216d2b06b7b11849ee61d" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>begin</name></member>
+      <member refid="class_l_c_d___i2_c_1a824106f0d24f9cc3b133330491821390" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>blink</name></member>
+      <member refid="class_l_c_d___i2_c_1a3a77ab88ae1d7655a54f09d2e5159ff9" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>blinkOff</name></member>
+      <member refid="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>clear</name></member>
+      <member refid="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>createChar</name></member>
+      <member refid="class_l_c_d___i2_c_1a090e1dc11adac2ecf4b51c33fbe2d16a" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>cursor</name></member>
+      <member refid="class_l_c_d___i2_c_1a9148c308bc60405264acd2caebb42035" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>cursorOff</name></member>
+      <member refid="class_l_c_d___i2_c_1a9ecc6249b017a867ba83c0b37dbb4d1b" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>display</name></member>
+      <member refid="class_l_c_d___i2_c_1a3d309d59c218c17ce0da39a4b32b3be1" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>displayOff</name></member>
+      <member refid="class_l_c_d___i2_c_1aeeb5bee9ba464c8579c1e5abf95eebd4" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>getScreenState</name></member>
+      <member refid="class_l_c_d___i2_c_1af64793f4fed5a850a998619d277248fa" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>home</name></member>
+      <member refid="class_l_c_d___i2_c_1a71db848d8826e6c08c2693d762f6a93b" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>I2C_Write</name></member>
+      <member refid="class_l_c_d___i2_c_1aa81db0b677f6e58498b06882880b562c" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>InitializeLCD</name></member>
+      <member refid="class_l_c_d___i2_c_1a9ab0aabe9eb94b74610e091467e43725" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>LCD_I2C</name></member>
+      <member refid="class_l_c_d___i2_c_1ae98fa69bff62f2a850fb6104da7a6259" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>LCD_Write</name></member>
+      <member refid="class_l_c_d___i2_c_1afc4575ae1857fee823e8b43535f726b8" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>lcdScreenState</name></member>
+      <member refid="class_l_c_d___i2_c_1a62a262300317053d98481750e588f12e" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>leftToRight</name></member>
+      <member refid="class_l_c_d___i2_c_1a669b57b170aa0dfcbc28f87a43ddc302" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>progressBar</name></member>
+      <member refid="class_l_c_d___i2_c_1a477dc9c04b7b0f010fcf5288be9f4050" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>rightToLeft</name></member>
+      <member refid="class_l_c_d___i2_c_1a5c77d5a6768b076dfd9a0cd4e54cf7e7" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>scrollDisplayLeft</name></member>
+      <member refid="class_l_c_d___i2_c_1ae12bf5d4ae108dcca9b879f3777df484" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>scrollDisplayRight</name></member>
+      <member refid="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>setCursor</name></member>
+      <member refid="class_l_c_d___i2_c_1a5e292a6e8e968200d4ca9e86cc9f5ce2" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>setScreenState</name></member>
+      <member refid="class_l_c_d___i2_c_1a85c9e6f2e4e0898ba1daf4b96a91b28a" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>updateScreenState</name></member>
+      <member refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" prot="public" virt="virtual"><scope>LCD_I2C</scope><name>write</name></member>
+      <member refid="class_l_c_d___i2_c_1aaf831006a92860fc2e3e9f79578b2e0b" prot="public" virt="non-virtual"><scope>LCD_I2C</scope><name>writeCharCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="md_lib__arduino_http_client_utility__u_r_l_parser__r_e_a_d_m_e" kind="page">
+    <compoundname>md_lib_ArduinoHttpClient_utility_URLParser_README</compoundname>
+    <title>http_parser library</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This code is imported from: <ulink url="https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser">https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser</ulink></para>
+<para>The code is shrinked in size by deleting all the unrelated code to url parse. </para>
+    </detaileddescription>
+    <location file="lib/ArduinoHttpClient/utility/URLParser/README.md"/>
+  </compounddef>
+</doxygen>

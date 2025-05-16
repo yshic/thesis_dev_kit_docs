@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Converter&lt; SerializedValue&lt; const char * &gt; &gt;</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">detail::VariantAttorney</basecompoundref>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4_1af50bc107026744bcf5923e62c7b37ea3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Converter&lt; SerializedValue&lt; const char * &gt; &gt;::toJson</definition>
+        <argsstring>(SerializedValue&lt; const char * &gt; src, JsonVariant dst)</argsstring>
+        <name>toJson</name>
+        <qualifiedname>Converter&lt; SerializedValue&lt; const char * &gt; &gt;::toJson</qualifiedname>
+        <param>
+          <type><ref refid="class_serialized_value" kindref="compound">SerializedValue</ref>&lt; const char * &gt;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_json_variant" kindref="compound">JsonVariant</ref></type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="174" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="174" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Converter&lt; SerializedValue&lt; const char * &gt; &gt;</label>
+        <link refid="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Converter&lt; SerializedValue&lt; const char * &gt; &gt;</label>
+        <link refid="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="172" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="173" bodyend="179"/>
+    <listofallmembers>
+      <member refid="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4_1af50bc107026744bcf5923e62c7b37ea3" prot="public" virt="non-virtual"><scope>Converter&lt; SerializedValue&lt; const char * &gt; &gt;</scope><name>toJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

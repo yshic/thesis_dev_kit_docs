@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f" kind="struct" language="C++" prot="public">
+    <compoundname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref refid="struct_bounded_reader" prot="public" virt="non-virtual">BoundedReader&lt; const char * &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TSource</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f_1a28bed3a674f0993b4aa816fafb399008" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;::Reader</definition>
+        <argsstring>(const ::String &amp;s)</argsstring>
+        <name>Reader</name>
+        <qualifiedname>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;::Reader</qualifiedname>
+        <param>
+          <type>const ::String &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" bodystart="15" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BoundedReader&lt; const char * &gt;</label>
+        <link refid="struct_bounded_reader"/>
+      </node>
+      <node id="1">
+        <label>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BoundedReader&lt; const char * &gt;</label>
+        <link refid="struct_bounded_reader"/>
+      </node>
+      <node id="1">
+        <label>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f_1a28bed3a674f0993b4aa816fafb399008" prot="public" virt="non-virtual"><scope>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;</scope><name>Reader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

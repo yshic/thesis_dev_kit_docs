@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="bmp280_8h" kind="file" language="C++">
+    <compoundname>bmp280.h</compoundname>
+    <includes local="yes">WProgram.h</includes>
+    <includedby refid="bmp280_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h</label>
+        <link refid="bmp280_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WProgram.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structbmp280__calib__data" prot="public">bmp280_calib_data</innerclass>
+    <innerclass refid="class_b_m_p280" prot="public">BMP280</innerclass>
+    <innerclass refid="struct_b_m_p280_1_1config" prot="private">BMP280::config</innerclass>
+    <innerclass refid="struct_b_m_p280_1_1ctrl__meas" prot="private">BMP280::ctrl_meas</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="bmp280_8h_1a696905a7c50b980e5775da96479dfae3" prot="public" static="no">
+        <name>BMP280_LIB_VERSION</name>
+        <initializer>(F(&quot;0.1.0&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bmp280_8h_1aa58a90f8c2ec9ac45d8b345f91fdfab1" prot="public" static="no">
+        <name>BMP280_I2C_ADDR</name>
+        <initializer>0x76</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bmp280_error_t</name>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104a5aab246e404a855c31d37b6d268f24d6" prot="public">
+          <name>BMP280_OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104ad0d32bfec5ce25b0519cd7599a55ba4f" prot="public">
+          <name>BMP280_ERR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104ad167cd0fc09a61fff8cde799285c5764" prot="public">
+          <name>BMP280_ERR_INIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104a3a9903f747e93fd3661bb0c0671ee9f7" prot="public">
+          <name>BMP280_ERR_RESET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104a221cc85eea46d8bd9fb2f8975cf086a7" prot="public">
+          <name>BMP280_TIMEOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104a8f6cc4ec8fe6b9f2a7ec4cd849d2a1af" prot="public">
+          <name>BMP280_ERR_I2C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104acbe8add86ac49402714c8e06ce96522a" prot="public">
+          <name>BMP280_ERR_DIV_ZERO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4511b82976aef8dbc0bd1064e5de4104a111f515a3bca62be9674a68a504f350b" prot="public">
+          <name>BMP280_ERR_CHECKSUM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="28" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="bmp280_8h_1a078433df125db1cdc92e431b12af6782" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bmp280_sampling_t</name>
+        <enumvalue id="bmp280_8h_1a078433df125db1cdc92e431b12af6782a863fe36022db5d1faf252f21948ba9f6" prot="public">
+          <name>SAMPLING_NONE</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a078433df125db1cdc92e431b12af6782aea7b3072c664b5bcc53bb88c3dd71d77" prot="public">
+          <name>SAMPLING_X1</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>No over-sampling. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a078433df125db1cdc92e431b12af6782aae9d26608236790c57fc5707ca14deb6" prot="public">
+          <name>SAMPLING_X2</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>1x over-sampling. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a078433df125db1cdc92e431b12af6782a8e2cb7afe2c73a213ab23f4ce227a2c9" prot="public">
+          <name>SAMPLING_X4</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>2x over-sampling. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a078433df125db1cdc92e431b12af6782afbba52a2e7317d7247474cdc55e184d5" prot="public">
+          <name>SAMPLING_X8</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>4x over-sampling. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a078433df125db1cdc92e431b12af6782a63019740da87827ac6c2c7b3f090d2cb" prot="public">
+          <name>SAMPLING_X16</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>8x over-sampling. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Oversampling rate for the sensor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="41" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="bmp280_8h_1a591c10d85466fc2af5058a2af914635e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bmp280_mode_t</name>
+        <enumvalue id="bmp280_8h_1a591c10d85466fc2af5058a2af914635eaa3455ec158bce6b1f376ef15b8b8fec3" prot="public">
+          <name>MODE_SLEEP</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea4ba4678ce33c0530ab0e2aec3fe3b200" prot="public">
+          <name>MODE_FORCED</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Sleep mode. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a591c10d85466fc2af5058a2af914635eaf81b467c1f5e20f847402b03925c0d12" prot="public">
+          <name>MODE_NORMAL</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Forced mode. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea3b1bc5f6d28bca2ff1222a3c7fb30831" prot="public">
+          <name>MODE_SOFT_RESET_CODE</name>
+          <initializer>= 0xB6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Normal mode. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Operating mode for the sensor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="52" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="enum" id="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bmp280_filter_t</name>
+        <enumvalue id="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fab1577adfe34e9a7249c80578493a2a85" prot="public">
+          <name>FILTER_OFF</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fae58e496c0d461076b52ea1760e0bc37a" prot="public">
+          <name>FILTER_X2</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>No filtering. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fab6fe3bdec5e39b00bec693d68b1b93bb" prot="public">
+          <name>FILTER_X4</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>2x filtering. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fabb2108ee413ec924d6937c97876b337e" prot="public">
+          <name>FILTER_X8</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>4x filtering. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fabf065d59c14be6b2694fba510226ec2d" prot="public">
+          <name>FILTER_X16</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>8x filtering. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filtering level for sensor data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="61" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="enum" id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>bmp280_standby_duration_t</name>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba43a4007517be4f7d3820e70f9c61a7ff" prot="public">
+          <name>STANDBY_MS_1</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febac84df2409124b735db178bfb858c7a8d" prot="public">
+          <name>STANDBY_MS_63</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>1 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba11fff96d8348fe255e688f3830ddb980" prot="public">
+          <name>STANDBY_MS_125</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>62.5 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba54910144ead38497b5717cf796ba3070" prot="public">
+          <name>STANDBY_MS_250</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>125 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba9bb10f25dd376b48ca5b05d83f898ed5" prot="public">
+          <name>STANDBY_MS_500</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>250 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba1b7b322904c4742c90ba4f1859ca4a75" prot="public">
+          <name>STANDBY_MS_1000</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>500 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febae16c2e0c7815030d7c220bc99672d94b" prot="public">
+          <name>STANDBY_MS_2000</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>1000 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba77a3bff96866d8d80c72cc97c140217d" prot="public">
+          <name>STANDBY_MS_4000</name>
+          <initializer>= 0x07</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>2000 ms standby. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Standby duration in ms </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="71" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="72" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="enum" id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031e" prot="public" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaf5ee84149f063119d71bfa55080fc809" prot="public">
+          <name>BMP280_REGISTER_DIG_T1</name>
+          <initializer>= 0x88</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea30e027d8d378f4141bf63dafe32fdb59" prot="public">
+          <name>BMP280_REGISTER_DIG_T2</name>
+          <initializer>= 0x8A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaf066148145748b0bb981802831dd1f4f" prot="public">
+          <name>BMP280_REGISTER_DIG_T3</name>
+          <initializer>= 0x8C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaa62ddff60d9ef222bbecdbc0b82d44d8" prot="public">
+          <name>BMP280_REGISTER_DIG_P1</name>
+          <initializer>= 0x8E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eacd6732211a29efca91a6cf8c4344cbca" prot="public">
+          <name>BMP280_REGISTER_DIG_P2</name>
+          <initializer>= 0x90</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea0144a7d55df06f1b80a204589db4da79" prot="public">
+          <name>BMP280_REGISTER_DIG_P3</name>
+          <initializer>= 0x92</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaf3459ac8808d9675bb77974342c7b475" prot="public">
+          <name>BMP280_REGISTER_DIG_P4</name>
+          <initializer>= 0x94</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea472834479a212e32de1aeaf1478607f6" prot="public">
+          <name>BMP280_REGISTER_DIG_P5</name>
+          <initializer>= 0x96</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaf51161d9e25b1a3b757a1845ce8ca045" prot="public">
+          <name>BMP280_REGISTER_DIG_P6</name>
+          <initializer>= 0x98</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea30ee3bbbd9afcfaf3527498093e40e47" prot="public">
+          <name>BMP280_REGISTER_DIG_P7</name>
+          <initializer>= 0x9A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eadcd2fa550eb7885e7a95535158087da6" prot="public">
+          <name>BMP280_REGISTER_DIG_P8</name>
+          <initializer>= 0x9C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eadbcb3538529dd7f5feac1e864e119981" prot="public">
+          <name>BMP280_REGISTER_DIG_P9</name>
+          <initializer>= 0x9E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea92360ab95044cf305a5a78689d57b72d" prot="public">
+          <name>BMP280_REGISTER_CHIPID</name>
+          <initializer>= 0xD0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eabeac933fce0590915c43471f592795df" prot="public">
+          <name>BMP280_REGISTER_VERSION</name>
+          <initializer>= 0xD1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea13dd251e9da3aac71ceeb722f45e45c6" prot="public">
+          <name>BMP280_REGISTER_SOFTRESET</name>
+          <initializer>= 0xE0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea49bca42f6138b575b0d728828b8171d9" prot="public">
+          <name>BMP280_REGISTER_CAL26</name>
+          <initializer>= 0xE1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>R calibration = 0xE1-0xF0 </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea7525542625fabc922d7b345d8506674f" prot="public">
+          <name>BMP280_REGISTER_STATUS</name>
+          <initializer>= 0xF3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea3f9078ea96e8d9af451d798e716ee670" prot="public">
+          <name>BMP280_REGISTER_CONTROL</name>
+          <initializer>= 0xF4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaf4d82c7f1a386b9cef7ce06a617b4742" prot="public">
+          <name>BMP280_REGISTER_CONFIG</name>
+          <initializer>= 0xF5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eaefdd5567af82b0c234bc57b154a62aac" prot="public">
+          <name>BMP280_REGISTER_PRESSUREDATA</name>
+          <initializer>= 0xF7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031eafa135b360b8d94c7b6ef3bb76a5bdd24" prot="public">
+          <name>BMP280_REGISTER_TEMPDATA</name>
+          <initializer>= 0xFA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="83" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="84" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Header file for <ref refid="class_b_m_p280" kindref="compound">BMP280</ref> library. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>@license This library is released under the MIT License. <simplesect kind="version"><para>0.1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2024-03-21 </para>
+</simplesect>
+<simplesect kind="author"><para>Tuan Nguyen</para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMP280_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BMP280_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Includes<sp/>-----------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>ARDUINO<sp/>&gt;=<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;WProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BMP280_LIB_VERSION<sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>BMP280_I2C_ADDR<sp/><sp/><sp/><sp/>0x76</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>BMP280_OK<sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>BMP280_ERR,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>BMP280_ERR_INIT,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>BMP280_ERR_RESET,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Reset<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>BMP280_TIMEOUT,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>error*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>BMP280_ERR_I2C,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>I2C<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>BMP280_ERR_DIV_ZERO,<sp/></highlight><highlight class="comment">/*<sp/>Divide<sp/>by<sp/>0<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>BMP280_ERR_CHECKSUM<sp/><sp/></highlight><highlight class="comment">/*<sp/>Checksum<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}<sp/>bmp280_error_t;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>SAMPLING_NONE<sp/>=<sp/>0x00,<sp/></highlight></codeline>
+<codeline lineno="44" refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782aea7b3072c664b5bcc53bb88c3dd71d77" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782aea7b3072c664b5bcc53bb88c3dd71d77" kindref="member">SAMPLING_X1</ref><sp/><sp/><sp/>=<sp/>0x01,<sp/></highlight></codeline>
+<codeline lineno="45" refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782aae9d26608236790c57fc5707ca14deb6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782aae9d26608236790c57fc5707ca14deb6" kindref="member">SAMPLING_X2</ref><sp/><sp/><sp/>=<sp/>0x02,<sp/></highlight></codeline>
+<codeline lineno="46" refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782a8e2cb7afe2c73a213ab23f4ce227a2c9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782a8e2cb7afe2c73a213ab23f4ce227a2c9" kindref="member">SAMPLING_X4</ref><sp/><sp/><sp/>=<sp/>0x03,<sp/></highlight></codeline>
+<codeline lineno="47" refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782afbba52a2e7317d7247474cdc55e184d5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782afbba52a2e7317d7247474cdc55e184d5" kindref="member">SAMPLING_X8</ref><sp/><sp/><sp/>=<sp/>0x04,<sp/></highlight></codeline>
+<codeline lineno="48" refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782a63019740da87827ac6c2c7b3f090d2cb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782a63019740da87827ac6c2c7b3f090d2cb" kindref="member">SAMPLING_X16</ref><sp/><sp/>=<sp/>0x05<sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}<sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" kindref="member">bmp280_sampling_t</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>MODE_SLEEP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00,<sp/></highlight></codeline>
+<codeline lineno="55" refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea4ba4678ce33c0530ab0e2aec3fe3b200" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea4ba4678ce33c0530ab0e2aec3fe3b200" kindref="member">MODE_FORCED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x01,<sp/></highlight></codeline>
+<codeline lineno="56" refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635eaf81b467c1f5e20f847402b03925c0d12" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635eaf81b467c1f5e20f847402b03925c0d12" kindref="member">MODE_NORMAL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x03,<sp/></highlight></codeline>
+<codeline lineno="57" refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea3b1bc5f6d28bca2ff1222a3c7fb30831" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea3b1bc5f6d28bca2ff1222a3c7fb30831" kindref="member">MODE_SOFT_RESET_CODE</ref><sp/>=<sp/>0xB6<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635e" kindref="member">bmp280_mode_t</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>FILTER_OFF<sp/>=<sp/>0x00,<sp/></highlight></codeline>
+<codeline lineno="64" refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fae58e496c0d461076b52ea1760e0bc37a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fae58e496c0d461076b52ea1760e0bc37a" kindref="member">FILTER_X2</ref><sp/><sp/>=<sp/>0x01,<sp/></highlight></codeline>
+<codeline lineno="65" refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fab6fe3bdec5e39b00bec693d68b1b93bb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fab6fe3bdec5e39b00bec693d68b1b93bb" kindref="member">FILTER_X4</ref><sp/><sp/>=<sp/>0x02,<sp/></highlight></codeline>
+<codeline lineno="66" refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fabb2108ee413ec924d6937c97876b337e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fabb2108ee413ec924d6937c97876b337e" kindref="member">FILTER_X8</ref><sp/><sp/>=<sp/>0x03,<sp/></highlight></codeline>
+<codeline lineno="67" refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fabf065d59c14be6b2694fba510226ec2d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4fabf065d59c14be6b2694fba510226ec2d" kindref="member">FILTER_X16</ref><sp/>=<sp/>0x04<sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}<sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4f" kindref="member">bmp280_filter_t</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>STANDBY_MS_1<sp/><sp/><sp/><sp/>=<sp/>0x00,<sp/></highlight></codeline>
+<codeline lineno="74" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febac84df2409124b735db178bfb858c7a8d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febac84df2409124b735db178bfb858c7a8d" kindref="member">STANDBY_MS_63</ref><sp/><sp/><sp/>=<sp/>0x01,<sp/></highlight></codeline>
+<codeline lineno="75" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba11fff96d8348fe255e688f3830ddb980" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba11fff96d8348fe255e688f3830ddb980" kindref="member">STANDBY_MS_125</ref><sp/><sp/>=<sp/>0x02,<sp/></highlight></codeline>
+<codeline lineno="76" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba54910144ead38497b5717cf796ba3070" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba54910144ead38497b5717cf796ba3070" kindref="member">STANDBY_MS_250</ref><sp/><sp/>=<sp/>0x03,<sp/></highlight></codeline>
+<codeline lineno="77" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba9bb10f25dd376b48ca5b05d83f898ed5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba9bb10f25dd376b48ca5b05d83f898ed5" kindref="member">STANDBY_MS_500</ref><sp/><sp/>=<sp/>0x04,<sp/></highlight></codeline>
+<codeline lineno="78" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba1b7b322904c4742c90ba4f1859ca4a75" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba1b7b322904c4742c90ba4f1859ca4a75" kindref="member">STANDBY_MS_1000</ref><sp/>=<sp/>0x05,<sp/></highlight></codeline>
+<codeline lineno="79" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febae16c2e0c7815030d7c220bc99672d94b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febae16c2e0c7815030d7c220bc99672d94b" kindref="member">STANDBY_MS_2000</ref><sp/>=<sp/>0x06,<sp/></highlight></codeline>
+<codeline lineno="80" refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba77a3bff96866d8d80c72cc97c140217d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba77a3bff96866d8d80c72cc97c140217d" kindref="member">STANDBY_MS_4000</ref><sp/>=<sp/>0x07<sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feb" kindref="member">bmp280_standby_duration_t</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_T1<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x88,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_T2<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x8A,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_T3<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x8C,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P1<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x8E,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P2<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x90,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P3<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x92,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P4<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x94,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P5<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x96,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P6<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x98,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P7<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x9A,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P8<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x9C,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_DIG_P9<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x9E,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_CHIPID<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0xD0,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_VERSION<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0xD1,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_SOFTRESET<sp/><sp/><sp/><sp/>=<sp/>0xE0,</highlight></codeline>
+<codeline lineno="100" refid="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea49bca42f6138b575b0d728828b8171d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="bmp280_8h_1ae1e49263ba10debd5176a4e2078b031ea49bca42f6138b575b0d728828b8171d9" kindref="member">BMP280_REGISTER_CAL26</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0xE1,<sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0xF3,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_CONTROL<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0xF4,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_CONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0xF5,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_PRESSUREDATA<sp/>=<sp/>0xF7,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>BMP280_REGISTER_TEMPDATA<sp/><sp/><sp/><sp/><sp/>=<sp/>0xFA,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="structbmp280__calib__data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110" refid="structbmp280__calib__data_1a512563b392052c4d687d92e0fa4c69fc" refkind="member"><highlight class="normal"><sp/><sp/>uint16_t<sp/><ref refid="structbmp280__calib__data_1a512563b392052c4d687d92e0fa4c69fc" kindref="member">dig_T1</ref>;<sp/></highlight></codeline>
+<codeline lineno="111" refid="structbmp280__calib__data_1a110637cd80d4c20cbf018370b1687a19" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a110637cd80d4c20cbf018370b1687a19" kindref="member">dig_T2</ref>;<sp/></highlight></codeline>
+<codeline lineno="112" refid="structbmp280__calib__data_1ab47d67ad2a52c66956c7c6aa7a5006d3" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1ab47d67ad2a52c66956c7c6aa7a5006d3" kindref="member">dig_T3</ref>;<sp/></highlight></codeline>
+<codeline lineno="113" refid="structbmp280__calib__data_1aadffbb78b62b6b52d952c89bf78286e0" refkind="member"><highlight class="normal"><sp/><sp/>uint16_t<sp/><ref refid="structbmp280__calib__data_1aadffbb78b62b6b52d952c89bf78286e0" kindref="member">dig_P1</ref>;<sp/></highlight></codeline>
+<codeline lineno="114" refid="structbmp280__calib__data_1a8e8f4e91586272463abf5e7ca3d2a371" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a8e8f4e91586272463abf5e7ca3d2a371" kindref="member">dig_P2</ref>;<sp/></highlight></codeline>
+<codeline lineno="115" refid="structbmp280__calib__data_1a088f2845708e76334f4a441c01977766" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a088f2845708e76334f4a441c01977766" kindref="member">dig_P3</ref>;<sp/></highlight></codeline>
+<codeline lineno="116" refid="structbmp280__calib__data_1a73f05510565c594116b2074ab0ff73d7" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a73f05510565c594116b2074ab0ff73d7" kindref="member">dig_P4</ref>;<sp/></highlight></codeline>
+<codeline lineno="117" refid="structbmp280__calib__data_1a37e51f1053d031cc747e8700093719e6" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a37e51f1053d031cc747e8700093719e6" kindref="member">dig_P5</ref>;<sp/></highlight></codeline>
+<codeline lineno="118" refid="structbmp280__calib__data_1a9a76e6e6a0ae74859a2f4ecc7b04f0a7" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a9a76e6e6a0ae74859a2f4ecc7b04f0a7" kindref="member">dig_P6</ref>;<sp/></highlight></codeline>
+<codeline lineno="119" refid="structbmp280__calib__data_1a65d0abb061f85a294731e4466f28e5c9" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a65d0abb061f85a294731e4466f28e5c9" kindref="member">dig_P7</ref>;<sp/></highlight></codeline>
+<codeline lineno="120" refid="structbmp280__calib__data_1a84831980d460c469926abee7e4230714" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a84831980d460c469926abee7e4230714" kindref="member">dig_P8</ref>;<sp/></highlight></codeline>
+<codeline lineno="121" refid="structbmp280__calib__data_1a75facb42146d3294c4b3502429bb11ff" refkind="member"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><ref refid="structbmp280__calib__data_1a75facb42146d3294c4b3502429bb11ff" kindref="member">dig_P9</ref>;<sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}<sp/><ref refid="structbmp280__calib__data" kindref="compound">bmp280_calib_data</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="class_b_m_p280" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_b_m_p280" kindref="compound">BMP280</ref></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" kindref="member">update</ref>();</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1af0273f65cd8c3b4e3ee472668a0a8d6f" kindref="member">reset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="class_b_m_p280_1a4cfab33bfc50e210fdbcf2fc7bd9481a" kindref="member">getStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" kindref="member">readPressure</ref>();</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" kindref="member">readTemperature</ref>();</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" kindref="member">readAltitude</ref>();</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" kindref="member">getPressure</ref>();</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1af6ec438906352f7f4b0e46d03d7baa98" kindref="member">getTemperature</ref>();</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a693c846424c06654370222da04dcb51e" kindref="member">getAltitude</ref>();</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1aae63fd7ecb6c61963d77e5b256611ba6" kindref="member">seaLevelForAltitude</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>altitude,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>atmospheric);</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a093ed9047d79ba87c18909b87887723f" kindref="member">setSeaLevelPressure</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a7cb008e675a64b08b165ab966a0c48d0" kindref="member">waterBoilingPoint</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" kindref="member">takeForcedMeasurement</ref>();</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/><ref refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" kindref="member">setSampling</ref>(<ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635e" kindref="member">bmp280_mode_t</ref><sp/>mode<sp/>=<sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635eaf81b467c1f5e20f847402b03925c0d12" kindref="member">MODE_NORMAL</ref>,<sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" kindref="member">bmp280_sampling_t</ref><sp/>tempSampling<sp/>=<sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782a63019740da87827ac6c2c7b3f090d2cb" kindref="member">SAMPLING_X16</ref>,</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" kindref="member">bmp280_sampling_t</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pressSampling<sp/>=<sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782a63019740da87827ac6c2c7b3f090d2cb" kindref="member">SAMPLING_X16</ref>,</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4f" kindref="member">bmp280_filter_t</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>filter<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>FILTER_OFF,</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feb" kindref="member">bmp280_standby_duration_t</ref><sp/>duration<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>STANDBY_MS_1);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sensorValue[3]<sp/>=<sp/>{0.f};<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>0:<sp/>Pressure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Index<sp/>1:<sp/>Temperature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Index<sp/>2:<sp/>Altitude</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_seaLevelhPa<sp/>=<sp/>1013.25f;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">config</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>config()<sp/>:<sp/>t_sb(STANDBY_MS_1),<sp/>filter(FILTER_OFF),<sp/>none(0),<sp/>spi3w_en(0)<sp/>{}</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>t_sb<sp/><sp/><sp/><sp/><sp/>:<sp/>3;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>filter<sp/><sp/><sp/>:<sp/>3;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>none<sp/><sp/><sp/><sp/><sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>spi3w_en<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(t_sb<sp/>&lt;&lt;<sp/>5)<sp/>|<sp/>(filter<sp/>&lt;&lt;<sp/>2)<sp/>|<sp/>spi3w_en;<sp/>}</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ctrl_meas</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/>ctrl_meas()<sp/>:<sp/>osrs_t(SAMPLING_NONE),<sp/>osrs_p(SAMPLING_NONE),<sp/>mode(MODE_SLEEP)<sp/>{}</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>osrs_t<sp/>:<sp/>3;</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>osrs_p<sp/>:<sp/>3;</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode<sp/><sp/><sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(osrs_t<sp/>&lt;&lt;<sp/>5)<sp/>|<sp/>(osrs_p<sp/>&lt;&lt;<sp/>2)<sp/>|<sp/>mode;<sp/>}</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/>bmp280_error_t<sp/>readCoefficients(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>read16(</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>reg);</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>read24(</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>reg);</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>readS16(</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>reg);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>read16_LE(</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>reg);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>readS16_LE(</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>reg);</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/>int32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_fine;</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><ref refid="structbmp280__calib__data" kindref="compound">bmp280_calib_data</ref><sp/>_bmp280_calib;</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/>config<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_configReg;</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/>ctrl_meas<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_measReg;</highlight></codeline>
+<codeline lineno="440"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>BMP280_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h"/>
+  </compounddef>
+</doxygen>

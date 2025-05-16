@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_98c41ed275245bdd143dc8a0bf0e0034" kind="dir">
+    <compoundname>lib/sht4x/src</compoundname>
+    <innerfile refid="sht4x_8cpp">sht4x.cpp</innerfile>
+    <innerfile refid="sht4x_8h">sht4x.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/sht4x/src/"/>
+  </compounddef>
+</doxygen>

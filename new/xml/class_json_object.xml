@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_json_object" kind="class" language="C++" prot="public">
+    <compoundname>JsonObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">detail::VariantOperators&lt; JsonObject &gt;</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_json_object_1a1c4154f6c9bf3ee0ddc4f75545c410d5" prot="public" static="no">
+        <type><ref refid="class_json_object_iterator" kindref="compound">JsonObjectIterator</ref></type>
+        <definition>typedef JsonObjectIterator JsonObject::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>JsonObject::iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="20" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_json_object_1a4fb48047f96b1f9e639e7e0f87f33733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class detail::VariantAttorney</definition>
+        <argsstring></argsstring>
+        <name>detail::VariantAttorney</name>
+        <qualifiedname>JsonObject::VariantAttorney</qualifiedname>
+        <param>
+          <type>detail::VariantAttorney</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="17" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_object_1a0431e500027767427f756aa942aed001" prot="private" static="no" mutable="no">
+        <type>detail::CollectionData *</type>
+        <definition>detail::CollectionData* JsonObject::data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>JsonObject::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="222" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_object_1a6b115066e96dc36a40f95e7ad1449ba8" prot="private" static="no" mutable="no">
+        <type>detail::MemoryPool *</type>
+        <definition>detail::MemoryPool* JsonObject::pool_</definition>
+        <argsstring></argsstring>
+        <name>pool_</name>
+        <qualifiedname>JsonObject::pool_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="223" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="223" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_object_1a454c42cd5e9dc6b76876979b8a6f258c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE</type>
+        <definition>FORCE_INLINE JsonObject::JsonObject</definition>
+        <argsstring>()</argsstring>
+        <name>JsonObject</name>
+        <qualifiedname>JsonObject::JsonObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="23" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ae18eec83aa5a158b23bd77a771428de5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE</type>
+        <definition>FORCE_INLINE JsonObject::JsonObject</definition>
+        <argsstring>(detail::MemoryPool *buf, detail::CollectionData *data)</argsstring>
+        <name>JsonObject</name>
+        <qualifiedname>JsonObject::JsonObject</qualifiedname>
+        <param>
+          <type>detail::MemoryPool *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>detail::CollectionData *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="26" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a478050f4d0ea61498a5b7c4324415cb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonObject::operator JsonVariant</definition>
+        <argsstring>() const</argsstring>
+        <name>operator JsonVariant</name>
+        <qualifiedname>JsonObject::operator JsonVariant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="29" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a7af2fa918063c833802d808646cb8ce5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonObject::operator JsonObjectConst</definition>
+        <argsstring>() const</argsstring>
+        <name>operator JsonObjectConst</name>
+        <qualifiedname>JsonObject::operator JsonObjectConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="34" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a1db33b220979e1d65d9d99c74e6e1968" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonObject::operator JsonVariantConst</definition>
+        <argsstring>() const</argsstring>
+        <name>operator JsonVariantConst</name>
+        <qualifiedname>JsonObject::operator JsonVariantConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="38" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1afafb3bad3e5740c7ab904a533e09ed01" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE bool</type>
+        <definition>FORCE_INLINE bool JsonObject::isNull</definition>
+        <argsstring>() const</argsstring>
+        <name>isNull</name>
+        <qualifiedname>JsonObject::isNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="44" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ad9d92d433ba0de7f4f238c079a0ea0e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE</type>
+        <definition>FORCE_INLINE JsonObject::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>JsonObject::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="50" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a1621e3086f65d2b77b7c4b246e139484" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE size_t</type>
+        <definition>FORCE_INLINE size_t JsonObject::memoryUsage</definition>
+        <argsstring>() const</argsstring>
+        <name>memoryUsage</name>
+        <qualifiedname>JsonObject::memoryUsage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="56" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1aff088fda0269519dfad8545902613388" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE size_t</type>
+        <definition>FORCE_INLINE size_t JsonObject::nesting</definition>
+        <argsstring>() const</argsstring>
+        <name>nesting</name>
+        <qualifiedname>JsonObject::nesting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="62" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a5a61746d9dc29ad94a9773e8874227d0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE size_t</type>
+        <definition>FORCE_INLINE size_t JsonObject::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>JsonObject::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="68" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ad5d0bcd6a90e03f8154cc16c38820e49" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_json_object_iterator" kindref="compound">iterator</ref></type>
+        <definition>FORCE_INLINE iterator JsonObject::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>JsonObject::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="74" column="25" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="74" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ae2a1e81054e2ae46096744dbc47fb97e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_json_object_iterator" kindref="compound">iterator</ref></type>
+        <definition>FORCE_INLINE iterator JsonObject::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>JsonObject::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="82" column="25" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ac07b0fb56c405b13ef1d9914a3b1d360" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonObject::clear</definition>
+        <argsstring>() const</argsstring>
+        <name>clear</name>
+        <qualifiedname>JsonObject::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="89" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1afa29d5ac3aa7dd9d127d83a80bf01211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE bool</type>
+        <definition>FORCE_INLINE bool JsonObject::set</definition>
+        <argsstring>(JsonObjectConst src)</argsstring>
+        <name>set</name>
+        <qualifiedname>JsonObject::set</qualifiedname>
+        <param>
+          <type><ref refid="class_json_object_const" kindref="compound">JsonObjectConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="97" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a867598f0f106f09942fbf59f8bd59da7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE bool</type>
+        <definition>FORCE_INLINE bool JsonObject::operator==</definition>
+        <argsstring>(JsonObject rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>JsonObject::operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_json_object" kindref="compound">JsonObject</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="104" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a41b54d424721d12cbed710a8fbeeb0a8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, detail::MemberProxy&lt; <ref refid="class_json_object" kindref="compound">JsonObject</ref>, TString &gt; &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, detail::MemberProxy&lt; JsonObject, TString &gt; &gt;::type JsonObject::operator[]</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>JsonObject::operator[]</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="114" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a2336ff55ed06e325720fbfcec8a2f8e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, detail::MemberProxy&lt; <ref refid="class_json_object" kindref="compound">JsonObject</ref>, TChar * &gt; &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, detail::MemberProxy&lt; JsonObject, TChar * &gt; &gt;::type JsonObject::operator[]</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>JsonObject::operator[]</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="124" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ac363d7db7ef673dda270b1343ce3de45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE void</type>
+        <definition>FORCE_INLINE void JsonObject::remove</definition>
+        <argsstring>(iterator it) const</argsstring>
+        <name>remove</name>
+        <qualifiedname>JsonObject::remove</qualifiedname>
+        <param>
+          <type><ref refid="class_json_object_iterator" kindref="compound">iterator</ref></type>
+          <declname>it</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="131" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a817ffbd593083aa062811c253044c6a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE void</type>
+        <definition>FORCE_INLINE void JsonObject::remove</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>remove</name>
+        <qualifiedname>JsonObject::remove</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="141" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a06348eeb695cf8258787c09170c95619" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE void</type>
+        <definition>FORCE_INLINE void JsonObject::remove</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>remove</name>
+        <qualifiedname>JsonObject::remove</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="149" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="149" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a2539bc39d1d15560975cef3ee2b05162" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, bool &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TString &gt;::value, bool &gt;::type JsonObject::containsKey</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>containsKey</name>
+        <qualifiedname>JsonObject::containsKey</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="158" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="158" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1adad3ca8248a9712bb6e84ab7185e9089" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, bool &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>FORCE_INLINE detail::enable_if&lt; detail::IsString&lt; TChar * &gt;::value, bool &gt;::type JsonObject::containsKey</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>containsKey</name>
+        <qualifiedname>JsonObject::containsKey</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="167" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="167" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a47fc203de9d56b073f534cb0ee4e3526" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE <ref refid="class_json_array" kindref="compound">JsonArray</ref></type>
+        <definition>FORCE_INLINE JsonArray JsonObject::createNestedArray</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>createNestedArray</name>
+        <qualifiedname>JsonObject::createNestedArray</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="174" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a3d1939d9d7409ade4f20f9502d0311ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type>FORCE_INLINE <ref refid="class_json_array" kindref="compound">JsonArray</ref></type>
+        <definition>FORCE_INLINE JsonArray JsonObject::createNestedArray</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>createNestedArray</name>
+        <qualifiedname>JsonObject::createNestedArray</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="179" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a05209ff7af2ebbf765f1842e6d86e91d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_json_object" kindref="compound">JsonObject</ref></type>
+        <definition>JsonObject JsonObject::createNestedObject</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>createNestedObject</name>
+        <qualifiedname>JsonObject::createNestedObject</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="184" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1aeb3912f18b0c78148611dd9127ea0d07" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_json_object" kindref="compound">JsonObject</ref></type>
+        <definition>JsonObject JsonObject::createNestedObject</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>createNestedObject</name>
+        <qualifiedname>JsonObject::createNestedObject</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="191" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ad16d36de6a1d2e53fdd928f79cd52d8e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TString</type>
+          </param>
+        </templateparamlist>
+        <type>ARDUINOJSON_BEGIN_PUBLIC_NAMESPACE <ref refid="class_json_array" kindref="compound">JsonArray</ref></type>
+        <definition>ARDUINOJSON_BEGIN_PUBLIC_NAMESPACE JsonArray JsonObject::createNestedArray</definition>
+        <argsstring>(const TString &amp;key) const</argsstring>
+        <name>createNestedArray</name>
+        <qualifiedname>JsonObject::createNestedArray</qualifiedname>
+        <param>
+          <type>const TString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp" line="13" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a1ca4b8f07033e65091036264a184ded1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TChar</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_json_array" kindref="compound">JsonArray</ref></type>
+        <definition>JsonArray JsonObject::createNestedArray</definition>
+        <argsstring>(TChar *key) const</argsstring>
+        <name>createNestedArray</name>
+        <qualifiedname>JsonObject::createNestedArray</qualifiedname>
+        <param>
+          <type>TChar *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp" line="18" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_json_object_1a939be7160af42fc8c388684f811b63ce" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>detail::MemoryPool *</type>
+        <definition>detail::MemoryPool * JsonObject::getPool</definition>
+        <argsstring>() const</argsstring>
+        <name>getPool</name>
+        <qualifiedname>JsonObject::getPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="196" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1a543e2cf40eef20956b329dd1413e06b7" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>detail::VariantData *</type>
+        <definition>detail::VariantData * JsonObject::getData</definition>
+        <argsstring>() const</argsstring>
+        <name>getData</name>
+        <qualifiedname>JsonObject::getData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="200" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="200" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ac89c088eb4d44bf5c4fb6f3e1144b4e9" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>detail::VariantData *</type>
+        <definition>detail::VariantData * JsonObject::getOrCreateData</definition>
+        <argsstring>() const</argsstring>
+        <name>getOrCreateData</name>
+        <qualifiedname>JsonObject::getOrCreateData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="204" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="204" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1ab4f016892df880ccb12c3850761c7f02" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>detail::VariantData *</type>
+        <definition>detail::VariantData * JsonObject::getMember</definition>
+        <argsstring>(TAdaptedString key) const</argsstring>
+        <name>getMember</name>
+        <qualifiedname>JsonObject::getMember</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="209" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="209" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_1aa31ff6cce8f5bba948b65b0a795ad2d1" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void JsonObject::removeMember</definition>
+        <argsstring>(TAdaptedString key) const</argsstring>
+        <name>removeMember</name>
+        <qualifiedname>JsonObject::removeMember</qualifiedname>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="216" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="216" bodyend="220"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>JsonObject</label>
+        <link refid="class_json_object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantOperators&lt; JsonObject &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>JsonObject</label>
+        <link refid="class_json_object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantOperators&lt; JsonObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" line="16" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp" bodystart="16" bodyend="224"/>
+    <listofallmembers>
+      <member refid="class_json_object_1ad5d0bcd6a90e03f8154cc16c38820e49" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>begin</name></member>
+      <member refid="class_json_object_1ac07b0fb56c405b13ef1d9914a3b1d360" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>clear</name></member>
+      <member refid="class_json_object_1a2539bc39d1d15560975cef3ee2b05162" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>containsKey</name></member>
+      <member refid="class_json_object_1adad3ca8248a9712bb6e84ab7185e9089" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>containsKey</name></member>
+      <member refid="class_json_object_1a47fc203de9d56b073f534cb0ee4e3526" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>createNestedArray</name></member>
+      <member refid="class_json_object_1a3d1939d9d7409ade4f20f9502d0311ee" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>createNestedArray</name></member>
+      <member refid="class_json_object_1ad16d36de6a1d2e53fdd928f79cd52d8e" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>createNestedArray</name></member>
+      <member refid="class_json_object_1a1ca4b8f07033e65091036264a184ded1" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>createNestedArray</name></member>
+      <member refid="class_json_object_1a05209ff7af2ebbf765f1842e6d86e91d" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>createNestedObject</name></member>
+      <member refid="class_json_object_1aeb3912f18b0c78148611dd9127ea0d07" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>createNestedObject</name></member>
+      <member refid="class_json_object_1a0431e500027767427f756aa942aed001" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>data_</name></member>
+      <member refid="class_json_object_1a4fb48047f96b1f9e639e7e0f87f33733" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>detail::VariantAttorney</name></member>
+      <member refid="class_json_object_1ae2a1e81054e2ae46096744dbc47fb97e" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>end</name></member>
+      <member refid="class_json_object_1a543e2cf40eef20956b329dd1413e06b7" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>getData</name></member>
+      <member refid="class_json_object_1ab4f016892df880ccb12c3850761c7f02" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>getMember</name></member>
+      <member refid="class_json_object_1ac89c088eb4d44bf5c4fb6f3e1144b4e9" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>getOrCreateData</name></member>
+      <member refid="class_json_object_1a939be7160af42fc8c388684f811b63ce" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>getPool</name></member>
+      <member refid="class_json_object_1afafb3bad3e5740c7ab904a533e09ed01" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>isNull</name></member>
+      <member refid="class_json_object_1a1c4154f6c9bf3ee0ddc4f75545c410d5" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>iterator</name></member>
+      <member refid="class_json_object_1a454c42cd5e9dc6b76876979b8a6f258c" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>JsonObject</name></member>
+      <member refid="class_json_object_1ae18eec83aa5a158b23bd77a771428de5" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>JsonObject</name></member>
+      <member refid="class_json_object_1a1621e3086f65d2b77b7c4b246e139484" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>memoryUsage</name></member>
+      <member refid="class_json_object_1aff088fda0269519dfad8545902613388" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>nesting</name></member>
+      <member refid="class_json_object_1ad9d92d433ba0de7f4f238c079a0ea0e7" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator bool</name></member>
+      <member refid="class_json_object_1a7af2fa918063c833802d808646cb8ce5" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator JsonObjectConst</name></member>
+      <member refid="class_json_object_1a478050f4d0ea61498a5b7c4324415cb0" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator JsonVariant</name></member>
+      <member refid="class_json_object_1a1db33b220979e1d65d9d99c74e6e1968" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator JsonVariantConst</name></member>
+      <member refid="class_json_object_1a867598f0f106f09942fbf59f8bd59da7" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator==</name></member>
+      <member refid="class_json_object_1a41b54d424721d12cbed710a8fbeeb0a8" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator[]</name></member>
+      <member refid="class_json_object_1a2336ff55ed06e325720fbfcec8a2f8e7" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>operator[]</name></member>
+      <member refid="class_json_object_1a6b115066e96dc36a40f95e7ad1449ba8" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>pool_</name></member>
+      <member refid="class_json_object_1ac363d7db7ef673dda270b1343ce3de45" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>remove</name></member>
+      <member refid="class_json_object_1a817ffbd593083aa062811c253044c6a0" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>remove</name></member>
+      <member refid="class_json_object_1a06348eeb695cf8258787c09170c95619" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>remove</name></member>
+      <member refid="class_json_object_1aa31ff6cce8f5bba948b65b0a795ad2d1" prot="private" virt="non-virtual"><scope>JsonObject</scope><name>removeMember</name></member>
+      <member refid="class_json_object_1afa29d5ac3aa7dd9d127d83a80bf01211" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>set</name></member>
+      <member refid="class_json_object_1a5a61746d9dc29ad94a9773e8874227d0" prot="public" virt="non-virtual"><scope>JsonObject</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

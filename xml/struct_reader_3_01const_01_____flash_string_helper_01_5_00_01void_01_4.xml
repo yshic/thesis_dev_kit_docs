@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Reader&lt; const __FlashStringHelper *, void &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a7cfd4238d205034ce7b5d7524f4017cb" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Reader&lt; const __FlashStringHelper *, void &gt;::ptr_</definition>
+        <argsstring></argsstring>
+        <name>ptr_</name>
+        <qualifiedname>Reader&lt; const __FlashStringHelper *, void &gt;::ptr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" line="13" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a5f1e4fb168ca65bc914de47d1256776f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Reader&lt; const __FlashStringHelper *, void &gt;::Reader</definition>
+        <argsstring>(const __FlashStringHelper *ptr)</argsstring>
+        <name>Reader</name>
+        <qualifiedname>Reader&lt; const __FlashStringHelper *, void &gt;::Reader</qualifiedname>
+        <param>
+          <type>const __FlashStringHelper *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" line="16" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" bodystart="16" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a8c3d99bab2f6b233b18cd6d93b9568ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Reader&lt; const __FlashStringHelper *, void &gt;::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>Reader&lt; const __FlashStringHelper *, void &gt;::read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" line="19" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a0e0439924ecc539e011b0df17762e763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Reader&lt; const __FlashStringHelper *, void &gt;::readBytes</definition>
+        <argsstring>(char *buffer, size_t length)</argsstring>
+        <name>readBytes</name>
+        <qualifiedname>Reader&lt; const __FlashStringHelper *, void &gt;::readBytes</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" line="23" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a7cfd4238d205034ce7b5d7524f4017cb" prot="public" virt="non-virtual"><scope>Reader&lt; const __FlashStringHelper *, void &gt;</scope><name>ptr_</name></member>
+      <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a8c3d99bab2f6b233b18cd6d93b9568ac" prot="public" virt="non-virtual"><scope>Reader&lt; const __FlashStringHelper *, void &gt;</scope><name>read</name></member>
+      <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a0e0439924ecc539e011b0df17762e763" prot="public" virt="non-virtual"><scope>Reader&lt; const __FlashStringHelper *, void &gt;</scope><name>readBytes</name></member>
+      <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a5f1e4fb168ca65bc914de47d1256776f" prot="public" virt="non-virtual"><scope>Reader&lt; const __FlashStringHelper *, void &gt;</scope><name>Reader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

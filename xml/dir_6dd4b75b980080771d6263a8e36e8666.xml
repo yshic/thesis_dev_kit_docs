@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_6dd4b75b980080771d6263a8e36e8666" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/StringStorage</compoundname>
+    <innerfile refid="_string_copier_8hpp">StringCopier.hpp</innerfile>
+    <innerfile refid="_string_mover_8hpp">StringMover.hpp</innerfile>
+    <innerfile refid="_string_storage_8hpp">StringStorage.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/"/>
+  </compounddef>
+</doxygen>

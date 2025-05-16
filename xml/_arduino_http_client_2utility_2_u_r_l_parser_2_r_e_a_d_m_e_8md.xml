@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_arduino_http_client_2utility_2_u_r_l_parser_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>http_parser<sp/>library</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>code<sp/>is<sp/>imported<sp/>from:<sp/>https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>is<sp/>shrinked<sp/>in<sp/>size<sp/>by<sp/>deleting<sp/>all<sp/>the<sp/>unrelated<sp/>code<sp/>to<sp/>url<sp/>parse.</highlight></codeline>
+    </programlisting>
+    <location file="lib/ArduinoHttpClient/utility/URLParser/README.md"/>
+  </compounddef>
+</doxygen>

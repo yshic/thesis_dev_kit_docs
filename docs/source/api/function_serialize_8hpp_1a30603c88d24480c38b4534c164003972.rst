@@ -1,0 +1,14 @@
+.. _exhale_function_serialize_8hpp_1a30603c88d24480c38b4534c164003972:
+
+Template Function serialize(ArduinoJson::JsonVariantConst, void \*, size_t)
+===========================================================================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_ArduinoJson_src_ArduinoJson_Serialization_serialize.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: serialize(ArduinoJson::JsonVariantConst, void *, size_t)
+   :project: thesis_dev_kit_docs

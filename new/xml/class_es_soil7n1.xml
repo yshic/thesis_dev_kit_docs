@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_es_soil7n1" kind="class" language="C++" prot="public">
+    <compoundname>EsSoil7n1</compoundname>
+    <includes refid="es__soil__7n1_8h" local="no">es_soil_7n1.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_es_soil7n1_1a4f543f14cb6c1387d40e916b27cd7c4c" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t EsSoil7n1::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>EsSoil7n1::address</qualifiedname>
+        <initializer>= 0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="349" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_es_soil7n1_1ac4b2514fbb7142d7caf07bc701d1de24" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EsSoil7n1::sensorValues[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>sensorValues</name>
+        <qualifiedname>EsSoil7n1::sensorValues</qualifiedname>
+        <initializer>= {0.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="350" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" bodystart="350" bodyend="350"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilPh</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilPh</name>
+        <qualifiedname>EsSoil7n1::readSoilPh</qualifiedname>
+        <briefdescription>
+<para>Reads soil pH value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s pH level and processes the sensor&apos;s response to extract and store the pH value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that the RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: pH reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="100" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="28" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1aaf2ee5ae97609eebfd1a386ed944a1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilMoisture</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilMoisture</name>
+        <qualifiedname>EsSoil7n1::readSoilMoisture</qualifiedname>
+        <briefdescription>
+<para>Reads soil moisture level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s moisture level and processes the sensor&apos;s response to extract and store the moisture value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Moisture reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="118" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="60" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1ad7bd70e26cf8bfadbd3e7c0562db9176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilTemperature</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilTemperature</name>
+        <qualifiedname>EsSoil7n1::readSoilTemperature</qualifiedname>
+        <briefdescription>
+<para>Reads soil temperature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s temperature and processes the sensor&apos;s response to extract and store the temperature value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Temperature reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="136" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="92" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1af18323d9a0307976917f6d4c10516864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilConductivity</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilConductivity</name>
+        <qualifiedname>EsSoil7n1::readSoilConductivity</qualifiedname>
+        <briefdescription>
+<para>Reads soil electrical conductivity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s electrical conductivity and processes the sensor&apos;s response to extract and store the conductivity value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Conductivity reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="154" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="124" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a6f69ab3783ffdbd11590bd6b9cc984a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilNitrogen</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilNitrogen</name>
+        <qualifiedname>EsSoil7n1::readSoilNitrogen</qualifiedname>
+        <briefdescription>
+<para>Reads soil nitrogen level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s nitrogen level and processes the sensor&apos;s response to extract and store the nitrogen value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Nitrogen reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="172" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="156" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a0ba7d7befeabeb0ea8b4f90b3015d1a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilPhosphorus</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilPhosphorus</name>
+        <qualifiedname>EsSoil7n1::readSoilPhosphorus</qualifiedname>
+        <briefdescription>
+<para>Reads soil phosphorus level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s phosphorus level and processes the sensor&apos;s response to extract and store the phosphorus value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Phosphorus reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="190" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="188" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a3582d3c16c137fb629ac10b6de40e855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilPotassium</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilPotassium</name>
+        <qualifiedname>EsSoil7n1::readSoilPotassium</qualifiedname>
+        <briefdescription>
+<para>Reads soil potassium level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s potassium level and processes the sensor&apos;s response to extract and store the potassium value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Potassium reading was successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="208" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="220" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilTempAndMoisture</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilTempAndMoisture</name>
+        <qualifiedname>EsSoil7n1::readSoilTempAndMoisture</qualifiedname>
+        <briefdescription>
+<para>Reads soil temperature and moisture values simultaneously. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read both the soil&apos;s temperature and moisture levels in a single operation. It processes the sensor&apos;s response to extract and store these values.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: Temperature and moisture readings were successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="227" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="252" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>es_soil_7n1_error_t</type>
+        <definition>es_soil_7n1_error_t EsSoil7n1::readSoilNPK</definition>
+        <argsstring>()</argsstring>
+        <name>readSoilNPK</name>
+        <qualifiedname>EsSoil7n1::readSoilNPK</qualifiedname>
+        <briefdescription>
+<para>Reads soil nitrogen, phosphorus, and potassium (NPK) levels simultaneously. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sends a specific command over RS485 to read the soil&apos;s nitrogen, phosphorus, and potassium levels in a single operation. It processes the sensor&apos;s response to extract and store these values.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure that RS485 communication and sensor connections are functional before calling this function.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>ES_SOIL_7N1_OK</computeroutput>: NPK readings were successful.</para>
+</listitem><listitem><para><computeroutput>ES_SOIL_7N1_ERR</computeroutput>: Error occurred during communication or response validation. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="246" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="289" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1ab2f824b6163a4075938afc218150270b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilPh</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilPh</name>
+        <qualifiedname>EsSoil7n1::getSoilPh</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil pH value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil pH value stored in the internal sensor array, converted to a floating-point representation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" kindref="member">readSoilPh()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil pH value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="262" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="328" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a203a707449c45f23df04a99079bd76a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilMoisture</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilMoisture</name>
+        <qualifiedname>EsSoil7n1::getSoilMoisture</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil moisture level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil moisture value stored in the internal sensor array, converted to a floating-point representation in percentage relative humidity (% RH).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1aaf2ee5ae97609eebfd1a386ed944a1f5" kindref="member">readSoilMoisture()</ref></computeroutput> or <computeroutput><ref refid="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" kindref="member">readSoilTempAndMoisture()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil moisture value in % RH. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="276" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="330" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a4399e238b765b40405949ab9b1fcc67c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilTemperature</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilTemperature</name>
+        <qualifiedname>EsSoil7n1::getSoilTemperature</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil temperature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil temperature value stored in the internal sensor array, converted to a floating-point representation in degrees Celsius.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1ad7bd70e26cf8bfadbd3e7c0562db9176" kindref="member">readSoilTemperature()</ref></computeroutput> or <computeroutput><ref refid="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" kindref="member">readSoilTempAndMoisture()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil temperature value in °C. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="290" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a17c9c3b8319ce1fef3c4737a680b701e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilConductivity</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilConductivity</name>
+        <qualifiedname>EsSoil7n1::getSoilConductivity</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil conductivity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil conductivity value stored in the internal sensor array, represented as a floating-point value in microsiemens per centimeter (µS/cm).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1af18323d9a0307976917f6d4c10516864" kindref="member">readSoilConductivity()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil conductivity value in µS/cm. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="304" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="334" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a70e86436f9922fd961f5bf125f0de915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilNitrogen</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilNitrogen</name>
+        <qualifiedname>EsSoil7n1::getSoilNitrogen</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil nitrogen level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil nitrogen value stored in the internal sensor array, represented as a floating-point value in milligrams per kilogram (mg/kg).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1a6f69ab3783ffdbd11590bd6b9cc984a6" kindref="member">readSoilNitrogen()</ref></computeroutput> or <computeroutput><ref refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" kindref="member">readSoilNPK()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil nitrogen value in mg/kg. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="318" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="336" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1a3214fbe725333742e9d5acd0143d2f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilPhosphorus</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilPhosphorus</name>
+        <qualifiedname>EsSoil7n1::getSoilPhosphorus</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil phosphorus level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil phosphorus value stored in the internal sensor array, represented as a floating-point value in milligrams per kilogram (mg/kg).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1a0ba7d7befeabeb0ea8b4f90b3015d1a0" kindref="member">readSoilPhosphorus()</ref></computeroutput> or <computeroutput><ref refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" kindref="member">readSoilNPK()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil phosphorus value in mg/kg. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="332" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="338" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_es_soil7n1_1adf726a6568e51d0488e701d0f2c2da8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float EsSoil7n1::getSoilPotassium</definition>
+        <argsstring>()</argsstring>
+        <name>getSoilPotassium</name>
+        <qualifiedname>EsSoil7n1::getSoilPotassium</qualifiedname>
+        <briefdescription>
+<para>Retrieves the soil potassium level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the previously read soil potassium value stored in the internal sensor array, represented as a floating-point value in milligrams per kilogram (mg/kg).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_es_soil7n1_1a3582d3c16c137fb629ac10b6de40e855" kindref="member">readSoilPotassium()</ref></computeroutput> or <computeroutput><ref refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" kindref="member">readSoilNPK()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The soil potassium value in mg/kg. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="346" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp" bodystart="340" bodyend="340"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Manages soil sensor measurements via RS485 Modbus, providing access to pH, moisture, temperature, conductivity, and nutrient levels. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_es_soil7n1" kindref="compound">EsSoil7n1</ref></computeroutput> class facilitates interaction with a 7-in-1 soil sensor over an RS485 Modbus interface. It supports reading soil parameters including pH, moisture, temperature, conductivity, nitrogen, phosphorus, and potassium. The class uses Modbus commands to retrieve data and stores converted values for easy access.</para>
+<sect1 id="class_es_soil7n1_1autotoc_md22_1s1"><sect2 id="class_es_soil7n1_1autotoc_md22_1s2"><sect3 id="class_es_soil7n1_1autotoc_md22">
+<title>Features:</title><para><itemizedlist>
+<listitem><para>Reads soil pH, moisture, temperature, conductivity, and NPK (nitrogen, phosphorus, potassium) levels.</para>
+</listitem><listitem><para>Supports combined readings for efficiency (e.g., temperature and moisture, NPK).</para>
+</listitem><listitem><para>Stores sensor values in an internal array for retrieval via getter methods.</para>
+</listitem><listitem><para>Provides debug output for raw Modbus responses when enabled.</para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+<sect1 id="class_es_soil7n1_1autotoc_md23_1s1"><sect2 id="class_es_soil7n1_1autotoc_md23_1s2"><sect3 id="class_es_soil7n1_1autotoc_md23">
+<title>Usage:</title><para>Instantiate the class and initialize the RS485 serial interface. Call the appropriate <computeroutput>read</computeroutput> methods (e.g., <computeroutput><ref refid="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" kindref="member">readSoilPh()</ref></computeroutput>, <computeroutput><ref refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" kindref="member">readSoilNPK()</ref></computeroutput>) to retrieve sensor data, then use getter methods (e.g., <computeroutput><ref refid="class_es_soil7n1_1ab2f824b6163a4075938afc218150270b" kindref="member">getSoilPh()</ref></computeroutput>) to access the converted values. Ensure the sensor is powered and connected properly before reading.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_es_soil7n1_1autotoc_md24_1s1"><sect2 id="class_es_soil7n1_1autotoc_md24_1s2"><sect3 id="class_es_soil7n1_1autotoc_md24">
+<title>Dependencies:</title><para><itemizedlist>
+<listitem><para>Requires an RS485 serial interface (<computeroutput>rs485Serial1</computeroutput>) with Modbus command support.</para>
+</listitem><listitem><para>Sensor must be connected to a valid RS485 bus.</para>
+</listitem><listitem><para>Optional debug output requires a Serial interface when <computeroutput>DEBUG_PRINT</computeroutput> or <computeroutput>DEBUG_PRINT_ES_SOIL_RAW_RESPONSE</computeroutput> is defined. </para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" line="79" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.h" bodystart="80" bodyend="357"/>
+    <listofallmembers>
+      <member refid="class_es_soil7n1_1a4f543f14cb6c1387d40e916b27cd7c4c" prot="private" virt="non-virtual"><scope>EsSoil7n1</scope><name>address</name></member>
+      <member refid="class_es_soil7n1_1a17c9c3b8319ce1fef3c4737a680b701e" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilConductivity</name></member>
+      <member refid="class_es_soil7n1_1a203a707449c45f23df04a99079bd76a5" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilMoisture</name></member>
+      <member refid="class_es_soil7n1_1a70e86436f9922fd961f5bf125f0de915" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilNitrogen</name></member>
+      <member refid="class_es_soil7n1_1ab2f824b6163a4075938afc218150270b" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilPh</name></member>
+      <member refid="class_es_soil7n1_1a3214fbe725333742e9d5acd0143d2f38" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilPhosphorus</name></member>
+      <member refid="class_es_soil7n1_1adf726a6568e51d0488e701d0f2c2da8a" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilPotassium</name></member>
+      <member refid="class_es_soil7n1_1a4399e238b765b40405949ab9b1fcc67c" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>getSoilTemperature</name></member>
+      <member refid="class_es_soil7n1_1af18323d9a0307976917f6d4c10516864" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilConductivity</name></member>
+      <member refid="class_es_soil7n1_1aaf2ee5ae97609eebfd1a386ed944a1f5" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilMoisture</name></member>
+      <member refid="class_es_soil7n1_1a6f69ab3783ffdbd11590bd6b9cc984a6" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilNitrogen</name></member>
+      <member refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilNPK</name></member>
+      <member refid="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilPh</name></member>
+      <member refid="class_es_soil7n1_1a0ba7d7befeabeb0ea8b4f90b3015d1a0" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilPhosphorus</name></member>
+      <member refid="class_es_soil7n1_1a3582d3c16c137fb629ac10b6de40e855" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilPotassium</name></member>
+      <member refid="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilTempAndMoisture</name></member>
+      <member refid="class_es_soil7n1_1ad7bd70e26cf8bfadbd3e7c0562db9176" prot="public" virt="non-virtual"><scope>EsSoil7n1</scope><name>readSoilTemperature</name></member>
+      <member refid="class_es_soil7n1_1ac4b2514fbb7142d7caf07bc701d1de24" prot="private" virt="non-virtual"><scope>EsSoil7n1</scope><name>sensorValues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

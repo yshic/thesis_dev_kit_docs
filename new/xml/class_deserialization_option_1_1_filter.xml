@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_deserialization_option_1_1_filter" kind="class" language="C++" prot="public">
+    <compoundname>DeserializationOption::Filter</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deserialization_option_1_1_filter_1a1894e4cd3f3899689b5189f76452f4b8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+        <definition>JsonVariantConst DeserializationOption::Filter::variant_</definition>
+        <argsstring></argsstring>
+        <name>variant_</name>
+        <qualifiedname>DeserializationOption::Filter::variant_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="41" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deserialization_option_1_1_filter_1ab39bd1f4b9b537b2e1960bb23e1c1a7e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeserializationOption::Filter::Filter</definition>
+        <argsstring>(JsonVariantConst v)</argsstring>
+        <name>Filter</name>
+        <qualifiedname>DeserializationOption::Filter::Filter</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="14" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deserialization_option_1_1_filter_1a90f2f6bae5fb494fa21ff70b16a2ac50" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DeserializationOption::Filter::allow</definition>
+        <argsstring>() const</argsstring>
+        <name>allow</name>
+        <qualifiedname>DeserializationOption::Filter::allow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="16" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deserialization_option_1_1_filter_1a42a07ab07d7dffeedc1c071c2069d9fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DeserializationOption::Filter::allowArray</definition>
+        <argsstring>() const</argsstring>
+        <name>allowArray</name>
+        <qualifiedname>DeserializationOption::Filter::allowArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="20" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deserialization_option_1_1_filter_1ad290878d4f05b49915bf33fa2e096a67" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DeserializationOption::Filter::allowObject</definition>
+        <argsstring>() const</argsstring>
+        <name>allowObject</name>
+        <qualifiedname>DeserializationOption::Filter::allowObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="24" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deserialization_option_1_1_filter_1a4add61e55e994e5394b2627f57409cab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DeserializationOption::Filter::allowValue</definition>
+        <argsstring>() const</argsstring>
+        <name>allowValue</name>
+        <qualifiedname>DeserializationOption::Filter::allowValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="28" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deserialization_option_1_1_filter_1aa08a6c487bb2b025a59752d5735a9d89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TKey</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_deserialization_option_1_1_filter" kindref="compound">Filter</ref></type>
+        <definition>Filter DeserializationOption::Filter::operator[]</definition>
+        <argsstring>(const TKey &amp;key) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>DeserializationOption::Filter::operator[]</qualifiedname>
+        <param>
+          <type>const TKey &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="33" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="12" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" bodystart="12" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_deserialization_option_1_1_filter_1a90f2f6bae5fb494fa21ff70b16a2ac50" prot="public" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>allow</name></member>
+      <member refid="class_deserialization_option_1_1_filter_1a42a07ab07d7dffeedc1c071c2069d9fe" prot="public" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>allowArray</name></member>
+      <member refid="class_deserialization_option_1_1_filter_1ad290878d4f05b49915bf33fa2e096a67" prot="public" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>allowObject</name></member>
+      <member refid="class_deserialization_option_1_1_filter_1a4add61e55e994e5394b2627f57409cab" prot="public" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>allowValue</name></member>
+      <member refid="class_deserialization_option_1_1_filter_1ab39bd1f4b9b537b2e1960bb23e1c1a7e" prot="public" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>Filter</name></member>
+      <member refid="class_deserialization_option_1_1_filter_1aa08a6c487bb2b025a59752d5735a9d89" prot="public" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>operator[]</name></member>
+      <member refid="class_deserialization_option_1_1_filter_1a1894e4cd3f3899689b5189f76452f4b8" prot="private" virt="non-virtual"><scope>DeserializationOption::Filter</scope><name>variant_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

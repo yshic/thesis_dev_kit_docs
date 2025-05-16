@@ -1,0 +1,14 @@
+.. _exhale_function_bsp__i2c_8cpp_1acdc186021d6567a22584adb9373329ed:
+
+Function bspI2CBeginTransmission(int)
+=====================================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_bsp_bsp_i2c.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: bspI2CBeginTransmission(int)
+   :project: thesis_dev_kit_docs

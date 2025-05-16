@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_p_i_r_sensor" kind="class" language="C++" prot="public">
+    <compoundname>PIRSensor</compoundname>
+    <includes refid="pir__sensor_8h" local="no">pir_sensor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_p_i_r_sensor_1ae9ca84245268265b306c6b00a95778fa" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t PIRSensor::_pin</definition>
+        <argsstring></argsstring>
+        <name>_pin</name>
+        <qualifiedname>PIRSensor::_pin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin connected to the PIR sensor output. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="225" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_i_r_sensor_1aed83a579637699d496c07c8de6781738" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t PIRSensor::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>PIRSensor::status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="226" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_i_r_sensor_1af23f5370a4a85cf6bd8e7eb3dd347b4e" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long PIRSensor::_lastMotionTime</definition>
+        <argsstring></argsstring>
+        <name>_lastMotionTime</name>
+        <qualifiedname>PIRSensor::_lastMotionTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Status of the detection Timestamp of the last detected motion. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="227" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_i_r_sensor_1aef742a49f1117a856c2a14606f96b178" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long PIRSensor::_debounceTime</definition>
+        <argsstring></argsstring>
+        <name>_debounceTime</name>
+        <qualifiedname>PIRSensor::_debounceTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debounce time in milliseconds. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="228" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_i_r_sensor_1af75dfc2f64c43c0b77d0510658f8e71b" prot="private" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* PIRSensor::_motionCallback) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>_motionCallback</name>
+        <qualifiedname>PIRSensor::_motionCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback function for motion detection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="229" column="3" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PIRSensor::PIRSensor</definition>
+        <argsstring>(uint8_t pin)</argsstring>
+        <name>PIRSensor</name>
+        <qualifiedname>PIRSensor::PIRSensor</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to initialize the PIR sensor with a specified pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the specified pin as a digital input for reading the PIR sensor output.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The digital pin connected to the PIR sensor output.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the pin is a valid digital input pin on the microcontroller. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="92" column="3" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PIRSensor::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>PIRSensor::read</qualifiedname>
+        <briefdescription>
+<para>Reads the current motion status from the PIR sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the sensor&apos;s digital output, applies debouncing, and updates the internal motion status. Triggers the callback function if motion is detected and a callback is set.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure <computeroutput><ref refid="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" kindref="member">setDebounceTime()</ref></computeroutput> is called if debouncing is needed to avoid false triggers. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="104" column="8" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="35" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t PIRSensor::getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <qualifiedname>PIRSensor::getStatus</qualifiedname>
+        <briefdescription>
+<para>Retrieves the current motion status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the latest motion status from the internal state.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior call to <computeroutput><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">read()</ref></computeroutput> to update the status.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t<itemizedlist>
+<listitem><para><computeroutput>1</computeroutput>: Motion detected</para>
+</listitem><listitem><para><computeroutput>0</computeroutput>: No motion detected </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="120" column="11" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
+        <definition>pir_sensor_error_t PIRSensor::setDebounceTime</definition>
+        <argsstring>(unsigned long debounceTime)</argsstring>
+        <name>setDebounceTime</name>
+        <qualifiedname>PIRSensor::setDebounceTime</qualifiedname>
+        <param>
+          <type>unsigned long</type>
+          <declname>debounceTime</declname>
+        </param>
+        <briefdescription>
+<para>Sets the debounce time to avoid false motion triggers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the minimum time between consecutive motion detections to filter out noise.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">debounceTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The debounce time in milliseconds.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Should be called before <computeroutput><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">read()</ref></computeroutput> if debouncing is required.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>PIR_SENSOR_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>PIR_SENSOR_ERR</computeroutput>: Invalid debounce time </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="136" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PIRSensor::isMotionContinuous</definition>
+        <argsstring>(unsigned long duration)</argsstring>
+        <name>isMotionContinuous</name>
+        <qualifiedname>PIRSensor::isMotionContinuous</qualifiedname>
+        <param>
+          <type>unsigned long</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+<para>Checks if motion is continuously detected for a specified duration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Monitors the sensor output for the specified duration to confirm continuous motion.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duration in milliseconds to check for continuous motion.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>This function blocks until the duration expires or motion ceases.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>1</computeroutput>: Motion detected continuously for the duration</para>
+</listitem><listitem><para><computeroutput>0</computeroutput>: No continuous motion detected </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="152" column="7" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="70" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1a687203f6ca25ca3eb572bbc47a83f735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long PIRSensor::getLastMotionTime</definition>
+        <argsstring>()</argsstring>
+        <name>getLastMotionTime</name>
+        <qualifiedname>PIRSensor::getLastMotionTime</qualifiedname>
+        <briefdescription>
+<para>Retrieves the timestamp of the last motion detection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the time (in milliseconds) when motion was last detected.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior call to <computeroutput><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">read()</ref></computeroutput> to update the motion timestamp.</para>
+</simplesect>
+<simplesect kind="return"><para>unsigned long The timestamp (in milliseconds) of the last motion detection. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="165" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
+        <definition>pir_sensor_error_t PIRSensor::setMotionCallback</definition>
+        <argsstring>(void(*callback)())</argsstring>
+        <name>setMotionCallback</name>
+        <qualifiedname>PIRSensor::setMotionCallback</qualifiedname>
+        <param>
+          <type>void(*)()</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Enables a callback function for motion detection events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures a callback function to be invoked when motion is detected during a <computeroutput><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">read()</ref></computeroutput> call.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The function to call when motion is detected (signature: <computeroutput>void callback()</computeroutput>).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The callback must be defined and have no parameters or return value.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>PIR_SENSOR_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>PIR_SENSOR_ERR</computeroutput>: Invalid callback </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="181" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1a7a7f564e3430c676460fb4f083f0a452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
+        <definition>pir_sensor_error_t PIRSensor::disableMotionCallback</definition>
+        <argsstring>()</argsstring>
+        <name>disableMotionCallback</name>
+        <qualifiedname>PIRSensor::disableMotionCallback</qualifiedname>
+        <briefdescription>
+<para>Disables the motion detection callback. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Clears the callback function, preventing it from being triggered on motion detection.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>PIR_SENSOR_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="193" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
+        <definition>pir_sensor_error_t PIRSensor::setSensitivity</definition>
+        <argsstring>(int level)</argsstring>
+        <name>setSensitivity</name>
+        <qualifiedname>PIRSensor::setSensitivity</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Sets the sensitivity of the PIR sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Adjusts the debounce time to simulate sensitivity levels: low (1000ms), medium (500ms), or high (200ms).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The sensitivity level (1: Low, 2: Medium, 3: High).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Higher sensitivity reduces debounce time, increasing responsiveness but potentially false triggers.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>PIR_SENSOR_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>PIR_SENSOR_ERR</computeroutput>: Invalid sensitivity level </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="210" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="101" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PIRSensor::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>PIRSensor::reset</qualifiedname>
+        <briefdescription>
+<para>Resets the PIR sensor to default settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Clears the motion status, last motion timestamp, debounce time, and callback function.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>PIR_SENSOR_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/pir_sensor/src/pir_sensor.h" line="222" column="7" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="121" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manages motion detection using a PIR sensor module. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_p_i_r_sensor" kindref="compound">PIRSensor</ref></computeroutput> class provides functionality for detecting motion via a Passive Infrared (PIR) sensor connected to an Arduino pin. It supports reading motion status, setting debounce times, detecting continuous motion, managing callbacks for motion events, and adjusting sensitivity.</para>
+<sect3 id="class_p_i_r_sensor_1autotoc_md31">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Reads motion status with debouncing to prevent false triggers.</para>
+</listitem><listitem><para>Tracks the timestamp of the last motion detection.</para>
+</listitem><listitem><para>Detects continuous motion over a specified duration.</para>
+</listitem><listitem><para>Supports callback functions for motion detection events.</para>
+</listitem><listitem><para>Allows sensitivity adjustment through debounce time settings.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_p_i_r_sensor_1autotoc_md32">
+<title>Usage:</title>
+<para>Instantiate the class with the appropriate digital input pin. Call <computeroutput><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">read()</ref></computeroutput> periodically to update the motion status. Use <computeroutput><ref refid="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" kindref="member">getStatus()</ref></computeroutput> to check for motion, <computeroutput><ref refid="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" kindref="member">setDebounceTime()</ref></computeroutput> or <computeroutput><ref refid="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" kindref="member">setSensitivity()</ref></computeroutput> to reduce false positives, and <computeroutput><ref refid="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" kindref="member">setMotionCallback()</ref></computeroutput> for event-driven responses. Use <computeroutput><ref refid="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" kindref="member">reset()</ref></computeroutput> to restore default settings.</para>
+</sect3>
+<sect3 id="class_p_i_r_sensor_1autotoc_md33">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with digital input support.</para>
+</listitem><listitem><para>PIR sensor must be connected to a valid digital input pin.</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for GPIO operations (<computeroutput>bspGpioDigitalRead</computeroutput>, <computeroutput>bspGpioPinMode</computeroutput>).</para>
+</listitem><listitem><para>Callback functions must be defined before use with <computeroutput><ref refid="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" kindref="member">setMotionCallback()</ref></computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+    </detaileddescription>
+    <location file="lib/pir_sensor/src/pir_sensor.h" line="80" column="1" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="81" bodyend="230"/>
+    <listofallmembers>
+      <member refid="class_p_i_r_sensor_1aef742a49f1117a856c2a14606f96b178" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>_debounceTime</name></member>
+      <member refid="class_p_i_r_sensor_1af23f5370a4a85cf6bd8e7eb3dd347b4e" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>_lastMotionTime</name></member>
+      <member refid="class_p_i_r_sensor_1af75dfc2f64c43c0b77d0510658f8e71b" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>_motionCallback</name></member>
+      <member refid="class_p_i_r_sensor_1ae9ca84245268265b306c6b00a95778fa" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>_pin</name></member>
+      <member refid="class_p_i_r_sensor_1a7a7f564e3430c676460fb4f083f0a452" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>disableMotionCallback</name></member>
+      <member refid="class_p_i_r_sensor_1a687203f6ca25ca3eb572bbc47a83f735" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>getLastMotionTime</name></member>
+      <member refid="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>getStatus</name></member>
+      <member refid="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>isMotionContinuous</name></member>
+      <member refid="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>PIRSensor</name></member>
+      <member refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>read</name></member>
+      <member refid="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>reset</name></member>
+      <member refid="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>setDebounceTime</name></member>
+      <member refid="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>setMotionCallback</name></member>
+      <member refid="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" prot="public" virt="non-virtual"><scope>PIRSensor</scope><name>setSensitivity</name></member>
+      <member refid="class_p_i_r_sensor_1aed83a579637699d496c07c8de6781738" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

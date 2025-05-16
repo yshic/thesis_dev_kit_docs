@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_variant_operators" kind="struct" language="C++" prot="public">
+    <compoundname>VariantOperators</compoundname>
+    <basecompoundref refid="struct_variant_operator_tag" prot="public" virt="non-virtual">VariantOperatorTag</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TVariant</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_variant_operators_1a20dfb91e9ccedbaa6fda82074b06f0d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="struct_is_variant" kindref="compound">IsVariant</ref>&lt; T &gt;::value &amp;&amp;!<ref refid="structis__array" kindref="compound">is_array</ref>&lt; T &gt;::value, T &gt;::type</type>
+        <definition>enable_if&lt;!IsVariant&lt; T &gt;::value &amp;&amp;!is_array&lt; T &gt;::value, T &gt;::type operator|</definition>
+        <argsstring>(const TVariant &amp;variant, const T &amp;defaultValue)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>VariantOperators::operator|</qualifiedname>
+        <param>
+          <type>const TVariant &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="36" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1ab25586f6eb03d87189a64db38e29c074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * operator|</definition>
+        <argsstring>(const TVariant &amp;variant, const char *defaultValue)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>VariantOperators::operator|</qualifiedname>
+        <param>
+          <type>const TVariant &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="44" column="21" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1ad99846975c88ad49f7e40a861764eed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; <ref refid="struct_is_variant" kindref="compound">IsVariant</ref>&lt; T &gt;::value, <ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref> &gt;::type</type>
+        <definition>enable_if&lt; IsVariant&lt; T &gt;::value, JsonVariantConst &gt;::type operator|</definition>
+        <argsstring>(const TVariant &amp;variant, T defaultValue)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>VariantOperators::operator|</qualifiedname>
+        <param>
+          <type>const TVariant &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="55" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1adc7d0258d5bbf5b70e423cac7e8093ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(T *lhs, TVariant rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>VariantOperators::operator==</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="64" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1ab84bb00dbe2bc19b04f50432568786ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const T &amp;lhs, TVariant rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>VariantOperators::operator==</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="68" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1aaade4f94c8b70cdd9b76214b928513d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(TVariant lhs, T *rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>VariantOperators::operator==</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="74" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1ad7e7e494843e09034430d9436167a68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt; <ref refid="struct_variant_operator_tag" kindref="compound">VariantOperatorTag</ref>, T &gt;::value, bool &gt;::type</type>
+        <definition>enable_if&lt;!is_base_of&lt; VariantOperatorTag, T &gt;::value, bool &gt;::type operator==</definition>
+        <argsstring>(TVariant lhs, const T &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>VariantOperators::operator==</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="80" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a4156bb9541d54ad2d6ea2945a5c3e96e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(T *lhs, TVariant rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>VariantOperators::operator!=</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="86" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a131181fc4c9493ca665c5c6f926b4350" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const T &amp;lhs, TVariant rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>VariantOperators::operator!=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="90" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a8a1cdbab21d1ef1f46ea4a02cf49aa93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(TVariant lhs, T *rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>VariantOperators::operator!=</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="96" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a1fb985efbfa1f9886cc41bc634b85005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt; <ref refid="struct_variant_operator_tag" kindref="compound">VariantOperatorTag</ref>, T &gt;::value, bool &gt;::type</type>
+        <definition>enable_if&lt;!is_base_of&lt; VariantOperatorTag, T &gt;::value, bool &gt;::type operator!=</definition>
+        <argsstring>(TVariant lhs, const T &amp;rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>VariantOperators::operator!=</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="102" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a31e65becf80d4608d866c597520a861a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(T *lhs, TVariant rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>VariantOperators::operator&lt;</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="108" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a648cc42060d6a5740e987113aa28d0ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const T &amp;lhs, TVariant rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>VariantOperators::operator&lt;</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="112" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a2398c4459d16f8c463e4f88e58aa6007" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(TVariant lhs, T *rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>VariantOperators::operator&lt;</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="118" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="118" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a30aee43487a4fbe9e6d32a6c887b028f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt; <ref refid="struct_variant_operator_tag" kindref="compound">VariantOperatorTag</ref>, T &gt;::value, bool &gt;::type</type>
+        <definition>enable_if&lt;!is_base_of&lt; VariantOperatorTag, T &gt;::value, bool &gt;::type operator&lt;</definition>
+        <argsstring>(TVariant lhs, const T &amp;rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>VariantOperators::operator&lt;</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="123" column="27" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a5b5cb458a14aab6595184ae592ef9200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(T *lhs, TVariant rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>VariantOperators::operator&lt;=</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="130" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1ae25e9248215166e1bb50954306d41123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(const T &amp;lhs, TVariant rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>VariantOperators::operator&lt;=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="134" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1aaa33c9bd584ff5aee25b4cb60846dbb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(TVariant lhs, T *rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>VariantOperators::operator&lt;=</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="140" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="140" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a35d2c6d20ce95bb24b3b1a2ab7c4a08b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt; <ref refid="struct_variant_operator_tag" kindref="compound">VariantOperatorTag</ref>, T &gt;::value, bool &gt;::type</type>
+        <definition>enable_if&lt;!is_base_of&lt; VariantOperatorTag, T &gt;::value, bool &gt;::type operator&lt;=</definition>
+        <argsstring>(TVariant lhs, const T &amp;rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>VariantOperators::operator&lt;=</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="145" column="27" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a4d818c0328309042bc4aba3edbff61a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(T *lhs, TVariant rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>VariantOperators::operator&gt;</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="152" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="152" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a1447eea8e7201e4a6c6b2b226714fcc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const T &amp;lhs, TVariant rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>VariantOperators::operator&gt;</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="156" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1afb99397ac715cec8f41ffb6dee25827a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(TVariant lhs, T *rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>VariantOperators::operator&gt;</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="162" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="162" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a8346c624f2cc6a9bed8f4fdbffff1047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt; <ref refid="struct_variant_operator_tag" kindref="compound">VariantOperatorTag</ref>, T &gt;::value, bool &gt;::type</type>
+        <definition>enable_if&lt;!is_base_of&lt; VariantOperatorTag, T &gt;::value, bool &gt;::type operator&gt;</definition>
+        <argsstring>(TVariant lhs, const T &amp;rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>VariantOperators::operator&gt;</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="168" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1ac06a7f9d1c3b4d256aa35e24f9a45804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(T *lhs, TVariant rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>VariantOperators::operator&gt;=</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="174" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="174" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a35d8d80a76269137007b4b1ec7abc0a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(const T &amp;lhs, TVariant rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>VariantOperators::operator&gt;=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>TVariant</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="178" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="178" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a61ad822b377433ee139d0d5c03e58b0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(TVariant lhs, T *rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>VariantOperators::operator&gt;=</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="184" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_variant_operators_1a2fcf513a8fc9b649caf078082e60cb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;!<ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt; <ref refid="struct_variant_operator_tag" kindref="compound">VariantOperatorTag</ref>, T &gt;::value, bool &gt;::type</type>
+        <definition>enable_if&lt;!is_base_of&lt; VariantOperatorTag, T &gt;::value, bool &gt;::type operator&gt;=</definition>
+        <argsstring>(TVariant lhs, const T &amp;rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>VariantOperators::operator&gt;=</qualifiedname>
+        <param>
+          <type>TVariant</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="190" column="7" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="190" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>VariantOperatorTag</label>
+        <link refid="struct_variant_operator_tag"/>
+      </node>
+      <node id="1">
+        <label>VariantOperators&lt; TVariant &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>VariantOperatorTag</label>
+        <link refid="struct_variant_operator_tag"/>
+      </node>
+      <node id="1">
+        <label>VariantOperators&lt; TVariant &gt;</label>
+        <link refid="struct_variant_operators"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="27" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="27" bodyend="193"/>
+    <listofallmembers>
+      <member refid="struct_variant_operators_1a4156bb9541d54ad2d6ea2945a5c3e96e" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator!=</name></member>
+      <member refid="struct_variant_operators_1a131181fc4c9493ca665c5c6f926b4350" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator!=</name></member>
+      <member refid="struct_variant_operators_1a8a1cdbab21d1ef1f46ea4a02cf49aa93" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator!=</name></member>
+      <member refid="struct_variant_operators_1a1fb985efbfa1f9886cc41bc634b85005" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator!=</name></member>
+      <member refid="struct_variant_operators_1a31e65becf80d4608d866c597520a861a" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;</name></member>
+      <member refid="struct_variant_operators_1a648cc42060d6a5740e987113aa28d0ee" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;</name></member>
+      <member refid="struct_variant_operators_1a2398c4459d16f8c463e4f88e58aa6007" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;</name></member>
+      <member refid="struct_variant_operators_1a30aee43487a4fbe9e6d32a6c887b028f" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;</name></member>
+      <member refid="struct_variant_operators_1a5b5cb458a14aab6595184ae592ef9200" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;=</name></member>
+      <member refid="struct_variant_operators_1ae25e9248215166e1bb50954306d41123" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;=</name></member>
+      <member refid="struct_variant_operators_1aaa33c9bd584ff5aee25b4cb60846dbb0" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;=</name></member>
+      <member refid="struct_variant_operators_1a35d2c6d20ce95bb24b3b1a2ab7c4a08b" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&lt;=</name></member>
+      <member refid="struct_variant_operators_1adc7d0258d5bbf5b70e423cac7e8093ad" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator==</name></member>
+      <member refid="struct_variant_operators_1ab84bb00dbe2bc19b04f50432568786ec" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator==</name></member>
+      <member refid="struct_variant_operators_1aaade4f94c8b70cdd9b76214b928513d8" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator==</name></member>
+      <member refid="struct_variant_operators_1ad7e7e494843e09034430d9436167a68e" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator==</name></member>
+      <member refid="struct_variant_operators_1a4d818c0328309042bc4aba3edbff61a8" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;</name></member>
+      <member refid="struct_variant_operators_1a1447eea8e7201e4a6c6b2b226714fcc1" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;</name></member>
+      <member refid="struct_variant_operators_1afb99397ac715cec8f41ffb6dee25827a" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;</name></member>
+      <member refid="struct_variant_operators_1a8346c624f2cc6a9bed8f4fdbffff1047" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;</name></member>
+      <member refid="struct_variant_operators_1ac06a7f9d1c3b4d256aa35e24f9a45804" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;=</name></member>
+      <member refid="struct_variant_operators_1a35d8d80a76269137007b4b1ec7abc0a9" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;=</name></member>
+      <member refid="struct_variant_operators_1a61ad822b377433ee139d0d5c03e58b0f" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;=</name></member>
+      <member refid="struct_variant_operators_1a2fcf513a8fc9b649caf078082e60cb01" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator&gt;=</name></member>
+      <member refid="struct_variant_operators_1a20dfb91e9ccedbaa6fda82074b06f0d5" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator|</name></member>
+      <member refid="struct_variant_operators_1ab25586f6eb03d87189a64db38e29c074" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator|</name></member>
+      <member refid="struct_variant_operators_1ad99846975c88ad49f7e40a861764eed3" prot="public" virt="non-virtual"><scope>VariantOperators</scope><name>operator|</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

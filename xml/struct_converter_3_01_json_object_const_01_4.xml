@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_converter_3_01_json_object_const_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Converter&lt; JsonObjectConst &gt;</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">detail::VariantAttorney</basecompoundref>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_converter_3_01_json_object_const_01_4_1ac625bf0c34b6d92253b93ea8b46246f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Converter&lt; JsonObjectConst &gt;::toJson</definition>
+        <argsstring>(JsonVariantConst src, JsonVariant dst)</argsstring>
+        <name>toJson</name>
+        <qualifiedname>Converter&lt; JsonObjectConst &gt;::toJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_json_variant" kindref="compound">JsonVariant</ref></type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" line="141" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_3_01_json_object_const_01_4_1ad8f67af9bc2c7bf3ee72df079e1b74f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_object_const" kindref="compound">JsonObjectConst</ref></type>
+        <definition>static JsonObjectConst Converter&lt; JsonObjectConst &gt;::fromJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>fromJson</name>
+        <qualifiedname>Converter&lt; JsonObjectConst &gt;::fromJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" line="145" column="26" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_converter_3_01_json_object_const_01_4_1a10a1e3676ae807b4d4a45adfbd65ce06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Converter&lt; JsonObjectConst &gt;::checkJson</definition>
+        <argsstring>(JsonVariantConst src)</argsstring>
+        <name>checkJson</name>
+        <qualifiedname>Converter&lt; JsonObjectConst &gt;::checkJson</qualifiedname>
+        <param>
+          <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" line="150" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" bodystart="150" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Converter&lt; JsonObjectConst &gt;</label>
+        <link refid="struct_converter_3_01_json_object_const_01_4"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Converter&lt; JsonObjectConst &gt;</label>
+        <link refid="struct_converter_3_01_json_object_const_01_4"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>detail::VariantAttorney</label>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" line="140" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp" bodystart="140" bodyend="154"/>
+    <listofallmembers>
+      <member refid="struct_converter_3_01_json_object_const_01_4_1a10a1e3676ae807b4d4a45adfbd65ce06" prot="public" virt="non-virtual"><scope>Converter&lt; JsonObjectConst &gt;</scope><name>checkJson</name></member>
+      <member refid="struct_converter_3_01_json_object_const_01_4_1ad8f67af9bc2c7bf3ee72df079e1b74f2" prot="public" virt="non-virtual"><scope>Converter&lt; JsonObjectConst &gt;</scope><name>fromJson</name></member>
+      <member refid="struct_converter_3_01_json_object_const_01_4_1ac625bf0c34b6d92253b93ea8b46246f0" prot="public" virt="non-virtual"><scope>Converter&lt; JsonObjectConst &gt;</scope><name>toJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

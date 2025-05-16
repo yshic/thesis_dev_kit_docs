@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_json_pair_const" kind="class" language="C++" prot="public">
+    <compoundname>JsonPairConst</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_pair_const_1a5feb1816f34f49801252b3bab57f9d5d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>JsonString JsonPairConst::key_</definition>
+        <argsstring></argsstring>
+        <name>key_</name>
+        <qualifiedname>JsonPairConst::key_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" line="64" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_pair_const_1a16ad6b9ca2cd1667e410854d8e9ffbc8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+        <definition>JsonVariantConst JsonPairConst::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <qualifiedname>JsonPairConst::value_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" line="65" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_pair_const_1a7b33e34fb69c7c79f5d3323272c9bb5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonPairConst::JsonPairConst</definition>
+        <argsstring>(const detail::VariantSlot *slot)</argsstring>
+        <name>JsonPairConst</name>
+        <qualifiedname>JsonPairConst::JsonPairConst</qualifiedname>
+        <param>
+          <type>const detail::VariantSlot *</type>
+          <declname>slot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" line="45" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_pair_const_1aaf7698d09da33bf5a135c587956dac3a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>JsonString JsonPairConst::key</definition>
+        <argsstring>() const</argsstring>
+        <name>key</name>
+        <qualifiedname>JsonPairConst::key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" line="54" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_pair_const_1a409b8db5b58cd49a3be4716ba37818da" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
+        <definition>JsonVariantConst JsonPairConst::value</definition>
+        <argsstring>() const</argsstring>
+        <name>value</name>
+        <qualifiedname>JsonPairConst::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" line="59" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" bodystart="59" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" line="43" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp" bodystart="43" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_json_pair_const_1a7b33e34fb69c7c79f5d3323272c9bb5b" prot="public" virt="non-virtual"><scope>JsonPairConst</scope><name>JsonPairConst</name></member>
+      <member refid="class_json_pair_const_1aaf7698d09da33bf5a135c587956dac3a" prot="public" virt="non-virtual"><scope>JsonPairConst</scope><name>key</name></member>
+      <member refid="class_json_pair_const_1a5feb1816f34f49801252b3bab57f9d5d" prot="private" virt="non-virtual"><scope>JsonPairConst</scope><name>key_</name></member>
+      <member refid="class_json_pair_const_1a409b8db5b58cd49a3be4716ba37818da" prot="public" virt="non-virtual"><scope>JsonPairConst</scope><name>value</name></member>
+      <member refid="class_json_pair_const_1a16ad6b9ca2cd1667e410854d8e9ffbc8" prot="private" virt="non-virtual"><scope>JsonPairConst</scope><name>value_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

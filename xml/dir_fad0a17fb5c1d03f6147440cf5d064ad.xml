@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_fad0a17fb5c1d03f6147440cf5d064ad" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson</compoundname>
+    <innerdir refid="dir_b27902da1565337b07bd35329ddd5bed">lib/ArduinoJson/src/ArduinoJson/Array</innerdir>
+    <innerdir refid="dir_a14f1fb45cf949b479301ae7b8aece68">lib/ArduinoJson/src/ArduinoJson/Collection</innerdir>
+    <innerdir refid="dir_a9ab4374419ff25492362ce3d9119e16">lib/ArduinoJson/src/ArduinoJson/Deserialization</innerdir>
+    <innerdir refid="dir_2043495969904c4fd33854bf8948f60d">lib/ArduinoJson/src/ArduinoJson/Document</innerdir>
+    <innerdir refid="dir_47aa7698b3fb49880a7b33e64496bc0b">lib/ArduinoJson/src/ArduinoJson/Json</innerdir>
+    <innerdir refid="dir_0c6a97445d7690c9226d07c63d179d4a">lib/ArduinoJson/src/ArduinoJson/Memory</innerdir>
+    <innerdir refid="dir_0648d57d77f719f9654ec6901cc52f66">lib/ArduinoJson/src/ArduinoJson/Misc</innerdir>
+    <innerdir refid="dir_428e4cdc340eccb8a04495b8557c3979">lib/ArduinoJson/src/ArduinoJson/MsgPack</innerdir>
+    <innerdir refid="dir_8759457fc428d908179d697a750e8d0d">lib/ArduinoJson/src/ArduinoJson/Numbers</innerdir>
+    <innerdir refid="dir_71d6420c097c90cb21266eaa4a079845">lib/ArduinoJson/src/ArduinoJson/Object</innerdir>
+    <innerdir refid="dir_b2487d639a26a5d9f7da817ab11178e9">lib/ArduinoJson/src/ArduinoJson/Polyfills</innerdir>
+    <innerdir refid="dir_ec747ffc70cc7e265f05154db74edb44">lib/ArduinoJson/src/ArduinoJson/Serialization</innerdir>
+    <innerdir refid="dir_381851da249482ed4e3dd63fba668019">lib/ArduinoJson/src/ArduinoJson/Strings</innerdir>
+    <innerdir refid="dir_6dd4b75b980080771d6263a8e36e8666">lib/ArduinoJson/src/ArduinoJson/StringStorage</innerdir>
+    <innerdir refid="dir_22170c7dabdeeb07b37a9239b4243453">lib/ArduinoJson/src/ArduinoJson/Variant</innerdir>
+    <innerfile refid="compatibility_8hpp">compatibility.hpp</innerfile>
+    <innerfile refid="_configuration_8hpp">Configuration.hpp</innerfile>
+    <innerfile refid="_namespace_8hpp">Namespace.hpp</innerfile>
+    <innerfile refid="version_8hpp">version.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/"/>
+  </compounddef>
+</doxygen>

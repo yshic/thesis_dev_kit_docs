@@ -1,0 +1,700 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_web_socket_client" kind="class" language="C++" prot="public">
+    <compoundname>WebSocketClient</compoundname>
+    <basecompoundref refid="class_http_client" prot="public" virt="non-virtual">HttpClient</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_web_socket_client_1af5e79799a84117773c58711ca140bdc6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WebSocketClient::iTxStarted</definition>
+        <argsstring></argsstring>
+        <name>iTxStarted</name>
+        <qualifiedname>WebSocketClient::iTxStarted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="91" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1ae0fdab741fb336da0df2a73330e6088c" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t WebSocketClient::iTxMessageType</definition>
+        <argsstring></argsstring>
+        <name>iTxMessageType</name>
+        <qualifiedname>WebSocketClient::iTxMessageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="92" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1af52171d0f95563a43727ed14efb9b5a1" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t WebSocketClient::iTxBuffer[WS_TX_BUFFER_SIZE]</definition>
+        <argsstring>[WS_TX_BUFFER_SIZE]</argsstring>
+        <name>iTxBuffer</name>
+        <qualifiedname>WebSocketClient::iTxBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="93" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1a9d8c06502868f640e4b6cd40c6ed9b58" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t WebSocketClient::iTxSize</definition>
+        <argsstring></argsstring>
+        <name>iTxSize</name>
+        <qualifiedname>WebSocketClient::iTxSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="94" column="14" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1a75757885b1a8ced66fb8d33ac7d307e2" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t WebSocketClient::iRxOpCode</definition>
+        <argsstring></argsstring>
+        <name>iRxOpCode</name>
+        <qualifiedname>WebSocketClient::iRxOpCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="96" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1a6b7013075a9f7d3081083a32dea06f45" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t WebSocketClient::iRxSize</definition>
+        <argsstring></argsstring>
+        <name>iRxSize</name>
+        <qualifiedname>WebSocketClient::iRxSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="97" column="14" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1a9f8dddff2598580c1aadff0e09843296" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WebSocketClient::iRxMasked</definition>
+        <argsstring></argsstring>
+        <name>iRxMasked</name>
+        <qualifiedname>WebSocketClient::iRxMasked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="98" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1a943d06cdfad369a6d2b16f1c09c46285" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WebSocketClient::iRxMaskIndex</definition>
+        <argsstring></argsstring>
+        <name>iRxMaskIndex</name>
+        <qualifiedname>WebSocketClient::iRxMaskIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="99" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_socket_client_1a207eef097f6cce002ac6c70e590a0e82" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t WebSocketClient::iRxMaskKey[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>iRxMaskKey</name>
+        <qualifiedname>WebSocketClient::iRxMaskKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="100" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_socket_client_1a34c2693488f8ff7875cdf4c00680ee22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WebSocketClient::WebSocketClient</definition>
+        <argsstring>(Client &amp;aClient, const char *aServerName, uint16_t aServerPort=HttpClient::kHttpPort)</argsstring>
+        <name>WebSocketClient</name>
+        <qualifiedname>WebSocketClient::WebSocketClient</qualifiedname>
+        <param>
+          <type>Client &amp;</type>
+          <declname>aClient</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>aServerName</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>aServerPort</declname>
+          <defval>HttpClient::kHttpPort</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="25" column="5" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a1b4f922e226f6e3c76c8add04f8729f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WebSocketClient::WebSocketClient</definition>
+        <argsstring>(Client &amp;aClient, const String &amp;aServerName, uint16_t aServerPort=HttpClient::kHttpPort)</argsstring>
+        <name>WebSocketClient</name>
+        <qualifiedname>WebSocketClient::WebSocketClient</qualifiedname>
+        <param>
+          <type>Client &amp;</type>
+          <declname>aClient</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>aServerName</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>aServerPort</declname>
+          <defval>HttpClient::kHttpPort</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="26" column="5" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a582c3cf1023e1887e09c2aaef3e9d62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WebSocketClient::WebSocketClient</definition>
+        <argsstring>(Client &amp;aClient, const IPAddress &amp;aServerAddress, uint16_t aServerPort=HttpClient::kHttpPort)</argsstring>
+        <name>WebSocketClient</name>
+        <qualifiedname>WebSocketClient::WebSocketClient</qualifiedname>
+        <param>
+          <type>Client &amp;</type>
+          <declname>aClient</declname>
+        </param>
+        <param>
+          <type>const IPAddress &amp;</type>
+          <declname>aServerAddress</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>aServerPort</declname>
+          <defval>HttpClient::kHttpPort</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="27" column="5" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::begin</definition>
+        <argsstring>(const char *aPath=&quot;/&quot;)</argsstring>
+        <name>begin</name>
+        <qualifiedname>WebSocketClient::begin</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>aPath</declname>
+          <defval>&quot;/&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start the Web Socket connection to the specified path <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aURLPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to use in request (optional, &quot;/&quot; is used by default) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 if successful, else error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="33" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="29" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a4eaedbb50921fa74622ca771b3d11238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::begin</definition>
+        <argsstring>(const String &amp;aPath)</argsstring>
+        <name>begin</name>
+        <qualifiedname>WebSocketClient::begin</qualifiedname>
+        <param>
+          <type>const String &amp;</type>
+          <declname>aPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="34" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::beginMessage</definition>
+        <argsstring>(int aType)</argsstring>
+        <name>beginMessage</name>
+        <qualifiedname>WebSocketClient::beginMessage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>aType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begin to send a message of type (TYPE_TEXT or TYPE_BINARY) Use the write or Stream API&apos;s to set message content, followed by endMessage to complete the message. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aURLPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to use in request </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 if successful, else error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="42" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="75" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::endMessage</definition>
+        <argsstring>()</argsstring>
+        <name>endMessage</name>
+        <qualifiedname>WebSocketClient::endMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Completes sending of a message started by beginMessage <simplesect kind="return"><para>0 if successful, else error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="47" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="90" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::parseMessage</definition>
+        <argsstring>()</argsstring>
+        <name>parseMessage</name>
+        <qualifiedname>WebSocketClient::parseMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try to parse an incoming messages <simplesect kind="return"><para>0 if no message available, else size of parsed message </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="52" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="181" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::messageType</definition>
+        <argsstring>()</argsstring>
+        <name>messageType</name>
+        <qualifiedname>WebSocketClient::messageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns type of current parsed message <simplesect kind="return"><para>type of current parsedMessage (TYPE_TEXT or TYPE_BINARY) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="57" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a60dd6c3de4a82450bba897094216eb73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WebSocketClient::isFinal</definition>
+        <argsstring>()</argsstring>
+        <name>isFinal</name>
+        <qualifiedname>WebSocketClient::isFinal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if the current message is the final chunk of a split message <simplesect kind="return"><para>true for final message, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="63" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String WebSocketClient::readString</definition>
+        <argsstring>()</argsstring>
+        <name>readString</name>
+        <qualifiedname>WebSocketClient::readString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read the current messages as a string <simplesect kind="return"><para>current message as a string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="68" column="12" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="277" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::ping</definition>
+        <argsstring>()</argsstring>
+        <name>ping</name>
+        <qualifiedname>WebSocketClient::ping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send a ping <simplesect kind="return"><para>0 if successful, else error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="73" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="295" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a902e1dfa4f9b55badcf32225b319529f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t WebSocketClient::write</definition>
+        <argsstring>(uint8_t aByte)</argsstring>
+        <name>write</name>
+        <qualifiedname>WebSocketClient::write</qualifiedname>
+        <reimplements refid="class_http_client_1a73ef7b6c0c0b9d54e389f8360286d144">write</reimplements>
+        <param>
+          <type>uint8_t</type>
+          <declname>aByte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="76" column="20" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a0fcfa517fdc56a1e4af7252b5b4c8aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t WebSocketClient::write</definition>
+        <argsstring>(const uint8_t *aBuffer, size_t aSize)</argsstring>
+        <name>write</name>
+        <qualifiedname>WebSocketClient::write</qualifiedname>
+        <reimplements refid="class_http_client_1ab726a4fb5989d35a759e0fc78d88c4d2">write</reimplements>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>aBuffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>aSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="77" column="20" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="153" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a0c02eff758a8dc386e7c4fe5b2853ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::available</definition>
+        <argsstring>()</argsstring>
+        <name>available</name>
+        <qualifiedname>WebSocketClient::available</qualifiedname>
+        <reimplements refid="class_http_client_1a882ad4d788c8817c8f308a3ec6b4f030">available</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="79" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="310" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>WebSocketClient::read</qualifiedname>
+        <reimplements refid="class_http_client_1a18ea928ad5adf203405e24070c67f84d">read</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read the next byte from the server. <simplesect kind="return"><para>Byte read or -1 if there are no bytes available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="83" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="320" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1a7ba59f82daf7859626ccfd0e849bba12" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::read</definition>
+        <argsstring>(uint8_t *buf, size_t size)</argsstring>
+        <name>read</name>
+        <qualifiedname>WebSocketClient::read</qualifiedname>
+        <reimplements refid="class_http_client_1ae23b2eb2b844814fb4238ea408990506">read</reimplements>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="84" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="332" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_socket_client_1ac4dd76b439d8a2112ecff797a9e2802e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int WebSocketClient::peek</definition>
+        <argsstring>()</argsstring>
+        <name>peek</name>
+        <qualifiedname>WebSocketClient::peek</qualifiedname>
+        <reimplements refid="class_http_client_1aa32ebfc600d5ea0773bee1f01ec8f7ac">peek</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="85" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="353" bodyend="364"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_web_socket_client_1a4c0fbac0d7e55476c0ba055fea0e5c41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebSocketClient::flushRx</definition>
+        <argsstring>()</argsstring>
+        <name>flushRx</name>
+        <qualifiedname>WebSocketClient::flushRx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="88" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="366" bodyend="372"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Client</label>
+      </node>
+      <node id="2">
+        <label>HttpClient</label>
+        <link refid="class_http_client"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>WebSocketClient</label>
+        <link refid="class_web_socket_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Client</label>
+      </node>
+      <node id="2">
+        <label>HttpClient</label>
+        <link refid="class_http_client"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>WebSocketClient</label>
+        <link refid="class_web_socket_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="22" column="1" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="23" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_web_socket_client_1a0c02eff758a8dc386e7c4fe5b2853ad2" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>available</name></member>
+      <member refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>begin</name></member>
+      <member refid="class_web_socket_client_1a4eaedbb50921fa74622ca771b3d11238" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>begin</name></member>
+      <member refid="class_http_client_1adeac6021d2f57f3a6b7f7047b14736fd" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>beginBody</name></member>
+      <member refid="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>beginMessage</name></member>
+      <member refid="class_http_client_1a640c3b63cac33d93614fb69e3ea4a360" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>beginRequest</name></member>
+      <member refid="class_http_client_1ae3f649b7347e23eddfac363f5d73c64e" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>completed</name></member>
+      <member refid="class_http_client_1a9a6eb2520fbb5e9cfdbc084c475579a1" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>connect</name></member>
+      <member refid="class_http_client_1a3d66fd4cac5d7868ae2175a369aa1c2a" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>connect</name></member>
+      <member refid="class_http_client_1a61eaa5604d3ca54da517b9f3075af652" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>connected</name></member>
+      <member refid="class_http_client_1a0b01a20e5c6263d38c0235a0a7b60f0e" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>connectionKeepAlive</name></member>
+      <member refid="class_http_client_1a4b2a81da4067db97be35fe7c2c800f74" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>contentLength</name></member>
+      <member refid="class_http_client_1a5d0cf7ecdf0c4b7572e976f567a1e2e2" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>del</name></member>
+      <member refid="class_http_client_1acd3df0763742be60e8daeda65e923619" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>del</name></member>
+      <member refid="class_http_client_1aa7427f7a8830f4ebf218fdafa7279b78" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>del</name></member>
+      <member refid="class_http_client_1a18a3c3d2e958619312c1e77c7c942cf7" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>del</name></member>
+      <member refid="class_http_client_1a378f143d0d38a9c7c2511ff3af577379" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>del</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a7254238728b8442083d61452b050a34a" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eIdle</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a47a471f63de09db81f66eb9b2dd8971e" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eLineStartingCRFound</name></member>
+      <member refid="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>endMessage</name></member>
+      <member refid="class_http_client_1a40e874de7466bfc201ee9fd73d2f51d7" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>endOfBodyReached</name></member>
+      <member refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>endOfHeadersReached</name></member>
+      <member refid="class_http_client_1a702eabc55cc095747467aff955eee051" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>endOfStream</name></member>
+      <member refid="class_http_client_1abadc93f66021c34274cc2fd2e782cdf0" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>endRequest</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a75d94b278c80cbb37f7e43425d9ca632" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eReadingBody</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a64ca1a395c941361a90dc4a0fdbf4e18" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eReadingBodyChunk</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98acad5197f13258628b45f58f0b21e404b" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eReadingChunkLength</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98aeabc78e3185a596283329287b67c0327" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eReadingContentLength</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a9f06c9295d50795b913185f8fb1f474a" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eReadingStatusCode</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a8f698a2bbe415beea792ed54710b9fb4" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eRequestSent</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a362fefbfe3537cb728a43b945195197d" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eRequestStarted</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98aa87cc751f6ee1d5285adea9611773c10" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eSkipToEndOfHeader</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98a5077b1b6eb9bcf3b28cfa3b365f2ef0c" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>eStatusCodeRead</name></member>
+      <member refid="class_http_client_1a5f4245736868404a5bceaeb612f1edfd" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>finishHeaders</name></member>
+      <member refid="class_http_client_1a97fdf5fc799dabffda9b1e1ed1b054b4" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>flush</name></member>
+      <member refid="class_http_client_1aa9772b5fe920a5cb0bcb74871e2b4679" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>flushClientRx</name></member>
+      <member refid="class_web_socket_client_1a4c0fbac0d7e55476c0ba055fea0e5c41" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>flushRx</name></member>
+      <member refid="class_http_client_1a92d8027a76943ec459df5085fd8d37a8" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>get</name></member>
+      <member refid="class_http_client_1a649827f891aea6969b02d479c8dbc89b" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>get</name></member>
+      <member refid="class_http_client_1a0f69501b4c3f559018f46cef58c644d8" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>headerAvailable</name></member>
+      <member refid="class_http_client_1aff2e76527fa1192b86fa3cb99cbb8e41" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>HttpClient</name></member>
+      <member refid="class_http_client_1a327f13445d40f7176343a72b470cb3b8" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>HttpClient</name></member>
+      <member refid="class_http_client_1a019dd19c7c2cd7ef023613816a51e462" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>HttpClient</name></member>
+      <member refid="class_http_client_1abad6fdf76e5b4788aa21040df51801c9" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>httpResponseTimeout</name></member>
+      <member refid="class_http_client_1ac2ddadeede9c7b4dec3074b26e712311" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>httpWaitForDataDelay</name></member>
+      <member refid="class_http_client_1adbebb928968704d8747b7884d8fd0c1a" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iBodyLengthConsumed</name></member>
+      <member refid="class_http_client_1a4d6a692ff196cb9e04ae741e620d4b52" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iChunkLength</name></member>
+      <member refid="class_http_client_1a2f80b9a72e0432ea083455f4b9c8ffca" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iClient</name></member>
+      <member refid="class_http_client_1a527c14f8a5223843c1aa50e83881c7e9" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iConnectionClose</name></member>
+      <member refid="class_http_client_1abe4e52886f74c31a18b8e8b7b2abc71b" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iContentLength</name></member>
+      <member refid="class_http_client_1a1acac369d1f41213c9bc48767cf8ca73" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iContentLengthPtr</name></member>
+      <member refid="class_http_client_1aa2d2a935c4f48703c245ddb18278a877" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iHeaderLine</name></member>
+      <member refid="class_http_client_1af1e8a5d53dd612ee2710710efc93d1ba" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iHttpResponseTimeout</name></member>
+      <member refid="class_http_client_1a6fffb5f8c412639ebdd5be0eb2f67b2b" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iHttpWaitForDataDelay</name></member>
+      <member refid="class_http_client_1ab31adb454a783b30c6779e598e027d6d" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iIsChunked</name></member>
+      <member refid="class_web_socket_client_1a9f8dddff2598580c1aadff0e09843296" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iRxMasked</name></member>
+      <member refid="class_web_socket_client_1a943d06cdfad369a6d2b16f1c09c46285" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iRxMaskIndex</name></member>
+      <member refid="class_web_socket_client_1a207eef097f6cce002ac6c70e590a0e82" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iRxMaskKey</name></member>
+      <member refid="class_web_socket_client_1a75757885b1a8ced66fb8d33ac7d307e2" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iRxOpCode</name></member>
+      <member refid="class_web_socket_client_1a6b7013075a9f7d3081083a32dea06f45" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iRxSize</name></member>
+      <member refid="class_http_client_1aa99859aa9bfcd4d9b24732c27ef4c0e9" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iSendDefaultRequestHeaders</name></member>
+      <member refid="class_http_client_1ac1f8937f708733f5009e7b41dd318096" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iServerAddress</name></member>
+      <member refid="class_http_client_1a79867eff0355b635ad0e5ed7d850d219" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iServerName</name></member>
+      <member refid="class_http_client_1a895b5530eb7e115946b0b086e18fdd10" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iServerPort</name></member>
+      <member refid="class_web_socket_client_1a60dd6c3de4a82450bba897094216eb73" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>isFinal</name></member>
+      <member refid="class_http_client_1a4849321b4192917f7089161bda2eae9f" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>isResponseChunked</name></member>
+      <member refid="class_http_client_1a05be7028c08e65fd777e74da4d91e510" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iState</name></member>
+      <member refid="class_http_client_1a3c524e92191c9bd5b2684111558c5189" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iStatusCode</name></member>
+      <member refid="class_http_client_1a52689fb90a9ff291dc64a4f4f19674ff" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>iTransferEncodingChunkedPtr</name></member>
+      <member refid="class_web_socket_client_1af52171d0f95563a43727ed14efb9b5a1" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iTxBuffer</name></member>
+      <member refid="class_web_socket_client_1ae0fdab741fb336da0df2a73330e6088c" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iTxMessageType</name></member>
+      <member refid="class_web_socket_client_1a9d8c06502868f640e4b6cd40c6ed9b58" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iTxSize</name></member>
+      <member refid="class_web_socket_client_1af5e79799a84117773c58711ca140bdc6" prot="private" virt="non-virtual"><scope>WebSocketClient</scope><name>iTxStarted</name></member>
+      <member refid="class_http_client_1a88b623e9c2715443df7f1df25ff07162" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>kContentLengthPrefix</name></member>
+      <member refid="class_http_client_1a0ee423122fd5291dfe56472916d52146" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>kHttpPort</name></member>
+      <member refid="class_http_client_1a2979e338e32a92f0690024ffb9bdaba9" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>kHttpResponseTimeout</name></member>
+      <member refid="class_http_client_1a2bac6105085dff95e69163eaec0f1676" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>kHttpsPort</name></member>
+      <member refid="class_http_client_1ad097f474f8a67d0fc0fdd90dcb3a3408" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>kHttpWaitForDataDelay</name></member>
+      <member refid="class_http_client_1aa460f8d009c2bb78b1180c02fba9a8d5" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>kNoContentLengthHeader</name></member>
+      <member refid="class_http_client_1a182a079b7f70737f1af1ce752ff8df62" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>kTransferEncodingChunked</name></member>
+      <member refid="class_http_client_1accc7280f9f51ee4007cc474994fc6faa" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>kUserAgent</name></member>
+      <member refid="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>messageType</name></member>
+      <member refid="class_http_client_1a22a54227282e32cc3174c60842fdeacd" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>noDefaultRequestHeaders</name></member>
+      <member refid="class_http_client_1a2748f62701bd647e76e1630996753eb2" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>operator bool</name></member>
+      <member refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>parseMessage</name></member>
+      <member refid="class_http_client_1a87a030a92938f87aef3bdc48579ec17b" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>patch</name></member>
+      <member refid="class_http_client_1afe8bcc1a77410517ce37ca54fb7ff992" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>patch</name></member>
+      <member refid="class_http_client_1a5be1b6ae80056257b0bd721b97636992" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>patch</name></member>
+      <member refid="class_http_client_1a60ea5f074db9fba9776ede97a4708d54" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>patch</name></member>
+      <member refid="class_http_client_1a13c5e7bb97ccc822f0bb7b2b0488f009" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>patch</name></member>
+      <member refid="class_web_socket_client_1ac4dd76b439d8a2112ecff797a9e2802e" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>peek</name></member>
+      <member refid="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>ping</name></member>
+      <member refid="class_http_client_1a70f0502368b558562f38b8eb4786c2ae" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>post</name></member>
+      <member refid="class_http_client_1a5aa2be1798fee1b8fcdaf11b0c422b09" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>post</name></member>
+      <member refid="class_http_client_1a62d4b494267d93bdd56669a7b1c41f29" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>post</name></member>
+      <member refid="class_http_client_1a8d2f13178cd2f1c5658d401d29a736ad" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>post</name></member>
+      <member refid="class_http_client_1a051d4771f31775baa90146e275d4eb8a" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>post</name></member>
+      <member refid="class_http_client_1a95cb1dddba441146651febe9f5777b7f" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>put</name></member>
+      <member refid="class_http_client_1a37fc87a4349ffbf1fc6733e89f22957f" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>put</name></member>
+      <member refid="class_http_client_1adf88ee533691b3ff84e57067d89b9e16" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>put</name></member>
+      <member refid="class_http_client_1a8d80e0b63817453d7f876c755c38af26" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>put</name></member>
+      <member refid="class_http_client_1a4a8bf044ce5582353553b2bc99173f00" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>put</name></member>
+      <member refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>read</name></member>
+      <member refid="class_web_socket_client_1a7ba59f82daf7859626ccfd0e849bba12" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>read</name></member>
+      <member refid="class_http_client_1ad2c91a8d7e27b4912751b229d2229adc" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>readHeader</name></member>
+      <member refid="class_http_client_1a625714a7df2db4e3c5f1e56b3b5c3454" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>readHeaderName</name></member>
+      <member refid="class_http_client_1ab88272dffdf136297354513ccbd7c59a" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>readHeaderValue</name></member>
+      <member refid="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>readString</name></member>
+      <member refid="class_http_client_1ab29155f574471c50d78b72484378b9b5" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>resetState</name></member>
+      <member refid="class_http_client_1a05eb433f7d6ce865c6bd4e16526e72c3" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>responseBody</name></member>
+      <member refid="class_http_client_1a0fba0410f61b4317f42fd1d477d0162b" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>responseStatusCode</name></member>
+      <member refid="class_http_client_1a6984c59e33125a5188c7a6a34a8e8376" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendBasicAuth</name></member>
+      <member refid="class_http_client_1a9f4190294c3b854fc52308cd080208ab" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendBasicAuth</name></member>
+      <member refid="class_http_client_1a10b1352ced52ad00f5989d17294b4978" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendHeader</name></member>
+      <member refid="class_http_client_1a540e5e846505f8d20521027d11c055fb" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendHeader</name></member>
+      <member refid="class_http_client_1a04638dd423c40fb44e4714d142a33e7d" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendHeader</name></member>
+      <member refid="class_http_client_1aef57653cd7dfcc0fccf753d6b31479c3" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendHeader</name></member>
+      <member refid="class_http_client_1a74838fb77ad93f61697d0fb693d74ee6" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendHeader</name></member>
+      <member refid="class_http_client_1aa897178a0fb2b4f3c958d01c1972f2cd" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>sendHeader</name></member>
+      <member refid="class_http_client_1abadbb2a8c693e4c782b4552f2a74d48b" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>sendInitialHeaders</name></member>
+      <member refid="class_http_client_1a2df0b071615d269990b6a69d23640760" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>setHttpResponseTimeout</name></member>
+      <member refid="class_http_client_1a36a5cae732d2b3ba1412cf93feb964d5" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>setHttpWaitForDataDelay</name></member>
+      <member refid="class_http_client_1adbf477517900e0f3a5f662b2f3f4035b" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>skipResponseHeaders</name></member>
+      <member refid="class_http_client_1a132817aa337738438a11635890729023" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>startRequest</name></member>
+      <member refid="class_http_client_1a95108136a49fb57b08006e2d87b9827f" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>stop</name></member>
+      <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98" prot="protected" virt="non-virtual"><scope>WebSocketClient</scope><name>tHttpState</name></member>
+      <member refid="class_web_socket_client_1a34c2693488f8ff7875cdf4c00680ee22" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>WebSocketClient</name></member>
+      <member refid="class_web_socket_client_1a1b4f922e226f6e3c76c8add04f8729f6" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>WebSocketClient</name></member>
+      <member refid="class_web_socket_client_1a582c3cf1023e1887e09c2aaef3e9d62f" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>WebSocketClient</name></member>
+      <member refid="class_web_socket_client_1a902e1dfa4f9b55badcf32225b319529f" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>write</name></member>
+      <member refid="class_web_socket_client_1a0fcfa517fdc56a1e4af7252b5b4c8aab" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

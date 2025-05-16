@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_159520f77db5d53b73d737e7c717d236" kind="dir">
+    <compoundname>lib/HUSKYLENS</compoundname>
+    <innerdir refid="dir_ec2d9c87f6992fa367d6b9c5ce8d0362">lib/HUSKYLENS/examples</innerdir>
+    <innerfile refid="_d_f_robot___husky_lens_8cpp">DFRobot_HuskyLens.cpp</innerfile>
+    <innerfile refid="_d_f_robot___husky_lens_8h">DFRobot_HuskyLens.h</innerfile>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s_8cpp">HUSKYLENS.cpp</innerfile>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s_8h">HUSKYLENS.h</innerfile>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s_mind_plus_8cpp">HUSKYLENSMindPlus.cpp</innerfile>
+    <innerfile refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h">HUSKYLENSMindPlus.h</innerfile>
+    <innerfile refid="_husky_lens_protocol_core_8c">HuskyLensProtocolCore.c</innerfile>
+    <innerfile refid="_husky_lens_protocol_core_8h">HuskyLensProtocolCore.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/HUSKYLENS/"/>
+  </compounddef>
+</doxygen>

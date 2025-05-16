@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_float_traits_3_01_t_00_018_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>FloatTraits&lt; T, 8 &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_float_traits_3_01_t_00_018_01_4_1a05ecce1f6c4f73c5eee14032232ffd40" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t FloatTraits&lt; T, 8 &gt;::mantissa_type</definition>
+        <argsstring></argsstring>
+        <name>mantissa_type</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::mantissa_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="24" column="20" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_float_traits_3_01_t_00_018_01_4_1a2f5cfa8d3b981554224f4a3b6f6dc0c7" prot="public" static="no">
+        <type>int16_t</type>
+        <definition>typedef int16_t FloatTraits&lt; T, 8 &gt;::exponent_type</definition>
+        <argsstring></argsstring>
+        <name>exponent_type</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::exponent_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="29" column="19" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_float_traits_3_01_t_00_018_01_4_1a7b558afced2f0a0722c19684ba080070" prot="public" static="yes" mutable="no">
+        <type>const short</type>
+        <definition>const short FloatTraits&lt; T, 8 &gt;::mantissa_bits</definition>
+        <argsstring></argsstring>
+        <name>mantissa_bits</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::mantissa_bits</qualifiedname>
+        <initializer>= 52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="25" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_float_traits_3_01_t_00_018_01_4_1ae74a9d7a93beaacbd5e6b4784d61be57" prot="public" static="yes" mutable="no">
+        <type>const mantissa_type</type>
+        <definition>const mantissa_type FloatTraits&lt; T, 8 &gt;::mantissa_max</definition>
+        <argsstring></argsstring>
+        <name>mantissa_max</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::mantissa_max</qualifiedname>
+        <initializer>=
+      (mantissa_type(1) &lt;&lt; mantissa_bits) - 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="26" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_float_traits_3_01_t_00_018_01_4_1ab3e7eb4fb9d809c2c3f6ebc6a6af2e9b" prot="public" static="yes" mutable="no">
+        <type>const exponent_type</type>
+        <definition>const exponent_type FloatTraits&lt; T, 8 &gt;::exponent_max</definition>
+        <argsstring></argsstring>
+        <name>exponent_max</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::exponent_max</qualifiedname>
+        <initializer>= 308</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="30" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1ad278cd8688bd7bfc27e61f77449a39b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpgm__ptr" kindref="compound">pgm_ptr</ref>&lt; T &gt;</type>
+        <definition>static pgm_ptr&lt; T &gt; FloatTraits&lt; T, 8 &gt;::positiveBinaryPowersOfTen</definition>
+        <argsstring>()</argsstring>
+        <name>positiveBinaryPowersOfTen</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::positiveBinaryPowersOfTen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="32" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="32" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1ac6b3b1d5f1bd77f8ea17997b7dab607c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classpgm__ptr" kindref="compound">pgm_ptr</ref>&lt; T &gt;</type>
+        <definition>static pgm_ptr&lt; T &gt; FloatTraits&lt; T, 8 &gt;::negativeBinaryPowersOfTen</definition>
+        <argsstring>()</argsstring>
+        <name>negativeBinaryPowersOfTen</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::negativeBinaryPowersOfTen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="49" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="49" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a1a1f81cf547330f218bf9e46b0cea10e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::nan</definition>
+        <argsstring>()</argsstring>
+        <name>nan</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::nan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="66" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a649eb140652df611992fe7143b9cf497" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::inf</definition>
+        <argsstring>()</argsstring>
+        <name>inf</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::inf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="70" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1adb8a507cd8bf427a25e70bc7def661b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::highest</definition>
+        <argsstring>()</argsstring>
+        <name>highest</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::highest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="74" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a5b752acf027a9c58780732b78c74e195" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TOut</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::highest_for</definition>
+        <argsstring>(typename enable_if&lt; is_integral&lt; TOut &gt;::value &amp;&amp;is_signed&lt; TOut &gt;::value &amp;&amp;sizeof(TOut)==8, signed &gt;::type *=0)</argsstring>
+        <name>highest_for</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::highest_for</qualifiedname>
+        <param>
+          <type>typename <ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; <ref refid="structis__integral" kindref="compound">is_integral</ref>&lt; TOut &gt;::value &amp;&amp;<ref refid="structis__signed" kindref="compound">is_signed</ref>&lt; TOut &gt;::value &amp;&amp;sizeof(TOut)==8, signed &gt;::type *</type>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="79" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a6caa7b15ab2b1293c478055e887e0d48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TOut</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::highest_for</definition>
+        <argsstring>(typename enable_if&lt; is_integral&lt; TOut &gt;::value &amp;&amp;is_unsigned&lt; TOut &gt;::value &amp;&amp;sizeof(TOut)==8, unsigned &gt;::type *=0)</argsstring>
+        <name>highest_for</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::highest_for</qualifiedname>
+        <param>
+          <type>typename <ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; <ref refid="structis__integral" kindref="compound">is_integral</ref>&lt; TOut &gt;::value &amp;&amp;<ref refid="structis__unsigned" kindref="compound">is_unsigned</ref>&lt; TOut &gt;::value &amp;&amp;sizeof(TOut)==8, unsigned &gt;::type *</type>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="87" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a41c919113c1d3c44b38ac55c79d45eea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::lowest</definition>
+        <argsstring>()</argsstring>
+        <name>lowest</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::lowest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="94" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1adea09f90ba6f15cc9a3a72eee44df727" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FloatTraits&lt; T, 8 &gt;::forge</definition>
+        <argsstring>(uint64_t bits)</argsstring>
+        <name>forge</name>
+        <qualifiedname>FloatTraits&lt; T, 8 &gt;::forge</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="101" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="101" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="23" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="23" bodyend="104"/>
+    <listofallmembers>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1ab3e7eb4fb9d809c2c3f6ebc6a6af2e9b" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>exponent_max</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a2f5cfa8d3b981554224f4a3b6f6dc0c7" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>exponent_type</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1adea09f90ba6f15cc9a3a72eee44df727" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>forge</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1adb8a507cd8bf427a25e70bc7def661b7" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>highest</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a5b752acf027a9c58780732b78c74e195" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>highest_for</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a6caa7b15ab2b1293c478055e887e0d48" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>highest_for</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a649eb140652df611992fe7143b9cf497" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>inf</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a41c919113c1d3c44b38ac55c79d45eea" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>lowest</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a7b558afced2f0a0722c19684ba080070" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>mantissa_bits</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1ae74a9d7a93beaacbd5e6b4784d61be57" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>mantissa_max</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a05ecce1f6c4f73c5eee14032232ffd40" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>mantissa_type</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1a1a1f81cf547330f218bf9e46b0cea10e" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>nan</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1ac6b3b1d5f1bd77f8ea17997b7dab607c" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>negativeBinaryPowersOfTen</name></member>
+      <member refid="struct_float_traits_3_01_t_00_018_01_4_1ad278cd8688bd7bfc27e61f77449a39b0" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>positiveBinaryPowersOfTen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

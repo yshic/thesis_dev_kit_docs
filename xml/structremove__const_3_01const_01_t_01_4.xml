@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structremove__const_3_01const_01_t_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>remove_const&lt; const T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structremove__const_3_01const_01_t_01_4_1a4d3920ff9b5818aca708f1d3897937f9" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T remove_const&lt; const T &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>remove_const&lt; const T &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp" line="18" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp" line="17" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp" bodystart="17" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structremove__const_3_01const_01_t_01_4_1a4d3920ff9b5818aca708f1d3897937f9" prot="public" virt="non-virtual"><scope>remove_const&lt; const T &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

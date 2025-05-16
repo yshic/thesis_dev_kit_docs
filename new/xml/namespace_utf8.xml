@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_utf8" kind="namespace" language="C++">
+    <compoundname>Utf8</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_utf8_8hpp_1ac216635a9cbbd43b4a822d32b87725ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TStringBuilder</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Utf8::encodeCodepoint</definition>
+        <argsstring>(uint32_t codepoint32, TStringBuilder &amp;str)</argsstring>
+        <name>encodeCodepoint</name>
+        <qualifiedname>Utf8::encodeCodepoint</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>codepoint32</declname>
+        </param>
+        <param>
+          <type>TStringBuilder &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" line="13" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" bodystart="13" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

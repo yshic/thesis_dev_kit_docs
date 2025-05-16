@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_l_c_d-_i2_c_8h" kind="file" language="C++">
+    <compoundname>LCD-I2C.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includes local="yes">Wire.h</includes>
+    <includedby refid="_l_c_d-_i2_c_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h</label>
+        <link refid="_l_c_d-_i2_c_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Wire.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_output_state" prot="public">OutputState</innerclass>
+    <innerclass refid="class_l_c_d___i2_c" prot="public">LCD_I2C</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lcd_screen_state_t</name>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303a577c4c095c8862371d467f2c6bb6ef75" prot="public">
+          <name>LCD_SCREEN_DOOR</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303ab609d3eeea209c6774a780608f2764ac" prot="public">
+          <name>LCD_SCREEN_SHT4X</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303ad640bb8ecec7004a451ae3bf419e148b" prot="public">
+          <name>LCD_SCREEN_BMP280</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303ab35919e554d42697361375eac852a3e3" prot="public">
+          <name>LCD_SCREEN_LIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303ae86623df1f8f4b6bb5579910136a9189" prot="public">
+          <name>LCD_SCREEN_PIR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303ad64839e76dc86d0703da3e6b9e9f8f49" prot="public">
+          <name>LCD_SCREEN_MINIFAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303a1fe25306160d1d1aacb462b1cd207ace" prot="public">
+          <name>LCD_SCREEN_CAMERA_FACE_DETECTED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303a3a8f20aac88f18cadfcd715af044f756" prot="public">
+          <name>LCD_SCREEN_CAMERA_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303ae10987b1f7aa66e23434e4432acab6ea" prot="public">
+          <name>LCD_SCREEN_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="49" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="50" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_LCD_I2C_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LCD_I2C_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Wire.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/>This<sp/>struct<sp/>helps<sp/>us<sp/>constructing<sp/>the<sp/>I2C<sp/>output<sp/>based<sp/>on<sp/>data<sp/>and<sp/>control<sp/>outputs.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/>Because<sp/>the<sp/>LCD<sp/>is<sp/>set<sp/>to<sp/>4-bit<sp/>mode,<sp/>4<sp/>bits<sp/>of<sp/>the<sp/>I2C<sp/>output<sp/>are<sp/>for<sp/>the<sp/>control<sp/>outputs</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/>while<sp/>the<sp/>other<sp/>4<sp/>bits<sp/>are<sp/>for<sp/>the<sp/>8<sp/>bits<sp/>of<sp/>data<sp/>which<sp/>are<sp/>send<sp/>in<sp/>parts<sp/>using<sp/>the<sp/>enable<sp/>output.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#define<sp/>DEBUG_PRINT_SCREEN_STATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct_output_state" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_output_state" kindref="compound">OutputState</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Select<sp/>register</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>0:<sp/>instruction<sp/>register</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>1:<sp/>data<sp/>register</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>uint8_t<sp/>rs<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>select<sp/>read<sp/>or<sp/>write</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>uint8_t<sp/>rw<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Enable:<sp/>starts<sp/>data<sp/>read<sp/>or<sp/>write</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>uint8_t<sp/>en<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>LED<sp/>status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>uint8_t<sp/>led<sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>uint8_t<sp/>data<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>uint8_t<sp/>GetLowData()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>buffer<sp/>=<sp/>rs;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>rw<sp/>&lt;&lt;<sp/>1;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>en<sp/>&lt;&lt;<sp/>2;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>led<sp/>&lt;&lt;<sp/>3;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>(data<sp/>&amp;<sp/>0x0F)<sp/>&lt;&lt;<sp/>4;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buffer;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>uint8_t<sp/>GetHighData()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>buffer<sp/>=<sp/>rs;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>rw<sp/>&lt;&lt;<sp/>1;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>en<sp/>&lt;&lt;<sp/>2;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>led<sp/>&lt;&lt;<sp/>3;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>|=<sp/>(data<sp/>&amp;<sp/>0xF0);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buffer;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>LCD_SCREEN_DHT20<sp/>=<sp/>0,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>LCD_SCREEN_DOOR<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>LCD_SCREEN_SHT4X,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>LCD_SCREEN_BMP280,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>LCD_SCREEN_LIGHT,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>LCD_SCREEN_ULTRASONIC,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>LCD_SCREEN_MOISTURE,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>LCD_SCREEN_PIR,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>LCD_SCREEN_MINIFAN,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>LCD_SCREEN_CAMERA_FACE_DETECTED,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>LCD_SCREEN_CAMERA_NONE,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>LCD_SCREEN_COUNT<sp/></highlight><highlight class="comment">//<sp/>Total<sp/>number<sp/>of<sp/>states</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/>lcd_screen_state_t;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_l_c_d___i2_c" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LCD_I2C<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Print</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>LCD_I2C(uint8_t<sp/>address,<sp/>uint8_t<sp/>columns<sp/>=<sp/>16,<sp/>uint8_t<sp/>rows<sp/>=<sp/>2)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>_address(address),<sp/>_columnMax(--columns),<sp/>_rowMax(--rows)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1aa5cb738174b216d2b06b7b11849ee61d" kindref="member">begin</ref>(TwoWire<sp/>*wire);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a5262240ccbb83ec6f37522b8d9322bd7" kindref="member">backlight</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a4f0d21551d40edb54ac1b942bef76d6c" kindref="member">backlightOff</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1af64793f4fed5a850a998619d277248fa" kindref="member">home</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a62a262300317053d98481750e588f12e" kindref="member">leftToRight</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a477dc9c04b7b0f010fcf5288be9f4050" kindref="member">rightToLeft</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a5564c2b6fdb35ba40d7b99399e9ad100" kindref="member">autoscroll</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1ad0431cb8cd92563eaae80d73f6cb6d9b" kindref="member">autoscrollOff</ref>();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a9ecc6249b017a867ba83c0b37dbb4d1b" kindref="member">display</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a3d309d59c218c17ce0da39a4b32b3be1" kindref="member">displayOff</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a090e1dc11adac2ecf4b51c33fbe2d16a" kindref="member">cursor</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a9148c308bc60405264acd2caebb42035" kindref="member">cursorOff</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a824106f0d24f9cc3b133330491821390" kindref="member">blink</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a3a77ab88ae1d7655a54f09d2e5159ff9" kindref="member">blinkOff</ref>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a5c77d5a6768b076dfd9a0cd4e54cf7e7" kindref="member">scrollDisplayLeft</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1ae12bf5d4ae108dcca9b879f3777df484" kindref="member">scrollDisplayRight</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" kindref="member">createChar</ref>(uint8_t<sp/>memory_location,<sp/>uint8_t<sp/>charmap[]);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" kindref="member">setCursor</ref>(uint8_t<sp/>column,<sp/>uint8_t<sp/>row);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_c_d___i2_c_1aaf831006a92860fc2e3e9f79578b2e0b" kindref="member">writeCharCode</ref>(uint8_t<sp/>code);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>progressBar(uint8_t<sp/>row,<sp/>uint8_t<sp/>progress);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>lcd_screen_state_t<sp/>getScreenState();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setScreenState(lcd_screen_state_t<sp/>screenState);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updateScreenState(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>increment);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Method<sp/>used<sp/>by<sp/>the<sp/>Arduino<sp/>class<sp/>&quot;Print&quot;<sp/>which<sp/>is<sp/>the<sp/>one<sp/>that<sp/>provides<sp/>the<sp/>.print(string)<sp/>method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" kindref="member">write</ref>(uint8_t<sp/>character);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>TwoWire<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*_wire{</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_address;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_columnMax;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rowMax;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><ref refid="struct_output_state" kindref="compound">OutputState</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_output;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_displayState<sp/><sp/>=<sp/>0x00;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_entryState<sp/><sp/><sp/><sp/>=<sp/>0x00;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>lcd_screen_state_t<sp/>lcdScreenState<sp/>=<sp/>LCD_SCREEN_SHT4X;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitializeLCD();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>I2C_Write(uint8_t<sp/>output);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LCD_Write(uint8_t<sp/>output,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>initialization<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h"/>
+  </compounddef>
+</doxygen>

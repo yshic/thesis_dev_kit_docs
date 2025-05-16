@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__convertible_3_01_t_00_01_arduino_json_576417456680cf57a91cfe6f778cfea8" kind="struct" language="C++" prot="public">
+    <compoundname>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref refid="struct_variant_comparer" prot="public" virt="non-virtual">VariantComparer</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__convertible_3_01_t_00_01_arduino_json_576417456680cf57a91cfe6f778cfea8_1af8dd4684f868b84677d15ccfee363a41" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;::Comparer</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>Comparer</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;::Comparer</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="197" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="197" bodyend="198"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__convertible_3_01_t_00_01_arduino_json_576417456680cf57a91cfe6f778cfea8"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VariantComparer</label>
+        <link refid="struct_variant_comparer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__convertible_3_01_t_00_01_arduino_json_576417456680cf57a91cfe6f778cfea8"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VariantComparer</label>
+        <link refid="struct_variant_comparer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>rhs</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>VariantData</label>
+        <link refid="class_variant_data"/>
+      </node>
+      <node id="4">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="194" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="196" bodyend="199"/>
+    <listofallmembers>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01is__convertible_3_01_t_00_01_arduino_json_576417456680cf57a91cfe6f778cfea8_1af8dd4684f868b84677d15ccfee363a41" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>Comparer</name></member>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>result_type</name></member>
+      <member refid="struct_variant_comparer_1a4aa33e5055e6d71f4e1088639c0a5fe9" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>rhs</name></member>
+      <member refid="struct_variant_comparer_1a06017a5c0c6dbab97c2b09c0ccb8c38b" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>VariantComparer</name></member>
+      <member refid="struct_variant_comparer_1a96dd462cf49e3383617aeeebf09b5367" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitArray</name></member>
+      <member refid="struct_variant_comparer_1a1d21733717f8c67c2c549c210743aeb6" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitBoolean</name></member>
+      <member refid="struct_variant_comparer_1a7a904b37ee1c60cb1057adf04af473d0" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitFloat</name></member>
+      <member refid="struct_variant_comparer_1ad3d84ce5424d42b94a1f395b175ea833" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitNull</name></member>
+      <member refid="struct_variant_comparer_1a69e828695d38fb6b1b480b0eddec067f" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitObject</name></member>
+      <member refid="struct_variant_comparer_1a143517a7b07a4440537c253451a6fd81" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitRawJson</name></member>
+      <member refid="struct_variant_comparer_1a54c4e706fa248e0e4edd5dbf8f3cd8da" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitSignedInteger</name></member>
+      <member refid="struct_variant_comparer_1ad3f923aaa38834e36f48ffe847da5aac" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitString</name></member>
+      <member refid="struct_variant_comparer_1a4782defb35221db1403f8284896a68d4" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; is_convertible&lt; T, ArduinoJson::JsonVariantConst &gt;::value &gt;::type &gt;</scope><name>visitUnsignedInteger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

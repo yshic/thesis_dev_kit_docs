@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structhttp__parser__url" kind="struct" language="C++" prot="public">
+    <compoundname>http_parser_url</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhttp__parser__url_1a77af61a480f11c41938810dd76ca49eb" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t http_parser_url::field_set</definition>
+        <argsstring></argsstring>
+        <name>field_set</name>
+        <qualifiedname>http_parser_url::field_set</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="63" column="12" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhttp__parser__url_1a875fb8faf3ee45707078eda5435fa563" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t http_parser_url::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>http_parser_url::port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="64" column="12" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhttp__parser__url_1a6510826f3aa9a1100ac5f714323edeb1" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t http_parser_url::off</definition>
+        <argsstring></argsstring>
+        <name>off</name>
+        <qualifiedname>http_parser_url::off</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="67" column="14" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhttp__parser__url_1a60fb784a989dd5a95e5bd19d468d22c7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t http_parser_url::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <qualifiedname>http_parser_url::len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="68" column="14" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhttp__parser__url_1af49700faa1cbd7427862647dca470601" prot="public" static="no" mutable="no">
+        <type>struct http_parser_url::@0</type>
+        <definition>struct http_parser_url::@0 http_parser_url::field_data[UF_MAX]</definition>
+        <argsstring>[UF_MAX]</argsstring>
+        <name>field_data</name>
+        <qualifiedname>http_parser_url::field_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="69" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="62" column="1" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="62" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structhttp__parser__url_1af49700faa1cbd7427862647dca470601" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>field_data</name></member>
+      <member refid="structhttp__parser__url_1a77af61a480f11c41938810dd76ca49eb" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>field_set</name></member>
+      <member refid="structhttp__parser__url_1a60fb784a989dd5a95e5bd19d468d22c7" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>len</name></member>
+      <member refid="structhttp__parser__url_1a6510826f3aa9a1100ac5f714323edeb1" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>off</name></member>
+      <member refid="structhttp__parser__url_1a875fb8faf3ee45707078eda5435fa563" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>port</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

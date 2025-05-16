@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_b2487d639a26a5d9f7da817ab11178e9" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Polyfills</compoundname>
+    <innerdir refid="dir_ab84a8c12e8177e71676119d3d0b1562">lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl</innerdir>
+    <innerdir refid="dir_f846694a70bf10e2323df0eca63347cd">lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits</innerdir>
+    <innerfile refid="alias__cast_8hpp">alias_cast.hpp</innerfile>
+    <innerfile refid="assert_8hpp">assert.hpp</innerfile>
+    <innerfile refid="attributes_8hpp">attributes.hpp</innerfile>
+    <innerfile refid="ctype_8hpp">ctype.hpp</innerfile>
+    <innerfile refid="integer_8hpp">integer.hpp</innerfile>
+    <innerfile refid="limits_8hpp">limits.hpp</innerfile>
+    <innerfile refid="math_8hpp">math.hpp</innerfile>
+    <innerfile refid="pgmspace_8hpp">pgmspace.hpp</innerfile>
+    <innerfile refid="pgmspace__generic_8hpp">pgmspace_generic.hpp</innerfile>
+    <innerfile refid="preprocessor_8hpp">preprocessor.hpp</innerfile>
+    <innerfile refid="type__traits_8hpp">type_traits.hpp</innerfile>
+    <innerfile refid="utility_8hpp">utility.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/"/>
+  </compounddef>
+</doxygen>

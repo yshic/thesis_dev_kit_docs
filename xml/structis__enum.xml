@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structis__enum" kind="struct" language="C++" prot="public">
+    <compoundname>is_enum</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structis__enum_1aecdd48955dfb72b90880aafdec94e2db" prot="public" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool is_enum&lt; T &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>is_enum::value</qualifiedname>
+        <initializer>= <ref refid="structis__convertible" kindref="compound">is_convertible</ref>&lt;T, int&gt;::value &amp;&amp;
+                            !<ref refid="structis__class" kindref="compound">is_class</ref>&lt;T&gt;::value &amp;&amp; !<ref refid="structis__integral" kindref="compound">is_integral</ref>&lt;T&gt;::value &amp;&amp;
+                            !<ref refid="structis__floating__point" kindref="compound">is_floating_point</ref>&lt;T&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp" line="17" column="21" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp" line="16" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structis__enum_1aecdd48955dfb72b90880aafdec94e2db" prot="public" virt="non-virtual"><scope>is_enum</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerdir refid="dir_a71c4a2605183e896b2859442fc7d05c">lib/ac_measure</innerdir>
+    <innerdir refid="dir_51a5aacbb87340dd6d482e871e966e43">lib/ArduinoHttpClient</innerdir>
+    <innerdir refid="dir_c4dedaf980b01a3cd7652d05d949c8d7">lib/ArduinoJson</innerdir>
+    <innerdir refid="dir_41f8e2bb12a105b3e62cc193dacb2d08">lib/bmp280</innerdir>
+    <innerdir refid="dir_03dec873ff5ab607800b9ec54a71117a">lib/bsp</innerdir>
+    <innerdir refid="dir_d20994daa53066fb270f3acc75a99001">lib/button</innerdir>
+    <innerdir refid="dir_10e48b983f378c59dcd859736018b16d">lib/config</innerdir>
+    <innerdir refid="dir_c63ad364df733e24ac431b4390804b9e">lib/dht20</innerdir>
+    <innerdir refid="dir_debc0c43ccc9fdc1f55a45dbc1d2b032">lib/es_soil_7_in_1</innerdir>
+    <innerdir refid="dir_159520f77db5d53b73d737e7c717d236">lib/HUSKYLENS</innerdir>
+    <innerdir refid="dir_0dfbfc4771a825bc2bf5a83dc42eba22">lib/LCD_I2C</innerdir>
+    <innerdir refid="dir_d08c672f8236a5b999347236f7c32810">lib/light_sensor</innerdir>
+    <innerdir refid="dir_c87256a25040e1bb1722121815ea887b">lib/mini_fan</innerdir>
+    <innerdir refid="dir_caef6b4136c8a4c9f4de5c566b28d6f1">lib/pir_sensor</innerdir>
+    <innerdir refid="dir_e0a621e1d8bdb13d08c5c734276be2ee">lib/PubSubClient</innerdir>
+    <innerdir refid="dir_8214822af0602b2c13a0b44b628fc185">lib/relay</innerdir>
+    <innerdir refid="dir_f5420b6d77e365820cde539fe1155c5c">lib/sht3x</innerdir>
+    <innerdir refid="dir_928f9841166f58229f6bae951f08724c">lib/sht4x</innerdir>
+    <innerdir refid="dir_d2ee86d867ee997cf6b53b2f1fb71b16">lib/soil_moisture_sensor</innerdir>
+    <innerdir refid="dir_a1edb5454300fc52cc0038d0f9903d6a">lib/ultrasonic_sensor</innerdir>
+    <innerdir refid="dir_5c75b1126ffe6c52ec9a66ee7be1bfda">lib/unit_4relay</innerdir>
+    <innerdir refid="dir_6d227181b75b2df272f5da1219c76b47">lib/usb_switch</innerdir>
+    <innerdir refid="dir_31153c7d8cc16ae64d9212a5c823a211">lib/utility</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b" kind="class" language="C++" prot="public">
+    <compoundname>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TDestination</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1aa360b26f539b95e7aeb9267f23e0fe63" prot="private" static="no" mutable="no">
+        <type>std::ostream *</type>
+        <definition>std::ostream* Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::os_</definition>
+        <argsstring></argsstring>
+        <name>os_</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::os_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" line="30" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a28ac7e9ce7d602742aba00bf4bfc19f4" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::Writer</definition>
+        <argsstring>(std::ostream &amp;os)</argsstring>
+        <name>Writer</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::Writer</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" line="16" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a37ceb688033b1e3589778d5f09a9319f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::write</definition>
+        <argsstring>(uint8_t c)</argsstring>
+        <name>write</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" line="18" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a16bb55ee1bfddd381409dd35045e6824" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::write</definition>
+        <argsstring>(const uint8_t *s, size_t n)</argsstring>
+        <name>write</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;::write</qualifiedname>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" line="23" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp" bodystart="14" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1aa360b26f539b95e7aeb9267f23e0fe63" prot="private" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;</scope><name>os_</name></member>
+      <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a37ceb688033b1e3589778d5f09a9319f" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;</scope><name>write</name></member>
+      <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a16bb55ee1bfddd381409dd35045e6824" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;</scope><name>write</name></member>
+      <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a28ac7e9ce7d602742aba00bf4bfc19f4" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;</scope><name>Writer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

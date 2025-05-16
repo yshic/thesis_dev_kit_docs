@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_c790ca96885a5398735eb95ccb8cb493" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/bmp280</compoundname>
+    <innerdir refid="dir_62a576adf65336f26f886baa9bd5531a">thesis_mdt266_iotdevkit/lib/bmp280/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/bmp280/"/>
+  </compounddef>
+</doxygen>

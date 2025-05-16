@@ -1,0 +1,14 @@
+.. _exhale_enum_sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02:
+
+Enum sht4x_error_t
+==================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_sht4x_src_sht4x.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sht4x_error_t
+   :project: thesis_dev_kit_docs

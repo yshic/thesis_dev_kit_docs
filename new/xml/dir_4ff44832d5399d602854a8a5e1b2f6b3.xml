@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_4ff44832d5399d602854a8a5e1b2f6b3" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization</compoundname>
+    <innerdir refid="dir_1738763b873abf929d5626af58b2af7e">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers</innerdir>
+    <innerfile refid="_counting_decorator_8hpp">CountingDecorator.hpp</innerfile>
+    <innerfile refid="measure_8hpp">measure.hpp</innerfile>
+    <innerfile refid="serialize_8hpp">serialize.hpp</innerfile>
+    <innerfile refid="_writer_8hpp">Writer.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/"/>
+  </compounddef>
+</doxygen>

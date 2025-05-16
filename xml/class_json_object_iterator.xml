@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_json_object_iterator" kind="class" language="C++" prot="public">
+    <compoundname>JsonObjectIterator</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_json_object_iterator_1a97897db74b0d4fed9f831f2cee2cecbb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class JsonObject</definition>
+        <argsstring></argsstring>
+        <name>JsonObject</name>
+        <qualifiedname>JsonObjectIterator::JsonObject</qualifiedname>
+        <param>
+          <type><ref refid="class_json_object" kindref="compound">JsonObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="30" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_object_iterator_1a1c145e363559113229577d0d393bb055" prot="private" static="no" mutable="no">
+        <type>detail::MemoryPool *</type>
+        <definition>detail::MemoryPool* JsonObjectIterator::pool_</definition>
+        <argsstring></argsstring>
+        <name>pool_</name>
+        <qualifiedname>JsonObjectIterator::pool_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="65" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_object_iterator_1a30426abd18d6cab0ab67a9664d8db59b" prot="private" static="no" mutable="no">
+        <type>detail::VariantSlot *</type>
+        <definition>detail::VariantSlot* JsonObjectIterator::slot_</definition>
+        <argsstring></argsstring>
+        <name>slot_</name>
+        <qualifiedname>JsonObjectIterator::slot_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="66" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_object_iterator_1ac8b304aa151c903ffcc7d0d15634cfd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonObjectIterator::JsonObjectIterator</definition>
+        <argsstring>()</argsstring>
+        <name>JsonObjectIterator</name>
+        <qualifiedname>JsonObjectIterator::JsonObjectIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="33" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1a771c964827f4d6210d67dc47635f6be2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JsonObjectIterator::JsonObjectIterator</definition>
+        <argsstring>(detail::MemoryPool *pool, detail::VariantSlot *slot)</argsstring>
+        <name>JsonObjectIterator</name>
+        <qualifiedname>JsonObjectIterator::JsonObjectIterator</qualifiedname>
+        <param>
+          <type>detail::MemoryPool *</type>
+          <declname>pool</declname>
+        </param>
+        <param>
+          <type>detail::VariantSlot *</type>
+          <declname>slot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="35" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1af5b1b6847f71e9565624de64574e4701" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_pair" kindref="compound">JsonPair</ref></type>
+        <definition>JsonPair JsonObjectIterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>JsonObjectIterator::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="39" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1a40242c27fbd1c5c6888d58095ab6f32a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_pair_ptr" kindref="compound">JsonPairPtr</ref></type>
+        <definition>JsonPairPtr JsonObjectIterator::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>JsonObjectIterator::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="42" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1a747e0a7deb412a8d37f041e15a00c9a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JsonObjectIterator::operator==</definition>
+        <argsstring>(const JsonObjectIterator &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>JsonObjectIterator::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_json_object_iterator" kindref="compound">JsonObjectIterator</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="46" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1a82a6f547a724e1b245617c89fe378d17" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JsonObjectIterator::operator!=</definition>
+        <argsstring>(const JsonObjectIterator &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>JsonObjectIterator::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_json_object_iterator" kindref="compound">JsonObjectIterator</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="50" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1a9959c5277f6c54ccf6707e7b4cc94398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_object_iterator" kindref="compound">JsonObjectIterator</ref> &amp;</type>
+        <definition>JsonObjectIterator &amp; JsonObjectIterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>JsonObjectIterator::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="54" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_object_iterator_1aae7df410c2e54662a3184c940f87e218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_object_iterator" kindref="compound">JsonObjectIterator</ref> &amp;</type>
+        <definition>JsonObjectIterator &amp; JsonObjectIterator::operator+=</definition>
+        <argsstring>(size_t distance)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>JsonObjectIterator::operator+=</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="59" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="29" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="29" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_json_object_iterator_1a97897db74b0d4fed9f831f2cee2cecbb" prot="private" virt="non-virtual"><scope>JsonObjectIterator</scope><name>JsonObject</name></member>
+      <member refid="class_json_object_iterator_1ac8b304aa151c903ffcc7d0d15634cfd2" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>JsonObjectIterator</name></member>
+      <member refid="class_json_object_iterator_1a771c964827f4d6210d67dc47635f6be2" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>JsonObjectIterator</name></member>
+      <member refid="class_json_object_iterator_1a82a6f547a724e1b245617c89fe378d17" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>operator!=</name></member>
+      <member refid="class_json_object_iterator_1af5b1b6847f71e9565624de64574e4701" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>operator*</name></member>
+      <member refid="class_json_object_iterator_1a9959c5277f6c54ccf6707e7b4cc94398" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>operator++</name></member>
+      <member refid="class_json_object_iterator_1aae7df410c2e54662a3184c940f87e218" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>operator+=</name></member>
+      <member refid="class_json_object_iterator_1a40242c27fbd1c5c6888d58095ab6f32a" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>operator-&gt;</name></member>
+      <member refid="class_json_object_iterator_1a747e0a7deb412a8d37f041e15a00c9a6" prot="public" virt="non-virtual"><scope>JsonObjectIterator</scope><name>operator==</name></member>
+      <member refid="class_json_object_iterator_1a1c145e363559113229577d0d393bb055" prot="private" virt="non-virtual"><scope>JsonObjectIterator</scope><name>pool_</name></member>
+      <member refid="class_json_object_iterator_1a30426abd18d6cab0ab67a9664d8db59b" prot="private" virt="non-virtual"><scope>JsonObjectIterator</scope><name>slot_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

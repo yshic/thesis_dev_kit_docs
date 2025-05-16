@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a17495d67f148cdc0b58ab10465163471" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::rhs</definition>
+        <argsstring></argsstring>
+        <name>rhs</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::rhs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="25" column="5" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a26f74cbc8b9288fc9cc5d88bb58ca274" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::Comparer</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Comparer</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::Comparer</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="27" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a237f792e2ee3dac798752635db031acd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::visitString</definition>
+        <argsstring>(const char *lhs, size_t n)</argsstring>
+        <name>visitString</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::visitString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="29" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1acd921d7fcb3140f74884bbf507428e75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompareResult</type>
+        <definition>CompareResult Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::visitNull</definition>
+        <argsstring>()</argsstring>
+        <name>visitNull</name>
+        <qualifiedname>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::visitNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="39" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="39" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</label>
+        <link refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ComparerBase</label>
+        <link refid="struct_comparer_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Visitor&lt; CompareResult &gt;</label>
+        <link refid="struct_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="23" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="24" bodyend="45"/>
+    <listofallmembers>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a26f74cbc8b9288fc9cc5d88bb58ca274" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>Comparer</name></member>
+      <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>result_type</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a17495d67f148cdc0b58ab10465163471" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>rhs</name></member>
+      <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitArray</name></member>
+      <member refid="struct_visitor_1a026b326c33c02e22a79248d8ce08b568" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitBoolean</name></member>
+      <member refid="struct_visitor_1afc7797fcb70c09ed30f7e5fa14174837" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitFloat</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1acd921d7fcb3140f74884bbf507428e75" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitNull</name></member>
+      <member refid="struct_visitor_1a762432b182778bb588dc33535706bd0f" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitObject</name></member>
+      <member refid="struct_visitor_1a2d26ee3a178dc49d1771842d12e3408f" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitRawJson</name></member>
+      <member refid="struct_visitor_1aa46617a82127c176a63fef7d735e2d31" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitSignedInteger</name></member>
+      <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a237f792e2ee3dac798752635db031acd" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitString</name></member>
+      <member refid="struct_visitor_1af7f111c2a204c66ca5b1869d536ac266" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>visitUnsignedInteger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

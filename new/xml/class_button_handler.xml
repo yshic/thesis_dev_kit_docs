@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_button_handler" kind="class" language="C++" prot="public">
+    <compoundname>ButtonHandler</compoundname>
+    <includes refid="button_8h" local="no">button.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_button_handler_1a0d2966226881559edb1863ddab249705" prot="private" static="no" strong="no">
+        <type></type>
+        <name>ButtonState</name>
+        <qualifiedname>ButtonHandler::ButtonState</qualifiedname>
+        <enumvalue id="class_button_handler_1a0d2966226881559edb1863ddab249705a94f351cc8edf1480ac28c41cceff975c" prot="private">
+          <name>STATE_IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_button_handler_1a0d2966226881559edb1863ddab249705a207cdca13cd04dbab6a98921ac80d5ac" prot="private">
+          <name>STATE_BUTTON_DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_button_handler_1a0d2966226881559edb1863ddab249705a9282a879e9fa33f6749cdf98c7ca0af1" prot="private">
+          <name>STATE_WAIT_FOR_SECOND_CLICK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_button_handler_1a0d2966226881559edb1863ddab249705a63e00c6603e515a28ed8ac6e07c292c9" prot="private">
+          <name>STATE_HOLDING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_button_handler_1a0d2966226881559edb1863ddab249705af8451eab2c8ac9610bbba81b73e7a746" prot="private">
+          <name>STATE_HOLD_RELEASE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="172" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="173" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_button_handler_1a8f25d43e6d1d3c4e12911dbef7daf3f6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ButtonHandler::buttonPin</definition>
+        <argsstring></argsstring>
+        <name>buttonPin</name>
+        <qualifiedname>ButtonHandler::buttonPin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="154" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a094c3c53095ce162bdeab032105a38d1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ButtonHandler::activeLow</definition>
+        <argsstring></argsstring>
+        <name>activeLow</name>
+        <qualifiedname>ButtonHandler::activeLow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="155" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1af4cd5e71552a8ee2dff6aa43a46481aa" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int ButtonHandler::debounceDuration</definition>
+        <argsstring></argsstring>
+        <name>debounceDuration</name>
+        <qualifiedname>ButtonHandler::debounceDuration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="156" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a3bd0cf1d4ea105472df35809c4b573c1" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int ButtonHandler::doubleClickInterval</definition>
+        <argsstring></argsstring>
+        <name>doubleClickInterval</name>
+        <qualifiedname>ButtonHandler::doubleClickInterval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="157" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1ab741b12b65d726afecac27a3b2be3853" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int ButtonHandler::holdDuration</definition>
+        <argsstring></argsstring>
+        <name>holdDuration</name>
+        <qualifiedname>ButtonHandler::holdDuration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="158" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1ad10e20e183665d1c0e87c203634131fc" prot="private" static="no" mutable="no">
+        <type>ButtonCallback</type>
+        <definition>ButtonCallback ButtonHandler::singleClickCallback</definition>
+        <argsstring></argsstring>
+        <name>singleClickCallback</name>
+        <qualifiedname>ButtonHandler::singleClickCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="160" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1ae21c90e749df4065ee738a1d9953babd" prot="private" static="no" mutable="no">
+        <type>ButtonCallback</type>
+        <definition>ButtonCallback ButtonHandler::doubleClickCallback</definition>
+        <argsstring></argsstring>
+        <name>doubleClickCallback</name>
+        <qualifiedname>ButtonHandler::doubleClickCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="161" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1aa1641e36196fe2d4d573ca757bbf3b73" prot="private" static="no" mutable="no">
+        <type>ButtonCallback</type>
+        <definition>ButtonCallback ButtonHandler::holdStartCallback</definition>
+        <argsstring></argsstring>
+        <name>holdStartCallback</name>
+        <qualifiedname>ButtonHandler::holdStartCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="162" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1ad653fdd77d3989977183ce13ebe13613" prot="private" static="no" mutable="no">
+        <type>ButtonCallback</type>
+        <definition>ButtonCallback ButtonHandler::holdReleaseCallback</definition>
+        <argsstring></argsstring>
+        <name>holdReleaseCallback</name>
+        <qualifiedname>ButtonHandler::holdReleaseCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="163" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a6fd3a1837a0b1748d9ca13daeb8e141e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ButtonHandler::lastButtonState</definition>
+        <argsstring></argsstring>
+        <name>lastButtonState</name>
+        <qualifiedname>ButtonHandler::lastButtonState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="165" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a4e42d79b6608582118cce469bfd7a2be" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ButtonHandler::lastDebounceTime</definition>
+        <argsstring></argsstring>
+        <name>lastDebounceTime</name>
+        <qualifiedname>ButtonHandler::lastDebounceTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="166" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a75e6da0d7908f45e62a8bb607d5963d3" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ButtonHandler::lastClickTime</definition>
+        <argsstring></argsstring>
+        <name>lastClickTime</name>
+        <qualifiedname>ButtonHandler::lastClickTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="167" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a69d4ec601baf68e9e4b60be91e9db1af" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ButtonHandler::isHolding</definition>
+        <argsstring></argsstring>
+        <name>isHolding</name>
+        <qualifiedname>ButtonHandler::isHolding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="168" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a5dd68b926c1b8424cfabf76c8898daa9" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ButtonHandler::holdStartTime</definition>
+        <argsstring></argsstring>
+        <name>holdStartTime</name>
+        <qualifiedname>ButtonHandler::holdStartTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="169" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1a47d04edd8e856c60e822c44014d854d0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ButtonHandler::clickCount</definition>
+        <argsstring></argsstring>
+        <name>clickCount</name>
+        <qualifiedname>ButtonHandler::clickCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="170" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1aff40c2892f4a420ae2b12d1b0d3419e7" prot="private" static="no" mutable="no">
+        <type>ButtonState</type>
+        <definition>ButtonState ButtonHandler::currentState</definition>
+        <argsstring></argsstring>
+        <name>currentState</name>
+        <qualifiedname>ButtonHandler::currentState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="181" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_handler_1aba2bb6329c14ad5e6089482d1ac875a5" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ButtonHandler::stateStartTime</definition>
+        <argsstring></argsstring>
+        <name>stateStartTime</name>
+        <qualifiedname>ButtonHandler::stateStartTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="184" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ButtonHandler::ButtonHandler</definition>
+        <argsstring>(int pin, bool isActiveLow=true, bool usePullup=true)</argsstring>
+        <name>ButtonHandler</name>
+        <qualifiedname>ButtonHandler::ButtonHandler</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isActiveLow</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usePullup</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Initialize the <ref refid="class_button_handler" kindref="compound">ButtonHandler</ref> instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Digital pin connected to the button. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">isActiveLow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the button&apos;s active state is LOW. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">usePullup</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to enable internal pull-up resistor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Initialization successful.</para>
+</listitem><listitem><para>BUTTON_ERR_INVALID_PARAM: Invalid pin number. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="62" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="4" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::setDebounceDuration</definition>
+        <argsstring>(unsigned int ms)</argsstring>
+        <name>setDebounceDuration</name>
+        <qualifiedname>ButtonHandler::setDebounceDuration</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+<para>Set debounce duration in milliseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Debounce duration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Parameter set successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_INVALID_PARAM: Invalid duration value. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="74" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1ab5e0cbc1ab74e1cfb9ab7f4417584a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::setDoubleClickInterval</definition>
+        <argsstring>(unsigned int ms)</argsstring>
+        <name>setDoubleClickInterval</name>
+        <qualifiedname>ButtonHandler::setDoubleClickInterval</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+<para>Set double-click maximum interval in milliseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum time between clicks.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Parameter set successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_INVALID_PARAM: Invalid duration value. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="86" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1a772346688081ec9304bfbaf9920f49d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::setHoldDuration</definition>
+        <argsstring>(unsigned int ms)</argsstring>
+        <name>setHoldDuration</name>
+        <qualifiedname>ButtonHandler::setHoldDuration</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+<para>Set hold duration in milliseconds for triggering hold events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hold duration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Parameter set successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_INVALID_PARAM: Invalid duration value. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="98" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1ab12ba9a377ff3dd9ddd09b3770549a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::attachSingleClickCallback</definition>
+        <argsstring>(ButtonCallback callback)</argsstring>
+        <name>attachSingleClickCallback</name>
+        <qualifiedname>ButtonHandler::attachSingleClickCallback</qualifiedname>
+        <param>
+          <type>ButtonCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Attach a callback for single-click events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function to be called on single click.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Callback attached successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_UNINITIALIZED: Button not initialized. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="110" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="46" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::attachDoubleClickCallback</definition>
+        <argsstring>(ButtonCallback callback)</argsstring>
+        <name>attachDoubleClickCallback</name>
+        <qualifiedname>ButtonHandler::attachDoubleClickCallback</qualifiedname>
+        <param>
+          <type>ButtonCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Attach a callback for double-click events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function to be called on double click.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Callback attached successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_UNINITIALIZED: Button not initialized. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="122" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="56" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1aca1da4b0a47414a3221902947867bee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::attachHoldStartCallback</definition>
+        <argsstring>(ButtonCallback callback)</argsstring>
+        <name>attachHoldStartCallback</name>
+        <qualifiedname>ButtonHandler::attachHoldStartCallback</qualifiedname>
+        <param>
+          <type>ButtonCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Attach a callback for hold start events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function to be called when a hold starts.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Callback attached successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_UNINITIALIZED: Button not initialized. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="134" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="66" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1a5eaf04c0e2facda78d57a5642b6cf502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>button_handler_error_t</type>
+        <definition>button_handler_error_t ButtonHandler::attachHoldReleaseCallback</definition>
+        <argsstring>(ButtonCallback callback)</argsstring>
+        <name>attachHoldReleaseCallback</name>
+        <qualifiedname>ButtonHandler::attachHoldReleaseCallback</qualifiedname>
+        <param>
+          <type>ButtonCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Attach a callback for hold release events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function to be called when hold is released.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>BUTTON_OK: Callback attached successfully.</para>
+</listitem><listitem><para>BUTTON_ERR_UNINITIALIZED: Button not initialized. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="146" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonHandler::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <qualifiedname>ButtonHandler::update</qualifiedname>
+        <briefdescription>
+<para>Periodically process the button state. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="151" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="86" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_button_handler_1af0faa715e2c71d11e5110a3d75dcf322" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ButtonHandler::hasElapsed</definition>
+        <argsstring>(unsigned long start, unsigned long duration)</argsstring>
+        <name>hasElapsed</name>
+        <qualifiedname>ButtonHandler::hasElapsed</qualifiedname>
+        <param>
+          <type>unsigned long</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="186" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_handler_1aee64f7b3cedd9c8cedceed9a8b19236b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonHandler::resetFSM</definition>
+        <argsstring>()</argsstring>
+        <name>resetFSM</name>
+        <qualifiedname>ButtonHandler::resetFSM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="192" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="192" bodyend="198"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Manages button presses, handling debouncing, click detection, and hold events. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_button_handler" kindref="compound">ButtonHandler</ref></computeroutput> class provides functionality for processing button interactions, including single-click, double-click, and hold events. It utilizes a finite state machine (FSM) to ensure reliable event detection, minimizing issues related to button bouncing.</para>
+<sect1 id="class_button_handler_1autotoc_md13_1s1"><sect2 id="class_button_handler_1autotoc_md13_1s2"><sect3 id="class_button_handler_1autotoc_md13">
+<title>Features:</title><para><itemizedlist>
+<listitem><para>Configurable debounce duration for stable input.</para>
+</listitem><listitem><para>Detection of single-click, double-click, and hold events.</para>
+</listitem><listitem><para>Support for callback functions triggered by button events.</para>
+</listitem><listitem><para>Internal state tracking for efficient processing.</para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+<sect1 id="class_button_handler_1autotoc_md14_1s1"><sect2 id="class_button_handler_1autotoc_md14_1s2"><sect3 id="class_button_handler_1autotoc_md14">
+<title>Usage:</title><para>After instantiating the class, users should call the <computeroutput><ref refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" kindref="member">update()</ref></computeroutput> method periodically to process button states. Callback functions can be attached for various button events to respond dynamically.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_button_handler_1autotoc_md15_1s1"><sect2 id="class_button_handler_1autotoc_md15_1s2"><sect3 id="class_button_handler_1autotoc_md15">
+<title>Dependencies:</title><para><itemizedlist>
+<listitem><para>Requires connection to a digital input pin.</para>
+</listitem><listitem><para>Optional internal pull-up resistor activation.</para>
+</listitem><listitem><para>Callbacks should be defined before use. </para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="47" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="48" bodyend="199"/>
+    <listofallmembers>
+      <member refid="class_button_handler_1a094c3c53095ce162bdeab032105a38d1" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>activeLow</name></member>
+      <member refid="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>attachDoubleClickCallback</name></member>
+      <member refid="class_button_handler_1a5eaf04c0e2facda78d57a5642b6cf502" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>attachHoldReleaseCallback</name></member>
+      <member refid="class_button_handler_1aca1da4b0a47414a3221902947867bee0" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>attachHoldStartCallback</name></member>
+      <member refid="class_button_handler_1ab12ba9a377ff3dd9ddd09b3770549a2c" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>attachSingleClickCallback</name></member>
+      <member refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>ButtonHandler</name></member>
+      <member refid="class_button_handler_1a8f25d43e6d1d3c4e12911dbef7daf3f6" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>buttonPin</name></member>
+      <member refid="class_button_handler_1a0d2966226881559edb1863ddab249705" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>ButtonState</name></member>
+      <member refid="class_button_handler_1a47d04edd8e856c60e822c44014d854d0" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>clickCount</name></member>
+      <member refid="class_button_handler_1aff40c2892f4a420ae2b12d1b0d3419e7" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>currentState</name></member>
+      <member refid="class_button_handler_1af4cd5e71552a8ee2dff6aa43a46481aa" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>debounceDuration</name></member>
+      <member refid="class_button_handler_1ae21c90e749df4065ee738a1d9953babd" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>doubleClickCallback</name></member>
+      <member refid="class_button_handler_1a3bd0cf1d4ea105472df35809c4b573c1" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>doubleClickInterval</name></member>
+      <member refid="class_button_handler_1af0faa715e2c71d11e5110a3d75dcf322" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>hasElapsed</name></member>
+      <member refid="class_button_handler_1ab741b12b65d726afecac27a3b2be3853" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>holdDuration</name></member>
+      <member refid="class_button_handler_1ad653fdd77d3989977183ce13ebe13613" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>holdReleaseCallback</name></member>
+      <member refid="class_button_handler_1aa1641e36196fe2d4d573ca757bbf3b73" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>holdStartCallback</name></member>
+      <member refid="class_button_handler_1a5dd68b926c1b8424cfabf76c8898daa9" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>holdStartTime</name></member>
+      <member refid="class_button_handler_1a69d4ec601baf68e9e4b60be91e9db1af" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>isHolding</name></member>
+      <member refid="class_button_handler_1a6fd3a1837a0b1748d9ca13daeb8e141e" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>lastButtonState</name></member>
+      <member refid="class_button_handler_1a75e6da0d7908f45e62a8bb607d5963d3" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>lastClickTime</name></member>
+      <member refid="class_button_handler_1a4e42d79b6608582118cce469bfd7a2be" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>lastDebounceTime</name></member>
+      <member refid="class_button_handler_1aee64f7b3cedd9c8cedceed9a8b19236b" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>resetFSM</name></member>
+      <member refid="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>setDebounceDuration</name></member>
+      <member refid="class_button_handler_1ab5e0cbc1ab74e1cfb9ab7f4417584a39" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>setDoubleClickInterval</name></member>
+      <member refid="class_button_handler_1a772346688081ec9304bfbaf9920f49d9" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>setHoldDuration</name></member>
+      <member refid="class_button_handler_1ad10e20e183665d1c0e87c203634131fc" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>singleClickCallback</name></member>
+      <member refid="class_button_handler_1a0d2966226881559edb1863ddab249705a207cdca13cd04dbab6a98921ac80d5ac" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>STATE_BUTTON_DOWN</name></member>
+      <member refid="class_button_handler_1a0d2966226881559edb1863ddab249705af8451eab2c8ac9610bbba81b73e7a746" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>STATE_HOLD_RELEASE</name></member>
+      <member refid="class_button_handler_1a0d2966226881559edb1863ddab249705a63e00c6603e515a28ed8ac6e07c292c9" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>STATE_HOLDING</name></member>
+      <member refid="class_button_handler_1a0d2966226881559edb1863ddab249705a94f351cc8edf1480ac28c41cceff975c" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>STATE_IDLE</name></member>
+      <member refid="class_button_handler_1a0d2966226881559edb1863ddab249705a9282a879e9fa33f6749cdf98c7ca0af1" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>STATE_WAIT_FOR_SECOND_CLICK</name></member>
+      <member refid="class_button_handler_1aba2bb6329c14ad5e6089482d1ac875a5" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>stateStartTime</name></member>
+      <member refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

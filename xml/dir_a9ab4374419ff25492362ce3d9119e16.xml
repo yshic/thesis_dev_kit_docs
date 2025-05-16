@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a9ab4374419ff25492362ce3d9119e16" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Deserialization</compoundname>
+    <innerdir refid="dir_a3b5c57cb91440e2268e221c386903dd">lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</innerdir>
+    <innerfile refid="_deserialization_error_8hpp">DeserializationError.hpp</innerfile>
+    <innerfile refid="_deserialization_options_8hpp">DeserializationOptions.hpp</innerfile>
+    <innerfile refid="deserialize_8hpp">deserialize.hpp</innerfile>
+    <innerfile refid="_filter_8hpp">Filter.hpp</innerfile>
+    <innerfile refid="_nesting_limit_8hpp">NestingLimit.hpp</innerfile>
+    <innerfile refid="_reader_8hpp">Reader.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_s_h_t4_x" kind="class" language="C++" prot="public">
+    <compoundname>SHT4X</compoundname>
+    <includes refid="sht4x_8h" local="no">sht4x.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_h_t4_x_1abd9012d5e758513bd1526d79e00dfa3b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SHT4X::sensorValue[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>sensorValue</name>
+        <qualifiedname>SHT4X::sensorValue</qualifiedname>
+        <initializer>= {0.f}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="235" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="235" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_h_t4_x_1afb7f0574ef41e268c831cb179e3e20ea" prot="private" static="no" mutable="no">
+        <type>sht4x_precision_t</type>
+        <definition>sht4x_precision_t SHT4X::_precision</definition>
+        <argsstring></argsstring>
+        <name>_precision</name>
+        <qualifiedname>SHT4X::_precision</qualifiedname>
+        <initializer>= SHT4X_HIGH_PRECISION</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="237" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_h_t4_x_1a0a5f387d340b6419916f78985b8a4e8d" prot="private" static="no" mutable="no">
+        <type><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref></type>
+        <definition>sht4x_heater_t SHT4X::_heater</definition>
+        <argsstring></argsstring>
+        <name>_heater</name>
+        <qualifiedname>SHT4X::_heater</qualifiedname>
+        <initializer>= SHT4X_NO_HEATER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="238" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref></type>
+        <definition>sht4x_error_t SHT4X::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>SHT4X::begin</qualifiedname>
+        <briefdescription>
+<para>Initializes the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks for the presence of the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> sensor on the I2C bus at address 0x44.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the sensor is powered and connected to the I2C bus before calling.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>SHT4X_OK</computeroutput>: Sensor detected and initialized successfully</para>
+</listitem><listitem><para><computeroutput>SHT4X_ERR_I2C</computeroutput>: Sensor not found or I2C communication error </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="141" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref></type>
+        <definition>sht4x_error_t SHT4X::update</definition>
+        <argsstring>(void)</argsstring>
+        <name>update</name>
+        <qualifiedname>SHT4X::update</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Updates temperature and humidity readings from the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends a measurement command based on the configured precision and heater settings, waits for the conversion time, reads the data, verifies the checksum, and updates internal temperature and humidity values.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the sensor is initialized with <computeroutput><ref refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" kindref="member">begin()</ref></computeroutput> and properly connected to the I2C bus.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>SHT4X_OK</computeroutput>: Measurement successful</para>
+</listitem><listitem><para><computeroutput>SHT4X_ERR_CHECKSUM</computeroutput>: Checksum mismatch indicating data corruption </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="159" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="32" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SHT4X::setPrecision</definition>
+        <argsstring>(sht4x_precision_t prec)</argsstring>
+        <name>setPrecision</name>
+        <qualifiedname>SHT4X::setPrecision</qualifiedname>
+        <param>
+          <type>sht4x_precision_t</type>
+          <declname>prec</declname>
+        </param>
+        <briefdescription>
+<para>Sets the measurement precision of the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the sensor to use high, medium, or low precision for measurements, affecting accuracy and conversion time.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">prec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desired precision setting (<computeroutput>SHT4X_HIGH_PRECISION</computeroutput>, <computeroutput>SHT4X_MED_PRECISION</computeroutput>, or <computeroutput>SHT4X_LOW_PRECISION</computeroutput>).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Changes take effect on the next <computeroutput><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">update()</ref></computeroutput> call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="172" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1a8d2a3954c9aa4fbba99c9fb8d8d7bd99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sht4x_precision_t</type>
+        <definition>sht4x_precision_t SHT4X::getPrecision</definition>
+        <argsstring>(void)</argsstring>
+        <name>getPrecision</name>
+        <qualifiedname>SHT4X::getPrecision</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the current measurement precision setting. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the currently configured precision level of the sensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>sht4x_precision_t The current precision setting. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="183" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SHT4X::setHeater</definition>
+        <argsstring>(sht4x_heater_t heat)</argsstring>
+        <name>setHeater</name>
+        <qualifiedname>SHT4X::setHeater</qualifiedname>
+        <param>
+          <type><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref></type>
+          <declname>heat</declname>
+        </param>
+        <briefdescription>
+<para>Sets the heater mode of the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the built-in heater to one of several power levels and durations, or disables it.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">heat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desired heater mode (e.g., <computeroutput>SHT4X_NO_HEATER</computeroutput>, <computeroutput>SHT4X_HIGH_HEATER_1S</computeroutput>).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Heater settings affect power consumption and measurement duration. Changes take effect on the next <computeroutput><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">update()</ref></computeroutput> call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="195" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1a6f65e80033a02d9fb1857b32ddf2502c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref></type>
+        <definition>sht4x_heater_t SHT4X::getHeater</definition>
+        <argsstring>(void)</argsstring>
+        <name>getHeater</name>
+        <qualifiedname>SHT4X::getHeater</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the current heater mode setting. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the currently configured heater mode of the sensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref> The current heater mode setting. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="206" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SHT4X::getTemperature</definition>
+        <argsstring>()</argsstring>
+        <name>getTemperature</name>
+        <qualifiedname>SHT4X::getTemperature</qualifiedname>
+        <briefdescription>
+<para>Retrieves the last measured temperature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the most recent temperature reading stored internally, in degrees Celsius.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">update()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The temperature in degrees Celsius. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="219" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SHT4X::getHumidity</definition>
+        <argsstring>()</argsstring>
+        <name>getHumidity</name>
+        <qualifiedname>SHT4X::getHumidity</qualifiedname>
+        <briefdescription>
+<para>Retrieves the last measured humidity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the most recent relative humidity reading stored internally, constrained to 0–100%.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">update()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The relative humidity percentage (RH). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="232" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="113" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Manages temperature and humidity measurements using the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> sensor. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref></computeroutput> class facilitates interaction with the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> temperature and humidity sensor over an I2C interface. It supports initializing the sensor, configuring measurement precision and heater settings, and retrieving temperature and humidity data. The class stores sensor values internally for easy access.</para>
+<sect1 id="class_s_h_t4_x_1autotoc_md34_1s1"><sect2 id="class_s_h_t4_x_1autotoc_md34_1s2"><sect3 id="class_s_h_t4_x_1autotoc_md34">
+<title>Features:</title><para><itemizedlist>
+<listitem><para>Reads temperature and humidity with configurable precision levels.</para>
+</listitem><listitem><para>Supports built-in heater control for various power and duration settings.</para>
+</listitem><listitem><para>Verifies data integrity with CRC8 checksum validation.</para>
+</listitem><listitem><para>Provides access to the latest temperature and humidity readings.</para>
+</listitem><listitem><para>Allows configuration of measurement precision and heater modes.</para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+<sect1 id="class_s_h_t4_x_1autotoc_md35_1s1"><sect2 id="class_s_h_t4_x_1autotoc_md35_1s2"><sect3 id="class_s_h_t4_x_1autotoc_md35">
+<title>Usage:</title><para>Instantiate the class and call <computeroutput><ref refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Use <computeroutput><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">update()</ref></computeroutput> to read temperature and humidity, then retrieve values with <computeroutput><ref refid="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" kindref="member">getTemperature()</ref></computeroutput> and <computeroutput><ref refid="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" kindref="member">getHumidity()</ref></computeroutput>. Configure precision with <computeroutput><ref refid="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" kindref="member">setPrecision()</ref></computeroutput> and heater settings with <computeroutput><ref refid="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" kindref="member">setHeater()</ref></computeroutput> as needed.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_s_h_t4_x_1autotoc_md36_1s1"><sect2 id="class_s_h_t4_x_1autotoc_md36_1s2"><sect3 id="class_s_h_t4_x_1autotoc_md36">
+<title>Dependencies:</title><para><itemizedlist>
+<listitem><para>Requires an I2C communication library (<computeroutput><ref refid="bsp__i2c_8h" kindref="compound">bsp_i2c.h</ref></computeroutput> for <computeroutput>bspI2CExist</computeroutput>, <computeroutput>bspI2CWriteByte</computeroutput>, <computeroutput>bspI2CReadBytes</computeroutput>).</para>
+</listitem><listitem><para>Sensor must be connected to a valid I2C bus at address <computeroutput>SHT40_I2C_ADDR_44</computeroutput> (0x44).</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="utility_8h" kindref="compound">utility.h</ref></computeroutput> for <computeroutput>crc8</computeroutput> function and <computeroutput><ref refid="config_8h" kindref="compound">config.h</ref></computeroutput> for configuration settings. </para>
+</listitem></itemizedlist>
+</para>
+</sect3></sect2></sect1>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="124" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="125" bodyend="239"/>
+    <listofallmembers>
+      <member refid="class_s_h_t4_x_1a0a5f387d340b6419916f78985b8a4e8d" prot="private" virt="non-virtual"><scope>SHT4X</scope><name>_heater</name></member>
+      <member refid="class_s_h_t4_x_1afb7f0574ef41e268c831cb179e3e20ea" prot="private" virt="non-virtual"><scope>SHT4X</scope><name>_precision</name></member>
+      <member refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>begin</name></member>
+      <member refid="class_s_h_t4_x_1a6f65e80033a02d9fb1857b32ddf2502c" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>getHeater</name></member>
+      <member refid="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>getHumidity</name></member>
+      <member refid="class_s_h_t4_x_1a8d2a3954c9aa4fbba99c9fb8d8d7bd99" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>getPrecision</name></member>
+      <member refid="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>getTemperature</name></member>
+      <member refid="class_s_h_t4_x_1abd9012d5e758513bd1526d79e00dfa3b" prot="private" virt="non-virtual"><scope>SHT4X</scope><name>sensorValue</name></member>
+      <member refid="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>setHeater</name></member>
+      <member refid="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>setPrecision</name></member>
+      <member refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" prot="public" virt="non-virtual"><scope>SHT4X</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

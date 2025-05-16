@@ -1,0 +1,14 @@
+.. _exhale_function__utf16_8hpp_1a2d5b9f8162ba16046baa68690d6217c4:
+
+Function Utf16::isLowSurrogate
+==============================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_ArduinoJson_src_ArduinoJson_Json_Utf16.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: Utf16::isLowSurrogate(uint16_t)
+   :project: thesis_dev_kit_docs

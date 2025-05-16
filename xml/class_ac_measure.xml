@@ -1,0 +1,1107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_ac_measure" kind="class" language="C++" prot="public">
+    <compoundname>AcMeasure</compoundname>
+    <includes refid="ac__measure_8h" local="no">ac_measure.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ac_measure_1ae725db0ec748e0a73d1a23ad8f79b9b4" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::_addr</definition>
+        <argsstring></argsstring>
+        <name>_addr</name>
+        <qualifiedname>AcMeasure::_addr</qualifiedname>
+        <initializer>= UNIT_ACMEASURE_DEFAULT_ADDR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="101" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::begin</definition>
+        <argsstring>(void)</argsstring>
+        <name>begin</name>
+        <qualifiedname>AcMeasure::begin</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initializes the AC measurement device by checking I2C connectivity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function verifies the presence of the device at the specified I2C address. It must be called before any other operations to ensure proper communication.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the device is powered and correctly connected to the I2C bus.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>UNIT_AC_MEASURE_ERR_I2C</computeroutput>: I2C communication failure </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="119" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="29" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a9921894e5d8991c64920b6e1520166ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::getFirmwareVersion</definition>
+        <argsstring>(void)</argsstring>
+        <name>getFirmwareVersion</name>
+        <qualifiedname>AcMeasure::getFirmwareVersion</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the firmware version of the AC measurement device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the firmware version from the device’s firmware version register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The firmware version. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="132" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a2299cd19d808e1bea7b39f913ad5ea01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::getReady</definition>
+        <argsstring>(void)</argsstring>
+        <name>getReady</name>
+        <qualifiedname>AcMeasure::getReady</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Checks the readiness status of the AC measurement device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Queries the device to determine if it is ready to provide measurement data.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The readiness status (typically 0 or 1). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="145" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a856cddd887e074bf338fd03fb51e113d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t AcMeasure::getRawVoltage</definition>
+        <argsstring>(void)</argsstring>
+        <name>getRawVoltage</name>
+        <qualifiedname>AcMeasure::getRawVoltage</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reads the raw voltage value from the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the unprocessed voltage data from the device’s voltage register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint16_t The raw voltage value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="158" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="55" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1aeb401f8dd2b2d1164bc78438b9e99828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AcMeasure::getVoltage</definition>
+        <argsstring>(void)</argsstring>
+        <name>getVoltage</name>
+        <qualifiedname>AcMeasure::getVoltage</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the voltage in volts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the raw voltage value to a floating-point representation in volts.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The voltage value in volts. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="171" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a78e2233a7b97ea4004ba03c3596e6fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t AcMeasure::getRawCurrent</definition>
+        <argsstring>(void)</argsstring>
+        <name>getRawCurrent</name>
+        <qualifiedname>AcMeasure::getRawCurrent</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reads the raw current value from the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the unprocessed current data from the device’s current register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint16_t The raw current value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="184" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="72" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1af174b4c4da8f50d16cc23f94dba5818c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AcMeasure::getCurrent</definition>
+        <argsstring>(void)</argsstring>
+        <name>getCurrent</name>
+        <qualifiedname>AcMeasure::getCurrent</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the current in amperes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the raw current value to a floating-point representation in amperes.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The current value in amperes. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="197" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1ad7dbce6613d27f35b61a5bf511e21f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t AcMeasure::getRawPower</definition>
+        <argsstring>(void)</argsstring>
+        <name>getRawPower</name>
+        <qualifiedname>AcMeasure::getRawPower</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reads the raw power value from the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the unprocessed power data from the device’s power register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint32_t The raw power value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="210" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="89" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1aec66bea59d62f6478536246ba071f78d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AcMeasure::getPower</definition>
+        <argsstring>(void)</argsstring>
+        <name>getPower</name>
+        <qualifiedname>AcMeasure::getPower</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the power in watts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the raw power value to a floating-point representation in watts.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The power value in watts. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="223" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1ae8b63172bb9e9f041942838d94a49859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t AcMeasure::getRawApparentPower</definition>
+        <argsstring>(void)</argsstring>
+        <name>getRawApparentPower</name>
+        <qualifiedname>AcMeasure::getRawApparentPower</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reads the raw apparent power value from the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the unprocessed apparent power data from the device’s apparent power register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint32_t The raw apparent power value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="236" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a3edd0611ed8c28edabeb6670d33d9f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AcMeasure::getApparentPower</definition>
+        <argsstring>(void)</argsstring>
+        <name>getApparentPower</name>
+        <qualifiedname>AcMeasure::getApparentPower</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the apparent power in volt-amperes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the raw apparent power value to a floating-point representation in volt-amperes.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The apparent power value in volt-amperes. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="249" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="116" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a0b272c14c6f3f360e415308c27a5b2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::getRawPowerFactor</definition>
+        <argsstring>(void)</argsstring>
+        <name>getRawPowerFactor</name>
+        <qualifiedname>AcMeasure::getRawPowerFactor</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reads the raw power factor value from the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the unprocessed power factor data from the device’s power factor register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The raw power factor value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="262" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="123" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a3be9132b760b88e37bd1463be9324b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AcMeasure::getPowerFactor</definition>
+        <argsstring>(void)</argsstring>
+        <name>getPowerFactor</name>
+        <qualifiedname>AcMeasure::getPowerFactor</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the power factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the raw power factor value to a floating-point representation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The power factor value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="275" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a32c2005a9e2df3cdd349887b762028e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t AcMeasure::getRawKWH</definition>
+        <argsstring>(void)</argsstring>
+        <name>getRawKWH</name>
+        <qualifiedname>AcMeasure::getRawKWH</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reads the raw energy consumption value from the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the unprocessed energy consumption data from the device’s KWH register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization transact()`.</para>
+</simplesect>
+<simplesect kind="return"><para>uint32_t The raw energy consumption value in watt-hours. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="288" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="139" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a354d97e8d07c12f4e873ef2c389e5bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float AcMeasure::getKWH</definition>
+        <argsstring>(void)</argsstring>
+        <name>getKWH</name>
+        <qualifiedname>AcMeasure::getKWH</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the energy consumption in kilowatt-hours. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the raw energy consumption value to a floating-point representation in kilowatt-hours.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The energy consumption value in kilowatt-hours. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="301" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="149" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1ad27164dab1d1fcd42d2c2c570885aba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::getVoltageString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>getVoltageString</name>
+        <qualifiedname>AcMeasure::getVoltageString</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the voltage as a formatted string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the voltage data from the device and stores it as a string in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the character array to store the voltage string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The provided buffer must be large enough to hold the string (typically 7 bytes).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="315" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="155" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a5acc0093d85aa0923b5333fed43cbdb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::getCurrentString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>getCurrentString</name>
+        <qualifiedname>AcMeasure::getCurrentString</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the current as a formatted string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the current data from the device and stores it as a string in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the character array to store the current string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The provided buffer must be large enough to hold the string (typically 7 bytes).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="329" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="165" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a8c6c6775368882ad813a9eebbe2ba73a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::getPowerString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>getPowerString</name>
+        <qualifiedname>AcMeasure::getPowerString</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the power as a formatted string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the power data from the device and stores it as a string in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the character array to store the power string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The provided buffer must be large enough to hold the string (typically 7 bytes).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="343" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="175" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a4480464cfc5f8f3d4ea325e0827f6b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::getApparentPowerString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>getApparentPowerString</name>
+        <qualifiedname>AcMeasure::getApparentPowerString</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the apparent power as a formatted string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the apparent power data from the device and stores it as a string in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the character array to store the apparent power string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The provided buffer must be large enough to hold the string (typically 7 bytes).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="357" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="185" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1ae51533e659b7a57d89fbb91f84a53263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::getPowerFactorString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>getPowerFactorString</name>
+        <qualifiedname>AcMeasure::getPowerFactorString</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the power factor as a formatted string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the power factor data from the device and stores it as a string in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the character array to store the power factor string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The provided buffer must be large enough to hold the string (typically 4 bytes).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="371" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="195" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1aa3ba3cac40fdea50c0bd66e940fcdbdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::getKWHString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>getKWHString</name>
+        <qualifiedname>AcMeasure::getKWHString</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the energy consumption as a formatted string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the energy consumption data from the device and stores it as a string in the provided buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the character array to store the energy consumption string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The provided buffer must be large enough to hold the string (typically 11 bytes).</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="385" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="205" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a4c50c860c6f0f5200f8a438df06fcd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::setKWH</definition>
+        <argsstring>(uint32_t value)</argsstring>
+        <name>setKWH</name>
+        <qualifiedname>AcMeasure::setKWH</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the energy consumption value on the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the specified energy consumption value to the device’s KWH register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The energy consumption value in watt-hours to set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the value is within the valid range for the device.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="399" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="215" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a24df8ac0625ebc45f628bdc6be5db88f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::getVoltageFactor</definition>
+        <argsstring>(void)</argsstring>
+        <name>getVoltageFactor</name>
+        <qualifiedname>AcMeasure::getVoltageFactor</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the voltage calibration factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the voltage calibration factor from the device’s voltage factor register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The voltage calibration factor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="412" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="222" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a39c9067e093e95fc054310cf93471430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::getCurrentFactor</definition>
+        <argsstring>(void)</argsstring>
+        <name>getCurrentFactor</name>
+        <qualifiedname>AcMeasure::getCurrentFactor</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the current calibration factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the current calibration factor from the device’s current factor register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The current calibration factor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="425" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="231" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a902757839f9cbf4fcc6f1b14470a70d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::setVoltageFactor</definition>
+        <argsstring>(uint8_t value)</argsstring>
+        <name>setVoltageFactor</name>
+        <qualifiedname>AcMeasure::setVoltageFactor</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the voltage calibration factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the specified voltage calibration factor to the device’s voltage factor register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The voltage calibration factor to set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the value is within the valid range for the device.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="439" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="240" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a037a111fa065fde9c7838263575d71fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::setCurrentFactor</definition>
+        <argsstring>(uint8_t value)</argsstring>
+        <name>setCurrentFactor</name>
+        <qualifiedname>AcMeasure::setCurrentFactor</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the current calibration factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the specified current calibration factor to the device’s current factor register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current calibration factor to set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the value is within the valid range for the device.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="453" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="247" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a370962e0beb2f9feeb42c244ce40b3d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::saveVoltageCurrentFactor</definition>
+        <argsstring>(void)</argsstring>
+        <name>saveVoltageCurrentFactor</name>
+        <qualifiedname>AcMeasure::saveVoltageCurrentFactor</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Saves the voltage and current calibration factors to the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Persists the currently set voltage and current calibration factors to the device’s non-volatile memory.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="467" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="254" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a9b6f76da8fa54f63d4cf2e83acb965d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ac_measure_error_t</type>
+        <definition>ac_measure_error_t AcMeasure::jumpBootloader</definition>
+        <argsstring>(void)</argsstring>
+        <name>jumpBootloader</name>
+        <qualifiedname>AcMeasure::jumpBootloader</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initiates a jump to the device’s bootloader mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends a command to the device to enter bootloader mode for firmware updates.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>This operation may disrupt normal device operation until reset.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_AC_MEASURE_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="481" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="263" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1ad8c48c819863d6551b054dc7bf67f398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::setI2CAddress</definition>
+        <argsstring>(uint8_t addr)</argsstring>
+        <name>setI2CAddress</name>
+        <qualifiedname>AcMeasure::setI2CAddress</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+<para>Sets the I2C address of the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the device’s I2C address and stores it for subsequent communications.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new I2C address to set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the address is valid and does not conflict with other devices on the bus.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The newly set I2C address. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="494" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="272" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ac_measure_1a012e847385b5c426bae7598a44689cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t AcMeasure::getI2CAddress</definition>
+        <argsstring>(void)</argsstring>
+        <name>getI2CAddress</name>
+        <qualifiedname>AcMeasure::getI2CAddress</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Retrieves the current I2C address of the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the current I2C address from the device’s I2C address register.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires successful initialization via <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>uint8_t The current I2C address. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ac_measure/src/ac_measure.h" line="507" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="278" bodyend="285"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manages AC measurement operations over I2C, providing access to voltage, current, power, and energy data. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="class_ac_measure" kindref="compound">AcMeasure</ref></computeroutput> class facilitates interaction with an AC measurement device via I2C communication. It supports reading raw and converted electrical parameters such as voltage, current, power, apparent power, power factor, and energy consumption. Additionally, it allows configuration of calibration factors and I2C address.</para>
+<sect3 id="class_ac_measure_1autotoc_md0">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Reads raw and converted values for voltage, current, power, and energy.</para>
+</listitem><listitem><para>Supports string representations of measurement data.</para>
+</listitem><listitem><para>Configurable voltage and current calibration factors.</para>
+</listitem><listitem><para>I2C address management and bootloader mode access.</para>
+</listitem><listitem><para>Firmware version and device readiness checks.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_ac_measure_1autotoc_md1">
+<title>Usage:</title>
+<para>Instantiate the class and call <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput> to initialize the device. Use the various getter methods to retrieve measurement data and setter methods to configure the device. Ensure periodic I2C communication checks for reliable operation.</para>
+</sect3>
+<sect3 id="class_ac_measure_1autotoc_md2">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires I2C communication library (<computeroutput>bspI2C</computeroutput> functions).</para>
+</listitem><listitem><para>Device must be connected to a valid I2C bus.</para>
+</listitem><listitem><para>Calibration factors should be set appropriately for accurate measurements. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+    </detaileddescription>
+    <location file="lib/ac_measure/src/ac_measure.h" line="98" column="1" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="99" bodyend="508"/>
+    <listofallmembers>
+      <member refid="class_ac_measure_1ae725db0ec748e0a73d1a23ad8f79b9b4" prot="private" virt="non-virtual"><scope>AcMeasure</scope><name>_addr</name></member>
+      <member refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>begin</name></member>
+      <member refid="class_ac_measure_1a3edd0611ed8c28edabeb6670d33d9f15" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getApparentPower</name></member>
+      <member refid="class_ac_measure_1a4480464cfc5f8f3d4ea325e0827f6b74" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getApparentPowerString</name></member>
+      <member refid="class_ac_measure_1af174b4c4da8f50d16cc23f94dba5818c" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getCurrent</name></member>
+      <member refid="class_ac_measure_1a39c9067e093e95fc054310cf93471430" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getCurrentFactor</name></member>
+      <member refid="class_ac_measure_1a5acc0093d85aa0923b5333fed43cbdb1" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getCurrentString</name></member>
+      <member refid="class_ac_measure_1a9921894e5d8991c64920b6e1520166ee" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getFirmwareVersion</name></member>
+      <member refid="class_ac_measure_1a012e847385b5c426bae7598a44689cdd" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getI2CAddress</name></member>
+      <member refid="class_ac_measure_1a354d97e8d07c12f4e873ef2c389e5bda" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getKWH</name></member>
+      <member refid="class_ac_measure_1aa3ba3cac40fdea50c0bd66e940fcdbdd" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getKWHString</name></member>
+      <member refid="class_ac_measure_1aec66bea59d62f6478536246ba071f78d" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getPower</name></member>
+      <member refid="class_ac_measure_1a3be9132b760b88e37bd1463be9324b5c" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getPowerFactor</name></member>
+      <member refid="class_ac_measure_1ae51533e659b7a57d89fbb91f84a53263" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getPowerFactorString</name></member>
+      <member refid="class_ac_measure_1a8c6c6775368882ad813a9eebbe2ba73a" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getPowerString</name></member>
+      <member refid="class_ac_measure_1ae8b63172bb9e9f041942838d94a49859" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getRawApparentPower</name></member>
+      <member refid="class_ac_measure_1a78e2233a7b97ea4004ba03c3596e6fd1" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getRawCurrent</name></member>
+      <member refid="class_ac_measure_1a32c2005a9e2df3cdd349887b762028e1" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getRawKWH</name></member>
+      <member refid="class_ac_measure_1ad7dbce6613d27f35b61a5bf511e21f3c" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getRawPower</name></member>
+      <member refid="class_ac_measure_1a0b272c14c6f3f360e415308c27a5b2af" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getRawPowerFactor</name></member>
+      <member refid="class_ac_measure_1a856cddd887e074bf338fd03fb51e113d" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getRawVoltage</name></member>
+      <member refid="class_ac_measure_1a2299cd19d808e1bea7b39f913ad5ea01" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getReady</name></member>
+      <member refid="class_ac_measure_1aeb401f8dd2b2d1164bc78438b9e99828" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getVoltage</name></member>
+      <member refid="class_ac_measure_1a24df8ac0625ebc45f628bdc6be5db88f" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getVoltageFactor</name></member>
+      <member refid="class_ac_measure_1ad27164dab1d1fcd42d2c2c570885aba9" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>getVoltageString</name></member>
+      <member refid="class_ac_measure_1a9b6f76da8fa54f63d4cf2e83acb965d6" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>jumpBootloader</name></member>
+      <member refid="class_ac_measure_1a370962e0beb2f9feeb42c244ce40b3d6" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>saveVoltageCurrentFactor</name></member>
+      <member refid="class_ac_measure_1a037a111fa065fde9c7838263575d71fc" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>setCurrentFactor</name></member>
+      <member refid="class_ac_measure_1ad8c48c819863d6551b054dc7bf67f398" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>setI2CAddress</name></member>
+      <member refid="class_ac_measure_1a4c50c860c6f0f5200f8a438df06fcd84" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>setKWH</name></member>
+      <member refid="class_ac_measure_1a902757839f9cbf4fcc6f1b14470a70d4" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>setVoltageFactor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

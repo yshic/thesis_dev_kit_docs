@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_static_string_writer" kind="class" language="C++" prot="public">
+    <compoundname>StaticStringWriter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_static_string_writer_1a1ecaf5ab2a65d1601dab8dcfa55df2e6" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* StaticStringWriter::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>StaticStringWriter::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" line="32" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_static_string_writer_1ad73d74384f033ccaaa87faeb5b0af914" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* StaticStringWriter::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <qualifiedname>StaticStringWriter::p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" line="33" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_static_string_writer_1aa1f68ae49516c7002847ac8e295491ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StaticStringWriter::StaticStringWriter</definition>
+        <argsstring>(char *buf, size_t size)</argsstring>
+        <name>StaticStringWriter</name>
+        <qualifiedname>StaticStringWriter::StaticStringWriter</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" line="13" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_string_writer_1a53a73f851f94b748bdf43ca9d71a726d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t StaticStringWriter::write</definition>
+        <argsstring>(uint8_t c)</argsstring>
+        <name>write</name>
+        <qualifiedname>StaticStringWriter::write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" line="15" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_static_string_writer_1a3483ff44ed01442589b1f72bde37ae6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t StaticStringWriter::write</definition>
+        <argsstring>(const uint8_t *s, size_t n)</argsstring>
+        <name>write</name>
+        <qualifiedname>StaticStringWriter::write</qualifiedname>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" line="22" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" bodystart="22" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" line="11" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp" bodystart="11" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_static_string_writer_1a1ecaf5ab2a65d1601dab8dcfa55df2e6" prot="private" virt="non-virtual"><scope>StaticStringWriter</scope><name>end</name></member>
+      <member refid="class_static_string_writer_1ad73d74384f033ccaaa87faeb5b0af914" prot="private" virt="non-virtual"><scope>StaticStringWriter</scope><name>p</name></member>
+      <member refid="class_static_string_writer_1aa1f68ae49516c7002847ac8e295491ca" prot="public" virt="non-virtual"><scope>StaticStringWriter</scope><name>StaticStringWriter</name></member>
+      <member refid="class_static_string_writer_1a53a73f851f94b748bdf43ca9d71a726d" prot="public" virt="non-virtual"><scope>StaticStringWriter</scope><name>write</name></member>
+      <member refid="class_static_string_writer_1a3483ff44ed01442589b1f72bde37ae6d" prot="public" virt="non-virtual"><scope>StaticStringWriter</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

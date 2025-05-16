@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a93352bbad3a7c09442d89e8febbd5b1" kind="dir">
+    <compoundname>lib/usb_switch/src</compoundname>
+    <innerfile refid="usb__switch_8cpp">usb_switch.cpp</innerfile>
+    <innerfile refid="usb__switch_8h">usb_switch.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/usb_switch/src/"/>
+  </compounddef>
+</doxygen>

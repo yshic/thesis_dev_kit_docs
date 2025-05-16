@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_381851da249482ed4e3dd63fba668019" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Strings</compoundname>
+    <innerdir refid="dir_a609e5dd017321dcf8cfe83525920a42">lib/ArduinoJson/src/ArduinoJson/Strings/Adapters</innerdir>
+    <innerfile refid="_is_string_8hpp">IsString.hpp</innerfile>
+    <innerfile refid="_json_string_8hpp">JsonString.hpp</innerfile>
+    <innerfile refid="_storage_policy_8hpp">StoragePolicy.hpp</innerfile>
+    <innerfile refid="_string_adapter_8hpp">StringAdapter.hpp</innerfile>
+    <innerfile refid="_string_adapters_8hpp">StringAdapters.hpp</innerfile>
+    <innerfile refid="_string_traits_8hpp">StringTraits.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/"/>
+  </compounddef>
+</doxygen>

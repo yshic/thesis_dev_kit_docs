@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_ec747ffc70cc7e265f05154db74edb44" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Serialization</compoundname>
+    <innerdir refid="dir_7f85e5012c841fb6f00c95109dfa13e0">lib/ArduinoJson/src/ArduinoJson/Serialization/Writers</innerdir>
+    <innerfile refid="_counting_decorator_8hpp">CountingDecorator.hpp</innerfile>
+    <innerfile refid="measure_8hpp">measure.hpp</innerfile>
+    <innerfile refid="serialize_8hpp">serialize.hpp</innerfile>
+    <innerfile refid="_writer_8hpp">Writer.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/"/>
+  </compounddef>
+</doxygen>

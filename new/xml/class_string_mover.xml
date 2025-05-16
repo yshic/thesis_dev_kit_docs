@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_string_mover" kind="class" language="C++" prot="public">
+    <compoundname>StringMover</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_string_mover_1ac0d3d3aaed2e36052b634226270e1dc6" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* StringMover::writePtr_</definition>
+        <argsstring></argsstring>
+        <name>writePtr_</name>
+        <qualifiedname>StringMover::writePtr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="44" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_string_mover_1ab5b7eb509bddc8dd9041f9a45280bf03" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* StringMover::startPtr_</definition>
+        <argsstring></argsstring>
+        <name>startPtr_</name>
+        <qualifiedname>StringMover::startPtr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="45" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_string_mover_1a92c894fbbce165f3c2be2f25f2853fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StringMover::StringMover</definition>
+        <argsstring>(char *ptr)</argsstring>
+        <name>StringMover</name>
+        <qualifiedname>StringMover::StringMover</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="14" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_mover_1a5d15a6a177df644774c34e8f4b77e772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StringMover::startString</definition>
+        <argsstring>()</argsstring>
+        <name>startString</name>
+        <qualifiedname>StringMover::startString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="16" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_mover_1a9c298ca174e3493642b86234a860774b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCE_INLINE <ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>FORCE_INLINE JsonString StringMover::save</definition>
+        <argsstring>()</argsstring>
+        <name>save</name>
+        <qualifiedname>StringMover::save</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="20" column="27" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_mover_1aec33578a482818d3135b859b0eedcbca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StringMover::append</definition>
+        <argsstring>(char c)</argsstring>
+        <name>append</name>
+        <qualifiedname>StringMover::append</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="26" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_mover_1a6739128d9bb4296cd9e2f39b0b9f2a5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool StringMover::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <qualifiedname>StringMover::isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="30" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_mover_1a5dda630b6fe9f3d1a6376109b5041602" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
+        <definition>JsonString StringMover::str</definition>
+        <argsstring>() const</argsstring>
+        <name>str</name>
+        <qualifiedname>StringMover::str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="34" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_mover_1a30438263d72c472f3b7b1de39356a32a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t StringMover::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>StringMover::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="39" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" line="12" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_string_mover_1aec33578a482818d3135b859b0eedcbca" prot="public" virt="non-virtual"><scope>StringMover</scope><name>append</name></member>
+      <member refid="class_string_mover_1a6739128d9bb4296cd9e2f39b0b9f2a5d" prot="public" virt="non-virtual"><scope>StringMover</scope><name>isValid</name></member>
+      <member refid="class_string_mover_1a9c298ca174e3493642b86234a860774b" prot="public" virt="non-virtual"><scope>StringMover</scope><name>save</name></member>
+      <member refid="class_string_mover_1a30438263d72c472f3b7b1de39356a32a" prot="public" virt="non-virtual"><scope>StringMover</scope><name>size</name></member>
+      <member refid="class_string_mover_1ab5b7eb509bddc8dd9041f9a45280bf03" prot="private" virt="non-virtual"><scope>StringMover</scope><name>startPtr_</name></member>
+      <member refid="class_string_mover_1a5d15a6a177df644774c34e8f4b77e772" prot="public" virt="non-virtual"><scope>StringMover</scope><name>startString</name></member>
+      <member refid="class_string_mover_1a5dda630b6fe9f3d1a6376109b5041602" prot="public" virt="non-virtual"><scope>StringMover</scope><name>str</name></member>
+      <member refid="class_string_mover_1a92c894fbbce165f3c2be2f25f2853fc5" prot="public" virt="non-virtual"><scope>StringMover</scope><name>StringMover</name></member>
+      <member refid="class_string_mover_1ac0d3d3aaed2e36052b634226270e1dc6" prot="private" virt="non-virtual"><scope>StringMover</scope><name>writePtr_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

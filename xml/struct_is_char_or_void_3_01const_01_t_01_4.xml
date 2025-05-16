@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_is_char_or_void_3_01const_01_t_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>IsCharOrVoid&lt; const T &gt;</compoundname>
+    <basecompoundref refid="struct_is_char_or_void" prot="public" virt="non-virtual">IsCharOrVoid&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IsCharOrVoid&lt; T &gt;</label>
+        <link refid="struct_is_char_or_void"/>
+      </node>
+      <node id="1">
+        <label>IsCharOrVoid&lt; const T &gt;</label>
+        <link refid="struct_is_char_or_void_3_01const_01_t_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IsCharOrVoid&lt; T &gt;</label>
+        <link refid="struct_is_char_or_void"/>
+      </node>
+      <node id="1">
+        <label>IsCharOrVoid&lt; const T &gt;</label>
+        <link refid="struct_is_char_or_void_3_01const_01_t_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/RamReader.hpp" line="19" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/RamReader.hpp" bodystart="19" bodyend="19"/>
+    <listofallmembers>
+      <member refid="struct_is_char_or_void_1ad3568f32324de4f1670c3d86b9a2c83a" prot="public" virt="non-virtual"><scope>IsCharOrVoid&lt; const T &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

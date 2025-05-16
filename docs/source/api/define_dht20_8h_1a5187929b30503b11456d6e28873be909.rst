@@ -1,0 +1,14 @@
+.. _exhale_define_dht20_8h_1a5187929b30503b11456d6e28873be909:
+
+Define DHT20_I2C_ADDR
+=====================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_dht20_src_dht20.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: DHT20_I2C_ADDR
+   :project: thesis_dev_kit_docs

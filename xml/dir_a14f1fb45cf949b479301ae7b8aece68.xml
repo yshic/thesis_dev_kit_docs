@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a14f1fb45cf949b479301ae7b8aece68" kind="dir">
+    <compoundname>lib/ArduinoJson/src/ArduinoJson/Collection</compoundname>
+    <innerfile refid="_collection_data_8hpp">CollectionData.hpp</innerfile>
+    <innerfile refid="_collection_impl_8hpp">CollectionImpl.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Collection/"/>
+  </compounddef>
+</doxygen>

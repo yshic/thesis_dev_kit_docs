@@ -1,0 +1,14 @@
+.. _exhale_enum_bsp__uart_8h_1a9e17496424ed5e391fe2ff5670312e64:
+
+Enum bsp_uart_error_t
+=====================
+
+- Defined in :ref:`file_thesis_mdt266_iotdevkit_lib_bsp_bsp_uart.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: bsp_uart_error_t
+   :project: thesis_dev_kit_docs

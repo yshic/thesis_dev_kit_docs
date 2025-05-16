@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_serialized_value" kind="class" language="C++" prot="public">
+    <compoundname>SerializedValue</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_serialized_value_1a90a3927ea6be989cba07d9b4c0104bd0" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T SerializedValue&lt; T &gt;::str_</definition>
+        <argsstring></argsstring>
+        <name>str_</name>
+        <qualifiedname>SerializedValue::str_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="30" column="5" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_serialized_value_1a5d27809ca5e52bb4146705eb5ba39ed2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SerializedValue&lt; T &gt;::SerializedValue</definition>
+        <argsstring>(T str)</argsstring>
+        <name>SerializedValue</name>
+        <qualifiedname>SerializedValue::SerializedValue</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_serialized_value_1a856000517b500fe46350ec63769952e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SerializedValue&lt; T &gt;::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>SerializedValue::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="16" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_serialized_value_1a3e2d56ec62da6934453f7a3a7b5bd373" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * SerializedValue&lt; T &gt;::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>SerializedValue::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="20" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_serialized_value_1a16b103fe6a8fc5cd5c7bfdf44eb0fe54" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t SerializedValue&lt; T &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>SerializedValue::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="24" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="13" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_serialized_value_1a3e2d56ec62da6934453f7a3a7b5bd373" prot="public" virt="non-virtual"><scope>SerializedValue</scope><name>data</name></member>
+      <member refid="class_serialized_value_1a856000517b500fe46350ec63769952e6" prot="public" virt="non-virtual"><scope>SerializedValue</scope><name>operator T</name></member>
+      <member refid="class_serialized_value_1a5d27809ca5e52bb4146705eb5ba39ed2" prot="public" virt="non-virtual"><scope>SerializedValue</scope><name>SerializedValue</name></member>
+      <member refid="class_serialized_value_1a16b103fe6a8fc5cd5c7bfdf44eb0fe54" prot="public" virt="non-virtual"><scope>SerializedValue</scope><name>size</name></member>
+      <member refid="class_serialized_value_1a90a3927ea6be989cba07d9b4c0104bd0" prot="private" virt="non-virtual"><scope>SerializedValue</scope><name>str_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

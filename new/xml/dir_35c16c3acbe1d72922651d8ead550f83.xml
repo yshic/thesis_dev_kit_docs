@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_35c16c3acbe1d72922651d8ead550f83" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array</compoundname>
+    <innerfile refid="_element_proxy_8hpp">ElementProxy.hpp</innerfile>
+    <innerfile refid="_json_array_8hpp">JsonArray.hpp</innerfile>
+    <innerfile refid="_json_array_const_8hpp">JsonArrayConst.hpp</innerfile>
+    <innerfile refid="_json_array_impl_8hpp">JsonArrayImpl.hpp</innerfile>
+    <innerfile refid="_json_array_iterator_8hpp">JsonArrayIterator.hpp</innerfile>
+    <innerfile refid="_utilities_8hpp">Utilities.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/"/>
+  </compounddef>
+</doxygen>

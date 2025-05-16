@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_is_char" kind="struct" language="C++" prot="public">
+    <compoundname>IsChar</compoundname>
+    <basecompoundref refid="structintegral__constant" prot="public" virt="non-virtual">integral_constant&lt; bool, is_integral&lt; T &gt;::value &amp;&amp;sizeof(T)==1 &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IsChar&lt; T &gt;</label>
+        <link refid="struct_is_char"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>integral_constant&lt; bool, is_integral&lt; T &gt;::value &amp;&amp;sizeof(T)==1 &gt;</label>
+        <link refid="structintegral__constant"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IsChar&lt; T &gt;</label>
+        <link refid="struct_is_char"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>integral_constant&lt; bool, is_integral&lt; T &gt;::value &amp;&amp;sizeof(T)==1 &gt;</label>
+        <link refid="structintegral__constant"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="18" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="19" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>IsChar</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
