@@ -1,7 +1,7 @@
 var searchData=
 [
   ['savevoltagecurrentfactor_0',['saveVoltageCurrentFactor',['../class_ac_measure.html#a370962e0beb2f9feeb42c244ce40b3d6',1,'AcMeasure']]],
-  ['scani2cdevices_1',['scanI2CDevices',['../utility_8h.html#a8fae21c12475addf28c404a0e1c5eab3',1,'scanI2CDevices(void):&#160;utility.cpp'],['../utility_8cpp.html#a2ada518ecc2aaee50304c0c3ecec7370',1,'scanI2CDevices():&#160;utility.cpp']]],
+  ['scani2cdevices_1',['scanI2CDevices',['../utility_8cpp.html#a2ada518ecc2aaee50304c0c3ecec7370',1,'scanI2CDevices():&#160;utility.cpp'],['../utility_8h.html#a8fae21c12475addf28c404a0e1c5eab3',1,'scanI2CDevices(void):&#160;utility.cpp']]],
   ['scrolldisplayleft_2',['scrollDisplayLeft',['../class_l_c_d___i2_c.html#a5c77d5a6768b076dfd9a0cd4e54cf7e7',1,'LCD_I2C']]],
   ['scrolldisplayright_3',['scrollDisplayRight',['../class_l_c_d___i2_c.html#ae12bf5d4ae108dcca9b879f3777df484',1,'LCD_I2C']]],
   ['sealevelforaltitude_4',['seaLevelForAltitude',['../class_b_m_p280.html#aae63fd7ecb6c61963d77e5b256611ba6',1,'BMP280']]],
@@ -23,13 +23,14 @@ var searchData=
   ['setoutputvalue_20',['setOutputValue',['../class_usb_switch.html#a98cf84d4be5cd0554188fc9838aac965',1,'UsbSwitch']]],
   ['setoutputvaluepercentage_21',['setOutputValuePercentage',['../class_usb_switch.html#a49648ccd4487e75f9dca6651fd8f782f',1,'UsbSwitch']]],
   ['setprecision_22',['setPrecision',['../class_s_h_t4_x.html#ac21af46180b62c199abbc6a9f63b02b0',1,'SHT4X']]],
-  ['setsampling_23',['setSampling',['../class_b_m_p280.html#a67efaace84ab36fad15df3ea7f983fe4',1,'BMP280']]],
-  ['setsealevelpressure_24',['setSeaLevelPressure',['../class_b_m_p280.html#a093ed9047d79ba87c18909b87887723f',1,'BMP280']]],
-  ['setsensitivity_25',['setSensitivity',['../class_p_i_r_sensor.html#a4141965c31f3ee33e01c5c13299ffc7f',1,'PIRSensor']]],
-  ['settimeout_26',['setTimeout',['../class_ultrasonic.html#a9da4e607558066d0e149d1e8c1075499',1,'Ultrasonic']]],
-  ['setvoltagefactor_27',['setVoltageFactor',['../class_ac_measure.html#a902757839f9cbf4fcc6f1b14470a70d4',1,'AcMeasure']]],
-  ['skipresponseheaders_28',['skipResponseHeaders',['../class_http_client.html#adbf477517900e0f3a5f662b2f3f4035b',1,'HttpClient']]],
-  ['soilmoisture_29',['SoilMoisture',['../class_soil_moisture.html#ac780e72c4b0422565baa3963ea42228b',1,'SoilMoisture']]],
-  ['startrequest_30',['startRequest',['../class_http_client.html#a132817aa337738438a11635890729023',1,'HttpClient']]],
-  ['switchmode_31',['switchMode',['../class_unit4_relay.html#a25c9b5c0263a67a95d58519cd1b6cad2',1,'Unit4Relay']]]
+  ['setrelaystates_23',['setRelayStates',['../class_unit4_relay.html#a33ce2623dcaaa547cd1e7bc5607b995b',1,'Unit4Relay']]],
+  ['setsampling_24',['setSampling',['../class_b_m_p280.html#a67efaace84ab36fad15df3ea7f983fe4',1,'BMP280']]],
+  ['setsealevelpressure_25',['setSeaLevelPressure',['../class_b_m_p280.html#a093ed9047d79ba87c18909b87887723f',1,'BMP280']]],
+  ['setsensitivity_26',['setSensitivity',['../class_p_i_r_sensor.html#a4141965c31f3ee33e01c5c13299ffc7f',1,'PIRSensor']]],
+  ['settimeout_27',['setTimeout',['../class_ultrasonic.html#a9da4e607558066d0e149d1e8c1075499',1,'Ultrasonic']]],
+  ['setvoltagefactor_28',['setVoltageFactor',['../class_ac_measure.html#a902757839f9cbf4fcc6f1b14470a70d4',1,'AcMeasure']]],
+  ['skipresponseheaders_29',['skipResponseHeaders',['../class_http_client.html#adbf477517900e0f3a5f662b2f3f4035b',1,'HttpClient']]],
+  ['soilmoisture_30',['SoilMoisture',['../class_soil_moisture.html#ac780e72c4b0422565baa3963ea42228b',1,'SoilMoisture']]],
+  ['startrequest_31',['startRequest',['../class_http_client.html#a132817aa337738438a11635890729023',1,'HttpClient']]],
+  ['switchmode_32',['switchMode',['../class_unit4_relay.html#a25c9b5c0263a67a95d58519cd1b6cad2',1,'Unit4Relay']]]
 ];

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_7fbd116798375880a191908a6b42ae3b" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/dht20/examples</compoundname>
+    <innerfile refid="dht20__simple__read_8cpp">dht20_simple_read.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/examples/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_70a531e7d634c6cf84314a6ad4c3e11d" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/relay/src</compoundname>
+    <innerfile refid="relay_8cpp">relay.cpp</innerfile>
+    <innerfile refid="relay_8h">relay.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/relay/src/"/>
+  </compounddef>
+</doxygen>

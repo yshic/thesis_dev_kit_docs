@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="174" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="174" bodyend="178"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="174" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="174" bodyend="178"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -55,7 +55,7 @@
         <label>detail::VariantAttorney</label>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="172" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="173" bodyend="179"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="172" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="173" bodyend="179"/>
     <listofallmembers>
       <member refid="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4_1af50bc107026744bcf5923e62c7b37ea3" prot="public" virt="non-virtual"><scope>Converter&lt; SerializedValue&lt; const char * &gt; &gt;</scope><name>toJson</name></member>
     </listofallmembers>

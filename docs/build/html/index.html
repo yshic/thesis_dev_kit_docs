@@ -2042,7 +2042,8 @@
 <li><a class="reference internal" href="#_CPPv4N10Unit4Relay10switchModeEb"><code class="docutils literal notranslate"><span class="pre">switchMode()</span></code></a></li>
 <li><a class="reference internal" href="#_CPPv4N10Unit4Relay13getRelayStateE7uint8_t"><code class="docutils literal notranslate"><span class="pre">getRelayState()</span></code></a></li>
 <li><a class="reference internal" href="#_CPPv4N10Unit4Relay11getLedStateE7uint8_t"><code class="docutils literal notranslate"><span class="pre">getLedState()</span></code></a></li>
-<li><a class="reference internal" href="#_CPPv4N10Unit4Relay13setRelayStateEAL4E_b"><code class="docutils literal notranslate"><span class="pre">setRelayState()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N10Unit4Relay14setRelayStatesEAL4E_b"><code class="docutils literal notranslate"><span class="pre">setRelayStates()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N10Unit4Relay15applyRelayStateEv"><code class="docutils literal notranslate"><span class="pre">applyRelayState()</span></code></a></li>
 <li><a class="reference internal" href="#_CPPv4N10Unit4Relay10relayStateE"><code class="docutils literal notranslate"><span class="pre">relayState</span></code></a></li>
 <li><a class="reference internal" href="#_CPPv4N10Unit4Relay8ledStateE"><code class="docutils literal notranslate"><span class="pre">ledState</span></code></a></li>
 </ul>
@@ -4321,7 +4322,7 @@ documentation for details.</p>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t">
-<span id="_CPPv3N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t"></span><span id="_CPPv2N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t"></span><span id="BMP280::setSampling__bmp280_mode_t.bmp280_sampling_t.bmp280_sampling_t.bmp280_filter_t.bmp280_standby_duration_t"></span><span class="target" id="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4"></span><a class="reference internal" href="#_CPPv414bmp280_error_t" title="bmp280_error_t"><span class="n"><span class="pre">bmp280_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setSampling</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv413bmp280_mode_t" title="bmp280_mode_t"><span class="n"><span class="pre">bmp280_mode_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">mode</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N13bmp280_mode_t11MODE_NORMALE" title="MODE_NORMAL"><span class="n"><span class="pre">MODE_NORMAL</span></span></a>, <a class="reference internal" href="#_CPPv417bmp280_sampling_t" title="bmp280_sampling_t"><span class="n"><span class="pre">bmp280_sampling_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">tempSampling</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N17bmp280_sampling_t12SAMPLING_X16E" title="SAMPLING_X16"><span class="n"><span class="pre">SAMPLING_X16</span></span></a>, <a class="reference internal" href="#_CPPv417bmp280_sampling_t" title="bmp280_sampling_t"><span class="n"><span class="pre">bmp280_sampling_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">pressSampling</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N17bmp280_sampling_t12SAMPLING_X16E" title="SAMPLING_X16"><span class="n"><span class="pre">SAMPLING_X16</span></span></a>, <a class="reference internal" href="#_CPPv415bmp280_filter_t" title="bmp280_filter_t"><span class="n"><span class="pre">bmp280_filter_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">filter</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N15bmp280_filter_t10FILTER_OFFE" title="FILTER_OFF"><span class="n"><span class="pre">FILTER_OFF</span></span></a>, <a class="reference internal" href="#_CPPv425bmp280_standby_duration_t" title="bmp280_standby_duration_t"><span class="n"><span class="pre">bmp280_standby_duration_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">duration</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N25bmp280_standby_duration_t12STANDBY_MS_1E" title="STANDBY_MS_1"><span class="n"><span class="pre">STANDBY_MS_1</span></span></a><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t"></span><span id="_CPPv2N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t"></span><span id="BMP280::setSampling__bmp280_mode_t.bmp280_sampling_t.bmp280_sampling_t.bmp280_filter_t.bmp280_standby_duration_t"></span><span class="target" id="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4"></span><a class="reference internal" href="#_CPPv414bmp280_error_t" title="bmp280_error_t"><span class="n"><span class="pre">bmp280_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setSampling</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv413bmp280_mode_t" title="bmp280_mode_t"><span class="n"><span class="pre">bmp280_mode_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">mode</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">MODE_NORMAL</span></span>, <a class="reference internal" href="#_CPPv417bmp280_sampling_t" title="bmp280_sampling_t"><span class="n"><span class="pre">bmp280_sampling_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">tempSampling</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">SAMPLING_X16</span></span>, <a class="reference internal" href="#_CPPv417bmp280_sampling_t" title="bmp280_sampling_t"><span class="n"><span class="pre">bmp280_sampling_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">pressSampling</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">SAMPLING_X16</span></span>, <a class="reference internal" href="#_CPPv415bmp280_filter_t" title="bmp280_filter_t"><span class="n"><span class="pre">bmp280_filter_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">filter</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">FILTER_OFF</span></span>, <a class="reference internal" href="#_CPPv425bmp280_standby_duration_t" title="bmp280_standby_duration_t"><span class="n"><span class="pre">bmp280_standby_duration_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">duration</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">STANDBY_MS_1</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N6BMP28011setSamplingE13bmp280_mode_t17bmp280_sampling_t17bmp280_sampling_t15bmp280_filter_t25bmp280_standby_duration_t" title="Link to this definition"></a><br /></dt>
 <dd><p>Configures the sensor’s sampling and operating parameters. </p>
 <p>Sets the operating mode, temperature and pressure oversampling, filter settings, and standby duration.</p>
 <p><dl class="simple">
@@ -7459,7 +7460,7 @@ documentation for details.</p>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N15http_parser_url10field_dataE">
-<span id="_CPPv3N15http_parser_url10field_dataE"></span><span id="_CPPv2N15http_parser_url10field_dataE"></span><span class="target" id="structhttp__parser__url_1af49700faa1cbd7427862647dca470601"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv415http_parser_url" title="http_parser_url"><span class="n"><span class="pre">http_parser_url</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">[anonymous]</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">field_data</span></span></span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#_CPPv4N22http_parser_url_fields6UF_MAXE" title="UF_MAX"><span class="n"><span class="pre">UF_MAX</span></span></a><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N15http_parser_url10field_dataE" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N15http_parser_url10field_dataE"></span><span id="_CPPv2N15http_parser_url10field_dataE"></span><span class="target" id="structhttp__parser__url_1af49700faa1cbd7427862647dca470601"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv415http_parser_url" title="http_parser_url"><span class="n"><span class="pre">http_parser_url</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">[anonymous]</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">field_data</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">UF_MAX</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N15http_parser_url10field_dataE" title="Link to this definition"></a><br /></dt>
 <dd></dd></dl>
 
 </div>
@@ -10830,12 +10831,12 @@ documentation for details.</p>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10JsonString10JsonStringEPKc9Ownership">
-<span id="_CPPv3N10JsonString10JsonStringEPKc9Ownership"></span><span id="_CPPv2N10JsonString10JsonStringEPKc9Ownership"></span><span id="JsonString::JsonString__cCP.Ownership"></span><span class="target" id="class_json_string_1ad4684d2817fd312931abdfb7236d079d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">JsonString</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span>, <a class="reference internal" href="#_CPPv4N10JsonString9OwnershipE" title="JsonString::Ownership"><span class="n"><span class="pre">Ownership</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">ownership</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N10JsonString9Ownership6LinkedE" title="JsonString::Linked"><span class="n"><span class="pre">Linked</span></span></a><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10JsonString10JsonStringEPKc9Ownership" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N10JsonString10JsonStringEPKc9Ownership"></span><span id="_CPPv2N10JsonString10JsonStringEPKc9Ownership"></span><span id="JsonString::JsonString__cCP.Ownership"></span><span class="target" id="class_json_string_1ad4684d2817fd312931abdfb7236d079d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">JsonString</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span>, <a class="reference internal" href="#_CPPv4N10JsonString9OwnershipE" title="JsonString::Ownership"><span class="n"><span class="pre">Ownership</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">ownership</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">Linked</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10JsonString10JsonStringEPKc9Ownership" title="Link to this definition"></a><br /></dt>
 <dd></dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10JsonString10JsonStringEPKc6size_t9Ownership">
-<span id="_CPPv3N10JsonString10JsonStringEPKc6size_t9Ownership"></span><span id="_CPPv2N10JsonString10JsonStringEPKc6size_t9Ownership"></span><span id="JsonString::JsonString__cCP.s.Ownership"></span><span class="target" id="class_json_string_1ac0732f87639653d17a1d7cb19c13e3ea"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">JsonString</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">sz</span></span>, <a class="reference internal" href="#_CPPv4N10JsonString9OwnershipE" title="JsonString::Ownership"><span class="n"><span class="pre">Ownership</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">ownership</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N10JsonString9Ownership6LinkedE" title="JsonString::Linked"><span class="n"><span class="pre">Linked</span></span></a><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10JsonString10JsonStringEPKc6size_t9Ownership" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N10JsonString10JsonStringEPKc6size_t9Ownership"></span><span id="_CPPv2N10JsonString10JsonStringEPKc6size_t9Ownership"></span><span id="JsonString::JsonString__cCP.s.Ownership"></span><span class="target" id="class_json_string_1ac0732f87639653d17a1d7cb19c13e3ea"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">JsonString</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">sz</span></span>, <a class="reference internal" href="#_CPPv4N10JsonString9OwnershipE" title="JsonString::Ownership"><span class="n"><span class="pre">Ownership</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">ownership</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">Linked</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10JsonString10JsonStringEPKc6size_t9Ownership" title="Link to this definition"></a><br /></dt>
 <dd></dd></dl>
 
 <dl class="cpp function">
@@ -11406,7 +11407,7 @@ documentation for details.</p>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N7LCD_I2C14lcdScreenStateE">
-<span id="_CPPv3N7LCD_I2C14lcdScreenStateE"></span><span id="_CPPv2N7LCD_I2C14lcdScreenStateE"></span><span id="LCD_I2C::lcdScreenState__lcd_screen_state_t"></span><span class="target" id="class_l_c_d___i2_c_1afc4575ae1857fee823e8b43535f726b8"></span><a class="reference internal" href="#_CPPv418lcd_screen_state_t" title="lcd_screen_state_t"><span class="n"><span class="pre">lcd_screen_state_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lcdScreenState</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N18lcd_screen_state_t16LCD_SCREEN_SHT4XE" title="LCD_SCREEN_SHT4X"><span class="n"><span class="pre">LCD_SCREEN_SHT4X</span></span></a><a class="headerlink" href="#_CPPv4N7LCD_I2C14lcdScreenStateE" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N7LCD_I2C14lcdScreenStateE"></span><span id="_CPPv2N7LCD_I2C14lcdScreenStateE"></span><span id="LCD_I2C::lcdScreenState__lcd_screen_state_t"></span><span class="target" id="class_l_c_d___i2_c_1afc4575ae1857fee823e8b43535f726b8"></span><a class="reference internal" href="#_CPPv418lcd_screen_state_t" title="lcd_screen_state_t"><span class="n"><span class="pre">lcd_screen_state_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lcdScreenState</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">LCD_SCREEN_SHT4X</span></span><a class="headerlink" href="#_CPPv4N7LCD_I2C14lcdScreenStateE" title="Link to this definition"></a><br /></dt>
 <dd></dd></dl>
 
 </div>
@@ -14109,32 +14110,118 @@ documentation for details.</p>
 <dl class="cpp class">
 <dt class="sig sig-object cpp" id="_CPPv45SHT3X">
 <span id="_CPPv35SHT3X"></span><span id="_CPPv25SHT3X"></span><span id="SHT3X"></span><span class="target" id="class_s_h_t3_x"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SHT3X</span></span></span><a class="headerlink" href="#_CPPv45SHT3X" title="Link to this definition"></a><br /></dt>
-<dd><div class="breathe-sectiondef docutils container">
+<dd><div class="docutils container">
+<em>#include &lt;<a class="reference internal" href="#sht3x_8h"><span class="std std-ref">sht3x.h</span></a>&gt;</em></div>
+<p>Manages temperature and humidity measurements using the <a class="reference internal" href="#class_s_h_t3_x"><span class="std std-ref">SHT3X</span></a> sensor. </p>
+<p>The <code class="docutils literal notranslate"><a class="reference internal" href="#class_s_h_t3_x"><span class="std std-ref"><span class="pre">SHT3X</span></span></a></code> class provides functionality for interfacing with the <a class="reference internal" href="#class_s_h_t3_x"><span class="std std-ref">SHT3X</span></a> temperature and humidity sensor over an I2C interface. It supports initializing the sensor, updating temperature and humidity readings, and retrieving values in Celsius, Fahrenheit, or percentage humidity. The class stores sensor data internally for efficient access.</p>
+<div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT3X5beginE7uint8_t">
 <span id="_CPPv3N5SHT3X5beginE7uint8_t"></span><span id="_CPPv2N5SHT3X5beginE7uint8_t"></span><span id="SHT3X::begin__uint8_t"></span><span class="target" id="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95"></span><a class="reference internal" href="#_CPPv413sht3x_error_t" title="sht3x_error_t"><span class="n"><span class="pre">sht3x_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">i2c_addr</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">SHT3X_I2C_ADDR_DEFAULT</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5SHT3X5beginE7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd></dd></dl>
+<dd><p>Initializes the <a class="reference internal" href="#class_s_h_t3_x"><span class="std std-ref">SHT3X</span></a> sensor. </p>
+<p>Configures the sensor with the specified I2C address and checks for its presence on the I2C bus.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the sensor is powered and connected to the I2C bus before calling.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>i2c_addr</strong> – <strong>[in]</strong> The I2C address of the sensor (default: <code class="docutils literal notranslate"><span class="pre">SHT3X_I2C_ADDR_DEFAULT</span></code>, 0x44).</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">SHT3X_OK</span></code>: Sensor detected and initialized successfully</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SHT3X_ERR_I2C</span></code>: Sensor not found or I2C communication error </p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT3X6updateEv">
 <span id="_CPPv3N5SHT3X6updateEv"></span><span id="_CPPv2N5SHT3X6updateEv"></span><span id="SHT3X::update__void"></span><span class="target" id="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72"></span><a class="reference internal" href="#_CPPv413sht3x_error_t" title="sht3x_error_t"><span class="n"><span class="pre">sht3x_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">update</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">void</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5SHT3X6updateEv" title="Link to this definition"></a><br /></dt>
-<dd></dd></dl>
+<dd><p>Updates temperature and humidity readings from the <a class="reference internal" href="#class_s_h_t3_x"><span class="std std-ref">SHT3X</span></a> sensor. </p>
+<p>Sends a high-repeatability measurement command with clock stretching enabled, reads the raw data, and converts it to temperature (Celsius) and humidity (percentage) values, storing them internally.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the sensor is initialized with <code class="docutils literal notranslate"><a class="reference internal" href="#class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95"><span class="std std-ref"><span class="pre">begin()</span></span></a></code> and connected to the I2C bus. The function includes delays (200ms + 50ms) for measurement completion.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">SHT3X_OK</span></code>: Measurement successful </p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT3X11getHumidityEv">
 <span id="_CPPv3N5SHT3X11getHumidityEv"></span><span id="_CPPv2N5SHT3X11getHumidityEv"></span><span id="SHT3X::getHumidity"></span><span class="target" id="class_s_h_t3_x_1a28b58bfa80e31c626e01658828a299bf"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getHumidity</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5SHT3X11getHumidityEv" title="Link to this definition"></a><br /></dt>
-<dd></dd></dl>
+<dd><p>Retrieves the last measured humidity. </p>
+<p>Returns the most recent humidity reading stored internally, as a percentage.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior successful call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72"><span class="std std-ref"><span class="pre">update()</span></span></a></code>.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>float The relative humidity percentage (RH). </p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT3X21getTemperatureCelciusEv">
 <span id="_CPPv3N5SHT3X21getTemperatureCelciusEv"></span><span id="_CPPv2N5SHT3X21getTemperatureCelciusEv"></span><span id="SHT3X::getTemperatureCelcius"></span><span class="target" id="class_s_h_t3_x_1a3a319390dc73f5443f2dfee66a4ec569"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getTemperatureCelcius</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5SHT3X21getTemperatureCelciusEv" title="Link to this definition"></a><br /></dt>
-<dd></dd></dl>
+<dd><p>Retrieves the last measured temperature in Celsius. </p>
+<p>Returns the most recent temperature reading stored internally, in degrees Celsius.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior successful call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72"><span class="std std-ref"><span class="pre">update()</span></span></a></code>.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>float The temperature in degrees Celsius. </p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT3X24getTemperatureFahrenheitEv">
 <span id="_CPPv3N5SHT3X24getTemperatureFahrenheitEv"></span><span id="_CPPv2N5SHT3X24getTemperatureFahrenheitEv"></span><span id="SHT3X::getTemperatureFahrenheit"></span><span class="target" id="class_s_h_t3_x_1a7a5e300023f92886f16f153151726640"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getTemperatureFahrenheit</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5SHT3X24getTemperatureFahrenheitEv" title="Link to this definition"></a><br /></dt>
-<dd></dd></dl>
+<dd><p>Retrieves the last measured temperature in Fahrenheit. </p>
+<p>Converts the most recent temperature reading stored internally from Celsius to Fahrenheit.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior successful call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72"><span class="std std-ref"><span class="pre">update()</span></span></a></code>.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>float The temperature in degrees Fahrenheit. </p>
+</dd>
+</dl>
+</dd></dl>
 
 </div>
 <div class="breathe-sectiondef docutils container">
@@ -14323,12 +14410,12 @@ documentation for details.</p>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT4X10_precisionE">
-<span id="_CPPv3N5SHT4X10_precisionE"></span><span id="_CPPv2N5SHT4X10_precisionE"></span><span id="SHT4X::_precision__sht4x_precision_t"></span><span class="target" id="class_s_h_t4_x_1afb7f0574ef41e268c831cb179e3e20ea"></span><a class="reference internal" href="#_CPPv417sht4x_precision_t" title="sht4x_precision_t"><span class="n"><span class="pre">sht4x_precision_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_precision</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N17sht4x_precision_t20SHT4X_HIGH_PRECISIONE" title="SHT4X_HIGH_PRECISION"><span class="n"><span class="pre">SHT4X_HIGH_PRECISION</span></span></a><a class="headerlink" href="#_CPPv4N5SHT4X10_precisionE" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N5SHT4X10_precisionE"></span><span id="_CPPv2N5SHT4X10_precisionE"></span><span id="SHT4X::_precision__sht4x_precision_t"></span><span class="target" id="class_s_h_t4_x_1afb7f0574ef41e268c831cb179e3e20ea"></span><a class="reference internal" href="#_CPPv417sht4x_precision_t" title="sht4x_precision_t"><span class="n"><span class="pre">sht4x_precision_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_precision</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">SHT4X_HIGH_PRECISION</span></span><a class="headerlink" href="#_CPPv4N5SHT4X10_precisionE" title="Link to this definition"></a><br /></dt>
 <dd></dd></dl>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N5SHT4X7_heaterE">
-<span id="_CPPv3N5SHT4X7_heaterE"></span><span id="_CPPv2N5SHT4X7_heaterE"></span><span id="SHT4X::_heater__sht4x_heater_t"></span><span class="target" id="class_s_h_t4_x_1a0a5f387d340b6419916f78985b8a4e8d"></span><a class="reference internal" href="#_CPPv414sht4x_heater_t" title="sht4x_heater_t"><span class="n"><span class="pre">sht4x_heater_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_heater</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N14sht4x_heater_t15SHT4X_NO_HEATERE" title="SHT4X_NO_HEATER"><span class="n"><span class="pre">SHT4X_NO_HEATER</span></span></a><a class="headerlink" href="#_CPPv4N5SHT4X7_heaterE" title="Link to this definition"></a><br /></dt>
+<span id="_CPPv3N5SHT4X7_heaterE"></span><span id="_CPPv2N5SHT4X7_heaterE"></span><span id="SHT4X::_heater__sht4x_heater_t"></span><span class="target" id="class_s_h_t4_x_1a0a5f387d340b6419916f78985b8a4e8d"></span><a class="reference internal" href="#_CPPv414sht4x_heater_t" title="sht4x_heater_t"><span class="n"><span class="pre">sht4x_heater_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_heater</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">SHT4X_NO_HEATER</span></span><a class="headerlink" href="#_CPPv4N5SHT4X7_heaterE" title="Link to this definition"></a><br /></dt>
 <dd></dd></dl>
 
 </div>
@@ -14470,24 +14557,42 @@ documentation for details.</p>
 <dl class="cpp class">
 <dt class="sig sig-object cpp" id="_CPPv412SoilMoisture">
 <span id="_CPPv312SoilMoisture"></span><span id="_CPPv212SoilMoisture"></span><span id="SoilMoisture"></span><span class="target" id="class_soil_moisture"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SoilMoisture</span></span></span><a class="headerlink" href="#_CPPv412SoilMoisture" title="Link to this definition"></a><br /></dt>
-<dd><div class="breathe-sectiondef docutils container">
+<dd><div class="docutils container">
+<em>#include &lt;<a class="reference internal" href="#soil__moisture_8h"><span class="std std-ref">soil_moisture.h</span></a>&gt;</em></div>
+<p>Manages soil moisture measurements using an analog soil moisture sensor. </p>
+<p>The <code class="docutils literal notranslate"><a class="reference internal" href="#class_soil_moisture"><span class="std std-ref"><span class="pre">SoilMoisture</span></span></a></code> class provides functionality for reading and processing soil moisture data from an analog sensor connected to an Arduino pin. It supports raw analog readings, mapped values, threshold detection, averaging, and callback triggering for threshold events.</p>
+<div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture12SoilMoistureEi">
 <span id="_CPPv3N12SoilMoisture12SoilMoistureEi"></span><span id="_CPPv2N12SoilMoisture12SoilMoistureEi"></span><span id="SoilMoisture::SoilMoisture__i"></span><span class="target" id="class_soil_moisture_1ac780e72c4b0422565baa3963ea42228b"></span><span class="sig-name descname"><span class="n"><span class="pre">SoilMoisture</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">pin</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture12SoilMoistureEi" title="Link to this definition"></a><br /></dt>
-<dd><p>init the Soil Moisture Sensor with a specified pin </p>
+<dd><p>Constructor to initialize the <a class="reference internal" href="#class_soil_moisture"><span class="std std-ref">SoilMoisture</span></a> sensor with a specified pin. </p>
+<p>Configures the <a class="reference internal" href="#class_soil_moisture"><span class="std std-ref">SoilMoisture</span></a> sensor to use the provided analog pin for reading moisture levels.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the pin is a valid analog input pin on the microcontroller. </p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>pin</strong> – <strong>[in]</strong> The analog pin connected to the soil moisture sensor.</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture4readEv">
 <span id="_CPPv3N12SoilMoisture4readEv"></span><span id="_CPPv2N12SoilMoisture4readEv"></span><span id="SoilMoisture::read"></span><span class="target" id="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">read</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture4readEv" title="Link to this definition"></a><br /></dt>
-<dd><p>Read the analog value from the sensor using the arduino function analogRead. </p>
+<dd><p>Reads the analog value from the soil moisture sensor. </p>
+<p>Uses the <code class="docutils literal notranslate"><span class="pre">bspGpioAnalogRead</span></code> function to retrieve the raw 10-bit analog value (0–1023) from the sensor and computes a percentage value (0–100), storing both internally.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the sensor is properly connected to the specified pin. </p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>void</strong> – </p>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>uint32_t The analog value read from the sensor. </p>
+<dd class="field-odd"><p><strong>None</strong> – </p>
 </dd>
 </dl>
 </dd></dl>
@@ -14495,16 +14600,22 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture10readAndMapEii">
 <span id="_CPPv3N12SoilMoisture10readAndMapEii"></span><span id="_CPPv2N12SoilMoisture10readAndMapEii"></span><span id="SoilMoisture::readAndMap__i.i"></span><span class="target" id="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">readAndMap</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">minValue</span></span>, <span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">maxValue</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture10readAndMapEii" title="Link to this definition"></a><br /></dt>
-<dd><p>Read the sensor and map its raw analog values to a range (e.g., 0-100). </p>
+<dd><p>Reads and maps the sensor value to a specified range. </p>
+<p>Reads the raw analog value from the sensor and maps it to a user-defined range (e.g., 0–100) using linear scaling.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure <code class="docutils literal notranslate"><span class="pre">minValue</span></code> is less than <code class="docutils literal notranslate"><span class="pre">maxValue</span></code> and the sensor is connected.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>minValue</strong> – <strong>[in]</strong> Minimum value of the range </p></li>
-<li><p><strong>maxValue</strong> – <strong>[in]</strong> Maximum value of the range</p></li>
+<li><p><strong>minValue</strong> – <strong>[in]</strong> Minimum value of the output range. </p></li>
+<li><p><strong>maxValue</strong> – <strong>[in]</strong> Maximum value of the output range.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>uint32_t The calibrated sensor value mapped to a range of minValue to maxValue. </p>
+<dd class="field-even"><p>uint32_t The mapped sensor value within the specified range. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -14512,13 +14623,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture16isAboveThresholdEi">
 <span id="_CPPv3N12SoilMoisture16isAboveThresholdEi"></span><span id="_CPPv2N12SoilMoisture16isAboveThresholdEi"></span><span id="SoilMoisture::isAboveThreshold__i"></span><span class="target" id="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">isAboveThreshold</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">threshold</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture16isAboveThresholdEi" title="Link to this definition"></a><br /></dt>
-<dd><p>Check if the moisture level is above or below a threshold. </p>
+<dd><p>Checks if the soil moisture level exceeds a threshold. </p>
+<p>Compares the current raw sensor value against a specified threshold to determine if the moisture level is above it.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241"><span class="std std-ref"><span class="pre">read()</span></span></a></code> to update the sensor value.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>threshold</strong> – <strong>[in]</strong> Threshold value for moisture.</p>
+<dd class="field-odd"><p><strong>threshold</strong> – <strong>[in]</strong> The threshold value for soil moisture (0–1023).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>bool True if moisture is above the threshold, false otherwise. </p>
+<dd class="field-even"><p>bool <code class="docutils literal notranslate"><span class="pre">true</span></code> if the moisture level is above the threshold, <code class="docutils literal notranslate"><span class="pre">false</span></code> otherwise. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -14526,13 +14643,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture11getMoistureEv">
 <span id="_CPPv3N12SoilMoisture11getMoistureEv"></span><span id="_CPPv2N12SoilMoisture11getMoistureEv"></span><span id="SoilMoisture::getMoisture"></span><span class="target" id="class_soil_moisture_1ab4a3beaa095bffdc280796ce194d3902"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getMoisture</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture11getMoistureEv" title="Link to this definition"></a><br /></dt>
-<dd><p>Get the analog sensor value. </p>
+<dd><p>Retrieves the raw analog soil moisture value. </p>
+<p>Returns the most recent raw 10-bit analog value (0–1023) read from the sensor.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior successful call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241"><span class="std std-ref"><span class="pre">read()</span></span></a></code>.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>None</strong> – </p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>int The analog sensor value </p>
+<dd class="field-even"><p>int The raw analog sensor value. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -14540,13 +14663,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture21getMoisturePercentageEv">
 <span id="_CPPv3N12SoilMoisture21getMoisturePercentageEv"></span><span id="_CPPv2N12SoilMoisture21getMoisturePercentageEv"></span><span id="SoilMoisture::getMoisturePercentage"></span><span class="target" id="class_soil_moisture_1af363e82e2ef868de6820705a49b6cd7e"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getMoisturePercentage</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture21getMoisturePercentageEv" title="Link to this definition"></a><br /></dt>
-<dd><p>Get the percentage sensor value from the analog value. </p>
+<dd><p>Retrieves the soil moisture as a percentage. </p>
+<p>Returns the internally stored percentage value (0–100) computed from the raw analog sensor value.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior successful call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241"><span class="std std-ref"><span class="pre">read()</span></span></a></code>.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>None</strong> – </p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>int The percentage value </p>
+<dd class="field-even"><p>int The soil moisture as a percentage. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -14554,13 +14683,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture17getAverageReadingEi">
 <span id="_CPPv3N12SoilMoisture17getAverageReadingEi"></span><span id="_CPPv2N12SoilMoisture17getAverageReadingEi"></span><span id="SoilMoisture::getAverageReading__i"></span><span class="target" id="class_soil_moisture_1af736d5983965759ed7f60edb415961f7"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getAverageReading</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">samples</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">10</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture17getAverageReadingEi" title="Link to this definition"></a><br /></dt>
-<dd><p>Get the average sensor reading over a specified number of samples. </p>
+<dd><p>Computes the average sensor reading over multiple samples. </p>
+<p>Takes multiple readings from the sensor with a 10ms delay between each and returns their average to reduce noise.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the sensor is connected and <code class="docutils literal notranslate"><span class="pre">samples</span></code> is a positive integer.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>samples</strong> – <strong>[in]</strong> Number of samples to average.</p>
+<dd class="field-odd"><p><strong>samples</strong> – <strong>[in]</strong> Number of samples to average (default: 10).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>int The averaged sensor value. </p>
+<dd class="field-even"><p>int The averaged raw sensor value. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -14568,12 +14703,18 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N12SoilMoisture16onThresholdCrossEiPFvvE">
 <span id="_CPPv3N12SoilMoisture16onThresholdCrossEiPFvvE"></span><span id="_CPPv2N12SoilMoisture16onThresholdCrossEiPFvvE"></span><span class="target" id="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">onThresholdCross</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">threshold</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">callback</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">)</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12SoilMoisture16onThresholdCrossEiPFvvE" title="Link to this definition"></a><br /></dt>
-<dd><p>Set a callback function to trigger when moisture crosses a threshold. </p>
+<dd><p>Sets a callback function for threshold-crossing events. </p>
+<p>Configures a callback function to be triggered when the soil moisture level crosses the specified threshold, invoking the callback if the threshold is currently exceeded.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>The callback function must be defined, have no parameters, and no return value. Requires a prior call to <code class="docutils literal notranslate"><a class="reference internal" href="#class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241"><span class="std std-ref"><span class="pre">read()</span></span></a></code> for accurate threshold detection. </p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>threshold</strong> – <strong>[in]</strong> Threshold for triggering the callback. </p></li>
-<li><p><strong>callback</strong> – <strong>[in]</strong> Function to call when threshold is crossed. </p></li>
+<li><p><strong>threshold</strong> – <strong>[in]</strong> The threshold value for triggering the callback (0–1023). </p></li>
+<li><p><strong>callback</strong> – <strong>[in]</strong> The function to call when the threshold is crossed.</p></li>
 </ul>
 </dd>
 </dl>
@@ -15149,8 +15290,8 @@ documentation for details.</p>
 <span id="_CPPv310Ultrasonic"></span><span id="_CPPv210Ultrasonic"></span><span id="Ultrasonic"></span><span class="target" id="class_ultrasonic"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Ultrasonic</span></span></span><a class="headerlink" href="#_CPPv410Ultrasonic" title="Link to this definition"></a><br /></dt>
 <dd><div class="docutils container">
 <em>#include &lt;<a class="reference internal" href="#ultrasonic_8h"><span class="std std-ref">ultrasonic.h</span></a>&gt;</em></div>
-<p><a class="reference internal" href="#class_ultrasonic"><span class="std std-ref">Ultrasonic</span></a> sensor class for measuring distances. </p>
-<p>This class provides functionality to interact with an ultrasonic sensor, measure the time duration of the echo signal, and calculate distances in different units. </p>
+<p>Manages distance measurements using an ultrasonic sensor. </p>
+<p>The <code class="docutils literal notranslate"><a class="reference internal" href="#class_ultrasonic"><span class="std std-ref"><span class="pre">Ultrasonic</span></span></a></code> class provides functionality for measuring distances with an ultrasonic sensor connected to an Arduino via trigger and echo pins. It supports calculating the echo pulse duration and converting it to distances in centimeters, millimeters, or inches, with configurable timeout settings.</p>
 <div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cpp function">
@@ -15168,9 +15309,7 @@ documentation for details.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>_triggerPin</strong> – <strong>[in]</strong> The pin number connected to the trigger pin of the ultrasonic sensor. </p></li>
 <li><p><strong>_echoPin</strong> – <strong>[in]</strong> The pin number connected to the echo pin of the ultrasonic sensor. </p></li>
-<li><p><strong>timeOut</strong> – <strong>[in]</strong> The timeout value for the pulse measurement in microseconds. </p></li>
-<li><p><strong>None</strong> – <strong>[out]</strong> </p></li>
-<li><p><strong>None</strong> – </p></li>
+<li><p><strong>timeOut</strong> – <strong>[in]</strong> The timeout value for the pulse measurement in microseconds.</p></li>
 </ul>
 </dd>
 </dl>
@@ -15188,16 +15327,12 @@ documentation for details.</p>
 </p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>unit</strong> – <strong>[in]</strong> The unit in which the distance is to be measured:<ul>
+<dd class="field-odd"><p><strong>unit</strong> – <strong>[in]</strong> The unit in which the distance is to be measured:<ul class="simple">
 <li><p>’c’: Centimeters</p></li>
 <li><p>’m’: Millimeters</p></li>
-<li><p>’i’: Inches </p></li>
+<li><p>’i’: Inches</p></li>
 </ul>
-</p></li>
-<li><p><strong>None</strong> – <strong>[out]</strong> </p></li>
-<li><p><strong>None</strong> – </p></li>
-</ul>
+</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
@@ -15226,11 +15361,7 @@ documentation for details.</p>
 </p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>timeOut</strong> – <strong>[in]</strong> The timeout value in microseconds to be set. </p></li>
-<li><p><strong>None</strong> – <strong>[out]</strong> </p></li>
-<li><p><strong>None</strong> – </p></li>
-</ul>
+<dd class="field-odd"><p><strong>timeOut</strong> – <strong>[in]</strong> The timeout value in microseconds to be set.</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>void </p>
@@ -15297,18 +15428,30 @@ documentation for details.</p>
 <dl class="cpp class">
 <dt class="sig sig-object cpp" id="_CPPv410Unit4Relay">
 <span id="_CPPv310Unit4Relay"></span><span id="_CPPv210Unit4Relay"></span><span id="Unit4Relay"></span><span class="target" id="class_unit4_relay"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Unit4Relay</span></span></span><a class="headerlink" href="#_CPPv410Unit4Relay" title="Link to this definition"></a><br /></dt>
-<dd><div class="breathe-sectiondef docutils container">
+<dd><div class="docutils container">
+<em>#include &lt;<a class="reference internal" href="#unit__4relay_8h"><span class="std std-ref">unit_4relay.h</span></a>&gt;</em></div>
+<p>Manages a 4-relay module with I2C interface for relay and LED control. </p>
+<p>The <code class="docutils literal notranslate"><a class="reference internal" href="#class_unit4_relay"><span class="std std-ref"><span class="pre">Unit4Relay</span></span></a></code> class provides functionality for controlling a 4-relay module over I2C, including initializing the module, setting relay and LED states individually or collectively, switching operating modes (synchronous/asynchronous), and retrieving relay and LED states. It maintains internal state arrays for relays and LEDs.</p>
+<div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay5beginEv">
 <span id="_CPPv3N10Unit4Relay5beginEv"></span><span id="_CPPv2N10Unit4Relay5beginEv"></span><span id="Unit4Relay::begin"></span><span class="target" id="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay5beginEv" title="Link to this definition"></a><br /></dt>
 <dd><p>Initializes the Unit 4-<a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> module. </p>
-<p>This function checks if the device is available on the I2C bus.</p>
+<p>Checks for the presence of the module on the I2C bus at address 0x26.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the module is powered and connected to the I2C bus before calling.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Device detected and ready.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_I2C</span> <span class="pre">(8213)</span></code>: Device not found. </p></li>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Module detected and ready</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_I2C</span></code>: Module not found or I2C communication error </p></li>
 </ul>
 </p>
 </dd>
@@ -15318,19 +15461,26 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay4initEb">
 <span id="_CPPv3N10Unit4Relay4initEb"></span><span id="_CPPv2N10Unit4Relay4initEb"></span><span id="Unit4Relay::init__b"></span><span class="target" id="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">init</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">mode</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay4initEb" title="Link to this definition"></a><br /></dt>
-<dd><p>Sets the mode of the device and turns off all relays. </p>
+<dd><p>Configures the operating mode and turns off all relays. </p>
+<p>Sets the module to synchronous or asynchronous mode and initializes all relays to OFF.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Call after <code class="docutils literal notranslate"><a class="reference internal" href="#class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172"><span class="std std-ref"><span class="pre">begin()</span></span></a></code> to ensure proper initialization.</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>mode</strong> – <strong>[in]</strong> Operation mode:<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code>: Asynchronous mode.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code>: Synchronous mode.</p></li>
-</ul>
+<dd class="field-odd"><p><strong>mode</strong> – <strong>[in]</strong> Operating mode: <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>            - `0`: Asynchronous mode
+
+            - `1`: Synchronous mode
+</pre></div>
+</div>
 </p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Success.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INIT(8210)</span></code>: Failed to write initial configuration to device. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INIT</span></code>: Failed to write initial configuration </p></li>
 </ul>
 </p>
 </dd>
@@ -15341,18 +15491,23 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay10relayWriteE7uint8_tb">
 <span id="_CPPv3N10Unit4Relay10relayWriteE7uint8_tb"></span><span id="_CPPv2N10Unit4Relay10relayWriteE7uint8_tb"></span><span id="Unit4Relay::relayWrite__uint8_t.b"></span><span class="target" id="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">relayWrite</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">number</span></span>, <span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">state</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay10relayWriteE7uint8_tb" title="Link to this definition"></a><br /></dt>
 <dd><p>Sets the state of an individual relay. </p>
-<p>This function turns ON or OFF a specified relay by index.</p>
+<p>Turns a specified relay ON or OFF by updating the I2C register and internal state.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the relay index is valid (0–3).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>number</strong> – <strong>[in]</strong> <a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> number (0-3). </p></li>
-<li><p><strong>state</strong> – <strong>[in]</strong> Desired relay state (<code class="docutils literal notranslate"><span class="pre">true</span></code> = ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> = OFF).</p></li>
+<li><p><strong>number</strong> – <strong>[in]</strong> <a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> index (0–3). </p></li>
+<li><p><strong>state</strong> – <strong>[in]</strong> Desired state (<code class="docutils literal notranslate"><span class="pre">true</span></code> for ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> for OFF).</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Success.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span> <span class="pre">(8211)</span></code>: Invalid relay index. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span></code>: Invalid relay index </p></li>
 </ul>
 </p>
 </dd>
@@ -15363,14 +15518,14 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay8relayAllEb">
 <span id="_CPPv3N10Unit4Relay8relayAllEb"></span><span id="_CPPv2N10Unit4Relay8relayAllEb"></span><span id="Unit4Relay::relayAll__b"></span><span class="target" id="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">relayAll</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">state</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay8relayAllEb" title="Link to this definition"></a><br /></dt>
 <dd><p>Sets all relays to the same state. </p>
-<p>This function turns all relays ON or OFF.</p>
+<p>Turns all relays ON or OFF simultaneously and updates the internal state.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>state</strong> – <strong>[in]</strong> Desired relay state for all (<code class="docutils literal notranslate"><span class="pre">true</span></code> = ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> = OFF).</p>
+<dd class="field-odd"><p><strong>state</strong> – <strong>[in]</strong> Desired state for all relays (<code class="docutils literal notranslate"><span class="pre">true</span></code> for ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> for OFF).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Success. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success </p></li>
 </ul>
 </p>
 </dd>
@@ -15381,18 +15536,23 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay8ledWriteE7uint8_tb">
 <span id="_CPPv3N10Unit4Relay8ledWriteE7uint8_tb"></span><span id="_CPPv2N10Unit4Relay8ledWriteE7uint8_tb"></span><span id="Unit4Relay::ledWrite__uint8_t.b"></span><span class="target" id="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ledWrite</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">number</span></span>, <span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">state</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay8ledWriteE7uint8_tb" title="Link to this definition"></a><br /></dt>
 <dd><p>Sets the state of an individual LED. </p>
-<p>This function turns ON or OFF a specified indicator LED by index.</p>
+<p>Turns a specified indicator LED ON or OFF by updating the I2C register and internal state.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the LED index is valid (0–3).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>number</strong> – <strong>[in]</strong> LED number (0-3). </p></li>
-<li><p><strong>state</strong> – <strong>[in]</strong> Desired LED state (<code class="docutils literal notranslate"><span class="pre">true</span></code> = ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> = OFF).</p></li>
+<li><p><strong>number</strong> – <strong>[in]</strong> LED index (0–3). </p></li>
+<li><p><strong>state</strong> – <strong>[in]</strong> Desired state (<code class="docutils literal notranslate"><span class="pre">true</span></code> for ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> for OFF).</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Success.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span> <span class="pre">(8211)</span></code>: Invalid LED index. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span></code>: Invalid LED index </p></li>
 </ul>
 </p>
 </dd>
@@ -15403,14 +15563,14 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay6ledAllEb">
 <span id="_CPPv3N10Unit4Relay6ledAllEb"></span><span id="_CPPv2N10Unit4Relay6ledAllEb"></span><span id="Unit4Relay::ledAll__b"></span><span class="target" id="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ledAll</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">state</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay6ledAllEb" title="Link to this definition"></a><br /></dt>
 <dd><p>Sets all LEDs to the same state. </p>
-<p>This function turns all indicator LEDs ON or OFF.</p>
+<p>Turns all indicator LEDs ON or OFF simultaneously and updates the internal state.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>state</strong> – <strong>[in]</strong> Desired LED state for all (<code class="docutils literal notranslate"><span class="pre">true</span></code> = ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> = OFF).</p>
+<dd class="field-odd"><p><strong>state</strong> – <strong>[in]</strong> Desired state for all LEDs (<code class="docutils literal notranslate"><span class="pre">true</span></code> for ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> for OFF).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Success. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success </p></li>
 </ul>
 </p>
 </dd>
@@ -15420,15 +15580,15 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay10switchModeEb">
 <span id="_CPPv3N10Unit4Relay10switchModeEb"></span><span id="_CPPv2N10Unit4Relay10switchModeEb"></span><span id="Unit4Relay::switchMode__b"></span><span class="target" id="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">switchMode</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">mode</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay10switchModeEb" title="Link to this definition"></a><br /></dt>
-<dd><p>Sets the operating mode of the relay unit. </p>
-<p>This function changes the internal mode of the device, such as LED or relay mode.</p>
+<dd><p>Sets the operating mode of the relay module. </p>
+<p>Changes the module’s operating mode to synchronous or asynchronous.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>mode</strong> – <strong>[in]</strong> Desired mode setting.</p>
+<dd class="field-odd"><p><strong>mode</strong> – <strong>[in]</strong> Desired mode (<code class="docutils literal notranslate"><span class="pre">0</span></code> for asynchronous, <code class="docutils literal notranslate"><span class="pre">1</span></code> for synchronous).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span> <span class="pre">(8208)</span></code>: Success. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success </p></li>
 </ul>
 </p>
 </dd>
@@ -15438,15 +15598,22 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay13getRelayStateE7uint8_t">
 <span id="_CPPv3N10Unit4Relay13getRelayStateE7uint8_t"></span><span id="_CPPv2N10Unit4Relay13getRelayStateE7uint8_t"></span><span id="Unit4Relay::getRelayState__uint8_t"></span><span class="target" id="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getRelayState</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">number</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay13getRelayStateE7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd><p>Gets the state of a specific relay. </p>
+<dd><p>Retrieves the state of a specific relay. </p>
+<p>Returns the current state of the specified relay from the internal state array.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the relay index is valid (0–3).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>number</strong> – <strong>[in]</strong> <a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> number (0-3).</p>
+<dd class="field-odd"><p><strong>number</strong> – <strong>[in]</strong> <a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> index (0–3).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p><a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> state (<code class="docutils literal notranslate"><span class="pre">0</span></code> = OFF, <code class="docutils literal notranslate"><span class="pre">1</span></code> = ON).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span> <span class="pre">(8211)</span></code>: If an invalid index is provided. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code>: <a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> is OFF</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code>: <a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> is ON</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span></code>: Invalid relay index </p></li>
 </ul>
 </p>
 </dd>
@@ -15456,15 +15623,22 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay11getLedStateE7uint8_t">
 <span id="_CPPv3N10Unit4Relay11getLedStateE7uint8_t"></span><span id="_CPPv2N10Unit4Relay11getLedStateE7uint8_t"></span><span id="Unit4Relay::getLedState__uint8_t"></span><span class="target" id="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getLedState</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">number</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay11getLedStateE7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd><p>Gets the state of a specific LED. </p>
+<dd><p>Retrieves the state of a specific LED. </p>
+<p>Returns the current state of the specified LED from the internal state array.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the LED index is valid (0–3).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>number</strong> – <strong>[in]</strong> LED number (0-3).</p>
+<dd class="field-odd"><p><strong>number</strong> – <strong>[in]</strong> LED index (0–3).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><ul class="simple">
-<li><p>LED state (<code class="docutils literal notranslate"><span class="pre">0</span></code> = OFF, <code class="docutils literal notranslate"><span class="pre">1</span></code> = ON).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span> <span class="pre">(8211)</span></code>: If an invalid index is provided. </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code>: LED is OFF</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code>: LED is ON</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_INDEX</span></code>: Invalid LED index </p></li>
 </ul>
 </p>
 </dd>
@@ -15472,9 +15646,51 @@ documentation for details.</p>
 </dd></dl>
 
 <dl class="cpp function">
-<dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay13setRelayStateEAL4E_b">
-<span id="_CPPv3N10Unit4Relay13setRelayStateEAL4E_b"></span><span id="_CPPv2N10Unit4Relay13setRelayStateEA4_b"></span><span id="Unit4Relay::setRelayState__bA"></span><span class="target" id="class_unit4_relay_1a957acf90f70a704ac7b5322dfbab5869"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setRelayState</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">state</span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">4</span></span><span class="p"><span class="pre">]</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay13setRelayStateEAL4E_b" title="Link to this definition"></a><br /></dt>
-<dd></dd></dl>
+<dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay14setRelayStatesEAL4E_b">
+<span id="_CPPv3N10Unit4Relay14setRelayStatesEAL4E_b"></span><span id="_CPPv2N10Unit4Relay14setRelayStatesEA4_b"></span><span id="Unit4Relay::setRelayStates__bA"></span><span class="target" id="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setRelayStates</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">state</span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">4</span></span><span class="p"><span class="pre">]</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay14setRelayStatesEAL4E_b" title="Link to this definition"></a><br /></dt>
+<dd><p>Stages relay states without writing to the module. </p>
+<p>Updates the internal relay state array with the provided states, deferring physical changes until <code class="docutils literal notranslate"><a class="reference internal" href="#class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a"><span class="std std-ref"><span class="pre">applyRelayState()</span></span></a></code> is called.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>The state array must contain exactly four elements. Use <code class="docutils literal notranslate"><a class="reference internal" href="#class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a"><span class="std std-ref"><span class="pre">applyRelayState()</span></span></a></code> to write the staged states to the module.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>state</strong> – <strong>[in]</strong> Array of four boolean values representing the desired state for each relay (<code class="docutils literal notranslate"><span class="pre">true</span></code> for ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> for OFF).</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success </p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N10Unit4Relay15applyRelayStateEv">
+<span id="_CPPv3N10Unit4Relay15applyRelayStateEv"></span><span id="_CPPv2N10Unit4Relay15applyRelayStateEv"></span><span id="Unit4Relay::applyRelayState"></span><span class="target" id="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a"></span><a class="reference internal" href="#_CPPv419unit_4relay_error_t" title="unit_4relay_error_t"><span class="n"><span class="pre">unit_4relay_error_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">applyRelayState</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N10Unit4Relay15applyRelayStateEv" title="Link to this definition"></a><br /></dt>
+<dd><p>Applies the staged relay states to the module. </p>
+<p>Writes the internal relay state array to the module’s I2C register, turning relays ON or OFF as specified by the states set via <code class="docutils literal notranslate"><span class="pre">setRelayState()</span></code>.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Requires a prior call to <code class="docutils literal notranslate"><span class="pre">setRelayState()</span></code> to stage the desired relay states. Ensure the module is initialized with <code class="docutils literal notranslate"><a class="reference internal" href="#class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172"><span class="std std-ref"><span class="pre">begin()</span></span></a></code> and <code class="docutils literal notranslate"><a class="reference internal" href="#class_unit4_relay_1aae6e0d7daca1902707378c714047ef65"><span class="std std-ref"><span class="pre">init()</span></span></a></code>.</p>
+</dd>
+</dl>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_OK</span></code>: Success</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">UNIT_4RELAY_ERR_I2C</span></code>: I2C communication error </p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
 
 </div>
 <div class="breathe-sectiondef docutils container">
@@ -15536,27 +15752,25 @@ documentation for details.</p>
 <span id="_CPPv39UsbSwitch"></span><span id="_CPPv29UsbSwitch"></span><span id="UsbSwitch"></span><span class="target" id="class_usb_switch"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">UsbSwitch</span></span></span><a class="headerlink" href="#_CPPv49UsbSwitch" title="Link to this definition"></a><br /></dt>
 <dd><div class="docutils container">
 <em>#include &lt;<a class="reference internal" href="#usb__switch_8h"><span class="std std-ref">usb_switch.h</span></a>&gt;</em></div>
-<p>USB Switch control class for managing devices operations. </p>
-<p>This class provides methods to control a usb switch module, including setting the output value for each output, the usb switch module has two output available: USB_OUTPUT1 and USB_OUTPUT2 toggling the output state, checking the status of the output, and setting the output value as a percentage.</p>
-<p><dl class="simple">
-<dt><strong>Attention</strong></dt><dd><p><ul class="simple">
-<li><p>If using the grove connector, the yellow wire will control USB_OUTPUT1 and the white wire will control USB_OUTPUT2. </p></li>
-</ul>
-</p>
-</dd>
-</dl>
-</p>
+<p>Manages a USB switch module with two PWM-controlled outputs. </p>
+<p>The <code class="docutils literal notranslate"><a class="reference internal" href="#class_usb_switch"><span class="std std-ref"><span class="pre">UsbSwitch</span></span></a></code> class provides functionality for controlling a USB switch module with two outputs (USB_OUTPUT1 and USB_OUTPUT2) via PWM-capable pins. It supports setting output values as PWM or percentage, toggling output states, and retrieving current values and statuses. The class maintains internal state for both outputs.</p>
 <div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch9UsbSwitchE7uint8_t7uint8_t">
 <span id="_CPPv3N9UsbSwitch9UsbSwitchE7uint8_t7uint8_t"></span><span id="_CPPv2N9UsbSwitch9UsbSwitchE7uint8_t7uint8_t"></span><span id="UsbSwitch::UsbSwitch__uint8_t.uint8_t"></span><span class="target" id="class_usb_switch_1ad39268ff1eccf9fb11e038d5184cf130"></span><span class="sig-name descname"><span class="n"><span class="pre">UsbSwitch</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">pin1</span></span>, <span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">pin2</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch9UsbSwitchE7uint8_t7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd><p>Initializes the USB Switch Module with specified pins. </p>
+<dd><p>Constructor to initialize the USB Switch module with specified pins. </p>
+<p>Configures the provided pins as PWM outputs for controlling USB_OUTPUT1 and USB_OUTPUT2, initializing both outputs to OFF.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the pins are PWM-capable and correctly connected to the module. </p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>pin1</strong> – <strong>[in]</strong> The pin first pin will control USB_OUTPUT1. </p></li>
-<li><p><strong>pin2</strong> – <strong>[in]</strong> The second pin will ocntrol USB_OUTPUT2. </p></li>
+<li><p><strong>pin1</strong> – <strong>[in]</strong> The pin controlling USB_OUTPUT1 (yellow wire if using Grove connector). </p></li>
+<li><p><strong>pin2</strong> – <strong>[in]</strong> The pin controlling USB_OUTPUT2 (white wire if using Grove connector).</p></li>
 </ul>
 </dd>
 </dl>
@@ -15566,12 +15780,17 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch14setOutputValueE7uint8_ti">
 <span id="_CPPv3N9UsbSwitch14setOutputValueE7uint8_ti"></span><span id="_CPPv2N9UsbSwitch14setOutputValueE7uint8_ti"></span><span id="UsbSwitch::setOutputValue__uint8_t.i"></span><span class="target" id="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setOutputValue</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">outputNo</span></span>, <span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch14setOutputValueE7uint8_ti" title="Link to this definition"></a><br /></dt>
 <dd><p>Sets the output value using a PWM value. </p>
-<p>This function sets the value of the output by writing a PWM value to the control pin.</p>
+<p>Writes a PWM value to the specified output(s), updating the internal status based on whether the value is non-zero.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the value is within 0–255 and the output number is valid (0, 1, or 2). </p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>outputNo</strong> – <strong>[in]</strong> The number of the output (1 or 2, 0 for both) </p></li>
-<li><p><strong>value</strong> – <strong>[in]</strong> The output analog value (0-255). </p></li>
+<li><p><strong>outputNo</strong> – <strong>[in]</strong> The output to control (1 for USB_OUTPUT1, 2 for USB_OUTPUT2, 0 for both). </p></li>
+<li><p><strong>value</strong> – <strong>[in]</strong> The PWM value (0–255).</p></li>
 </ul>
 </dd>
 </dl>
@@ -15581,20 +15800,17 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch24setOutputValuePercentageE7uint8_ti">
 <span id="_CPPv3N9UsbSwitch24setOutputValuePercentageE7uint8_ti"></span><span id="_CPPv2N9UsbSwitch24setOutputValuePercentageE7uint8_ti"></span><span id="UsbSwitch::setOutputValuePercentage__uint8_t.i"></span><span class="target" id="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setOutputValuePercentage</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">outputNo</span></span>, <span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">percentage</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch24setOutputValuePercentageE7uint8_ti" title="Link to this definition"></a><br /></dt>
 <dd><p>Sets the output value as a percentage. </p>
-<p>This function sets the output value by converting a percentage value to a PWM value and writing it to the specified control pin.</p>
+<p>Converts a percentage to a PWM value and applies it to the specified output(s), updating the internal status.</p>
 <p><dl class="simple">
-<dt><strong>Attention</strong></dt><dd><p><ul class="simple">
-<li><p>Testing with the pumping motor shows that the motor won’t run with percentage value &lt; 59 </p></li>
-</ul>
-</p>
+<dt><strong>Attention</strong></dt><dd><p>For some devices (e.g., pumping motors), a percentage below 59% may not activate the device. </p>
 </dd>
 </dl>
 </p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>outputNo</strong> – <strong>[in]</strong> The output to be used (1 or 2, 0 for both) </p></li>
-<li><p><strong>percentage</strong> – <strong>[in]</strong> The output value as a percentage (0-100%).</p></li>
+<li><p><strong>outputNo</strong> – <strong>[in]</strong> The output to control (1 for USB_OUTPUT1, 2 for USB_OUTPUT2, 0 for both). </p></li>
+<li><p><strong>percentage</strong> – <strong>[in]</strong> The output value as a percentage (0–100%).</p></li>
 </ul>
 </dd>
 </dl>
@@ -15603,14 +15819,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch14getOutputValueE7uint8_t">
 <span id="_CPPv3N9UsbSwitch14getOutputValueE7uint8_t"></span><span id="_CPPv2N9UsbSwitch14getOutputValueE7uint8_t"></span><span id="UsbSwitch::getOutputValue__uint8_t"></span><span class="target" id="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getOutputValue</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">outputNo</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch14getOutputValueE7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd><p>Gets the current output value. </p>
-<p>This function returns the current output value as a PWM value.</p>
+<dd><p>Retrieves the current output value. </p>
+<p>Reads the current PWM value of the specified output from the pin.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the output number is valid (1 or 2).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The specified output to get the value from.</p>
+<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The output to query (1 for USB_OUTPUT1, 2 for USB_OUTPUT2).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>int The current output value (0-255). </p>
+<dd class="field-even"><p>int The current PWM value (0–255), or 0 if an invalid output is specified. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -15618,14 +15839,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch24getOutputValuePercentageE7uint8_t">
 <span id="_CPPv3N9UsbSwitch24getOutputValuePercentageE7uint8_t"></span><span id="_CPPv2N9UsbSwitch24getOutputValuePercentageE7uint8_t"></span><span id="UsbSwitch::getOutputValuePercentage__uint8_t"></span><span class="target" id="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getOutputValuePercentage</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">outputNo</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch24getOutputValuePercentageE7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd><p>Gets the current output value as a percentage. </p>
-<p>This function returns the current output value, converted from the PWM value to a percentage (0-100%).</p>
+<dd><p>Retrieves the current output value as a percentage. </p>
+<p>Converts the current PWM value of the specified output to a percentage.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the output number is valid (1 or 2).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The specified output to get the value from.</p>
+<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The output to query (1 for USB_OUTPUT1, 2 for USB_OUTPUT2).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>int The current output value as a percentage (0-100%). </p>
+<dd class="field-even"><p>int The current output value as a percentage (0–100%), or 0 if an invalid output is specified. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -15634,10 +15860,15 @@ documentation for details.</p>
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch12toggleOutputE7uint8_t">
 <span id="_CPPv3N9UsbSwitch12toggleOutputE7uint8_t"></span><span id="_CPPv2N9UsbSwitch12toggleOutputE7uint8_t"></span><span id="UsbSwitch::toggleOutput__uint8_t"></span><span class="target" id="class_usb_switch_1ab54876679bf8156ef119e614db3beb35"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">toggleOutput</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">outputNo</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch12toggleOutputE7uint8_t" title="Link to this definition"></a><br /></dt>
 <dd><p>Toggles the output state between ON and OFF. </p>
-<p>This function toggles the state of the output. If the output is currently ON, it will be turned OFF, and vice versa.</p>
+<p>Switches the specified output(s) between ON (PWM 255) and OFF (PWM 0), updating the internal status.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the output number is valid (0, 1, or 2). </p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The output to be toggled (1 or 2, 0 for both) </p>
+<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The output to toggle (1 for USB_OUTPUT1, 2 for USB_OUTPUT2, 0 for both).</p>
 </dd>
 </dl>
 </dd></dl>
@@ -15645,13 +15876,19 @@ documentation for details.</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N9UsbSwitch9getStatusE7uint8_t">
 <span id="_CPPv3N9UsbSwitch9getStatusE7uint8_t"></span><span id="_CPPv2N9UsbSwitch9getStatusE7uint8_t"></span><span id="UsbSwitch::getStatus__uint8_t"></span><span class="target" id="class_usb_switch_1a9610f9b91027ad99d84ad9dcef8b3be4"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getStatus</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">outputNo</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9UsbSwitch9getStatusE7uint8_t" title="Link to this definition"></a><br /></dt>
-<dd><p>Checks if the status of the output is currently ON. </p>
+<dd><p>Checks the current status of the output. </p>
+<p>Returns whether the specified output is currently ON (non-zero PWM) or OFF.</p>
+<p><dl class="simple">
+<dt><strong>Attention</strong></dt><dd><p>Ensure the output number is valid (1 or 2).</p>
+</dd>
+</dl>
+</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The output to get the status from.</p>
+<dd class="field-odd"><p><strong>outputNo</strong> – <strong>[in]</strong> The output to check (1 for USB_OUTPUT1, 2 for USB_OUTPUT2).</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>true if the output is ON, false otherwise. </p>
+<dd class="field-even"><p>bool <code class="docutils literal notranslate"><span class="pre">true</span></code> if the output is ON, <code class="docutils literal notranslate"><span class="pre">false</span></code> otherwise or if an invalid output is specified. </p>
 </dd>
 </dl>
 </dd></dl>
@@ -24586,7 +24823,8 @@ None <dl class="simple">
 <dl class="cpp enum">
 <dt class="sig sig-object cpp" id="_CPPv418ultrasonic_error_t">
 <span id="_CPPv318ultrasonic_error_t"></span><span id="_CPPv218ultrasonic_error_t"></span><span class="target" id="ultrasonic_8h_1a2da24020278294e2b407cc96ceda4d6b"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ultrasonic_error_t</span></span></span><a class="headerlink" href="#_CPPv418ultrasonic_error_t" title="Link to this definition"></a><br /></dt>
-<dd><p><em>Values:</em></p>
+<dd><p>Enum for ultrasonic sensor error codes. </p>
+<p><em>Values:</em></p>
 <dl class="cpp enumerator">
 <dt class="sig sig-object cpp" id="_CPPv4N18ultrasonic_error_t13ULTRASONIC_OKE">
 <span id="_CPPv3N18ultrasonic_error_t13ULTRASONIC_OKE"></span><span id="_CPPv2N18ultrasonic_error_t13ULTRASONIC_OKE"></span><span class="target" id="ultrasonic_8h_1a2da24020278294e2b407cc96ceda4d6bae56702d5751faa559bc77930280b2a5a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ULTRASONIC_OK</span></span></span><a class="headerlink" href="#_CPPv4N18ultrasonic_error_t13ULTRASONIC_OKE" title="Link to this definition"></a><br /></dt>
@@ -24684,7 +24922,8 @@ None <dl class="simple">
 <dl class="cpp enum">
 <dt class="sig sig-object cpp" id="_CPPv419unit_4relay_error_t">
 <span id="_CPPv319unit_4relay_error_t"></span><span id="_CPPv219unit_4relay_error_t"></span><span class="target" id="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">unit_4relay_error_t</span></span></span><a class="headerlink" href="#_CPPv419unit_4relay_error_t" title="Link to this definition"></a><br /></dt>
-<dd><p><em>Values:</em></p>
+<dd><p>Enum for Unit 4-<a class="reference internal" href="#class_relay"><span class="std std-ref">Relay</span></a> module error codes. </p>
+<p><em>Values:</em></p>
 <dl class="cpp enumerator">
 <dt class="sig sig-object cpp" id="_CPPv4N19unit_4relay_error_t14UNIT_4RELAY_OKE">
 <span id="_CPPv3N19unit_4relay_error_t14UNIT_4RELAY_OKE"></span><span id="_CPPv2N19unit_4relay_error_t14UNIT_4RELAY_OKE"></span><span class="target" id="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930a514c6d994af8e5ba1f3e0987d6389584"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">UNIT_4RELAY_OK</span></span></span><a class="headerlink" href="#_CPPv4N19unit_4relay_error_t14UNIT_4RELAY_OKE" title="Link to this definition"></a><br /></dt>
@@ -24771,7 +25010,8 @@ None <dl class="simple">
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv414scanI2CDevicesv">
 <span id="_CPPv314scanI2CDevicesv"></span><span id="_CPPv214scanI2CDevicesv"></span><span id="scanI2CDevices"></span><span class="target" id="utility_8cpp_1a2ada518ecc2aaee50304c0c3ecec7370"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">scanI2CDevices</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv414scanI2CDevicesv" title="Link to this definition"></a><br /></dt>
-<dd><p>Scan for I2C devices and print the addresses to Serial. </p>
+<dd><p>Scans the I2C bus for connected devices. </p>
+<p>The <code class="docutils literal notranslate"><span class="pre">scanI2CDevices</span></code> function probes the I2C bus for devices by attempting communication with addresses from 1 to 126. It reports detected devices and errors via the Serial interface, providing a summary of the scan results. The function is designed for debugging and identifying I2C device addresses on an Arduino-compatible board.</p>
 </dd></dl>
 
 <dl class="cpp function">
@@ -24860,7 +25100,8 @@ None <dl class="simple">
 <dl class="cpp function">
 <dt class="sig sig-object cpp">
 <span class="target" id="utility_8h_1a8fae21c12475addf28c404a0e1c5eab3"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">scanI2CDevices</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">void</span></span><span class="sig-paren">)</span><br /></dt>
-<dd><p>Scan for I2C devices and print the addresses to Serial. </p>
+<dd><p>Scans the I2C bus for connected devices. </p>
+<p>The <code class="docutils literal notranslate"><span class="pre">scanI2CDevices</span></code> function probes the I2C bus for devices by attempting communication with addresses from 1 to 126. It reports detected devices and errors via the Serial interface, providing a summary of the scan results. The function is designed for debugging and identifying I2C device addresses on an Arduino-compatible board.</p>
 </dd></dl>
 
 <dl class="cpp function">
@@ -24929,14 +25170,14 @@ None <dl class="simple">
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="md_lib__arduino_http_client_utility__u_r_l_parser__r_e_a_d_m_e"></span><em><span class="pre">page</span></em> <span class="sig-name descname"><span class="pre">http_parser</span> <span class="pre">library</span></span></dt>
+<span class="target" id="md_thesis_mdt266_iotdevkit_lib__arduino_http_client_utility__u_r_l_parser__r_e_a_d_m_e"></span><em><span class="pre">page</span></em> <span class="sig-name descname"><span class="pre">http_parser</span> <span class="pre">library</span></span></dt>
 <dd><p>This code is imported from: <a class="reference external" href="https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser">https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser</a></p>
 <p>The code is shrinked in size by deleting all the unrelated code to url parse. </p>
 </dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="md_lib__arduino_json__r_e_a_d_m_e"></span><em><span class="pre">page</span></em> <span class="sig-name descname"><span class="pre">README</span></span></dt>
+<span class="target" id="md_thesis_mdt266_iotdevkit_lib__arduino_json__r_e_a_d_m_e"></span><em><span class="pre">page</span></em> <span class="sig-name descname"><span class="pre">README</span></span></dt>
 <dd><p><a class="reference external" href="https://arduinojson.org/"></a></p>
 <p><a class="reference external" href="https://github.com/bblanchon/ArduinoJson/actions?query=workflow%3A%22Continuous+Integration%22+branch%3A6.x"></a> <a class="reference external" href="https://ci.appveyor.com/project/bblanchon/arduinojson/branch/6.x"></a> <a class="reference external" href="https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&amp;can=1&amp;q=proj:arduinojson"></a> <a class="reference external" href="https://coveralls.io/github/bblanchon/ArduinoJson?branch=6.x"></a> <a class="reference external" href="https://www.ardu-badge.com/ArduinoJson/6.21.5"></a> <a class="reference external" href="https://registry.platformio.org/packages/libraries/bblanchon/ArduinoJson?version=6.21.5"></a> <a class="reference external" href="https://components.espressif.com/components/bblanchon/arduinojson"></a> <a class="reference external" href="https://github.com/bblanchon/ArduinoJson/stargazers"></a> <a class="reference external" href="https://github.com/sponsors/bblanchon"></a></p>
 <p>ArduinoJson is a C++ JSON library for Arduino and IoT (Internet Of Things).</p>
@@ -24944,14 +25185,14 @@ None <dl class="simple">
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="md_lib_dht20__r_e_a_d_m_e"></span><em><span class="pre">page</span></em> <span class="sig-name descname"><span class="pre">DHT20</span> <span class="pre">Library</span></span></dt>
-<dd><section id="md_lib_dht20__r_e_a_d_m_e_1autotoc_md17">
-<h2>Overview<a class="headerlink" href="#md_lib_dht20__r_e_a_d_m_e_1autotoc_md17" title="Link to this heading"></a></h2>
-<p id="md_lib_dht20__r_e_a_d_m_e_1autotoc_md17">This library provides a set of functions to interface with the <a class="reference internal" href="#class_d_h_t20"><span class="std std-ref">DHT20</span></a> temperature and humidity sensor. It allows users to initialize the sensor, read temperature and humidity data, and reset the sensor if necessary.</p>
+<span class="target" id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e"></span><em><span class="pre">page</span></em> <span class="sig-name descname"><span class="pre">DHT20</span> <span class="pre">Library</span></span></dt>
+<dd><section id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md17">
+<h2>Overview<a class="headerlink" href="#md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md17" title="Link to this heading"></a></h2>
+<p id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md17">This library provides a set of functions to interface with the <a class="reference internal" href="#class_d_h_t20"><span class="std std-ref">DHT20</span></a> temperature and humidity sensor. It allows users to initialize the sensor, read temperature and humidity data, and reset the sensor if necessary.</p>
 </section>
-<section id="md_lib_dht20__r_e_a_d_m_e_1autotoc_md18">
-<h2>Features<a class="headerlink" href="#md_lib_dht20__r_e_a_d_m_e_1autotoc_md18" title="Link to this heading"></a></h2>
-<p id="md_lib_dht20__r_e_a_d_m_e_1autotoc_md18"><ul class="simple">
+<section id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md18">
+<h2>Features<a class="headerlink" href="#md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md18" title="Link to this heading"></a></h2>
+<p id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md18"><ul class="simple">
 <li><p><strong>Initialize <a class="reference internal" href="#class_d_h_t20"><span class="std std-ref">DHT20</span></a> Sensor:</strong> Ensures the sensor is ready for use.</p></li>
 <li><p><strong>Read Temperature and Humidity:</strong> Retrieves accurate temperature and humidity data.</p></li>
 <li><p><strong>Reset Functionality:</strong> Allows resetting the sensor if needed. </p></li>
@@ -24962,352 +25203,357 @@ None <dl class="simple">
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a71c4a2605183e896b2859442fc7d05c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ac_measure</span></span></dt>
+<span class="target" id="dir_f8d88bacdec55ab1d372195ae041f51c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ac_measure</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a609e5dd017321dcf8cfe83525920a42"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Strings/Adapters</span></span></dt>
+<span class="target" id="dir_ede1f9f24f08f5c58b920d8002284ca0"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_51a5aacbb87340dd6d482e871e966e43"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoHttpClient</span></span></dt>
+<span class="target" id="dir_e4c05bf6692d794450fc9d95367ee1a0"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_c4dedaf980b01a3cd7652d05d949c8d7"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson</span></span></dt>
+<span class="target" id="dir_a262394071aebdc301bf64d3d1111822"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_fad0a17fb5c1d03f6147440cf5d064ad"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson</span></span></dt>
+<span class="target" id="dir_13deebad42d5ea7cdb8a8516766a3ec0"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_b27902da1565337b07bd35329ddd5bed"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Array</span></span></dt>
+<span class="target" id="dir_35c16c3acbe1d72922651d8ead550f83"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_41f8e2bb12a105b3e62cc193dacb2d08"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/bmp280</span></span></dt>
+<span class="target" id="dir_c790ca96885a5398735eb95ccb8cb493"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/bmp280</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_03dec873ff5ab607800b9ec54a71117a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/bsp</span></span></dt>
+<span class="target" id="dir_fbb6dd4bc06eb9668da5bb4a088a1e2b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/bsp</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_d20994daa53066fb270f3acc75a99001"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/button</span></span></dt>
+<span class="target" id="dir_aebbca245a68863a51202f5c5244d3f1"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/button</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a14f1fb45cf949b479301ae7b8aece68"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Collection</span></span></dt>
+<span class="target" id="dir_aba05d1f8bdadd9b51dd240f062677d4"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_10e48b983f378c59dcd859736018b16d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/config</span></span></dt>
+<span class="target" id="dir_839899deed37697a7aac06f485dce13c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/config</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a9ab4374419ff25492362ce3d9119e16"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Deserialization</span></span></dt>
+<span class="target" id="dir_6fcc82c2d0dbbe2fc364f724f45225e6"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_c63ad364df733e24ac431b4390804b9e"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/dht20</span></span></dt>
+<span class="target" id="dir_16d2b6ad93d7c5583e6cdba31e8d12b7"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/dht20</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_2043495969904c4fd33854bf8948f60d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Document</span></span></dt>
+<span class="target" id="dir_5577c67ae2921ceeb09ece12429b1f77"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_debc0c43ccc9fdc1f55a45dbc1d2b032"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/es_soil_7_in_1</span></span></dt>
+<span class="target" id="dir_f1888da5b6031137acff25fddb13090a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/es_soil_7_in_1</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a9aa24c78570c67e7c42e1c756d0cf23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/dht20/examples</span></span></dt>
+<span class="target" id="dir_7fbd116798375880a191908a6b42ae3b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/dht20/examples</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_ec2d9c87f6992fa367d6b9c5ce8d0362"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/HUSKYLENS/examples</span></span></dt>
+<span class="target" id="dir_cf25332c20820cd179137fb308b9f2ba"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_159520f77db5d53b73d737e7c717d236"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/HUSKYLENS</span></span></dt>
+<span class="target" id="dir_ddc800b3ffa3ec1f8a917802629824c8"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/HUSKYLENS</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_dc7531a01726af7e9320ee923c9d2908"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING</span></span></dt>
+<span class="target" id="dir_041c30d86fba71cfdd4326779c15ad1b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_f8868e94cf7ce72f98e8cafd0d1bbc46"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING</span></span></dt>
+<span class="target" id="dir_d5b996ebfaa2df3844f47df138fafa92"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_47aa7698b3fb49880a7b33e64496bc0b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Json</span></span></dt>
+<span class="target" id="dir_904f9774710b0b28231b7dcd4d24a8fe"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_0dfbfc4771a825bc2bf5a83dc42eba22"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/LCD_I2C</span></span></dt>
+<span class="target" id="dir_b3e894fba747370158aa1d9f889f7276"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/LCD_I2C</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_97aefd0d527b934f1d99a682da8fe6a9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib</span></span></dt>
+<span class="target" id="dir_886af127da27a9b719e97f412fb8ee78"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_d08c672f8236a5b999347236f7c32810"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/light_sensor</span></span></dt>
+<span class="target" id="dir_8b7ea24d7d98da99cfa5957722c733db"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/light_sensor</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_0c6a97445d7690c9226d07c63d179d4a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Memory</span></span></dt>
+<span class="target" id="dir_4c9a027b6cee227fc9b0f26dff2ac982"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_c87256a25040e1bb1722121815ea887b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/mini_fan</span></span></dt>
+<span class="target" id="dir_e6837d17074001bc70912aa6ca30e5fb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/mini_fan</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_0648d57d77f719f9654ec6901cc52f66"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Misc</span></span></dt>
+<span class="target" id="dir_bbf7635fc7ea999f5e6c89a7cb9b2b30"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_ab84a8c12e8177e71676119d3d0b1562"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl</span></span></dt>
+<span class="target" id="dir_429af8e54169a801c25db0ae8db327bc"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_428e4cdc340eccb8a04495b8557c3979"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/MsgPack</span></span></dt>
+<span class="target" id="dir_a7af8095b253248118ab1a1be6e42ba5"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_8759457fc428d908179d697a750e8d0d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Numbers</span></span></dt>
+<span class="target" id="dir_ab2c8b514eb223f3d4ba664674854729"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_71d6420c097c90cb21266eaa4a079845"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Object</span></span></dt>
+<span class="target" id="dir_b022e6daa339b23160b9e383375036fa"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_caef6b4136c8a4c9f4de5c566b28d6f1"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/pir_sensor</span></span></dt>
+<span class="target" id="dir_9b269f3eb0605e346d10fa3e7bda2ecf"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/pir_sensor</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_b2487d639a26a5d9f7da817ab11178e9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Polyfills</span></span></dt>
+<span class="target" id="dir_891920c1fcd0dccc3b42a58ca551808a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_e0a621e1d8bdb13d08c5c734276be2ee"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/PubSubClient</span></span></dt>
+<span class="target" id="dir_3f928e9a43dfd94327deb10f0288823f"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/PubSubClient</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a3b5c57cb91440e2268e221c386903dd"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</span></span></dt>
+<span class="target" id="dir_f2aa8641a4e4a1c44fba2164a02943ce"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_8214822af0602b2c13a0b44b628fc185"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/relay</span></span></dt>
+<span class="target" id="dir_c147d5233f0a5c077b16cbb0ee9f1e18"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/relay</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_ec747ffc70cc7e265f05154db74edb44"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Serialization</span></span></dt>
+<span class="target" id="dir_4ff44832d5399d602854a8a5e1b2f6b3"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_f5420b6d77e365820cde539fe1155c5c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/sht3x</span></span></dt>
+<span class="target" id="dir_cf0cc805f0c58936753470736a53ec88"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/sht3x</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_928f9841166f58229f6bae951f08724c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/sht4x</span></span></dt>
+<span class="target" id="dir_ab8057e5be58cac40f97359916e97ec2"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/sht4x</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_d2ee86d867ee997cf6b53b2f1fb71b16"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/soil_moisture_sensor</span></span></dt>
+<span class="target" id="dir_0b0ab5b7464c019ce0430138962b0b55"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/soil_moisture_sensor</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_54a9d7a08f2ed49148146ebd4c4f2c20"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ac_measure/src</span></span></dt>
+<span class="target" id="dir_573d419210fa2ac3652195dd2628593d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ac_measure/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_ef373e993157965aa769903d9db0e322"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src</span></span></dt>
+<span class="target" id="dir_1b6f552bfee16bbff230e4129e333883"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_cfecf4b65caa4b090deb215587d01c9c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/bmp280/src</span></span></dt>
+<span class="target" id="dir_62a576adf65336f26f886baa9bd5531a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/bmp280/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_e341b635b746cac2b3cc1206f5e7245a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/button/src</span></span></dt>
+<span class="target" id="dir_579416e560e0cb5e238881be98b21f8a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/button/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_cd99566405dbf48a3c18635e54305841"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/config/src</span></span></dt>
+<span class="target" id="dir_11a475855a7bf685d7762e43b21b1c90"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/config/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_81b3ecb8ae1f4859251bae603fecb964"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/dht20/src</span></span></dt>
+<span class="target" id="dir_779e249a78ec2bc3ed446da1a8502473"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/dht20/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_d5b3cc1fe4afda1ef397e5376fa0babc"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/es_soil_7_in_1/src</span></span></dt>
+<span class="target" id="dir_3c27832594cca53dd73f05f1af4ee0d3"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_b00bdc899bacc0604a0a058f9c46b01e"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/LCD_I2C/src</span></span></dt>
+<span class="target" id="dir_4b699977132c54dba435a92c57880608"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/LCD_I2C/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a9252817dd168cda17285f792d6657a3"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/light_sensor/src</span></span></dt>
+<span class="target" id="dir_5e364e08ba975d5d0bdc38fd7c719a95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/light_sensor/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_65578b42aff5261b98bf2715ddbe0961"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/mini_fan/src</span></span></dt>
+<span class="target" id="dir_9e73787ee5f1eb5f810ee86d98ca698f"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/mini_fan/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_e1c569de757741b0c19fc37ab37f133b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/pir_sensor/src</span></span></dt>
+<span class="target" id="dir_aacdbe94fb364af91f19ea6daff69635"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/pir_sensor/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_e00487b8091b664197daaa52f5736faa"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/relay/src</span></span></dt>
+<span class="target" id="dir_70a531e7d634c6cf84314a6ad4c3e11d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/relay/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_aaf79a6e3d79da4b818e42bd05d3b868"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/sht3x/src</span></span></dt>
+<span class="target" id="dir_e3f72bec7bfd560fd1841082efaecbe1"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/sht3x/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_98c41ed275245bdd143dc8a0bf0e0034"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/sht4x/src</span></span></dt>
+<span class="target" id="dir_b05d1618522d1ac6c7df46721f6c9084"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/sht4x/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_c7aa19206465e504b028a9bda7197efa"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/soil_moisture_sensor/src</span></span></dt>
+<span class="target" id="dir_d2dbf1261dac580cce78b2f7e4f3c031"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a14b70e880105bdb752cf02abef7f532"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ultrasonic_sensor/src</span></span></dt>
+<span class="target" id="dir_528ac188106fb2cea8439165ef35a67c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_80138ef209f0b3021360af8d4d592810"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/unit_4relay/src</span></span></dt>
+<span class="target" id="dir_0e2e8ee75aaa44d0612ebc0fc91f3ba4"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/unit_4relay/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a93352bbad3a7c09442d89e8febbd5b1"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/usb_switch/src</span></span></dt>
+<span class="target" id="dir_26dd16ddc119ba21301487363f86eb65"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/usb_switch/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_77d916e9bb7fa9d9968d1ae2d87c64b5"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/utility/src</span></span></dt>
+<span class="target" id="dir_42004c8c535688355aa3ff5b140ed79a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/utility/src</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_381851da249482ed4e3dd63fba668019"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Strings</span></span></dt>
+<span class="target" id="dir_9e0c7672caa5d47e4cedc176bfebc230"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_6dd4b75b980080771d6263a8e36e8666"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/StringStorage</span></span></dt>
+<span class="target" id="dir_6e4f8acb10b2051b1546a1a10c57e21d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_f846694a70bf10e2323df0eca63347cd"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits</span></span></dt>
+<span class="target" id="dir_779aade6bd8f9f4793ba67c0c3a369ae"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_a1edb5454300fc52cc0038d0f9903d6a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ultrasonic_sensor</span></span></dt>
+<span class="target" id="dir_c72fa2dd5a9c5b352f06e62a1c0a81eb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_5c75b1126ffe6c52ec9a66ee7be1bfda"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/unit_4relay</span></span></dt>
+<span class="target" id="dir_94d73d03d9b8ab7d4af12793c9c42db6"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_72f3d495db958d4b491adc31ac3959aa"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoHttpClient/utility/URLParser</span></span></dt>
+<span class="target" id="dir_b93b24ab107bc9e7defc368dd481657c"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/unit_4relay</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_6d227181b75b2df272f5da1219c76b47"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/usb_switch</span></span></dt>
+<span class="target" id="dir_3cd44837f31178a3c5dcfdbf7da4951b"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_de6b731208ca3647f59e46130a87452d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoHttpClient/utility</span></span></dt>
+<span class="target" id="dir_163f486728c2d7e4a3ca5aa8f514bcf4"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/usb_switch</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_31153c7d8cc16ae64d9212a5c823a211"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/utility</span></span></dt>
+<span class="target" id="dir_bc147d61d01381f803dd0059ceb7320d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_22170c7dabdeeb07b37a9239b4243453"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Variant</span></span></dt>
+<span class="target" id="dir_e3d7545438c247335ecc5edabfd8d5f8"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/utility</span></span></dt>
 <dd></dd></dl>
 
 <dl>
 <dt class="sig sig-object cpp">
-<span class="target" id="dir_7f85e5012c841fb6f00c95109dfa13e0"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">lib/ArduinoJson/src/ArduinoJson/Serialization/Writers</span></span></dt>
+<span class="target" id="dir_a1f9c59ab89477e150ac9c525f7a843a"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_1738763b873abf929d5626af58b2af7e"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers</span></span></dt>
 <dd></dd></dl>
 
 <dl>

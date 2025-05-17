@@ -12,6 +12,6 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/HUSKYLENS/HUSKYLENS.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.cpp"/>
   </compounddef>
 </doxygen>

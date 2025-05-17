@@ -6,9 +6,9 @@
     <includes refid="measure_8hpp" local="no">ArduinoJson/Serialization/measure.hpp</includes>
     <includes refid="serialize_8hpp" local="no">ArduinoJson/Serialization/serialize.hpp</includes>
     <includes refid="_visitor_8hpp" local="no">ArduinoJson/Variant/Visitor.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
-    <includedby refid="_pretty_json_serializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</includedby>
-    <includedby refid="_converter_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_pretty_json_serializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</includedby>
+    <includedby refid="_converter_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</includedby>
     <incdepgraph>
       <node id="63">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -617,11 +617,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -631,13 +631,13 @@
         </childnode>
       </node>
       <node id="3">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -669,7 +669,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="125" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="125" bodyend="128"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="125" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="125" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="_json_serializer_8hpp_1a82f703fa01b312c30f87680717283cc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -694,7 +694,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="132" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="132" bodyend="136"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="132" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="132" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="_json_serializer_8hpp_1a50c94add85401cc876b770be8d65eac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -711,7 +711,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="140" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="140" bodyend="143"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="140" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="140" bodyend="143"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -875,6 +875,6 @@
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp"/>
   </compounddef>
 </doxygen>

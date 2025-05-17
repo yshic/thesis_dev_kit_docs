@@ -5,7 +5,7 @@
     <includes refid="bsp__pwm_8h" local="yes">bsp_pwm.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/bsp/bsp_pwm.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.cpp</label>
         <link refid="bsp__pwm_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -58,6 +58,6 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/bsp/bsp_pwm.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.cpp"/>
   </compounddef>
 </doxygen>

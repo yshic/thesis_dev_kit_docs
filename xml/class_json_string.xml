@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="17" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="17" bodyend="17"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="17" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="17" bodyend="17"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="79" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="79" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="79" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_json_string_1ac84adfd6ac62c7e4327d85d71172e889" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="80" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="80" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="80" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_json_string_1a7cffe3023bbdbb25a3fe89fb050b6cae" prot="private" static="no" mutable="no">
         <type>Ownership</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="81" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="81" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="81" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="81" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="19" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="19" bodyend="19"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="19" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1ad4684d2817fd312931abdfb7236d079d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="21" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="21" bodyend="22"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="21" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="21" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1ac0732f87639653d17a1d7cb19c13e3ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="24" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="24" bodyend="25"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="24" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="24" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1afa6a891e9bfe62ad7202b0a5289e106f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const char *</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="28" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="28" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="28" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="28" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1a6fc2d8efb22508c13cdfc0e8f7acad78" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="33" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="33" bodyend="35"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="33" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="33" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1a0e470762b94275771d1e86e81e03a2a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="39" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="39" bodyend="41"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="39" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="39" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1a5026bbc5d2a0930b5c99a0ab789e79b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="44" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="44" bodyend="46"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="44" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="44" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_1aba98e7f6a2001c487dbcbb9963580f33" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="49" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="49" bodyend="51"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="49" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="49" bodyend="51"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="54" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="54" bodyend="64"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="54" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="54" bodyend="64"/>
       </memberdef>
       <memberdef kind="friend" id="class_json_string_1aae0c13553209c8b4504caa6730509a41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -253,14 +253,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="67" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="67" bodyend="69"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="67" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="67" bodyend="69"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="15" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="15" bodyend="82"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" line="15" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp" bodystart="15" bodyend="82"/>
     <listofallmembers>
       <member refid="class_json_string_1afa6a891e9bfe62ad7202b0a5289e106f" prot="public" virt="non-virtual"><scope>JsonString</scope><name>c_str</name></member>
       <member refid="class_json_string_1a7b505894572653d96c9691f87b61e146abf5cbed59ba7d6611b972dcfaa057979" prot="public" virt="non-virtual"><scope>JsonString</scope><name>Copied</name></member>

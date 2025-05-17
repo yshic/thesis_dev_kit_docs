@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_1b6f552bfee16bbff230e4129e333883" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src</compoundname>
+    <innerdir refid="dir_13deebad42d5ea7cdb8a8516766a3ec0">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson</innerdir>
+    <innerfile refid="src_2_arduino_json_8h">ArduinoJson.h</innerfile>
+    <innerfile refid="_arduino_json_8hpp">ArduinoJson.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/"/>
+  </compounddef>
+</doxygen>

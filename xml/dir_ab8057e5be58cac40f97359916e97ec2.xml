@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_ab8057e5be58cac40f97359916e97ec2" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/sht4x</compoundname>
+    <innerdir refid="dir_b05d1618522d1ac6c7df46721f6c9084">thesis_mdt266_iotdevkit/lib/sht4x/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/sht4x/"/>
+  </compounddef>
+</doxygen>

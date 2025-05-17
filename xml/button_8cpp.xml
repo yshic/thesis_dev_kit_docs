@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/button/src/button.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/button/src/button.cpp</label>
         <link refid="button_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,7 +37,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;button.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"><ref refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" kindref="member">ButtonHandler::ButtonHandler</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isActiveLow,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePullup)</highlight></codeline>
+<codeline lineno="4" refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" refkind="member"><highlight class="normal"><ref refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" kindref="member">ButtonHandler::ButtonHandler</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isActiveLow,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePullup)</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>buttonPin(pin),<sp/>activeLow(isActiveLow),<sp/>debounceDuration(50),<sp/>doubleClickInterval(400),</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>holdDuration(800),<sp/>singleClickCallback(nullptr),<sp/>doubleClickCallback(nullptr),</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>holdStartCallback(nullptr),<sp/>holdReleaseCallback(nullptr),<sp/>lastButtonState(false),<sp/>lastDebounceTime(0),</highlight></codeline>
@@ -49,7 +49,7 @@
 <codeline lineno="13"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" kindref="member">ButtonHandler::setDebounceDuration</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms)</highlight></codeline>
+<codeline lineno="16" refid="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" kindref="member">ButtonHandler::setDebounceDuration</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms)</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ms<sp/>&lt;<sp/>1)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -59,7 +59,7 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1ab5e0cbc1ab74e1cfb9ab7f4417584a39" kindref="member">ButtonHandler::setDoubleClickInterval</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms)</highlight></codeline>
+<codeline lineno="26" refid="class_button_handler_1ab5e0cbc1ab74e1cfb9ab7f4417584a39" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1ab5e0cbc1ab74e1cfb9ab7f4417584a39" kindref="member">ButtonHandler::setDoubleClickInterval</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms)</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ms<sp/>&lt;<sp/>1)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -69,7 +69,7 @@
 <codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1a772346688081ec9304bfbaf9920f49d9" kindref="member">ButtonHandler::setHoldDuration</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms)</highlight></codeline>
+<codeline lineno="36" refid="class_button_handler_1a772346688081ec9304bfbaf9920f49d9" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1a772346688081ec9304bfbaf9920f49d9" kindref="member">ButtonHandler::setHoldDuration</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ms<sp/>&lt;<sp/>1)</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -79,7 +79,7 @@
 <codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1ab12ba9a377ff3dd9ddd09b3770549a2c" kindref="member">ButtonHandler::attachSingleClickCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
+<codeline lineno="46" refid="class_button_handler_1ab12ba9a377ff3dd9ddd09b3770549a2c" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1ab12ba9a377ff3dd9ddd09b3770549a2c" kindref="member">ButtonHandler::attachSingleClickCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(callback<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -89,7 +89,7 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" kindref="member">ButtonHandler::attachDoubleClickCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
+<codeline lineno="56" refid="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" kindref="member">ButtonHandler::attachDoubleClickCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
 <codeline lineno="57"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(callback<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -99,7 +99,7 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1aca1da4b0a47414a3221902947867bee0" kindref="member">ButtonHandler::attachHoldStartCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
+<codeline lineno="66" refid="class_button_handler_1aca1da4b0a47414a3221902947867bee0" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1aca1da4b0a47414a3221902947867bee0" kindref="member">ButtonHandler::attachHoldStartCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(callback<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -109,7 +109,7 @@
 <codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1a5eaf04c0e2facda78d57a5642b6cf502" kindref="member">ButtonHandler::attachHoldReleaseCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
+<codeline lineno="76" refid="class_button_handler_1a5eaf04c0e2facda78d57a5642b6cf502" refkind="member"><highlight class="normal">button_handler_error_t<sp/><ref refid="class_button_handler_1a5eaf04c0e2facda78d57a5642b6cf502" kindref="member">ButtonHandler::attachHoldReleaseCallback</ref>(ButtonCallback<sp/>callback)</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(callback<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -119,7 +119,7 @@
 <codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BUTTON_OK;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" kindref="member">ButtonHandler::update</ref>()</highlight></codeline>
+<codeline lineno="86" refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" kindref="member">ButtonHandler::update</ref>()</highlight></codeline>
 <codeline lineno="87"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isButtonPressed<sp/>=<sp/><ref refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" kindref="member">bspGpioDigitalRead</ref>(buttonPin)<sp/>==<sp/>(activeLow<sp/>?<sp/>LOW<sp/>:<sp/>HIGH);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>currentTime<sp/><sp/><sp/><sp/><sp/>=<sp/>millis();</highlight></codeline>
@@ -203,6 +203,6 @@
 <codeline lineno="167"><highlight class="normal"><sp/><sp/>lastButtonState<sp/>=<sp/>isButtonPressed;</highlight></codeline>
 <codeline lineno="168"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="lib/button/src/button.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/button/src/button.cpp"/>
   </compounddef>
 </doxygen>

@@ -5,7 +5,7 @@
     <includes refid="config_8h" local="yes">config.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/config/src/config.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/config/src/config.cpp</label>
         <link refid="config_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -48,6 +48,6 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/config/src/config.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/config/src/config.cpp"/>
   </compounddef>
 </doxygen>

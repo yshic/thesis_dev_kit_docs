@@ -1,0 +1,5 @@
+<map id="SoilMoisture::getAverageReading" name="SoilMoisture::getAverageReading">
+<area shape="rect" id="node1" title="Computes the average sensor reading over multiple samples." alt="" coords="5,5,173,48"/>
+<area shape="rect" id="node2" href="$class_soil_moisture.html#ab1a0cb8f764d8e4745a12aa3c61f5241" title="Reads the analog value from the soil moisture sensor." alt="" coords="221,13,347,40"/>
+<area shape="rect" id="node3" href="$bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="395,13,535,40"/>
+</map>

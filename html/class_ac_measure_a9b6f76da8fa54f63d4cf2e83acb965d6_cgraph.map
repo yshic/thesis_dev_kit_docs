@@ -1,0 +1,4 @@
+<map id="AcMeasure::jumpBootloader" name="AcMeasure::jumpBootloader">
+<area shape="rect" id="node1" title="Initiates a jump to the device’s bootloader mode." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a6fa08d56ba5abcaf8827af4c3164f5b7" title="Writes multiple bytes to a register using I2C." alt="" coords="239,5,366,32"/>
+</map>

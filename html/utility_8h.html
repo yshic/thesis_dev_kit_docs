@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>XIAO ESP32S3 Sense Development Kit: lib/utility/src/utility.h File Reference</title>
+<title>XIAO ESP32S3 Sense Development Kit: thesis_mdt266_iotdevkit/lib/utility/src/utility.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;0.4.0</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -103,21 +103,21 @@ $(document).ready(function(){initNavTree('utility_8h.html',''); initResizable();
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for utility.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="utility_8h__incl.png" border="0" usemap="#alib_2utility_2src_2utility_8h" alt=""/></div>
-<map name="alib_2utility_2src_2utility_8h" id="alib_2utility_2src_2utility_8h">
-<area shape="rect" title="Header file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="35,5,171,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,100,107"/>
-<area shape="rect" title=" " alt="" coords="124,80,184,107"/>
+<div class="center"><img src="utility_8h__incl.png" border="0" usemap="#athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8h" alt=""/></div>
+<map name="athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8h" id="athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8h">
+<area shape="rect" title="Header file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="22,5,184,48"/>
+<area shape="rect" title=" " alt="" coords="5,96,100,123"/>
+<area shape="rect" title=" " alt="" coords="124,96,184,123"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="utility_8h__dep__incl.png" border="0" usemap="#alib_2utility_2src_2utility_8hdep" alt=""/></div>
-<map name="alib_2utility_2src_2utility_8hdep" id="alib_2utility_2src_2utility_8hdep">
-<area shape="rect" title="Header file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="102,5,238,32"/>
-<area shape="rect" href="sht4x_8cpp.html" title="Source file for BMP280 library." alt="" coords="5,80,159,107"/>
-<area shape="rect" href="utility_8cpp.html" title="Source file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="183,80,333,107"/>
+<div class="center"><img src="utility_8h__dep__incl.png" border="0" usemap="#athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8hdep" alt=""/></div>
+<map name="athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8hdep" id="athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8hdep">
+<area shape="rect" title="Header file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="99,5,261,48"/>
+<area shape="rect" href="sht4x_8cpp.html" title="Source file for BMP280 library." alt="" coords="5,96,168,139"/>
+<area shape="rect" href="utility_8cpp.html" title="Source file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="192,96,354,139"/>
 </map>
 </div>
 </div>
@@ -125,9 +125,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8fae21c12475addf28c404a0e1c5eab3"><td class="memItemLeft" align="right" valign="top"><a id="a8fae21c12475addf28c404a0e1c5eab3" name="a8fae21c12475addf28c404a0e1c5eab3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>scanI2CDevices</b> (void)</td></tr>
-<tr class="memdesc:a8fae21c12475addf28c404a0e1c5eab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scan for I2C devices and print the addresses to Serial. <br /></td></tr>
+<tr class="memitem:a8fae21c12475addf28c404a0e1c5eab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a8fae21c12475addf28c404a0e1c5eab3">scanI2CDevices</a> (void)</td></tr>
+<tr class="memdesc:a8fae21c12475addf28c404a0e1c5eab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans the I2C bus for connected devices.  <br /></td></tr>
 <tr class="separator:a8fae21c12475addf28c404a0e1c5eab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732bb003220387dc7af9c2751c1b2465"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a732bb003220387dc7af9c2751c1b2465">crc8</a> (const uint8_t *data, int len)</td></tr>
 <tr class="memdesc:a732bb003220387dc7af9c2751c1b2465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates CRC-8 checksum for the given data using SHT40's polynomial.  <br /></td></tr>
@@ -233,6 +232,55 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>scanI2CDevices</b> (v
 <li>CRC-8 checksum as an 8-bit unsigned integer. </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utility_8h_a732bb003220387dc7af9c2751c1b2465_icgraph.png" border="0" usemap="#autility_8h_a732bb003220387dc7af9c2751c1b2465_icgraph" alt=""/></div>
+<map name="autility_8h_a732bb003220387dc7af9c2751c1b2465_icgraph" id="autility_8h_a732bb003220387dc7af9c2751c1b2465_icgraph">
+<area shape="rect" title="Calculates CRC&#45;8 checksum for the given data using SHT40&#39;s polynomial." alt="" coords="165,5,211,32"/>
+<area shape="rect" href="class_s_h_t4_x.html#a6b98f00ab94cb56a4472e08b468424c5" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="5,5,117,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8fae21c12475addf28c404a0e1c5eab3" name="a8fae21c12475addf28c404a0e1c5eab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fae21c12475addf28c404a0e1c5eab3">&#9670;&#160;</a></span>scanI2CDevices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scanI2CDevices </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scans the I2C bus for connected devices. </p>
+<p>The <code>scanI2CDevices</code> function probes the I2C bus for devices by attempting communication with addresses from 1 to 126. It reports detected devices and errors via the Serial interface, providing a summary of the scan results. The function is designed for debugging and identifying I2C device addresses on an Arduino-compatible board.</p>
+<h3><a class="anchor" id="autotoc_md52"></a>
+Features:</h3>
+<ul>
+<li>Scans I2C addresses 1 through 126 for responsive devices.</li>
+<li>Reports detected devices with their hexadecimal addresses.</li>
+<li>Identifies unknown errors during communication attempts.</li>
+<li>Summarizes the number of devices found or indicates if none are detected.</li>
+<li>Includes a delay to allow periodic scanning without overwhelming the Serial output.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md53"></a>
+Usage:</h3>
+<p>Call <code><a class="el" href="utility_8h.html#a8fae21c12475addf28c404a0e1c5eab3" title="Scans the I2C bus for connected devices.">scanI2CDevices()</a></code> to initiate an I2C bus scan. Ensure the Serial interface is initialized (e.g., with <code>Serial.begin(9600)</code>) and the I2C bus is configured (e.g., with <code>Wire.begin()</code>) before calling. The function outputs results to the Serial monitor and pauses for 2 seconds before completing, suitable for repeated calls in a loop.</p>
+<h3><a class="anchor" id="autotoc_md54"></a>
+Dependencies:</h3>
+<ul>
+<li>Requires an Arduino-compatible board with I2C support.</li>
+<li>Depends on the <code>Wire</code> library for I2C communication (<code>Wire.beginTransmission</code>, <code>Wire.endTransmission</code>).</li>
+<li>Requires the <code>Serial</code> interface for output (<code>Serial.print</code>, <code>Serial.println</code>). </li>
+</ul>
 
 </div>
 </div>
@@ -241,7 +289,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>scanI2CDevices</b> (v
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_31153c7d8cc16ae64d9212a5c823a211.html">utility</a></li><li class="navelem"><a class="el" href="dir_77d916e9bb7fa9d9968d1ae2d87c64b5.html">src</a></li><li class="navelem"><a class="el" href="utility_8h.html">utility.h</a></li>
+    <li class="navelem"><a class="el" href="dir_779aade6bd8f9f4793ba67c0c3a369ae.html">thesis_mdt266_iotdevkit</a></li><li class="navelem"><a class="el" href="dir_886af127da27a9b719e97f412fb8ee78.html">lib</a></li><li class="navelem"><a class="el" href="dir_e3d7545438c247335ecc5edabfd8d5f8.html">utility</a></li><li class="navelem"><a class="el" href="dir_42004c8c535688355aa3ff5b140ed79a.html">src</a></li><li class="navelem"><a class="el" href="utility_8h.html">utility.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

@@ -9,7 +9,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.cpp</label>
         <link refid="_h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -93,6 +93,6 @@
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.cpp"/>
   </compounddef>
 </doxygen>

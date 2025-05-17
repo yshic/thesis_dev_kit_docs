@@ -1,0 +1,4 @@
+<map id="SoilMoisture::onThresholdCross" name="SoilMoisture::onThresholdCross">
+<area shape="rect" id="node1" title="Sets a callback function for threshold&#45;crossing events." alt="" coords="5,5,178,48"/>
+<area shape="rect" id="node2" href="$class_soil_moisture.html#ab1d48d88b179d8a15972a5372664914e" title="Checks if the soil moisture level exceeds a threshold." alt="" coords="226,13,431,40"/>
+</map>

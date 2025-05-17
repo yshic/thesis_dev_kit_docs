@@ -1,0 +1,10 @@
+<map id="bspGpioAnalogWrite" name="bspGpioAnalogWrite">
+<area shape="rect" id="node1" title="This function writes an analog value (PWM wave) to a pin." alt="" coords="502,132,641,159"/>
+<area shape="rect" id="node2" href="$class_mini_fan.html#aaa4afbee26121fa69ed6e51130f123f2" title="Sets the fan speed using a PWM value." alt="" coords="269,5,421,32"/>
+<area shape="rect" id="node3" href="$class_mini_fan.html#abd39975cb9ab28471121e461794951d7" title="Sets the fan speed as a percentage." alt="" coords="236,56,454,83"/>
+<area shape="rect" id="node4" href="$class_usb_switch.html#a98cf84d4be5cd0554188fc9838aac965" title="Sets the output value using a PWM value." alt="" coords="254,107,436,133"/>
+<area shape="rect" id="node6" href="$class_mini_fan.html#acfe1d6f95e9e4bfc0c88ddcc90fabec5" title="Toggles the fan state between ON and OFF." alt="" coords="279,157,411,184"/>
+<area shape="rect" id="node7" href="$class_usb_switch.html#ab54876679bf8156ef119e614db3beb35" title="Toggles the output state between ON and OFF." alt="" coords="261,208,428,235"/>
+<area shape="rect" id="node8" href="$class_usb_switch.html#ad39268ff1eccf9fb11e038d5184cf130" title="Constructor to initialize the USB Switch module with specified pins." alt="" coords="266,259,424,285"/>
+<area shape="rect" id="node5" href="$class_usb_switch.html#a49648ccd4487e75f9dca6651fd8f782f" title="Sets the output value as a percentage." alt="" coords="5,99,188,141"/>
+</map>

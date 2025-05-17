@@ -7,7 +7,7 @@
     <includes local="no">Wire.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/bsp/bsp_i2c.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp</label>
         <link refid="bsp__i2c_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="26" column="16" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="26" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="26" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="33" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="33" bodyend="37"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="33" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="33" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1ab434829a1761a2b03362658218b03da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="39" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="39" bodyend="43"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="39" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="39" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1ae83e63b33815dd89044a69afe454d55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="45" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="45" bodyend="49"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="45" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="45" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a3da6eebd848529a33b69e3d73ee0e523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="51" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="51" bodyend="55"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="51" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="51" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1acdc186021d6567a22584adb9373329ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="57" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="57" bodyend="61"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="57" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="57" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a1c2c4c03d89b44dcd7a6112d83310640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="63" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="63" bodyend="63"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="63" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a4c0219faaa13d68f206b2e43db544705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="65" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="65" bodyend="65"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="65" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="65" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1ae526d36f61bf096d8a1f6d6d820dad05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="67" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="67" bodyend="70"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="67" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="67" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1ac981b7ec4869fba98f27f4e6e0089c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="72" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="72" bodyend="75"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="72" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="72" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a15cad080c8941c0c2a201483033b4de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="77" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="77" bodyend="80"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="77" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="77" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a52192456261cbe85b591f5616dec26f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="81" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="81" bodyend="84"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="81" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="81" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a8671b871daa1044684a9124f3fdd314c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="85" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="85" bodyend="85"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="85" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="85" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1af4e60536c9759774640210e4ff2d4b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="87" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="87" bodyend="90"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="87" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a2a5eb297cb36bc3a98c6a3c80a12780e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="91" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="91" bodyend="91"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="91" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a5498bcfd5d6a49b40d30aae3e1b89b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="93" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="93" bodyend="96"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="93" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="93" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1afbcc1741fc6e22aa25f3d5ec36fb2228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -375,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="97" column="9" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="97" bodyend="97"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="97" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1aee0096731ce62e0b4c7a95f57f880e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -392,7 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="99" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="99" bodyend="99"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="99" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a4a420687f639f66ad8ada18efa391226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -413,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="101" column="8" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="101" bodyend="101"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="101" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="101" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1af58fb882ae51cda816e6bd72ea107575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -429,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="103" column="5" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="103" bodyend="103"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="103" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a6c0e7a766512688b491b975c8235d5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -445,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="105" column="5" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="105" bodyend="105"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="105" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1ac0bbc36506d28cdb0a2ec20a6393a784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -461,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="107" column="5" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="107" bodyend="107"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="107" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1aa683c4156ea03ac0836a009229affe54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -477,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="109" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="109" bodyend="113"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="109" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="109" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -538,7 +538,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="115" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="115" bodyend="135"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="115" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="115" bodyend="135"/>
+        <referencedby refid="class_ac_measure_1a9921894e5d8991c64920b6e1520166ee" compoundref="ac__measure_8cpp" startline="37" endline="44">AcMeasure::getFirmwareVersion</referencedby>
+        <referencedby refid="class_ac_measure_1a012e847385b5c426bae7598a44689cdd" compoundref="ac__measure_8cpp" startline="278" endline="285">AcMeasure::getI2CAddress</referencedby>
+        <referencedby refid="class_b_m_p280_1a4cfab33bfc50e210fdbcf2fc7bd9481a" compoundref="bmp280_8cpp" startline="55" endline="60">BMP280::getStatus</referencedby>
+        <referencedby refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" compoundref="unit__4relay_8cpp" startline="90" endline="114">Unit4Relay::ledWrite</referencedby>
+        <referencedby refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" compoundref="unit__4relay_8cpp" startline="51" endline="76">Unit4Relay::relayWrite</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a408cb7690a6aec304eb774ba016922f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -587,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="137" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="137" bodyend="152"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="137" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="137" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -660,7 +665,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="154" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="154" bodyend="177"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="154" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="154" bodyend="177"/>
+        <referencedby refid="class_ac_measure_1a4480464cfc5f8f3d4ea325e0827f6b74" compoundref="ac__measure_8cpp" startline="185" endline="193">AcMeasure::getApparentPowerString</referencedby>
+        <referencedby refid="class_ac_measure_1a39c9067e093e95fc054310cf93471430" compoundref="ac__measure_8cpp" startline="231" endline="238">AcMeasure::getCurrentFactor</referencedby>
+        <referencedby refid="class_ac_measure_1a5acc0093d85aa0923b5333fed43cbdb1" compoundref="ac__measure_8cpp" startline="165" endline="173">AcMeasure::getCurrentString</referencedby>
+        <referencedby refid="class_ac_measure_1aa3ba3cac40fdea50c0bd66e940fcdbdd" compoundref="ac__measure_8cpp" startline="205" endline="213">AcMeasure::getKWHString</referencedby>
+        <referencedby refid="class_ac_measure_1ae51533e659b7a57d89fbb91f84a53263" compoundref="ac__measure_8cpp" startline="195" endline="203">AcMeasure::getPowerFactorString</referencedby>
+        <referencedby refid="class_ac_measure_1a8c6c6775368882ad813a9eebbe2ba73a" compoundref="ac__measure_8cpp" startline="175" endline="183">AcMeasure::getPowerString</referencedby>
+        <referencedby refid="class_ac_measure_1ae8b63172bb9e9f041942838d94a49859" compoundref="ac__measure_8cpp" startline="106" endline="114">AcMeasure::getRawApparentPower</referencedby>
+        <referencedby refid="class_ac_measure_1a78e2233a7b97ea4004ba03c3596e6fd1" compoundref="ac__measure_8cpp" startline="72" endline="80">AcMeasure::getRawCurrent</referencedby>
+        <referencedby refid="class_ac_measure_1a32c2005a9e2df3cdd349887b762028e1" compoundref="ac__measure_8cpp" startline="139" endline="147">AcMeasure::getRawKWH</referencedby>
+        <referencedby refid="class_ac_measure_1ad7dbce6613d27f35b61a5bf511e21f3c" compoundref="ac__measure_8cpp" startline="89" endline="97">AcMeasure::getRawPower</referencedby>
+        <referencedby refid="class_ac_measure_1a0b272c14c6f3f360e415308c27a5b2af" compoundref="ac__measure_8cpp" startline="123" endline="130">AcMeasure::getRawPowerFactor</referencedby>
+        <referencedby refid="class_ac_measure_1a856cddd887e074bf338fd03fb51e113d" compoundref="ac__measure_8cpp" startline="55" endline="63">AcMeasure::getRawVoltage</referencedby>
+        <referencedby refid="class_ac_measure_1a2299cd19d808e1bea7b39f913ad5ea01" compoundref="ac__measure_8cpp" startline="46" endline="53">AcMeasure::getReady</referencedby>
+        <referencedby refid="class_ac_measure_1a24df8ac0625ebc45f628bdc6be5db88f" compoundref="ac__measure_8cpp" startline="222" endline="229">AcMeasure::getVoltageFactor</referencedby>
+        <referencedby refid="class_ac_measure_1ad27164dab1d1fcd42d2c2c570885aba9" compoundref="ac__measure_8cpp" startline="155" endline="163">AcMeasure::getVoltageString</referencedby>
+        <referencedby refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" compoundref="sht3x_8cpp" startline="33" endline="52">SHT3X::update</referencedby>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1aa53bbb56cc38bd91b8d31efaa1824ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -721,7 +743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="179" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="179" bodyend="197"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="179" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="179" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -782,7 +804,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="199" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="199" bodyend="205"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="199" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="199" bodyend="205"/>
+        <referencedby refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" compoundref="unit__4relay_8cpp" startline="167" endline="182">Unit4Relay::applyRelayState</referencedby>
+        <referencedby refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" compoundref="unit__4relay_8cpp" startline="36" endline="49">Unit4Relay::init</referencedby>
+        <referencedby refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" compoundref="unit__4relay_8cpp" startline="116" endline="126">Unit4Relay::ledAll</referencedby>
+        <referencedby refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" compoundref="unit__4relay_8cpp" startline="90" endline="114">Unit4Relay::ledWrite</referencedby>
+        <referencedby refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" compoundref="unit__4relay_8cpp" startline="78" endline="88">Unit4Relay::relayAll</referencedby>
+        <referencedby refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" compoundref="unit__4relay_8cpp" startline="51" endline="76">Unit4Relay::relayWrite</referencedby>
+        <referencedby refid="class_b_m_p280_1af0273f65cd8c3b4e3ee472668a0a8d6f" compoundref="bmp280_8cpp" startline="49" endline="53">BMP280::reset</referencedby>
+        <referencedby refid="class_ac_measure_1ad8c48c819863d6551b054dc7bf67f398" compoundref="ac__measure_8cpp" startline="272" endline="277">AcMeasure::setI2CAddress</referencedby>
+        <referencedby refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" compoundref="bmp280_8cpp" startline="157" endline="172">BMP280::setSampling</referencedby>
+        <referencedby refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" compoundref="unit__4relay_8cpp" startline="128" endline="133">Unit4Relay::switchMode</referencedby>
+        <referencedby refid="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" compoundref="bmp280_8cpp" startline="142" endline="155">BMP280::takeForcedMeasurement</referencedby>
+        <referencedby refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" compoundref="sht3x_8cpp" startline="33" endline="52">SHT3X::update</referencedby>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bsp_i2c_error_t</type>
@@ -855,7 +890,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="207" column="17" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="207" bodyend="216"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="207" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="207" bodyend="216"/>
+        <referencedby refid="class_ac_measure_1a9b6f76da8fa54f63d4cf2e83acb965d6" compoundref="ac__measure_8cpp" startline="263" endline="270">AcMeasure::jumpBootloader</referencedby>
+        <referencedby refid="class_ac_measure_1a370962e0beb2f9feeb42c244ce40b3d6" compoundref="ac__measure_8cpp" startline="254" endline="261">AcMeasure::saveVoltageCurrentFactor</referencedby>
+        <referencedby refid="class_ac_measure_1a037a111fa065fde9c7838263575d71fc" compoundref="ac__measure_8cpp" startline="247" endline="252">AcMeasure::setCurrentFactor</referencedby>
+        <referencedby refid="class_ac_measure_1a4c50c860c6f0f5200f8a438df06fcd84" compoundref="ac__measure_8cpp" startline="215" endline="220">AcMeasure::setKWH</referencedby>
+        <referencedby refid="class_ac_measure_1a902757839f9cbf4fcc6f1b14470a70d4" compoundref="ac__measure_8cpp" startline="240" endline="245">AcMeasure::setVoltageFactor</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -892,7 +932,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_i2c.cpp" line="218" column="6" bodyfile="lib/bsp/bsp_i2c.cpp" bodystart="218" bodyend="222"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" line="218" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp" bodystart="218" bodyend="222"/>
+        <referencedby refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" compoundref="bmp280_8cpp" startline="29" endline="39">BMP280::begin</referencedby>
+        <referencedby refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" compoundref="sht4x_8cpp" startline="30" endline="30">SHT4X::begin</referencedby>
+        <referencedby refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" compoundref="unit__4relay_8cpp" startline="26" endline="34">Unit4Relay::begin</referencedby>
+        <referencedby refid="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" compoundref="sht3x_8cpp" startline="28" endline="32">SHT3X::begin</referencedby>
+        <referencedby refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" compoundref="ac__measure_8cpp" startline="29" endline="36">AcMeasure::begin</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1013,7 +1058,7 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BSP_I2C_OK;</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>&amp;</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="115" refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" refkind="member"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>&amp;</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="116"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/>i2cWire-&gt;beginTransmission(address);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/>i2cWire-&gt;write(reg);</highlight></codeline>
@@ -1035,7 +1080,7 @@
 <codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BSP_I2C_OK;</highlight></codeline>
 <codeline lineno="135"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>&amp;</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="137" refid="bsp__i2c_8cpp_1a408cb7690a6aec304eb774ba016922f0" refkind="member"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>&amp;</highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="138"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cnt<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/>i2cWire-&gt;requestFrom(address,<sp/>1);</highlight></codeline>
@@ -1052,7 +1097,7 @@
 <codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BSP_I2C_OK;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" kindref="member">bspI2CReadBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len)</highlight></codeline>
+<codeline lineno="154" refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" refkind="member"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" kindref="member">bspI2CReadBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len)</highlight></codeline>
 <codeline lineno="155"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/>i2cWire-&gt;beginTransmission(address);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/>i2cWire-&gt;write(reg);</highlight></codeline>
@@ -1077,7 +1122,7 @@
 <codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BSP_I2C_OK;</highlight></codeline>
 <codeline lineno="177"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" kindref="member">bspI2CReadBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len)</highlight></codeline>
+<codeline lineno="179" refid="bsp__i2c_8cpp_1aa53bbb56cc38bd91b8d31efaa1824ae4" refkind="member"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" kindref="member">bspI2CReadBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len)</highlight></codeline>
 <codeline lineno="180"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cnt<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/>i2cWire-&gt;requestFrom(address,<sp/>len);</highlight></codeline>
@@ -1097,7 +1142,7 @@
 <codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BSP_I2C_OK;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="199" refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" refkind="member"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="200"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"><sp/><sp/>i2cWire-&gt;beginTransmission(address);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"><sp/><sp/>i2cWire-&gt;write(reg);</highlight></codeline>
@@ -1105,7 +1150,7 @@
 <codeline lineno="204"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(i2cWire-&gt;endTransmission()<sp/>==<sp/>0)<sp/>?<sp/>BSP_I2C_OK<sp/>:<sp/>BSP_I2C_ERR_WRITE;</highlight></codeline>
 <codeline lineno="205"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" kindref="member">bspI2CWriteBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len)</highlight></codeline>
+<codeline lineno="207" refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" refkind="member"><highlight class="normal">bsp_i2c_error_t<sp/><ref refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" kindref="member">bspI2CWriteBytes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>address,<sp/>uint8_t<sp/>reg,<sp/>uint8_t<sp/>*bytes,<sp/>uint32_t<sp/>len)</highlight></codeline>
 <codeline lineno="208"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/>i2cWire-&gt;beginTransmission(address);</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"><sp/><sp/>i2cWire-&gt;write(reg);</highlight></codeline>
@@ -1116,7 +1161,7 @@
 <codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(i2cWire-&gt;endTransmission()<sp/>==<sp/>0)<sp/>?<sp/>BSP_I2C_OK<sp/>:<sp/>BSP_I2C_ERR_WRITE;</highlight></codeline>
 <codeline lineno="216"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(uint8_t<sp/>address)</highlight></codeline>
+<codeline lineno="218" refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(uint8_t<sp/>address)</highlight></codeline>
 <codeline lineno="219"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"><sp/><sp/>i2cWire-&gt;beginTransmission(address);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(i2cWire-&gt;endTransmission()<sp/>==<sp/>0)<sp/>?<sp/>true<sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
@@ -1125,6 +1170,6 @@
 <codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>definitions<sp/>------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/bsp/bsp_i2c.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.cpp"/>
   </compounddef>
 </doxygen>

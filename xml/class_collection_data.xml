@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="19" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="19" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="19" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_collection_data_1a1b3e7927095674203eaa939a85a868b0" prot="private" static="no" mutable="no">
         <type><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref> *</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="20" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="20" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="20" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="31" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="32" bodyend="34"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="31" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="32" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a7777ffcf1b70cbbcb49468d5140c1e94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="33" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="128" bodyend="131"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="33" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a764a7e601ba2fe10b37031881516442f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="35" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="133" bodyend="147"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="35" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="133" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a6171ebc69ca840966a932203161942d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="37" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="162" bodyend="164"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="37" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="162" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a15a61b5fddf20ff2ae15eaa70c80af42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="42" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="37" bodyend="45"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="42" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="37" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a5a2607f1daa4dac3a807a433e7c92382" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="45" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="108" bodyend="111"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="45" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="108" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1abfe73c32642a6ae8fcc3a2ac034a11d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="48" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="114" bodyend="126"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="48" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="114" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a1bbd6b6bffb4aa6a1312dd73a2c4e90d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="51" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="51" bodyend="53"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="51" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="51" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a0e8e0b42ab42801d200b80344f51ee70" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="56" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="53" bodyend="55"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="56" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="53" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a8e2325fbb96ca31c40043e1ff45170be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -244,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="60" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="47" bodyend="50"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="60" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a7472374c0d22624848a628d7a448927d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="61" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="166" bodyend="174"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="61" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="166" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1aa02dfcad1dc9189c2ec4fd97af1029ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="62" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="176" bodyend="178"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="62" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="176" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1ada3af784876a77d379d28514c9e782a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref> *</type>
@@ -290,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="64" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="14" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="64" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="14" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a06219e055b45790c0066104e98eb1290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="65" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="149" bodyend="160"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="65" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="149" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1af168eaed277f7a4a8aa748db21dcd902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -330,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="67" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="57" bodyend="75"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="67" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="57" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a3e99e37a41b91e0670f253373943efc3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref> *</type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="69" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="69" bodyend="71"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="69" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="69" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1a690059f7e566c616b8688f7c0ceb5740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -366,7 +366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="73" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="189" bodyend="195"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="73" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="189" bodyend="195"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -386,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="76" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="90" bodyend="94"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="76" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="90" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1acec9037bc04ad25b0c96be62b997cb76" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -409,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="79" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="78" bodyend="88"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="79" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="78" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="class_collection_data_1af778f0a5dd86682ac5ecb350def7d55e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref> *</type>
@@ -427,14 +427,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="81" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="96" bodyend="105"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="81" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="96" bodyend="105"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="18" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="18" bodyend="82"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" line="18" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp" bodystart="18" bodyend="82"/>
     <listofallmembers>
       <member refid="class_collection_data_1a7d7a446c8002632e61534ddb9af1c0bd" prot="public" virt="non-virtual"><scope>CollectionData</scope><name>addElement</name></member>
       <member refid="class_collection_data_1a15a61b5fddf20ff2ae15eaa70c80af42" prot="public" virt="non-virtual"><scope>CollectionData</scope><name>addMember</name></member>

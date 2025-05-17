@@ -3,10 +3,10 @@
   <compounddef id="relay_8h" kind="file" language="C++">
     <compoundname>relay.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="relay_8cpp" local="yes">lib/relay/src/relay.cpp</includedby>
+    <includedby refid="relay_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/relay/src/relay.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/relay/src/relay.h</label>
         <link refid="relay_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/relay/src/relay.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp</label>
         <link refid="relay_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/relay/src/relay.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/relay/src/relay.h</label>
         <link refid="relay_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,6 +84,6 @@
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/relay/src/relay.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h"/>
   </compounddef>
 </doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="150" column="8" bodyfile="lib/mini_fan/src/mini_fan.h" bodystart="150" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="150" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_mini_fan_1a6f3ec23f1d90e1d04dd97e725220f03a" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="151" column="8" bodyfile="lib/mini_fan/src/mini_fan.h" bodystart="151" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="151" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_mini_fan_1ab4241edd228b87f32d88bb4d769e1465" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="152" column="8" bodyfile="lib/mini_fan/src/mini_fan.h" bodystart="152" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="152" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -80,7 +80,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="78" column="3" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="28" bodyend="34"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="78" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="28" bodyend="34"/>
+        <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
       <memberdef kind="function" id="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -112,7 +113,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="89" column="8" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="36" bodyend="47"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="89" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="36" bodyend="47"/>
+        <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
       </memberdef>
       <memberdef kind="function" id="class_mini_fan_1abd39975cb9ab28471121e461794951d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -144,7 +146,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="101" column="8" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="49" bodyend="63"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="101" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="49" bodyend="63"/>
+        <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
       </memberdef>
       <memberdef kind="function" id="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -171,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="112" column="7" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="65" bodyend="65"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="112" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="65" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -198,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="123" column="7" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="67" bodyend="67"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="123" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="67" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -225,7 +228,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="136" column="8" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="69" bodyend="89"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="136" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="69" bodyend="89"/>
+        <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
+        <references refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" compoundref="mini__fan_8cpp" startline="91" endline="91">isFanRunning</references>
       </memberdef>
       <memberdef kind="function" id="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -252,7 +257,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/mini_fan/src/mini_fan.h" line="147" column="8" bodyfile="lib/mini_fan/src/mini_fan.cpp" bodystart="91" bodyend="91"/>
+        <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="147" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp" bodystart="91" bodyend="91"/>
+        <referencedby refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" compoundref="mini__fan_8cpp" startline="69" endline="89">toggleFan</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -285,7 +291,7 @@
 </para>
 </sect3>
     </detaileddescription>
-    <location file="lib/mini_fan/src/mini_fan.h" line="66" column="1" bodyfile="lib/mini_fan/src/mini_fan.h" bodystart="67" bodyend="153"/>
+    <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" line="66" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.h" bodystart="67" bodyend="153"/>
     <listofallmembers>
       <member refid="class_mini_fan_1a042607be815e7b0604b8c67086b9f78d" prot="private" virt="non-virtual"><scope>MiniFan</scope><name>_pin</name></member>
       <member refid="class_mini_fan_1a6f3ec23f1d90e1d04dd97e725220f03a" prot="private" virt="non-virtual"><scope>MiniFan</scope><name>_speed</name></member>

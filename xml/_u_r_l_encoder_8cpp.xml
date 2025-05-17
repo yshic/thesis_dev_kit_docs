@@ -8,7 +8,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/ArduinoHttpClient/URLEncoder.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp</label>
         <link refid="_u_r_l_encoder_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/URLEncoder.cpp" line="53" column="17" bodyfile="lib/ArduinoHttpClient/URLEncoder.cpp" bodystart="53" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp" line="53" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -94,6 +94,6 @@
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><ref refid="class_u_r_l_encoder_class" kindref="compound">URLEncoderClass</ref><sp/>URLEncoder;</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/URLEncoder.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp"/>
   </compounddef>
 </doxygen>

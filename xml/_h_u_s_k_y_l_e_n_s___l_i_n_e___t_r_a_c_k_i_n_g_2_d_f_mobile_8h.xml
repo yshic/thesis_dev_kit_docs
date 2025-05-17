@@ -3,13 +3,13 @@
   <compounddef id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8h" kind="file" language="C++">
     <compoundname>DFMobile.h</compoundname>
     <includes local="no">Arduino.h</includes>
-    <includedby refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp" local="yes">lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp</includedby>
+    <includedby refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h</label>
         <link refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -46,6 +46,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h"/>
   </compounddef>
 </doxygen>

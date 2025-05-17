@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp" line="24" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp" bodystart="24" bodyend="-1"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp" line="24" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp" bodystart="24" bodyend="-1"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_16d2b6ad93d7c5583e6cdba31e8d12b7" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/dht20</compoundname>
+    <innerdir refid="dir_7fbd116798375880a191908a6b42ae3b">thesis_mdt266_iotdevkit/lib/dht20/examples</innerdir>
+    <innerdir refid="dir_779e249a78ec2bc3ed446da1a8502473">thesis_mdt266_iotdevkit/lib/dht20/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/"/>
+  </compounddef>
+</doxygen>

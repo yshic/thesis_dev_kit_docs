@@ -1,6 +1,6 @@
-<map id="lib/unit_4relay/src/unit_4relay.cpp" name="lib/unit_4relay/src/unit_4relay.cpp">
-<area shape="rect" id="node1" title="Source file for unit_4relay.cpp." alt="" coords="46,5,169,48"/>
-<area shape="rect" id="node2" href="$unit__4relay_8h.html" title="Header file for UNIT_4RELAY library." alt="" coords="5,96,100,123"/>
-<area shape="rect" id="node4" href="$bsp__i2c_8h.html" title="Header file for bsp_i2c." alt="" coords="123,96,200,123"/>
-<area shape="rect" id="node3" title=" " alt="" coords="60,171,154,197"/>
+<map id="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" name="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp">
+<area shape="rect" id="node1" title="Source file for unit_4relay.cpp." alt="" coords="26,5,188,64"/>
+<area shape="rect" id="node2" href="$unit__4relay_8h.html" title="Header file for UNIT_4RELAY library." alt="" coords="5,112,100,139"/>
+<area shape="rect" id="node4" href="$bsp__i2c_8h.html" title="Header file for bsp_i2c." alt="" coords="123,112,200,139"/>
+<area shape="rect" id="node3" title=" " alt="" coords="60,187,154,213"/>
 </map>

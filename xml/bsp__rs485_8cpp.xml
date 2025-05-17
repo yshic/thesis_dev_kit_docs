@@ -6,7 +6,7 @@
     <includes refid="config_8h" local="yes">config.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/bsp/bsp_rs485.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp</label>
         <link refid="bsp__rs485_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_rs485.cpp" line="23" column="10"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp" line="23" column="10"/>
       </memberdef>
       <memberdef kind="variable" id="bsp__rs485_8cpp_1ace836c1d242ded49d3e07420cd37514a" prot="public" static="no" mutable="no">
         <type><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref></type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_rs485.cpp" line="25" column="10"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp" line="25" column="10"/>
       </memberdef>
       <memberdef kind="variable" id="bsp__rs485_8cpp_1a9247439acc9e7be6b0c08a1df4c6324c" prot="public" static="no" mutable="no">
         <type><ref refid="class_bsp_rs485" kindref="compound">BspRs485</ref></type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_rs485.cpp" line="27" column="10"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp" line="27" column="10"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -165,6 +165,6 @@
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/bsp/bsp_rs485.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_rs485.cpp"/>
   </compounddef>
 </doxygen>

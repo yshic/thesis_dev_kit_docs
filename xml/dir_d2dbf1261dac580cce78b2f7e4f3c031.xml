@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_d2dbf1261dac580cce78b2f7e4f3c031" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src</compoundname>
+    <innerfile refid="soil__moisture_8cpp">soil_moisture.cpp</innerfile>
+    <innerfile refid="soil__moisture_8h">soil_moisture.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/"/>
+  </compounddef>
+</doxygen>

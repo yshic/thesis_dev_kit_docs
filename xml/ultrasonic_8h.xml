@@ -3,10 +3,10 @@
   <compounddef id="ultrasonic_8h" kind="file" language="C++">
     <compoundname>ultrasonic.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="ultrasonic_8cpp" local="yes">lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
+    <includedby refid="ultrasonic_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/ultrasonic_sensor/src/ultrasonic.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h</label>
         <link refid="ultrasonic_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
         <link refid="ultrasonic_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/ultrasonic_sensor/src/ultrasonic.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h</label>
         <link refid="ultrasonic_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="24" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="24" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a6fd0d303c203c556efe6d1387b8274bf" prot="public" static="no">
         <name>CM_DIVISOR</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="26" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="26" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a98e92be1904c746b953b59fce5a3cd78" prot="public" static="no">
         <name>MM_DIVISOR</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="27" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="27" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a8ee9322fb94a2cfa9cdd92acd8764e81" prot="public" static="no">
         <name>IN_DIVISOR</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="28" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="28" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="28" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a1c1b11e6ec686bb15dad48292fe01c24" prot="public" static="no">
         <name>CM_INDEX</name>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="30" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="30" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="30" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1ad37fe2bd9aeef369ac6cf9d228fb7a98" prot="public" static="no">
         <name>MM_INDEX</name>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="31" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="31" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="31" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a9743c11d3ed0a535709ce0220a53c76c" prot="public" static="no">
         <name>IN_INDEX</name>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="32" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="32" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="32" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -147,12 +147,13 @@
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>Enum for ultrasonic sensor error codes. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="34" column="1" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="35" bodyend="41"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="38" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="39" bodyend="45"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -191,44 +192,45 @@
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>MM_INDEX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>IN_INDEX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/>ULTRASONIC_OK,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/>ULTRASONIC_ERR,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/>ULTRASONIC_INIT_ERR,<sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/>ULTRASONIC_RESET_ERR,<sp/></highlight><highlight class="comment">/*<sp/>Reset<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/>ULTRASONIC_TIMEOUT,<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>error*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}<sp/>ultrasonic_error_t;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="ultrasonic_8h_1a2da24020278294e2b407cc96ceda4d6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>ULTRASONIC_OK,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>ULTRASONIC_ERR,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>ULTRASONIC_INIT_ERR,<sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>ULTRASONIC_RESET_ERR,<sp/></highlight><highlight class="comment">/*<sp/>Reset<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>ULTRASONIC_TIMEOUT,<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>error*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}<sp/><ref refid="ultrasonic_8h_1a2da24020278294e2b407cc96ceda4d6b" kindref="member">ultrasonic_error_t</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="class_ultrasonic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>triggerPin;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>echoPin;</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>distance[3];</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>duration();</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref>(uint8_t<sp/>_triggerPin,<sp/>uint8_t<sp/>_echoPin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut<sp/>=<sp/>20000UL);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">read</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getDistance(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit);</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" kindref="member">setTimeout</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut)<sp/>{<sp/>timeout<sp/>=<sp/>timeOut;<sp/>}</highlight></codeline>
-<codeline lineno="143"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ULTRASONIC_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="class_ultrasonic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>triggerPin;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>echoPin;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>distance[3];</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>duration();</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref>(uint8_t<sp/>_triggerPin,<sp/>uint8_t<sp/>_echoPin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut<sp/>=<sp/>20000UL);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">read</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getDistance(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" kindref="member">setTimeout</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut)<sp/>{<sp/>timeout<sp/>=<sp/>timeOut;<sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ULTRASONIC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/ultrasonic_sensor/src/ultrasonic.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h"/>
   </compounddef>
 </doxygen>

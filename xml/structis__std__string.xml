@@ -40,7 +40,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="16" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="16" bodyend="16"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="16" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="16" bodyend="16"/>
     <listofallmembers>
       <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>is_std_string</scope><name>value</name></member>
     </listofallmembers>

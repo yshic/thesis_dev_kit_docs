@@ -10,7 +10,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/dht20/examples/dht20_simple_read.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp</label>
         <link refid="dht20__simple__read_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/examples/dht20_simple_read.cpp" line="6" column="7" bodyfile="lib/dht20/examples/dht20_simple_read.cpp" bodystart="6" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp" line="6" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp" bodystart="6" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/examples/dht20_simple_read.cpp" line="8" column="6" bodyfile="lib/dht20/examples/dht20_simple_read.cpp" bodystart="8" bodyend="12"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp" line="8" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp" bodystart="8" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="dht20__simple__read_8cpp_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/examples/dht20_simple_read.cpp" line="14" column="6" bodyfile="lib/dht20/examples/dht20_simple_read.cpp" bodystart="14" bodyend="29"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp" line="14" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp" bodystart="14" bodyend="29"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -110,6 +110,6 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/>Serial.print(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="lib/dht20/examples/dht20_simple_read.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp"/>
   </compounddef>
 </doxygen>

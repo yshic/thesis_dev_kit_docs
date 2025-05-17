@@ -1,0 +1,4 @@
+<map id="SHT3X::begin" name="SHT3X::begin">
+<area shape="rect" id="node1" title="Initializes the SHT3X sensor." alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#acc6322b83a6e34f4b9d486caaf87308c" title="Checks if an I2C device is present on the bus." alt="" coords="157,5,250,32"/>
+</map>

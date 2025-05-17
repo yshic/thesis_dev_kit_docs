@@ -1,0 +1,8 @@
+<map id="bspI2CWriteBytes" name="bspI2CWriteBytes">
+<area shape="rect" id="node1" title="Writes multiple bytes to a register using I2C." alt="" coords="263,123,390,149"/>
+<area shape="rect" id="node2" href="$class_ac_measure.html#a9b6f76da8fa54f63d4cf2e83acb965d6" title="Initiates a jump to the device’s bootloader mode." alt="" coords="17,5,203,32"/>
+<area shape="rect" id="node3" href="$class_ac_measure.html#a370962e0beb2f9feeb42c244ce40b3d6" title="Saves the voltage and current calibration factors to the device." alt="" coords="5,56,215,99"/>
+<area shape="rect" id="node4" href="$class_ac_measure.html#a037a111fa065fde9c7838263575d71fc" title="Sets the current calibration factor." alt="" coords="13,123,207,149"/>
+<area shape="rect" id="node5" href="$class_ac_measure.html#a4c50c860c6f0f5200f8a438df06fcd84" title="Sets the energy consumption value on the device." alt="" coords="37,173,183,200"/>
+<area shape="rect" id="node6" href="$class_ac_measure.html#a902757839f9cbf4fcc6f1b14470a70d4" title="Sets the voltage calibration factor." alt="" coords="13,224,207,251"/>
+</map>

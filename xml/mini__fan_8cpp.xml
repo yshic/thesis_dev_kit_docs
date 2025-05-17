@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/mini_fan/src/mini_fan.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp</label>
         <link refid="mini__fan_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -62,7 +62,7 @@
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>Definitions<sp/>----------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><ref refid="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" kindref="member">MiniFan::MiniFan</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin)<sp/>:<sp/>_pin(pin)</highlight></codeline>
+<codeline lineno="28" refid="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" refkind="member"><highlight class="normal"><ref refid="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" kindref="member">MiniFan::MiniFan</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin)<sp/>:<sp/>_pin(pin)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" kindref="member">bspGpioPinMode</ref>(_pin,<sp/>OUTPUT);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/>_speed[0]<sp/>=<sp/>0;</highlight></codeline>
@@ -70,7 +70,7 @@
 <codeline lineno="33"><highlight class="normal"><sp/><sp/>status<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" kindref="member">MiniFan::setFanSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>speed)</highlight></codeline>
+<codeline lineno="36" refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" kindref="member">MiniFan::setFanSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>speed)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/>_speed[0]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>speed;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>percentage<sp/>=<sp/>map(_speed[0],<sp/>0,<sp/>255,<sp/>0,<sp/>100);</highlight></codeline>
@@ -83,7 +83,7 @@
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><ref refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" kindref="member">bspGpioAnalogWrite</ref>(_pin,<sp/>_speed[0]);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" kindref="member">MiniFan::setFanSpeedPercentage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>percentage)</highlight></codeline>
+<codeline lineno="49" refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" kindref="member">MiniFan::setFanSpeedPercentage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>percentage)</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>the<sp/>input<sp/>percentage<sp/>is<sp/>within<sp/>0-100</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/>percentage<sp/>=<sp/>constrain(percentage,<sp/>0,<sp/>100);</highlight></codeline>
@@ -99,11 +99,11 @@
 <codeline lineno="62"><highlight class="normal"><sp/><sp/>status<sp/>=<sp/>(_speed[0]<sp/>&gt;<sp/>0);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" kindref="member">MiniFan::getFanSpeed</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_speed[0];<sp/>}</highlight></codeline>
+<codeline lineno="65" refid="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1acd11ce4dd5b89102348c87a8afb90bdf" kindref="member">MiniFan::getFanSpeed</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_speed[0];<sp/>}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" kindref="member">MiniFan::getFanSpeedPercentage</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_speed[1];<sp/>}</highlight></codeline>
+<codeline lineno="67" refid="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1af570dbaf005299ce1f1da220bdb49eee" kindref="member">MiniFan::getFanSpeedPercentage</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_speed[1];<sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" kindref="member">MiniFan::toggleFan</ref>()</highlight></codeline>
+<codeline lineno="69" refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" kindref="member">MiniFan::toggleFan</ref>()</highlight></codeline>
 <codeline lineno="70"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" kindref="member">isFanRunning</ref>())</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -125,12 +125,12 @@
 <codeline lineno="88"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" kindref="member">MiniFan::isFanRunning</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;<sp/>}</highlight></codeline>
+<codeline lineno="91" refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_mini_fan_1a7746439255afe0b698e926a33f2bf260" kindref="member">MiniFan::isFanRunning</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;<sp/>}</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>definitions<sp/>---------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/mini_fan/src/mini_fan.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp"/>
   </compounddef>
 </doxygen>

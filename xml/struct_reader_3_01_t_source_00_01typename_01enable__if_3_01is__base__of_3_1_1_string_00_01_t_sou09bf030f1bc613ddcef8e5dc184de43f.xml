@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" bodystart="15" bodyend="16"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" line="15" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" bodystart="15" bodyend="16"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" bodystart="14" bodyend="17"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" line="12" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp" bodystart="14" bodyend="17"/>
     <listofallmembers>
       <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f_1a28bed3a674f0993b4aa816fafb399008" prot="public" virt="non-virtual"><scope>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;</scope><name>Reader</name></member>
     </listofallmembers>

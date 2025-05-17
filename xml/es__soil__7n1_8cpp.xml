@@ -25,7 +25,7 @@
         <link refid="config_8h"/>
       </node>
       <node id="1">
-        <label>lib/es_soil_7_in_1/src/es_soil_7n1.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp</label>
         <link refid="es__soil__7n1_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -66,7 +66,7 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>definitions--------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" kindref="member">EsSoil7n1::readSoilPh</ref>()</highlight></codeline>
+<codeline lineno="28" refid="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a64b4258c7eec736ae8721db7ac98bdaa" kindref="member">EsSoil7n1::readSoilPh</ref>()</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x06,<sp/>0x00,<sp/>0x01,<sp/>0x64,<sp/>0x0B};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>pH</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -98,7 +98,7 @@
 <codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1aaf2ee5ae97609eebfd1a386ed944a1f5" kindref="member">EsSoil7n1::readSoilMoisture</ref>()</highlight></codeline>
+<codeline lineno="60" refid="class_es_soil7n1_1aaf2ee5ae97609eebfd1a386ed944a1f5" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1aaf2ee5ae97609eebfd1a386ed944a1f5" kindref="member">EsSoil7n1::readSoilMoisture</ref>()</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x12,<sp/>0x00,<sp/>0x01,<sp/>0x24,<sp/>0x0F};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Moisture</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -130,7 +130,7 @@
 <codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="90"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1ad7bd70e26cf8bfadbd3e7c0562db9176" kindref="member">EsSoil7n1::readSoilTemperature</ref>()</highlight></codeline>
+<codeline lineno="92" refid="class_es_soil7n1_1ad7bd70e26cf8bfadbd3e7c0562db9176" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1ad7bd70e26cf8bfadbd3e7c0562db9176" kindref="member">EsSoil7n1::readSoilTemperature</ref>()</highlight></codeline>
 <codeline lineno="93"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x13,<sp/>0x00,<sp/>0x01,<sp/>0x75,<sp/>0xCF};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Temperature</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -162,7 +162,7 @@
 <codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="122"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1af18323d9a0307976917f6d4c10516864" kindref="member">EsSoil7n1::readSoilConductivity</ref>()</highlight></codeline>
+<codeline lineno="124" refid="class_es_soil7n1_1af18323d9a0307976917f6d4c10516864" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1af18323d9a0307976917f6d4c10516864" kindref="member">EsSoil7n1::readSoilConductivity</ref>()</highlight></codeline>
 <codeline lineno="125"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x15,<sp/>0x00,<sp/>0x01,<sp/>0x95,<sp/>0xCE};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Conductivity</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -194,7 +194,7 @@
 <codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="154"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a6f69ab3783ffdbd11590bd6b9cc984a6" kindref="member">EsSoil7n1::readSoilNitrogen</ref>()</highlight></codeline>
+<codeline lineno="156" refid="class_es_soil7n1_1a6f69ab3783ffdbd11590bd6b9cc984a6" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a6f69ab3783ffdbd11590bd6b9cc984a6" kindref="member">EsSoil7n1::readSoilNitrogen</ref>()</highlight></codeline>
 <codeline lineno="157"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x1e,<sp/>0x00,<sp/>0x01,<sp/>0xE4,<sp/>0x0C};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Nitrogen</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -226,7 +226,7 @@
 <codeline lineno="185"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="186"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a0ba7d7befeabeb0ea8b4f90b3015d1a0" kindref="member">EsSoil7n1::readSoilPhosphorus</ref>()</highlight></codeline>
+<codeline lineno="188" refid="class_es_soil7n1_1a0ba7d7befeabeb0ea8b4f90b3015d1a0" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a0ba7d7befeabeb0ea8b4f90b3015d1a0" kindref="member">EsSoil7n1::readSoilPhosphorus</ref>()</highlight></codeline>
 <codeline lineno="189"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x1f,<sp/>0x00,<sp/>0x01,<sp/>0xB5,<sp/>0xCC};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Phosphorus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -258,7 +258,7 @@
 <codeline lineno="217"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="218"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a3582d3c16c137fb629ac10b6de40e855" kindref="member">EsSoil7n1::readSoilPotassium</ref>()</highlight></codeline>
+<codeline lineno="220" refid="class_es_soil7n1_1a3582d3c16c137fb629ac10b6de40e855" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a3582d3c16c137fb629ac10b6de40e855" kindref="member">EsSoil7n1::readSoilPotassium</ref>()</highlight></codeline>
 <codeline lineno="221"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x20,<sp/>0x00,<sp/>0x01,<sp/>0x85,<sp/>0xC0};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Potassium</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[7];</highlight></codeline>
@@ -290,7 +290,7 @@
 <codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="250"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" kindref="member">EsSoil7n1::readSoilTempAndMoisture</ref>()</highlight></codeline>
+<codeline lineno="252" refid="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1aa0e0a7a78ffa3bbd2aae177259ff42a4" kindref="member">EsSoil7n1::readSoilTempAndMoisture</ref>()</highlight></codeline>
 <codeline lineno="253"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x12,<sp/>0x00,<sp/>0x02,<sp/>0x64,<sp/>0x0E};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>Temperature<sp/>and<sp/>Moisture</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="255"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[9];</highlight></codeline>
@@ -327,7 +327,7 @@
 <codeline lineno="286"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="287"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" kindref="member">EsSoil7n1::readSoilNPK</ref>()</highlight></codeline>
+<codeline lineno="289" refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" refkind="member"><highlight class="normal">es_soil_7n1_error_t<sp/><ref refid="class_es_soil7n1_1a9797115936136de9be2d10e61b60eb4f" kindref="member">EsSoil7n1::readSoilNPK</ref>()</highlight></codeline>
 <codeline lineno="290"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>command[8]<sp/>=<sp/>{0x01,<sp/>0x03,<sp/>0x00,<sp/>0x1E,<sp/>0x00,<sp/>0x03,<sp/>0x65,<sp/>0xCD};<sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>N-P-K</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>response[11];</highlight></codeline>
@@ -366,24 +366,24 @@
 <codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ES_SOIL_7N1_OK;</highlight></codeline>
 <codeline lineno="326"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1ab2f824b6163a4075938afc218150270b" kindref="member">EsSoil7n1::getSoilPh</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[0];<sp/>}</highlight></codeline>
+<codeline lineno="328" refid="class_es_soil7n1_1ab2f824b6163a4075938afc218150270b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1ab2f824b6163a4075938afc218150270b" kindref="member">EsSoil7n1::getSoilPh</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[0];<sp/>}</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a203a707449c45f23df04a99079bd76a5" kindref="member">EsSoil7n1::getSoilMoisture</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[1];<sp/>}</highlight></codeline>
+<codeline lineno="330" refid="class_es_soil7n1_1a203a707449c45f23df04a99079bd76a5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a203a707449c45f23df04a99079bd76a5" kindref="member">EsSoil7n1::getSoilMoisture</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[1];<sp/>}</highlight></codeline>
 <codeline lineno="331"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a4399e238b765b40405949ab9b1fcc67c" kindref="member">EsSoil7n1::getSoilTemperature</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[2];<sp/>}</highlight></codeline>
+<codeline lineno="332" refid="class_es_soil7n1_1a4399e238b765b40405949ab9b1fcc67c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a4399e238b765b40405949ab9b1fcc67c" kindref="member">EsSoil7n1::getSoilTemperature</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[2];<sp/>}</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="334"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a17c9c3b8319ce1fef3c4737a680b701e" kindref="member">EsSoil7n1::getSoilConductivity</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[3];<sp/>}</highlight></codeline>
+<codeline lineno="334" refid="class_es_soil7n1_1a17c9c3b8319ce1fef3c4737a680b701e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a17c9c3b8319ce1fef3c4737a680b701e" kindref="member">EsSoil7n1::getSoilConductivity</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[3];<sp/>}</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a70e86436f9922fd961f5bf125f0de915" kindref="member">EsSoil7n1::getSoilNitrogen</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[4];<sp/>}</highlight></codeline>
+<codeline lineno="336" refid="class_es_soil7n1_1a70e86436f9922fd961f5bf125f0de915" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a70e86436f9922fd961f5bf125f0de915" kindref="member">EsSoil7n1::getSoilNitrogen</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[4];<sp/>}</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a3214fbe725333742e9d5acd0143d2f38" kindref="member">EsSoil7n1::getSoilPhosphorus</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[5];<sp/>}</highlight></codeline>
+<codeline lineno="338" refid="class_es_soil7n1_1a3214fbe725333742e9d5acd0143d2f38" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1a3214fbe725333742e9d5acd0143d2f38" kindref="member">EsSoil7n1::getSoilPhosphorus</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[5];<sp/>}</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1adf726a6568e51d0488e701d0f2c2da8a" kindref="member">EsSoil7n1::getSoilPotassium</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[6];<sp/>}</highlight></codeline>
+<codeline lineno="340" refid="class_es_soil7n1_1adf726a6568e51d0488e701d0f2c2da8a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_es_soil7n1_1adf726a6568e51d0488e701d0f2c2da8a" kindref="member">EsSoil7n1::getSoilPotassium</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValues[6];<sp/>}</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"></highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="343"><highlight class="normal"></highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/es_soil_7_in_1/src/es_soil_7n1.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src/es_soil_7n1.cpp"/>
   </compounddef>
 </doxygen>

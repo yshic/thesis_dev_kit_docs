@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="63" column="12" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="63" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="63" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structhttp__parser__url_1a875fb8faf3ee45707078eda5435fa563" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="64" column="12" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="64" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="64" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structhttp__parser__url_1a6510826f3aa9a1100ac5f714323edeb1" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="67" column="14" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="67" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="67" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structhttp__parser__url_1a60fb784a989dd5a95e5bd19d468d22c7" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="68" column="14" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="68" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="68" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structhttp__parser__url_1af49700faa1cbd7427862647dca470601" prot="public" static="no" mutable="no">
         <type>struct http_parser_url::@0</type>
@@ -71,14 +71,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="69" column="22"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="69" column="22"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="62" column="1" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="62" bodyend="70"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="62" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="62" bodyend="70"/>
     <listofallmembers>
       <member refid="structhttp__parser__url_1af49700faa1cbd7427862647dca470601" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>field_data</name></member>
       <member refid="structhttp__parser__url_1a77af61a480f11c41938810dd76ca49eb" prot="public" virt="non-virtual"><scope>http_parser_url</scope><name>field_set</name></member>

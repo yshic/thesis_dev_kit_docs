@@ -9,7 +9,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp</label>
         <link refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,7 +37,7 @@
 <codeline lineno="13"><highlight class="comment"><sp/>left_pwm:pwm<sp/>speed<sp/>of<sp/>left<sp/>wheel<sp/>control</highlight></codeline>
 <codeline lineno="14"><highlight class="comment"><sp/>right_pwm:pwm<sp/>speed<sp/>of<sp/>right<sp/>wheel<sp/>control</highlight></codeline>
 <codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><ref refid="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" kindref="member">DFMobile::DFMobile</ref><sp/>(uint8_t<sp/>left_en,<sp/>uint8_t<sp/>left_pwm,<sp/>uint8_t<sp/>right_en,<sp/>uint8_t<sp/>right_pwm)<sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" refkind="member"><highlight class="normal"><ref refid="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" kindref="member">DFMobile::DFMobile</ref><sp/>(uint8_t<sp/>left_en,<sp/>uint8_t<sp/>left_pwm,<sp/>uint8_t<sp/>right_en,<sp/>uint8_t<sp/>right_pwm)<sp/>{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/>_left_en<sp/>=<sp/>left_en;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/>_left_pwm<sp/>=<sp/>left_pwm;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/>_right_en<sp/>=<sp/>right_en;</highlight></codeline>
@@ -93,6 +93,6 @@
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp"/>
   </compounddef>
 </doxygen>

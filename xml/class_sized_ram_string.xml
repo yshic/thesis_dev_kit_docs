@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="103" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="103" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="103" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="103" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="130" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="130" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="130" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_sized_ram_string_1a044bc2a28680706e34478c87348b2268" prot="protected" static="no" mutable="no">
         <type>size_t</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="131" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="131" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="131" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="131" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="105" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="105" bodyend="105"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="105" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="class_sized_ram_string_1acf27d58d8091f5368db792989eda3fbf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="107" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="107" bodyend="109"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="107" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="107" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="class_sized_ram_string_1a410fc0c87ebb8a79d56d324b3de69d97" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="111" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="111" bodyend="113"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="111" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="111" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="class_sized_ram_string_1aeeb555e56db3e3babf0f1b239610c23b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>char</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="115" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="115" bodyend="119"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="115" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="115" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="class_sized_ram_string_1a7bcaeab6afc550f54090c36f3f48df21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const char *</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="121" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="121" bodyend="123"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="121" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="121" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="class_sized_ram_string_1a2ddda14c4f3a98cf153b7f18314b104d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_string_storage_policy_1_1_copy" kindref="compound">StringStoragePolicy::Copy</ref></type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="125" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="125" bodyend="127"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="125" column="29" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="125" bodyend="127"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -164,7 +164,7 @@
         <link refid="class_sized_ram_string"/>
       </node>
     </inheritancegraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="101" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="101" bodyend="132"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="101" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="101" bodyend="132"/>
     <listofallmembers>
       <member refid="class_sized_ram_string_1a7bcaeab6afc550f54090c36f3f48df21" prot="public" virt="non-virtual"><scope>SizedRamString</scope><name>data</name></member>
       <member refid="class_sized_ram_string_1acf27d58d8091f5368db792989eda3fbf" prot="public" virt="non-virtual"><scope>SizedRamString</scope><name>isNull</name></member>

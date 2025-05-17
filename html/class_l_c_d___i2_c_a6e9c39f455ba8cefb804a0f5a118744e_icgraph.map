@@ -1,0 +1,4 @@
+<map id="LCD_I2C::write" name="LCD_I2C::write">
+<area shape="rect" id="node1" title="Write a character to the LCD." alt="" coords="202,5,314,32"/>
+<area shape="rect" id="node2" href="$class_l_c_d___i2_c.html#aae5df230a517491bb6c4d7029199d4af" title="Create a custom character (glyph) for use on the LCD. Up to eight characters of 5x8 pixels are suppor..." alt="" coords="5,5,154,32"/>
+</map>

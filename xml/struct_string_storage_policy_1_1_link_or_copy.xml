@@ -15,14 +15,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" line="14" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" bodystart="14" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" line="14" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" bodystart="13" bodyend="15"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" line="13" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp" bodystart="13" bodyend="15"/>
     <listofallmembers>
       <member refid="struct_string_storage_policy_1_1_link_or_copy_1a8eb6f7bd8912029fbdf09ae5669033d3" prot="public" virt="non-virtual"><scope>StringStoragePolicy::LinkOrCopy</scope><name>link</name></member>
     </listofallmembers>

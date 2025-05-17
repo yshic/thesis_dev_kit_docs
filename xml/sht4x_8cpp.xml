@@ -18,7 +18,7 @@
         <link refid="config_8h"/>
       </node>
       <node id="1">
-        <label>lib/sht4x/src/sht4x.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp</label>
         <link refid="sht4x_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -90,9 +90,9 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>definitions<sp/>-------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref><sp/><ref refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" kindref="member">SHT4X::begin</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(SHT40_I2C_ADDR_44)<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>?<sp/>SHT4X_OK<sp/>:<sp/>SHT4X_ERR_I2C;<sp/>}</highlight></codeline>
+<codeline lineno="30" refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" refkind="member"><highlight class="normal"><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref><sp/><ref refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" kindref="member">SHT4X::begin</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(SHT40_I2C_ADDR_44)<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>?<sp/>SHT4X_OK<sp/>:<sp/>SHT4X_ERR_I2C;<sp/>}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref><sp/><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">SHT4X::update</ref>()</highlight></codeline>
+<codeline lineno="32" refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" refkind="member"><highlight class="normal"><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref><sp/><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">SHT4X::update</ref>()</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/>readBuffer[6];</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/>cmd<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="sht4x_8h_1a91b57b4e93a9c7b13f1d669e73d7953e" kindref="member">SHT4x_CMD_NOHEAT_HIGHPRECISION</ref>;</highlight></codeline>
@@ -163,21 +163,21 @@
 <codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SHT4X_OK;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" kindref="member">SHT4X::setPrecision</ref>(sht4x_precision_t<sp/>prec)<sp/>{<sp/>_precision<sp/>=<sp/>prec;<sp/>}</highlight></codeline>
+<codeline lineno="103" refid="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" kindref="member">SHT4X::setPrecision</ref>(sht4x_precision_t<sp/>prec)<sp/>{<sp/>_precision<sp/>=<sp/>prec;<sp/>}</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal">sht4x_precision_t<sp/><ref refid="class_s_h_t4_x_1a8d2a3954c9aa4fbba99c9fb8d8d7bd99" kindref="member">SHT4X::getPrecision</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_precision;<sp/>}</highlight></codeline>
+<codeline lineno="105" refid="class_s_h_t4_x_1a8d2a3954c9aa4fbba99c9fb8d8d7bd99" refkind="member"><highlight class="normal">sht4x_precision_t<sp/><ref refid="class_s_h_t4_x_1a8d2a3954c9aa4fbba99c9fb8d8d7bd99" kindref="member">SHT4X::getPrecision</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_precision;<sp/>}</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" kindref="member">SHT4X::setHeater</ref>(<ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref><sp/>heat)<sp/>{<sp/>_heater<sp/>=<sp/>heat;<sp/>}</highlight></codeline>
+<codeline lineno="107" refid="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" kindref="member">SHT4X::setHeater</ref>(<ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref><sp/>heat)<sp/>{<sp/>_heater<sp/>=<sp/>heat;<sp/>}</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref><sp/><ref refid="class_s_h_t4_x_1a6f65e80033a02d9fb1857b32ddf2502c" kindref="member">SHT4X::getHeater</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_heater;<sp/>}</highlight></codeline>
+<codeline lineno="109" refid="class_s_h_t4_x_1a6f65e80033a02d9fb1857b32ddf2502c" refkind="member"><highlight class="normal"><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref><sp/><ref refid="class_s_h_t4_x_1a6f65e80033a02d9fb1857b32ddf2502c" kindref="member">SHT4X::getHeater</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_heater;<sp/>}</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" kindref="member">SHT4X::getTemperature</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[SHT4X_TEMPERATURE_INDEX];<sp/>}</highlight></codeline>
+<codeline lineno="111" refid="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" kindref="member">SHT4X::getTemperature</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[SHT4X_TEMPERATURE_INDEX];<sp/>}</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" kindref="member">SHT4X::getHumidity</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[SHT4X_HUMIDITY_INDEX];<sp/>}</highlight></codeline>
+<codeline lineno="113" refid="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" kindref="member">SHT4X::getHumidity</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[SHT4X_HUMIDITY_INDEX];<sp/>}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/sht4x/src/sht4x.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp"/>
   </compounddef>
 </doxygen>

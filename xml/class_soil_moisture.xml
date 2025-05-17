@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="class_soil_moisture" kind="class" language="C++" prot="public">
     <compoundname>SoilMoisture</compoundname>
+    <includes refid="soil__moisture_8h" local="no">soil_moisture.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_soil_moisture_1a8cdd252a660bec5692a48a3d87c627cb" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -15,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="105" column="12" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="105" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="179" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_soil_moisture_1aabd29033854cd76bbf52f38dad03d4f3" prot="private" static="no" mutable="no">
         <type>uint32_t</type>
@@ -30,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="106" column="12" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="106" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="180" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_soil_moisture_1af32cc864950d3d1daf487bc480146840" prot="private" static="no" mutable="no">
         <type>void(*</type>
@@ -46,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="107" column="3" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="107" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="183" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="183" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -61,13 +62,26 @@
           <declname>pin</declname>
         </param>
         <briefdescription>
-<para>init the Soil Moisture Sensor with a specified pin </para>
+<para>Constructor to initialize the <ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref> sensor with a specified pin. </para>
         </briefdescription>
         <detaileddescription>
+<para>Configures the <ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref> sensor to use the provided analog pin for reading moisture levels.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The analog pin connected to the soil moisture sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the pin is a valid analog input pin on the microcontroller. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="38" column="3" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="29" bodyend="34"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="81" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="29" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -76,24 +90,28 @@
         <name>read</name>
         <qualifiedname>SoilMoisture::read</qualifiedname>
         <briefdescription>
-<para>Read the analog value from the sensor using the arduino function analogRead. </para>
+<para>Reads the analog value from the soil moisture sensor. </para>
         </briefdescription>
         <detaileddescription>
+<para>Uses the <computeroutput>bspGpioAnalogRead</computeroutput> function to retrieve the raw 10-bit analog value (0–1023) from the sensor and computes a percentage value (0–100), storing both internally.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">void</parametername>
+<parametername direction="in">None</parametername>
 </parameternamelist>
 <parameterdescription>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>uint32_t The analog value read from the sensor. </para>
+<simplesect kind="attention"><para>Ensure the sensor is properly connected to the specified pin. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="48" column="8" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="36" bodyend="41"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="93" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="36" bodyend="41"/>
+        <references refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" compoundref="bsp__gpio_8cpp" startline="75" endline="75">bspGpioAnalogRead</references>
+        <referencedby refid="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" compoundref="soil__moisture_8cpp" startline="60" endline="70">getAverageReading</referencedby>
+        <referencedby refid="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" compoundref="soil__moisture_8cpp" startline="43" endline="52">readAndMap</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -110,15 +128,16 @@
           <declname>maxValue</declname>
         </param>
         <briefdescription>
-<para>Read the sensor and map its raw analog values to a range (e.g., 0-100). </para>
+<para>Reads and maps the sensor value to a specified range. </para>
         </briefdescription>
         <detaileddescription>
+<para>Reads the raw analog value from the sensor and maps it to a user-defined range (e.g., 0–100) using linear scaling.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">minValue</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Minimum value of the range </para>
+<para>Minimum value of the output range. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -126,17 +145,20 @@
 <parametername direction="in">maxValue</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Maximum value of the range</para>
+<para>Maximum value of the output range.</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>uint32_t The calibrated sensor value mapped to a range of minValue to maxValue. </para>
+<simplesect kind="attention"><para>Ensure <computeroutput>minValue</computeroutput> is less than <computeroutput>maxValue</computeroutput> and the sensor is connected.</para>
+</simplesect>
+<simplesect kind="return"><para>uint32_t The mapped sensor value within the specified range. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="58" column="12" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="43" bodyend="52"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="108" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="43" bodyend="52"/>
+        <references refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" compoundref="soil__moisture_8cpp" startline="36" endline="41">read</references>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -149,25 +171,29 @@
           <declname>threshold</declname>
         </param>
         <briefdescription>
-<para>Check if the moisture level is above or below a threshold. </para>
+<para>Checks if the soil moisture level exceeds a threshold. </para>
         </briefdescription>
         <detaileddescription>
+<para>Compares the current raw sensor value against a specified threshold to determine if the moisture level is above it.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">threshold</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Threshold value for moisture.</para>
+<para>The threshold value for soil moisture (0–1023).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>bool True if moisture is above the threshold, false otherwise. </para>
+<simplesect kind="attention"><para>Requires a prior call to <computeroutput><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read()</ref></computeroutput> to update the sensor value.</para>
+</simplesect>
+<simplesect kind="return"><para>bool <computeroutput>true</computeroutput> if the moisture level is above the threshold, <computeroutput>false</computeroutput> otherwise. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="67" column="8" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="58" bodyend="58"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="122" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="58" bodyend="58"/>
+        <referencedby refid="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" compoundref="soil__moisture_8cpp" startline="72" endline="79">onThresholdCross</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1ab4a3beaa095bffdc280796ce194d3902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -176,9 +202,10 @@
         <name>getMoisture</name>
         <qualifiedname>SoilMoisture::getMoisture</qualifiedname>
         <briefdescription>
-<para>Get the analog sensor value. </para>
+<para>Retrieves the raw analog soil moisture value. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns the most recent raw 10-bit analog value (0–1023) read from the sensor.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">None</parametername>
@@ -187,13 +214,15 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>int The analog sensor value </para>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>int The raw analog sensor value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="76" column="7" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="54" bodyend="54"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="135" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1af363e82e2ef868de6820705a49b6cd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -202,9 +231,10 @@
         <name>getMoisturePercentage</name>
         <qualifiedname>SoilMoisture::getMoisturePercentage</qualifiedname>
         <briefdescription>
-<para>Get the percentage sensor value from the analog value. </para>
+<para>Retrieves the soil moisture as a percentage. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns the internally stored percentage value (0–100) computed from the raw analog sensor value.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">None</parametername>
@@ -213,13 +243,15 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>int The percentage value </para>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>int The soil moisture as a percentage. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="85" column="7" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="56" bodyend="56"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="148" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -233,25 +265,29 @@
           <defval>10</defval>
         </param>
         <briefdescription>
-<para>Get the average sensor reading over a specified number of samples. </para>
+<para>Computes the average sensor reading over multiple samples. </para>
         </briefdescription>
         <detaileddescription>
+<para>Takes multiple readings from the sensor with a 10ms delay between each and returns their average to reduce noise.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">samples</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Number of samples to average.</para>
+<para>Number of samples to average (default: 10).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>int The averaged sensor value. </para>
+<simplesect kind="attention"><para>Ensure the sensor is connected and <computeroutput>samples</computeroutput> is a positive integer.</para>
+</simplesect>
+<simplesect kind="return"><para>int The averaged raw sensor value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="94" column="7" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="60" bodyend="70"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="162" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="60" bodyend="70"/>
+        <references refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" compoundref="soil__moisture_8cpp" startline="36" endline="41">read</references>
       </memberdef>
       <memberdef kind="function" id="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -268,15 +304,16 @@
           <declname>callback</declname>
         </param>
         <briefdescription>
-<para>Set a callback function to trigger when moisture crosses a threshold. </para>
+<para>Sets a callback function for threshold-crossing events. </para>
         </briefdescription>
         <detaileddescription>
+<para>Configures a callback function to be triggered when the soil moisture level crosses the specified threshold, invoking the callback if the threshold is currently exceeded.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">threshold</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Threshold for triggering the callback. </para>
+<para>The threshold value for triggering the callback (0–1023). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -284,22 +321,52 @@
 <parametername direction="in">callback</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Function to call when threshold is crossed. </para>
+<para>The function to call when the threshold is crossed.</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>The callback function must be defined, have no parameters, and no return value. Requires a prior call to <computeroutput><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read()</ref></computeroutput> for accurate threshold detection. </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="102" column="8" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="72" bodyend="79"/>
+        <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="176" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp" bodystart="72" bodyend="79"/>
+        <references refid="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" compoundref="soil__moisture_8cpp" startline="58" endline="58">isAboveThreshold</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Manages soil moisture measurements using an analog soil moisture sensor. </para>
     </briefdescription>
     <detaileddescription>
+<para>The <computeroutput><ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref></computeroutput> class provides functionality for reading and processing soil moisture data from an analog sensor connected to an Arduino pin. It supports raw analog readings, mapped values, threshold detection, averaging, and callback triggering for threshold events.</para>
+<sect3 id="class_soil_moisture_1autotoc_md40">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Reads raw analog soil moisture values with 10-bit resolution.</para>
+</listitem><listitem><para>Maps raw values to a user-defined range (e.g., 0–100).</para>
+</listitem><listitem><para>Detects if soil moisture exceeds a specified threshold.</para>
+</listitem><listitem><para>Computes average readings over multiple samples.</para>
+</listitem><listitem><para>Supports callback functions for threshold-crossing events.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_soil_moisture_1autotoc_md41">
+<title>Usage:</title>
+<para>Instantiate the class with the appropriate analog pin. Call <computeroutput><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read()</ref></computeroutput> to retrieve raw sensor data or <computeroutput><ref refid="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" kindref="member">readAndMap()</ref></computeroutput> for scaled values. Use <computeroutput><ref refid="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" kindref="member">isAboveThreshold()</ref></computeroutput> for conditional checks, <computeroutput><ref refid="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" kindref="member">getAverageReading()</ref></computeroutput> for smoothed data, or <computeroutput><ref refid="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" kindref="member">onThresholdCross()</ref></computeroutput> to set up event-driven callbacks. Regularly call <computeroutput><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read()</ref></computeroutput> to update sensor values.</para>
+</sect3>
+<sect3 id="class_soil_moisture_1autotoc_md42">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with analog input support (10-bit ADC).</para>
+</listitem><listitem><para>Sensor must be connected to a valid analog pin.</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for GPIO operations (<computeroutput>bspGpioAnalogRead</computeroutput>).</para>
+</listitem><listitem><para>Callback functions must be defined before use with <computeroutput><ref refid="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" kindref="member">onThresholdCross()</ref></computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
     </detaileddescription>
-    <location file="lib/soil_moisture_sensor/src/soil_moisture.h" line="32" column="1" bodyfile="lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="33" bodyend="108"/>
+    <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" line="69" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" bodystart="70" bodyend="184"/>
     <listofallmembers>
       <member refid="class_soil_moisture_1af32cc864950d3d1daf487bc480146840" prot="private" virt="non-virtual"><scope>SoilMoisture</scope><name>_callback</name></member>
       <member refid="class_soil_moisture_1a8cdd252a660bec5692a48a3d87c627cb" prot="private" virt="non-virtual"><scope>SoilMoisture</scope><name>_pin</name></member>

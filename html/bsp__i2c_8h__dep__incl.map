@@ -1,9 +1,9 @@
-<map id="lib/bsp/bsp_i2c.h" name="lib/bsp/bsp_i2c.h">
-<area shape="rect" id="node1" title="Header file for bsp_i2c." alt="" coords="423,5,543,32"/>
-<area shape="rect" id="node2" href="$ac__measure_8cpp.html" title="Source file for ac_measure library." alt="" coords="5,80,137,123"/>
-<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html" title="Source file for bsp_i2c." alt="" coords="160,88,294,115"/>
-<area shape="rect" id="node4" href="$dht20_8cpp.html" title="Source file for DHT20 library." alt="" coords="318,88,472,115"/>
-<area shape="rect" id="node5" href="$sht3x_8cpp.html" title="Source file for SHT3X library." alt="" coords="496,88,649,115"/>
-<area shape="rect" id="node6" href="$sht4x_8cpp.html" title="Source file for BMP280 library." alt="" coords="673,88,826,115"/>
-<area shape="rect" id="node7" href="$unit__4relay_8cpp.html" title="Source file for unit_4relay.cpp." alt="" coords="851,80,974,123"/>
+<map id="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.h" name="thesis_mdt266_iotdevkit/lib/bsp/bsp_i2c.h">
+<area shape="rect" id="node1" title="Header file for bsp_i2c." alt="" coords="472,5,634,48"/>
+<area shape="rect" id="node2" href="$ac__measure_8cpp.html" title="Source file for ac_measure library." alt="" coords="5,96,168,155"/>
+<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html" title="Source file for bsp_i2c." alt="" coords="192,104,354,147"/>
+<area shape="rect" id="node4" href="$dht20_8cpp.html" title="Source file for DHT20 library." alt="" coords="379,104,541,147"/>
+<area shape="rect" id="node5" href="$sht3x_8cpp.html" title="Source file for SHT3X library." alt="" coords="565,104,728,147"/>
+<area shape="rect" id="node6" href="$sht4x_8cpp.html" title="Source file for BMP280 library." alt="" coords="752,104,914,147"/>
+<area shape="rect" id="node7" href="$unit__4relay_8cpp.html" title="Source file for unit_4relay.cpp." alt="" coords="939,96,1101,155"/>
 </map>

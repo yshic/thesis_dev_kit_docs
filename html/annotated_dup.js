@@ -209,7 +209,7 @@ var annotated_dup =
     [ "remove_reference< T & >", "structremove__reference_3_01_t_01_6_01_4.html", null ],
     [ "SerializedValue", "class_serialized_value.html", null ],
     [ "SerializedValue< TChar * >", "class_serialized_value_3_01_t_char_01_5_01_4.html", null ],
-    [ "SHT3X", "class_s_h_t3_x.html", null ],
+    [ "SHT3X", "class_s_h_t3_x.html", "class_s_h_t3_x" ],
     [ "SHT4X", "class_s_h_t4_x.html", "class_s_h_t4_x" ],
     [ "SizedRamString", "class_sized_ram_string.html", null ],
     [ "SizedStringAdapter", "struct_sized_string_adapter.html", null ],

@@ -599,6 +599,6 @@
 <codeline lineno="590"><highlight class="normal"></highlight></codeline>
 <codeline lineno="591"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>NO_HTTP_PARSER</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.c"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.c"/>
   </compounddef>
 </doxygen>

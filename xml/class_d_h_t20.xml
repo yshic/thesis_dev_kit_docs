@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="137" column="9" bodyfile="lib/dht20/src/dht20.h" bodystart="137" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="137" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="78" column="3" bodyfile="lib/dht20/src/dht20.cpp" bodystart="30" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="78" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>dht20_error_t</type>
@@ -64,7 +64,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="94" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="32" bodyend="37"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="94" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="32" bodyend="37"/>
+        <referencedby refid="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" compoundref="dht20_8cpp" startline="148" endline="180">readTempAndHumidity</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>dht20_error_t</type>
@@ -97,7 +98,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="114" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="148" bodyend="180"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="114" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="148" bodyend="180"/>
+        <references refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" compoundref="dht20_8cpp" startline="32" endline="37">begin</references>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -123,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="124" column="9" bodyfile="lib/dht20/src/dht20.cpp" bodystart="182" bodyend="182"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="124" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="182" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -149,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="134" column="9" bodyfile="lib/dht20/src/dht20.cpp" bodystart="184" bodyend="184"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="134" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="184" bodyend="184"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -203,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="164" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="108" bodyend="146"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="164" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="108" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a34bc5381d463604f9789bc3a2dcfbfb0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -236,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="182" column="7" bodyfile="lib/dht20/src/dht20.cpp" bodystart="86" bodyend="106"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="182" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="86" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1affbb1ad27f215b9db2c74a0c130c5d73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -272,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="203" column="7" bodyfile="lib/dht20/src/dht20.cpp" bodystart="44" bodyend="60"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="203" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="44" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a69419789f1b2d4bb8fe051eb4b568f84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -310,7 +312,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="219" column="8" bodyfile="lib/dht20/src/dht20.cpp" bodystart="62" bodyend="83"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="219" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="62" bodyend="83"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -341,7 +343,7 @@
 </para>
 </sect3>
     </detaileddescription>
-    <location file="lib/dht20/src/dht20.h" line="75" column="1" bodyfile="lib/dht20/src/dht20.h" bodystart="76" bodyend="220"/>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="75" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="76" bodyend="220"/>
     <listofallmembers>
       <member refid="class_d_h_t20_1a69419789f1b2d4bb8fe051eb4b568f84" prot="private" virt="non-virtual"><scope>DHT20</scope><name>_resetRegister</name></member>
       <member refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" prot="public" virt="non-virtual"><scope>DHT20</scope><name>begin</name></member>

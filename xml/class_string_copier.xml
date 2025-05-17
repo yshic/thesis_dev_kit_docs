@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="62" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="62" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="62" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_string_copier_1a50a54f4097da10a0255f7d7a0aef0103" prot="private" static="no" mutable="no">
         <type>char *</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="67" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="67" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="67" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_string_copier_1aca4069a62a60c73ddb797497052eecd8" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="69" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="69" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="69" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_string_copier_1a7dea9257e214f42658131ef12e2556c6" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="69" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="69" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="69" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="69" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="13" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="13" bodyend="13"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="13" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1a3d2b6c93235655b96d8f188d28b3af4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="15" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="15" bodyend="20"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="15" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="15" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1ae7c1047349dc0565094db2af13010f21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="22" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="22" bodyend="27"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="22" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="22" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1acfc8f11ac0db73f01bd6cb538a764a2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="29" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="29" bodyend="32"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="29" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="29" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1a20cb14e997776398c4750dd1a4766744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="34" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="34" bodyend="37"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="34" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="34" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1a32d0e2d4134032a00533658491f41c78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="39" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="39" bodyend="44"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="39" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="39" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1a21e02223605cc91f8b5a7b27d5c0317d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="46" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="46" bodyend="48"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="46" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="46" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1a7ed173718bbf955ac61e97ae93155b38" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="50" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="50" bodyend="52"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="50" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="50" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="class_string_copier_1addb1d46c9629a01501def62c34eba364" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_json_string" kindref="compound">JsonString</ref></type>
@@ -205,14 +205,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="54" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="54" bodyend="59"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="54" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="54" bodyend="59"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="11" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="11" bodyend="70"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" line="11" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp" bodystart="11" bodyend="70"/>
     <listofallmembers>
       <member refid="class_string_copier_1acfc8f11ac0db73f01bd6cb538a764a2a" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>append</name></member>
       <member refid="class_string_copier_1a20cb14e997776398c4750dd1a4766744" prot="public" virt="non-virtual"><scope>StringCopier</scope><name>append</name></member>

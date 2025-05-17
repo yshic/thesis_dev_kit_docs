@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="73" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="73" bodyend="75"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="73" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="73" bodyend="75"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -66,7 +66,7 @@
         <link refid="struct_visitor"/>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="72" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="72" bodyend="76"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="72" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="72" bodyend="76"/>
     <listofallmembers>
       <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>result_type</name></member>
       <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitArray</name></member>

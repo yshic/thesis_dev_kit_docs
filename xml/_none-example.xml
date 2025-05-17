@@ -7,6 +7,6 @@
     <detaileddescription>
 <para><programlisting filename="None"></programlisting> </para>
     </detaileddescription>
-    <location file="lib/bsp/bsp_gpio.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp"/>
   </compounddef>
 </doxygen>

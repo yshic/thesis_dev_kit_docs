@@ -1,0 +1,4 @@
+<map id="SoilMoisture::read" name="SoilMoisture::read">
+<area shape="rect" id="node1" title="Reads the analog value from the soil moisture sensor." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="180,5,320,32"/>
+</map>

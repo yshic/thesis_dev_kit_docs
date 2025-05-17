@@ -1,0 +1,5 @@
+<map id="SHT3X::update" name="SHT3X::update">
+<area shape="rect" id="node1" title="Updates temperature and humidity readings from the SHT3X sensor." alt="" coords="5,31,117,57"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="165,5,293,32"/>
+<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="169,56,289,83"/>
+</map>

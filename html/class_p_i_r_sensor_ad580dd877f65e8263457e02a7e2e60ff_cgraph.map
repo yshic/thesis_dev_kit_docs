@@ -1,0 +1,4 @@
+<map id="PIRSensor::isMotionContinuous" name="PIRSensor::isMotionContinuous">
+<area shape="rect" id="node1" title="Checks if motion is continuously detected for a specified duration." alt="" coords="5,5,214,32"/>
+<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a78c1d8d8fa1cad00fd20e9973e8b9d1a" title="This function reads the state of a digital pin." alt="" coords="262,5,399,32"/>
+</map>

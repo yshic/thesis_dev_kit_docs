@@ -1,0 +1,4 @@
+<map id="AcMeasure::saveVoltageCurrentFactor" name="AcMeasure::saveVoltageCurrentFactor">
+<area shape="rect" id="node1" title="Saves the voltage and current calibration factors to the device." alt="" coords="5,5,215,48"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a6fa08d56ba5abcaf8827af4c3164f5b7" title="Writes multiple bytes to a register using I2C." alt="" coords="263,13,390,40"/>
+</map>

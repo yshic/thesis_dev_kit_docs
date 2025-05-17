@@ -3,21 +3,21 @@
   <compounddef id="bsp__gpio_8h" kind="file" language="C++">
     <compoundname>bsp_gpio.h</compoundname>
     <includes local="no">Arduino.h</includes>
-    <includedby refid="bsp__gpio_8cpp" local="yes">lib/bsp/bsp_gpio.cpp</includedby>
-    <includedby refid="button_8cpp" local="yes">lib/button/src/button.cpp</includedby>
-    <includedby refid="light__sensor_8cpp" local="yes">lib/light_sensor/src/light_sensor.cpp</includedby>
-    <includedby refid="mini__fan_8cpp" local="yes">lib/mini_fan/src/mini_fan.cpp</includedby>
-    <includedby refid="pir__sensor_8cpp" local="yes">lib/pir_sensor/src/pir_sensor.cpp</includedby>
-    <includedby refid="relay_8cpp" local="yes">lib/relay/src/relay.cpp</includedby>
-    <includedby refid="soil__moisture_8cpp" local="yes">lib/soil_moisture_sensor/src/soil_moisture.cpp</includedby>
-    <includedby refid="ultrasonic_8cpp" local="yes">lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
-    <includedby refid="usb__switch_8cpp" local="yes">lib/usb_switch/src/usb_switch.cpp</includedby>
+    <includedby refid="bsp__gpio_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp</includedby>
+    <includedby refid="button_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/button/src/button.cpp</includedby>
+    <includedby refid="light__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</includedby>
+    <includedby refid="mini__fan_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp</includedby>
+    <includedby refid="pir__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</includedby>
+    <includedby refid="relay_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp</includedby>
+    <includedby refid="soil__moisture_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp</includedby>
+    <includedby refid="ultrasonic_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
+    <includedby refid="usb__switch_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/bsp/bsp_gpio.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h</label>
         <link refid="bsp__gpio_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -25,11 +25,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/bsp/bsp_gpio.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp</label>
         <link refid="bsp__gpio_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/bsp/bsp_gpio.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h</label>
         <link refid="bsp__gpio_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -49,31 +49,31 @@
         </childnode>
       </node>
       <node id="3">
-        <label>lib/light_sensor/src/light_sensor.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</label>
         <link refid="light__sensor_8cpp"/>
       </node>
       <node id="4">
-        <label>lib/mini_fan/src/mini_fan.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/mini_fan/src/mini_fan.cpp</label>
         <link refid="mini__fan_8cpp"/>
       </node>
       <node id="5">
-        <label>lib/pir_sensor/src/pir_sensor.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</label>
         <link refid="pir__sensor_8cpp"/>
       </node>
       <node id="6">
-        <label>lib/relay/src/relay.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp</label>
         <link refid="relay_8cpp"/>
       </node>
       <node id="7">
-        <label>lib/soil_moisture_sensor/src/soil_moisture.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp</label>
         <link refid="soil__moisture_8cpp"/>
       </node>
       <node id="8">
-        <label>lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
         <link refid="ultrasonic_8cpp"/>
       </node>
       <node id="9">
-        <label>lib/usb_switch/src/usb_switch.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp</label>
         <link refid="usb__switch_8cpp"/>
       </node>
     </invincdepgraph>
@@ -120,7 +120,13 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="43" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="32" bodyend="54" declfile="lib/bsp/bsp_gpio.h" declline="43" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="43" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="32" bodyend="54" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="43" declcolumn="6"/>
+        <referencedby refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" compoundref="button_8cpp" startline="4" endline="14">ButtonHandler::ButtonHandler</referencedby>
+        <referencedby refid="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" compoundref="mini__fan_8cpp" startline="28" endline="34">MiniFan::MiniFan</referencedby>
+        <referencedby refid="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" compoundref="pir__sensor_8cpp" startline="29" endline="33">PIRSensor::PIRSensor</referencedby>
+        <referencedby refid="class_relay_1adad23a5505a37c21a4c3353a65ff51c3" compoundref="relay_8cpp" startline="29" endline="29">Relay::Relay</referencedby>
+        <referencedby refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" compoundref="ultrasonic_8cpp" startline="29" endline="34">Ultrasonic::Ultrasonic</referencedby>
+        <referencedby refid="class_usb_switch_1ad39268ff1eccf9fb11e038d5184cf130" compoundref="usb__switch_8cpp" startline="28" endline="36">UsbSwitch::UsbSwitch</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a8c56622b894fbc2433dadc6fb4a95b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -164,7 +170,9 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="59" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="56" bodyend="69" declfile="lib/bsp/bsp_gpio.h" declline="59" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="59" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="56" bodyend="69" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="59" declcolumn="6"/>
+        <referencedby refid="class_relay_1a06078d488d6b12acf83f88e0d78e1737" compoundref="relay_8cpp" startline="37" endline="41">Relay::off</referencedby>
+        <referencedby refid="class_relay_1a674ccf47e38920324b76e85654dce550" compoundref="relay_8cpp" startline="31" endline="35">Relay::on</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -201,7 +209,10 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="76" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="71" bodyend="71" declfile="lib/bsp/bsp_gpio.h" declline="76" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="76" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="71" bodyend="71" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="76" declcolumn="6"/>
+        <referencedby refid="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" compoundref="pir__sensor_8cpp" startline="70" endline="81">PIRSensor::isMotionContinuous</referencedby>
+        <referencedby refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" compoundref="pir__sensor_8cpp" startline="35" endline="56">PIRSensor::read</referencedby>
+        <referencedby refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" compoundref="button_8cpp" startline="86" endline="168">ButtonHandler::update</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a34347317f123b2222eb416e5e5c56091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -237,7 +248,10 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="96" column="5" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="75" bodyend="75" declfile="lib/bsp/bsp_gpio.h" declline="96" declcolumn="5"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="96" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="75" bodyend="75" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="96" declcolumn="5"/>
+        <referencedby refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" compoundref="usb__switch_8cpp" startline="61" endline="69">UsbSwitch::getOutputValue</referencedby>
+        <referencedby refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" compoundref="light__sensor_8cpp" startline="38" endline="44">LightSensor::read</referencedby>
+        <referencedby refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" compoundref="soil__moisture_8cpp" startline="36" endline="41">SoilMoisture::read</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1aa6be43410ae12aa3bbb746fb562352cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -273,7 +287,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="114" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="76" bodyend="76" declfile="lib/bsp/bsp_gpio.h" declline="114" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="114" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="76" bodyend="76" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="114" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a9b2f7d9d0077df86b5fbd73942bcaffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -315,7 +329,13 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="125" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="77" bodyend="77" declfile="lib/bsp/bsp_gpio.h" declline="125" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="125" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="77" bodyend="77" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="125" declcolumn="6"/>
+        <referencedby refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" compoundref="mini__fan_8cpp" startline="36" endline="47">MiniFan::setFanSpeed</referencedby>
+        <referencedby refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" compoundref="mini__fan_8cpp" startline="49" endline="63">MiniFan::setFanSpeedPercentage</referencedby>
+        <referencedby refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" compoundref="usb__switch_8cpp" startline="38" endline="52">UsbSwitch::setOutputValue</referencedby>
+        <referencedby refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" compoundref="mini__fan_8cpp" startline="69" endline="89">MiniFan::toggleFan</referencedby>
+        <referencedby refid="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" compoundref="usb__switch_8cpp" startline="77" endline="89">UsbSwitch::toggleOutput</referencedby>
+        <referencedby refid="class_usb_switch_1ad39268ff1eccf9fb11e038d5184cf130" compoundref="usb__switch_8cpp" startline="28" endline="36">UsbSwitch::UsbSwitch</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a473ea43016c7438bcf6c54ae0953b44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -351,7 +371,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="143" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="78" bodyend="78" declfile="lib/bsp/bsp_gpio.h" declline="143" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="143" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="78" bodyend="78" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="143" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a731555025d3fbbb56328f1be7c9c0d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned long</type>
@@ -410,7 +430,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="160" column="15" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="82" bodyend="85" declfile="lib/bsp/bsp_gpio.h" declline="160" declcolumn="15"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="160" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="82" bodyend="85" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="160" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1adc9a22797ea3eacf3756a635db48d91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned long</type>
@@ -469,7 +489,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="176" column="15" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="86" bodyend="89" declfile="lib/bsp/bsp_gpio.h" declline="176" declcolumn="15"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="176" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="86" bodyend="89" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="176" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1aaa4e5b753eb7721876bae26166b45e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -527,7 +547,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="193" column="9" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="90" bodyend="93" declfile="lib/bsp/bsp_gpio.h" declline="193" declcolumn="9"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="193" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="90" bodyend="93" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="193" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a8ab3bbd2afa6df50db6e4affc45d2577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -593,7 +613,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="210" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="94" bodyend="97" declfile="lib/bsp/bsp_gpio.h" declline="210" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="210" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="94" bodyend="97" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="210" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a6b231e4d7b1dd20157b0885b022f9dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -647,7 +667,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="224" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="98" bodyend="101" declfile="lib/bsp/bsp_gpio.h" declline="224" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="224" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="98" bodyend="101" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="224" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8h_1a859d94545c79f456b2914ae7f5a39b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -679,7 +699,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.h" line="239" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="102" bodyend="102" declfile="lib/bsp/bsp_gpio.h" declline="239" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" line="239" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="102" bodyend="102" declfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h" declline="239" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -755,6 +775,6 @@ None </para>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/bsp/bsp_gpio.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.h"/>
   </compounddef>
 </doxygen>

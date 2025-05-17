@@ -1,0 +1,9 @@
+<map id="bspI2CReadByte" name="bspI2CReadByte">
+<area shape="rect" id="node1" title="Reads a single byte using I2C from a register." alt="" coords="535,107,656,133"/>
+<area shape="rect" id="node2" href="$class_ac_measure.html#a9921894e5d8991c64920b6e1520166ee" title="Retrieves the firmware version of the AC measurement device." alt="" coords="277,5,487,32"/>
+<area shape="rect" id="node3" href="$class_ac_measure.html#a012e847385b5c426bae7598a44689cdd" title="Retrieves the current I2C address of the device." alt="" coords="291,56,473,83"/>
+<area shape="rect" id="node4" href="$class_b_m_p280.html#a4cfab33bfc50e210fdbcf2fc7bd9481a" title="Reads the current status of the BMP280 sensor." alt="" coords="314,107,450,133"/>
+<area shape="rect" id="node6" href="$class_unit4_relay.html#a4afd86f0f07bd53cc2c52f1a1faaf708" title="Sets the state of an individual LED." alt="" coords="311,157,452,184"/>
+<area shape="rect" id="node7" href="$class_unit4_relay.html#a058eddf27fc3dacd823cb183016f7d48" title="Sets the state of an individual relay." alt="" coords="306,208,458,235"/>
+<area shape="rect" id="node5" href="$class_b_m_p280.html#ad05bced9afce99daf98d6d99918276f4" title="Triggers a forced measurement." alt="" coords="5,107,229,133"/>
+</map>

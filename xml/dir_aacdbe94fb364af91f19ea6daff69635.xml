@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_aacdbe94fb364af91f19ea6daff69635" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/pir_sensor/src</compoundname>
+    <innerfile refid="pir__sensor_8cpp">pir_sensor.cpp</innerfile>
+    <innerfile refid="pir__sensor_8h">pir_sensor.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/"/>
+  </compounddef>
+</doxygen>

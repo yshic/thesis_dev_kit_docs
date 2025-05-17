@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="32" column="34" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="32" bodyend="34"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="32" column="34" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="32" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="class_variant_attorney_1aac68120247001c8ee66fb50afb3b9a49" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="37" column="55" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="37" bodyend="40"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="37" column="55" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="37" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="class_variant_attorney_1ac0999cda60f9e579df5e1ac01c7cbf35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -71,14 +71,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="43" column="35" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="43" bodyend="45"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="43" column="35" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="43" bodyend="45"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="15" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="15" bodyend="46"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" line="15" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp" bodystart="15" bodyend="46"/>
     <listofallmembers>
       <member refid="class_variant_attorney_1aac68120247001c8ee66fb50afb3b9a49" prot="public" virt="non-virtual"><scope>VariantAttorney</scope><name>getData</name></member>
       <member refid="class_variant_attorney_1ac0999cda60f9e579df5e1ac01c7cbf35" prot="public" virt="non-virtual"><scope>VariantAttorney</scope><name>getOrCreateData</name></member>

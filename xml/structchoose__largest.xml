@@ -37,7 +37,7 @@
         <label>conditional&lt;(sizeof(A) &gt; sizeof(B)), A, B &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="19" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="19" bodyend="19"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="19" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="19" bodyend="19"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

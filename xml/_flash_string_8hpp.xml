@@ -42,7 +42,7 @@
         <link refid="preprocessor_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp</label>
         <link refid="_flash_string_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -159,6 +159,6 @@
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp"/>
   </compounddef>
 </doxygen>

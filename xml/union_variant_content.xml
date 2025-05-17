@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="47" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="47" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="47" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1a6a703c5dbab7f75153d1d495c5fa45c0" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="48" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="48" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="48" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1a5441e49b95bda6be68dfbebfc01f85c9" prot="public" static="no" mutable="no">
         <type>JsonUInt</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="49" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="49" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="49" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1abb0601f95e9312be7b8ab715f13607e9" prot="public" static="no" mutable="no">
         <type>JsonInteger</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="50" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="50" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="50" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1aaca3fe7e4610d2f115e2343e94999436" prot="public" static="no" mutable="no">
         <type><ref refid="class_collection_data" kindref="compound">CollectionData</ref></type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="51" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="51" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="51" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1a0a67673220ddf50d89abb803364d0af5" prot="public" static="no" mutable="no">
         <type>const char *</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="53" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="53" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="53" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1a83b7889b4de69fcb05687a521c93d21b" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="54" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="54" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="54" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_variant_content_1a3a7c299530852c5377289c17e3a64126" prot="public" static="no" mutable="no">
         <type>struct VariantContent::@5</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="55" column="12"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="55" column="12"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -133,7 +133,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="46" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="46" bodyend="56"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" line="46" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp" bodystart="46" bodyend="56"/>
     <listofallmembers>
       <member refid="union_variant_content_1a6a703c5dbab7f75153d1d495c5fa45c0" prot="public" virt="non-virtual"><scope>VariantContent</scope><name>asBoolean</name></member>
       <member refid="union_variant_content_1aaca3fe7e4610d2f115e2343e94999436" prot="public" virt="non-virtual"><scope>VariantContent</scope><name>asCollection</name></member>

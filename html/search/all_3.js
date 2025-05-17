@@ -7,7 +7,7 @@ var searchData=
   ['dfmobile_4',['DFMobile',['../class_d_f_mobile.html',1,'DFMobile'],['../class_d_f_mobile.html#a59fc77c0f4d8fd2dab61ce8432c34825',1,'DFMobile::DFMobile()']]],
   ['dfrobot_5fhuskylens_5',['DFRobot_HuskyLens',['../class_d_f_robot___husky_lens.html',1,'']]],
   ['dht20_6',['DHT20',['../class_d_h_t20.html',1,'']]],
-  ['dht20_20library_7',['DHT20 Library',['../md_lib_dht20__r_e_a_d_m_e.html',1,'']]],
+  ['dht20_20library_7',['DHT20 Library',['../md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e.html',1,'']]],
   ['dht20_2ecpp_8',['dht20.cpp',['../dht20_8cpp.html',1,'']]],
   ['dht20_2eh_9',['dht20.h',['../dht20_8h.html',1,'']]],
   ['dig_5fp1_10',['dig_P1',['../structbmp280__calib__data.html#aadffbb78b62b6b52d952c89bf78286e0',1,'bmp280_calib_data']]],

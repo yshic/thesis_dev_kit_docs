@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp" line="11" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp" bodystart="11" bodyend="-1"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp" line="11" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp" bodystart="11" bodyend="-1"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,9 @@
+<map id="bspGpioPinMode" name="bspGpioPinMode">
+<area shape="rect" id="node1" title="This function sets the mode of a GPIO pin." alt="" coords="249,132,369,159"/>
+<area shape="rect" id="node2" href="$class_button_handler.html#a4b213df8be2f5d90299e60b6a90c26c8" title="Initialize the ButtonHandler instance." alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node3" href="$class_mini_fan.html#affd564b00edfa85433ecefa678e95bd8" title="Constructor to initialize the MiniFan with a specified pin." alt="" coords="42,56,164,83"/>
+<area shape="rect" id="node4" href="$class_p_i_r_sensor.html#a85915f72017180a4193990d3508c332c" title="Constructor to initialize the PIR sensor with a specified pin." alt="" coords="24,107,182,133"/>
+<area shape="rect" id="node5" href="$class_relay.html#adad23a5505a37c21a4c3353a65ff51c3" title="Constructor for the Relay class." alt="" coords="54,157,152,184"/>
+<area shape="rect" id="node6" href="$class_ultrasonic.html#a22efb22ed765d4841b842d5503a4f1b4" title="Initializes the Ultrasonic sensor with the specified trigger and echo pins, and sets the timeout valu..." alt="" coords="29,208,177,235"/>
+<area shape="rect" id="node7" href="$class_usb_switch.html#ad39268ff1eccf9fb11e038d5184cf130" title="Constructor to initialize the USB Switch module with specified pins." alt="" coords="24,259,182,285"/>
+</map>

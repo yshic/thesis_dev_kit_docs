@@ -8,6 +8,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="11" column="1"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp" line="11" column="1"/>
   </compounddef>
 </doxygen>

@@ -5,7 +5,7 @@
     <includes local="no">ostream</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp</label>
         <link refid="_std_stream_writer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -54,6 +54,6 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp"/>
   </compounddef>
 </doxygen>

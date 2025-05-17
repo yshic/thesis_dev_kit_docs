@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="96" column="11" bodyfile="lib/relay/src/relay.h" bodystart="96" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="96" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_relay_1a6d21a24041a5a1d79cd2f779f047249e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="97" column="11" bodyfile="lib/relay/src/relay.h" bodystart="97" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="97" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -64,7 +64,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="44" column="3" bodyfile="lib/relay/src/relay.cpp" bodystart="29" bodyend="29"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="44" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp" bodystart="29" bodyend="29"/>
+        <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
       <memberdef kind="function" id="class_relay_1a674ccf47e38920324b76e85654dce550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -92,7 +93,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="56" column="8" bodyfile="lib/relay/src/relay.cpp" bodystart="31" bodyend="35"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="56" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp" bodystart="31" bodyend="35"/>
+        <references refid="bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97" compoundref="bsp__gpio_8cpp" startline="56" endline="69">bspGpioDigitalWrite</references>
+        <referencedby refid="class_relay_1ad37d4481c9c5b74f0033564e916f4915" compoundref="relay_8cpp" startline="43" endline="53">toggle</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_relay_1a06078d488d6b12acf83f88e0d78e1737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -120,7 +123,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="68" column="8" bodyfile="lib/relay/src/relay.cpp" bodystart="37" bodyend="41"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="68" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp" bodystart="37" bodyend="41"/>
+        <references refid="bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97" compoundref="bsp__gpio_8cpp" startline="56" endline="69">bspGpioDigitalWrite</references>
+        <referencedby refid="class_relay_1ad37d4481c9c5b74f0033564e916f4915" compoundref="relay_8cpp" startline="43" endline="53">toggle</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_relay_1ad37d4481c9c5b74f0033564e916f4915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -148,7 +153,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="80" column="8" bodyfile="lib/relay/src/relay.cpp" bodystart="43" bodyend="53"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="80" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp" bodystart="43" bodyend="53"/>
+        <references refid="class_relay_1a06078d488d6b12acf83f88e0d78e1737" compoundref="relay_8cpp" startline="37" endline="41">off</references>
+        <references refid="class_relay_1a674ccf47e38920324b76e85654dce550" compoundref="relay_8cpp" startline="31" endline="35">on</references>
       </memberdef>
       <memberdef kind="function" id="class_relay_1ab9eb34f1f5cf765bdd01427d1bed15cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -180,14 +187,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/relay/src/relay.h" line="93" column="8" bodyfile="lib/relay/src/relay.cpp" bodystart="55" bodyend="55"/>
+        <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="93" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.cpp" bodystart="55" bodyend="55"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/relay/src/relay.h" line="32" column="1" bodyfile="lib/relay/src/relay.h" bodystart="33" bodyend="98"/>
+    <location file="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" line="32" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/relay/src/relay.h" bodystart="33" bodyend="98"/>
     <listofallmembers>
       <member refid="class_relay_1a099d745adc8d2c4a6875162aff604629" prot="private" virt="non-virtual"><scope>Relay</scope><name>_pin</name></member>
       <member refid="class_relay_1ab9eb34f1f5cf765bdd01427d1bed15cc" prot="public" virt="non-virtual"><scope>Relay</scope><name>getStatus</name></member>

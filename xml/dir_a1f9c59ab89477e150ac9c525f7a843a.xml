@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a1f9c59ab89477e150ac9c525f7a843a" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant</compoundname>
+    <innerfile refid="_converter_8hpp">Converter.hpp</innerfile>
+    <innerfile refid="_converter_impl_8hpp">ConverterImpl.hpp</innerfile>
+    <innerfile refid="_json_variant_8hpp">JsonVariant.hpp</innerfile>
+    <innerfile refid="_json_variant_const_8hpp">JsonVariantConst.hpp</innerfile>
+    <innerfile refid="_slot_functions_8hpp">SlotFunctions.hpp</innerfile>
+    <innerfile refid="_variant_attorney_8hpp">VariantAttorney.hpp</innerfile>
+    <innerfile refid="_variant_compare_8hpp">VariantCompare.hpp</innerfile>
+    <innerfile refid="_variant_content_8hpp">VariantContent.hpp</innerfile>
+    <innerfile refid="_variant_data_8hpp">VariantData.hpp</innerfile>
+    <innerfile refid="_variant_functions_8hpp">VariantFunctions.hpp</innerfile>
+    <innerfile refid="_variant_impl_8hpp">VariantImpl.hpp</innerfile>
+    <innerfile refid="_variant_operators_8hpp">VariantOperators.hpp</innerfile>
+    <innerfile refid="_variant_ref_base_8hpp">VariantRefBase.hpp</innerfile>
+    <innerfile refid="_variant_slot_8hpp">VariantSlot.hpp</innerfile>
+    <innerfile refid="_variant_tag_8hpp">VariantTag.hpp</innerfile>
+    <innerfile refid="_variant_to_8hpp">VariantTo.hpp</innerfile>
+    <innerfile refid="_visitor_8hpp">Visitor.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/"/>
+  </compounddef>
+</doxygen>

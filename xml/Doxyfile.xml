@@ -2,7 +2,7 @@
 <doxyfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doxyfile.xsd" version="1.9.6" xml:lang="en-US">
   <option  id='DOXYFILE_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA["XIAO ESP32S3 Sense Development Kit"]]></value></option>
-  <option  id='PROJECT_NUMBER' default='no' type='string'><value><![CDATA[0.4.0]]></value></option>
+  <option  id='PROJECT_NUMBER' default='no' type='string'><value><![CDATA[1.0.0]]></value></option>
   <option  id='PROJECT_BRIEF' default='no' type='string'><value><![CDATA["Documentation for the drivers/libraries included in the development kit"]]></value></option>
   <option  id='PROJECT_LOGO' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='OUTPUT_DIRECTORY' default='no' type='string'><value><![CDATA[C:/Users/Papa/Desktop/2/HK241/ThesisProposal/thesis_dev_kit_docs]]></value></option>
@@ -351,7 +351,7 @@
   <option  id='DOT_NODE_ATTR' default='yes' type='string'><value><![CDATA["shape=box,height=0.2,width=0.4"]]></value></option>
   <option  id='DOT_FONTPATH' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='CLASS_GRAPH' default='yes' type='string'><value>YES</value></option>
-  <option  id='COLLABORATION_GRAPH' default='yes' type='bool'><value>YES</value></option>
+  <option  id='COLLABORATION_GRAPH' default='no' type='bool'><value>NO</value></option>
   <option  id='GROUP_GRAPHS' default='yes' type='bool'><value>YES</value></option>
   <option  id='UML_LOOK' default='yes' type='bool'><value>NO</value></option>
   <option  id='UML_LIMIT_NUM_FIELDS' default='yes' type='int'><value>10</value></option>
@@ -360,8 +360,8 @@
   <option  id='TEMPLATE_RELATIONS' default='yes' type='bool'><value>NO</value></option>
   <option  id='INCLUDE_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='INCLUDED_BY_GRAPH' default='yes' type='bool'><value>YES</value></option>
-  <option  id='CALL_GRAPH' default='yes' type='bool'><value>NO</value></option>
-  <option  id='CALLER_GRAPH' default='yes' type='bool'><value>NO</value></option>
+  <option  id='CALL_GRAPH' default='no' type='bool'><value>YES</value></option>
+  <option  id='CALLER_GRAPH' default='no' type='bool'><value>YES</value></option>
   <option  id='GRAPHICAL_HIERARCHY' default='yes' type='bool'><value>YES</value></option>
   <option  id='DIRECTORY_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='DIR_GRAPH_MAX_DEPTH' default='yes' type='int'><value>1</value></option>

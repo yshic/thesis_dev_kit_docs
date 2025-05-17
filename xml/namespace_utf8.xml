@@ -28,13 +28,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" line="13" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" bodystart="13" bodyend="44"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" line="13" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" bodystart="13" bodyend="44"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" line="11" column="1"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp" line="11" column="1"/>
   </compounddef>
 </doxygen>

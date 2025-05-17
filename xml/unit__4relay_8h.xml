@@ -3,10 +3,10 @@
   <compounddef id="unit__4relay_8h" kind="file" language="C++">
     <compoundname>unit_4relay.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="unit__4relay_8cpp" local="yes">lib/unit_4relay/src/unit_4relay.cpp</includedby>
+    <includedby refid="unit__4relay_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/unit_4relay/src/unit_4relay.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h</label>
         <link refid="unit__4relay_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/unit_4relay/src/unit_4relay.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp</label>
         <link refid="unit__4relay_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/unit_4relay/src/unit_4relay.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h</label>
         <link refid="unit__4relay_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="23" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="23" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="23" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a99883cf964269794ea7e2fc9c3fc1e9e" prot="public" static="no">
         <name>UNIT_4RELAY_I2C_ADDR</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="25" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="25" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="25" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a9c334538471c29476e55b283dd640c54" prot="public" static="no">
         <name>UNIT_4RELAY_REG</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="26" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="26" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a17ecc8e16923074d2a4e1fd82209590a" prot="public" static="no">
         <name>UNIT_4RELAY_RELAY_REG</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="27" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="27" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a1b53adc2b3a97fbdf477ae7d8d8b32c0" prot="public" static="no">
         <name>UNIT_4RELAY_MAX_RELAYS</name>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="29" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="29" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="29" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -91,7 +91,7 @@
         <name>unit_4relay_error_t</name>
         <enumvalue id="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930a514c6d994af8e5ba1f3e0987d6389584" prot="public">
           <name>UNIT_4RELAY_OK</name>
-          <initializer>= 0x2010</initializer>
+          <initializer>= 0</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -126,12 +126,13 @@
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>Enum for Unit 4-<ref refid="class_relay" kindref="compound">Relay</ref> module error codes. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="31" column="1" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="32" bodyend="38"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="35" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="36" bodyend="42"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -168,52 +169,56 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_4RELAY_MAX_RELAYS<sp/><sp/>4</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_OK<sp/>=<sp/>0x2010,<sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR_INIT,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR_INDEX,<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Index<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR_I2C,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>I2C<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal">}<sp/>unit_4relay_error_t;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_OK<sp/>=<sp/>0,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Generic<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR_INIT,<sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialization<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR_INDEX,<sp/></highlight><highlight class="comment">/*<sp/>Index<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>UNIT_4RELAY_ERR_I2C,<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>I2C<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}<sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="class_unit4_relay" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unit4_relay" kindref="compound">Unit4Relay</ref></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin</ref>();</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">init</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">relayWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">relayAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">ledWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">ledAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/>unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">switchMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">getRelayState</ref>(uint8_t<sp/>number);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">getLedState</ref>(uint8_t<sp/>number);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setRelayState(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state[4]);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>relayState[4]<sp/>=<sp/>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ledState[4]<sp/><sp/><sp/>=<sp/>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="169"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>UNIT_4RELAY_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>macros<sp/>------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="class_unit4_relay" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unit4_relay" kindref="compound">Unit4Relay</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">init</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">relayWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">relayAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">ledWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">ledAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">switchMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">getRelayState</ref>(uint8_t<sp/>number);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">getLedState</ref>(uint8_t<sp/>number);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b" kindref="member">setRelayStates</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state[4]);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" kindref="member">applyRelayState</ref>();</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>relayState[4]<sp/>=<sp/>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ledState[4]<sp/><sp/><sp/>=<sp/>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>UNIT_4RELAY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/unit_4relay/src/unit_4relay.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h"/>
   </compounddef>
 </doxygen>

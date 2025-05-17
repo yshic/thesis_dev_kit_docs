@@ -1,0 +1,4 @@
+<map id="AcMeasure::setVoltageFactor" name="AcMeasure::setVoltageFactor">
+<area shape="rect" id="node1" title="Sets the voltage calibration factor." alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a6fa08d56ba5abcaf8827af4c3164f5b7" title="Writes multiple bytes to a register using I2C." alt="" coords="247,5,374,32"/>
+</map>

@@ -3,10 +3,10 @@
   <compounddef id="pir__sensor_8h" kind="file" language="C++">
     <compoundname>pir_sensor.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="pir__sensor_8cpp" local="yes">lib/pir_sensor/src/pir_sensor.cpp</includedby>
+    <includedby refid="pir__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/pir_sensor/src/pir_sensor.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h</label>
         <link refid="pir__sensor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/pir_sensor/src/pir_sensor.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</label>
         <link refid="pir__sensor_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/pir_sensor/src/pir_sensor.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h</label>
         <link refid="pir__sensor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="30" column="1" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="31" bodyend="36"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="30" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="31" bodyend="36"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -149,6 +149,6 @@
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/pir_sensor/src/pir_sensor.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h"/>
   </compounddef>
 </doxygen>

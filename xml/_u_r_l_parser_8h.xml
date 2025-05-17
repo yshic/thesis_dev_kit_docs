@@ -116,6 +116,6 @@
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>NO_HTTP_PARSED</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>NO_HTTP_PARSED</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/URLParser.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLParser.h"/>
   </compounddef>
 </doxygen>

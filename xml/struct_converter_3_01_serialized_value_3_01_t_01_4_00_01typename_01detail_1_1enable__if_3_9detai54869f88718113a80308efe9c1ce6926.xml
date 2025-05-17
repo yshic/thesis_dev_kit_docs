@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="189" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="189" bodyend="194"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="189" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="189" bodyend="194"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -58,7 +58,7 @@
         <label>detail::VariantAttorney</label>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="185" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="188" bodyend="195"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="185" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="188" bodyend="195"/>
     <listofallmembers>
       <member refid="struct_converter_3_01_serialized_value_3_01_t_01_4_00_01typename_01detail_1_1enable__if_3_9detai54869f88718113a80308efe9c1ce6926_1a1944b4748c44be02313b3815895bec99" prot="public" virt="non-virtual"><scope>Converter&lt; SerializedValue&lt; T &gt;, typename detail::enable_if&lt;!detail::is_same&lt; const char *, T &gt;::value &gt;::type &gt;</scope><name>toJson</name></member>
     </listofallmembers>

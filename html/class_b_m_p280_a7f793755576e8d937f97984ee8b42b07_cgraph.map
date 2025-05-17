@@ -1,0 +1,6 @@
+<map id="BMP280::begin" name="BMP280::begin">
+<area shape="rect" id="node1" title="Initializes the BMP280 sensor." alt="" coords="5,31,116,57"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#acc6322b83a6e34f4b9d486caaf87308c" title="Checks if an I2C device is present on the bus." alt="" coords="193,5,286,32"/>
+<area shape="rect" id="node3" href="$class_b_m_p280.html#a67efaace84ab36fad15df3ea7f983fe4" title="Configures the sensor’s sampling and operating parameters." alt="" coords="164,56,315,83"/>
+<area shape="rect" id="node4" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="363,56,483,83"/>
+</map>

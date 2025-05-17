@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="13" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="13" bodyend="15"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="13" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="13" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="class_dummy_writer_1abcfb201dea4b3923cb9462d29b191ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -39,14 +39,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="17" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="17" bodyend="19"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="17" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="17" bodyend="19"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="11" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="11" bodyend="20"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" line="11" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp" bodystart="11" bodyend="20"/>
     <listofallmembers>
       <member refid="class_dummy_writer_1acb86b065af919369dd6dd9fdd0c55cb7" prot="public" virt="non-virtual"><scope>DummyWriter</scope><name>write</name></member>
       <member refid="class_dummy_writer_1abcfb201dea4b3923cb9462d29b191ae4" prot="public" virt="non-virtual"><scope>DummyWriter</scope><name>write</name></member>

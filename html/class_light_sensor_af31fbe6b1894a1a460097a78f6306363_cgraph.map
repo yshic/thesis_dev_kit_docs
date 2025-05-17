@@ -1,0 +1,5 @@
+<map id="LightSensor::getAverageReading" name="LightSensor::getAverageReading">
+<area shape="rect" id="node1" title="Computes the average sensor reading over multiple samples." alt="" coords="5,5,218,32"/>
+<area shape="rect" id="node2" href="$class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9" title="Reads the analog value from the light sensor." alt="" coords="266,5,389,32"/>
+<area shape="rect" id="node3" href="$bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="437,5,577,32"/>
+</map>

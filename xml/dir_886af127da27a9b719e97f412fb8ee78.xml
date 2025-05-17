@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_886af127da27a9b719e97f412fb8ee78" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib</compoundname>
+    <innerdir refid="dir_f8d88bacdec55ab1d372195ae041f51c">thesis_mdt266_iotdevkit/lib/ac_measure</innerdir>
+    <innerdir refid="dir_e4c05bf6692d794450fc9d95367ee1a0">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient</innerdir>
+    <innerdir refid="dir_a262394071aebdc301bf64d3d1111822">thesis_mdt266_iotdevkit/lib/ArduinoJson</innerdir>
+    <innerdir refid="dir_c790ca96885a5398735eb95ccb8cb493">thesis_mdt266_iotdevkit/lib/bmp280</innerdir>
+    <innerdir refid="dir_fbb6dd4bc06eb9668da5bb4a088a1e2b">thesis_mdt266_iotdevkit/lib/bsp</innerdir>
+    <innerdir refid="dir_aebbca245a68863a51202f5c5244d3f1">thesis_mdt266_iotdevkit/lib/button</innerdir>
+    <innerdir refid="dir_839899deed37697a7aac06f485dce13c">thesis_mdt266_iotdevkit/lib/config</innerdir>
+    <innerdir refid="dir_16d2b6ad93d7c5583e6cdba31e8d12b7">thesis_mdt266_iotdevkit/lib/dht20</innerdir>
+    <innerdir refid="dir_f1888da5b6031137acff25fddb13090a">thesis_mdt266_iotdevkit/lib/es_soil_7_in_1</innerdir>
+    <innerdir refid="dir_ddc800b3ffa3ec1f8a917802629824c8">thesis_mdt266_iotdevkit/lib/HUSKYLENS</innerdir>
+    <innerdir refid="dir_b3e894fba747370158aa1d9f889f7276">thesis_mdt266_iotdevkit/lib/LCD_I2C</innerdir>
+    <innerdir refid="dir_8b7ea24d7d98da99cfa5957722c733db">thesis_mdt266_iotdevkit/lib/light_sensor</innerdir>
+    <innerdir refid="dir_e6837d17074001bc70912aa6ca30e5fb">thesis_mdt266_iotdevkit/lib/mini_fan</innerdir>
+    <innerdir refid="dir_9b269f3eb0605e346d10fa3e7bda2ecf">thesis_mdt266_iotdevkit/lib/pir_sensor</innerdir>
+    <innerdir refid="dir_3f928e9a43dfd94327deb10f0288823f">thesis_mdt266_iotdevkit/lib/PubSubClient</innerdir>
+    <innerdir refid="dir_c147d5233f0a5c077b16cbb0ee9f1e18">thesis_mdt266_iotdevkit/lib/relay</innerdir>
+    <innerdir refid="dir_cf0cc805f0c58936753470736a53ec88">thesis_mdt266_iotdevkit/lib/sht3x</innerdir>
+    <innerdir refid="dir_ab8057e5be58cac40f97359916e97ec2">thesis_mdt266_iotdevkit/lib/sht4x</innerdir>
+    <innerdir refid="dir_0b0ab5b7464c019ce0430138962b0b55">thesis_mdt266_iotdevkit/lib/soil_moisture_sensor</innerdir>
+    <innerdir refid="dir_94d73d03d9b8ab7d4af12793c9c42db6">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor</innerdir>
+    <innerdir refid="dir_b93b24ab107bc9e7defc368dd481657c">thesis_mdt266_iotdevkit/lib/unit_4relay</innerdir>
+    <innerdir refid="dir_163f486728c2d7e4a3ca5aa8f514bcf4">thesis_mdt266_iotdevkit/lib/usb_switch</innerdir>
+    <innerdir refid="dir_e3d7545438c247335ecc5edabfd8d5f8">thesis_mdt266_iotdevkit/lib/utility</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/"/>
+  </compounddef>
+</doxygen>

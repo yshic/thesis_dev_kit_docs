@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;0.4.0</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -203,6 +203,17 @@ Dependencies:</h3>
 <li><code>BMP280_ERR_I2C</code>: I2C communication failure </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a7f793755576e8d937f97984ee8b42b07_cgraph.png" border="0" usemap="#aclass_b_m_p280_a7f793755576e8d937f97984ee8b42b07_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a7f793755576e8d937f97984ee8b42b07_cgraph" id="aclass_b_m_p280_a7f793755576e8d937f97984ee8b42b07_cgraph">
+<area shape="rect" title="Initializes the BMP280 sensor." alt="" coords="5,31,116,57"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#acc6322b83a6e34f4b9d486caaf87308c" title="Checks if an I2C device is present on the bus." alt="" coords="193,5,286,32"/>
+<area shape="rect" href="class_b_m_p280.html#a67efaace84ab36fad15df3ea7f983fe4" title="Configures the sensor’s sampling and operating parameters." alt="" coords="164,56,315,83"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="363,56,483,83"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -259,6 +270,16 @@ Dependencies:</h3>
 </dl>
 <dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful call to <code><a class="el" href="class_b_m_p280.html#a945a1f5234d942ac1cd36b5146947e20" title="Reads the pressure from the BMP280 sensor.">readPressure()</a></code> or <code><a class="el" href="class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements.">update()</a></code>.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>float The pressure value in Pascals. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_aeb4fc3f2a91697a23d9605dac27e8e14_icgraph.png" border="0" usemap="#aclass_b_m_p280_aeb4fc3f2a91697a23d9605dac27e8e14_icgraph" alt=""/></div>
+<map name="aclass_b_m_p280_aeb4fc3f2a91697a23d9605dac27e8e14_icgraph" id="aclass_b_m_p280_aeb4fc3f2a91697a23d9605dac27e8e14_icgraph">
+<area shape="rect" title="Retrieves the pressure value." alt="" coords="368,5,517,32"/>
+<area shape="rect" href="class_b_m_p280.html#ad9d68ec2a3c74dd8ce6b1684cc1df79d" title="Calculates the altitude based on pressure data." alt="" coords="172,5,320,32"/>
+<area shape="rect" href="class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements." alt="" coords="5,5,124,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -288,6 +309,24 @@ Dependencies:</h3>
 </dl>
 <dl class="section attention"><dt>Attention</dt><dd>Requires successful initialization via <code><a class="el" href="class_b_m_p280.html#a7f793755576e8d937f97984ee8b42b07" title="Initializes the BMP280 sensor.">begin()</a></code>.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t The status register value. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_cgraph.png" border="0" usemap="#aclass_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_cgraph" id="aclass_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_cgraph">
+<area shape="rect" title="Reads the current status of the BMP280 sensor." alt="" coords="5,5,141,32"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="189,5,310,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_icgraph.png" border="0" usemap="#aclass_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_icgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_icgraph" id="aclass_b_m_p280_a4cfab33bfc50e210fdbcf2fc7bd9481a_icgraph">
+<area shape="rect" title="Reads the current status of the BMP280 sensor." alt="" coords="277,5,412,32"/>
+<area shape="rect" href="class_b_m_p280.html#ad05bced9afce99daf98d6d99918276f4" title="Triggers a forced measurement." alt="" coords="5,5,229,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -347,6 +386,24 @@ Dependencies:</h3>
 <li><code>BMP280_OK</code>: Success </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_cgraph.png" border="0" usemap="#aclass_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_cgraph" id="aclass_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_cgraph">
+<area shape="rect" title="Calculates the altitude based on pressure data." alt="" coords="5,5,154,32"/>
+<area shape="rect" href="class_b_m_p280.html#aeb4fc3f2a91697a23d9605dac27e8e14" title="Retrieves the pressure value." alt="" coords="202,5,351,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_icgraph.png" border="0" usemap="#aclass_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_icgraph" alt=""/></div>
+<map name="aclass_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_icgraph" id="aclass_b_m_p280_ad9d68ec2a3c74dd8ce6b1684cc1df79d_icgraph">
+<area shape="rect" title="Calculates the altitude based on pressure data." alt="" coords="172,5,320,32"/>
+<area shape="rect" href="class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements." alt="" coords="5,5,124,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -379,6 +436,15 @@ Dependencies:</h3>
 <li><code>BMP280_ERR_DIV_ZERO</code>: Division by zero error during calculation </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a945a1f5234d942ac1cd36b5146947e20_icgraph.png" border="0" usemap="#aclass_b_m_p280_a945a1f5234d942ac1cd36b5146947e20_icgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a945a1f5234d942ac1cd36b5146947e20_icgraph" id="aclass_b_m_p280_a945a1f5234d942ac1cd36b5146947e20_icgraph">
+<area shape="rect" title="Reads the pressure from the BMP280 sensor." alt="" coords="172,5,328,32"/>
+<area shape="rect" href="class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements." alt="" coords="5,5,124,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -410,6 +476,15 @@ Dependencies:</h3>
 <li><code>BMP280_OK</code>: Success </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a4c27cecd6619562435b63c81a0295bae_icgraph.png" border="0" usemap="#aclass_b_m_p280_a4c27cecd6619562435b63c81a0295bae_icgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a4c27cecd6619562435b63c81a0295bae_icgraph" id="aclass_b_m_p280_a4c27cecd6619562435b63c81a0295bae_icgraph">
+<area shape="rect" title="Reads the temperature from the BMP280 sensor." alt="" coords="172,5,348,32"/>
+<area shape="rect" href="class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements." alt="" coords="5,5,124,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -442,6 +517,15 @@ Dependencies:</h3>
 <li><code>BMP280_OK</code>: Success </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_af0273f65cd8c3b4e3ee472668a0a8d6f_cgraph.png" border="0" usemap="#aclass_b_m_p280_af0273f65cd8c3b4e3ee472668a0a8d6f_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_af0273f65cd8c3b4e3ee472668a0a8d6f_cgraph" id="aclass_b_m_p280_af0273f65cd8c3b4e3ee472668a0a8d6f_cgraph">
+<area shape="rect" title="Resets the BMP280 sensor." alt="" coords="5,5,114,32"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="162,5,282,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -546,6 +630,24 @@ Dependencies:</h3>
 <li><code>BMP280_OK</code>: Success </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_cgraph.png" border="0" usemap="#aclass_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_cgraph" id="aclass_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_cgraph">
+<area shape="rect" title="Configures the sensor’s sampling and operating parameters." alt="" coords="5,5,157,32"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="205,5,325,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_icgraph.png" border="0" usemap="#aclass_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_icgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_icgraph" id="aclass_b_m_p280_a67efaace84ab36fad15df3ea7f983fe4_icgraph">
+<area shape="rect" title="Configures the sensor’s sampling and operating parameters." alt="" coords="164,5,315,32"/>
+<area shape="rect" href="class_b_m_p280.html#a7f793755576e8d937f97984ee8b42b07" title="Initializes the BMP280 sensor." alt="" coords="5,5,116,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -606,6 +708,17 @@ Dependencies:</h3>
 <li><code>false</code>: Sensor not in forced mode </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_ad05bced9afce99daf98d6d99918276f4_cgraph.png" border="0" usemap="#aclass_b_m_p280_ad05bced9afce99daf98d6d99918276f4_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_ad05bced9afce99daf98d6d99918276f4_cgraph" id="aclass_b_m_p280_ad05bced9afce99daf98d6d99918276f4_cgraph">
+<area shape="rect" title="Triggers a forced measurement." alt="" coords="5,31,229,57"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="284,5,404,32"/>
+<area shape="rect" href="class_b_m_p280.html#a4cfab33bfc50e210fdbcf2fc7bd9481a" title="Reads the current status of the BMP280 sensor." alt="" coords="277,56,412,83"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="460,56,581,83"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -637,6 +750,18 @@ Dependencies:</h3>
 <li><code>BMP280_OK</code>: Success </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_b_m_p280_a7c52cbbec998984b6d63e2162a0ed436_cgraph.png" border="0" usemap="#aclass_b_m_p280_a7c52cbbec998984b6d63e2162a0ed436_cgraph" alt=""/></div>
+<map name="aclass_b_m_p280_a7c52cbbec998984b6d63e2162a0ed436_cgraph" id="aclass_b_m_p280_a7c52cbbec998984b6d63e2162a0ed436_cgraph">
+<area shape="rect" title="Updates all sensor measurements." alt="" coords="5,56,124,83"/>
+<area shape="rect" href="class_b_m_p280.html#ad9d68ec2a3c74dd8ce6b1684cc1df79d" title="Calculates the altitude based on pressure data." alt="" coords="186,5,334,32"/>
+<area shape="rect" href="class_b_m_p280.html#a945a1f5234d942ac1cd36b5146947e20" title="Reads the pressure from the BMP280 sensor." alt="" coords="182,56,338,83"/>
+<area shape="rect" href="class_b_m_p280.html#a4c27cecd6619562435b63c81a0295bae" title="Reads the temperature from the BMP280 sensor." alt="" coords="172,107,348,133"/>
+<area shape="rect" href="class_b_m_p280.html#aeb4fc3f2a91697a23d9605dac27e8e14" title="Retrieves the pressure value." alt="" coords="396,5,545,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -670,8 +795,8 @@ Dependencies:</h3>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/bmp280/src/<a class="el" href="bmp280_8h_source.html">bmp280.h</a></li>
-<li>lib/bmp280/src/bmp280.cpp</li>
+<li>thesis_mdt266_iotdevkit/lib/bmp280/src/<a class="el" href="bmp280_8h_source.html">bmp280.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

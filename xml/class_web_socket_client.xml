@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="91" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="91" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="91" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1ae0fdab741fb336da0df2a73330e6088c" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="92" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="92" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="92" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1af52171d0f95563a43727ed14efb9b5a1" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="93" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="93" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="93" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1a9d8c06502868f640e4b6cd40c6ed9b58" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="94" column="14" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="94" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="94" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1a75757885b1a8ced66fb8d33ac7d307e2" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="96" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="96" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="96" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1a6b7013075a9f7d3081083a32dea06f45" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="97" column="14" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="97" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="97" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1a9f8dddff2598580c1aadff0e09843296" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="98" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="98" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="98" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1a943d06cdfad369a6d2b16f1c09c46285" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="99" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="99" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="99" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_web_socket_client_1a207eef097f6cce002ac6c70e590a0e82" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="100" column="13" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="100" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="100" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="25" column="5" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="8" bodyend="13"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="25" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="8" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a1b4f922e226f6e3c76c8add04f8729f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="26" column="5" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="15" bodyend="20"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="26" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="15" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a582c3cf1023e1887e09c2aaef3e9d62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="27" column="5" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="22" bodyend="27"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="27" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="22" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -242,7 +242,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="33" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="29" bodyend="68"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="33" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="29" bodyend="68"/>
+        <references refid="class_http_client_1a640c3b63cac33d93614fb69e3ea4a360" compoundref="_http_client_8cpp" startline="62" endline="65">HttpClient::beginRequest</references>
+        <references refid="class_http_client_1a0b01a20e5c6263d38c0235a0a7b60f0e" compoundref="_http_client_8cpp" startline="52" endline="55">HttpClient::connectionKeepAlive</references>
+        <references refid="class_http_client_1abadc93f66021c34274cc2fd2e782cdf0" compoundref="_http_client_8cpp" startline="270" endline="273">HttpClient::endRequest</references>
+        <references refid="class_http_client_1a92d8027a76943ec459df5085fd8d37a8" compoundref="_http_client_8cpp" startline="285" endline="288">HttpClient::get</references>
+        <references refid="class_http_client_1a0fba0410f61b4317f42fd1d477d0162b" compoundref="_http_client_8cpp" startline="395" endline="506">HttpClient::responseStatusCode</references>
+        <references refid="class_http_client_1a10b1352ced52ad00f5989d17294b4978" compoundref="_http_client_8cpp" startline="188" endline="191">HttpClient::sendHeader</references>
+        <references refid="class_http_client_1adbf477517900e0f3a5f662b2f3f4035b" compoundref="_http_client_8cpp" startline="508" endline="539">HttpClient::skipResponseHeaders</references>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a4eaedbb50921fa74622ca771b3d11238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -260,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="34" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="70" bodyend="73"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="34" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="70" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -290,7 +297,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="42" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="75" bodyend="88"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="42" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="75" bodyend="88"/>
+        <referencedby refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" compoundref="_web_socket_client_8cpp" startline="181" endline="265">parseMessage</referencedby>
+        <referencedby refid="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" compoundref="_web_socket_client_8cpp" startline="295" endline="308">ping</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -307,7 +316,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="47" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="90" bodyend="146"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="47" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="90" bodyend="146"/>
+        <referencedby refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" compoundref="_web_socket_client_8cpp" startline="181" endline="265">parseMessage</referencedby>
+        <referencedby refid="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" compoundref="_web_socket_client_8cpp" startline="295" endline="308">ping</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -324,7 +335,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="52" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="181" bodyend="265"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="52" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="181" bodyend="265"/>
+        <references refid="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" compoundref="_web_socket_client_8cpp" startline="75" endline="88">beginMessage</references>
+        <references refid="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" compoundref="_web_socket_client_8cpp" startline="90" endline="146">endMessage</references>
+        <references refid="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" compoundref="_web_socket_client_8cpp" startline="267" endline="270">messageType</references>
+        <references refid="class_http_client_1a18ea928ad5adf203405e24070c67f84d" compoundref="_http_client_8cpp" startline="657" endline="685">HttpClient::read</references>
+        <references refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" compoundref="_web_socket_client_8cpp" startline="320" endline="330">read</references>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -341,7 +357,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="57" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="267" bodyend="270"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="57" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="267" bodyend="270"/>
+        <referencedby refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" compoundref="_web_socket_client_8cpp" startline="181" endline="265">parseMessage</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a60dd6c3de4a82450bba897094216eb73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -358,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="63" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="272" bodyend="275"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="63" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="272" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>String</type>
@@ -375,7 +392,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="68" column="12" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="277" bodyend="293"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="68" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="277" bodyend="293"/>
+        <references refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" compoundref="_web_socket_client_8cpp" startline="320" endline="330">read</references>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -392,7 +410,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="73" column="9" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="295" bodyend="308"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="73" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="295" bodyend="308"/>
+        <references refid="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" compoundref="_web_socket_client_8cpp" startline="75" endline="88">beginMessage</references>
+        <references refid="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" compoundref="_web_socket_client_8cpp" startline="90" endline="146">endMessage</references>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a902e1dfa4f9b55badcf32225b319529f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -411,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="76" column="20" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="148" bodyend="151"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="76" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="148" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a0fcfa517fdc56a1e4af7252b5b4c8aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -434,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="77" column="20" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="153" bodyend="179"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="77" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="153" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a0c02eff758a8dc386e7c4fe5b2853ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -449,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="79" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="310" bodyend="318"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="79" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="310" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -467,7 +487,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="83" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="320" bodyend="330"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="83" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="320" bodyend="330"/>
+        <references refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" compoundref="_web_socket_client_8cpp" startline="320" endline="330">read</references>
+        <referencedby refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" compoundref="_web_socket_client_8cpp" startline="181" endline="265">parseMessage</referencedby>
+        <referencedby refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" compoundref="_web_socket_client_8cpp" startline="320" endline="330">read</referencedby>
+        <referencedby refid="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" compoundref="_web_socket_client_8cpp" startline="277" endline="293">readString</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1a7ba59f82daf7859626ccfd0e849bba12" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -490,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="84" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="332" bodyend="351"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="84" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="332" bodyend="351"/>
       </memberdef>
       <memberdef kind="function" id="class_web_socket_client_1ac4dd76b439d8a2112ecff797a9e2802e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -505,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="85" column="17" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="353" bodyend="364"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="85" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="353" bodyend="364"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -521,7 +545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="88" column="10" bodyfile="lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="366" bodyend="372"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="88" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp" bodystart="366" bodyend="372"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -562,7 +586,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="22" column="1" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="23" bodyend="101"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="22" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="23" bodyend="101"/>
     <listofallmembers>
       <member refid="class_web_socket_client_1a0c02eff758a8dc386e7c4fe5b2853ad2" prot="public" virt="virtual"><scope>WebSocketClient</scope><name>available</name></member>
       <member refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" prot="public" virt="non-virtual"><scope>WebSocketClient</scope><name>begin</name></member>

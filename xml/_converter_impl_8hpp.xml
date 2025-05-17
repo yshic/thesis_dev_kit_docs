@@ -5,7 +5,7 @@
     <includes refid="_json_serializer_8hpp" local="no">ArduinoJson/Json/JsonSerializer.hpp</includes>
     <includes refid="_json_variant_const_8hpp" local="no">ArduinoJson/Variant/JsonVariantConst.hpp</includes>
     <includes refid="_variant_functions_8hpp" local="no">ArduinoJson/Variant/VariantFunctions.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
     <incdepgraph>
       <node id="64">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -550,7 +550,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -700,11 +700,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -747,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="164" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="164" bodyend="169"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" line="164" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp" bodystart="164" bodyend="169"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1088,6 +1088,6 @@
 <codeline lineno="331"><highlight class="normal"></highlight></codeline>
 <codeline lineno="332"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp"/>
   </compounddef>
 </doxygen>

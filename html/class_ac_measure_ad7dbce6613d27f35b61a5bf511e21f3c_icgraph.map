@@ -1,0 +1,4 @@
+<map id="AcMeasure::getRawPower" name="AcMeasure::getRawPower">
+<area shape="rect" id="node1" title="Reads the raw power value from the device." alt="" coords="204,5,381,32"/>
+<area shape="rect" id="node2" href="$class_ac_measure.html#aec66bea59d62f6478536246ba071f78d" title="Retrieves the power in watts." alt="" coords="5,5,156,32"/>
+</map>

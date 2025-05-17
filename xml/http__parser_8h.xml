@@ -5,7 +5,7 @@
     <includes local="no">stdint.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/ArduinoHttpClient/utility/URLParser/http_parser.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h</label>
         <link refid="http__parser_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="29" column="9" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="29" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="29" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="http__parser_8h_1ab8479153443ca4fe95b3de5adb0224de" prot="public" static="no">
         <name>HTTP_PARSER_VERSION_MINOR</name>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="30" column="9" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="30" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="30" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="http__parser_8h_1afb999672cce2ebd7f952bd3f28d8f5e5" prot="public" static="no">
         <name>HTTP_PARSER_VERSION_PATCH</name>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="31" column="9" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="31" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="31" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="http__parser_8h_1a7daf883828d97fafe5726998f0e05146" prot="public" static="no">
         <name>HTTP_PARSER_STRICT</name>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="39" column="10" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="39" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="39" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="43" column="1" bodyfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="44" bodyend="52"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="43" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" bodystart="44" bodyend="52"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="83" column="15" declfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="83" declcolumn="15"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="83" column="15" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="83" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="http__parser_8h_1a64e907d36fbcc883033c6bbe5a78b1b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="86" column="6" declfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="86" declcolumn="6"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="86" column="6" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="86" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="http__parser_8h_1a9ae94633de6c9d9c2aea34810107bbd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="89" column="5" declfile="lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="89" declcolumn="5"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" line="89" column="5" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h" declline="89" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -304,6 +304,6 @@
 <codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.h"/>
   </compounddef>
 </doxygen>

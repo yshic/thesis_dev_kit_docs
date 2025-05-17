@@ -9,7 +9,7 @@
     <includes refid="measure_8hpp" local="no">ArduinoJson/Serialization/measure.hpp</includes>
     <includes refid="serialize_8hpp" local="no">ArduinoJson/Serialization/serialize.hpp</includes>
     <includes refid="_variant_data_8hpp" local="no">ArduinoJson/Variant/VariantData.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
     <incdepgraph>
       <node id="55">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -592,11 +592,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -628,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" line="207" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" bodystart="207" bodyend="210"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" line="207" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" bodystart="207" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="_msg_pack_serializer_8hpp_1a47c2e3944f5a1d117dc00d21b5d719e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -653,7 +653,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" line="214" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" bodystart="214" bodyend="218"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" line="214" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" bodystart="214" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="_msg_pack_serializer_8hpp_1a1ebcacdac3fb45d8ce439ee6c60078d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -670,7 +670,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" line="222" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" bodystart="222" bodyend="225"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" line="222" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp" bodystart="222" bodyend="225"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -906,6 +906,6 @@
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
 <codeline lineno="227"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp"/>
   </compounddef>
 </doxygen>

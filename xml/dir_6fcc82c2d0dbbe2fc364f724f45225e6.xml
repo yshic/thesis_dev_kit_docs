@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_6fcc82c2d0dbbe2fc364f724f45225e6" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization</compoundname>
+    <innerdir refid="dir_f2aa8641a4e4a1c44fba2164a02943ce">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</innerdir>
+    <innerfile refid="_deserialization_error_8hpp">DeserializationError.hpp</innerfile>
+    <innerfile refid="_deserialization_options_8hpp">DeserializationOptions.hpp</innerfile>
+    <innerfile refid="deserialize_8hpp">deserialize.hpp</innerfile>
+    <innerfile refid="_filter_8hpp">Filter.hpp</innerfile>
+    <innerfile refid="_nesting_limit_8hpp">NestingLimit.hpp</innerfile>
+    <innerfile refid="_reader_8hpp">Reader.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/"/>
+  </compounddef>
+</doxygen>

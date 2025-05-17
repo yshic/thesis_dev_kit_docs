@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="67" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="67" bodyend="69"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="67" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="67" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="struct_converter_3_01_json_variant_const_01_4_1ac83363ae0d31d0266e55518a1184ae55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="71" column="27" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="71" bodyend="73"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="71" column="27" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="71" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="struct_converter_3_01_json_variant_const_01_4_1ab307f833664112d7b5c3ee066029f96b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="75" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="75" bodyend="78"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="75" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="75" bodyend="78"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -91,7 +91,7 @@
         <label>detail::VariantAttorney</label>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="66" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="66" bodyend="79"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" line="66" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp" bodystart="66" bodyend="79"/>
     <listofallmembers>
       <member refid="struct_converter_3_01_json_variant_const_01_4_1ab307f833664112d7b5c3ee066029f96b" prot="public" virt="non-virtual"><scope>Converter&lt; JsonVariantConst &gt;</scope><name>checkJson</name></member>
       <member refid="struct_converter_3_01_json_variant_const_01_4_1ac83363ae0d31d0266e55518a1184ae55" prot="public" virt="non-virtual"><scope>Converter&lt; JsonVariantConst &gt;</scope><name>fromJson</name></member>

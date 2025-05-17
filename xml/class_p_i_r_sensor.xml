@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="225" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="225" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="225" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="225" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_p_i_r_sensor_1aed83a579637699d496c07c8de6781738" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="226" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="226" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="226" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="226" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_p_i_r_sensor_1af23f5370a4a85cf6bd8e7eb3dd347b4e" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="227" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="227" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="227" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="227" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_p_i_r_sensor_1aef742a49f1117a856c2a14606f96b178" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="228" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="228" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="228" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="228" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_p_i_r_sensor_1af75dfc2f64c43c0b77d0510658f8e71b" prot="private" static="no" mutable="no">
         <type>void(*</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="229" column="3" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="229" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="229" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="229" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -110,7 +110,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="92" column="3" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="29" bodyend="33"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="92" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="29" bodyend="33"/>
+        <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -137,7 +138,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="104" column="8" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="35" bodyend="56"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="104" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="35" bodyend="56"/>
+        <references refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" compoundref="bsp__gpio_8cpp" startline="71" endline="71">bspGpioDigitalRead</references>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -170,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="120" column="11" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="58" bodyend="58"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="120" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
@@ -208,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="136" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="60" bodyend="68"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="136" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="60" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -246,7 +248,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="152" column="7" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="70" bodyend="81"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="152" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="70" bodyend="81"/>
+        <references refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" compoundref="bsp__gpio_8cpp" startline="71" endline="71">bspGpioDigitalRead</references>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1a687203f6ca25ca3eb572bbc47a83f735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned long</type>
@@ -275,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="165" column="17" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="83" bodyend="83"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="165" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
@@ -313,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="181" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="85" bodyend="93"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="181" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="85" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1a7a7f564e3430c676460fb4f083f0a452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
@@ -343,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="193" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="95" bodyend="99"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="193" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="95" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref></type>
@@ -381,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="210" column="22" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="101" bodyend="119"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="210" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="101" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -411,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/pir_sensor/src/pir_sensor.h" line="222" column="7" bodyfile="lib/pir_sensor/src/pir_sensor.cpp" bodystart="121" bodyend="128"/>
+        <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="222" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" bodystart="121" bodyend="128"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -445,7 +448,7 @@
 </para>
 </sect3>
     </detaileddescription>
-    <location file="lib/pir_sensor/src/pir_sensor.h" line="80" column="1" bodyfile="lib/pir_sensor/src/pir_sensor.h" bodystart="81" bodyend="230"/>
+    <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" line="80" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.h" bodystart="81" bodyend="230"/>
     <listofallmembers>
       <member refid="class_p_i_r_sensor_1aef742a49f1117a856c2a14606f96b178" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>_debounceTime</name></member>
       <member refid="class_p_i_r_sensor_1af23f5370a4a85cf6bd8e7eb3dd347b4e" prot="private" virt="non-virtual"><scope>PIRSensor</scope><name>_lastMotionTime</name></member>

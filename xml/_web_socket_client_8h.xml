@@ -4,8 +4,8 @@
     <compoundname>WebSocketClient.h</compoundname>
     <includes local="no">Arduino.h</includes>
     <includes refid="_http_client_8h" local="yes">HttpClient.h</includes>
-    <includedby refid="_arduino_http_client_8h" local="yes">lib/ArduinoHttpClient/ArduinoHttpClient.h</includedby>
-    <includedby refid="_web_socket_client_8cpp" local="yes">lib/ArduinoHttpClient/WebSocketClient.cpp</includedby>
+    <includedby refid="_arduino_http_client_8h" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/ArduinoHttpClient.h</includedby>
+    <includedby refid="_web_socket_client_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
@@ -21,7 +21,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoHttpClient/WebSocketClient.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h</label>
         <link refid="_web_socket_client_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,11 +37,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ArduinoHttpClient/ArduinoHttpClient.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/ArduinoHttpClient.h</label>
         <link refid="_arduino_http_client_8h_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoHttpClient/WebSocketClient.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h</label>
         <link refid="_web_socket_client_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="12" column="11" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="12" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="12" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="15" column="18" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="15" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="15" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_web_socket_client_8h_1ac91575877026d05c28902eda51e3ec3d" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="16" column="18" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="16" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="16" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_web_socket_client_8h_1adb67993e4e4201a48fab076b9920f0b1" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="17" column="18" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="17" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="17" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_web_socket_client_8h_1ab78317d82f9bf9e1127fd2c6901f2c26" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="18" column="18" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="18" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="18" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_web_socket_client_8h_1af009975b1702e538d31a5f9ed94839c9" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="19" column="18" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="19" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="19" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_web_socket_client_8h_1ad4324a51c0a40b2ec7382917983b076e" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/WebSocketClient.h" line="20" column="18" bodyfile="lib/ArduinoHttpClient/WebSocketClient.h" bodystart="20" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" line="20" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -224,6 +224,6 @@
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/WebSocketClient.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.h"/>
   </compounddef>
 </doxygen>

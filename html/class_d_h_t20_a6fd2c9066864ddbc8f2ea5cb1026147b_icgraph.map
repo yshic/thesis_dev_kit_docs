@@ -1,0 +1,4 @@
+<map id="DHT20::begin" name="DHT20::begin">
+<area shape="rect" id="node1" title="Initializes the DHT20 sensor." alt="" coords="257,5,359,32"/>
+<area shape="rect" id="node2" href="$class_d_h_t20.html#acfd9286ea22e44a6d0b94497a8f7ed2c" title="Reads temperature and humidity data from the DHT20 sensor." alt="" coords="5,5,209,32"/>
+</map>

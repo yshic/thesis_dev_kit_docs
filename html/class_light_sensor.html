@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;0.4.0</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -208,6 +208,16 @@ Dependencies:</h3>
 </dl>
 <dl class="section attention"><dt>Attention</dt><dd>Ensure the sensor is connected and <code>samples</code> is a positive integer.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>int The averaged raw sensor value. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_light_sensor_af31fbe6b1894a1a460097a78f6306363_cgraph.png" border="0" usemap="#aclass_light_sensor_af31fbe6b1894a1a460097a78f6306363_cgraph" alt=""/></div>
+<map name="aclass_light_sensor_af31fbe6b1894a1a460097a78f6306363_cgraph" id="aclass_light_sensor_af31fbe6b1894a1a460097a78f6306363_cgraph">
+<area shape="rect" title="Computes the average sensor reading over multiple samples." alt="" coords="5,5,218,32"/>
+<area shape="rect" href="class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9" title="Reads the analog value from the light sensor." alt="" coords="266,5,389,32"/>
+<area shape="rect" href="bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="437,5,577,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -293,6 +303,15 @@ Dependencies:</h3>
 </dl>
 <dl class="section attention"><dt>Attention</dt><dd>Requires a prior call to <code><a class="el" href="class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9" title="Reads the analog value from the light sensor.">read()</a></code> to update the sensor value.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the light intensity is above the threshold, <code>false</code> otherwise. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_light_sensor_aa3e88fce5560831b6ff8ccf508fa8328_icgraph.png" border="0" usemap="#aclass_light_sensor_aa3e88fce5560831b6ff8ccf508fa8328_icgraph" alt=""/></div>
+<map name="aclass_light_sensor_aa3e88fce5560831b6ff8ccf508fa8328_icgraph" id="aclass_light_sensor_aa3e88fce5560831b6ff8ccf508fa8328_icgraph">
+<area shape="rect" title="Checks if the light intensity exceeds a threshold." alt="" coords="223,13,425,40"/>
+<area shape="rect" href="class_light_sensor.html#af02e3f37f34ecc55a5d3ecc75915dc47" title="Sets a callback function for threshold&#45;crossing events." alt="" coords="5,5,175,48"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -337,6 +356,15 @@ Dependencies:</h3>
 <li><code>LIGHT_SENSOR_ERR</code>: Invalid callback or configuration error </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_light_sensor_af02e3f37f34ecc55a5d3ecc75915dc47_cgraph.png" border="0" usemap="#aclass_light_sensor_af02e3f37f34ecc55a5d3ecc75915dc47_cgraph" alt=""/></div>
+<map name="aclass_light_sensor_af02e3f37f34ecc55a5d3ecc75915dc47_cgraph" id="aclass_light_sensor_af02e3f37f34ecc55a5d3ecc75915dc47_cgraph">
+<area shape="rect" title="Sets a callback function for threshold&#45;crossing events." alt="" coords="5,5,175,48"/>
+<area shape="rect" href="class_light_sensor.html#aa3e88fce5560831b6ff8ccf508fa8328" title="Checks if the light intensity exceeds a threshold." alt="" coords="223,13,425,40"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -369,6 +397,25 @@ Dependencies:</h3>
 <li><code>LIGHT_SENSOR_ERR</code>: Reading error </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_cgraph.png" border="0" usemap="#aclass_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_cgraph" alt=""/></div>
+<map name="aclass_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_cgraph" id="aclass_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_cgraph">
+<area shape="rect" title="Reads the analog value from the light sensor." alt="" coords="5,5,129,32"/>
+<area shape="rect" href="bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="177,5,317,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_icgraph.png" border="0" usemap="#aclass_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_icgraph" alt=""/></div>
+<map name="aclass_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_icgraph" id="aclass_light_sensor_a7706fb1a75f1711ddcfa25b9b90c3fd9_icgraph">
+<area shape="rect" title="Reads the analog value from the light sensor." alt="" coords="266,31,389,57"/>
+<area shape="rect" href="class_light_sensor.html#af31fbe6b1894a1a460097a78f6306363" title="Computes the average sensor reading over multiple samples." alt="" coords="5,5,218,32"/>
+<area shape="rect" href="class_light_sensor.html#a8fe3d926c42065e23b14b41c6a7bbbc1" title="Reads and maps the sensor value to a specified range." alt="" coords="26,56,197,83"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -409,12 +456,22 @@ Dependencies:</h3>
 </dl>
 <dl class="section attention"><dt>Attention</dt><dd>Ensure <code>minValue</code> is less than <code>maxValue</code> and the sensor is connected.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>int The mapped sensor value within the specified range. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_light_sensor_a8fe3d926c42065e23b14b41c6a7bbbc1_cgraph.png" border="0" usemap="#aclass_light_sensor_a8fe3d926c42065e23b14b41c6a7bbbc1_cgraph" alt=""/></div>
+<map name="aclass_light_sensor_a8fe3d926c42065e23b14b41c6a7bbbc1_cgraph" id="aclass_light_sensor_a8fe3d926c42065e23b14b41c6a7bbbc1_cgraph">
+<area shape="rect" title="Reads and maps the sensor value to a specified range." alt="" coords="5,5,177,32"/>
+<area shape="rect" href="class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9" title="Reads the analog value from the light sensor." alt="" coords="225,5,348,32"/>
+<area shape="rect" href="bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="396,5,536,32"/>
+</map>
+</div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/light_sensor/src/<a class="el" href="light__sensor_8h_source.html">light_sensor.h</a></li>
-<li>lib/light_sensor/src/<a class="el" href="light__sensor_8cpp.html">light_sensor.cpp</a></li>
+<li>thesis_mdt266_iotdevkit/lib/light_sensor/src/<a class="el" href="light__sensor_8h_source.html">light_sensor.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/light_sensor/src/<a class="el" href="light__sensor_8cpp.html">light_sensor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

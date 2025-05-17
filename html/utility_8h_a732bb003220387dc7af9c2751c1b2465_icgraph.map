@@ -1,0 +1,4 @@
+<map id="crc8" name="crc8">
+<area shape="rect" id="node1" title="Calculates CRC&#45;8 checksum for the given data using SHT40&#39;s polynomial." alt="" coords="165,5,211,32"/>
+<area shape="rect" id="node2" href="$class_s_h_t4_x.html#a6b98f00ab94cb56a4472e08b468424c5" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="5,5,117,32"/>
+</map>

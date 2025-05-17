@@ -1,0 +1,5 @@
+<map id="AcMeasure::getKWH" name="AcMeasure::getKWH">
+<area shape="rect" id="node1" title="Retrieves the energy consumption in kilowatt&#45;hours." alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$class_ac_measure.html#a32c2005a9e2df3cdd349887b762028e1" title="Reads the raw energy consumption value from the device." alt="" coords="199,5,371,32"/>
+<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="419,5,547,32"/>
+</map>

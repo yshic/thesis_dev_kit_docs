@@ -1,0 +1,6 @@
+<map id="SHT4X::update" name="SHT4X::update">
+<area shape="rect" id="node1" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="5,56,117,83"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="165,5,293,32"/>
+<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="169,56,289,83"/>
+<area shape="rect" id="node4" href="$utility_8cpp.html#a732bb003220387dc7af9c2751c1b2465" title="Calculates CRC&#45;8 checksum for the given data using SHT40&#39;s polynomial." alt="" coords="206,107,252,133"/>
+</map>

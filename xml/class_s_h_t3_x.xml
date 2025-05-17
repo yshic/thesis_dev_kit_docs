@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="class_s_h_t3_x" kind="class" language="C++" prot="public">
     <compoundname>SHT3X</compoundname>
+    <includes refid="sht3x_8h" local="no">sht3x.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_s_h_t3_x_1a2ba005f3d435d5c00b2d66ec9b502dfd" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -16,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="58" column="9" bodyfile="lib/sht3x/src/sht3x.h" bodystart="58" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="160" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_s_h_t3_x_1ab4901e6173cd8d794d07229e02ed6f83" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -30,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="60" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="60" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="162" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -46,12 +47,33 @@
           <defval>SHT3X_I2C_ADDR_DEFAULT</defval>
         </param>
         <briefdescription>
+<para>Initializes the <ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref> sensor. </para>
         </briefdescription>
         <detaileddescription>
+<para>Configures the sensor with the specified I2C address and checks for its presence on the I2C bus.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i2c_addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The I2C address of the sensor (default: <computeroutput>SHT3X_I2C_ADDR_DEFAULT</computeroutput>, 0x44).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the sensor is powered and connected to the I2C bus before calling.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>SHT3X_OK</computeroutput>: Sensor detected and initialized successfully</para>
+</listitem><listitem><para><computeroutput>SHT3X_ERR_I2C</computeroutput>: Sensor not found or I2C communication error </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="50" column="17" bodyfile="lib/sht3x/src/sht3x.cpp" bodystart="28" bodyend="32"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="102" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="28" bodyend="32"/>
+        <references refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" compoundref="bsp__i2c_8cpp" startline="218" endline="222">bspI2CExist</references>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>sht3x_error_t</type>
@@ -63,12 +85,32 @@
           <type>void</type>
         </param>
         <briefdescription>
+<para>Updates temperature and humidity readings from the <ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref> sensor. </para>
         </briefdescription>
         <detaileddescription>
+<para>Sends a high-repeatability measurement command with clock stretching enabled, reads the raw data, and converts it to temperature (Celsius) and humidity (percentage) values, storing them internally.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the sensor is initialized with <computeroutput><ref refid="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" kindref="member">begin()</ref></computeroutput> and connected to the I2C bus. The function includes delays (200ms + 50ms) for measurement completion.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>SHT3X_OK</computeroutput>: Measurement successful </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="51" column="17" bodyfile="lib/sht3x/src/sht3x.cpp" bodystart="33" bodyend="52"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="118" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="33" bodyend="52"/>
+        <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t3_x_1a28b58bfa80e31c626e01658828a299bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -77,12 +119,27 @@
         <name>getHumidity</name>
         <qualifiedname>SHT3X::getHumidity</qualifiedname>
         <briefdescription>
+<para>Retrieves the last measured humidity. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns the most recent humidity reading stored internally, as a percentage.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" kindref="member">update()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The relative humidity percentage (RH). </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="53" column="9" bodyfile="lib/sht3x/src/sht3x.cpp" bodystart="54" bodyend="54"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="131" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t3_x_1a3a319390dc73f5443f2dfee66a4ec569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -91,12 +148,27 @@
         <name>getTemperatureCelcius</name>
         <qualifiedname>SHT3X::getTemperatureCelcius</qualifiedname>
         <briefdescription>
+<para>Retrieves the last measured temperature in Celsius. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns the most recent temperature reading stored internally, in degrees Celsius.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" kindref="member">update()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The temperature in degrees Celsius. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="54" column="9" bodyfile="lib/sht3x/src/sht3x.cpp" bodystart="56" bodyend="56"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="144" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t3_x_1a7a5e300023f92886f16f153151726640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -105,19 +177,61 @@
         <name>getTemperatureFahrenheit</name>
         <qualifiedname>SHT3X::getTemperatureFahrenheit</qualifiedname>
         <briefdescription>
+<para>Retrieves the last measured temperature in Fahrenheit. </para>
         </briefdescription>
         <detaileddescription>
+<para>Converts the most recent temperature reading stored internally from Celsius to Fahrenheit.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior successful call to <computeroutput><ref refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" kindref="member">update()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para>float The temperature in degrees Fahrenheit. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="55" column="9" bodyfile="lib/sht3x/src/sht3x.cpp" bodystart="58" bodyend="58"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="157" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp" bodystart="58" bodyend="58"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Manages temperature and humidity measurements using the <ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref> sensor. </para>
     </briefdescription>
     <detaileddescription>
+<para>The <computeroutput><ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref></computeroutput> class provides functionality for interfacing with the <ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref> temperature and humidity sensor over an I2C interface. It supports initializing the sensor, updating temperature and humidity readings, and retrieving values in Celsius, Fahrenheit, or percentage humidity. The class stores sensor data internally for efficient access.</para>
+<sect3 id="class_s_h_t3_x_1autotoc_md34">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Reads temperature and humidity with high repeatability.</para>
+</listitem><listitem><para>Supports configurable I2C address (default: 0x44).</para>
+</listitem><listitem><para>Provides temperature in both Celsius and Fahrenheit.</para>
+</listitem><listitem><para>Stores humidity as a percentage (0–100%).</para>
+</listitem><listitem><para>Handles I2C communication with error checking.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_s_h_t3_x_1autotoc_md35">
+<title>Usage:</title>
+<para>Instantiate the class and call <computeroutput><ref refid="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" kindref="member">begin()</ref></computeroutput> with the desired I2C address (default: 0x44) to initialize the sensor. Use <computeroutput><ref refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" kindref="member">update()</ref></computeroutput> to refresh temperature and humidity readings, then retrieve values with <computeroutput><ref refid="class_s_h_t3_x_1a3a319390dc73f5443f2dfee66a4ec569" kindref="member">getTemperatureCelcius()</ref></computeroutput>, <computeroutput><ref refid="class_s_h_t3_x_1a7a5e300023f92886f16f153151726640" kindref="member">getTemperatureFahrenheit()</ref></computeroutput>, or <computeroutput><ref refid="class_s_h_t3_x_1a28b58bfa80e31c626e01658828a299bf" kindref="member">getHumidity()</ref></computeroutput>. Ensure the sensor is connected to the I2C bus before use.</para>
+</sect3>
+<sect3 id="class_s_h_t3_x_1autotoc_md36">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with I2C support.</para>
+</listitem><listitem><para>Sensor must be connected to a valid I2C bus at the specified address.</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__i2c_8h" kindref="compound">bsp_i2c.h</ref></computeroutput> for I2C operations (<computeroutput>bspI2CExist</computeroutput>, <computeroutput>bspI2CWriteByte</computeroutput>, <computeroutput>bspI2CReadBytes</computeroutput>).</para>
+</listitem><listitem><para>Requires <computeroutput><ref refid="config_8h" kindref="compound">config.h</ref></computeroutput> for configuration settings. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
     </detaileddescription>
-    <location file="lib/sht3x/src/sht3x.h" line="47" column="1" bodyfile="lib/sht3x/src/sht3x.h" bodystart="48" bodyend="61"/>
+    <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="85" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="86" bodyend="163"/>
     <listofallmembers>
       <member refid="class_s_h_t3_x_1ab4901e6173cd8d794d07229e02ed6f83" prot="private" virt="non-virtual"><scope>SHT3X</scope><name>_addr</name></member>
       <member refid="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" prot="public" virt="non-virtual"><scope>SHT3X</scope><name>begin</name></member>

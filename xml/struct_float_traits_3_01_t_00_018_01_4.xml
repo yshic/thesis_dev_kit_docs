@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="24" column="20" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="24" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="24" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="struct_float_traits_3_01_t_00_018_01_4_1a2f5cfa8d3b981554224f4a3b6f6dc0c7" prot="public" static="no">
         <type>int16_t</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="29" column="19" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="29" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="29" column="19" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="25" column="22" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="25" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="25" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_float_traits_3_01_t_00_018_01_4_1ae74a9d7a93beaacbd5e6b4784d61be57" prot="public" static="yes" mutable="no">
         <type>const mantissa_type</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="26" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="26" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="26" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_float_traits_3_01_t_00_018_01_4_1ab3e7eb4fb9d809c2c3f6ebc6a6af2e9b" prot="public" static="yes" mutable="no">
         <type>const exponent_type</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="30" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="30" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="30" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="32" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="32" bodyend="47"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="32" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="32" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1ac6b3b1d5f1bd77f8ea17997b7dab607c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classpgm__ptr" kindref="compound">pgm_ptr</ref>&lt; T &gt;</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="49" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="49" bodyend="64"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="49" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="49" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a1a1f81cf547330f218bf9e46b0cea10e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="66" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="66" bodyend="68"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="66" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="66" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a649eb140652df611992fe7143b9cf497" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="70" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="70" bodyend="72"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="70" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="70" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1adb8a507cd8bf427a25e70bc7def661b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="74" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="74" bodyend="76"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="74" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="74" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a5b752acf027a9c58780732b78c74e195" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="79" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="79" bodyend="84"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="79" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="79" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a6caa7b15ab2b1293c478055e887e0d48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="87" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="87" bodyend="92"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="87" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="87" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1a41c919113c1d3c44b38ac55c79d45eea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="94" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="94" bodyend="96"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="94" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="94" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="struct_float_traits_3_01_t_00_018_01_4_1adea09f90ba6f15cc9a3a72eee44df727" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -232,14 +232,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="101" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="101" bodyend="103"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="101" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="101" bodyend="103"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="23" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="23" bodyend="104"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" line="23" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp" bodystart="23" bodyend="104"/>
     <listofallmembers>
       <member refid="struct_float_traits_3_01_t_00_018_01_4_1ab3e7eb4fb9d809c2c3f6ebc6a6af2e9b" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>exponent_max</name></member>
       <member refid="struct_float_traits_3_01_t_00_018_01_4_1a2f5cfa8d3b981554224f4a3b6f6dc0c7" prot="public" virt="non-virtual"><scope>FloatTraits&lt; T, 8 &gt;</scope><name>exponent_type</name></member>

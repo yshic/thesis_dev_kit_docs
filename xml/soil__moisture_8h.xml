@@ -3,10 +3,10 @@
   <compounddef id="soil__moisture_8h" kind="file" language="C++">
     <compoundname>soil_moisture.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="soil__moisture_8cpp" local="yes">lib/soil_moisture_sensor/src/soil_moisture.cpp</includedby>
+    <includedby refid="soil__moisture_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/soil_moisture_sensor/src/soil_moisture.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h</label>
         <link refid="soil__moisture_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/soil_moisture_sensor/src/soil_moisture.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.cpp</label>
         <link refid="soil__moisture_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/soil_moisture_sensor/src/soil_moisture.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h</label>
         <link refid="soil__moisture_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -62,35 +62,38 @@
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="class_soil_moisture" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read</ref>();</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" kindref="member">readAndMap</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minValue,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxValue);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" kindref="member">isAboveThreshold</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threshold);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1ab4a3beaa095bffdc280796ce194d3902" kindref="member">getMoisture</ref>();</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1af363e82e2ef868de6820705a49b6cd7e" kindref="member">getMoisturePercentage</ref>();</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" kindref="member">getAverageReading</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samples<sp/>=<sp/>10);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" kindref="member">onThresholdCross</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threshold,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*callback)());</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_pin;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/>uint32_t<sp/>sensorValue[2];<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/>void<sp/>(*_callback)()<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
-<codeline lineno="108"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_soil_moisture" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="class_soil_moisture" kindref="compound">SoilMoisture</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" kindref="member">read</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="class_soil_moisture_1a982b1e7ebe382617c8ccb2fa19629eae" kindref="member">readAndMap</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minValue,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxValue);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SOIL_MOISTURE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1ab1d48d88b179d8a15972a5372664914e" kindref="member">isAboveThreshold</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threshold);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1ab4a3beaa095bffdc280796ce194d3902" kindref="member">getMoisture</ref>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1af363e82e2ef868de6820705a49b6cd7e" kindref="member">getMoisturePercentage</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1af736d5983965759ed7f60edb415961f7" kindref="member">getAverageReading</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samples<sp/>=<sp/>10);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_soil_moisture_1a0694736167edb84647f36dae55ed3f7e" kindref="member">onThresholdCross</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threshold,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*callback)());</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_pin;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>uint32_t<sp/>sensorValue[2];<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Index<sp/>0<sp/>:<sp/>Raw<sp/>analog<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Index<sp/>1<sp/>:<sp/>Percentage<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>void<sp/>(*_callback)()<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SOIL_MOISTURE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/soil_moisture_sensor/src/soil_moisture.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h"/>
   </compounddef>
 </doxygen>

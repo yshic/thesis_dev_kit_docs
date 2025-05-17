@@ -4,7 +4,7 @@
     <compoundname>StringMover.hpp</compoundname>
     <includes refid="_namespace_8hpp" local="no">ArduinoJson/Namespace.hpp</includes>
     <includes refid="_json_string_8hpp" local="no">ArduinoJson/Strings/JsonString.hpp</includes>
-    <includedby refid="_string_storage_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</includedby>
+    <includedby refid="_string_storage_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Configuration.hpp</label>
@@ -25,7 +25,7 @@
         <link refid="preprocessor_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp</label>
         <link refid="_string_mover_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -43,11 +43,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="3">
-        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
         <link refid="deserialize_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -55,25 +55,25 @@
         </childnode>
       </node>
       <node id="4">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp</label>
         <link refid="_string_mover_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</label>
         <link refid="_string_storage_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -134,6 +134,6 @@
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp"/>
   </compounddef>
 </doxygen>

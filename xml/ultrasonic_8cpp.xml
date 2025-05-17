@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
         <link refid="ultrasonic_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -63,7 +63,7 @@
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>definitions<sp/>-------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><ref refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" kindref="member">Ultrasonic::Ultrasonic</ref>(uint8_t<sp/>_triggerPin,<sp/>uint8_t<sp/>_echoPin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut)</highlight></codeline>
+<codeline lineno="29" refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" refkind="member"><highlight class="normal"><ref refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" kindref="member">Ultrasonic::Ultrasonic</ref>(uint8_t<sp/>_triggerPin,<sp/>uint8_t<sp/>_echoPin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>triggerPin(_triggerPin),<sp/>echoPin(_echoPin),<sp/>timeout(timeOut)</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" kindref="member">bspGpioPinMode</ref>(triggerPin,<sp/>OUTPUT);</highlight></codeline>
@@ -87,7 +87,7 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>duration;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">Ultrasonic::read</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit)</highlight></codeline>
+<codeline lineno="53" refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">Ultrasonic::read</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit)</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(unit)</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -128,6 +128,6 @@
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/ultrasonic_sensor/src/ultrasonic.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp"/>
   </compounddef>
 </doxygen>

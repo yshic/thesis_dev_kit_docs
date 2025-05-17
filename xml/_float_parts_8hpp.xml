@@ -5,7 +5,7 @@
     <includes refid="_configuration_8hpp" local="no">ArduinoJson/Configuration.hpp</includes>
     <includes refid="_float_traits_8hpp" local="no">ArduinoJson/Numbers/FloatTraits.hpp</includes>
     <includes refid="math_8hpp" local="no">ArduinoJson/Polyfills/math.hpp</includes>
-    <includedby refid="_text_formatter_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</includedby>
+    <includedby refid="_text_formatter_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>ArduinoJson/Configuration.hpp</label>
@@ -22,7 +22,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp</label>
         <link refid="_float_parts_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -297,11 +297,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="3">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -311,25 +311,25 @@
         </childnode>
       </node>
       <node id="5">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</label>
         <link refid="_text_formatter_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp</label>
         <link refid="_float_parts_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -430,6 +430,6 @@
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
 <codeline lineno="88"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp"/>
   </compounddef>
 </doxygen>

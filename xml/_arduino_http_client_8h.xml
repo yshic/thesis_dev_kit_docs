@@ -10,7 +10,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/ArduinoHttpClient/ArduinoHttpClient.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/ArduinoHttpClient.h</label>
         <link refid="_arduino_http_client_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -68,6 +68,6 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/ArduinoHttpClient.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/ArduinoHttpClient.h"/>
   </compounddef>
 </doxygen>

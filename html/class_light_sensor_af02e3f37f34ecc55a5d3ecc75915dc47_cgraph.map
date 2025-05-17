@@ -1,0 +1,4 @@
+<map id="LightSensor::onThresholdCross" name="LightSensor::onThresholdCross">
+<area shape="rect" id="node1" title="Sets a callback function for threshold&#45;crossing events." alt="" coords="5,5,175,48"/>
+<area shape="rect" id="node2" href="$class_light_sensor.html#aa3e88fce5560831b6ff8ccf508fa8328" title="Checks if the light intensity exceeds a threshold." alt="" coords="223,13,425,40"/>
+</map>

@@ -24,7 +24,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" line="15" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" bodystart="15" bodyend="15"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" line="15" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" bodystart="15" bodyend="15"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

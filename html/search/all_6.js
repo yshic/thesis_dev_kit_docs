@@ -12,7 +12,7 @@ var searchData=
   ['getfanspeedpercentage_9',['getFanSpeedPercentage',['../class_mini_fan.html#af570dbaf005299ce1f1da220bdb49eee',1,'MiniFan']]],
   ['getfirmwareversion_10',['getFirmwareVersion',['../class_ac_measure.html#a9921894e5d8991c64920b6e1520166ee',1,'AcMeasure']]],
   ['getheater_11',['getHeater',['../class_s_h_t4_x.html#a6f65e80033a02d9fb1857b32ddf2502c',1,'SHT4X']]],
-  ['gethumidity_12',['getHumidity',['../class_d_h_t20.html#a3b4aa6dc2faac1e170773edc429d26cc',1,'DHT20::getHumidity()'],['../class_s_h_t4_x.html#afbbdcb2d7a4e690fb59f06462d9a1ccf',1,'SHT4X::getHumidity()']]],
+  ['gethumidity_12',['getHumidity',['../class_d_h_t20.html#a3b4aa6dc2faac1e170773edc429d26cc',1,'DHT20::getHumidity()'],['../class_s_h_t3_x.html#a28b58bfa80e31c626e01658828a299bf',1,'SHT3X::getHumidity()'],['../class_s_h_t4_x.html#afbbdcb2d7a4e690fb59f06462d9a1ccf',1,'SHT4X::getHumidity()']]],
   ['geti2caddress_13',['getI2CAddress',['../class_ac_measure.html#a012e847385b5c426bae7598a44689cdd',1,'AcMeasure']]],
   ['getkwh_14',['getKWH',['../class_ac_measure.html#a354d97e8d07c12f4e873ef2c389e5bda',1,'AcMeasure']]],
   ['getkwhstring_15',['getKWHString',['../class_ac_measure.html#aa3ba3cac40fdea50c0bd66e940fcdbdd',1,'AcMeasure']]],
@@ -47,7 +47,9 @@ var searchData=
   ['getsoiltemperature_44',['getSoilTemperature',['../class_es_soil7n1.html#a4399e238b765b40405949ab9b1fcc67c',1,'EsSoil7n1']]],
   ['getstatus_45',['getStatus',['../class_b_m_p280.html#a4cfab33bfc50e210fdbcf2fc7bd9481a',1,'BMP280::getStatus()'],['../class_p_i_r_sensor.html#ad67ad2e67e2c366496a3433dac4f8ae5',1,'PIRSensor::getStatus()'],['../class_relay.html#ab9eb34f1f5cf765bdd01427d1bed15cc',1,'Relay::getStatus()'],['../class_usb_switch.html#a9610f9b91027ad99d84ad9dcef8b3be4',1,'UsbSwitch::getStatus()']]],
   ['gettemperature_46',['getTemperature',['../class_b_m_p280.html#af6ec438906352f7f4b0e46d03d7baa98',1,'BMP280::getTemperature()'],['../class_d_h_t20.html#ac62b81dcc477a8f47c797849c5cf27f2',1,'DHT20::getTemperature()'],['../class_s_h_t4_x.html#a81aad791972516038e41fd8e02008da9',1,'SHT4X::getTemperature()']]],
-  ['getvoltage_47',['getVoltage',['../class_ac_measure.html#aeb401f8dd2b2d1164bc78438b9e99828',1,'AcMeasure']]],
-  ['getvoltagefactor_48',['getVoltageFactor',['../class_ac_measure.html#a24df8ac0625ebc45f628bdc6be5db88f',1,'AcMeasure']]],
-  ['getvoltagestring_49',['getVoltageString',['../class_ac_measure.html#ad27164dab1d1fcd42d2c2c570885aba9',1,'AcMeasure']]]
+  ['gettemperaturecelcius_47',['getTemperatureCelcius',['../class_s_h_t3_x.html#a3a319390dc73f5443f2dfee66a4ec569',1,'SHT3X']]],
+  ['gettemperaturefahrenheit_48',['getTemperatureFahrenheit',['../class_s_h_t3_x.html#a7a5e300023f92886f16f153151726640',1,'SHT3X']]],
+  ['getvoltage_49',['getVoltage',['../class_ac_measure.html#aeb401f8dd2b2d1164bc78438b9e99828',1,'AcMeasure']]],
+  ['getvoltagefactor_50',['getVoltageFactor',['../class_ac_measure.html#a24df8ac0625ebc45f628bdc6be5db88f',1,'AcMeasure']]],
+  ['getvoltagestring_51',['getVoltageString',['../class_ac_measure.html#ad27164dab1d1fcd42d2c2c570885aba9',1,'AcMeasure']]]
 ];

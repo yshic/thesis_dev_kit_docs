@@ -8,7 +8,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp</label>
         <link refid="_arduino_string_writer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -74,6 +74,6 @@
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp"/>
   </compounddef>
 </doxygen>

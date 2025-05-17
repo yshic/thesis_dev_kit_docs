@@ -9,7 +9,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/PubSubClient/PubSubClient.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/PubSubClient/PubSubClient.cpp</label>
         <link refid="_pub_sub_client_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/PubSubClient/PubSubClient.cpp" line="207" column="9"/>
+        <location file="thesis_mdt266_iotdevkit/lib/PubSubClient/PubSubClient.cpp" line="207" column="9"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -826,6 +826,6 @@
 <codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="769"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="lib/PubSubClient/PubSubClient.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/PubSubClient/PubSubClient.cpp"/>
   </compounddef>
 </doxygen>

@@ -3,8 +3,8 @@
   <compounddef id="_counting_decorator_8hpp" kind="file" language="C++">
     <compoundname>CountingDecorator.hpp</compoundname>
     <includes refid="_namespace_8hpp" local="no">ArduinoJson/Namespace.hpp</includes>
-    <includedby refid="_text_formatter_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</includedby>
-    <includedby refid="_msg_pack_serializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</includedby>
+    <includedby refid="_text_formatter_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</includedby>
+    <includedby refid="_msg_pack_serializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Configuration.hpp</label>
@@ -25,7 +25,7 @@
         <link refid="preprocessor_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp</label>
         <link refid="_counting_decorator_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,11 +37,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="3">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -51,25 +51,25 @@
         </childnode>
       </node>
       <node id="5">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp</label>
         <link refid="_text_formatter_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp</label>
         <link refid="_counting_decorator_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
       <node id="6">
-        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -123,6 +123,6 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp"/>
   </compounddef>
 </doxygen>

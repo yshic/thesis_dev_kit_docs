@@ -226,7 +226,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp</label>
         <link refid="_std_string_writer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -261,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="13" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="13" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -313,6 +313,6 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp"/>
   </compounddef>
 </doxygen>

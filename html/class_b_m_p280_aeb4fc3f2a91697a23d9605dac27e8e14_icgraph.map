@@ -1,0 +1,5 @@
+<map id="BMP280::getPressure" name="BMP280::getPressure">
+<area shape="rect" id="node1" title="Retrieves the pressure value." alt="" coords="368,5,517,32"/>
+<area shape="rect" id="node2" href="$class_b_m_p280.html#ad9d68ec2a3c74dd8ce6b1684cc1df79d" title="Calculates the altitude based on pressure data." alt="" coords="172,5,320,32"/>
+<area shape="rect" id="node3" href="$class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements." alt="" coords="5,5,124,32"/>
+</map>

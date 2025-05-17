@@ -1,0 +1,17 @@
+<map id="bspI2CWriteByte" name="bspI2CWriteByte">
+<area shape="rect" id="node1" title="Writes a single byte to a register using I2C." alt="" coords="435,309,555,336"/>
+<area shape="rect" id="node2" href="$class_unit4_relay.html#af33d2e2db55024cfb42ca719ee0bb48a" title="Applies the staged relay states to the module." alt="" coords="180,5,370,32"/>
+<area shape="rect" id="node3" href="$class_unit4_relay.html#aae6e0d7daca1902707378c714047ef65" title="Configures the operating mode and turns off all relays." alt="" coords="220,56,331,83"/>
+<area shape="rect" id="node4" href="$class_unit4_relay.html#afdca9c42a3cfb64c47273e9b03b0b9ea" title="Sets all LEDs to the same state." alt="" coords="212,107,338,133"/>
+<area shape="rect" id="node5" href="$class_unit4_relay.html#a4afd86f0f07bd53cc2c52f1a1faaf708" title="Sets the state of an individual LED." alt="" coords="205,157,346,184"/>
+<area shape="rect" id="node6" href="$class_unit4_relay.html#ae1ae938e7f9ef4a340da551b5ea2f157" title="Sets all relays to the same state." alt="" coords="207,208,344,235"/>
+<area shape="rect" id="node7" href="$class_unit4_relay.html#a058eddf27fc3dacd823cb183016f7d48" title="Sets the state of an individual relay." alt="" coords="199,259,352,285"/>
+<area shape="rect" id="node8" href="$class_b_m_p280.html#af0273f65cd8c3b4e3ee472668a0a8d6f" title="Resets the BMP280 sensor." alt="" coords="221,309,330,336"/>
+<area shape="rect" id="node9" href="$class_ac_measure.html#ad8c48c819863d6551b054dc7bf67f398" title="Sets the I2C address of the device." alt="" coords="184,360,366,387"/>
+<area shape="rect" id="node10" href="$class_b_m_p280.html#a67efaace84ab36fad15df3ea7f983fe4" title="Configures the sensor’s sampling and operating parameters." alt="" coords="200,411,351,437"/>
+<area shape="rect" id="node12" href="$class_unit4_relay.html#a25c9b5c0263a67a95d58519cd1b6cad2" title="Sets the operating mode of the relay module." alt="" coords="193,461,358,488"/>
+<area shape="rect" id="node13" href="$class_b_m_p280.html#ad05bced9afce99daf98d6d99918276f4" title="Triggers a forced measurement." alt="" coords="164,512,387,539"/>
+<area shape="rect" id="node14" href="$class_s_h_t3_x.html#a6327ea11cd715edadedd6b0ea8018e72" title="Updates temperature and humidity readings from the SHT3X sensor." alt="" coords="220,563,331,589"/>
+<area shape="rect" id="node15" href="$class_s_h_t4_x.html#a6b98f00ab94cb56a4472e08b468424c5" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="220,613,331,640"/>
+<area shape="rect" id="node11" href="$class_b_m_p280.html#a7f793755576e8d937f97984ee8b42b07" title="Initializes the BMP280 sensor." alt="" coords="5,411,116,437"/>
+</map>

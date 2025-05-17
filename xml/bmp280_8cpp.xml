@@ -8,7 +8,7 @@
     <includes refid="utility_8h" local="yes">utility.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/bmp280/src/bmp280.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp</label>
         <link refid="bmp280_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -73,7 +73,7 @@
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>variables<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>definitions<sp/>-------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" kindref="member">BMP280::begin</ref>()</highlight></codeline>
+<codeline lineno="29" refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" kindref="member">BMP280::begin</ref>()</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(BMP280_I2C_ADDR))</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -85,7 +85,7 @@
 <codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BMP280_OK;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" kindref="member">BMP280::update</ref>()</highlight></codeline>
+<codeline lineno="41" refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" kindref="member">BMP280::update</ref>()</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><ref refid="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" kindref="member">readTemperature</ref>();</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><ref refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" kindref="member">readPressure</ref>();</highlight></codeline>
@@ -93,20 +93,20 @@
 <codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BMP280_OK;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1af0273f65cd8c3b4e3ee472668a0a8d6f" kindref="member">BMP280::reset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49" refid="class_b_m_p280_1af0273f65cd8c3b4e3ee472668a0a8d6f" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1af0273f65cd8c3b4e3ee472668a0a8d6f" kindref="member">BMP280::reset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(BMP280_I2C_ADDR,<sp/>BMP280_REGISTER_SOFTRESET,<sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea3b1bc5f6d28bca2ff1222a3c7fb30831" kindref="member">MODE_SOFT_RESET_CODE</ref>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BMP280_OK;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">uint8_t<sp/><ref refid="class_b_m_p280_1a4cfab33bfc50e210fdbcf2fc7bd9481a" kindref="member">BMP280::getStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55" refid="class_b_m_p280_1a4cfab33bfc50e210fdbcf2fc7bd9481a" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="class_b_m_p280_1a4cfab33bfc50e210fdbcf2fc7bd9481a" kindref="member">BMP280::getStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/>uint8_t<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><ref refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" kindref="member">bspI2CReadByte</ref>(BMP280_I2C_ADDR,<sp/>BMP280_REGISTER_STATUS,<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>byte;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" kindref="member">BMP280::readPressure</ref>()</highlight></codeline>
+<codeline lineno="62" refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" kindref="member">BMP280::readPressure</ref>()</highlight></codeline>
 <codeline lineno="63"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/>int64_t<sp/>var1,<sp/>var2,<sp/>p;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
@@ -138,7 +138,7 @@
 <codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BMP280_OK;</highlight></codeline>
 <codeline lineno="92"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" kindref="member">BMP280::readTemperature</ref>()</highlight></codeline>
+<codeline lineno="94" refid="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" kindref="member">BMP280::readTemperature</ref>()</highlight></codeline>
 <codeline lineno="95"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/>int32_t<sp/>var1,<sp/>var2;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
@@ -160,7 +160,7 @@
 <codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BMP280_OK;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" kindref="member">BMP280::readAltitude</ref>()</highlight></codeline>
+<codeline lineno="116" refid="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" kindref="member">BMP280::readAltitude</ref>()</highlight></codeline>
 <codeline lineno="117"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure<sp/>=<sp/><ref refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" kindref="member">getPressure</ref>();<sp/></highlight><highlight class="comment">//<sp/>in<sp/>SI<sp/>units<sp/>for<sp/>Pascal</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/>pressure<sp/>/=<sp/>100;</highlight></codeline>
@@ -168,25 +168,25 @@
 <codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BMP280_OK;</highlight></codeline>
 <codeline lineno="122"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" kindref="member">BMP280::getPressure</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[0];<sp/>}</highlight></codeline>
+<codeline lineno="124" refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" kindref="member">BMP280::getPressure</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[0];<sp/>}</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1af6ec438906352f7f4b0e46d03d7baa98" kindref="member">BMP280::getTemperature</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[1];<sp/>}</highlight></codeline>
+<codeline lineno="126" refid="class_b_m_p280_1af6ec438906352f7f4b0e46d03d7baa98" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1af6ec438906352f7f4b0e46d03d7baa98" kindref="member">BMP280::getTemperature</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[1];<sp/>}</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a693c846424c06654370222da04dcb51e" kindref="member">BMP280::getAltitude</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[2];<sp/>}</highlight></codeline>
+<codeline lineno="128" refid="class_b_m_p280_1a693c846424c06654370222da04dcb51e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a693c846424c06654370222da04dcb51e" kindref="member">BMP280::getAltitude</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sensorValue[2];<sp/>}</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1aae63fd7ecb6c61963d77e5b256611ba6" kindref="member">BMP280::seaLevelForAltitude</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>altitude,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>atmospheric)</highlight></codeline>
+<codeline lineno="130" refid="class_b_m_p280_1aae63fd7ecb6c61963d77e5b256611ba6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1aae63fd7ecb6c61963d77e5b256611ba6" kindref="member">BMP280::seaLevelForAltitude</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>altitude,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>atmospheric)</highlight></codeline>
 <codeline lineno="131"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atmospheric<sp/>/<sp/>pow(1.0<sp/>-<sp/>(altitude<sp/>/<sp/>44330.0),<sp/>5.255);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a093ed9047d79ba87c18909b87887723f" kindref="member">BMP280::setSeaLevelPressure</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure)<sp/>{<sp/>_seaLevelhPa<sp/>=<sp/>pressure;<sp/>}</highlight></codeline>
+<codeline lineno="135" refid="class_b_m_p280_1a093ed9047d79ba87c18909b87887723f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a093ed9047d79ba87c18909b87887723f" kindref="member">BMP280::setSeaLevelPressure</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure)<sp/>{<sp/>_seaLevelhPa<sp/>=<sp/>pressure;<sp/>}</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a7cb008e675a64b08b165ab966a0c48d0" kindref="member">BMP280::waterBoilingPoint</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure)</highlight></codeline>
+<codeline lineno="137" refid="class_b_m_p280_1a7cb008e675a64b08b165ab966a0c48d0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1a7cb008e675a64b08b165ab966a0c48d0" kindref="member">BMP280::waterBoilingPoint</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure)</highlight></codeline>
 <codeline lineno="138"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(234.175<sp/>*<sp/>log(pressure<sp/>/<sp/>6.1078))<sp/>/<sp/>(17.08085<sp/>-<sp/>log(pressure<sp/>/<sp/>6.1078));</highlight></codeline>
 <codeline lineno="140"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" kindref="member">BMP280::takeForcedMeasurement</ref>()</highlight></codeline>
+<codeline lineno="142" refid="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" kindref="member">BMP280::takeForcedMeasurement</ref>()</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_measReg.mode<sp/>==<sp/><ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea4ba4678ce33c0530ab0e2aec3fe3b200" kindref="member">MODE_FORCED</ref>)</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -201,7 +201,7 @@
 <codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="155"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" kindref="member">BMP280::setSampling</ref>(<ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635e" kindref="member">bmp280_mode_t</ref><sp/>mode,<sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" kindref="member">bmp280_sampling_t</ref><sp/>tempSampling,</highlight></codeline>
+<codeline lineno="157" refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" refkind="member"><highlight class="normal">bmp280_error_t<sp/><ref refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" kindref="member">BMP280::setSampling</ref>(<ref refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635e" kindref="member">bmp280_mode_t</ref><sp/>mode,<sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" kindref="member">bmp280_sampling_t</ref><sp/>tempSampling,</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="bmp280_8h_1a078433df125db1cdc92e431b12af6782" kindref="member">bmp280_sampling_t</ref><sp/>pressSampling,<sp/><ref refid="bmp280_8h_1a4aec235c8a52e06c89ce2584fd158b4f" kindref="member">bmp280_filter_t</ref><sp/>filter,</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feb" kindref="member">bmp280_standby_duration_t</ref><sp/>duration)</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">{</highlight></codeline>
@@ -264,6 +264,6 @@
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/bmp280/src/bmp280.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp"/>
   </compounddef>
 </doxygen>

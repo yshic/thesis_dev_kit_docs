@@ -5,7 +5,7 @@
     <includes refid="utility_8h" local="yes">utility.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/utility/src/utility.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp</label>
         <link refid="utility_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -31,14 +31,42 @@
         <definition>void scanI2CDevices</definition>
         <argsstring>()</argsstring>
         <name>scanI2CDevices</name>
+        <param>
+          <type>void</type>
+        </param>
         <briefdescription>
-<para>Scan for I2C devices and print the addresses to Serial. </para>
+<para>Scans the I2C bus for connected devices. </para>
         </briefdescription>
         <detaileddescription>
+<para>The <computeroutput>scanI2CDevices</computeroutput> function probes the I2C bus for devices by attempting communication with addresses from 1 to 126. It reports detected devices and errors via the Serial interface, providing a summary of the scan results. The function is designed for debugging and identifying I2C device addresses on an Arduino-compatible board.</para>
+<sect3 id="utility_8h_1autotoc_md52">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Scans I2C addresses 1 through 126 for responsive devices.</para>
+</listitem><listitem><para>Reports detected devices with their hexadecimal addresses.</para>
+</listitem><listitem><para>Identifies unknown errors during communication attempts.</para>
+</listitem><listitem><para>Summarizes the number of devices found or indicates if none are detected.</para>
+</listitem><listitem><para>Includes a delay to allow periodic scanning without overwhelming the Serial output.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="utility_8h_1autotoc_md53">
+<title>Usage:</title>
+<para>Call <computeroutput><ref refid="utility_8h_1a8fae21c12475addf28c404a0e1c5eab3" kindref="member">scanI2CDevices()</ref></computeroutput> to initiate an I2C bus scan. Ensure the Serial interface is initialized (e.g., with <computeroutput>Serial.begin(9600)</computeroutput>) and the I2C bus is configured (e.g., with <computeroutput>Wire.begin()</computeroutput>) before calling. The function outputs results to the Serial monitor and pauses for 2 seconds before completing, suitable for repeated calls in a loop.</para>
+</sect3>
+<sect3 id="utility_8h_1autotoc_md54">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with I2C support.</para>
+</listitem><listitem><para>Depends on the <computeroutput>Wire</computeroutput> library for I2C communication (<computeroutput>Wire.beginTransmission</computeroutput>, <computeroutput>Wire.endTransmission</computeroutput>).</para>
+</listitem><listitem><para>Requires the <computeroutput>Serial</computeroutput> interface for output (<computeroutput>Serial.print</computeroutput>, <computeroutput>Serial.println</computeroutput>). </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/utility/src/utility.cpp" line="29" column="6" bodyfile="lib/utility/src/utility.cpp" bodystart="29" bodyend="71"/>
+        <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" line="29" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" bodystart="29" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="utility_8cpp_1a732bb003220387dc7af9c2751c1b2465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -93,7 +121,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/utility/src/utility.cpp" line="73" column="9" bodyfile="lib/utility/src/utility.cpp" bodystart="73" bodyend="99"/>
+        <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" line="73" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" bodystart="73" bodyend="99"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="function" id="utility_8cpp_1ae035ab017746978f2bc4555ec5c8b86d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -143,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/utility/src/utility.cpp" line="101" column="5" bodyfile="lib/utility/src/utility.cpp" bodystart="101" bodyend="135"/>
+        <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" line="101" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" bodystart="101" bodyend="135"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -176,7 +205,7 @@
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Function<sp/>definitions<sp/>-----------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="utility_8cpp_1a2ada518ecc2aaee50304c0c3ecec7370" kindref="member">scanI2CDevices</ref>()</highlight></codeline>
+<codeline lineno="29" refid="utility_8cpp_1a2ada518ecc2aaee50304c0c3ecec7370" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="utility_8cpp_1a2ada518ecc2aaee50304c0c3ecec7370" kindref="member">scanI2CDevices</ref>()</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>error,<sp/>address;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>nDevices<sp/>=<sp/>0;</highlight></codeline>
@@ -220,7 +249,7 @@
 <codeline lineno="70"><highlight class="normal"><sp/><sp/>delay(2000);<sp/></highlight><highlight class="comment">//<sp/>wait<sp/>2<sp/>seconds<sp/>for<sp/>next<sp/>scan</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal">uint8_t<sp/><ref refid="utility_8cpp_1a732bb003220387dc7af9c2751c1b2465" kindref="member">crc8</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len)</highlight></codeline>
+<codeline lineno="73" refid="utility_8cpp_1a732bb003220387dc7af9c2751c1b2465" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="utility_8cpp_1a732bb003220387dc7af9c2751c1b2465" kindref="member">crc8</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len)</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/>*</highlight></codeline>
@@ -248,7 +277,7 @@
 <codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crc;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="utility_8cpp_1ae035ab017746978f2bc4555ec5c8b86d" kindref="member">compareVersion</ref>(String<sp/>v1,<sp/>String<sp/>v2)</highlight></codeline>
+<codeline lineno="101" refid="utility_8cpp_1ae035ab017746978f2bc4555ec5c8b86d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="utility_8cpp_1ae035ab017746978f2bc4555ec5c8b86d" kindref="member">compareVersion</ref>(String<sp/>v1,<sp/>String<sp/>v2)</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parts1[3]<sp/>=<sp/>{0},<sp/>parts2[3]<sp/>=<sp/>{0};</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
@@ -288,6 +317,6 @@
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/utility/src/utility.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp"/>
   </compounddef>
 </doxygen>

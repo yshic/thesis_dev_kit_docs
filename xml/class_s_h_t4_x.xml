@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="235" column="9" bodyfile="lib/sht4x/src/sht4x.h" bodystart="235" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="235" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="235" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_s_h_t4_x_1afb7f0574ef41e268c831cb179e3e20ea" prot="private" static="no" mutable="no">
         <type>sht4x_precision_t</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="237" column="21" bodyfile="lib/sht4x/src/sht4x.h" bodystart="237" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="237" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="237" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_s_h_t4_x_1a0a5f387d340b6419916f78985b8a4e8d" prot="private" static="no" mutable="no">
         <type><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="238" column="21" bodyfile="lib/sht4x/src/sht4x.h" bodystart="238" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="238" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="238" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -82,7 +82,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="141" column="17" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="30" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="141" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="30" bodyend="30"/>
+        <references refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" compoundref="bsp__i2c_8cpp" startline="218" endline="222">bspI2CExist</references>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" kindref="member">sht4x_error_t</ref></type>
@@ -118,7 +119,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="159" column="17" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="32" bodyend="101"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="159" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="32" bodyend="101"/>
+        <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
+        <references refid="utility_8cpp_1a732bb003220387dc7af9c2751c1b2465" compoundref="utility_8cpp" startline="73" endline="99">crc8</references>
+        <references refid="sht4x_8h_1a2fb7d88091e07c0cb8143c8afa2814e2" compoundref="sht4x_8h" startline="41">SHT4x_CMD_HIGHHEAT_100MS</references>
+        <references refid="sht4x_8h_1a9fcd128872fa5ca952aca05aa13e044d" compoundref="sht4x_8h" startline="40">SHT4x_CMD_HIGHHEAT_1S</references>
+        <references refid="sht4x_8h_1af9ddb1621a0326b1f63109eff76397a3" compoundref="sht4x_8h" startline="45">SHT4x_CMD_LOWHEAT_100MS</references>
+        <references refid="sht4x_8h_1a24b51ccf081be32e9ca02f9378724ad9" compoundref="sht4x_8h" startline="44">SHT4x_CMD_LOWHEAT_1S</references>
+        <references refid="sht4x_8h_1a134c3a72f6889a7a8329a1f0c3770d94" compoundref="sht4x_8h" startline="43">SHT4x_CMD_MEDHEAT_100MS</references>
+        <references refid="sht4x_8h_1accd53040e6490c381650e0993d3bddfc" compoundref="sht4x_8h" startline="42">SHT4x_CMD_MEDHEAT_1S</references>
+        <references refid="sht4x_8h_1a91b57b4e93a9c7b13f1d669e73d7953e" compoundref="sht4x_8h" startline="36">SHT4x_CMD_NOHEAT_HIGHPRECISION</references>
+        <references refid="sht4x_8h_1a049294cd9be0242a004f03bf71e4040c" compoundref="sht4x_8h" startline="38">SHT4x_CMD_NOHEAT_LOWPRECISION</references>
+        <references refid="sht4x_8h_1addcecb65679488737d7f6cf46a8b1c51" compoundref="sht4x_8h" startline="37">SHT4x_CMD_NOHEAT_MEDPRECISION</references>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -150,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="172" column="8" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="103" bodyend="103"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="172" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1a8d2a3954c9aa4fbba99c9fb8d8d7bd99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>sht4x_precision_t</type>
@@ -180,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="183" column="21" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="105" bodyend="105"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="183" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -212,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="195" column="8" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="107" bodyend="107"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="195" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1a6f65e80033a02d9fb1857b32ddf2502c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" kindref="member">sht4x_heater_t</ref></type>
@@ -242,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="206" column="18" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="109" bodyend="109"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="206" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -271,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="219" column="9" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="111" bodyend="111"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="219" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="111" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -300,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht4x/src/sht4x.h" line="232" column="9" bodyfile="lib/sht4x/src/sht4x.cpp" bodystart="113" bodyend="113"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="232" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp" bodystart="113" bodyend="113"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -308,7 +321,7 @@
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref></computeroutput> class facilitates interaction with the <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> temperature and humidity sensor over an I2C interface. It supports initializing the sensor, configuring measurement precision and heater settings, and retrieving temperature and humidity data. The class stores sensor values internally for easy access.</para>
-<sect3 id="class_s_h_t4_x_1autotoc_md34">
+<sect3 id="class_s_h_t4_x_1autotoc_md37">
 <title>Features:</title>
 <para><itemizedlist>
 <listitem><para>Reads temperature and humidity with configurable precision levels.</para>
@@ -319,11 +332,11 @@
 </listitem></itemizedlist>
 </para>
 </sect3>
-<sect3 id="class_s_h_t4_x_1autotoc_md35">
+<sect3 id="class_s_h_t4_x_1autotoc_md38">
 <title>Usage:</title>
 <para>Instantiate the class and call <computeroutput><ref refid="class_s_h_t4_x_1a8e85778bec0e7b9d4bf8add2490778f3" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Use <computeroutput><ref refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" kindref="member">update()</ref></computeroutput> to read temperature and humidity, then retrieve values with <computeroutput><ref refid="class_s_h_t4_x_1a81aad791972516038e41fd8e02008da9" kindref="member">getTemperature()</ref></computeroutput> and <computeroutput><ref refid="class_s_h_t4_x_1afbbdcb2d7a4e690fb59f06462d9a1ccf" kindref="member">getHumidity()</ref></computeroutput>. Configure precision with <computeroutput><ref refid="class_s_h_t4_x_1ac21af46180b62c199abbc6a9f63b02b0" kindref="member">setPrecision()</ref></computeroutput> and heater settings with <computeroutput><ref refid="class_s_h_t4_x_1a9664390bcd963ba9317a5abffa4ed570" kindref="member">setHeater()</ref></computeroutput> as needed.</para>
 </sect3>
-<sect3 id="class_s_h_t4_x_1autotoc_md36">
+<sect3 id="class_s_h_t4_x_1autotoc_md39">
 <title>Dependencies:</title>
 <para><itemizedlist>
 <listitem><para>Requires an I2C communication library (<computeroutput><ref refid="bsp__i2c_8h" kindref="compound">bsp_i2c.h</ref></computeroutput> for <computeroutput>bspI2CExist</computeroutput>, <computeroutput>bspI2CWriteByte</computeroutput>, <computeroutput>bspI2CReadBytes</computeroutput>).</para>
@@ -333,7 +346,7 @@
 </para>
 </sect3>
     </detaileddescription>
-    <location file="lib/sht4x/src/sht4x.h" line="124" column="1" bodyfile="lib/sht4x/src/sht4x.h" bodystart="125" bodyend="239"/>
+    <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="124" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="125" bodyend="239"/>
     <listofallmembers>
       <member refid="class_s_h_t4_x_1a0a5f387d340b6419916f78985b8a4e8d" prot="private" virt="non-virtual"><scope>SHT4X</scope><name>_heater</name></member>
       <member refid="class_s_h_t4_x_1afb7f0574ef41e268c831cb179e3e20ea" prot="private" virt="non-virtual"><scope>SHT4X</scope><name>_precision</name></member>

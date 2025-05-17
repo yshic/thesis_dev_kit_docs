@@ -1,0 +1,4 @@
+<map id="UsbSwitch::getOutputValue" name="UsbSwitch::getOutputValue">
+<area shape="rect" id="node1" title="Retrieves the current output value." alt="" coords="236,13,418,40"/>
+<area shape="rect" id="node2" href="$class_usb_switch.html#acadaf4d0e4e6b952099011820bd57d16" title="Retrieves the current output value as a percentage." alt="" coords="5,5,188,48"/>
+</map>

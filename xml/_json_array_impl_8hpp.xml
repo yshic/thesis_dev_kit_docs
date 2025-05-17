@@ -4,7 +4,7 @@
     <compoundname>JsonArrayImpl.hpp</compoundname>
     <includes refid="_json_array_8hpp" local="no">ArduinoJson/Array/JsonArray.hpp</includes>
     <includes refid="_json_object_8hpp" local="no">ArduinoJson/Object/JsonObject.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Array/ElementProxy.hpp</label>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
         <link refid="_json_array_impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -711,11 +711,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
         <link refid="_json_array_impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -763,6 +763,6 @@
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp"/>
   </compounddef>
 </doxygen>

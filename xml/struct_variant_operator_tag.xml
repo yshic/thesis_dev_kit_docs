@@ -45,7 +45,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="24" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="24" bodyend="24"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" line="24" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp" bodystart="24" bodyend="24"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

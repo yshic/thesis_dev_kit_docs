@@ -8,7 +8,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/bsp/bsp_gpio.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp</label>
         <link refid="bsp__gpio_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -63,7 +63,13 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="32" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="32" bodyend="54"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="32" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="32" bodyend="54"/>
+        <referencedby refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" compoundref="button_8cpp" startline="4" endline="14">ButtonHandler::ButtonHandler</referencedby>
+        <referencedby refid="class_mini_fan_1affd564b00edfa85433ecefa678e95bd8" compoundref="mini__fan_8cpp" startline="28" endline="34">MiniFan::MiniFan</referencedby>
+        <referencedby refid="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" compoundref="pir__sensor_8cpp" startline="29" endline="33">PIRSensor::PIRSensor</referencedby>
+        <referencedby refid="class_relay_1adad23a5505a37c21a4c3353a65ff51c3" compoundref="relay_8cpp" startline="29" endline="29">Relay::Relay</referencedby>
+        <referencedby refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" compoundref="ultrasonic_8cpp" startline="29" endline="34">Ultrasonic::Ultrasonic</referencedby>
+        <referencedby refid="class_usb_switch_1ad39268ff1eccf9fb11e038d5184cf130" compoundref="usb__switch_8cpp" startline="28" endline="36">UsbSwitch::UsbSwitch</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -107,7 +113,9 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="56" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="56" bodyend="69"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="56" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="56" bodyend="69"/>
+        <referencedby refid="class_relay_1a06078d488d6b12acf83f88e0d78e1737" compoundref="relay_8cpp" startline="37" endline="41">Relay::off</referencedby>
+        <referencedby refid="class_relay_1a674ccf47e38920324b76e85654dce550" compoundref="relay_8cpp" startline="31" endline="35">Relay::on</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -144,7 +152,10 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="71" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="71" bodyend="71"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="71" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="71" bodyend="71"/>
+        <referencedby refid="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" compoundref="pir__sensor_8cpp" startline="70" endline="81">PIRSensor::isMotionContinuous</referencedby>
+        <referencedby refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" compoundref="pir__sensor_8cpp" startline="35" endline="56">PIRSensor::read</referencedby>
+        <referencedby refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" compoundref="button_8cpp" startline="86" endline="168">ButtonHandler::update</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -180,7 +191,10 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="75" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="75" bodyend="75"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="75" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="75" bodyend="75"/>
+        <referencedby refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" compoundref="usb__switch_8cpp" startline="61" endline="69">UsbSwitch::getOutputValue</referencedby>
+        <referencedby refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" compoundref="light__sensor_8cpp" startline="38" endline="44">LightSensor::read</referencedby>
+        <referencedby refid="class_soil_moisture_1ab1a0cb8f764d8e4745a12aa3c61f5241" compoundref="soil__moisture_8cpp" startline="36" endline="41">SoilMoisture::read</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1aa6be43410ae12aa3bbb746fb562352cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -216,7 +230,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="76" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="76" bodyend="76"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="76" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -258,7 +272,13 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="77" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="77" bodyend="77"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="77" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="77" bodyend="77"/>
+        <referencedby refid="class_mini_fan_1aaa4afbee26121fa69ed6e51130f123f2" compoundref="mini__fan_8cpp" startline="36" endline="47">MiniFan::setFanSpeed</referencedby>
+        <referencedby refid="class_mini_fan_1abd39975cb9ab28471121e461794951d7" compoundref="mini__fan_8cpp" startline="49" endline="63">MiniFan::setFanSpeedPercentage</referencedby>
+        <referencedby refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" compoundref="usb__switch_8cpp" startline="38" endline="52">UsbSwitch::setOutputValue</referencedby>
+        <referencedby refid="class_mini_fan_1acfe1d6f95e9e4bfc0c88ddcc90fabec5" compoundref="mini__fan_8cpp" startline="69" endline="89">MiniFan::toggleFan</referencedby>
+        <referencedby refid="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" compoundref="usb__switch_8cpp" startline="77" endline="89">UsbSwitch::toggleOutput</referencedby>
+        <referencedby refid="class_usb_switch_1ad39268ff1eccf9fb11e038d5184cf130" compoundref="usb__switch_8cpp" startline="28" endline="36">UsbSwitch::UsbSwitch</referencedby>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a473ea43016c7438bcf6c54ae0953b44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -294,7 +314,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="78" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="78" bodyend="78"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="78" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="78" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1ae34c54e5d546069251711d34013ad77c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned long</type>
@@ -353,7 +373,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="82" column="15" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="82" bodyend="85"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="82" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="82" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a13956440c507dceed7197d935672b66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned long</type>
@@ -412,7 +432,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="86" column="15" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="86" bodyend="89"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="86" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="86" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1aaa4e5b753eb7721876bae26166b45e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -470,7 +490,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="90" column="9" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="90" bodyend="93"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="90" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="90" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a8ab3bbd2afa6df50db6e4affc45d2577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -536,7 +556,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="94" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="94" bodyend="97"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="94" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a6b231e4d7b1dd20157b0885b022f9dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -590,7 +610,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="98" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="98" bodyend="101"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="98" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="bsp__gpio_8cpp_1a859d94545c79f456b2914ae7f5a39b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -622,7 +642,7 @@ None </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_gpio.cpp" line="102" column="6" bodyfile="lib/bsp/bsp_gpio.cpp" bodystart="102" bodyend="102"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" line="102" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp" bodystart="102" bodyend="102"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -660,7 +680,7 @@ None </para>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Digital<sp/>Pin<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" kindref="member">bspGpioPinMode</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>mode)</highlight></codeline>
+<codeline lineno="32" refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" kindref="member">bspGpioPinMode</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>mode)</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(mode)</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -684,7 +704,7 @@ None </para>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97" kindref="member">bspGpioDigitalWrite</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state)</highlight></codeline>
+<codeline lineno="56" refid="bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a8c56622b894fbc2433dadc6fb4a95b97" kindref="member">bspGpioDigitalWrite</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state)</highlight></codeline>
 <codeline lineno="57"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(state)</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -699,42 +719,42 @@ None </para>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" kindref="member">bspGpioDigitalRead</ref>(uint8_t<sp/>pin)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>digitalRead(pin)<sp/>==<sp/>1<sp/>?<sp/>true<sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="71" refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" kindref="member">bspGpioDigitalRead</ref>(uint8_t<sp/>pin)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>digitalRead(pin)<sp/>==<sp/>1<sp/>?<sp/>true<sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Analog<sp/>Pin<sp/>---------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" kindref="member">bspGpioAnalogRead</ref>(uint8_t<sp/>pin)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>analogRead(pin);<sp/>}</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1aa6be43410ae12aa3bbb746fb562352cd" kindref="member">bspGpioAnalogReadResolution</ref>(uint8_t<sp/>bits)<sp/>{<sp/>analogReadResolution(bits);<sp/>}</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" kindref="member">bspGpioAnalogWrite</ref>(uint8_t<sp/>pin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>{<sp/>analogWrite(pin,<sp/>value);<sp/>}</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a473ea43016c7438bcf6c54ae0953b44b" kindref="member">bspGpioAnalogWriteResolution</ref>(uint8_t<sp/>bits)<sp/>{<sp/>analogWriteResolution(bits);<sp/>}</highlight></codeline>
+<codeline lineno="75" refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" kindref="member">bspGpioAnalogRead</ref>(uint8_t<sp/>pin)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>analogRead(pin);<sp/>}</highlight></codeline>
+<codeline lineno="76" refid="bsp__gpio_8cpp_1aa6be43410ae12aa3bbb746fb562352cd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1aa6be43410ae12aa3bbb746fb562352cd" kindref="member">bspGpioAnalogReadResolution</ref>(uint8_t<sp/>bits)<sp/>{<sp/>analogReadResolution(bits);<sp/>}</highlight></codeline>
+<codeline lineno="77" refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" kindref="member">bspGpioAnalogWrite</ref>(uint8_t<sp/>pin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>{<sp/>analogWrite(pin,<sp/>value);<sp/>}</highlight></codeline>
+<codeline lineno="78" refid="bsp__gpio_8cpp_1a473ea43016c7438bcf6c54ae0953b44b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a473ea43016c7438bcf6c54ae0953b44b" kindref="member">bspGpioAnalogWriteResolution</ref>(uint8_t<sp/>bits)<sp/>{<sp/>analogWriteResolution(bits);<sp/>}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Advanced<sp/>I/O<sp/>-------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1ae34c54e5d546069251711d34013ad77c" kindref="member">bspGpioPulseIn</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout)</highlight></codeline>
+<codeline lineno="82" refid="bsp__gpio_8cpp_1ae34c54e5d546069251711d34013ad77c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1ae34c54e5d546069251711d34013ad77c" kindref="member">bspGpioPulseIn</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout)</highlight></codeline>
 <codeline lineno="83"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pulseIn(pin,<sp/>state,<sp/>timeout);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a13956440c507dceed7197d935672b66d" kindref="member">bspGpioPulseInLong</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout)</highlight></codeline>
+<codeline lineno="86" refid="bsp__gpio_8cpp_1a13956440c507dceed7197d935672b66d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a13956440c507dceed7197d935672b66d" kindref="member">bspGpioPulseInLong</ref>(uint8_t<sp/>pin,<sp/>uint8_t<sp/>state,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout)</highlight></codeline>
 <codeline lineno="87"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pulseInLong(pin,<sp/>state,<sp/>timeout);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="90"><highlight class="normal">uint8_t<sp/><ref refid="bsp__gpio_8cpp_1aaa4e5b753eb7721876bae26166b45e81" kindref="member">bspGpioShiftIn</ref>(uint8_t<sp/>dataPin,<sp/>uint8_t<sp/>clockPin,<sp/>uint8_t<sp/>bitOrder)</highlight></codeline>
+<codeline lineno="90" refid="bsp__gpio_8cpp_1aaa4e5b753eb7721876bae26166b45e81" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="bsp__gpio_8cpp_1aaa4e5b753eb7721876bae26166b45e81" kindref="member">bspGpioShiftIn</ref>(uint8_t<sp/>dataPin,<sp/>uint8_t<sp/>clockPin,<sp/>uint8_t<sp/>bitOrder)</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shiftIn(dataPin,<sp/>clockPin,<sp/>bitOrder);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a8ab3bbd2afa6df50db6e4affc45d2577" kindref="member">bspGpioShiftOut</ref>(uint8_t<sp/>dataPin,<sp/>uint8_t<sp/>clockPin,<sp/>uint8_t<sp/>bitOrder,<sp/>uint8_t<sp/>val)</highlight></codeline>
+<codeline lineno="94" refid="bsp__gpio_8cpp_1a8ab3bbd2afa6df50db6e4affc45d2577" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a8ab3bbd2afa6df50db6e4affc45d2577" kindref="member">bspGpioShiftOut</ref>(uint8_t<sp/>dataPin,<sp/>uint8_t<sp/>clockPin,<sp/>uint8_t<sp/>bitOrder,<sp/>uint8_t<sp/>val)</highlight></codeline>
 <codeline lineno="95"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/>shiftOut(dataPin,<sp/>clockPin,<sp/>bitOrder,<sp/>val);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a6b231e4d7b1dd20157b0885b022f9dff" kindref="member">bspGpioTone</ref>(uint8_t<sp/>pin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frequency,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration)</highlight></codeline>
+<codeline lineno="98" refid="bsp__gpio_8cpp_1a6b231e4d7b1dd20157b0885b022f9dff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a6b231e4d7b1dd20157b0885b022f9dff" kindref="member">bspGpioTone</ref>(uint8_t<sp/>pin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frequency,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration)</highlight></codeline>
 <codeline lineno="99"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/>tone(pin,<sp/>frequency,<sp/>duration);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a859d94545c79f456b2914ae7f5a39b70" kindref="member">bspGpioNoTone</ref>(uint8_t<sp/>pin)<sp/>{<sp/>noTone(pin);<sp/>}</highlight></codeline>
+<codeline lineno="102" refid="bsp__gpio_8cpp_1a859d94545c79f456b2914ae7f5a39b70" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="bsp__gpio_8cpp_1a859d94545c79f456b2914ae7f5a39b70" kindref="member">bspGpioNoTone</ref>(uint8_t<sp/>pin)<sp/>{<sp/>noTone(pin);<sp/>}</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>definitions<sp/>------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/bsp/bsp_gpio.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_gpio.cpp"/>
   </compounddef>
 </doxygen>

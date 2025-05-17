@@ -3,13 +3,13 @@
   <compounddef id="button_8h" kind="file" language="C++">
     <compoundname>button.h</compoundname>
     <includes local="yes">Arduino.h</includes>
-    <includedby refid="button_8cpp" local="yes">lib/button/src/button.cpp</includedby>
+    <includedby refid="button_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/button/src/button.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>lib/button/src/button.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/button/src/button.h</label>
         <link refid="button_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/button/src/button.h" line="7" column="1" bodyfile="lib/button/src/button.h" bodystart="8" bodyend="12"/>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="7" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="8" bodyend="12"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/button/src/button.h" line="15" column="9" bodyfile="lib/button/src/button.h" bodystart="15" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="15" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -160,6 +160,6 @@
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>BUTTON_H</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/button/src/button.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h"/>
   </compounddef>
 </doxygen>

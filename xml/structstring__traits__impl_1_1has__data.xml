@@ -40,7 +40,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="33" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="33" bodyend="33"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="33" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="33" bodyend="33"/>
     <listofallmembers>
       <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>string_traits_impl::has_data</scope><name>value</name></member>
     </listofallmembers>

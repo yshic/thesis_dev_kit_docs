@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="19" column="26" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="19" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="19" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="21" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="21" bodyend="23"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="21" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="21" bodyend="23"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="27" column="37" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="27" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="27" column="37" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="27" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e_1a97f514be5514f7332736668ce95a7de6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="33" column="37" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="33" bodyend="36"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="33" column="37" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="33" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e_1a60076d17cea4e7c39824d5bba11f2d14" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="40" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="40" bodyend="42"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="40" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="40" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e_1a9f62fcec88654b0b8006cb47b33ab63c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -134,14 +134,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="46" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="46" bodyend="48"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="46" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="46" bodyend="48"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="14" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="18" bodyend="49"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" line="14" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp" bodystart="18" bodyend="49"/>
     <listofallmembers>
       <member refid="struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e_1ad28596702178ab1d48d2b2c3dc5e2a56" prot="public" virt="non-virtual"><scope>StringAdapter&lt; T, typename enable_if&lt;(string_traits&lt; T &gt;::has_cstr||string_traits&lt; T &gt;::has_data) &amp;&amp;(string_traits&lt; T &gt;::has_length||string_traits&lt; T &gt;::has_size)&gt;::type &gt;</scope><name>adapt</name></member>
       <member refid="struct_string_adapter_3_01_t_00_01typename_01enable__if_3_07string__traits_3_01_t_01_4_1_1has__c24b51eeefdc847d8c6d990632f11492e_1a38a750f5e8d3a297f44c6dacece8bf7a" prot="public" virt="non-virtual"><scope>StringAdapter&lt; T, typename enable_if&lt;(string_traits&lt; T &gt;::has_cstr||string_traits&lt; T &gt;::has_data) &amp;&amp;(string_traits&lt; T &gt;::has_length||string_traits&lt; T &gt;::has_size)&gt;::type &gt;</scope><name>AdaptedString</name></member>

@@ -4,10 +4,10 @@
     <compoundname>bsp_pwm.h</compoundname>
     <includes local="yes">WProgram.h</includes>
     <includes local="yes">esp32-hal-ledc.h</includes>
-    <includedby refid="bsp__pwm_8cpp" local="yes">lib/bsp/bsp_pwm.cpp</includedby>
+    <includedby refid="bsp__pwm_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/bsp/bsp_pwm.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.h</label>
         <link refid="bsp__pwm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -23,11 +23,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/bsp/bsp_pwm.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.cpp</label>
         <link refid="bsp__pwm_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/bsp/bsp_pwm.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.h</label>
         <link refid="bsp__pwm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/bsp/bsp_pwm.h" line="24" column="9" bodyfile="lib/bsp/bsp_pwm.h" bodystart="24" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.h" line="24" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -92,6 +92,6 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/bsp/bsp_pwm.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/bsp/bsp_pwm.h"/>
   </compounddef>
 </doxygen>

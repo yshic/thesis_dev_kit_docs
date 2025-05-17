@@ -4,7 +4,7 @@
     <compoundname>DynamicJsonDocument.hpp</compoundname>
     <includes refid="_basic_json_document_8hpp" local="no">ArduinoJson/Document/BasicJsonDocument.hpp</includes>
     <includes local="no">stdlib.h</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
     <incdepgraph>
       <node id="4">
         <label>ArduinoJson/Array/ElementProxy.hpp</label>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -709,11 +709,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="30" column="27" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="30" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="30" column="27" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -773,6 +773,6 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp"/>
   </compounddef>
 </doxygen>

@@ -45,7 +45,7 @@
         <link refid="struct_variant_tag"/>
       </node>
     </inheritancegraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp" line="11" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp" bodystart="11" bodyend="11"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp" line="11" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp" bodystart="11" bodyend="11"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

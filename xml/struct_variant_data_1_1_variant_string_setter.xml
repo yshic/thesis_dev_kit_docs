@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="318" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="318" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="318" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="318" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="308" column="5" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="308" bodyend="308"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="308" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="308" bodyend="308"/>
       </memberdef>
       <memberdef kind="function" id="struct_variant_data_1_1_variant_string_setter_1ae2e973e3d9d8440d3e51bc58428e7e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="311" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="311" bodyend="316"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="311" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="311" bodyend="316"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="307" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="307" bodyend="319"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" line="307" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp" bodystart="307" bodyend="319"/>
     <listofallmembers>
       <member refid="struct_variant_data_1_1_variant_string_setter_1a5d50250a0d2674a7a10d15d46d1df248" prot="public" virt="non-virtual"><scope>VariantData::VariantStringSetter</scope><name>instance_</name></member>
       <member refid="struct_variant_data_1_1_variant_string_setter_1ae2e973e3d9d8440d3e51bc58428e7e11" prot="public" virt="non-virtual"><scope>VariantData::VariantStringSetter</scope><name>operator()</name></member>

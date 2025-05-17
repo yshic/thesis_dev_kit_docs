@@ -19,6 +19,6 @@
 <codeline><highlight class="normal">-<sp/>**Read<sp/>Temperature<sp/>and<sp/>Humidity:**<sp/>Retrieves<sp/>accurate<sp/>temperature<sp/>and<sp/>humidity<sp/>data.</highlight></codeline>
 <codeline><highlight class="normal">-<sp/>**Reset<sp/>Functionality:**<sp/>Allows<sp/>resetting<sp/>the<sp/>sensor<sp/>if<sp/>needed.</highlight></codeline>
     </programlisting>
-    <location file="lib/dht20/README.md"/>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/README.md"/>
   </compounddef>
 </doxygen>

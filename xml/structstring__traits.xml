@@ -50,14 +50,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="71" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="71" bodyend="76"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="71" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="71" bodyend="76"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="70" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="70" bodyend="77"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="70" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="70" bodyend="77"/>
     <listofallmembers>
       <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a94061d71c1039cdcf73787883946c595" prot="public" virt="non-virtual"><scope>string_traits</scope><name>has_cstr</name></member>
       <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a91b8ed7e42e82a0e6ec1ec85f53acdc7" prot="public" virt="non-virtual"><scope>string_traits</scope><name>has_data</name></member>

@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="class_unit4_relay" kind="class" language="C++" prot="public">
     <compoundname>Unit4Relay</compoundname>
+    <includes refid="unit__4relay_8h" local="no">unit_4relay.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_unit4_relay_1a20fa55440887ecdc739b7925e51ac8b6" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -16,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="167" column="8" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="167" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="265" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="265" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_unit4_relay_1a165060cd18fe2b982bfeaa98896e5b49" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -31,12 +32,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="168" column="8" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="168" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="266" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="266" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::begin</definition>
         <argsstring>()</argsstring>
         <name>begin</name>
@@ -45,10 +46,20 @@
 <para>Initializes the Unit 4-<ref refid="class_relay" kindref="compound">Relay</ref> module. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function checks if the device is available on the I2C bus.</para>
-<para><simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Device detected and ready.</para>
-</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_I2C (8213)</computeroutput>: Device not found. </para>
+<para>Checks for the presence of the module on the I2C bus at address 0x26.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Ensure the module is powered and connected to the I2C bus before calling.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Module detected and ready</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_I2C</computeroutput>: Module not found or I2C communication error </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -56,10 +67,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="58" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="26" bodyend="34"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="102" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="26" bodyend="34"/>
+        <references refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" compoundref="bsp__i2c_8cpp" startline="218" endline="222">bspI2CExist</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::init</definition>
         <argsstring>(bool mode)</argsstring>
         <name>init</name>
@@ -69,25 +81,27 @@
           <declname>mode</declname>
         </param>
         <briefdescription>
-<para>Sets the mode of the device and turns off all relays. </para>
+<para>Configures the operating mode and turns off all relays. </para>
         </briefdescription>
         <detaileddescription>
+<para>Sets the module to synchronous or asynchronous mode and initializes all relays to OFF.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">mode</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Operation mode:<itemizedlist>
-<listitem><para><computeroutput>0</computeroutput>: Asynchronous mode.</para>
-</listitem><listitem><para><computeroutput>1</computeroutput>: Synchronous mode.</para>
-</listitem></itemizedlist>
-</para>
+<para>Operating mode: <verbatim>            - `0`: Asynchronous mode
+
+            - `1`: Synchronous mode
+</verbatim> </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Call after <computeroutput><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin()</ref></computeroutput> to ensure proper initialization.</para>
+</simplesect>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Success.</para>
-</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INIT(8210)</computeroutput>: Failed to write initial configuration to device. </para>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INIT</computeroutput>: Failed to write initial configuration </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -95,10 +109,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="72" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="36" bodyend="49"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="122" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="36" bodyend="49"/>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::relayWrite</definition>
         <argsstring>(uint8_t number, bool state)</argsstring>
         <name>relayWrite</name>
@@ -115,13 +130,13 @@
 <para>Sets the state of an individual relay. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function turns ON or OFF a specified relay by index.</para>
+<para>Turns a specified relay ON or OFF by updating the I2C register and internal state.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">number</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ref refid="class_relay" kindref="compound">Relay</ref> number (0-3). </para>
+<para><ref refid="class_relay" kindref="compound">Relay</ref> index (0–3). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -129,13 +144,15 @@
 <parametername direction="in">state</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Desired relay state (<computeroutput>true</computeroutput> = ON, <computeroutput>false</computeroutput> = OFF).</para>
+<para>Desired state (<computeroutput>true</computeroutput> for ON, <computeroutput>false</computeroutput> for OFF).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the relay index is valid (0–3).</para>
+</simplesect>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Success.</para>
-</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX (8211)</computeroutput>: Invalid relay index. </para>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX</computeroutput>: Invalid relay index </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -143,10 +160,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="87" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="51" bodyend="76"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="139" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="51" bodyend="76"/>
+        <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::relayAll</definition>
         <argsstring>(bool state)</argsstring>
         <name>relayAll</name>
@@ -159,18 +178,18 @@
 <para>Sets all relays to the same state. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function turns all relays ON or OFF.</para>
+<para>Turns all relays ON or OFF simultaneously and updates the internal state.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">state</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Desired relay state for all (<computeroutput>true</computeroutput> = ON, <computeroutput>false</computeroutput> = OFF).</para>
+<para>Desired state for all relays (<computeroutput>true</computeroutput> for ON, <computeroutput>false</computeroutput> for OFF).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Success. </para>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -178,10 +197,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="99" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="78" bodyend="88"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="151" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="78" bodyend="88"/>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::ledWrite</definition>
         <argsstring>(uint8_t number, bool state)</argsstring>
         <name>ledWrite</name>
@@ -198,13 +218,13 @@
 <para>Sets the state of an individual LED. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function turns ON or OFF a specified indicator LED by index.</para>
+<para>Turns a specified indicator LED ON or OFF by updating the I2C register and internal state.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">number</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>LED number (0-3). </para>
+<para>LED index (0–3). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -212,13 +232,15 @@
 <parametername direction="in">state</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Desired LED state (<computeroutput>true</computeroutput> = ON, <computeroutput>false</computeroutput> = OFF).</para>
+<para>Desired state (<computeroutput>true</computeroutput> for ON, <computeroutput>false</computeroutput> for OFF).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the LED index is valid (0–3).</para>
+</simplesect>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Success.</para>
-</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX (8211)</computeroutput>: Invalid LED index. </para>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX</computeroutput>: Invalid LED index </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -226,10 +248,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="114" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="90" bodyend="114"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="167" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="90" bodyend="114"/>
+        <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::ledAll</definition>
         <argsstring>(bool state)</argsstring>
         <name>ledAll</name>
@@ -242,18 +266,18 @@
 <para>Sets all LEDs to the same state. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function turns all indicator LEDs ON or OFF.</para>
+<para>Turns all indicator LEDs ON or OFF simultaneously and updates the internal state.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">state</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Desired LED state for all (<computeroutput>true</computeroutput> = ON, <computeroutput>false</computeroutput> = OFF).</para>
+<para>Desired state for all LEDs (<computeroutput>true</computeroutput> for ON, <computeroutput>false</computeroutput> for OFF).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Success. </para>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -261,10 +285,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="126" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="116" bodyend="126"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="179" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="116" bodyend="126"/>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unit_4relay_error_t</type>
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::switchMode</definition>
         <argsstring>(bool mode)</argsstring>
         <name>switchMode</name>
@@ -274,21 +299,21 @@
           <declname>mode</declname>
         </param>
         <briefdescription>
-<para>Sets the operating mode of the relay unit. </para>
+<para>Sets the operating mode of the relay module. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function changes the internal mode of the device, such as LED or relay mode.</para>
+<para>Changes the module’s operating mode to synchronous or asynchronous.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">mode</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Desired mode setting.</para>
+<para>Desired mode (<computeroutput>0</computeroutput> for asynchronous, <computeroutput>1</computeroutput> for synchronous).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><computeroutput>UNIT_4RELAY_OK (8208)</computeroutput>: Success. </para>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -296,7 +321,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="138" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="128" bodyend="133"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="191" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="128" bodyend="133"/>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -309,21 +335,25 @@
           <declname>number</declname>
         </param>
         <briefdescription>
-<para>Gets the state of a specific relay. </para>
+<para>Retrieves the state of a specific relay. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns the current state of the specified relay from the internal state array.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">number</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ref refid="class_relay" kindref="compound">Relay</ref> number (0-3).</para>
+<para><ref refid="class_relay" kindref="compound">Relay</ref> index (0–3).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the relay index is valid (0–3).</para>
+</simplesect>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para><ref refid="class_relay" kindref="compound">Relay</ref> state (<computeroutput>0</computeroutput> = OFF, <computeroutput>1</computeroutput> = ON).</para>
-</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX (8211)</computeroutput>: If an invalid index is provided. </para>
+<listitem><para><computeroutput>0</computeroutput>: <ref refid="class_relay" kindref="compound">Relay</ref> is OFF</para>
+</listitem><listitem><para><computeroutput>1</computeroutput>: <ref refid="class_relay" kindref="compound">Relay</ref> is ON</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX</computeroutput>: Invalid relay index </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -331,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="150" column="7" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="135" bodyend="143"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="209" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="135" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -344,21 +374,25 @@
           <declname>number</declname>
         </param>
         <briefdescription>
-<para>Gets the state of a specific LED. </para>
+<para>Retrieves the state of a specific LED. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns the current state of the specified LED from the internal state array.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">number</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>LED number (0-3).</para>
+<para>LED index (0–3).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the LED index is valid (0–3).</para>
+</simplesect>
 <simplesect kind="return"><para><itemizedlist>
-<listitem><para>LED state (<computeroutput>0</computeroutput> = OFF, <computeroutput>1</computeroutput> = ON).</para>
-</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX (8211)</computeroutput>: If an invalid index is provided. </para>
+<listitem><para><computeroutput>0</computeroutput>: LED is OFF</para>
+</listitem><listitem><para><computeroutput>1</computeroutput>: LED is ON</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_INDEX</computeroutput>: Invalid LED index </para>
 </listitem></itemizedlist>
 </para>
 </simplesect>
@@ -366,34 +400,114 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="162" column="7" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="156" bodyend="164"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="227" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="145" bodyend="153"/>
       </memberdef>
-      <memberdef kind="function" id="class_unit4_relay_1a957acf90f70a704ac7b5322dfbab5869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Unit4Relay::setRelayState</definition>
+      <memberdef kind="function" id="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
+        <definition>unit_4relay_error_t Unit4Relay::setRelayStates</definition>
         <argsstring>(bool state[4])</argsstring>
-        <name>setRelayState</name>
-        <qualifiedname>Unit4Relay::setRelayState</qualifiedname>
+        <name>setRelayStates</name>
+        <qualifiedname>Unit4Relay::setRelayStates</qualifiedname>
         <param>
           <type>bool</type>
           <declname>state</declname>
           <array>[4]</array>
         </param>
         <briefdescription>
+<para>Stages relay states without writing to the module. </para>
         </briefdescription>
         <detaileddescription>
+<para>Updates the internal relay state array with the provided states, deferring physical changes until <computeroutput><ref refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" kindref="member">applyRelayState()</ref></computeroutput> is called.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of four boolean values representing the desired state for each relay (<computeroutput>true</computeroutput> for ON, <computeroutput>false</computeroutput> for OFF).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>The state array must contain exactly four elements. Use <computeroutput><ref refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" kindref="member">applyRelayState()</ref></computeroutput> to write the staged states to the module.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/unit_4relay/src/unit_4relay.h" line="164" column="8" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="145" bodyend="154"/>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="244" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="155" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
+        <definition>unit_4relay_error_t Unit4Relay::applyRelayState</definition>
+        <argsstring>()</argsstring>
+        <name>applyRelayState</name>
+        <qualifiedname>Unit4Relay::applyRelayState</qualifiedname>
+        <briefdescription>
+<para>Applies the staged relay states to the module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the internal relay state array to the module’s I2C register, turning relays ON or OFF as specified by the states set via <computeroutput>setRelayState()</computeroutput>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">None</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Requires a prior call to <computeroutput>setRelayState()</computeroutput> to stage the desired relay states. Ensure the module is initialized with <computeroutput><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin()</ref></computeroutput> and <computeroutput><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">init()</ref></computeroutput>.</para>
+</simplesect>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para><computeroutput>UNIT_4RELAY_OK</computeroutput>: Success</para>
+</listitem><listitem><para><computeroutput>UNIT_4RELAY_ERR_I2C</computeroutput>: I2C communication error </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="262" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="167" bodyend="182"/>
+        <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Manages a 4-relay module with I2C interface for relay and LED control. </para>
     </briefdescription>
     <detaileddescription>
+<para>The <computeroutput><ref refid="class_unit4_relay" kindref="compound">Unit4Relay</ref></computeroutput> class provides functionality for controlling a 4-relay module over I2C, including initializing the module, setting relay and LED states individually or collectively, switching operating modes (synchronous/asynchronous), and retrieving relay and LED states. It maintains internal state arrays for relays and LEDs.</para>
+<sect3 id="class_unit4_relay_1autotoc_md46">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Controls up to four relays with ON/OFF states.</para>
+</listitem><listitem><para>Manages indicator LEDs corresponding to each relay.</para>
+</listitem><listitem><para>Supports synchronous and asynchronous operating modes.</para>
+</listitem><listitem><para>Provides individual and collective control for relays and LEDs.</para>
+</listitem><listitem><para>Retrieves current relay and LED states with error handling.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="class_unit4_relay_1autotoc_md47">
+<title>Usage:</title>
+<para>Instantiate the class and call <computeroutput><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin()</ref></computeroutput> to verify I2C connectivity, followed by <computeroutput><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">init()</ref></computeroutput> to set the operating mode and reset relays. Use <computeroutput><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">relayWrite()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">relayAll()</ref></computeroutput> to control relays, <computeroutput><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">ledWrite()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">ledAll()</ref></computeroutput> for LEDs, and <computeroutput><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">switchMode()</ref></computeroutput> to change modes. Retrieve states with <computeroutput><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">getRelayState()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">getLedState()</ref></computeroutput>. Use <computeroutput>setRelayState()</computeroutput> to stage relay states without immediate I2C writes.</para>
+</sect3>
+<sect3 id="class_unit4_relay_1autotoc_md48">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with I2C support.</para>
+</listitem><listitem><para>Module must be connected to the I2C bus at address <computeroutput>UNIT_4RELAY_I2C_ADDR</computeroutput> (0x26).</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__i2c_8h" kindref="compound">bsp_i2c.h</ref></computeroutput> for I2C operations (<computeroutput>bspI2CExist</computeroutput>, <computeroutput>bspI2CWriteByte</computeroutput>, <computeroutput>bspI2CReadByte</computeroutput>). </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
     </detaileddescription>
-    <location file="lib/unit_4relay/src/unit_4relay.h" line="45" column="1" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="46" bodyend="169"/>
+    <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="85" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="86" bodyend="267"/>
     <listofallmembers>
+      <member refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>applyRelayState</name></member>
       <member refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>begin</name></member>
       <member refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>getLedState</name></member>
       <member refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>getRelayState</name></member>
@@ -404,7 +518,7 @@
       <member refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>relayAll</name></member>
       <member refid="class_unit4_relay_1a20fa55440887ecdc739b7925e51ac8b6" prot="private" virt="non-virtual"><scope>Unit4Relay</scope><name>relayState</name></member>
       <member refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>relayWrite</name></member>
-      <member refid="class_unit4_relay_1a957acf90f70a704ac7b5322dfbab5869" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>setRelayState</name></member>
+      <member refid="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>setRelayStates</name></member>
       <member refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>switchMode</name></member>
     </listofallmembers>
   </compounddef>

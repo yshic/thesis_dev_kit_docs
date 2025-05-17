@@ -1,0 +1,6 @@
+<map id="Relay::toggle" name="Relay::toggle">
+<area shape="rect" id="node1" title="Toggles the relay state." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$class_relay.html#a06078d488d6b12acf83f88e0d78e1737" title="Turns the relay off." alt="" coords="152,5,229,32"/>
+<area shape="rect" id="node4" href="$class_relay.html#a674ccf47e38920324b76e85654dce550" title="Turns the relay on." alt="" coords="152,56,229,83"/>
+<area shape="rect" id="node3" href="$bsp__gpio_8cpp.html#a8c56622b894fbc2433dadc6fb4a95b97" title="This function writes the state of a digital pin." alt="" coords="277,31,413,57"/>
+</map>

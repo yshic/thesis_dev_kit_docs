@@ -17,14 +17,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" line="28" column="19" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" bodystart="28" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" line="28" column="19" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" line="27" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" bodystart="27" bodyend="29"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" line="27" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp" bodystart="27" bodyend="29"/>
     <listofallmembers>
       <member refid="structint__t_3_0132_01_4_1a110489289b41b3528d5b25022c929edd" prot="public" virt="non-virtual"><scope>int_t&lt; 32 &gt;</scope><name>type</name></member>
     </listofallmembers>

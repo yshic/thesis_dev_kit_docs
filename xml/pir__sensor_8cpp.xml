@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/pir_sensor/src/pir_sensor.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp</label>
         <link refid="pir__sensor_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -63,13 +63,13 @@
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>Definitions<sp/>----------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><ref refid="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" kindref="member">PIRSensor::PIRSensor</ref>(uint8_t<sp/>pin)</highlight></codeline>
+<codeline lineno="29" refid="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" refkind="member"><highlight class="normal"><ref refid="class_p_i_r_sensor_1a85915f72017180a4193990d3508c332c" kindref="member">PIRSensor::PIRSensor</ref>(uint8_t<sp/>pin)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>_pin(pin),<sp/>status(0),<sp/>_lastMotionTime(0),<sp/>_debounceTime(0),<sp/>_motionCallback(nullptr)</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" kindref="member">bspGpioPinMode</ref>(_pin,<sp/>INPUT);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">PIRSensor::read</ref>()</highlight></codeline>
+<codeline lineno="35" refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1a333aef3852d9caa14fb64dad7d51404a" kindref="member">PIRSensor::read</ref>()</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>currentTime<sp/>=<sp/>millis();</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((currentTime<sp/>-<sp/>_lastMotionTime)<sp/>&lt;<sp/>_debounceTime)</highlight></codeline>
@@ -92,9 +92,9 @@
 <codeline lineno="55"><highlight class="normal"><sp/><sp/>status<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal">uint8_t<sp/><ref refid="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" kindref="member">PIRSensor::getStatus</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;<sp/>}</highlight></codeline>
+<codeline lineno="58" refid="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="class_p_i_r_sensor_1ad67ad2e67e2c366496a3433dac4f8ae5" kindref="member">PIRSensor::getStatus</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;<sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" kindref="member">PIRSensor::setDebounceTime</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>debounceTime)</highlight></codeline>
+<codeline lineno="60" refid="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" refkind="member"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1a5ecbf04067eb089d64f9a49bfd17d2b4" kindref="member">PIRSensor::setDebounceTime</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>debounceTime)</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(debounceTime<sp/>&lt;<sp/>0)</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -104,7 +104,7 @@
 <codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PIR_SENSOR_OK;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" kindref="member">PIRSensor::isMotionContinuous</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration)</highlight></codeline>
+<codeline lineno="70" refid="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1ad580dd877f65e8263457e02a7e2e60ff" kindref="member">PIRSensor::isMotionContinuous</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration)</highlight></codeline>
 <codeline lineno="71"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime<sp/>=<sp/>millis();</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(millis()<sp/>-<sp/>startTime<sp/>&lt;<sp/>duration)</highlight></codeline>
@@ -117,9 +117,9 @@
 <codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;<sp/></highlight><highlight class="comment">//<sp/>Motion<sp/>detected<sp/>continuously<sp/>for<sp/>the<sp/>duration</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1a687203f6ca25ca3eb572bbc47a83f735" kindref="member">PIRSensor::getLastMotionTime</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_lastMotionTime;<sp/>}</highlight></codeline>
+<codeline lineno="83" refid="class_p_i_r_sensor_1a687203f6ca25ca3eb572bbc47a83f735" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1a687203f6ca25ca3eb572bbc47a83f735" kindref="member">PIRSensor::getLastMotionTime</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_lastMotionTime;<sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" kindref="member">PIRSensor::setMotionCallback</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*callback)())</highlight></codeline>
+<codeline lineno="85" refid="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" refkind="member"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1acef5448517b8e5b2e11227c0c94f3bc9" kindref="member">PIRSensor::setMotionCallback</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*callback)())</highlight></codeline>
 <codeline lineno="86"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!callback)</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -129,13 +129,13 @@
 <codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PIR_SENSOR_OK;</highlight></codeline>
 <codeline lineno="93"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1a7a7f564e3430c676460fb4f083f0a452" kindref="member">PIRSensor::disableMotionCallback</ref>()</highlight></codeline>
+<codeline lineno="95" refid="class_p_i_r_sensor_1a7a7f564e3430c676460fb4f083f0a452" refkind="member"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1a7a7f564e3430c676460fb4f083f0a452" kindref="member">PIRSensor::disableMotionCallback</ref>()</highlight></codeline>
 <codeline lineno="96"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/>_motionCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PIR_SENSOR_OK;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" kindref="member">PIRSensor::setSensitivity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level)</highlight></codeline>
+<codeline lineno="101" refid="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" refkind="member"><highlight class="normal"><ref refid="pir__sensor_8h_1a77c6186c0c93f54869bd52377cf057b0" kindref="member">pir_sensor_error_t</ref><sp/><ref refid="class_p_i_r_sensor_1a4141965c31f3ee33e01c5c13299ffc7f" kindref="member">PIRSensor::setSensitivity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level)</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Assuming<sp/>sensitivity<sp/>can<sp/>be<sp/>mapped<sp/>to<sp/>debounce<sp/>time<sp/>for<sp/>simplicity</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(level)</highlight></codeline>
@@ -155,7 +155,7 @@
 <codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PIR_SENSOR_OK;</highlight></codeline>
 <codeline lineno="119"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" kindref="member">PIRSensor::reset</ref>()</highlight></codeline>
+<codeline lineno="121" refid="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_p_i_r_sensor_1aae89f9041cb5bbb925e358fb990eaf6f" kindref="member">PIRSensor::reset</ref>()</highlight></codeline>
 <codeline lineno="122"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/>status<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/>_lastMotionTime<sp/>=<sp/>0;</highlight></codeline>
@@ -168,6 +168,6 @@
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/pir_sensor/src/pir_sensor.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp"/>
   </compounddef>
 </doxygen>

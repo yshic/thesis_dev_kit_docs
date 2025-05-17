@@ -3,10 +3,10 @@
   <compounddef id="light__sensor_8h" kind="file" language="C++">
     <compoundname>light_sensor.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="light__sensor_8cpp" local="yes">lib/light_sensor/src/light_sensor.cpp</includedby>
+    <includedby refid="light__sensor_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/light_sensor/src/light_sensor.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h</label>
         <link refid="light__sensor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/light_sensor/src/light_sensor.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp</label>
         <link refid="light__sensor_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/light_sensor/src/light_sensor.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h</label>
         <link refid="light__sensor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/light_sensor/src/light_sensor.h" line="24" column="1" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="25" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="24" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" bodystart="25" bodyend="30"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -141,6 +141,6 @@
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/light_sensor/src/light_sensor.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h"/>
   </compounddef>
 </doxygen>

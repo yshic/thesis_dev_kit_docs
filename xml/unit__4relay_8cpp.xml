@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/unit_4relay/src/unit_4relay.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp</label>
         <link refid="unit__4relay_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -57,7 +57,7 @@
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>variables<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>method<sp/>definitions--------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">Unit4Relay::begin</ref>()</highlight></codeline>
+<codeline lineno="26" refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">Unit4Relay::begin</ref>()</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" kindref="member">bspI2CExist</ref>(UNIT_4RELAY_I2C_ADDR))</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -67,7 +67,7 @@
 <codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">Unit4Relay::init</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
+<codeline lineno="36" refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">Unit4Relay::init</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(UNIT_4RELAY_I2C_ADDR,<sp/>UNIT_4RELAY_REG,<sp/>mode)<sp/>!=<sp/>BSP_I2C_OK)</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -82,7 +82,7 @@
 <codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">Unit4Relay::relayWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
+<codeline lineno="51" refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">Unit4Relay::relayWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
 <codeline lineno="52"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(number<sp/>&gt;=<sp/>UNIT_4RELAY_MAX_RELAYS)</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -109,7 +109,7 @@
 <codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">Unit4Relay::relayAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
+<codeline lineno="78" refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">Unit4Relay::relayAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
 <codeline lineno="79"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(UNIT_4RELAY_I2C_ADDR,<sp/>UNIT_4RELAY_RELAY_REG,<sp/>state<sp/>*<sp/>(0x0f));</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
@@ -121,7 +121,7 @@
 <codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="88"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">Unit4Relay::ledWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
+<codeline lineno="90" refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">Unit4Relay::ledWrite</ref>(uint8_t<sp/>number,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(number<sp/>&gt;=<sp/>UNIT_4RELAY_MAX_RELAYS)</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -147,7 +147,7 @@
 <codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">Unit4Relay::ledAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
+<codeline lineno="116" refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">Unit4Relay::ledAll</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
 <codeline lineno="117"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(UNIT_4RELAY_I2C_ADDR,<sp/>UNIT_4RELAY_RELAY_REG,<sp/>state<sp/>*<sp/>(0xf0));</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
@@ -159,14 +159,14 @@
 <codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="126"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal">unit_4relay_error_t<sp/><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">Unit4Relay::switchMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
+<codeline lineno="128" refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">Unit4Relay::switchMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(UNIT_4RELAY_I2C_ADDR,<sp/>UNIT_4RELAY_REG,<sp/>mode);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">Unit4Relay::getRelayState</ref>(uint8_t<sp/>number)</highlight></codeline>
+<codeline lineno="135" refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">Unit4Relay::getRelayState</ref>(uint8_t<sp/>number)</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(number<sp/>&gt;=<sp/>UNIT_4RELAY_MAX_RELAYS)</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -176,30 +176,48 @@
 <codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>relayState[number];</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Unit4Relay::setRelayState(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state[4])</highlight></codeline>
+<codeline lineno="145" refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">Unit4Relay::getLedState</ref>(uint8_t<sp/>number)</highlight></codeline>
 <codeline lineno="146"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>UNIT_4RELAY_MAX_RELAYS;<sp/>i++)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(number<sp/>&gt;=<sp/>UNIT_4RELAY_MAX_RELAYS)</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(state[i])</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>relayState[i]<sp/>=<sp/>state[i];</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="154"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">Unit4Relay::getLedState</ref>(uint8_t<sp/>number)</highlight></codeline>
-<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(number<sp/>&gt;=<sp/>UNIT_4RELAY_MAX_RELAYS)</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_ERR_INDEX;</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ledState[number];</highlight></codeline>
-<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_ERR_INDEX;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ledState[number];</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b" kindref="member">Unit4Relay::setRelayStates</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state[4])</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>UNIT_4RELAY_MAX_RELAYS;<sp/>i++)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(state[i])</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>relayState[i]<sp/>=<sp/>state[i];</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="167" refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" refkind="member"><highlight class="normal"><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref><sp/><ref refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" kindref="member">Unit4Relay::applyRelayState</ref>()</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>uint8_t<sp/>stateByte<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>UNIT_4RELAY_MAX_RELAYS;<sp/>i++)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(relayState[i])</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>stateByte<sp/>|=<sp/>(0x01<sp/>&lt;&lt;<sp/>i);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" kindref="member">bspI2CWriteByte</ref>(UNIT_4RELAY_I2C_ADDR,<sp/>UNIT_4RELAY_RELAY_REG,<sp/>stateByte)<sp/>!=<sp/>BSP_I2C_OK)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_ERR_I2C;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>UNIT_4RELAY_OK;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/unit_4relay/src/unit_4relay.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp"/>
   </compounddef>
 </doxygen>

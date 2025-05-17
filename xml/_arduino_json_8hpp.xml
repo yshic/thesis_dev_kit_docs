@@ -25,7 +25,7 @@
     <includes refid="compatibility_8hpp" local="yes">ArduinoJson/compatibility.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -1273,6 +1273,6 @@
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ArduinoJson/compatibility.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp"/>
   </compounddef>
 </doxygen>

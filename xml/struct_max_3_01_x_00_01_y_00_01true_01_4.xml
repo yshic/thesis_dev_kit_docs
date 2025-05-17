@@ -28,14 +28,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" line="19" column="23" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" bodystart="19" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" line="19" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" line="18" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" bodystart="18" bodyend="20"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" line="18" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp" bodystart="18" bodyend="20"/>
     <listofallmembers>
       <member refid="struct_max_3_01_x_00_01_y_00_01true_01_4_1a866e8bd6cdab5eb3d3c9a9f9dea269e0" prot="public" virt="non-virtual"><scope>Max&lt; X, Y, true &gt;</scope><name>value</name></member>
     </listofallmembers>

@@ -10,8 +10,8 @@
     <includes refid="type__traits_8hpp" local="no">ArduinoJson/Polyfills/type_traits.hpp</includes>
     <includes refid="_converter_8hpp" local="no">ArduinoJson/Variant/Converter.hpp</includes>
     <includes refid="_variant_data_8hpp" local="no">ArduinoJson/Variant/VariantData.hpp</includes>
-    <includedby refid="_json_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
-    <includedby refid="_variant_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</includedby>
+    <includedby refid="_json_deserializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
+    <includedby refid="_variant_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</includedby>
     <incdepgraph>
       <node id="59">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -118,7 +118,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
         <link refid="parse_number_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -538,17 +538,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
         <link refid="parse_number_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -556,7 +556,7 @@
         </childnode>
       </node>
       <node id="4">
-        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
         <link refid="_variant_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -583,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="21" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="21" bodyend="144"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="21" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="21" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="parse_number_8hpp_1a70e126858d7e77c9a9236633b8948091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -605,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="147" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="147" bodyend="151"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" line="147" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp" bodystart="147" bodyend="151"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -766,6 +766,6 @@
 <codeline lineno="151"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp"/>
   </compounddef>
 </doxygen>

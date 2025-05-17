@@ -9,7 +9,7 @@
         <link refid="_configuration_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp</label>
         <link refid="_flash_reader_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -118,6 +118,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp"/>
   </compounddef>
 </doxygen>

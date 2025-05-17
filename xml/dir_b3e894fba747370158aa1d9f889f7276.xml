@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_b3e894fba747370158aa1d9f889f7276" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/LCD_I2C</compoundname>
+    <innerdir refid="dir_4b699977132c54dba435a92c57880608">thesis_mdt266_iotdevkit/lib/LCD_I2C/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/"/>
+  </compounddef>
+</doxygen>

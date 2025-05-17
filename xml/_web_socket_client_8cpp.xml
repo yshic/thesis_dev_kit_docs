@@ -19,7 +19,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoHttpClient/WebSocketClient.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp</label>
         <link refid="_web_socket_client_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -78,7 +78,7 @@
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" kindref="member">WebSocketClient::begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>aPath)</highlight></codeline>
+<codeline lineno="29" refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" kindref="member">WebSocketClient::begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>aPath)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>start<sp/>the<sp/>GET<sp/>request</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_http_client_1a640c3b63cac33d93614fb69e3ea4a360" kindref="member">beginRequest</ref>();</highlight></codeline>
@@ -124,7 +124,7 @@
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" kindref="member">begin</ref>(aPath.c_str());</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" kindref="member">WebSocketClient::beginMessage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aType)</highlight></codeline>
+<codeline lineno="75" refid="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1abcb2421a827ad726a78d32730395c445" kindref="member">WebSocketClient::beginMessage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aType)</highlight></codeline>
 <codeline lineno="76"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(iTxStarted)</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -139,7 +139,7 @@
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="88"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" kindref="member">WebSocketClient::endMessage</ref>()</highlight></codeline>
+<codeline lineno="90" refid="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a0c759d104dfeb98f26d13893bbc5674b" kindref="member">WebSocketClient::endMessage</ref>()</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!iTxStarted)</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -230,7 +230,7 @@
 <codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aSize;</highlight></codeline>
 <codeline lineno="179"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" kindref="member">WebSocketClient::parseMessage</ref>()</highlight></codeline>
+<codeline lineno="181" refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" kindref="member">WebSocketClient::parseMessage</ref>()</highlight></codeline>
 <codeline lineno="182"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>flushRx();</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
@@ -316,17 +316,17 @@
 <codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>iRxSize;</highlight></codeline>
 <codeline lineno="265"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" kindref="member">WebSocketClient::messageType</ref>()</highlight></codeline>
+<codeline lineno="267" refid="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a1e70a9603064456d9c418d841c262985" kindref="member">WebSocketClient::messageType</ref>()</highlight></codeline>
 <codeline lineno="268"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(iRxOpCode<sp/>&amp;<sp/>0x0f);</highlight></codeline>
 <codeline lineno="270"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="272"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a60dd6c3de4a82450bba897094216eb73" kindref="member">WebSocketClient::isFinal</ref>()</highlight></codeline>
+<codeline lineno="272" refid="class_web_socket_client_1a60dd6c3de4a82450bba897094216eb73" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1a60dd6c3de4a82450bba897094216eb73" kindref="member">WebSocketClient::isFinal</ref>()</highlight></codeline>
 <codeline lineno="273"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((iRxOpCode<sp/>&amp;<sp/>0x80)<sp/>!=<sp/>0);</highlight></codeline>
 <codeline lineno="275"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"></highlight></codeline>
-<codeline lineno="277"><highlight class="normal">String<sp/><ref refid="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" kindref="member">WebSocketClient::readString</ref>()</highlight></codeline>
+<codeline lineno="277" refid="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" refkind="member"><highlight class="normal">String<sp/><ref refid="class_web_socket_client_1a7948fdb8e293bbd2bbdd0758ec5e4dfa" kindref="member">WebSocketClient::readString</ref>()</highlight></codeline>
 <codeline lineno="278"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>avail<sp/>=<sp/>available();</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>s;</highlight></codeline>
@@ -344,7 +344,7 @@
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s;</highlight></codeline>
 <codeline lineno="293"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" kindref="member">WebSocketClient::ping</ref>()</highlight></codeline>
+<codeline lineno="295" refid="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1acb00365b65fb29ced9506b6bc87008d0" kindref="member">WebSocketClient::ping</ref>()</highlight></codeline>
 <codeline lineno="296"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>pingData[16];</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
@@ -369,7 +369,7 @@
 <codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>iRxSize;</highlight></codeline>
 <codeline lineno="318"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
-<codeline lineno="320"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" kindref="member">WebSocketClient::read</ref>()</highlight></codeline>
+<codeline lineno="320" refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_client_1adfbbbff32d9c8b22b1ad887e39289e96" kindref="member">WebSocketClient::read</ref>()</highlight></codeline>
 <codeline lineno="321"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>b;</highlight></codeline>
 <codeline lineno="323"><highlight class="normal"></highlight></codeline>
@@ -423,6 +423,6 @@
 <codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="372"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/WebSocketClient.cpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp"/>
   </compounddef>
 </doxygen>

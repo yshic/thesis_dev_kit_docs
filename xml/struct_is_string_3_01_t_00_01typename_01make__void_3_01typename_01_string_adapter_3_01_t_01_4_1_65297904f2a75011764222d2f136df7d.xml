@@ -36,7 +36,7 @@
         <link refid="structintegral__constant"/>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp" line="16" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp" bodystart="18" bodyend="18"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp" line="16" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp" bodystart="18" bodyend="18"/>
     <listofallmembers>
       <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>IsString&lt; T, typename make_void&lt; typename StringAdapter&lt; T &gt;::AdaptedString &gt;::type &gt;</scope><name>value</name></member>
     </listofallmembers>

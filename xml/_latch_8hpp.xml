@@ -3,14 +3,14 @@
   <compounddef id="_latch_8hpp" kind="file" language="C++">
     <compoundname>Latch.hpp</compoundname>
     <includes refid="assert_8hpp" local="no">ArduinoJson/Polyfills/assert.hpp</includes>
-    <includedby refid="_json_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
+    <includedby refid="_json_deserializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Configuration.hpp</label>
         <link refid="_configuration_8hpp_source"/>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/Latch.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Latch.hpp</label>
         <link refid="_latch_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,17 +24,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="2">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>lib/ArduinoJson/src/ArduinoJson/Json/Latch.hpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Latch.hpp</label>
         <link refid="_latch_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,6 +103,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Json/Latch.hpp"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Latch.hpp"/>
   </compounddef>
 </doxygen>

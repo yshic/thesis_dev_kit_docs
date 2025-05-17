@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="24" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" bodystart="24" bodyend="26"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="24" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" bodystart="24" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="_utf16_8hpp_1a2d5b9f8162ba16046baa68690d6217c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -38,13 +38,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="28" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" bodystart="28" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="28" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" bodystart="28" bodyend="30"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="23" column="1"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp" line="23" column="1"/>
   </compounddef>
 </doxygen>

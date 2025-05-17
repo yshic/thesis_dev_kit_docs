@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_e6837d17074001bc70912aa6ca30e5fb" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/mini_fan</compoundname>
+    <innerdir refid="dir_9e73787ee5f1eb5f810ee86d98ca698f">thesis_mdt266_iotdevkit/lib/mini_fan/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/mini_fan/"/>
+  </compounddef>
+</doxygen>

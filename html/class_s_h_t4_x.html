@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;0.4.0</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -132,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages temperature and humidity measurements using the <a class="el" href="class_s_h_t4_x.html" title="Manages temperature and humidity measurements using the SHT4X sensor.">SHT4X</a> sensor. </p>
 <p>The <code><a class="el" href="class_s_h_t4_x.html" title="Manages temperature and humidity measurements using the SHT4X sensor.">SHT4X</a></code> class facilitates interaction with the <a class="el" href="class_s_h_t4_x.html" title="Manages temperature and humidity measurements using the SHT4X sensor.">SHT4X</a> temperature and humidity sensor over an I2C interface. It supports initializing the sensor, configuring measurement precision and heater settings, and retrieving temperature and humidity data. The class stores sensor values internally for easy access.</p>
-<h3><a class="anchor" id="autotoc_md34"></a>
+<h3><a class="anchor" id="autotoc_md37"></a>
 Features:</h3>
 <ul>
 <li>Reads temperature and humidity with configurable precision levels.</li>
@@ -141,10 +141,10 @@ Features:</h3>
 <li>Provides access to the latest temperature and humidity readings.</li>
 <li>Allows configuration of measurement precision and heater modes.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md35"></a>
+<h3><a class="anchor" id="autotoc_md38"></a>
 Usage:</h3>
 <p>Instantiate the class and call <code><a class="el" href="class_s_h_t4_x.html#a8e85778bec0e7b9d4bf8add2490778f3" title="Initializes the SHT4X sensor.">begin()</a></code> to initialize the sensor. Use <code><a class="el" href="class_s_h_t4_x.html#a6b98f00ab94cb56a4472e08b468424c5" title="Updates temperature and humidity readings from the SHT4X sensor.">update()</a></code> to read temperature and humidity, then retrieve values with <code><a class="el" href="class_s_h_t4_x.html#a81aad791972516038e41fd8e02008da9" title="Retrieves the last measured temperature.">getTemperature()</a></code> and <code><a class="el" href="class_s_h_t4_x.html#afbbdcb2d7a4e690fb59f06462d9a1ccf" title="Retrieves the last measured humidity.">getHumidity()</a></code>. Configure precision with <code><a class="el" href="class_s_h_t4_x.html#ac21af46180b62c199abbc6a9f63b02b0" title="Sets the measurement precision of the SHT4X sensor.">setPrecision()</a></code> and heater settings with <code><a class="el" href="class_s_h_t4_x.html#a9664390bcd963ba9317a5abffa4ed570" title="Sets the heater mode of the SHT4X sensor.">setHeater()</a></code> as needed.</p>
-<h3><a class="anchor" id="autotoc_md36"></a>
+<h3><a class="anchor" id="autotoc_md39"></a>
 Dependencies:</h3>
 <ul>
 <li>Requires an I2C communication library (<code><a class="el" href="bsp__i2c_8h.html" title="Header file for bsp_i2c.">bsp_i2c.h</a></code> for <code>bspI2CExist</code>, <code>bspI2CWriteByte</code>, <code>bspI2CReadBytes</code>).</li>
@@ -181,6 +181,15 @@ Dependencies:</h3>
 <li><code>SHT4X_ERR_I2C</code>: Sensor not found or I2C communication error </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_s_h_t4_x_a8e85778bec0e7b9d4bf8add2490778f3_cgraph.png" border="0" usemap="#aclass_s_h_t4_x_a8e85778bec0e7b9d4bf8add2490778f3_cgraph" alt=""/></div>
+<map name="aclass_s_h_t4_x_a8e85778bec0e7b9d4bf8add2490778f3_cgraph" id="aclass_s_h_t4_x_a8e85778bec0e7b9d4bf8add2490778f3_cgraph">
+<area shape="rect" title="Initializes the SHT4X sensor." alt="" coords="5,5,109,32"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#acc6322b83a6e34f4b9d486caaf87308c" title="Checks if an I2C device is present on the bus." alt="" coords="157,5,250,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -382,12 +391,23 @@ Dependencies:</h3>
 <li><code>SHT4X_ERR_CHECKSUM</code>: Checksum mismatch indicating data corruption </li>
 </ul>
 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_s_h_t4_x_a6b98f00ab94cb56a4472e08b468424c5_cgraph.png" border="0" usemap="#aclass_s_h_t4_x_a6b98f00ab94cb56a4472e08b468424c5_cgraph" alt=""/></div>
+<map name="aclass_s_h_t4_x_a6b98f00ab94cb56a4472e08b468424c5_cgraph" id="aclass_s_h_t4_x_a6b98f00ab94cb56a4472e08b468424c5_cgraph">
+<area shape="rect" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="5,56,117,83"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="165,5,293,32"/>
+<area shape="rect" href="bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="169,56,289,83"/>
+<area shape="rect" href="utility_8cpp.html#a732bb003220387dc7af9c2751c1b2465" title="Calculates CRC&#45;8 checksum for the given data using SHT40&#39;s polynomial." alt="" coords="206,107,252,133"/>
+</map>
+</div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/sht4x/src/<a class="el" href="sht4x_8h_source.html">sht4x.h</a></li>
-<li>lib/sht4x/src/<a class="el" href="sht4x_8cpp.html">sht4x.cpp</a></li>
+<li>thesis_mdt266_iotdevkit/lib/sht4x/src/<a class="el" href="sht4x_8h_source.html">sht4x.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/sht4x/src/<a class="el" href="sht4x_8cpp.html">sht4x.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

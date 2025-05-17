@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_13deebad42d5ea7cdb8a8516766a3ec0" kind="dir">
+    <compoundname>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson</compoundname>
+    <innerdir refid="dir_35c16c3acbe1d72922651d8ead550f83">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array</innerdir>
+    <innerdir refid="dir_aba05d1f8bdadd9b51dd240f062677d4">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection</innerdir>
+    <innerdir refid="dir_6fcc82c2d0dbbe2fc364f724f45225e6">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization</innerdir>
+    <innerdir refid="dir_5577c67ae2921ceeb09ece12429b1f77">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document</innerdir>
+    <innerdir refid="dir_904f9774710b0b28231b7dcd4d24a8fe">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json</innerdir>
+    <innerdir refid="dir_4c9a027b6cee227fc9b0f26dff2ac982">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory</innerdir>
+    <innerdir refid="dir_bbf7635fc7ea999f5e6c89a7cb9b2b30">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc</innerdir>
+    <innerdir refid="dir_a7af8095b253248118ab1a1be6e42ba5">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack</innerdir>
+    <innerdir refid="dir_ab2c8b514eb223f3d4ba664674854729">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers</innerdir>
+    <innerdir refid="dir_b022e6daa339b23160b9e383375036fa">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object</innerdir>
+    <innerdir refid="dir_891920c1fcd0dccc3b42a58ca551808a">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills</innerdir>
+    <innerdir refid="dir_4ff44832d5399d602854a8a5e1b2f6b3">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization</innerdir>
+    <innerdir refid="dir_9e0c7672caa5d47e4cedc176bfebc230">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings</innerdir>
+    <innerdir refid="dir_6e4f8acb10b2051b1546a1a10c57e21d">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage</innerdir>
+    <innerdir refid="dir_a1f9c59ab89477e150ac9c525f7a843a">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant</innerdir>
+    <innerfile refid="compatibility_8hpp">compatibility.hpp</innerfile>
+    <innerfile refid="_configuration_8hpp">Configuration.hpp</innerfile>
+    <innerfile refid="_namespace_8hpp">Namespace.hpp</innerfile>
+    <innerfile refid="version_8hpp">version.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/"/>
+  </compounddef>
+</doxygen>

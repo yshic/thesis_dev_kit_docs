@@ -1,0 +1,4 @@
+<map id="MiniFan::setFanSpeed" name="MiniFan::setFanSpeed">
+<area shape="rect" id="node1" title="Sets the fan speed using a PWM value." alt="" coords="5,5,158,32"/>
+<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a9b2f7d9d0077df86b5fbd73942bcaffc" title="This function writes an analog value (PWM wave) to a pin." alt="" coords="206,5,345,32"/>
+</map>

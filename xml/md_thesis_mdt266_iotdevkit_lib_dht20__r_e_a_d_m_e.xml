@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e" kind="page">
+    <compoundname>md_thesis_mdt266_iotdevkit_lib_dht20_README</compoundname>
+    <title>DHT20 Library</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md17">
+<title>Overview</title>
+<para>This library provides a set of functions to interface with the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> temperature and humidity sensor. It allows users to initialize the sensor, read temperature and humidity data, and reset the sensor if necessary.</para>
+</sect1>
+<sect1 id="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e_1autotoc_md18">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para><bold>Initialize <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> Sensor:</bold> Ensures the sensor is ready for use.</para>
+</listitem><listitem><para><bold>Read Temperature and Humidity:</bold> Retrieves accurate temperature and humidity data.</para>
+</listitem><listitem><para><bold>Reset Functionality:</bold> Allows resetting the sensor if needed. </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/README.md"/>
+  </compounddef>
+</doxygen>

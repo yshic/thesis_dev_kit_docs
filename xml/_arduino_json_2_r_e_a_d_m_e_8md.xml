@@ -169,6 +169,6 @@
 <codeline></codeline>
 <codeline><highlight class="normal">If<sp/>you<sp/>are<sp/>an<sp/>individual<sp/>user<sp/>and<sp/>want<sp/>to<sp/>support<sp/>the<sp/>development<sp/>(or<sp/>give<sp/>a<sp/>sign<sp/>of<sp/>appreciation),<sp/>consider<sp/>purchasing<sp/>the<sp/>book<sp/>[Mastering<sp/>ArduinoJson](https://arduinojson.org/book/)&amp;nbsp;❤,<sp/>or<sp/>simply<sp/>[cast<sp/>a<sp/>star](https://github.com/bblanchon/ArduinoJson/stargazers)&amp;nbsp;⭐.</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/README.md"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/README.md"/>
   </compounddef>
 </doxygen>

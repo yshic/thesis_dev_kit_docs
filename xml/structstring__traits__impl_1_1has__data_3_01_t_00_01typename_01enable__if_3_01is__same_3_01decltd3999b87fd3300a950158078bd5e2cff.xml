@@ -36,7 +36,7 @@
         <link refid="structintegral__constant"/>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="36" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="39" bodyend="39"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" line="36" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp" bodystart="39" bodyend="39"/>
     <listofallmembers>
       <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>string_traits_impl::has_data&lt; T, typename enable_if&lt; is_same&lt; decltype(declval&lt; const T &gt;().data()), const char * &gt;::value &gt;::type &gt;</scope><name>value</name></member>
     </listofallmembers>

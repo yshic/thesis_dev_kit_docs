@@ -1,0 +1,4 @@
+<map id="AcMeasure::setKWH" name="AcMeasure::setKWH">
+<area shape="rect" id="node1" title="Sets the energy consumption value on the device." alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a6fa08d56ba5abcaf8827af4c3164f5b7" title="Writes multiple bytes to a register using I2C." alt="" coords="199,5,326,32"/>
+</map>

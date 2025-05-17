@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="125" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="125" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="163" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_usb_switch_1a81bb5b0ae5238875a2e8a7844690cd7a" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="126" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="126" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="164" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_usb_switch_1ade44f82363b56b31d3a5f9090d568c05" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="127" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="127" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="165" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_usb_switch_1aef474073fa4c5718ee6b4dfa64148880" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="128" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="128" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="166" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -80,15 +80,16 @@
           <declname>pin2</declname>
         </param>
         <briefdescription>
-<para>Initializes the USB Switch Module with specified pins. </para>
+<para>Constructor to initialize the USB Switch module with specified pins. </para>
         </briefdescription>
         <detaileddescription>
+<para>Configures the provided pins as PWM outputs for controlling USB_OUTPUT1 and USB_OUTPUT2, initializing both outputs to OFF.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">pin1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The pin first pin will control USB_OUTPUT1. </para>
+<para>The pin controlling USB_OUTPUT1 (yellow wire if using Grove connector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -96,15 +97,19 @@
 <parametername direction="in">pin2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The second pin will ocntrol USB_OUTPUT2. </para>
+<para>The pin controlling USB_OUTPUT2 (white wire if using Grove connector).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the pins are PWM-capable and correctly connected to the module. </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="54" column="3" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="28" bodyend="36"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="84" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="28" bodyend="36"/>
+        <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
+        <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -124,13 +129,13 @@
 <para>Sets the output value using a PWM value. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function sets the value of the output by writing a PWM value to the control pin.</para>
+<para>Writes a PWM value to the specified output(s), updating the internal status based on whether the value is non-zero.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">outputNo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The number of the output (1 or 2, 0 for both) </para>
+<para>The output to control (1 for USB_OUTPUT1, 2 for USB_OUTPUT2, 0 for both). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -138,15 +143,19 @@
 <parametername direction="in">value</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The output analog value (0-255). </para>
+<para>The PWM value (0–255).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the value is within 0–255 and the output number is valid (0, 1, or 2). </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="64" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="38" bodyend="52"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="97" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="38" bodyend="52"/>
+        <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
+        <referencedby refid="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f" compoundref="usb__switch_8cpp" startline="54" endline="59">setOutputValuePercentage</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -166,13 +175,13 @@
 <para>Sets the output value as a percentage. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function sets the output value by converting a percentage value to a PWM value and writing it to the specified control pin.</para>
+<para>Converts a percentage to a PWM value and applies it to the specified output(s), updating the internal status.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">outputNo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The output to be used (1 or 2, 0 for both) </para>
+<para>The output to control (1 for USB_OUTPUT1, 2 for USB_OUTPUT2, 0 for both). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -180,20 +189,18 @@
 <parametername direction="in">percentage</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The output value as a percentage (0-100%).</para>
+<para>The output value as a percentage (0–100%).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="attention"><para><itemizedlist>
-<listitem><para>Testing with the pumping motor shows that the motor won&apos;t run with percentage value &lt; 59 </para>
-</listitem></itemizedlist>
-</para>
+<simplesect kind="attention"><para>For some devices (e.g., pumping motors), a percentage below 59% may not activate the device. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="79" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="54" bodyend="59"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="110" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="54" bodyend="59"/>
+        <references refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" compoundref="usb__switch_8cpp" startline="38" endline="52">setOutputValue</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -206,26 +213,30 @@
           <declname>outputNo</declname>
         </param>
         <briefdescription>
-<para>Gets the current output value. </para>
+<para>Retrieves the current output value. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function returns the current output value as a PWM value.</para>
+<para>Reads the current PWM value of the specified output from the pin.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">outputNo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The specified output to get the value from.</para>
+<para>The output to query (1 for USB_OUTPUT1, 2 for USB_OUTPUT2).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>int The current output value (0-255). </para>
+<simplesect kind="attention"><para>Ensure the output number is valid (1 or 2).</para>
+</simplesect>
+<simplesect kind="return"><para>int The current PWM value (0–255), or 0 if an invalid output is specified. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="90" column="7" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="61" bodyend="69"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="123" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="61" bodyend="69"/>
+        <references refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" compoundref="bsp__gpio_8cpp" startline="75" endline="75">bspGpioAnalogRead</references>
+        <referencedby refid="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16" compoundref="usb__switch_8cpp" startline="71" endline="75">getOutputValuePercentage</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -238,26 +249,29 @@
           <declname>outputNo</declname>
         </param>
         <briefdescription>
-<para>Gets the current output value as a percentage. </para>
+<para>Retrieves the current output value as a percentage. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function returns the current output value, converted from the PWM value to a percentage (0-100%).</para>
+<para>Converts the current PWM value of the specified output to a percentage.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">outputNo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The specified output to get the value from.</para>
+<para>The output to query (1 for USB_OUTPUT1, 2 for USB_OUTPUT2).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>int The current output value as a percentage (0-100%). </para>
+<simplesect kind="attention"><para>Ensure the output number is valid (1 or 2).</para>
+</simplesect>
+<simplesect kind="return"><para>int The current output value as a percentage (0–100%), or 0 if an invalid output is specified. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="103" column="7" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="71" bodyend="75"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="136" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="71" bodyend="75"/>
+        <references refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" compoundref="usb__switch_8cpp" startline="61" endline="69">getOutputValue</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -273,21 +287,24 @@
 <para>Toggles the output state between ON and OFF. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function toggles the state of the output. If the output is currently ON, it will be turned OFF, and vice versa.</para>
+<para>Switches the specified output(s) between ON (PWM 255) and OFF (PWM 0), updating the internal status.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">outputNo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The output to be toggled (1 or 2, 0 for both) </para>
+<para>The output to toggle (1 for USB_OUTPUT1, 2 for USB_OUTPUT2, 0 for both).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="attention"><para>Ensure the output number is valid (0, 1, or 2). </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="113" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="77" bodyend="89"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="147" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="77" bodyend="89"/>
+        <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1a9610f9b91027ad99d84ad9dcef8b3be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -300,40 +317,61 @@
           <declname>outputNo</declname>
         </param>
         <briefdescription>
-<para>Checks if the status of the output is currently ON. </para>
+<para>Checks the current status of the output. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns whether the specified output is currently ON (non-zero PWM) or OFF.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">outputNo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The output to get the status from.</para>
+<para>The output to check (1 for USB_OUTPUT1, 2 for USB_OUTPUT2).</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>true if the output is ON, false otherwise. </para>
+<simplesect kind="attention"><para>Ensure the output number is valid (1 or 2).</para>
+</simplesect>
+<simplesect kind="return"><para>bool <computeroutput>true</computeroutput> if the output is ON, <computeroutput>false</computeroutput> otherwise or if an invalid output is specified. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/usb_switch/src/usb_switch.h" line="122" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="91" bodyend="99"/>
+        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="160" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="91" bodyend="99"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>USB Switch control class for managing devices operations. </para>
+<para>Manages a USB switch module with two PWM-controlled outputs. </para>
     </briefdescription>
     <detaileddescription>
-<para>This class provides methods to control a usb switch module, including setting the output value for each output, the usb switch module has two output available: USB_OUTPUT1 and USB_OUTPUT2 toggling the output state, checking the status of the output, and setting the output value as a percentage.</para>
-<para><simplesect kind="attention"><para><itemizedlist>
-<listitem><para>If using the grove connector, the yellow wire will control USB_OUTPUT1 and the white wire will control USB_OUTPUT2. </para>
+<para>The <computeroutput><ref refid="class_usb_switch" kindref="compound">UsbSwitch</ref></computeroutput> class provides functionality for controlling a USB switch module with two outputs (USB_OUTPUT1 and USB_OUTPUT2) via PWM-capable pins. It supports setting output values as PWM or percentage, toggling output states, and retrieving current values and statuses. The class maintains internal state for both outputs.</para>
+<sect3 id="class_usb_switch_1autotoc_md49">
+<title>Features:</title>
+<para><itemizedlist>
+<listitem><para>Controls two USB outputs with PWM values (0–255).</para>
+</listitem><listitem><para>Sets and retrieves output values as percentages (0–100%).</para>
+</listitem><listitem><para>Toggles outputs between ON (full PWM) and OFF states.</para>
+</listitem><listitem><para>Tracks the ON/OFF status of each output.</para>
+</listitem><listitem><para>Supports simultaneous control of both outputs.</para>
 </listitem></itemizedlist>
 </para>
-</simplesect>
+</sect3>
+<sect3 id="class_usb_switch_1autotoc_md50">
+<title>Usage:</title>
+<para>Instantiate the class with two PWM-capable pins for USB_OUTPUT1 and USB_OUTPUT2. Use <computeroutput><ref refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" kindref="member">setOutputValue()</ref></computeroutput> or <computeroutput><ref refid="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f" kindref="member">setOutputValuePercentage()</ref></computeroutput> to control output levels, <computeroutput><ref refid="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" kindref="member">toggleOutput()</ref></computeroutput> to switch states, and <computeroutput><ref refid="class_usb_switch_1a9610f9b91027ad99d84ad9dcef8b3be4" kindref="member">getStatus()</ref></computeroutput>, <computeroutput><ref refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" kindref="member">getOutputValue()</ref></computeroutput>, or <computeroutput><ref refid="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16" kindref="member">getOutputValuePercentage()</ref></computeroutput> to monitor outputs. Specify output number (1, 2, or 0 for both) in method calls.</para>
+</sect3>
+<sect3 id="class_usb_switch_1autotoc_md51">
+<title>Dependencies:</title>
+<para><itemizedlist>
+<listitem><para>Requires an Arduino-compatible board with PWM support.</para>
+</listitem><listitem><para>Outputs must be connected to valid PWM-capable pins (yellow wire for USB_OUTPUT1, white wire for USB_OUTPUT2 if using Grove connector).</para>
+</listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for GPIO operations (<computeroutput>bspGpioPinMode</computeroutput>, <computeroutput>bspGpioAnalogWrite</computeroutput>, <computeroutput>bspGpioAnalogRead</computeroutput>). </para>
+</listitem></itemizedlist>
 </para>
+</sect3>
     </detaileddescription>
-    <location file="lib/usb_switch/src/usb_switch.h" line="44" column="1" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="45" bodyend="129"/>
+    <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="70" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="71" bodyend="167"/>
     <listofallmembers>
       <member refid="class_usb_switch_1aedea997188366e0a5d4a098b92917f7a" prot="private" virt="non-virtual"><scope>UsbSwitch</scope><name>_pin1</name></member>
       <member refid="class_usb_switch_1a81bb5b0ae5238875a2e8a7844690cd7a" prot="private" virt="non-virtual"><scope>UsbSwitch</scope><name>_pin2</name></member>

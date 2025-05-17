@@ -17,7 +17,7 @@ var searchData=
   ['readheader_14',['readHeader',['../class_http_client.html#ad2c91a8d7e27b4912751b229d2229adc',1,'HttpClient']]],
   ['readheadername_15',['readHeaderName',['../class_http_client.html#a625714a7df2db4e3c5f1e56b3b5c3454',1,'HttpClient']]],
   ['readheadervalue_16',['readHeaderValue',['../class_http_client.html#ab88272dffdf136297354513ccbd7c59a',1,'HttpClient']]],
-  ['readme_17',['README',['../md_lib__arduino_json__r_e_a_d_m_e.html',1,'']]],
+  ['readme_17',['README',['../md_thesis_mdt266_iotdevkit_lib__arduino_json__r_e_a_d_m_e.html',1,'']]],
   ['readpressure_18',['readPressure',['../class_b_m_p280.html#a945a1f5234d942ac1cd36b5146947e20',1,'BMP280']]],
   ['readsoilconductivity_19',['readSoilConductivity',['../class_es_soil7n1.html#af18323d9a0307976917f6d4c10516864',1,'EsSoil7n1']]],
   ['readsoilmoisture_20',['readSoilMoisture',['../class_es_soil7n1.html#aaf2ee5ae97609eebfd1a386ed944a1f5',1,'EsSoil7n1']]],

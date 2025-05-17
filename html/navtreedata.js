@@ -25,11 +25,11 @@
 var NAVTREE =
 [
   [ "XIAO ESP32S3 Sense Development Kit", "index.html", [
-    [ "http_parser library", "md_lib__arduino_http_client_utility__u_r_l_parser__r_e_a_d_m_e.html", null ],
-    [ "README", "md_lib__arduino_json__r_e_a_d_m_e.html", null ],
-    [ "DHT20 Library", "md_lib_dht20__r_e_a_d_m_e.html", [
-      [ "Overview", "md_lib_dht20__r_e_a_d_m_e.html#autotoc_md17", null ],
-      [ "Features", "md_lib_dht20__r_e_a_d_m_e.html#autotoc_md18", null ]
+    [ "http_parser library", "md_thesis_mdt266_iotdevkit_lib__arduino_http_client_utility__u_r_l_parser__r_e_a_d_m_e.html", null ],
+    [ "README", "md_thesis_mdt266_iotdevkit_lib__arduino_json__r_e_a_d_m_e.html", null ],
+    [ "DHT20 Library", "md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e.html", [
+      [ "Overview", "md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e.html#autotoc_md17", null ],
+      [ "Features", "md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e.html#autotoc_md18", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -59,8 +59,8 @@ var NAVTREEINDEX =
 [
 "_adapters_2_json_string_8hpp_source.html",
 "class_bsp_pwm.html",
-"config_8h_source.html",
-"struct_converter_needs_writeable_ref.html"
+"classes.html",
+"struct_converter_3_01_serialized_value_3_01_t_01_4_00_01typename_01detail_1_1enable__if_3_9detai54869f88718113a80308efe9c1ce6926.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

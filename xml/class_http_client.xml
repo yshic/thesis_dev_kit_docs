@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="353" column="5" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="353" bodyend="365"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="353" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="353" bodyend="365"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="44" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="44" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="44" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a0ee423122fd5291dfe56472916d52146" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="45" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="45" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="45" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a2bac6105085dff95e69163eaec0f1676" prot="public" static="yes" mutable="no">
         <type>const int</type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="46" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="46" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="46" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1accc7280f9f51ee4007cc474994fc6faa" prot="public" static="yes" mutable="no">
         <type>const char *</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="47" column="23" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="47" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="47" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-static-attrib">
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="346" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="346" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="346" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="346" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a2979e338e32a92f0690024ffb9bdaba9" prot="protected" static="yes" mutable="no">
         <type>const int</type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="350" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="350" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="350" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="350" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a88b623e9c2715443df7f1df25ff07162" prot="protected" static="yes" mutable="no">
         <type>const char *</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="351" column="23" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="351" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="351" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a182a079b7f70737f1af1ce752ff8df62" prot="protected" static="yes" mutable="no">
         <type>const char *</type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="352" column="23" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="352" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="352" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="352" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="367" column="12" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="367" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="367" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="367" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a79867eff0355b635ad0e5ed7d850d219" prot="protected" static="no" mutable="no">
         <type>const char *</type>
@@ -246,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="369" column="16" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="369" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="369" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="369" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1ac1f8937f708733f5009e7b41dd318096" prot="protected" static="no" mutable="no">
         <type>IPAddress</type>
@@ -260,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="370" column="15" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="370" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="370" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="370" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a895b5530eb7e115946b0b086e18fdd10" prot="protected" static="no" mutable="no">
         <type>uint16_t</type>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="372" column="14" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="372" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="372" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="372" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a05be7028c08e65fd777e74da4d91e510" prot="protected" static="no" mutable="no">
         <type>tHttpState</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="374" column="16" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="374" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="374" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="374" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a3c524e92191c9bd5b2684111558c5189" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="376" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="376" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="376" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="376" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1abe4e52886f74c31a18b8e8b7b2abc71b" prot="protected" static="no" mutable="no">
         <type>long</type>
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="378" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="378" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="378" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="378" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1adbebb928968704d8747b7884d8fd0c1a" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -330,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="380" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="380" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="380" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="380" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a1acac369d1f41213c9bc48767cf8ca73" prot="protected" static="no" mutable="no">
         <type>const char *</type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="382" column="16" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="382" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="382" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="382" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a52689fb90a9ff291dc64a4f4f19674ff" prot="protected" static="no" mutable="no">
         <type>const char *</type>
@@ -358,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="384" column="16" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="384" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="384" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="384" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1ab31adb454a783b30c6779e598e027d6d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="386" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="386" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="386" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="386" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a4d6a692ff196cb9e04ae741e620d4b52" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -386,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="388" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="388" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="388" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="388" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1af1e8a5d53dd612ee2710710efc93d1ba" prot="protected" static="no" mutable="no">
         <type>uint32_t</type>
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="389" column="14" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="389" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="389" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="389" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a6fffb5f8c412639ebdd5be0eb2f67b2b" prot="protected" static="no" mutable="no">
         <type>uint32_t</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="390" column="14" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="390" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="390" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="390" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1a527c14f8a5223843c1aa50e83881c7e9" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="391" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="391" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="391" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="391" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1aa99859aa9bfcd4d9b24732c27ef4c0e9" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -442,7 +442,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="392" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="392" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="392" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="392" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_http_client_1aa2d2a935c4f48703c245ddb18278a877" prot="protected" static="no" mutable="no">
         <type>String</type>
@@ -456,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="393" column="12" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="393" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="393" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="393" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="52" column="5" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="13" bodyend="18"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="52" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="13" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a327f13445d40f7176343a72b470cb3b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -512,7 +512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="53" column="5" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="20" bodyend="23"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="53" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="20" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a019dd19c7c2cd7ef023613816a51e462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -539,7 +539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="54" column="5" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="25" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="54" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="25" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a640c3b63cac33d93614fb69e3ea4a360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -554,7 +554,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="60" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="62" bodyend="65"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="60" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="62" bodyend="65"/>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1abadc93f66021c34274cc2fd2e782cdf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -569,7 +570,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="66" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="270" bodyend="273"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="66" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="270" bodyend="273"/>
+        <references refid="class_http_client_1adeac6021d2f57f3a6b7f7047b14736fd" compoundref="_http_client_8cpp" startline="275" endline="283">beginBody</references>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1adeac6021d2f57f3a6b7f7047b14736fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -584,7 +587,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="73" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="275" bodyend="283"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="73" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="275" bodyend="283"/>
+        <referencedby refid="class_http_client_1abadc93f66021c34274cc2fd2e782cdf0" compoundref="_http_client_8cpp" startline="270" endline="273">endRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a92d8027a76943ec459df5085fd8d37a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -614,7 +618,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="79" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="285" bodyend="288"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="79" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="285" bodyend="288"/>
+        <references refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</references>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a649827f891aea6969b02d479c8dbc89b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -632,7 +638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="80" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="290" bodyend="293"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="80" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="290" bodyend="293"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a70f0502368b558562f38b8eb4786c2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -662,7 +668,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="86" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="295" bodyend="298"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="86" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="295" bodyend="298"/>
+        <references refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</references>
+        <referencedby refid="class_http_client_1a62d4b494267d93bdd56669a7b1c41f29" compoundref="_http_client_8cpp" startline="305" endline="308">post</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a5aa2be1798fee1b8fcdaf11b0c422b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -680,7 +688,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="87" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="300" bodyend="303"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="87" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="300" bodyend="303"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a62d4b494267d93bdd56669a7b1c41f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -734,7 +742,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="96" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="305" bodyend="308"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="96" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="305" bodyend="308"/>
+        <references refid="class_http_client_1a70f0502368b558562f38b8eb4786c2ae" compoundref="_http_client_8cpp" startline="295" endline="298">post</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a8d2f13178cd2f1c5658d401d29a736ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -760,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="97" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="310" bodyend="313"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="97" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="310" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a051d4771f31775baa90146e275d4eb8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -791,7 +800,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="98" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="315" bodyend="318"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="98" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="315" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a95cb1dddba441146651febe9f5777b7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -821,7 +830,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="104" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="320" bodyend="323"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="104" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="320" bodyend="323"/>
+        <references refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</references>
+        <referencedby refid="class_http_client_1adf88ee533691b3ff84e57067d89b9e16" compoundref="_http_client_8cpp" startline="330" endline="333">put</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a37fc87a4349ffbf1fc6733e89f22957f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -839,7 +850,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="105" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="325" bodyend="328"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="105" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="325" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1adf88ee533691b3ff84e57067d89b9e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -893,7 +904,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="114" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="330" bodyend="333"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="114" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="330" bodyend="333"/>
+        <references refid="class_http_client_1a95cb1dddba441146651febe9f5777b7f" compoundref="_http_client_8cpp" startline="320" endline="323">put</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a8d80e0b63817453d7f876c755c38af26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -919,7 +931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="115" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="335" bodyend="338"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="115" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="335" bodyend="338"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a4a8bf044ce5582353553b2bc99173f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -950,7 +962,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="116" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="340" bodyend="343"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="116" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="340" bodyend="343"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a87a030a92938f87aef3bdc48579ec17b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -980,7 +992,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="122" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="345" bodyend="348"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="122" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="345" bodyend="348"/>
+        <references refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</references>
+        <referencedby refid="class_http_client_1a5be1b6ae80056257b0bd721b97636992" compoundref="_http_client_8cpp" startline="355" endline="358">patch</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1afe8bcc1a77410517ce37ca54fb7ff992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -998,7 +1012,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="123" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="350" bodyend="353"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="123" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="350" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a5be1b6ae80056257b0bd721b97636992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1052,7 +1066,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="132" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="355" bodyend="358"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="132" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="355" bodyend="358"/>
+        <references refid="class_http_client_1a87a030a92938f87aef3bdc48579ec17b" compoundref="_http_client_8cpp" startline="345" endline="348">patch</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a60ea5f074db9fba9776ede97a4708d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1078,7 +1093,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="133" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="360" bodyend="363"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="133" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="360" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a13c5e7bb97ccc822f0bb7b2b0488f009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1109,7 +1124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="134" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="365" bodyend="368"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="134" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="365" bodyend="368"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a5d0cf7ecdf0c4b7572e976f567a1e2e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1139,7 +1154,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="140" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="370" bodyend="373"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="140" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="370" bodyend="373"/>
+        <references refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</references>
+        <referencedby refid="class_http_client_1aa7427f7a8830f4ebf218fdafa7279b78" compoundref="_http_client_8cpp" startline="380" endline="383">del</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1acd3df0763742be60e8daeda65e923619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1157,7 +1174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="141" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="375" bodyend="378"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="141" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="375" bodyend="378"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1aa7427f7a8830f4ebf218fdafa7279b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1211,7 +1228,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="150" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="380" bodyend="383"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="150" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="380" bodyend="383"/>
+        <references refid="class_http_client_1a5d0cf7ecdf0c4b7572e976f567a1e2e2" compoundref="_http_client_8cpp" startline="370" endline="373">del</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a18a3c3d2e958619312c1e77c7c942cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1237,7 +1255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="151" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="385" bodyend="388"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="151" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="385" bodyend="388"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a378f143d0d38a9c7c2511ff3af577379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1268,7 +1286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="152" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="390" bodyend="393"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="152" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="390" bodyend="393"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a132817aa337738438a11635890729023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1350,7 +1368,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="163" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="67" bodyend="145"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="163" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="67" bodyend="145"/>
+        <references refid="class_http_client_1aa9772b5fe920a5cb0bcb74871e2b4679" compoundref="_http_client_8cpp" startline="262" endline="268">flushClientRx</references>
+        <references refid="class_http_client_1ab29155f574471c50d78b72484378b9b5" compoundref="_http_client_8cpp" startline="32" endline="44">resetState</references>
+        <references refid="class_http_client_1a10b1352ced52ad00f5989d17294b4978" compoundref="_http_client_8cpp" startline="188" endline="191">sendHeader</references>
+        <references refid="class_http_client_1abadbb2a8c693e4c782b4552f2a74d48b" compoundref="_http_client_8cpp" startline="147" endline="186">sendInitialHeaders</references>
+        <referencedby refid="class_http_client_1a5d0cf7ecdf0c4b7572e976f567a1e2e2" compoundref="_http_client_8cpp" startline="370" endline="373">del</referencedby>
+        <referencedby refid="class_http_client_1a92d8027a76943ec459df5085fd8d37a8" compoundref="_http_client_8cpp" startline="285" endline="288">get</referencedby>
+        <referencedby refid="class_http_client_1a87a030a92938f87aef3bdc48579ec17b" compoundref="_http_client_8cpp" startline="345" endline="348">patch</referencedby>
+        <referencedby refid="class_http_client_1a70f0502368b558562f38b8eb4786c2ae" compoundref="_http_client_8cpp" startline="295" endline="298">post</referencedby>
+        <referencedby refid="class_http_client_1a95cb1dddba441146651febe9f5777b7f" compoundref="_http_client_8cpp" startline="320" endline="323">put</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a10b1352ced52ad00f5989d17294b4978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1378,7 +1405,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="174" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="188" bodyend="191"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="174" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="188" bodyend="191"/>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
+        <referencedby refid="class_http_client_1abadbb2a8c693e4c782b4552f2a74d48b" compoundref="_http_client_8cpp" startline="147" endline="186">sendInitialHeaders</referencedby>
+        <referencedby refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a540e5e846505f8d20521027d11c055fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1396,7 +1426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="176" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="176" bodyend="177"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="176" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="176" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a04638dd423c40fb44e4714d142a33e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1436,7 +1466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="186" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="193" bodyend="198"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="186" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="193" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1aef57653cd7dfcc0fccf753d6b31479c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1458,7 +1488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="188" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="188" bodyend="189"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="188" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="188" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a74838fb77ad93f61697d0fb693d74ee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1498,7 +1528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="199" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="200" bodyend="205"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="199" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="200" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1aa897178a0fb2b4f3c958d01c1972f2cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1520,7 +1550,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="201" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="201" bodyend="202"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="201" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="201" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a6984c59e33125a5188c7a6a34a8e8376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1560,7 +1590,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="210" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="207" bodyend="254"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="210" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="207" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a9f4190294c3b854fc52308cd080208ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1582,7 +1612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="212" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="212" bodyend="213"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="212" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="212" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a0fba0410f61b4317f42fd1d477d0162b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1597,7 +1627,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="218" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="395" bodyend="506"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="218" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="395" bodyend="506"/>
+        <references refid="class_http_client_1a18ea928ad5adf203405e24070c67f84d" compoundref="_http_client_8cpp" startline="657" endline="685">read</references>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a0f69501b4c3f559018f46cef58c644d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1612,7 +1644,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="225" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="687" bodyend="716"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="225" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="687" bodyend="716"/>
+        <references refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" compoundref="_http_client_8cpp" startline="541" endline="544">endOfHeadersReached</references>
+        <references refid="class_http_client_1ad2c91a8d7e27b4912751b229d2229adc" compoundref="_http_client_8cpp" startline="764" endline="864">readHeader</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a625714a7df2db4e3c5f1e56b3b5c3454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>String</type>
@@ -1627,7 +1661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="230" column="12" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="718" bodyend="728"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="230" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="718" bodyend="728"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1ab88272dffdf136297354513ccbd7c59a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>String</type>
@@ -1642,7 +1676,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="235" column="12" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="730" bodyend="747"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="235" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="730" bodyend="747"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1ad2c91a8d7e27b4912751b229d2229adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1659,7 +1693,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="245" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="764" bodyend="864"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="245" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="764" bodyend="864"/>
+        <references refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" compoundref="_http_client_8cpp" startline="541" endline="544">endOfHeadersReached</references>
+        <references refid="class_http_client_1a18ea928ad5adf203405e24070c67f84d" compoundref="_http_client_8cpp" startline="657" endline="685">read</references>
+        <referencedby refid="class_http_client_1a0f69501b4c3f559018f46cef58c644d8" compoundref="_http_client_8cpp" startline="687" endline="716">headerAvailable</referencedby>
+        <referencedby refid="class_http_client_1adbf477517900e0f3a5f662b2f3f4035b" compoundref="_http_client_8cpp" startline="508" endline="539">skipResponseHeaders</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1adbf477517900e0f3a5f662b2f3f4035b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1676,7 +1714,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="255" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="508" bodyend="539"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="255" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="508" bodyend="539"/>
+        <references refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" compoundref="_http_client_8cpp" startline="541" endline="544">endOfHeadersReached</references>
+        <references refid="class_http_client_1ad2c91a8d7e27b4912751b229d2229adc" compoundref="_http_client_8cpp" startline="764" endline="864">readHeader</references>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
+        <referencedby refid="class_http_client_1a4b2a81da4067db97be35fe7c2c800f74" compoundref="_http_client_8cpp" startline="546" endline="555">contentLength</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1693,7 +1735,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="260" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="541" bodyend="544"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="260" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="541" bodyend="544"/>
+        <referencedby refid="class_http_client_1a4b2a81da4067db97be35fe7c2c800f74" compoundref="_http_client_8cpp" startline="546" endline="555">contentLength</referencedby>
+        <referencedby refid="class_http_client_1a40e874de7466bfc201ee9fd73d2f51d7" compoundref="_http_client_8cpp" startline="598" endline="606">endOfBodyReached</referencedby>
+        <referencedby refid="class_http_client_1a0f69501b4c3f559018f46cef58c644d8" compoundref="_http_client_8cpp" startline="687" endline="716">headerAvailable</referencedby>
+        <referencedby refid="class_http_client_1a18ea928ad5adf203405e24070c67f84d" compoundref="_http_client_8cpp" startline="657" endline="685">read</referencedby>
+        <referencedby refid="class_http_client_1ad2c91a8d7e27b4912751b229d2229adc" compoundref="_http_client_8cpp" startline="764" endline="864">readHeader</referencedby>
+        <referencedby refid="class_http_client_1adbf477517900e0f3a5f662b2f3f4035b" compoundref="_http_client_8cpp" startline="508" endline="539">skipResponseHeaders</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a40e874de7466bfc201ee9fd73d2f51d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1710,7 +1758,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="266" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="598" bodyend="606"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="266" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="598" bodyend="606"/>
+        <references refid="class_http_client_1a4b2a81da4067db97be35fe7c2c800f74" compoundref="_http_client_8cpp" startline="546" endline="555">contentLength</references>
+        <references refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" compoundref="_http_client_8cpp" startline="541" endline="544">endOfHeadersReached</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a702eabc55cc095747467aff955eee051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1724,7 +1774,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="267" column="18" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="267" bodyend="267"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="267" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="267" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1ae3f649b7347e23eddfac363f5d73c64e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1738,7 +1788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="268" column="18" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="268" bodyend="268"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="268" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="268" bodyend="268"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a4b2a81da4067db97be35fe7c2c800f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long</type>
@@ -1755,7 +1805,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="276" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="546" bodyend="555"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="276" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="546" bodyend="555"/>
+        <references refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" compoundref="_http_client_8cpp" startline="541" endline="544">endOfHeadersReached</references>
+        <references refid="class_http_client_1adbf477517900e0f3a5f662b2f3f4035b" compoundref="_http_client_8cpp" startline="508" endline="539">skipResponseHeaders</references>
+        <referencedby refid="class_http_client_1a40e874de7466bfc201ee9fd73d2f51d7" compoundref="_http_client_8cpp" startline="598" endline="606">endOfBodyReached</referencedby>
+        <referencedby refid="class_http_client_1a05eb433f7d6ce865c6bd4e16526e72c3" compoundref="_http_client_8cpp" startline="557" endline="596">responseBody</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a4849321b4192917f7089161bda2eae9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -1772,7 +1826,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="281" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="281" bodyend="281"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="281" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="281" bodyend="281"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a05eb433f7d6ce865c6bd4e16526e72c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>String</type>
@@ -1789,7 +1843,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="288" column="12" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="557" bodyend="596"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="288" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="557" bodyend="596"/>
+        <references refid="class_http_client_1a4b2a81da4067db97be35fe7c2c800f74" compoundref="_http_client_8cpp" startline="546" endline="555">contentLength</references>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a0b01a20e5c6263d38c0235a0a7b60f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1804,7 +1859,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="292" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="52" bodyend="55"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="292" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="52" bodyend="55"/>
+        <referencedby refid="class_web_socket_client_1a5ad90332484442e76d2bf5a96101c6e2" compoundref="_web_socket_client_8cpp" startline="29" endline="68">WebSocketClient::begin</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a22a54227282e32cc3174c60842fdeacd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1819,7 +1875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="296" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="57" bodyend="60"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="296" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a73ef7b6c0c0b9d54e389f8360286d144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -1838,7 +1894,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="301" column="20" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="301" bodyend="301"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="301" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="301" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1ab726a4fb5989d35a759e0fc78d88c4d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -1861,7 +1917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="302" column="20" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="302" bodyend="302"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="302" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="302" bodyend="302"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a882ad4d788c8817c8f308a3ec6b4f030" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -1876,7 +1932,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="304" column="17" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="608" bodyend="654"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="304" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="608" bodyend="654"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a18ea928ad5adf203405e24070c67f84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -1894,7 +1950,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="308" column="17" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="657" bodyend="685"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="308" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="657" bodyend="685"/>
+        <references refid="class_http_client_1a0c5e49fe34c3a05bdec7a215dd357d53" compoundref="_http_client_8cpp" startline="541" endline="544">endOfHeadersReached</references>
+        <referencedby refid="class_web_socket_client_1a9d0321c102d2612a2e3a9ad0b8684dd9" compoundref="_web_socket_client_8cpp" startline="181" endline="265">WebSocketClient::parseMessage</referencedby>
+        <referencedby refid="class_http_client_1ad2c91a8d7e27b4912751b229d2229adc" compoundref="_http_client_8cpp" startline="764" endline="864">readHeader</referencedby>
+        <referencedby refid="class_http_client_1a0fba0410f61b4317f42fd1d477d0162b" compoundref="_http_client_8cpp" startline="395" endline="506">responseStatusCode</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1ae23b2eb2b844814fb4238ea408990506" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -1917,7 +1977,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="309" column="17" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="749" bodyend="762"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="309" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="749" bodyend="762"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1aa32ebfc600d5ea0773bee1f01ec8f7ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int</type>
@@ -1932,7 +1992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="310" column="17" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="310" bodyend="310"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="310" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="310" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a97fdf5fc799dabffda9b1e1ed1b054b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -1946,7 +2006,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="311" column="18" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="311" bodyend="311"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="311" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="311" bodyend="311"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a9a6eb2520fbb5e9cfdbc084c475579a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int</type>
@@ -1968,7 +2028,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="314" column="17" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="314" bodyend="314"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="314" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="314" bodyend="314"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a3d66fd4cac5d7868ae2175a369aa1c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int</type>
@@ -1990,7 +2050,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="315" column="17" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="315" bodyend="315"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="315" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="315" bodyend="315"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a95108136a49fb57b08006e2d87b9827f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -2004,7 +2064,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="316" column="18" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="46" bodyend="50"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="316" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="46" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a61eaa5604d3ca54da517b9f3075af652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>uint8_t</type>
@@ -2018,7 +2078,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="317" column="21" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="317" bodyend="317"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="317" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="317" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a2748f62701bd647e76e1630996753eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
@@ -2032,7 +2092,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="318" column="13" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="318" bodyend="318"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="318" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="318" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1abad6fdf76e5b4788aa21040df51801c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>uint32_t</type>
@@ -2046,7 +2106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="319" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="319" bodyend="319"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="319" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="319" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a2df0b071615d269990b6a69d23640760" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -2064,7 +2124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="320" column="18" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="320" bodyend="320"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="320" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="320" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1ac2ddadeede9c7b4dec3074b26e712311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>uint32_t</type>
@@ -2078,7 +2138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="321" column="22" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="321" bodyend="321"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="321" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="321" bodyend="321"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a36a5cae732d2b3ba1412cf93feb964d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -2096,7 +2156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="322" column="18" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="322" bodyend="322"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="322" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="322" bodyend="322"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -2113,7 +2173,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="326" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="32" bodyend="44"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="326" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="32" bodyend="44"/>
+        <referencedby refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1abadbb2a8c693e4c782b4552f2a74d48b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2155,7 +2216,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="333" column="9" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="147" bodyend="186"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="333" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="147" bodyend="186"/>
+        <references refid="class_http_client_1a10b1352ced52ad00f5989d17294b4978" compoundref="_http_client_8cpp" startline="188" endline="191">sendHeader</references>
+        <referencedby refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1a5f4245736868404a5bceaeb612f1edfd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2169,7 +2232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="338" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="256" bodyend="260"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="338" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="256" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="class_http_client_1aa9772b5fe920a5cb0bcb74871e2b4679" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2184,7 +2247,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoHttpClient/HttpClient.h" line="342" column="10" bodyfile="lib/ArduinoHttpClient/HttpClient.cpp" bodystart="262" bodyend="268"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="342" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp" bodystart="262" bodyend="268"/>
+        <referencedby refid="class_http_client_1a132817aa337738438a11635890729023" compoundref="_http_client_8cpp" startline="67" endline="145">startRequest</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2219,7 +2283,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoHttpClient/HttpClient.h" line="41" column="1" bodyfile="lib/ArduinoHttpClient/HttpClient.h" bodystart="42" bodyend="394"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" line="41" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.h" bodystart="42" bodyend="394"/>
     <listofallmembers>
       <member refid="class_http_client_1a882ad4d788c8817c8f308a3ec6b4f030" prot="public" virt="virtual"><scope>HttpClient</scope><name>available</name></member>
       <member refid="class_http_client_1adeac6021d2f57f3a6b7f7047b14736fd" prot="public" virt="non-virtual"><scope>HttpClient</scope><name>beginBody</name></member>

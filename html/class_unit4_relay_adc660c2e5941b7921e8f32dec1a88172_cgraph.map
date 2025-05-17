@@ -1,0 +1,4 @@
+<map id="Unit4Relay::begin" name="Unit4Relay::begin">
+<area shape="rect" id="node1" title="Initializes the Unit 4&#45;Relay module." alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#acc6322b83a6e34f4b9d486caaf87308c" title="Checks if an I2C device is present on the bus." alt="" coords="179,5,272,32"/>
+</map>

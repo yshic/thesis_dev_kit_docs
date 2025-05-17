@@ -5,7 +5,7 @@
     <includes refid="src_2_arduino_json_8h" local="yes">src/ArduinoJson.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>lib/ArduinoJson/ArduinoJson.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/ArduinoJson.h</label>
         <link refid="_arduino_json_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -26,6 +26,6 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;src/ArduinoJson.h&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoJson/ArduinoJson.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/ArduinoJson.h"/>
   </compounddef>
 </doxygen>

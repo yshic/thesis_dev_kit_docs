@@ -3,10 +3,10 @@
   <compounddef id="sht3x_8h" kind="file" language="C++">
     <compoundname>sht3x.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="sht3x_8cpp" local="yes">lib/sht3x/src/sht3x.cpp</includedby>
+    <includedby refid="sht3x_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/sht3x/src/sht3x.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h</label>
         <link refid="sht3x_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,11 +17,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/sht3x/src/sht3x.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.cpp</label>
         <link refid="sht3x_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/sht3x/src/sht3x.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h</label>
         <link refid="sht3x_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="23" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="23" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="23" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht3x_8h_1a1cb474d1094f0afc2d55252a30ce4e25" prot="public" static="no">
         <name>SHT3X_I2C_ADDR_DEFAULT</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="25" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="25" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="25" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht3x_8h_1aa94d23b95cf1d73a89496d3d9cf2a1cc" prot="public" static="no">
         <name>SHT3X_HUMIDITY_INDEX</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="26" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="26" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht3x_8h_1aaed3b1d3b38061d6ee8318ed67982932" prot="public" static="no">
         <name>SHT3X_TEMPERATURE_INDEX</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="27" column="11" bodyfile="lib/sht3x/src/sht3x.h" bodystart="27" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/sht3x/src/sht3x.h" line="31" column="1" bodyfile="lib/sht3x/src/sht3x.h" bodystart="32" bodyend="40"/>
+        <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" line="31" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h" bodystart="32" bodyend="40"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -187,26 +187,30 @@
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>variables<sp/>---------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="class_s_h_t3_x" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref></highlight></codeline>
-<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/>sht3x_error_t<sp/>begin(uint8_t<sp/>i2c_addr<sp/>=<sp/>SHT3X_I2C_ADDR_DEFAULT);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/>sht3x_error_t<sp/>update(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>getHumidity();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>getTemperatureCelcius();</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>getTemperatureFahrenheit();</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sensorValues[2]<sp/>=<sp/>{0};<sp/></highlight><highlight class="comment">//<sp/>index<sp/>0<sp/>:<sp/>Humidity</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>index<sp/>1<sp/>:<sp/>Temperature</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/>uint8_t<sp/>_addr;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SHT3X_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="class_s_h_t3_x" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_s_h_t3_x" kindref="compound">SHT3X</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>sht3x_error_t<sp/><ref refid="class_s_h_t3_x_1a3e45c87d84b0510e909551ea6271ad95" kindref="member">begin</ref>(uint8_t<sp/>i2c_addr<sp/>=<sp/>SHT3X_I2C_ADDR_DEFAULT);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>sht3x_error_t<sp/><ref refid="class_s_h_t3_x_1a6327ea11cd715edadedd6b0ea8018e72" kindref="member">update</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t3_x_1a28b58bfa80e31c626e01658828a299bf" kindref="member">getHumidity</ref>();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t3_x_1a3a319390dc73f5443f2dfee66a4ec569" kindref="member">getTemperatureCelcius</ref>();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_h_t3_x_1a7a5e300023f92886f16f153151726640" kindref="member">getTemperatureFahrenheit</ref>();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sensorValues[2]<sp/>=<sp/>{0};<sp/></highlight><highlight class="comment">//<sp/>index<sp/>0<sp/>:<sp/>Humidity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>index<sp/>1<sp/>:<sp/>Temperature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>uint8_t<sp/>_addr;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SHT3X_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/sht3x/src/sht3x.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/sht3x/src/sht3x.h"/>
   </compounddef>
 </doxygen>

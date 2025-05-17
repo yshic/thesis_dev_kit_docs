@@ -3,11 +3,11 @@
   <compounddef id="dht20_8h" kind="file" language="C++">
     <compoundname>dht20.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="dht20__simple__read_8cpp" local="no">lib/dht20/examples/dht20_simple_read.cpp</includedby>
-    <includedby refid="dht20_8cpp" local="yes">lib/dht20/src/dht20.cpp</includedby>
+    <includedby refid="dht20__simple__read_8cpp" local="no">thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp</includedby>
+    <includedby refid="dht20_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>lib/dht20/src/dht20.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h</label>
         <link refid="dht20_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -18,11 +18,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>lib/dht20/src/dht20.cpp</label>
+        <label>thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp</label>
         <link refid="dht20_8cpp"/>
       </node>
       <node id="1">
-        <label>lib/dht20/src/dht20.h</label>
+        <label>thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h</label>
         <link refid="dht20_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="24" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="24" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dht20_8h_1a5187929b30503b11456d6e28873be909" prot="public" static="no">
         <name>DHT20_I2C_ADDR</name>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="26" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="26" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dht20_8h_1a744c9731db17ec127be87226f612b0bc" prot="public" static="no">
         <name>DHT20_HUMIDITY_INDEX</name>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="27" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="27" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dht20_8h_1a6dc85678b3e08a6cb49f599bc8d73d25" prot="public" static="no">
         <name>DHT20_TEMPERATURE_INDEX</name>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="28" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="28" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="28" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/dht20/src/dht20.h" line="31" column="1" bodyfile="lib/dht20/src/dht20.h" bodystart="32" bodyend="40"/>
+        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="31" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="32" bodyend="40"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -216,6 +216,6 @@
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
     </programlisting>
-    <location file="lib/dht20/src/dht20.h"/>
+    <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h"/>
   </compounddef>
 </doxygen>

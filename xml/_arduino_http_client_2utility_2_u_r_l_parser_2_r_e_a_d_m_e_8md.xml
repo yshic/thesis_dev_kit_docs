@@ -13,6 +13,6 @@
 <codeline></codeline>
 <codeline><highlight class="normal">The<sp/>code<sp/>is<sp/>shrinked<sp/>in<sp/>size<sp/>by<sp/>deleting<sp/>all<sp/>the<sp/>unrelated<sp/>code<sp/>to<sp/>url<sp/>parse.</highlight></codeline>
     </programlisting>
-    <location file="lib/ArduinoHttpClient/utility/URLParser/README.md"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/README.md"/>
   </compounddef>
 </doxygen>

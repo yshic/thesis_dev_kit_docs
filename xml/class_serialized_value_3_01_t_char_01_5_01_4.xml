@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="50" column="9" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="50" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="50" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_serialized_value_3_01_t_char_01_5_01_4_1a3156dde285f7190f60a7b9d35af573e1" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="51" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="51" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="51" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="51" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="36" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="36" bodyend="36"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="36" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="36" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="class_serialized_value_3_01_t_char_01_5_01_4_1a6937ead94f8ce5eb5e0dd1b2e9a4f353" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="37" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="37" bodyend="39"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="37" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="37" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="class_serialized_value_3_01_t_char_01_5_01_4_1abd7493359b1ad8411f6225dbde8acc40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>TChar *</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="41" column="9" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="41" bodyend="43"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="41" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="41" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="class_serialized_value_3_01_t_char_01_5_01_4_1a1488e0dc197265e389b0ea3af0025b1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -100,14 +100,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="45" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="45" bodyend="47"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="45" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="45" bodyend="47"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="34" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="34" bodyend="52"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" line="34" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp" bodystart="34" bodyend="52"/>
     <listofallmembers>
       <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1abd7493359b1ad8411f6225dbde8acc40" prot="public" virt="non-virtual"><scope>SerializedValue&lt; TChar * &gt;</scope><name>data</name></member>
       <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1a4bc750836ffc882bea0a1e151e683610" prot="private" virt="non-virtual"><scope>SerializedValue&lt; TChar * &gt;</scope><name>data_</name></member>

@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="170" column="21" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="170" bodyend="-1"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="170" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="170" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="23" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="23" bodyend="23"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="23" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1aebcf5ca3db008b53e7876e47fc577922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_text_formatter" kindref="compound">TextFormatter</ref> &amp;</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="25" column="17"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="25" column="17"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a2948e5a27641827595948e2a2379a09d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="28" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="28" bodyend="30"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="28" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="28" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1aef3580e71a538ce9b8ba3906b7be865a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="32" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="32" bodyend="37"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="32" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="32" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a4d5d03aa057cb471693dfd4c46f9aba0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="39" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="39" bodyend="45"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="39" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="39" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1abbba0280bb3179d619e787775841660a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="47" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="47" bodyend="53"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="47" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="47" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a392e7acc08dbe4e601f7652428d10a69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="55" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="55" bodyend="65"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="55" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="55" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a80284e3dcb399891637d68033ee59300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="68" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="68" bodyend="100"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="68" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="68" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a6f33aece24aa2238ff083fab2da680dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="103" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="103" bodyend="113"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="103" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="103" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1abd006b32d7b9e55e73b36c76ceb1793c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="116" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="116" bodyend="129"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="116" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="116" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a0473a80be08e6c5e244281004a75fda4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="131" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="131" bodyend="146"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="131" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="131" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1aa7c80381c9c1864860a73ca10f54d311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -256,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="148" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="148" bodyend="150"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="148" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="148" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a4f1c7197201fda118fd046f439e9b948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -278,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="152" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="152" bodyend="154"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="152" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="152" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a284064845dca204f789457c3ccb875bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -300,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="156" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="156" bodyend="159"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="156" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="156" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1a6a4cb93a827502c1f513cc54f682f27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -326,7 +326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="162" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="162" bodyend="164"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="162" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="162" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="class_text_formatter_1aae8e482498cc042d8c81ceb2789e4afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -344,14 +344,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="165" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="165" bodyend="167"/>
+        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="165" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="165" bodyend="167"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="21" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="21" bodyend="171"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" line="21" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp" bodystart="21" bodyend="171"/>
     <listofallmembers>
       <member refid="class_text_formatter_1a2948e5a27641827595948e2a2379a09d" prot="public" virt="non-virtual"><scope>TextFormatter</scope><name>bytesWritten</name></member>
       <member refid="class_text_formatter_1aebcf5ca3db008b53e7876e47fc577922" prot="public" virt="non-virtual"><scope>TextFormatter</scope><name>operator=</name></member>

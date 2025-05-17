@@ -1,0 +1,4 @@
+<map id="Unit4Relay::relayAll" name="Unit4Relay::relayAll">
+<area shape="rect" id="node1" title="Sets all relays to the same state." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="191,5,311,32"/>
+</map>

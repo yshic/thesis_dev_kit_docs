@@ -36,7 +36,7 @@
         <link refid="structintegral__constant"/>
       </node>
     </collaborationgraph>
-    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="18" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="19" bodyend="19"/>
+    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="18" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="19" bodyend="19"/>
     <listofallmembers>
       <member refid="structintegral__constant_1a898163d4533374f6993a6c2e2116443a" prot="public" virt="non-virtual"><scope>IsChar</scope><name>value</name></member>
     </listofallmembers>
