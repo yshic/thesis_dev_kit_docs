@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99" kind="class" language="C++" prot="public">
     <compoundname>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</compoundname>
     <templateparamlist>
@@ -7,7 +7,7 @@
         <type>typename TDestination</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a667ddbe6ff6026cfd815c3003cd23f85" prot="private" static="no" mutable="no">
         <type>TDestination *</type>
         <definition>TDestination* Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::str_</definition>
@@ -20,10 +20,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="40" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="40" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="40" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+      <memberdef kind="variable" id="class_writer_1afffc95f4ff2be73c4ec33deaa25aeca4" prot="private" static="no" mutable="no">
+        <type>TDestination *</type>
+        <definition>TDestination* Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::dest_</definition>
+        <argsstring></argsstring>
+        <name>dest_</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::dest_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" line="26" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a14102a0e07c93a67b13c4df900e3b040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::Writer</definition>
@@ -40,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="27" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="27" bodyend="27"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="27" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a4d2c8011605b2e6453ddb67b45dfed4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -58,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="29" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="29" bodyend="32"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="29" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="29" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a067b29303252f11e34538ee194127264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -80,19 +94,81 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="34" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="34" bodyend="37"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="34" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="34" bodyend="37"/>
       </memberdef>
-      </sectiondef>
+      <memberdef kind="function" id="class_writer_1acbf2731d54350df959bdd4b90f18c659" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::Writer</definition>
+        <argsstring>(TDestination &amp;dest)</argsstring>
+        <name>Writer</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::Writer</qualifiedname>
+        <param>
+          <type>TDestination &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_writer_1a2f50630ea5d8eb13faffbdfc127a38cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::write</definition>
+        <argsstring>(uint8_t c)</argsstring>
+        <name>write</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::write</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" line="17" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_writer_1a5a94f0756b68cba4f92a50b2ea731ebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::write</definition>
+        <argsstring>(const uint8_t *s, size_t n)</argsstring>
+        <name>write</name>
+        <qualifiedname>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;::write</qualifiedname>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" line="21" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="24" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="25" bodyend="41"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" line="24" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp" bodystart="25" bodyend="41"/>
     <listofallmembers>
+      <member refid="class_writer_1afffc95f4ff2be73c4ec33deaa25aeca4" prot="private" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>dest_</name></member>
       <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a667ddbe6ff6026cfd815c3003cd23f85" prot="private" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>str_</name></member>
       <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a4d2c8011605b2e6453ddb67b45dfed4e" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>write</name></member>
       <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a067b29303252f11e34538ee194127264" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>write</name></member>
+      <member refid="class_writer_1a2f50630ea5d8eb13faffbdfc127a38cf" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>write</name></member>
+      <member refid="class_writer_1a5a94f0756b68cba4f92a50b2ea731ebb" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>write</name></member>
       <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a14102a0e07c93a67b13c4df900e3b040" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>Writer</name></member>
+      <member refid="class_writer_1acbf2731d54350df959bdd4b90f18c659" prot="public" virt="non-virtual"><scope>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</scope><name>Writer</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

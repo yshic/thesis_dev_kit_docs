@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_json_serializer_8hpp" kind="file" language="C++">
     <compoundname>JsonSerializer.hpp</compoundname>
     <includes refid="_text_formatter_8hpp" local="no">ArduinoJson/Json/TextFormatter.hpp</includes>
     <includes refid="measure_8hpp" local="no">ArduinoJson/Serialization/measure.hpp</includes>
     <includes refid="serialize_8hpp" local="no">ArduinoJson/Serialization/serialize.hpp</includes>
     <includes refid="_visitor_8hpp" local="no">ArduinoJson/Variant/Visitor.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
-    <includedby refid="_pretty_json_serializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</includedby>
-    <includedby refid="_converter_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_pretty_json_serializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</includedby>
+    <includedby refid="_converter_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</includedby>
     <incdepgraph>
       <node id="63">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -617,11 +617,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -631,20 +631,20 @@
         </childnode>
       </node>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_json_serializer" prot="public">JsonSerializer</innerclass>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="_json_serializer_8hpp_1ade3bc01fe23221fdd49d63d529b558ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -669,7 +669,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="125" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="125" bodyend="128"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="125" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="125" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="_json_serializer_8hpp_1a82f703fa01b312c30f87680717283cc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -694,7 +694,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="132" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="132" bodyend="136"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="132" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="132" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="_json_serializer_8hpp_1a50c94add85401cc876b770be8d65eac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -711,9 +711,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="140" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="140" bodyend="143"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" line="140" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp" bodystart="140" bodyend="143"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -733,11 +733,11 @@
 <codeline lineno="12"><highlight class="normal">ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TWriter&gt;</highlight></codeline>
-<codeline lineno="15" refid="class_json_serializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_json_serializer" kindref="compound">JsonSerializer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_visitor" kindref="compound">Visitor</ref>&lt;size_t&gt;<sp/>{</highlight></codeline>
+<codeline lineno="15" refid="class_json_serializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">JsonSerializer<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_visitor" kindref="compound">Visitor</ref>&lt;size_t&gt;<sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>producesText<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="class_json_serializer" kindref="compound">JsonSerializer</ref>(TWriter<sp/>writer)<sp/>:<sp/>formatter_(writer)<sp/>{}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>JsonSerializer(TWriter<sp/>writer)<sp/>:<sp/>formatter_(writer)<sp/>{}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>visitArray(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_collection_data" kindref="compound">CollectionData</ref>&amp;<sp/>array)<sp/>{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>write(</highlight><highlight class="charliteral">&apos;[&apos;</highlight><highlight class="normal">);</highlight></codeline>
@@ -866,7 +866,7 @@
 <codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ARDUINOJSON_ENABLE_STD_STREAM</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>detail::enable_if&lt;</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>detail::is_convertible&lt;T,<sp/>JsonVariantConst&gt;::value,<sp/>std::ostream&amp;&gt;::type</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>detail::is_convertible&lt;T,<sp/>JsonVariantConst&gt;::value,<sp/>std::ostream&amp;&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="149"><highlight class="normal">operator&lt;&lt;(std::ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>source)<sp/>{</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/>serializeJson(source,<sp/>os);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os;</highlight></codeline>
@@ -875,6 +875,6 @@
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp"/>
   </compounddef>
 </doxygen>

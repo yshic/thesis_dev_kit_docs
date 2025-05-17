@@ -1,0 +1,31 @@
+<map id="bspI2CWriteByte" name="bspI2CWriteByte">
+<area shape="rect" id="Node000001" title="Writes a single byte to a register using I2C." alt="" coords="435,309,555,336"/>
+<area shape="rect" id="Node000002" href="$class_unit4_relay.html#af33d2e2db55024cfb42ca719ee0bb48a" title="Applies the staged relay states to the module." alt="" coords="180,5,370,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="489,294,481,241,463,173,449,138,432,104,411,73,385,46,368,35,371,30,389,42,415,70,437,102,454,136,468,172,486,240,494,293"/>
+<area shape="rect" id="Node000003" href="$class_unit4_relay.html#aae6e0d7daca1902707378c714047ef65" title="Configures the operating mode and turns off all relays." alt="" coords="220,56,331,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="486,294,475,250,456,196,426,142,407,118,385,97,360,82,331,75,332,70,362,77,389,93,411,114,431,139,460,194,480,249,491,293"/>
+<area shape="rect" id="Node000004" href="$class_unit4_relay.html#afdca9c42a3cfb64c47273e9b03b0b9ea" title="Sets all LEDs to the same state." alt="" coords="212,107,338,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="482,296,468,261,448,221,420,181,385,147,363,135,338,128,340,123,365,130,389,143,424,177,452,218,473,259,487,294"/>
+<area shape="rect" id="Node000005" href="$class_unit4_relay.html#a4afd86f0f07bd53cc2c52f1a1faaf708" title="Sets the state of an individual LED." alt="" coords="205,157,346,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="476,297,439,246,414,220,386,198,345,182,347,177,388,194,418,216,443,243,481,294"/>
+<area shape="rect" id="Node000006" href="$class_unit4_relay.html#ae1ae938e7f9ef4a340da551b5ea2f157" title="Sets all relays to the same state." alt="" coords="207,208,344,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="465,301,429,274,386,249,344,235,345,230,388,244,432,269,468,297"/>
+<area shape="rect" id="Node000007" href="$class_unit4_relay.html#a058eddf27fc3dacd823cb183016f7d48" title="Sets the state of an individual relay." alt="" coords="199,259,352,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="420,308,386,300,337,289,339,283,388,295,422,303"/>
+<area shape="rect" id="Node000008" href="$class_b_m_p280.html#af0273f65cd8c3b4e3ee472668a0a8d6f" title="Resets the BMP280 sensor." alt="" coords="221,309,330,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="420,325,330,325,330,320,420,320"/>
+<area shape="rect" id="Node000009" href="$class_ac_measure.html#ad8c48c819863d6551b054dc7bf67f398" title="Sets the I2C address of the device." alt="" coords="184,360,366,387"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="422,343,388,351,339,362,337,357,386,345,420,337"/>
+<area shape="rect" id="Node000010" href="$class_b_m_p280.html#a67efaace84ab36fad15df3ea7f983fe4" title="Configures the sensor’s sampling and operating parameters." alt="" coords="200,411,351,437"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="468,349,432,376,388,401,352,414,351,408,386,396,429,372,465,344"/>
+<area shape="rect" id="Node000012" href="$class_unit4_relay.html#a25c9b5c0263a67a95d58519cd1b6cad2" title="Sets the operating mode of the relay module." alt="" coords="193,461,358,488"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="481,351,443,403,418,429,388,452,359,465,357,460,386,447,414,425,439,399,476,348"/>
+<area shape="rect" id="Node000013" href="$class_b_m_p280.html#ad05bced9afce99daf98d6d99918276f4" title="Triggers a forced measurement." alt="" coords="164,512,387,539"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="487,352,473,387,452,427,424,468,389,502,367,514,365,509,385,498,420,465,448,425,468,384,482,350"/>
+<area shape="rect" id="Node000014" href="$class_s_h_t3_x.html#a6327ea11cd715edadedd6b0ea8018e72" title="Updates temperature and humidity readings from the SHT3X sensor." alt="" coords="220,563,331,589"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="491,352,480,397,460,451,431,506,411,531,389,553,362,568,332,576,331,571,360,563,385,549,407,528,426,503,456,449,475,395,486,351"/>
+<area shape="rect" id="Node000015" href="$class_s_h_t4_x.html#a6b98f00ab94cb56a4472e08b468424c5" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="220,613,331,640"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="494,352,486,406,468,474,454,509,437,544,415,576,389,603,362,619,332,627,331,622,360,614,385,599,411,572,432,541,449,507,463,472,481,405,489,351"/>
+<area shape="rect" id="Node000011" href="$class_b_m_p280.html#a7f793755576e8d937f97984ee8b42b07" title="Initializes the BMP280 sensor." alt="" coords="5,411,116,437"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="184,427,116,427,116,421,184,421"/>
+</map>

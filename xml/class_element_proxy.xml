@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_element_proxy" kind="class" language="C++" prot="public">
     <compoundname>ElementProxy</compoundname>
     <basecompoundref refid="class_variant_ref_base" prot="public" virt="non-virtual">VariantRefBase&lt; ElementProxy&lt; TUpstream &gt; &gt;</basecompoundref>
@@ -9,7 +9,7 @@
         <type>typename TUpstream</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="friend">
+    <sectiondef kind="friend">
       <memberdef kind="friend" id="class_element_proxy_1abd7287a435c7b673974e9cf6c0fd3178" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
         <definition>friend class VariantAttorney</definition>
@@ -25,10 +25,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="16" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="16" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="16" column="16" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-attrib">
+    </sectiondef>
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_element_proxy_1a274e7a6aef75a0327b87dfe4eb7adea2" prot="private" static="no" mutable="no">
         <type>TUpstream</type>
         <definition>TUpstream ElementProxy&lt; TUpstream &gt;::upstream_</definition>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="56" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="56" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="56" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_element_proxy_1ad503a290f2474b1b1ad32af68321eae1" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -55,10 +55,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="57" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="57" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="57" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_element_proxy_1a843c74b5d6a287d6b5aa4b4b034eb3d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>ElementProxy&lt; TUpstream &gt;::ElementProxy</definition>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="19" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="19" bodyend="20"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="19" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="19" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="class_element_proxy_1ac33e45d55f366ea5745ea3b54904de82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="22" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="22" bodyend="23"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="22" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="22" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_element_proxy_1a2e81592e7a73e83ef858608867c58c88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>FORCE_INLINE <ref refid="class_element_proxy" kindref="compound">ElementProxy</ref> &amp;</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="25" column="29" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="25" bodyend="28"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="25" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="25" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_element_proxy_1aabaea1d121b6b33517dc01a6708e373d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="31" column="29" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="31" bodyend="34"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="31" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="31" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="class_element_proxy_1ac3330c89ed4198f4927cbf8ad6eb20d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -161,10 +161,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="37" column="29" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="37" bodyend="40"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="37" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="37" bodyend="40"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_element_proxy_1a6e5043e5e6ad4d01013fa842a16ea3d3" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>FORCE_INLINE <ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
         <definition>FORCE_INLINE MemoryPool * ElementProxy&lt; TUpstream &gt;::getPool</definition>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="43" column="27" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="43" bodyend="45"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="43" column="27" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="43" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_element_proxy_1a469affbe64e50080ff589538722e872f" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>FORCE_INLINE <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="47" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="47" bodyend="49"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="47" column="28" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="47" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="class_element_proxy_1a3a0254667b42ad46b859034938c37367" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>FORCE_INLINE <ref refid="class_variant_data" kindref="compound">VariantData</ref> *</type>
@@ -205,9 +205,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="51" column="28" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="51" bodyend="54"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="51" column="28" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="51" bodyend="54"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -272,19 +272,24 @@
         <link refid="struct_variant_tag"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="14" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="15" bodyend="58"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" line="14" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp" bodystart="15" bodyend="58"/>
     <listofallmembers>
       <member refid="class_variant_ref_base_1abe14b177b7d7168d0cdbba53e71b1ec2" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>add</name></member>
       <member refid="class_variant_ref_base_1acc6257e03f08ca776a9105f82f572474" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>add</name></member>
       <member refid="class_variant_ref_base_1a68f6c82045f79f82cf56f5466245923f" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>add</name></member>
+      <member refid="class_variant_ref_base_1af7c643f93f85f1cc38d440ba360e8a72" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>as</name></member>
       <member refid="class_variant_ref_base_1ae79007ba4ec49c9ebbdd584e0474f22a" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>as</name></member>
       <member refid="class_variant_ref_base_1acde5d160d839bfc8c577e508cb4156e5" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>as</name></member>
       <member refid="class_variant_ref_base_1af7c643f93f85f1cc38d440ba360e8a72" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>as</name></member>
       <member refid="class_variant_ref_base_1a34570bd4a11bc058020c54d6d4458f14" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>clear</name></member>
+      <member refid="class_variant_ref_base_1a0b177fc70d0f10485c099ca4dd4a6782" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1a81d061d32ddd976ca7bbbe8e3fdb63cc" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>containsKey</name></member>
       <member refid="class_variant_ref_base_1ad5fd46ad15d47fdcd10af696bed81e1a" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>containsKey</name></member>
       <member refid="class_variant_ref_base_1afb6b198b96fa15fb63b87771c66966b4" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>containsKey</name></member>
       <member refid="class_variant_ref_base_1a0b177fc70d0f10485c099ca4dd4a6782" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>containsKey</name></member>
       <member refid="class_variant_ref_base_1a81d061d32ddd976ca7bbbe8e3fdb63cc" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>containsKey</name></member>
+      <member refid="class_variant_ref_base_1ad81ab3b49d1a96f2e98ea35e4872609f" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>createNestedArray</name></member>
+      <member refid="class_variant_ref_base_1af92505813419eeb7f20df62780ca1f83" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>createNestedArray</name></member>
       <member refid="class_variant_ref_base_1a8b5a4fc30547ee44bf0e494ab379c007" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>createNestedArray</name></member>
       <member refid="class_variant_ref_base_1aa332c8f0df81ef9c1ec45cd72e9b08e5" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>createNestedArray</name></member>
       <member refid="class_variant_ref_base_1a14b9e86c6dde017d2a1b6fc534424bb7" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>createNestedArray</name></member>
@@ -299,6 +304,7 @@
       <member refid="class_element_proxy_1a3a0254667b42ad46b859034938c37367" prot="private" virt="non-virtual"><scope>ElementProxy</scope><name>getOrCreateData</name></member>
       <member refid="class_element_proxy_1a6e5043e5e6ad4d01013fa842a16ea3d3" prot="private" virt="non-virtual"><scope>ElementProxy</scope><name>getPool</name></member>
       <member refid="class_element_proxy_1ad503a290f2474b1b1ad32af68321eae1" prot="private" virt="non-virtual"><scope>ElementProxy</scope><name>index_</name></member>
+      <member refid="class_variant_ref_base_1a4f67f48defd8135ec855a2eceae2664b" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>is</name></member>
       <member refid="class_variant_ref_base_1ad5479cf4e80c56ce4a055372f1f3667c" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>is</name></member>
       <member refid="class_variant_ref_base_1a030c410012f66974bbfea2fc1446ce9e" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>is</name></member>
       <member refid="class_variant_ref_base_1a4f67f48defd8135ec855a2eceae2664b" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>is</name></member>
@@ -310,6 +316,8 @@
       <member refid="class_element_proxy_1a2e81592e7a73e83ef858608867c58c88" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator=</name></member>
       <member refid="class_element_proxy_1aabaea1d121b6b33517dc01a6708e373d" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator=</name></member>
       <member refid="class_element_proxy_1ac3330c89ed4198f4927cbf8ad6eb20d5" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator=</name></member>
+      <member refid="class_variant_ref_base_1a0f2d84c89bec48f337f7d6f31c7e53da" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator[]</name></member>
+      <member refid="class_variant_ref_base_1a74b8ec2fce71b64ff8c2fbcb4547280f" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator[]</name></member>
       <member refid="class_variant_ref_base_1ad82440d0f35a802319024ba40caf186b" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator[]</name></member>
       <member refid="class_variant_ref_base_1a3d18acb45ac16ab02169331558b91dad" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator[]</name></member>
       <member refid="class_variant_ref_base_1aded02fc56a775f5fcd0324c99810132d" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>operator[]</name></member>
@@ -318,6 +326,8 @@
       <member refid="class_variant_ref_base_1a20f760365d551eb7c9337de0ada2abf0" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>remove</name></member>
       <member refid="class_variant_ref_base_1a908e9dc230a9aa601c5949057ba5f807" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>remove</name></member>
       <member refid="class_variant_ref_base_1ab08bdf9846c199f53591a6c20386b309" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>remove</name></member>
+      <member refid="class_variant_ref_base_1a999bbd39360966769da334d5aa8c6a06" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>set</name></member>
+      <member refid="class_variant_ref_base_1a13051488056db0c6d1b8c46ffce06968" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>set</name></member>
       <member refid="class_variant_ref_base_1a02f0f9b570a16c39c97878cd7825e0c1" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>set</name></member>
       <member refid="class_variant_ref_base_1a41127b0e0dc6026b9f11413eaaad8354" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>set</name></member>
       <member refid="class_variant_ref_base_1a999bbd39360966769da334d5aa8c6a06" prot="public" virt="non-virtual"><scope>ElementProxy</scope><name>set</name></member>

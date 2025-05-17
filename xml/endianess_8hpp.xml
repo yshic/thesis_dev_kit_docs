@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="endianess_8hpp" kind="file" language="C++">
     <compoundname>endianess.hpp</compoundname>
     <includes refid="type__traits_8hpp" local="no">ArduinoJson/Polyfills/type_traits.hpp</includes>
-    <includedby refid="_msg_pack_deserializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</includedby>
-    <includedby refid="_msg_pack_serializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</includedby>
+    <includedby refid="_msg_pack_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</includedby>
+    <includedby refid="_msg_pack_serializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>ArduinoJson/Configuration.hpp</label>
         <link refid="_configuration_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp</label>
         <link refid="endianess_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -242,23 +242,23 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp</label>
         <link refid="endianess_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -266,7 +266,7 @@
         </childnode>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="endianess_8hpp_1ae8b8f9ebda3251070b4b1400be36f5ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -286,9 +286,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp" line="43" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp" bodystart="43" bodyend="43"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp" line="43" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp" bodystart="43" bodyend="43"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -341,6 +341,6 @@
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp"/>
   </compounddef>
 </doxygen>

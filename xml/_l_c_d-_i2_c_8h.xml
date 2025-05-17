@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_l_c_d-_i2_c_8h" kind="file" language="C++">
     <compoundname>LCD-I2C.h</compoundname>
     <includes local="yes">Arduino.h</includes>
     <includes local="yes">Wire.h</includes>
-    <includedby refid="_l_c_d-_i2_c_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp</includedby>
+    <includedby refid="_l_c_d-_i2_c_8cpp" local="yes">lib/LCD_I2C/src/LCD-I2C.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h</label>
+        <label>lib/LCD_I2C/src/LCD-I2C.h</label>
         <link refid="_l_c_d-_i2_c_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -23,7 +23,7 @@
     </incdepgraph>
     <innerclass refid="struct_output_state" prot="public">OutputState</innerclass>
     <innerclass refid="class_l_c_d___i2_c" prot="public">LCD_I2C</innerclass>
-      <sectiondef kind="enum">
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="_l_c_d-_i2_c_8h_1a3aa2c66dd75439aed21f192e09341303" prot="public" static="no" strong="no">
         <type></type>
         <name>lcd_screen_state_t</name>
@@ -97,9 +97,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="49" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="50" bodyend="63"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="49" column="1" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="50" bodyend="63"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -169,10 +169,10 @@
 <codeline lineno="62"><highlight class="normal"><sp/><sp/>LCD_SCREEN_COUNT<sp/></highlight><highlight class="comment">//<sp/>Total<sp/>number<sp/>of<sp/>states</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal">}<sp/>lcd_screen_state_t;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="class_l_c_d___i2_c" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_c_d___i2_c" kindref="compound">LCD_I2C</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Print</highlight></codeline>
+<codeline lineno="65" refid="class_l_c_d___i2_c" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LCD_I2C<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Print</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><ref refid="class_l_c_d___i2_c" kindref="compound">LCD_I2C</ref>(uint8_t<sp/>address,<sp/>uint8_t<sp/>columns<sp/>=<sp/>16,<sp/>uint8_t<sp/>rows<sp/>=<sp/>2)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>LCD_I2C(uint8_t<sp/>address,<sp/>uint8_t<sp/>columns<sp/>=<sp/>16,<sp/>uint8_t<sp/>rows<sp/>=<sp/>2)</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>_address(address),<sp/>_columnMax(--columns),<sp/>_rowMax(--rows)</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
@@ -223,6 +223,6 @@
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h"/>
+    <location file="lib/LCD_I2C/src/LCD-I2C.h"/>
   </compounddef>
 </doxygen>

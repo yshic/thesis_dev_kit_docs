@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
   <compound refid="class_ac_measure" kind="class"><name>AcMeasure</name>
     <member refid="class_ac_measure_1ae725db0ec748e0a73d1a23ad8f79b9b4" kind="variable"><name>_addr</name></member>
     <member refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kind="function"><name>begin</name></member>
@@ -39,7 +39,7 @@
   <compound refid="structalias__cast__t" kind="struct"><name>alias_cast_t</name>
     <member refid="structalias__cast__t_1a88897f6c77d618d389126d868e292089" kind="variable"><name>raw</name></member>
     <member refid="structalias__cast__t_1a47c250cc46d55cc16d7bf24d519d7a0f" kind="variable"><name>data</name></member>
-    <member refid="structalias__cast__t_1adf65baa62bd9ab031e2a1d4266fa1168" kind="variable"><name>@2</name></member>
+    <member refid="structalias__cast__t_1aecf29c8fe7c4c14eb1d4fff17e7bcc2c" kind="variable"><name></name></member>
   </compound>
   <compound refid="class_allocator_owner" kind="class"><name>AllocatorOwner</name>
     <member refid="class_allocator_owner_1afa0e9e96ec76b6cec02c3b2c9c190ebb" kind="variable"><name>allocator_</name></member>
@@ -286,6 +286,7 @@
   </compound>
   <compound refid="structconditional_3_01false_00_01_true_type_00_01_false_type_01_4" kind="struct"><name>conditional&lt; false, TrueType, FalseType &gt;</name>
     <member refid="structconditional_3_01false_00_01_true_type_00_01_false_type_01_4_1a3c6605d16e743fac3aabee5ec3247daf" kind="typedef"><name>type</name></member>
+    <member refid="structconditional_1ab2ac1c373c6d587aab8ddf71aab038ae" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="struct_b_m_p280_1_1config" kind="struct"><name>BMP280::config</name>
     <member refid="struct_b_m_p280_1_1config_1ac09a98f356ccce7844d89a558c3df113" kind="variable"><name>t_sb</name></member>
@@ -304,16 +305,25 @@
     <member refid="struct_converter_3_01bool_01_4_1ab6ac4f9bf24a504a569e3d691bcbe6b8" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01bool_01_4_1a436e5681d487d33a6e08ee01c3fd906d" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01bool_01_4_1a18832ee418bf87d3f2fc55b0b19dc4c3" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01const_01char_01_5_01_4" kind="struct"><name>Converter&lt; const char * &gt;</name>
     <member refid="struct_converter_3_01const_01char_01_5_01_4_1a1174103906a037096f640e7c593bb84f" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01const_01char_01_5_01_4_1a5735d7c6aa69d1d21b4701425cc44499" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01const_01char_01_5_01_4_1a65eeb2f64b9909bedcda5e62ef56c758" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01decltype_07nullptr_08_4" kind="struct"><name>Converter&lt; decltype(nullptr)&gt;</name>
     <member refid="struct_converter_3_01decltype_07nullptr_08_4_1a38e2ecfa5e89e80af505d3724cc55e0b" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01decltype_07nullptr_08_4_1a1d4cc62431dd03f0f418ae5004072a18" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01decltype_07nullptr_08_4_1a91f4f0d2d95e5e41d37adf7697f684ed" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_array_01_4" kind="struct"><name>Converter&lt; JsonArray &gt;</name>
     <member refid="struct_converter_3_01_json_array_01_4_1a1fa1bc389cd9fc17753593982e488f7c" kind="function"><name>toJson</name></member>
@@ -321,11 +331,17 @@
     <member refid="struct_converter_3_01_json_array_01_4_1a607945397eb97692783deef9efa2bfcb" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_array_01_4_1a7df036843369b9fa6ccdd8aec86c4960" kind="function"><name>checkJson</name></member>
     <member refid="struct_converter_3_01_json_array_01_4_1af9786c2bb29be57719fd3c43c50e847c" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_array_const_01_4" kind="struct"><name>Converter&lt; JsonArrayConst &gt;</name>
     <member refid="struct_converter_3_01_json_array_const_01_4_1ae007348b33f4c550f9c6e2c3aafb8343" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_json_array_const_01_4_1a14d8baa9143b87360f481aa381efd8c2" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_array_const_01_4_1a0f76c1bd91ed9cc8887d33c0461a3c04" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_object_01_4" kind="struct"><name>Converter&lt; JsonObject &gt;</name>
     <member refid="struct_converter_3_01_json_object_01_4_1abf3803744b9ab19f3ed1243e9f0dbad0" kind="function"><name>toJson</name></member>
@@ -333,16 +349,25 @@
     <member refid="struct_converter_3_01_json_object_01_4_1ab77686602ee1a96e41aa1009dcf3ba42" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_object_01_4_1abbaa436fc005468a77c013ffa9bf58eb" kind="function"><name>checkJson</name></member>
     <member refid="struct_converter_3_01_json_object_01_4_1a82fc83e722bcaec253b145923ccaebf7" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_object_const_01_4" kind="struct"><name>Converter&lt; JsonObjectConst &gt;</name>
     <member refid="struct_converter_3_01_json_object_const_01_4_1ac625bf0c34b6d92253b93ea8b46246f0" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_json_object_const_01_4_1ad8f67af9bc2c7bf3ee72df079e1b74f2" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_object_const_01_4_1a10a1e3676ae807b4d4a45adfbd65ce06" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_string_01_4" kind="struct"><name>Converter&lt; JsonString &gt;</name>
     <member refid="struct_converter_3_01_json_string_01_4_1a9f1b9ec86007f05e0c8a57ebd0fecc9c" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_json_string_01_4_1a44ff0bb4ffe6df873ea6937aef7d863a" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_string_01_4_1a8f748803e3c4d488ff2e7a83126bcbb5" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_variant_01_4" kind="struct"><name>Converter&lt; JsonVariant &gt;</name>
     <member refid="struct_converter_3_01_json_variant_01_4_1aa0f67879961fa552869cf4ad81ee81a3" kind="function"><name>toJson</name></member>
@@ -350,32 +375,53 @@
     <member refid="struct_converter_3_01_json_variant_01_4_1a11bd1194beb2a9b847ddec7fd84edaea" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_variant_01_4_1af4bc064a10c1302292dc2ab8907aaad0" kind="function"><name>checkJson</name></member>
     <member refid="struct_converter_3_01_json_variant_01_4_1a062f9ce9613793ec04eca2a672182736" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_json_variant_const_01_4" kind="struct"><name>Converter&lt; JsonVariantConst &gt;</name>
     <member refid="struct_converter_3_01_json_variant_const_01_4_1af17e74c4963605df3e358f6442303e49" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_json_variant_const_01_4_1ac83363ae0d31d0266e55518a1184ae55" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_json_variant_const_01_4_1ab307f833664112d7b5c3ee066029f96b" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4" kind="struct"><name>Converter&lt; SerializedValue&lt; const char * &gt; &gt;</name>
     <member refid="struct_converter_3_01_serialized_value_3_01const_01char_01_5_01_4_01_4_1af50bc107026744bcf5923e62c7b37ea3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_serialized_value_3_01_t_01_4_00_01typename_01detail_1_1enable__if_3_9detai54869f88718113a80308efe9c1ce6926" kind="struct"><name>Converter&lt; SerializedValue&lt; T &gt;, typename detail::enable_if&lt;!detail::is_same&lt; const char *, T &gt;::value &gt;::type &gt;</name>
     <member refid="struct_converter_3_01_serialized_value_3_01_t_01_4_00_01typename_01detail_1_1enable__if_3_9detai54869f88718113a80308efe9c1ce6926_1a1944b4748c44be02313b3815895bec99" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct"><name>Converter&lt; T, typename detail::enable_if&lt; detail::is_enum&lt; T &gt;::value &gt;::type &gt;</name>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a998129c16d15b4aefc025a2c385d6a9f" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a2a54ceeaebc52aa5e303adc1d8a4b5a1" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1acfa7e52002a54289ee75f1ab5795dbdf" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999" kind="struct"><name>Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;</name>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a86739f04e11a4799e5b3071a87230369" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a91300260bb8f6dcea253ecd66bd1fdb1" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__floating__point_3fa86940423945ddd73f7ec7d92660999_1a727f3bf3bc2f3fa475444237a231a3ae" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db" kind="struct"><name>Converter&lt; T, typename detail::enable_if&lt; detail::is_integral&lt; T &gt;::value &amp;&amp;!detail::is_same&lt; bool, T &gt;::value &amp;&amp;!detail::is_same&lt; char, T &gt;::value &gt;::type &gt;</name>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1aedfc4f60cdff10437f0fe3c5bc6586a6" kind="function"><name>toJson</name></member>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1af7415e902edd27d68e216743eae79d59" kind="function"><name>fromJson</name></member>
     <member refid="struct_converter_3_01_t_00_01typename_01detail_1_1enable__if_3_01detail_1_1is__integral_3_01_t_05a89c4585aeac8b0bc8cb2d0d1bd35db_1a8cc9e9fa906c7ce0ba8188330cd91dbf" kind="function"><name>checkJson</name></member>
+    <member refid="struct_converter_1acee93a9334b03b60080226d6cbed33e3" kind="function"><name>toJson</name></member>
+    <member refid="struct_converter_1a677f8e0ecbe65dff0a2d7b6622e41f3d" kind="function"><name>fromJson</name></member>
+    <member refid="struct_converter_1adba88565bb6f8eb9e437c9e71e8973f0" kind="function"><name>checkJson</name></member>
   </compound>
   <compound refid="struct_converter_needs_writeable_ref" kind="struct"><name>ConverterNeedsWriteableRef</name>
   </compound>
@@ -538,6 +584,7 @@
   </compound>
   <compound refid="structfirst__or__void_3_01_t_00_01_rest_8_8_8_01_4" kind="struct"><name>first_or_void&lt; T, Rest... &gt;</name>
     <member refid="structfirst__or__void_3_01_t_00_01_rest_8_8_8_01_4_1aecc1ae7753193bc98a37fe79d72e3867" kind="typedef"><name>type</name></member>
+    <member refid="structfirst__or__void_1abce4cf0c61d875aa49a350d9b5e692d1" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="class_flash_string" kind="class"><name>FlashString</name>
     <member refid="class_flash_string_1a877c1d98bb6c7d4c95cfe7fd4dd543eb" kind="variable"><name>typeSortKey</name></member>
@@ -617,7 +664,7 @@
     <member refid="structhttp__parser__url_1a875fb8faf3ee45707078eda5435fa563" kind="variable"><name>port</name></member>
     <member refid="structhttp__parser__url_1a6510826f3aa9a1100ac5f714323edeb1" kind="variable"><name>off</name></member>
     <member refid="structhttp__parser__url_1a60fb784a989dd5a95e5bd19d468d22c7" kind="variable"><name>len</name></member>
-    <member refid="structhttp__parser__url_1af49700faa1cbd7427862647dca470601" kind="variable"><name>field_data</name></member>
+    <member refid="structhttp__parser__url_1a265f8e693e50a3dd3b924394ef2dee11" kind="variable"><name>field_data</name></member>
   </compound>
   <compound refid="class_http_client" kind="class"><name>HttpClient</name>
     <member refid="class_http_client_1a028912df7e5cdfca4fd4cede306e6d98" kind="enum"><name>tHttpState</name></member>
@@ -926,7 +973,7 @@
   </compound>
   <compound refid="structis__std__string" kind="struct"><name>is_std_string</name>
   </compound>
-  <compound refid="structis__std__string_3_01_t_00_01void__t_3_01decltype_07_t_07_08_8push__back_07_01'a'_08_08_00_3329462264f2217ca594083a50a3461e" kind="struct"><name>is_std_string&lt; T, void_t&lt; decltype(T().push_back( &apos;a&apos;)), decltype(T().append(&quot;&quot;))&gt; &gt;</name>
+  <compound refid="structis__std__string_3_01_t_00_01void__t_3_01decltype_07_t_07_08_8push__back_07_01_0ja_0j_08_0858d28b4bbc134e4a574ccf31692d05b9" kind="struct"><name>is_std_string&lt; T, void_t&lt; decltype(T().push_back( &apos;a&apos;)), decltype(T().append(&quot;&quot;))&gt; &gt;</name>
   </compound>
   <compound refid="structis__unsigned" kind="struct"><name>is_unsigned</name>
   </compound>
@@ -936,6 +983,7 @@
     <member refid="struct_is_char_or_void_1ad3568f32324de4f1670c3d86b9a2c83a" kind="variable"><name>value</name></member>
   </compound>
   <compound refid="struct_is_char_or_void_3_01const_01_t_01_4" kind="struct"><name>IsCharOrVoid&lt; const T &gt;</name>
+    <member refid="struct_is_char_or_void_1ad3568f32324de4f1670c3d86b9a2c83a" kind="variable"><name>value</name></member>
   </compound>
   <compound refid="struct_is_string" kind="struct"><name>IsString</name>
   </compound>
@@ -1593,24 +1641,24 @@
     <member refid="struct_protocol__t_1aec2bdca987339581270f6aeee291d781" kind="variable"><name>protocolSize</name></member>
     <member refid="struct_protocol__t_1a6492f93f398cef3bacf857a85c32e60f" kind="variable"><name>algorithmType</name></member>
     <member refid="struct_protocol__t_1af3bf6dc7d5202e005a817c6c71970fea" kind="variable"><name>requestID</name></member>
-    <member refid="struct_protocol__t_1a9f7715f2d58fd48ee2c980f74b3829c0" kind="variable"><name>@8</name></member>
+    <member refid="struct_protocol__t_1af923ede0bda8c9ae34d88c5539d036bd" kind="variable"><name></name></member>
     <member refid="struct_protocol__t_1a0bbad13b684d45b057d8d93142cd05e7" kind="variable"><name>second</name></member>
     <member refid="struct_protocol__t_1ae1bdeec6b8b5084376a8beff1cbd05ed" kind="variable"><name>yCenter</name></member>
     <member refid="struct_protocol__t_1a06d518465364cb411375a7e72ce1817e" kind="variable"><name>yOrigin</name></member>
     <member refid="struct_protocol__t_1aa077e6509bde91d395019ec3b38e6809" kind="variable"><name>knowledgeSize</name></member>
-    <member refid="struct_protocol__t_1af58beb5cc42eea7bdc8a8a0f95731f09" kind="variable"><name>@10</name></member>
+    <member refid="struct_protocol__t_1a948db53cc96c1c085b72e02b330875cf" kind="variable"><name></name></member>
     <member refid="struct_protocol__t_1ab9ed05fba0c8ad682c8ac0db5418c922" kind="variable"><name>third</name></member>
     <member refid="struct_protocol__t_1ab73fdf50a88ca009fdf3ac9c9ce154cc" kind="variable"><name>width</name></member>
     <member refid="struct_protocol__t_1a861977b6b01f939d9d11c5fd3f70476d" kind="variable"><name>xTarget</name></member>
     <member refid="struct_protocol__t_1a193f13d607d73d2988792af04d11d793" kind="variable"><name>frameNum</name></member>
-    <member refid="struct_protocol__t_1ac0f43153f48ed21edb418410920f88d9" kind="variable"><name>@12</name></member>
+    <member refid="struct_protocol__t_1ab39eb2934b964043f336e09c6303fd8a" kind="variable"><name></name></member>
     <member refid="struct_protocol__t_1a812eb75d3f0ae1690d43ced1485ec902" kind="variable"><name>fourth</name></member>
     <member refid="struct_protocol__t_1a2375d07983071c0e5496335f64753d07" kind="variable"><name>height</name></member>
     <member refid="struct_protocol__t_1a21ae482fb1a48f4529b5aef311fd28bc" kind="variable"><name>yTarget</name></member>
-    <member refid="struct_protocol__t_1ad76d38dd16a273d1cc74557de5359b29" kind="variable"><name>@14</name></member>
+    <member refid="struct_protocol__t_1a654d5b82b94f906e8e17d3724c1f16e4" kind="variable"><name></name></member>
     <member refid="struct_protocol__t_1a8763545cb6d3370ff249112ecf703fd0" kind="variable"><name>fifth</name></member>
     <member refid="struct_protocol__t_1a7da1de6521ffb583196644e9cf3935c4" kind="variable"><name>ID</name></member>
-    <member refid="struct_protocol__t_1a73847aabc232369d4646f5c904298eed" kind="variable"><name>@16</name></member>
+    <member refid="struct_protocol__t_1a61741ae3cc2bf898b7a08f21632228e9" kind="variable"><name></name></member>
     <member refid="struct_protocol__t_1a13c114cb31724ffad5e50d7ea62ff70d" kind="variable"><name>customNameHeader</name></member>
     <member refid="struct_protocol__t_1aa3ba0cf554e48b5bad584e840e2d2970" kind="variable"><name>receivedKnowledges</name></member>
     <member refid="struct_protocol__t_1a5459913f1f3e5be54c9e4aeed272abd0" kind="variable"><name>customText</name></member>
@@ -1725,33 +1773,61 @@
     <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a5f1e4fb168ca65bc914de47d1256776f" kind="function"><name>Reader</name></member>
     <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a8c3d99bab2f6b233b18cd6d93b9568ac" kind="function"><name>read</name></member>
     <member refid="struct_reader_3_01const_01_____flash_string_helper_01_5_00_01void_01_4_1a0e0439924ecc539e011b0df17762e763" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
   </compound>
   <compound refid="struct_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_source_01_4_1_1value_01_4_1_1type_01_4" kind="struct"><name>Reader&lt; TSource *, typename enable_if&lt; IsCharOrVoid&lt; TSource &gt;::value &gt;::type &gt;</name>
     <member refid="struct_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_source_01_4_1_1value_01_4_1_1type_01_4_1ad0d1b430b337fb0f6ce0c54396f03556" kind="variable"><name>ptr_</name></member>
     <member refid="struct_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_source_01_4_1_1value_01_4_1_1type_01_4_1a47afaf01f86d139246ceb21595e37307" kind="function"><name>Reader</name></member>
     <member refid="struct_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_source_01_4_1_1value_01_4_1_1type_01_4_1a5bc64435f7455c88b75aca7e46cf20b0" kind="function"><name>read</name></member>
     <member refid="struct_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_source_01_4_1_1value_01_4_1_1type_01_4_1aaf3c029b8c64e15a94f726c30628cdd3" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
   </compound>
   <compound refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737" kind="struct"><name>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; std::istream, TSource &gt;::value &gt;::type &gt;</name>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1ad33b044ef4a5ab536c1365257a0f1bb1" kind="variable"><name>stream_</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1a9d0f06e973e6b031280e05b09fa772d2" kind="function"><name>Reader</name></member>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1a967ee10926cfbbedf38fa3f5eb33967e" kind="function"><name>read</name></member>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737_1ad102fda6c044f0760c0581c85ed65627" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
   </compound>
   <compound refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01_stream_00_01_t_sour9f3d5ae0961435f61359866e47353987" kind="struct"><name>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt; Stream, TSource &gt;::value &gt;::type &gt;</name>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01_stream_00_01_t_sour9f3d5ae0961435f61359866e47353987_1a47bfa868ebe3dd49dc21d67852b34a4f" kind="variable"><name>stream_</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01_stream_00_01_t_sour9f3d5ae0961435f61359866e47353987_1abcf328fb753606adfe990f509cd06b58" kind="function"><name>Reader</name></member>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01_stream_00_01_t_sour9f3d5ae0961435f61359866e47353987_1a58cfcc242cbfe78f9e681e05b6042212" kind="function"><name>read</name></member>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01_stream_00_01_t_sour9f3d5ae0961435f61359866e47353987_1aa3689c79edde5b8af4a37d212b7de216" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
   </compound>
   <compound refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f" kind="struct"><name>Reader&lt; TSource, typename enable_if&lt; is_base_of&lt;::String, TSource &gt;::value &gt;::type &gt;</name>
     <member refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_1_1_string_00_01_t_sou09bf030f1bc613ddcef8e5dc184de43f_1a28bed3a674f0993b4aa816fafb399008" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
   </compound>
   <compound refid="struct_reader_3_01_t_source_00_01typename_01void___3_01typename_01_t_source_1_1const__iterator_01_4_1_1type_01_4" kind="struct"><name>Reader&lt; TSource, typename void_&lt; typename TSource::const_iterator &gt;::type &gt;</name>
     <member refid="struct_reader_3_01_t_source_00_01typename_01void___3_01typename_01_t_source_1_1const__iterator_01_4_1_1type_01_4_1a8a3058b6530ac172060596c0158b9116" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
   </compound>
   <compound refid="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4" kind="struct"><name>Reader&lt; TVariant, typename enable_if&lt; IsVariant&lt; TVariant &gt;::value &gt;::type &gt;</name>
     <member refid="struct_reader_3_01_t_variant_00_01typename_01enable__if_3_01_is_variant_3_01_t_variant_01_4_1_1value_01_4_1_1type_01_4_1a7859ba5b9de8f964887f55149429047a" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aef8c0ccc29bfff48e5fcd7614cec7be3" kind="function"><name>Reader</name></member>
+    <member refid="struct_reader_1aa867c6beac05a399f6224be67fd4926f" kind="function"><name>read</name></member>
+    <member refid="struct_reader_1ab0871482184d7603a4a14d6df0290b98" kind="function"><name>readBytes</name></member>
+    <member refid="struct_reader_1a2f75ff4abdeb27ae5514fb090df5c38c" kind="variable"><name>source_</name></member>
   </compound>
   <compound refid="class_relay" kind="class"><name>Relay</name>
     <member refid="class_relay_1a099d745adc8d2c4a6875162aff604629" kind="variable"><name>_pin</name></member>
@@ -1767,24 +1843,29 @@
   </compound>
   <compound refid="structremove__const_3_01const_01_t_01_4" kind="struct"><name>remove_const&lt; const T &gt;</name>
     <member refid="structremove__const_3_01const_01_t_01_4_1a4d3920ff9b5818aca708f1d3897937f9" kind="typedef"><name>type</name></member>
+    <member refid="structremove__const_1a9f0ed27650a6d0c46dbbcee3d241b8dc" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structremove__cv" kind="struct"><name>remove_cv</name>
     <member refid="structremove__cv_1a46c6830a72b96505de2e12d2a6f6ca32" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structremove__cv_3_01const_01_t_01_4" kind="struct"><name>remove_cv&lt; const T &gt;</name>
     <member refid="structremove__cv_3_01const_01_t_01_4_1aee75ecb6952bc3e9eed38d4bb6267a53" kind="typedef"><name>type</name></member>
+    <member refid="structremove__cv_1a46c6830a72b96505de2e12d2a6f6ca32" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structremove__cv_3_01const_01volatile_01_t_01_4" kind="struct"><name>remove_cv&lt; const volatile T &gt;</name>
     <member refid="structremove__cv_3_01const_01volatile_01_t_01_4_1a19aba817adb568ddd5df148483523fca" kind="typedef"><name>type</name></member>
+    <member refid="structremove__cv_1a46c6830a72b96505de2e12d2a6f6ca32" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structremove__cv_3_01volatile_01_t_01_4" kind="struct"><name>remove_cv&lt; volatile T &gt;</name>
     <member refid="structremove__cv_3_01volatile_01_t_01_4_1aac218c0c0ce28b7dc5fbf5fc834d39cf" kind="typedef"><name>type</name></member>
+    <member refid="structremove__cv_1a46c6830a72b96505de2e12d2a6f6ca32" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structremove__reference" kind="struct"><name>remove_reference</name>
     <member refid="structremove__reference_1a30f490ee1919861a173b5b68c4921ea5" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structremove__reference_3_01_t_01_6_01_4" kind="struct"><name>remove_reference&lt; T &amp; &gt;</name>
     <member refid="structremove__reference_3_01_t_01_6_01_4_1a3f40f309be0072f0d8cfc51b7be64a9d" kind="typedef"><name>type</name></member>
+    <member refid="structremove__reference_1a30f490ee1919861a173b5b68c4921ea5" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="struct_variant_attorney_1_1_result_of_get_data" kind="struct"><name>VariantAttorney::ResultOfGetData</name>
     <member refid="struct_variant_attorney_1_1_result_of_get_data_1a02ac0cb1eebf1bf644baec286707ac9f" kind="typedef"><name>type</name></member>
@@ -1802,10 +1883,15 @@
   <compound refid="class_serialized_value_3_01_t_char_01_5_01_4" kind="class"><name>SerializedValue&lt; TChar * &gt;</name>
     <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1a4bc750836ffc882bea0a1e151e683610" kind="variable"><name>data_</name></member>
     <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1a3156dde285f7190f60a7b9d35af573e1" kind="variable"><name>size_</name></member>
+    <member refid="class_serialized_value_1a90a3927ea6be989cba07d9b4c0104bd0" kind="variable"><name>str_</name></member>
     <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1a1af62fb4a51858b604053d431a64c474" kind="function"><name>SerializedValue</name></member>
     <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1a6937ead94f8ce5eb5e0dd1b2e9a4f353" kind="function"><name>operator TChar *</name></member>
     <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1abd7493359b1ad8411f6225dbde8acc40" kind="function"><name>data</name></member>
     <member refid="class_serialized_value_3_01_t_char_01_5_01_4_1a1488e0dc197265e389b0ea3af0025b1c" kind="function"><name>size</name></member>
+    <member refid="class_serialized_value_1a5d27809ca5e52bb4146705eb5ba39ed2" kind="function"><name>SerializedValue</name></member>
+    <member refid="class_serialized_value_1a856000517b500fe46350ec63769952e6" kind="function"><name>operator TChar *</name></member>
+    <member refid="class_serialized_value_1a3e2d56ec62da6934453f7a3a7b5bd373" kind="function"><name>data</name></member>
+    <member refid="class_serialized_value_1a16b103fe6a8fc5cd5c7bfdf44eb0fe54" kind="function"><name>size</name></member>
   </compound>
   <compound refid="class_s_h_t3_x" kind="class"><name>SHT3X</name>
     <member refid="class_s_h_t3_x_1a2ba005f3d435d5c00b2d66ec9b502dfd" kind="variable"><name>sensorValues</name></member>
@@ -1891,11 +1977,11 @@
     <member refid="class_static_string_writer_1a3483ff44ed01442589b1f72bde37ae6d" kind="function"><name>write</name></member>
   </compound>
   <compound refid="structstring__traits" kind="struct"><name>string_traits</name>
-    <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2" kind="enum"><name>@3</name></member>
-    <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a94061d71c1039cdcf73787883946c595" kind="enumvalue"><name>has_cstr</name></member>
-    <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a4c4b3900b4b1bb6514ff2662b7905901" kind="enumvalue"><name>has_length</name></member>
-    <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a91b8ed7e42e82a0e6ec1ec85f53acdc7" kind="enumvalue"><name>has_data</name></member>
-    <member refid="structstring__traits_1ade96059d6a053231e0774578fb9072b2a1b59204acca9d9e2e1f0f68213c152e0" kind="enumvalue"><name>has_size</name></member>
+    <member refid="structstring__traits_1a0ea8abe962910f0322cee4cb88a1104e" kind="enum"><name></name></member>
+    <member refid="structstring__traits_1a0ea8abe962910f0322cee4cb88a1104ea94061d71c1039cdcf73787883946c595" kind="enumvalue"><name>has_cstr</name></member>
+    <member refid="structstring__traits_1a0ea8abe962910f0322cee4cb88a1104ea4c4b3900b4b1bb6514ff2662b7905901" kind="enumvalue"><name>has_length</name></member>
+    <member refid="structstring__traits_1a0ea8abe962910f0322cee4cb88a1104ea91b8ed7e42e82a0e6ec1ec85f53acdc7" kind="enumvalue"><name>has_data</name></member>
+    <member refid="structstring__traits_1a0ea8abe962910f0322cee4cb88a1104ea1b59204acca9d9e2e1f0f68213c152e0" kind="enumvalue"><name>has_size</name></member>
   </compound>
   <compound refid="struct_string_adapter" kind="struct"><name>StringAdapter</name>
   </compound>
@@ -2054,7 +2140,7 @@
     <member refid="union_variant_content_1aaca3fe7e4610d2f115e2343e94999436" kind="variable"><name>asCollection</name></member>
     <member refid="union_variant_content_1a0a67673220ddf50d89abb803364d0af5" kind="variable"><name>data</name></member>
     <member refid="union_variant_content_1a83b7889b4de69fcb05687a521c93d21b" kind="variable"><name>size</name></member>
-    <member refid="union_variant_content_1a3a7c299530852c5377289c17e3a64126" kind="variable"><name>asString</name></member>
+    <member refid="union_variant_content_1a191843db21da1dcf2322be2c1f1774dd" kind="variable"><name>asString</name></member>
   </compound>
   <compound refid="class_variant_data" kind="class"><name>VariantData</name>
     <member refid="class_variant_data_1ada038c16245d71deba5f5fdecd3e4a9d" kind="variable"><name>content_</name></member>
@@ -2288,32 +2374,48 @@
   </compound>
   <compound refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b" kind="class"><name>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt; std::ostream, TDestination &gt;::value &gt;::type &gt;</name>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1aa360b26f539b95e7aeb9267f23e0fe63" kind="variable"><name>os_</name></member>
+    <member refid="class_writer_1afffc95f4ff2be73c4ec33deaa25aeca4" kind="variable"><name>dest_</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a28ac7e9ce7d602742aba00bf4bfc19f4" kind="function"><name>Writer</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a37ceb688033b1e3589778d5f09a9319f" kind="function"><name>write</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1ostream_02809e8c688c1c38879272d5218c2e00b_1a16bb55ee1bfddd381409dd35045e6824" kind="function"><name>write</name></member>
+    <member refid="class_writer_1acbf2731d54350df959bdd4b90f18c659" kind="function"><name>Writer</name></member>
+    <member refid="class_writer_1a2f50630ea5d8eb13faffbdfc127a38cf" kind="function"><name>write</name></member>
+    <member refid="class_writer_1a5a94f0756b68cba4f92a50b2ea731ebb" kind="function"><name>write</name></member>
   </compound>
   <compound refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_1_1_print_00_01_t_17918fbe08742d8a3e7677fb9fd13199" kind="class"><name>Writer&lt; TDestination, typename enable_if&lt; is_base_of&lt;::Print, TDestination &gt;::value &gt;::type &gt;</name>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_1_1_print_00_01_t_17918fbe08742d8a3e7677fb9fd13199_1a976a08ef95a4609827c236544a105b96" kind="variable"><name>print_</name></member>
+    <member refid="class_writer_1afffc95f4ff2be73c4ec33deaa25aeca4" kind="variable"><name>dest_</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_1_1_print_00_01_t_17918fbe08742d8a3e7677fb9fd13199_1a6b8893446621feabacd06d2bf53950a6" kind="function"><name>Writer</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_1_1_print_00_01_t_17918fbe08742d8a3e7677fb9fd13199_1a40ff463ec4a78557e5d8ba0683419980" kind="function"><name>write</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__base__of_3_1_1_print_00_01_t_17918fbe08742d8a3e7677fb9fd13199_1a04aa54095ac4ff771db088ca51960ad2" kind="function"><name>write</name></member>
+    <member refid="class_writer_1acbf2731d54350df959bdd4b90f18c659" kind="function"><name>Writer</name></member>
+    <member refid="class_writer_1a2f50630ea5d8eb13faffbdfc127a38cf" kind="function"><name>write</name></member>
+    <member refid="class_writer_1a5a94f0756b68cba4f92a50b2ea731ebb" kind="function"><name>write</name></member>
   </compound>
   <compound refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99" kind="class"><name>Writer&lt; TDestination, typename enable_if&lt; is_std_string&lt; TDestination &gt;::value &gt;::type &gt;</name>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a667ddbe6ff6026cfd815c3003cd23f85" kind="variable"><name>str_</name></member>
+    <member refid="class_writer_1afffc95f4ff2be73c4ec33deaa25aeca4" kind="variable"><name>dest_</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a14102a0e07c93a67b13c4df900e3b040" kind="function"><name>Writer</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a4d2c8011605b2e6453ddb67b45dfed4e" kind="function"><name>write</name></member>
     <member refid="class_writer_3_01_t_destination_00_01typename_01enable__if_3_01is__std__string_3_01_t_destinatiof6be8983fac4e1c0f303b551b7abba99_1a067b29303252f11e34538ee194127264" kind="function"><name>write</name></member>
+    <member refid="class_writer_1acbf2731d54350df959bdd4b90f18c659" kind="function"><name>Writer</name></member>
+    <member refid="class_writer_1a2f50630ea5d8eb13faffbdfc127a38cf" kind="function"><name>write</name></member>
+    <member refid="class_writer_1a5a94f0756b68cba4f92a50b2ea731ebb" kind="function"><name>write</name></member>
   </compound>
   <compound refid="class_writer_3_1_1_string_00_01void_01_4" kind="class"><name>Writer&lt;::String, void &gt;</name>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1af94593e2b1854e8d6fa711131edeae35" kind="variable"><name>bufferCapacity</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a11726f70928c9379d591be2236239a08" kind="variable"><name>destination_</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a3706503d206e0bca7cc14d4ba41beb17" kind="variable"><name>buffer_</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a5fc671a850d40c607a0dcb4234502bf0" kind="variable"><name>size_</name></member>
+    <member refid="class_writer_1afffc95f4ff2be73c4ec33deaa25aeca4" kind="variable"><name>dest_</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a4ae39adc79a0e5403133034fed03892e" kind="function"><name>Writer</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a4c2d8178d6bcf7444f52408c78cada66" kind="function"><name>~Writer</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a6bebcac4d50e6d2cf33356826042d413" kind="function"><name>write</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a9e589516742980c5618eff95329e908d" kind="function"><name>write</name></member>
     <member refid="class_writer_3_1_1_string_00_01void_01_4_1a1ca579b03cf08303e050d2c7066e0ba4" kind="function"><name>flush</name></member>
+    <member refid="class_writer_1acbf2731d54350df959bdd4b90f18c659" kind="function"><name>Writer</name></member>
+    <member refid="class_writer_1a2f50630ea5d8eb13faffbdfc127a38cf" kind="function"><name>write</name></member>
+    <member refid="class_writer_1a5a94f0756b68cba4f92a50b2ea731ebb" kind="function"><name>write</name></member>
   </compound>
   <compound refid="class_zero_terminated_ram_string" kind="class"><name>ZeroTerminatedRamString</name>
     <member refid="class_zero_terminated_ram_string_1a5743e3c3ce2570aecc5d9710f2834002" kind="variable"><name>typeSortKey</name></member>
@@ -2639,6 +2741,7 @@
     <member refid="arithmetic_compare_8hpp_1ad79de333bcd557f93a47851c19a1901e" kind="function"><name>arithmeticCompareNegateRight</name></member>
   </compound>
   <compound refid="convert_number_8hpp" kind="file"><name>convertNumber.hpp</name>
+    <member refid="convert_number_8hpp_1ac6ca1772948a810c27667798296b8d72" kind="function"><name>canConvertNumber</name></member>
   </compound>
   <compound refid="_float_parts_8hpp" kind="file"><name>FloatParts.hpp</name>
   </compound>
@@ -2831,6 +2934,11 @@
     <member refid="_string_adapter_8hpp_1a9f8dc37d92414626d6d1c15a643c72ac" kind="function"><name>adaptString</name></member>
   </compound>
   <compound refid="_string_adapters_8hpp" kind="file"><name>StringAdapters.hpp</name>
+    <member refid="_string_adapters_8hpp_1ac67617b17e187bc669fae92cff0dbe9f" kind="function"><name>stringCompare</name></member>
+    <member refid="_string_adapters_8hpp_1adcf8e4511f069c247c502e642aef6053" kind="function"><name>stringCompare</name></member>
+    <member refid="_string_adapters_8hpp_1a09d0af07310cf7468ae7008a854c963f" kind="function"><name>stringEquals</name></member>
+    <member refid="_string_adapters_8hpp_1a4528bca4899a4f52d30b4114f5d56aa7" kind="function"><name>stringEquals</name></member>
+    <member refid="_string_adapters_8hpp_1af7b5600b1f74aa7bbd6e3c5315592a0b" kind="function"><name>stringGetChars</name></member>
   </compound>
   <compound refid="_string_traits_8hpp" kind="file"><name>StringTraits.hpp</name>
   </compound>
@@ -2862,23 +2970,23 @@
     <member refid="_variant_compare_8hpp_1a5273721e2f842941186f00414a628bca" kind="function"><name>compare</name></member>
   </compound>
   <compound refid="_variant_content_8hpp" kind="file"><name>VariantContent.hpp</name>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06c" kind="enum"><name>@4</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca3c37395425454edb26c18c6530e53948" kind="enumvalue"><name>VALUE_MASK</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca147aa260d3467fedf72e6d1ecf2c677e" kind="enumvalue"><name>OWNED_VALUE_BIT</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca84570b83293fe592c5fa116f11d7bea3" kind="enumvalue"><name>VALUE_IS_NULL</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca40bc628bf4876f8b4819fce3e9c9fdb0" kind="enumvalue"><name>VALUE_IS_LINKED_RAW</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca832548a7216a58963ef33b30aadf3498" kind="enumvalue"><name>VALUE_IS_OWNED_RAW</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06cab3ef562e0d80f51808989e64375f1b24" kind="enumvalue"><name>VALUE_IS_LINKED_STRING</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06cabd7bcdd869a29824885715654398cea2" kind="enumvalue"><name>VALUE_IS_OWNED_STRING</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06cab7a3d674a688235b93cfb7f5433f2131" kind="enumvalue"><name>VALUE_IS_BOOLEAN</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca7d85c871e5c5c601fdd8ab742dcb76b3" kind="enumvalue"><name>NUMBER_BIT</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca0b554f0c83c92c21d9df42a01ebf7621" kind="enumvalue"><name>VALUE_IS_UNSIGNED_INTEGER</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca3e54f9eb42d926c63ad37338613b1e38" kind="enumvalue"><name>VALUE_IS_SIGNED_INTEGER</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06cae10ead9e88fa9694b5e8e075ebf004cc" kind="enumvalue"><name>VALUE_IS_FLOAT</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca0ab9de4e6c7964437deae081541272fb" kind="enumvalue"><name>COLLECTION_MASK</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06cac09827b6ba973dd6a8a9a9ae553945a1" kind="enumvalue"><name>VALUE_IS_OBJECT</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06ca1e52d89bfb3dabaa902fb3125de03a0c" kind="enumvalue"><name>VALUE_IS_ARRAY</name></member>
-    <member refid="_variant_content_8hpp_1adc29c2ff13d900c2f185ee95427fb06cae99fef837d5de45ed1932cc3e73b4e73" kind="enumvalue"><name>OWNED_KEY_BIT</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019" kind="enum"><name></name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a3c37395425454edb26c18c6530e53948" kind="enumvalue"><name>VALUE_MASK</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a147aa260d3467fedf72e6d1ecf2c677e" kind="enumvalue"><name>OWNED_VALUE_BIT</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a84570b83293fe592c5fa116f11d7bea3" kind="enumvalue"><name>VALUE_IS_NULL</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a40bc628bf4876f8b4819fce3e9c9fdb0" kind="enumvalue"><name>VALUE_IS_LINKED_RAW</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a832548a7216a58963ef33b30aadf3498" kind="enumvalue"><name>VALUE_IS_OWNED_RAW</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019ab3ef562e0d80f51808989e64375f1b24" kind="enumvalue"><name>VALUE_IS_LINKED_STRING</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019abd7bcdd869a29824885715654398cea2" kind="enumvalue"><name>VALUE_IS_OWNED_STRING</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019ab7a3d674a688235b93cfb7f5433f2131" kind="enumvalue"><name>VALUE_IS_BOOLEAN</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a7d85c871e5c5c601fdd8ab742dcb76b3" kind="enumvalue"><name>NUMBER_BIT</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a0b554f0c83c92c21d9df42a01ebf7621" kind="enumvalue"><name>VALUE_IS_UNSIGNED_INTEGER</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a3e54f9eb42d926c63ad37338613b1e38" kind="enumvalue"><name>VALUE_IS_SIGNED_INTEGER</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019ae10ead9e88fa9694b5e8e075ebf004cc" kind="enumvalue"><name>VALUE_IS_FLOAT</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a0ab9de4e6c7964437deae081541272fb" kind="enumvalue"><name>COLLECTION_MASK</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019ac09827b6ba973dd6a8a9a9ae553945a1" kind="enumvalue"><name>VALUE_IS_OBJECT</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019a1e52d89bfb3dabaa902fb3125de03a0c" kind="enumvalue"><name>VALUE_IS_ARRAY</name></member>
+    <member refid="_variant_content_8hpp_1ac7960ca0f33d691492dcce22b42c1019ae99fef837d5de45ed1932cc3e73b4e73" kind="enumvalue"><name>OWNED_KEY_BIT</name></member>
   </compound>
   <compound refid="_variant_data_8hpp" kind="file"><name>VariantData.hpp</name>
   </compound>
@@ -2963,28 +3071,28 @@
     <member refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba1b7b322904c4742c90ba4f1859ca4a75" kind="enumvalue"><name>STANDBY_MS_1000</name></member>
     <member refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3febae16c2e0c7815030d7c220bc99672d94b" kind="enumvalue"><name>STANDBY_MS_2000</name></member>
     <member refid="bmp280_8h_1a92fb7b99381876de84fd0d74d11b3feba77a3bff96866d8d80c72cc97c140217d" kind="enumvalue"><name>STANDBY_MS_4000</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635" kind="enum"><name>@6</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635af5ee84149f063119d71bfa55080fc809" kind="enumvalue"><name>BMP280_REGISTER_DIG_T1</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a30e027d8d378f4141bf63dafe32fdb59" kind="enumvalue"><name>BMP280_REGISTER_DIG_T2</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635af066148145748b0bb981802831dd1f4f" kind="enumvalue"><name>BMP280_REGISTER_DIG_T3</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635aa62ddff60d9ef222bbecdbc0b82d44d8" kind="enumvalue"><name>BMP280_REGISTER_DIG_P1</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635acd6732211a29efca91a6cf8c4344cbca" kind="enumvalue"><name>BMP280_REGISTER_DIG_P2</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a0144a7d55df06f1b80a204589db4da79" kind="enumvalue"><name>BMP280_REGISTER_DIG_P3</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635af3459ac8808d9675bb77974342c7b475" kind="enumvalue"><name>BMP280_REGISTER_DIG_P4</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a472834479a212e32de1aeaf1478607f6" kind="enumvalue"><name>BMP280_REGISTER_DIG_P5</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635af51161d9e25b1a3b757a1845ce8ca045" kind="enumvalue"><name>BMP280_REGISTER_DIG_P6</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a30ee3bbbd9afcfaf3527498093e40e47" kind="enumvalue"><name>BMP280_REGISTER_DIG_P7</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635adcd2fa550eb7885e7a95535158087da6" kind="enumvalue"><name>BMP280_REGISTER_DIG_P8</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635adbcb3538529dd7f5feac1e864e119981" kind="enumvalue"><name>BMP280_REGISTER_DIG_P9</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a92360ab95044cf305a5a78689d57b72d" kind="enumvalue"><name>BMP280_REGISTER_CHIPID</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635abeac933fce0590915c43471f592795df" kind="enumvalue"><name>BMP280_REGISTER_VERSION</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a13dd251e9da3aac71ceeb722f45e45c6" kind="enumvalue"><name>BMP280_REGISTER_SOFTRESET</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a49bca42f6138b575b0d728828b8171d9" kind="enumvalue"><name>BMP280_REGISTER_CAL26</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a7525542625fabc922d7b345d8506674f" kind="enumvalue"><name>BMP280_REGISTER_STATUS</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635a3f9078ea96e8d9af451d798e716ee670" kind="enumvalue"><name>BMP280_REGISTER_CONTROL</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635af4d82c7f1a386b9cef7ce06a617b4742" kind="enumvalue"><name>BMP280_REGISTER_CONFIG</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635aefdd5567af82b0c234bc57b154a62aac" kind="enumvalue"><name>BMP280_REGISTER_PRESSUREDATA</name></member>
-    <member refid="bmp280_8h_1a726ca809ffd3d67ab4b8476646f26635afa135b360b8d94c7b6ef3bb76a5bdd24" kind="enumvalue"><name>BMP280_REGISTER_TEMPDATA</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3d" kind="enum"><name></name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daf5ee84149f063119d71bfa55080fc809" kind="enumvalue"><name>BMP280_REGISTER_DIG_T1</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da30e027d8d378f4141bf63dafe32fdb59" kind="enumvalue"><name>BMP280_REGISTER_DIG_T2</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daf066148145748b0bb981802831dd1f4f" kind="enumvalue"><name>BMP280_REGISTER_DIG_T3</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daa62ddff60d9ef222bbecdbc0b82d44d8" kind="enumvalue"><name>BMP280_REGISTER_DIG_P1</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3dacd6732211a29efca91a6cf8c4344cbca" kind="enumvalue"><name>BMP280_REGISTER_DIG_P2</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da0144a7d55df06f1b80a204589db4da79" kind="enumvalue"><name>BMP280_REGISTER_DIG_P3</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daf3459ac8808d9675bb77974342c7b475" kind="enumvalue"><name>BMP280_REGISTER_DIG_P4</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da472834479a212e32de1aeaf1478607f6" kind="enumvalue"><name>BMP280_REGISTER_DIG_P5</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daf51161d9e25b1a3b757a1845ce8ca045" kind="enumvalue"><name>BMP280_REGISTER_DIG_P6</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da30ee3bbbd9afcfaf3527498093e40e47" kind="enumvalue"><name>BMP280_REGISTER_DIG_P7</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3dadcd2fa550eb7885e7a95535158087da6" kind="enumvalue"><name>BMP280_REGISTER_DIG_P8</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3dadbcb3538529dd7f5feac1e864e119981" kind="enumvalue"><name>BMP280_REGISTER_DIG_P9</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da92360ab95044cf305a5a78689d57b72d" kind="enumvalue"><name>BMP280_REGISTER_CHIPID</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3dabeac933fce0590915c43471f592795df" kind="enumvalue"><name>BMP280_REGISTER_VERSION</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da13dd251e9da3aac71ceeb722f45e45c6" kind="enumvalue"><name>BMP280_REGISTER_SOFTRESET</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da49bca42f6138b575b0d728828b8171d9" kind="enumvalue"><name>BMP280_REGISTER_CAL26</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da7525542625fabc922d7b345d8506674f" kind="enumvalue"><name>BMP280_REGISTER_STATUS</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3da3f9078ea96e8d9af451d798e716ee670" kind="enumvalue"><name>BMP280_REGISTER_CONTROL</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daf4d82c7f1a386b9cef7ce06a617b4742" kind="enumvalue"><name>BMP280_REGISTER_CONFIG</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3daefdd5567af82b0c234bc57b154a62aac" kind="enumvalue"><name>BMP280_REGISTER_PRESSUREDATA</name></member>
+    <member refid="bmp280_8h_1a925be6a2b8bc7f2b055ef86b41683e3dafa135b360b8d94c7b6ef3bb76a5bdd24" kind="enumvalue"><name>BMP280_REGISTER_TEMPDATA</name></member>
   </compound>
   <compound refid="bsp__gpio_8cpp" kind="file"><name>bsp_gpio.cpp</name>
     <member refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" kind="function"><name>bspGpioPinMode</name></member>
@@ -3179,8 +3287,6 @@
     <member refid="_d_f_robot___husky_lens_8h_1a14e15ac32d28e5f47d23c145ed9de0fe" kind="enum"><name>HUSKYLENSResultType_t</name></member>
     <member refid="_d_f_robot___husky_lens_8h_1a14e15ac32d28e5f47d23c145ed9de0fea58d587b1be4e7f8998b6986cabc11b2a" kind="enumvalue"><name>HUSKYLENSResultBlock</name></member>
     <member refid="_d_f_robot___husky_lens_8h_1a14e15ac32d28e5f47d23c145ed9de0feaad64de91d19301de332ecaa8c6f9ec7e" kind="enumvalue"><name>HUSKYLENSResultArrow</name></member>
-    <member refid="_d_f_robot___husky_lens_8h_1a14e15ac32d28e5f47d23c145ed9de0fea58d587b1be4e7f8998b6986cabc11b2a" kind="enumvalue"><name>HUSKYLENSResultBlock</name></member>
-    <member refid="_d_f_robot___husky_lens_8h_1a14e15ac32d28e5f47d23c145ed9de0feaad64de91d19301de332ecaa8c6f9ec7e" kind="enumvalue"><name>HUSKYLENSResultArrow</name></member>
     <member refid="_d_f_robot___husky_lens_8h_1a63a95b8dfecae8d6d13232c387f58381" kind="typedef"><name>HUSKYLENSBlockInfo</name></member>
     <member refid="_d_f_robot___husky_lens_8h_1a2b724622cef9b849b1193247d775b638" kind="typedef"><name>HUSKYLENSArrowInfo</name></member>
     <member refid="_d_f_robot___husky_lens_8h_1a716f73ff2fe4db7aaceeb23a64b48015" kind="typedef"><name>HUSKYLENSBlockDirectInfo</name></member>
@@ -3261,13 +3367,10 @@
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a14e15ac32d28e5f47d23c145ed9de0fe" kind="enum"><name>HUSKYLENSResultType_t</name></member>
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a14e15ac32d28e5f47d23c145ed9de0fea58d587b1be4e7f8998b6986cabc11b2a" kind="enumvalue"><name>HUSKYLENSResultBlock</name></member>
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a14e15ac32d28e5f47d23c145ed9de0feaad64de91d19301de332ecaa8c6f9ec7e" kind="enumvalue"><name>HUSKYLENSResultArrow</name></member>
-    <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a14e15ac32d28e5f47d23c145ed9de0fea58d587b1be4e7f8998b6986cabc11b2a" kind="enumvalue"><name>HUSKYLENSResultBlock</name></member>
-    <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a14e15ac32d28e5f47d23c145ed9de0feaad64de91d19301de332ecaa8c6f9ec7e" kind="enumvalue"><name>HUSKYLENSResultArrow</name></member>
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a63a95b8dfecae8d6d13232c387f58381" kind="typedef"><name>HUSKYLENSBlockInfo</name></member>
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a2b724622cef9b849b1193247d775b638" kind="typedef"><name>HUSKYLENSArrowInfo</name></member>
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a716f73ff2fe4db7aaceeb23a64b48015" kind="typedef"><name>HUSKYLENSBlockDirectInfo</name></member>
     <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1a1a3f3b3b950f6eba9aa2d1c1f0cefe5f" kind="typedef"><name>HUSKYLENSArrowDirectInfo</name></member>
-    <member refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_1ae7b8ae1e3bfe10d0e42706f0ebf57e4b" kind="typedef"><name>HUSKYLENSResultType</name></member>
   </compound>
   <compound refid="_husky_lens_protocol_core_8c" kind="file"><name>HuskyLensProtocolCore.c</name>
     <member refid="_husky_lens_protocol_core_8c_1a7d23518d759519cde9b955735701ad46" kind="define"><name>FRAME_BUFFER_SIZE</name></member>
@@ -3535,153 +3638,145 @@
     <member refid="utility_8h_1a732bb003220387dc7af9c2751c1b2465" kind="function"><name>crc8</name></member>
     <member refid="utility_8h_1ae035ab017746978f2bc4555ec5c8b86d" kind="function"><name>compareVersion</name></member>
   </compound>
-  <compound refid="md_thesis_mdt266_iotdevkit_lib__arduino_http_client_utility__u_r_l_parser__r_e_a_d_m_e" kind="page"><name>md_thesis_mdt266_iotdevkit_lib_ArduinoHttpClient_utility_URLParser_README</name>
+  <compound refid="dir_a71c4a2605183e896b2859442fc7d05c" kind="dir"><name>lib/ac_measure</name>
   </compound>
-  <compound refid="md_thesis_mdt266_iotdevkit_lib__arduino_json__r_e_a_d_m_e" kind="page"><name>md_thesis_mdt266_iotdevkit_lib_ArduinoJson_README</name>
+  <compound refid="dir_a609e5dd017321dcf8cfe83525920a42" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Strings/Adapters</name>
   </compound>
-  <compound refid="md_thesis_mdt266_iotdevkit_lib_dht20__r_e_a_d_m_e" kind="page"><name>md_thesis_mdt266_iotdevkit_lib_dht20_README</name>
+  <compound refid="dir_51a5aacbb87340dd6d482e871e966e43" kind="dir"><name>lib/ArduinoHttpClient</name>
   </compound>
-  <compound refid="dir_f8d88bacdec55ab1d372195ae041f51c" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ac_measure</name>
+  <compound refid="dir_c4dedaf980b01a3cd7652d05d949c8d7" kind="dir"><name>lib/ArduinoJson</name>
   </compound>
-  <compound refid="dir_ede1f9f24f08f5c58b920d8002284ca0" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters</name>
+  <compound refid="dir_fad0a17fb5c1d03f6147440cf5d064ad" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson</name>
   </compound>
-  <compound refid="dir_e4c05bf6692d794450fc9d95367ee1a0" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient</name>
+  <compound refid="dir_b27902da1565337b07bd35329ddd5bed" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Array</name>
   </compound>
-  <compound refid="dir_a262394071aebdc301bf64d3d1111822" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson</name>
+  <compound refid="dir_41f8e2bb12a105b3e62cc193dacb2d08" kind="dir"><name>lib/bmp280</name>
   </compound>
-  <compound refid="dir_13deebad42d5ea7cdb8a8516766a3ec0" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson</name>
+  <compound refid="dir_03dec873ff5ab607800b9ec54a71117a" kind="dir"><name>lib/bsp</name>
   </compound>
-  <compound refid="dir_35c16c3acbe1d72922651d8ead550f83" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array</name>
+  <compound refid="dir_d20994daa53066fb270f3acc75a99001" kind="dir"><name>lib/button</name>
   </compound>
-  <compound refid="dir_c790ca96885a5398735eb95ccb8cb493" kind="dir"><name>thesis_mdt266_iotdevkit/lib/bmp280</name>
+  <compound refid="dir_a14f1fb45cf949b479301ae7b8aece68" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Collection</name>
   </compound>
-  <compound refid="dir_fbb6dd4bc06eb9668da5bb4a088a1e2b" kind="dir"><name>thesis_mdt266_iotdevkit/lib/bsp</name>
+  <compound refid="dir_10e48b983f378c59dcd859736018b16d" kind="dir"><name>lib/config</name>
   </compound>
-  <compound refid="dir_aebbca245a68863a51202f5c5244d3f1" kind="dir"><name>thesis_mdt266_iotdevkit/lib/button</name>
+  <compound refid="dir_a9ab4374419ff25492362ce3d9119e16" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Deserialization</name>
   </compound>
-  <compound refid="dir_aba05d1f8bdadd9b51dd240f062677d4" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection</name>
+  <compound refid="dir_c63ad364df733e24ac431b4390804b9e" kind="dir"><name>lib/dht20</name>
   </compound>
-  <compound refid="dir_839899deed37697a7aac06f485dce13c" kind="dir"><name>thesis_mdt266_iotdevkit/lib/config</name>
+  <compound refid="dir_2043495969904c4fd33854bf8948f60d" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Document</name>
   </compound>
-  <compound refid="dir_6fcc82c2d0dbbe2fc364f724f45225e6" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization</name>
+  <compound refid="dir_debc0c43ccc9fdc1f55a45dbc1d2b032" kind="dir"><name>lib/es_soil_7_in_1</name>
   </compound>
-  <compound refid="dir_16d2b6ad93d7c5583e6cdba31e8d12b7" kind="dir"><name>thesis_mdt266_iotdevkit/lib/dht20</name>
+  <compound refid="dir_a9aa24c78570c67e7c42e1c756d0cf23" kind="dir"><name>lib/dht20/examples</name>
   </compound>
-  <compound refid="dir_5577c67ae2921ceeb09ece12429b1f77" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document</name>
+  <compound refid="dir_ec2d9c87f6992fa367d6b9c5ce8d0362" kind="dir"><name>lib/HUSKYLENS/examples</name>
   </compound>
-  <compound refid="dir_f1888da5b6031137acff25fddb13090a" kind="dir"><name>thesis_mdt266_iotdevkit/lib/es_soil_7_in_1</name>
+  <compound refid="dir_159520f77db5d53b73d737e7c717d236" kind="dir"><name>lib/HUSKYLENS</name>
   </compound>
-  <compound refid="dir_7fbd116798375880a191908a6b42ae3b" kind="dir"><name>thesis_mdt266_iotdevkit/lib/dht20/examples</name>
+  <compound refid="dir_dc7531a01726af7e9320ee923c9d2908" kind="dir"><name>lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING</name>
   </compound>
-  <compound refid="dir_cf25332c20820cd179137fb308b9f2ba" kind="dir"><name>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples</name>
+  <compound refid="dir_f8868e94cf7ce72f98e8cafd0d1bbc46" kind="dir"><name>lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING</name>
   </compound>
-  <compound refid="dir_ddc800b3ffa3ec1f8a917802629824c8" kind="dir"><name>thesis_mdt266_iotdevkit/lib/HUSKYLENS</name>
+  <compound refid="dir_47aa7698b3fb49880a7b33e64496bc0b" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Json</name>
   </compound>
-  <compound refid="dir_041c30d86fba71cfdd4326779c15ad1b" kind="dir"><name>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING</name>
+  <compound refid="dir_0dfbfc4771a825bc2bf5a83dc42eba22" kind="dir"><name>lib/LCD_I2C</name>
   </compound>
-  <compound refid="dir_d5b996ebfaa2df3844f47df138fafa92" kind="dir"><name>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING</name>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
   </compound>
-  <compound refid="dir_904f9774710b0b28231b7dcd4d24a8fe" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json</name>
+  <compound refid="dir_d08c672f8236a5b999347236f7c32810" kind="dir"><name>lib/light_sensor</name>
   </compound>
-  <compound refid="dir_b3e894fba747370158aa1d9f889f7276" kind="dir"><name>thesis_mdt266_iotdevkit/lib/LCD_I2C</name>
+  <compound refid="dir_0c6a97445d7690c9226d07c63d179d4a" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Memory</name>
   </compound>
-  <compound refid="dir_886af127da27a9b719e97f412fb8ee78" kind="dir"><name>thesis_mdt266_iotdevkit/lib</name>
+  <compound refid="dir_c87256a25040e1bb1722121815ea887b" kind="dir"><name>lib/mini_fan</name>
   </compound>
-  <compound refid="dir_8b7ea24d7d98da99cfa5957722c733db" kind="dir"><name>thesis_mdt266_iotdevkit/lib/light_sensor</name>
+  <compound refid="dir_0648d57d77f719f9654ec6901cc52f66" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Misc</name>
   </compound>
-  <compound refid="dir_4c9a027b6cee227fc9b0f26dff2ac982" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory</name>
+  <compound refid="dir_ab84a8c12e8177e71676119d3d0b1562" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl</name>
   </compound>
-  <compound refid="dir_e6837d17074001bc70912aa6ca30e5fb" kind="dir"><name>thesis_mdt266_iotdevkit/lib/mini_fan</name>
+  <compound refid="dir_428e4cdc340eccb8a04495b8557c3979" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/MsgPack</name>
   </compound>
-  <compound refid="dir_bbf7635fc7ea999f5e6c89a7cb9b2b30" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc</name>
+  <compound refid="dir_8759457fc428d908179d697a750e8d0d" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Numbers</name>
   </compound>
-  <compound refid="dir_429af8e54169a801c25db0ae8db327bc" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl</name>
+  <compound refid="dir_71d6420c097c90cb21266eaa4a079845" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Object</name>
   </compound>
-  <compound refid="dir_a7af8095b253248118ab1a1be6e42ba5" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack</name>
+  <compound refid="dir_caef6b4136c8a4c9f4de5c566b28d6f1" kind="dir"><name>lib/pir_sensor</name>
   </compound>
-  <compound refid="dir_ab2c8b514eb223f3d4ba664674854729" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers</name>
+  <compound refid="dir_b2487d639a26a5d9f7da817ab11178e9" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Polyfills</name>
   </compound>
-  <compound refid="dir_b022e6daa339b23160b9e383375036fa" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object</name>
+  <compound refid="dir_e0a621e1d8bdb13d08c5c734276be2ee" kind="dir"><name>lib/PubSubClient</name>
   </compound>
-  <compound refid="dir_9b269f3eb0605e346d10fa3e7bda2ecf" kind="dir"><name>thesis_mdt266_iotdevkit/lib/pir_sensor</name>
+  <compound refid="dir_a3b5c57cb91440e2268e221c386903dd" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</name>
   </compound>
-  <compound refid="dir_891920c1fcd0dccc3b42a58ca551808a" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills</name>
+  <compound refid="dir_8214822af0602b2c13a0b44b628fc185" kind="dir"><name>lib/relay</name>
   </compound>
-  <compound refid="dir_3f928e9a43dfd94327deb10f0288823f" kind="dir"><name>thesis_mdt266_iotdevkit/lib/PubSubClient</name>
+  <compound refid="dir_ec747ffc70cc7e265f05154db74edb44" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Serialization</name>
   </compound>
-  <compound refid="dir_f2aa8641a4e4a1c44fba2164a02943ce" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers</name>
+  <compound refid="dir_f5420b6d77e365820cde539fe1155c5c" kind="dir"><name>lib/sht3x</name>
   </compound>
-  <compound refid="dir_c147d5233f0a5c077b16cbb0ee9f1e18" kind="dir"><name>thesis_mdt266_iotdevkit/lib/relay</name>
+  <compound refid="dir_928f9841166f58229f6bae951f08724c" kind="dir"><name>lib/sht4x</name>
   </compound>
-  <compound refid="dir_4ff44832d5399d602854a8a5e1b2f6b3" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization</name>
+  <compound refid="dir_d2ee86d867ee997cf6b53b2f1fb71b16" kind="dir"><name>lib/soil_moisture_sensor</name>
   </compound>
-  <compound refid="dir_cf0cc805f0c58936753470736a53ec88" kind="dir"><name>thesis_mdt266_iotdevkit/lib/sht3x</name>
+  <compound refid="dir_54a9d7a08f2ed49148146ebd4c4f2c20" kind="dir"><name>lib/ac_measure/src</name>
   </compound>
-  <compound refid="dir_ab8057e5be58cac40f97359916e97ec2" kind="dir"><name>thesis_mdt266_iotdevkit/lib/sht4x</name>
+  <compound refid="dir_ef373e993157965aa769903d9db0e322" kind="dir"><name>lib/ArduinoJson/src</name>
   </compound>
-  <compound refid="dir_0b0ab5b7464c019ce0430138962b0b55" kind="dir"><name>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor</name>
+  <compound refid="dir_cfecf4b65caa4b090deb215587d01c9c" kind="dir"><name>lib/bmp280/src</name>
   </compound>
-  <compound refid="dir_573d419210fa2ac3652195dd2628593d" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ac_measure/src</name>
+  <compound refid="dir_e341b635b746cac2b3cc1206f5e7245a" kind="dir"><name>lib/button/src</name>
   </compound>
-  <compound refid="dir_1b6f552bfee16bbff230e4129e333883" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src</name>
+  <compound refid="dir_cd99566405dbf48a3c18635e54305841" kind="dir"><name>lib/config/src</name>
   </compound>
-  <compound refid="dir_62a576adf65336f26f886baa9bd5531a" kind="dir"><name>thesis_mdt266_iotdevkit/lib/bmp280/src</name>
+  <compound refid="dir_81b3ecb8ae1f4859251bae603fecb964" kind="dir"><name>lib/dht20/src</name>
   </compound>
-  <compound refid="dir_579416e560e0cb5e238881be98b21f8a" kind="dir"><name>thesis_mdt266_iotdevkit/lib/button/src</name>
+  <compound refid="dir_d5b3cc1fe4afda1ef397e5376fa0babc" kind="dir"><name>lib/es_soil_7_in_1/src</name>
   </compound>
-  <compound refid="dir_11a475855a7bf685d7762e43b21b1c90" kind="dir"><name>thesis_mdt266_iotdevkit/lib/config/src</name>
+  <compound refid="dir_b00bdc899bacc0604a0a058f9c46b01e" kind="dir"><name>lib/LCD_I2C/src</name>
   </compound>
-  <compound refid="dir_779e249a78ec2bc3ed446da1a8502473" kind="dir"><name>thesis_mdt266_iotdevkit/lib/dht20/src</name>
+  <compound refid="dir_a9252817dd168cda17285f792d6657a3" kind="dir"><name>lib/light_sensor/src</name>
   </compound>
-  <compound refid="dir_3c27832594cca53dd73f05f1af4ee0d3" kind="dir"><name>thesis_mdt266_iotdevkit/lib/es_soil_7_in_1/src</name>
+  <compound refid="dir_65578b42aff5261b98bf2715ddbe0961" kind="dir"><name>lib/mini_fan/src</name>
   </compound>
-  <compound refid="dir_4b699977132c54dba435a92c57880608" kind="dir"><name>thesis_mdt266_iotdevkit/lib/LCD_I2C/src</name>
+  <compound refid="dir_e1c569de757741b0c19fc37ab37f133b" kind="dir"><name>lib/pir_sensor/src</name>
   </compound>
-  <compound refid="dir_5e364e08ba975d5d0bdc38fd7c719a95" kind="dir"><name>thesis_mdt266_iotdevkit/lib/light_sensor/src</name>
+  <compound refid="dir_e00487b8091b664197daaa52f5736faa" kind="dir"><name>lib/relay/src</name>
   </compound>
-  <compound refid="dir_9e73787ee5f1eb5f810ee86d98ca698f" kind="dir"><name>thesis_mdt266_iotdevkit/lib/mini_fan/src</name>
+  <compound refid="dir_aaf79a6e3d79da4b818e42bd05d3b868" kind="dir"><name>lib/sht3x/src</name>
   </compound>
-  <compound refid="dir_aacdbe94fb364af91f19ea6daff69635" kind="dir"><name>thesis_mdt266_iotdevkit/lib/pir_sensor/src</name>
+  <compound refid="dir_98c41ed275245bdd143dc8a0bf0e0034" kind="dir"><name>lib/sht4x/src</name>
   </compound>
-  <compound refid="dir_70a531e7d634c6cf84314a6ad4c3e11d" kind="dir"><name>thesis_mdt266_iotdevkit/lib/relay/src</name>
+  <compound refid="dir_c7aa19206465e504b028a9bda7197efa" kind="dir"><name>lib/soil_moisture_sensor/src</name>
   </compound>
-  <compound refid="dir_e3f72bec7bfd560fd1841082efaecbe1" kind="dir"><name>thesis_mdt266_iotdevkit/lib/sht3x/src</name>
+  <compound refid="dir_a14b70e880105bdb752cf02abef7f532" kind="dir"><name>lib/ultrasonic_sensor/src</name>
   </compound>
-  <compound refid="dir_b05d1618522d1ac6c7df46721f6c9084" kind="dir"><name>thesis_mdt266_iotdevkit/lib/sht4x/src</name>
+  <compound refid="dir_80138ef209f0b3021360af8d4d592810" kind="dir"><name>lib/unit_4relay/src</name>
   </compound>
-  <compound refid="dir_d2dbf1261dac580cce78b2f7e4f3c031" kind="dir"><name>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src</name>
+  <compound refid="dir_a93352bbad3a7c09442d89e8febbd5b1" kind="dir"><name>lib/usb_switch/src</name>
   </compound>
-  <compound refid="dir_528ac188106fb2cea8439165ef35a67c" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src</name>
+  <compound refid="dir_77d916e9bb7fa9d9968d1ae2d87c64b5" kind="dir"><name>lib/utility/src</name>
   </compound>
-  <compound refid="dir_0e2e8ee75aaa44d0612ebc0fc91f3ba4" kind="dir"><name>thesis_mdt266_iotdevkit/lib/unit_4relay/src</name>
+  <compound refid="dir_381851da249482ed4e3dd63fba668019" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Strings</name>
   </compound>
-  <compound refid="dir_26dd16ddc119ba21301487363f86eb65" kind="dir"><name>thesis_mdt266_iotdevkit/lib/usb_switch/src</name>
+  <compound refid="dir_6dd4b75b980080771d6263a8e36e8666" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/StringStorage</name>
   </compound>
-  <compound refid="dir_42004c8c535688355aa3ff5b140ed79a" kind="dir"><name>thesis_mdt266_iotdevkit/lib/utility/src</name>
+  <compound refid="dir_f846694a70bf10e2323df0eca63347cd" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits</name>
   </compound>
-  <compound refid="dir_9e0c7672caa5d47e4cedc176bfebc230" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings</name>
+  <compound refid="dir_a1edb5454300fc52cc0038d0f9903d6a" kind="dir"><name>lib/ultrasonic_sensor</name>
   </compound>
-  <compound refid="dir_6e4f8acb10b2051b1546a1a10c57e21d" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage</name>
+  <compound refid="dir_5c75b1126ffe6c52ec9a66ee7be1bfda" kind="dir"><name>lib/unit_4relay</name>
   </compound>
-  <compound refid="dir_779aade6bd8f9f4793ba67c0c3a369ae" kind="dir"><name>thesis_mdt266_iotdevkit</name>
+  <compound refid="dir_72f3d495db958d4b491adc31ac3959aa" kind="dir"><name>lib/ArduinoHttpClient/utility/URLParser</name>
   </compound>
-  <compound refid="dir_c72fa2dd5a9c5b352f06e62a1c0a81eb" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/type_traits</name>
+  <compound refid="dir_6d227181b75b2df272f5da1219c76b47" kind="dir"><name>lib/usb_switch</name>
   </compound>
-  <compound refid="dir_94d73d03d9b8ab7d4af12793c9c42db6" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor</name>
+  <compound refid="dir_de6b731208ca3647f59e46130a87452d" kind="dir"><name>lib/ArduinoHttpClient/utility</name>
   </compound>
-  <compound refid="dir_b93b24ab107bc9e7defc368dd481657c" kind="dir"><name>thesis_mdt266_iotdevkit/lib/unit_4relay</name>
+  <compound refid="dir_31153c7d8cc16ae64d9212a5c823a211" kind="dir"><name>lib/utility</name>
   </compound>
-  <compound refid="dir_3cd44837f31178a3c5dcfdbf7da4951b" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser</name>
+  <compound refid="dir_22170c7dabdeeb07b37a9239b4243453" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Variant</name>
   </compound>
-  <compound refid="dir_163f486728c2d7e4a3ca5aa8f514bcf4" kind="dir"><name>thesis_mdt266_iotdevkit/lib/usb_switch</name>
-  </compound>
-  <compound refid="dir_bc147d61d01381f803dd0059ceb7320d" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility</name>
-  </compound>
-  <compound refid="dir_e3d7545438c247335ecc5edabfd8d5f8" kind="dir"><name>thesis_mdt266_iotdevkit/lib/utility</name>
-  </compound>
-  <compound refid="dir_a1f9c59ab89477e150ac9c525f7a843a" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant</name>
-  </compound>
-  <compound refid="dir_1738763b873abf929d5626af58b2af7e" kind="dir"><name>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/Writers</name>
+  <compound refid="dir_7f85e5012c841fb6f00c95109dfa13e0" kind="dir"><name>lib/ArduinoJson/src/ArduinoJson/Serialization/Writers</name>
   </compound>
   <compound refid="_none-example" kind="example"><name>None</name>
   </compound>

@@ -1,4 +1,0 @@
-<map id="PIRSensor::PIRSensor" name="PIRSensor::PIRSensor">
-<area shape="rect" id="node1" title="Constructor to initialize the PIR sensor with a specified pin." alt="" coords="5,5,163,32"/>
-<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a566a8a135b7fc73ec916f8757d7018b4" title="This function sets the mode of a GPIO pin." alt="" coords="211,5,331,32"/>
-</map>

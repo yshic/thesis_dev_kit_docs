@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_d_f_mobile" kind="class" language="C++" prot="public">
     <compoundname>DFMobile</compoundname>
     <includes refid="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_d_f_mobile_8h" local="no">DFMobile.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_d_f_mobile_1a1af1831edd264e06ad8aef09c376c8ed" prot="private" static="no" mutable="no">
         <type>bool</type>
         <definition>bool DFMobile::_left_advance</definition>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="12" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="12" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="12" column="8" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1af17d9ecf59747f28123c664780d7ff92" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="13" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="13" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="13" column="8" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1ac28709f4dd65009063050700d47b78e2" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="14" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="14" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="14" column="8" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1a49e744c1a9578ba85d04c225527f1709" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="15" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="15" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="15" column="8" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1a7681334495b113c2db1ddadf8a6e0892" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="17" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="17" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="17" column="11" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1aead449781e56156f5a2258043f09e130" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="18" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="18" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="18" column="11" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1a683ead58eb131abedceeb733e0c2a420" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="19" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="19" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="19" column="11" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_d_f_mobile_1a8d0cbefe1af8f9cc777e21c82bf21851" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -114,10 +114,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="20" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="20" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="20" column="11" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="20" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>DFMobile::DFMobile</definition>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="23" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="16" bodyend="30"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="23" column="3" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="16" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_d_f_mobile_1a6e388592ea1b4152e5bbf749c1b1455e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="25" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="33" bodyend="42"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="25" column="8" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="33" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="class_d_f_mobile_1a259683a49d6e7d21fc5295bb0fad2d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="27" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="46" bodyend="67"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="27" column="8" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.cpp" bodystart="46" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="23" column="3"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="23" column="3"/>
       </memberdef>
       <memberdef kind="function" id="class_d_f_mobile_1a6e388592ea1b4152e5bbf749c1b1455e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -244,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="25" column="8"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="25" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_d_f_mobile_1a259683a49d6e7d21fc5295bb0fad2d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -266,16 +266,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="27" column="8"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h" line="27" column="8"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>@file    DFMobile.h
 </verbatim> heading library file of Romeo <ref refid="class_d_f_mobile" kindref="compound">DFMobile</ref> Speed Copyright (C) 2015 DFRobot </para>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="10" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="10" bodyend="28"/>
+    <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" line="10" column="1" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/DFMobile.h" bodystart="10" bodyend="28"/>
     <listofallmembers>
       <member refid="class_d_f_mobile_1a1af1831edd264e06ad8aef09c376c8ed" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_left_advance</name></member>
       <member refid="class_d_f_mobile_1af17d9ecf59747f28123c664780d7ff92" prot="private" virt="non-virtual"><scope>DFMobile</scope><name>_left_back</name></member>

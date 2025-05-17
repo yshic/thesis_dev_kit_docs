@@ -1,0 +1,16 @@
+<map id="HttpClient::patch" name="HttpClient::patch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,126,108"/>
+<area shape="rect" id="Node000002" href="$class_http_client.html#a87a030a92938f87aef3bdc48579ec17b" title=" " alt="" coords="174,81,294,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,92,158,92,158,97,126,97"/>
+<area shape="rect" id="Node000003" href="$class_http_client.html#a132817aa337738438a11635890729023" title=" " alt="" coords="342,81,505,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="294,92,326,92,326,97,294,97"/>
+<area shape="rect" id="Node000004" href="$class_http_client.html#aa9772b5fe920a5cb0bcb74871e2b4679" title=" " alt="" coords="568,5,735,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="456,78,552,41,577,34,578,39,554,47,458,83"/>
+<area shape="rect" id="Node000005" href="$class_http_client.html#ab29155f574471c50d78b72484378b9b5" title=" " alt="" coords="577,56,726,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="505,83,561,77,562,82,506,88"/>
+<area shape="rect" id="Node000006" href="$class_http_client.html#a10b1352ced52ad00f5989d17294b4978" title=" " alt="" coords="798,132,956,159"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="506,101,783,132,782,138,505,106"/>
+<area shape="rect" id="Node000007" href="$class_http_client.html#abadbb2a8c693e4c782b4552f2a74d48b" title=" " alt="" coords="553,157,750,184"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="466,106,554,136,594,149,592,155,552,141,465,111"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="750,157,782,153,783,159,750,162"/>
+</map>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="dir_72f3d495db958d4b491adc31ac3959aa" kind="dir">
     <compoundname>lib/ArduinoHttpClient/utility/URLParser</compoundname>
     <innerfile refid="http__parser_8c">http_parser.c</innerfile>
@@ -7,6 +7,8 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>This code is imported from: <ulink url="https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser">https://github.com/arduino/ArduinoCore-mbed/tree/4.1.1/libraries/SocketWrapper/src/utility/http_parser</ulink></para>
+<para>The code is shrinked in size by deleting all the unrelated code to url parse. </para>
     </detaileddescription>
     <location file="lib/ArduinoHttpClient/utility/URLParser/"/>
   </compounddef>

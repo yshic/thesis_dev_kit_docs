@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="utility_8hpp" kind="file" language="C++">
     <compoundname>utility.hpp</compoundname>
     <includes refid="type__traits_8hpp" local="yes">type_traits.hpp</includes>
-    <includedby refid="_reader_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</includedby>
-    <includedby refid="deserialize_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</includedby>
-    <includedby refid="_json_deserializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
+    <includedby refid="_reader_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</includedby>
+    <includedby refid="deserialize_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</includedby>
+    <includedby refid="_json_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>ArduinoJson/Configuration.hpp</label>
@@ -228,7 +228,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp</label>
         <link refid="utility_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -243,17 +243,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
         <link refid="_reader_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
         <link refid="deserialize_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -261,19 +261,19 @@
         </childnode>
       </node>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp</label>
         <link refid="utility_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -283,7 +283,7 @@
         </childnode>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="utility_8hpp_1a2653cf281b2616028036cdd0e74cd401" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -295,7 +295,7 @@
         <argsstring>(typename remove_reference&lt; T &gt;::type &amp;t) noexcept</argsstring>
         <name>forward</name>
         <param>
-          <type>typename <ref refid="structremove__reference" kindref="compound">remove_reference</ref>&lt; T &gt;::type &amp;</type>
+          <type>typename <ref refid="structremove__reference" kindref="compound">remove_reference</ref>&lt; T &gt;<ref refid="structconditional" kindref="compound">::type</ref> &amp;</type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -304,9 +304,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp" line="12" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp" bodystart="12" bodyend="14"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp" line="12" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp" bodystart="12" bodyend="14"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -329,6 +329,6 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp"/>
   </compounddef>
 </doxygen>

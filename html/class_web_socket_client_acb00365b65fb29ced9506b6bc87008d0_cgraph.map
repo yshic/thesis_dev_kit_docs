@@ -1,0 +1,7 @@
+<map id="WebSocketClient::ping" name="WebSocketClient::ping">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,160,57"/>
+<area shape="rect" id="Node000002" href="$class_web_socket_client.html#abcb2421a827ad726a78d32730395c445" title=" " alt="" coords="208,5,422,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,33,192,29,192,35,161,38"/>
+<area shape="rect" id="Node000003" href="$class_web_socket_client.html#a0c759d104dfeb98f26d13893bbc5674b" title=" " alt="" coords="213,56,417,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,50,197,54,197,59,160,55"/>
+</map>

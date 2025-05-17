@@ -1,0 +1,15 @@
+<map id="lib/bsp/bsp_i2c.h" name="lib/bsp/bsp_i2c.h">
+<area shape="rect" id="Node000001" title="Header file for bsp_i2c." alt="" coords="423,5,543,32"/>
+<area shape="rect" id="Node000002" href="$ac__measure_8cpp.html" title="Source file for ac_measure library." alt="" coords="5,80,137,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,34,286,55,149,83,138,85,137,80,148,77,285,50,408,29"/>
+<area shape="rect" id="Node000003" href="$bsp__i2c_8cpp.html" title="Source file for bsp_i2c." alt="" coords="160,88,294,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="430,40,268,90,266,85,428,34"/>
+<area shape="rect" id="Node000004" href="$dht20_8cpp.html" title="Source file for DHT20 library." alt="" coords="318,88,472,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="460,45,410,90,407,86,456,41"/>
+<area shape="rect" id="Node000005" href="$sht3x_8cpp.html" title="Source file for SHT3X library." alt="" coords="496,88,649,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="510,40,561,86,557,90,506,44"/>
+<area shape="rect" id="Node000006" href="$sht4x_8cpp.html" title="Source file for BMP280 library." alt="" coords="673,88,826,115"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="540,34,709,85,707,90,538,39"/>
+<area shape="rect" id="Node000007" href="$unit__4relay_8cpp.html" title="Source file for unit_4relay.cpp." alt="" coords="851,80,974,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="558,28,690,49,840,77,851,80,849,85,838,83,689,54,558,33"/>
+</map>

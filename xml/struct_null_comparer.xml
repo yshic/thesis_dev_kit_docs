@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_null_comparer" kind="struct" language="C++" prot="public">
     <compoundname>NullComparer</compoundname>
     <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
     <derivedcompoundref refid="struct_comparer_3_01decltype_07nullptr_08_00_01void_01_4" prot="public" virt="non-virtual">Comparer&lt; decltype(nullptr), void &gt;</derivedcompoundref>
-      <sectiondef kind="public-func">
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="struct_null_comparer_1a2c32c531a1b9f91e88a920712de2b3bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>CompareResult</type>
         <definition>CompareResult NullComparer::visitNull</definition>
@@ -17,9 +17,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="73" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="73" bodyend="75"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="73" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="73" bodyend="75"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -66,7 +66,7 @@
         <link refid="struct_visitor"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="72" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="72" bodyend="76"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="72" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="72" bodyend="76"/>
     <listofallmembers>
       <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>result_type</name></member>
       <member refid="struct_visitor_1a44b6fffab423684fe91a1e527b8a8b5a" prot="public" virt="non-virtual"><scope>NullComparer</scope><name>visitArray</name></member>

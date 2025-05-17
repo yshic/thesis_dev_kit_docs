@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_std_stream_reader_8hpp" kind="file" language="C++">
     <compoundname>StdStreamReader.hpp</compoundname>
     <includes local="no">istream</includes>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp</label>
         <link refid="_std_stream_reader_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -31,10 +31,10 @@
 <codeline lineno="9"><highlight class="normal">ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TSource&gt;</highlight></codeline>
-<codeline lineno="12" refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_reader" kindref="compound">Reader</ref>&lt;TSource,<sp/>typename<sp/><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt;std::istream,<sp/>TSource&gt;::value&gt;::type&gt;<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="struct_reader_3_01_t_source_00_01typename_01enable__if_3_01is__base__of_3_01std_1_1istream_00_01ab5d8989baaff7619a89196a51740737" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Reader&lt;TSource,<sp/>typename<sp/><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classis__base__of" kindref="compound">is_base_of</ref>&lt;std::istream,<sp/>TSource&gt;::value&gt;<ref refid="structconditional" kindref="compound">::type</ref>&gt;<sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="struct_reader" kindref="compound">Reader</ref>(std::istream&amp;<sp/>stream)<sp/>:<sp/>stream_(&amp;stream)<sp/>{}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/>Reader(std::istream&amp;<sp/>stream)<sp/>:<sp/>stream_(&amp;stream)<sp/>{}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>read()<sp/>{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stream_-&gt;get();</highlight></codeline>
@@ -51,6 +51,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp"/>
   </compounddef>
 </doxygen>

@@ -1,7 +1,0 @@
-<map id="BMP280::update" name="BMP280::update">
-<area shape="rect" id="node1" title="Updates all sensor measurements." alt="" coords="5,56,124,83"/>
-<area shape="rect" id="node2" href="$class_b_m_p280.html#ad9d68ec2a3c74dd8ce6b1684cc1df79d" title="Calculates the altitude based on pressure data." alt="" coords="186,5,334,32"/>
-<area shape="rect" id="node4" href="$class_b_m_p280.html#a945a1f5234d942ac1cd36b5146947e20" title="Reads the pressure from the BMP280 sensor." alt="" coords="182,56,338,83"/>
-<area shape="rect" id="node5" href="$class_b_m_p280.html#a4c27cecd6619562435b63c81a0295bae" title="Reads the temperature from the BMP280 sensor." alt="" coords="172,107,348,133"/>
-<area shape="rect" id="node3" href="$class_b_m_p280.html#aeb4fc3f2a91697a23d9605dac27e8e14" title="Retrieves the pressure value." alt="" coords="396,5,545,32"/>
-</map>

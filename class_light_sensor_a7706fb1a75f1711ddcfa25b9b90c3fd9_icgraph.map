@@ -1,5 +1,0 @@
-<map id="LightSensor::read" name="LightSensor::read">
-<area shape="rect" id="node1" title="Reads the analog value from the light sensor." alt="" coords="266,31,389,57"/>
-<area shape="rect" id="node2" href="$class_light_sensor.html#af31fbe6b1894a1a460097a78f6306363" title="Computes the average sensor reading over multiple samples." alt="" coords="5,5,218,32"/>
-<area shape="rect" id="node3" href="$class_light_sensor.html#a8fe3d926c42065e23b14b41c6a7bbbc1" title="Reads and maps the sensor value to a specified range." alt="" coords="26,56,197,83"/>
-</map>

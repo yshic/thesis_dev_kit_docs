@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="dht20_8h" kind="file" language="C++">
     <compoundname>dht20.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="dht20__simple__read_8cpp" local="no">thesis_mdt266_iotdevkit/lib/dht20/examples/dht20_simple_read.cpp</includedby>
-    <includedby refid="dht20_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp</includedby>
+    <includedby refid="dht20__simple__read_8cpp" local="no">lib/dht20/examples/dht20_simple_read.cpp</includedby>
+    <includedby refid="dht20_8cpp" local="yes">lib/dht20/src/dht20.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h</label>
+        <label>lib/dht20/src/dht20.h</label>
         <link refid="dht20_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -18,18 +18,18 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp</label>
+        <label>lib/dht20/src/dht20.cpp</label>
         <link refid="dht20_8cpp"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h</label>
+        <label>lib/dht20/src/dht20.h</label>
         <link refid="dht20_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_d_h_t20" prot="public">DHT20</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="dht20_8h_1ab30e82b2d0e7802714fb51e84ddffb81" prot="public" static="no">
         <name>DHT20_LIB_VERSION</name>
         <initializer>(F(&quot;0.1.0&quot;))</initializer>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="24" bodyend="-1"/>
+        <location file="lib/dht20/src/dht20.h" line="24" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dht20_8h_1a5187929b30503b11456d6e28873be909" prot="public" static="no">
         <name>DHT20_I2C_ADDR</name>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="26" bodyend="-1"/>
+        <location file="lib/dht20/src/dht20.h" line="26" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dht20_8h_1a744c9731db17ec127be87226f612b0bc" prot="public" static="no">
         <name>DHT20_HUMIDITY_INDEX</name>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="27" bodyend="-1"/>
+        <location file="lib/dht20/src/dht20.h" line="27" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dht20_8h_1a6dc85678b3e08a6cb49f599bc8d73d25" prot="public" static="no">
         <name>DHT20_TEMPERATURE_INDEX</name>
@@ -72,10 +72,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="28" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="28" bodyend="-1"/>
+        <location file="lib/dht20/src/dht20.h" line="28" column="11" bodyfile="lib/dht20/src/dht20.h" bodystart="28" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="enum">
+    </sectiondef>
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="dht20_8h_1a481cf5b28fd24618eb1540dffe5cfaa2" prot="public" static="no" strong="no">
         <type></type>
         <name>dht20_error_t</name>
@@ -135,9 +135,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="31" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="32" bodyend="40"/>
+        <location file="lib/dht20/src/dht20.h" line="31" column="1" bodyfile="lib/dht20/src/dht20.h" bodystart="32" bodyend="40"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Header file for <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> library. </para>
     </briefdescription>
@@ -152,6 +152,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DHT20_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>DHT20_H</highlight><highlight class="normal"></highlight></codeline>
@@ -164,7 +165,7 @@
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>DHT20_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>DHT20_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>DHT20_I2C_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x38</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>DHT20_HUMIDITY_INDEX<sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
@@ -187,10 +188,10 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="class_d_h_t20" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_d_h_t20" kindref="compound">DHT20</ref></highlight></codeline>
+<codeline lineno="75" refid="class_d_h_t20" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DHT20</highlight></codeline>
 <codeline lineno="76"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="class_d_h_t20" kindref="compound">DHT20</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>DHT20();</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/>dht20_error_t<sp/><ref refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" kindref="member">begin</ref>();</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
@@ -214,8 +215,8 @@
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>DHT20_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h"/>
+    <location file="lib/dht20/src/dht20.h"/>
   </compounddef>
 </doxygen>

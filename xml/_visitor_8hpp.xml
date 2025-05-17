@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_visitor_8hpp" kind="file" language="C++">
     <compoundname>Visitor.hpp</compoundname>
     <includes refid="_collection_data_8hpp" local="no">ArduinoJson/Collection/CollectionData.hpp</includes>
     <includes refid="_json_float_8hpp" local="no">ArduinoJson/Numbers/JsonFloat.hpp</includes>
     <includes refid="_json_integer_8hpp" local="no">ArduinoJson/Numbers/JsonInteger.hpp</includes>
-    <includedby refid="_json_serializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</includedby>
-    <includedby refid="_variant_compare_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</includedby>
-    <includedby refid="_variant_functions_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</includedby>
+    <includedby refid="_json_serializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</includedby>
+    <includedby refid="_variant_compare_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</includedby>
+    <includedby refid="_variant_functions_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -62,7 +62,7 @@
         <link refid="preprocessor_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp</label>
         <link refid="_visitor_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,11 +84,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="33">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
         <link refid="_element_proxy_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -98,7 +98,7 @@
         </childnode>
       </node>
       <node id="31">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
         <link refid="_json_array_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -112,43 +112,43 @@
         </childnode>
       </node>
       <node id="30">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
         <link refid="_json_array_const_8hpp_source"/>
         <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="26">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
         <link refid="_json_array_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="36">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
         <link refid="_json_array_iterator_8hpp_source"/>
         <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="18">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
         <link refid="_utilities_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="13">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
         <link refid="_reader_8hpp_source"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
         <link refid="_variant_reader_8hpp_source"/>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
         <link refid="deserialize_8hpp_source"/>
         <childnode refid="15" relation="include">
         </childnode>
@@ -156,19 +156,19 @@
         </childnode>
       </node>
       <node id="19">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
         <link refid="_basic_json_document_8hpp_source"/>
         <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="20">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="17">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
         <link refid="_json_document_8hpp_source"/>
         <childnode refid="18" relation="include">
         </childnode>
@@ -178,19 +178,19 @@
         </childnode>
       </node>
       <node id="21">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
         <link refid="_static_json_document_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="15">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -200,25 +200,25 @@
         </childnode>
       </node>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="25">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
         <link refid="_json_object_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -232,31 +232,31 @@
         </childnode>
       </node>
       <node id="24">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
         <link refid="_json_object_const_8hpp_source"/>
         <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="27">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
         <link refid="_json_object_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="23">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
         <link refid="_json_object_iterator_8hpp_source"/>
         <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="22">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
         <link refid="_json_pair_8hpp_source"/>
         <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="34">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
         <link refid="_member_proxy_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -268,7 +268,7 @@
         </childnode>
       </node>
       <node id="8">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
         <link refid="measure_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -278,7 +278,7 @@
         </childnode>
       </node>
       <node id="10">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
         <link refid="serialize_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -288,13 +288,13 @@
         </childnode>
       </node>
       <node id="5">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="35">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
         <link refid="_json_variant_8hpp_source"/>
         <childnode refid="36" relation="include">
         </childnode>
@@ -304,7 +304,7 @@
         </childnode>
       </node>
       <node id="11">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
         <link refid="_json_variant_const_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -322,7 +322,7 @@
         </childnode>
       </node>
       <node id="29">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
         <link refid="_variant_attorney_8hpp_source"/>
         <childnode refid="30" relation="include">
         </childnode>
@@ -330,13 +330,13 @@
         </childnode>
       </node>
       <node id="6">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</label>
         <link refid="_variant_compare_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
         <link refid="_variant_functions_8hpp_source"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -348,13 +348,13 @@
         </childnode>
       </node>
       <node id="28">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
         <link refid="_variant_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="32">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
         <link refid="_variant_ref_base_8hpp_source"/>
         <childnode refid="33" relation="include">
         </childnode>
@@ -364,7 +364,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp</label>
         <link refid="_visitor_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -435,6 +435,6 @@
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp"/>
   </compounddef>
 </doxygen>

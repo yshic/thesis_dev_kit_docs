@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="ultrasonic_8h" kind="file" language="C++">
     <compoundname>ultrasonic.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="ultrasonic_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
+    <includedby refid="ultrasonic_8cpp" local="yes">lib/ultrasonic_sensor/src/ultrasonic.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h</label>
+        <label>lib/ultrasonic_sensor/src/ultrasonic.h</label>
         <link refid="ultrasonic_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,18 +17,18 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
+        <label>lib/ultrasonic_sensor/src/ultrasonic.cpp</label>
         <link refid="ultrasonic_8cpp"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h</label>
+        <label>lib/ultrasonic_sensor/src/ultrasonic.h</label>
         <link refid="ultrasonic_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_ultrasonic" prot="public">Ultrasonic</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="ultrasonic_8h_1a4cd84c34bf2430e322c03409af3add07" prot="public" static="no">
         <name>ULTRASONIC_LIB_VERSION</name>
         <initializer>(F(&quot;0.1.0&quot;))</initializer>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="24" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="24" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a6fd0d303c203c556efe6d1387b8274bf" prot="public" static="no">
         <name>CM_DIVISOR</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="26" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="26" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a98e92be1904c746b953b59fce5a3cd78" prot="public" static="no">
         <name>MM_DIVISOR</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="27" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="27" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a8ee9322fb94a2cfa9cdd92acd8764e81" prot="public" static="no">
         <name>IN_DIVISOR</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="28" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="28" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="28" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a1c1b11e6ec686bb15dad48292fe01c24" prot="public" static="no">
         <name>CM_INDEX</name>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="30" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="30" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="30" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1ad37fe2bd9aeef369ac6cf9d228fb7a98" prot="public" static="no">
         <name>MM_INDEX</name>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="31" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="31" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="31" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ultrasonic_8h_1a9743c11d3ed0a535709ce0220a53c76c" prot="public" static="no">
         <name>IN_INDEX</name>
@@ -104,10 +104,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="32" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="32" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="32" column="11" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="32" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="enum">
+    </sectiondef>
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="ultrasonic_8h_1a2da24020278294e2b407cc96ceda4d6b" prot="public" static="no" strong="no">
         <type></type>
         <name>ultrasonic_error_t</name>
@@ -153,9 +153,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="38" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="39" bodyend="45"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="38" column="1" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="39" bodyend="45"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Header file for <ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref> sensor library. </para>
     </briefdescription>
@@ -170,6 +170,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ULTRASONIC_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ULTRASONIC_H</highlight><highlight class="normal"></highlight></codeline>
@@ -182,7 +183,7 @@
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ULTRASONIC_LIB_VERSION<sp/>(F(&quot;0.1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ULTRASONIC_LIB_VERSION<sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>CM_DIVISOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>58</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>MM_DIVISOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5.8</highlight><highlight class="normal"></highlight></codeline>
@@ -207,7 +208,7 @@
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Class<sp/>Declaration<sp/>--------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="class_ultrasonic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref></highlight></codeline>
+<codeline lineno="85" refid="class_ultrasonic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" kindref="member">Ultrasonic</ref></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/>triggerPin;</highlight></codeline>
@@ -218,7 +219,7 @@
 <codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>duration();</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref>(uint8_t<sp/>_triggerPin,<sp/>uint8_t<sp/>_echoPin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut<sp/>=<sp/>20000UL);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" kindref="member">Ultrasonic</ref>(uint8_t<sp/>_triggerPin,<sp/>uint8_t<sp/>_echoPin,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeOut<sp/>=<sp/>20000UL);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">read</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unit);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
@@ -229,8 +230,8 @@
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ULTRASONIC_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h"/>
+    <location file="lib/ultrasonic_sensor/src/ultrasonic.h"/>
   </compounddef>
 </doxygen>

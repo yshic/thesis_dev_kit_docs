@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_utf16_8hpp" kind="file" language="C++">
     <compoundname>Utf16.hpp</compoundname>
     <includes refid="_namespace_8hpp" local="no">ArduinoJson/Namespace.hpp</includes>
     <includes local="no">stdint.h</includes>
-    <includedby refid="_json_deserializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
+    <includedby refid="_json_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Configuration.hpp</label>
         <link refid="_configuration_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp</label>
         <link refid="_utf16_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -42,17 +42,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp</label>
         <link refid="_utf16_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -96,9 +96,9 @@
 <codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>codeunit<sp/>&gt;=<sp/>0xDC00<sp/>&amp;&amp;<sp/>codeunit<sp/>&lt;<sp/>0xE000;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="class_utf16_1_1_codepoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_utf16_1_1_codepoint" kindref="compound">Codepoint</ref><sp/>{</highlight></codeline>
+<codeline lineno="32" refid="class_utf16_1_1_codepoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Codepoint<sp/>{</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><ref refid="class_utf16_1_1_codepoint" kindref="compound">Codepoint</ref>()<sp/>:<sp/>highSurrogate_(0),<sp/>codepoint_(0)<sp/>{}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>Codepoint()<sp/>:<sp/>highSurrogate_(0),<sp/>codepoint_(0)<sp/>{}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>append(uint16_t<sp/>codeunit)<sp/>{</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isHighSurrogate(codeunit))<sp/>{</highlight></codeline>
@@ -133,6 +133,6 @@
 <codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp"/>
   </compounddef>
 </doxygen>

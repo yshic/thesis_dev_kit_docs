@@ -1,0 +1,5 @@
+<map id="AcMeasure::getPowerString" name="AcMeasure::getPowerString">
+<area shape="rect" id="Node000001" title="Retrieves the power as a formatted string." alt="" coords="5,5,190,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="238,5,366,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,16,222,16,222,21,190,21"/>
+</map>

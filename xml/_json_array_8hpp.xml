@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_json_array_8hpp" kind="file" language="C++">
     <compoundname>JsonArray.hpp</compoundname>
     <includes refid="_element_proxy_8hpp" local="no">ArduinoJson/Array/ElementProxy.hpp</includes>
     <includes refid="_json_array_const_8hpp" local="no">ArduinoJson/Array/JsonArrayConst.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
-    <includedby refid="_json_array_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</includedby>
-    <includedby refid="_utilities_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</includedby>
-    <includedby refid="_json_object_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</includedby>
-    <includedby refid="_variant_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_json_array_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</includedby>
+    <includedby refid="_utilities_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</includedby>
+    <includedby refid="_json_object_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</includedby>
+    <includedby refid="_variant_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>ArduinoJson/Array/ElementProxy.hpp</label>
@@ -17,7 +17,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
         <link refid="_json_array_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -667,11 +667,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
         <link refid="_json_array_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -685,25 +685,25 @@
         </childnode>
       </node>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
         <link refid="_json_array_impl_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
         <link refid="_utilities_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
         <link refid="_json_object_impl_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
         <link refid="_variant_impl_8hpp_source"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -731,17 +731,17 @@
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>reference<sp/>to<sp/>an<sp/>array<sp/>in<sp/>a<sp/>JsonDocument</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/jsonarray/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="class_json_array" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_json_array" kindref="compound">JsonArray</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>detail::VariantOperators&lt;JsonArray&gt;<sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_json_array" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">JsonArray<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>detail::VariantOperators&lt;JsonArray&gt;<sp/>{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">detail::VariantAttorney;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_json_array_iterator" kindref="compound">JsonArrayIterator</ref><sp/><ref refid="class_json_array_iterator" kindref="compound">iterator</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_json_array_iterator" kindref="compound">JsonArrayIterator</ref><sp/>iterator;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructs<sp/>an<sp/>unbound<sp/>reference.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/><ref refid="class_json_array" kindref="compound">JsonArray</ref>()<sp/>:<sp/>data_(0),<sp/>pool_(0)<sp/>{}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/>JsonArray()<sp/>:<sp/>data_(0),<sp/>pool_(0)<sp/>{}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>INTERNAL<sp/>USE<sp/>ONLY</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/><ref refid="class_json_array" kindref="compound">JsonArray</ref>(detail::MemoryPool*<sp/>pool,<sp/>detail::CollectionData*<sp/>data)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/>JsonArray(detail::MemoryPool*<sp/>pool,<sp/>detail::CollectionData*<sp/>data)</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>data_(data),<sp/>pool_(pool)<sp/>{}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>a<sp/>JsonVariant<sp/>pointing<sp/>to<sp/>the<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
@@ -782,16 +782,16 @@
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>an<sp/>iterator<sp/>to<sp/>the<sp/>first<sp/>element<sp/>of<sp/>the<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/jsonarray/begin/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/><ref refid="class_json_array_iterator" kindref="compound">iterator</ref><sp/>begin()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/>iterator<sp/>begin()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!data_)</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_json_array_iterator" kindref="compound">iterator</ref>();</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_json_array_iterator" kindref="compound">iterator</ref>(pool_,<sp/>data_-&gt;head());</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>iterator();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>iterator(pool_,<sp/>data_-&gt;head());</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>an<sp/>iterator<sp/>following<sp/>the<sp/>last<sp/>element<sp/>of<sp/>the<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/jsonarray/end/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/><ref refid="class_json_array_iterator" kindref="compound">iterator</ref><sp/>end()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_json_array_iterator" kindref="compound">iterator</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/>iterator<sp/>end()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>iterator();</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Copies<sp/>an<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
@@ -803,14 +803,14 @@
 <codeline lineno="85"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Compares<sp/>the<sp/>content<sp/>of<sp/>two<sp/>arrays.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(<ref refid="class_json_array" kindref="compound">JsonArray</ref><sp/>rhs)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(JsonArray<sp/>rhs)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_json_array_const" kindref="compound">JsonArrayConst</ref>(data_)<sp/>==<sp/><ref refid="class_json_array_const" kindref="compound">JsonArrayConst</ref>(rhs.data_);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Removes<sp/>the<sp/>element<sp/>at<sp/>the<sp/>specified<sp/>iterator.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>⚠️<sp/>Doesn&apos;t<sp/>release<sp/>the<sp/>memory<sp/>associated<sp/>with<sp/>the<sp/>removed<sp/>element.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/jsonarray/remove/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>remove(<ref refid="class_json_array_iterator" kindref="compound">iterator</ref><sp/>it)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>remove(iterator<sp/>it)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!data_)</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>data_-&gt;removeSlot(it.slot_);</highlight></codeline>
@@ -846,8 +846,8 @@
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Creates<sp/>an<sp/>array<sp/>and<sp/>appends<sp/>it<sp/>to<sp/>the<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/jsonarray/createnestedarray/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/><ref refid="class_json_array" kindref="compound">JsonArray</ref><sp/>createNestedArray()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>add().to&lt;<ref refid="class_json_array" kindref="compound">JsonArray</ref>&gt;();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>FORCE_INLINE<sp/>JsonArray<sp/>createNestedArray()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>add().to&lt;JsonArray&gt;();</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="class_json_variant_const" kindref="compound">JsonVariantConst</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -928,6 +928,6 @@
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
 <codeline lineno="211"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp"/>
   </compounddef>
 </doxygen>

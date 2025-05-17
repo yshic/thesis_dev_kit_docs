@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_h_u_s_k_y_l_e_n_s_8h" kind="file" language="C++">
     <compoundname>HUSKYLENS.h</compoundname>
     <includes local="yes">Arduino.h</includes>
     <includes refid="_husky_lens_protocol_core_8h" local="yes">HuskyLensProtocolCore.h</includes>
     <includes local="yes">Wire.h</includes>
-    <includedby refid="_d_f_robot___husky_lens_8h" local="yes">thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h</includedby>
-    <includedby refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h" local="yes">thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h</includedby>
+    <includedby refid="_d_f_robot___husky_lens_8h" local="yes">lib/HUSKYLENS/DFRobot_HuskyLens.h</includedby>
+    <includedby refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h" local="yes">lib/HUSKYLENS/HUSKYLENSMindPlus.h</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h</label>
+        <label>lib/HUSKYLENS/HUSKYLENS.h</label>
         <link refid="_h_u_s_k_y_l_e_n_s_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -56,11 +56,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h</label>
+        <label>lib/HUSKYLENS/DFRobot_HuskyLens.h</label>
         <link refid="_d_f_robot___husky_lens_8h_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h</label>
+        <label>lib/HUSKYLENS/HUSKYLENS.h</label>
         <link refid="_h_u_s_k_y_l_e_n_s_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -68,7 +68,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h</label>
+        <label>lib/HUSKYLENS/HUSKYLENSMindPlus.h</label>
         <link refid="_h_u_s_k_y_l_e_n_s_mind_plus_8h_source"/>
       </node>
     </invincdepgraph>
@@ -78,7 +78,7 @@
     <innerclass refid="struct_protocol_firmware_version__t" prot="public">ProtocolFirmwareVersion_t</innerclass>
     <innerclass refid="struct_protocol__t" prot="public">Protocol_t</innerclass>
     <innerclass refid="class_h_u_s_k_y_l_e_n_s" prot="public">HUSKYLENS</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s_8h_1a966a54c23c02a14a8dba091d4281d443" prot="public" static="no">
         <name>HUSKYLENS_FIRMWARE_VERSION</name>
         <initializer>&quot;0.4.1&quot;</initializer>
@@ -88,24 +88,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="688" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="688" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="688" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="688" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s_8h_1aad1e12cb14951b2c8fb8853902527118" prot="public" static="no">
         <name>PROTOCOL_CREATE</name>
         <param><defname>function</defname></param>
         <param><defname>type</defname></param>
         <param><defname>command</defname></param>
-        <initializer>    void protocolWrite##function(<ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref> &amp;protocol) { protocolWrite##type(protocol, command); }      \
+        <initializer>    void protocolWrite##function(<ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref> &amp;protocol) { protocolWrite##<ref refid="structconditional" kindref="compound">type</ref>(protocol, command); }      \
     void protocolWrite##function()                                                                      \
     {                                                                                                   \
       <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref> protocol;                                                                              \
-      protocolWrite##type(protocol, command);                                                           \
+      protocolWrite##<ref refid="structconditional" kindref="compound">type</ref>(protocol, command);                                                           \
     }                                                                                                   \
-    bool protocolRead##function(<ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref> &amp;protocol) { return protocolRead##type(protocol, command); } \
+    bool protocolRead##function(<ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref> &amp;protocol) { return protocolRead##<ref refid="structconditional" kindref="compound">type</ref>(protocol, command); } \
     bool protocolRead##function()                                                                       \
     {                                                                                                   \
       <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref> protocol;                                                                              \
-      return protocolRead##type(protocol, command);                                                     \
+      return protocolRead##<ref refid="structconditional" kindref="compound">type</ref>(protocol, command);                                                     \
     }</initializer>
         <briefdescription>
         </briefdescription>
@@ -113,10 +113,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="946" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="946" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="946" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="946" bodyend="958"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="enum">
+    </sectiondef>
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="_h_u_s_k_y_l_e_n_s_8h_1ae6c53fbb1ee3ef882a31aeb89fa94f22" prot="public" static="no" strong="no">
         <type></type>
         <name>protocolCommand</name>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="26" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="27" bodyend="64"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="26" column="1" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="27" bodyend="64"/>
       </memberdef>
       <memberdef kind="enum" id="_h_u_s_k_y_l_e_n_s_8h_1a95ce0f22cd36da42ad337d90e4ffbc94" prot="public" static="no" strong="no">
         <type></type>
@@ -398,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="138" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="139" bodyend="147"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="138" column="1" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="139" bodyend="147"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="typedef">
+    </sectiondef>
+    <sectiondef kind="typedef">
       <memberdef kind="typedef" id="_h_u_s_k_y_l_e_n_s_8h_1a3304b218c303c3b8941f9c659d7b55d2" prot="public" static="no">
         <type><ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref></type>
         <definition>typedef Protocol_t HUSKYLENSResult</definition>
@@ -413,9 +413,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="153" column="20" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="153" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="153" column="20" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="153" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para><ref refid="class_h_u_s_k_y_l_e_n_s" kindref="compound">HUSKYLENS</ref> - An Easy-to-use AI Machine Vision Sensor <linebreak/>
  Header file for <ref refid="class_h_u_s_k_y_l_e_n_s" kindref="compound">HUSKYLENS</ref>. </para>
@@ -437,6 +437,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HuskyLensProtocolCore.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Wire.h&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -569,9 +570,9 @@
 <codeline lineno="147"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref><sp/>HUSKYLENSResult;</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="class_h_u_s_k_y_l_e_n_s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_h_u_s_k_y_l_e_n_s" kindref="compound">HUSKYLENS</ref></highlight></codeline>
+<codeline lineno="155" refid="class_h_u_s_k_y_l_e_n_s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">HUSKYLENS</highlight></codeline>
 <codeline lineno="156"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/>TwoWire<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*wire;</highlight></codeline>
@@ -580,7 +581,7 @@
 <codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/>timeOutTimer;</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/>int16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentIndex<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref><sp/><sp/><sp/><sp/><sp/><sp/>protocolCache;</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>result;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>result;</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>custom</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
@@ -660,7 +661,7 @@
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>resultDefault;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>resultDefault;</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
 <codeline lineno="246"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>wait(uint8_t<sp/>command<sp/>=<sp/>0)</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -697,7 +698,7 @@
 <codeline lineno="278"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><ref refid="class_h_u_s_k_y_l_e_n_s" kindref="compound">HUSKYLENS</ref>(</highlight><highlight class="comment">/*<sp/>args<sp/>*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/>HUSKYLENS(</highlight><highlight class="comment">/*<sp/>args<sp/>*/</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>wire<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>stream<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
@@ -709,7 +710,7 @@
 <codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>resultDefault.fifth<sp/><sp/><sp/>=<sp/>-1;</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><ref refid="class_h_u_s_k_y_l_e_n_s" kindref="compound">~HUSKYLENS</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/>~HUSKYLENS()<sp/>{}</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
 <codeline lineno="295"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>begin(Stream<sp/>&amp;streamInput)</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -791,7 +792,7 @@
 <codeline lineno="372"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>read()<sp/>{<sp/>result<sp/>=<sp/>(get(currentIndex++));<sp/>}</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="374"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>custom</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="375"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getResult()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/>}</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getResult()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/>}</highlight></codeline>
 <codeline lineno="376"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setCameraStatus(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)<sp/>{<sp/>status<sp/>=<sp/>state;<sp/>}</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getCameraStatus()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;<sp/>}</highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight></codeline>
@@ -888,7 +889,7 @@
 <codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>counter;</highlight></codeline>
 <codeline lineno="470"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="471"><highlight class="normal"></highlight></codeline>
-<codeline lineno="472"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>get(int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>get(int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="473"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>&lt;<sp/>count())</highlight></codeline>
 <codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -896,7 +897,7 @@
 <codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="479"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="480"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>get(int16_t<sp/>ID,<sp/>int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>get(int16_t<sp/>ID,<sp/>int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="481"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -908,7 +909,7 @@
 <codeline lineno="489"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="490"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="491"><highlight class="normal"></highlight></codeline>
-<codeline lineno="492"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getBlock(int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getBlock(int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="493"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -919,7 +920,7 @@
 <codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="501"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="502"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="503"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getBlock(int16_t<sp/>ID,<sp/>int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getBlock(int16_t<sp/>ID,<sp/>int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="504"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -931,7 +932,7 @@
 <codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="513"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="514"><highlight class="normal"></highlight></codeline>
-<codeline lineno="515"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getArrow(int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getArrow(int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="516"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -942,7 +943,7 @@
 <codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="525"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="526"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getArrow(int16_t<sp/>ID,<sp/>int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getArrow(int16_t<sp/>ID,<sp/>int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="527"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -954,7 +955,7 @@
 <codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="536"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="537"><highlight class="normal"></highlight></codeline>
-<codeline lineno="538"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getLearned(int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getLearned(int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="539"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="541"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -965,7 +966,7 @@
 <codeline lineno="546"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="547"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="548"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="549"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getBlockLearned(int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getBlockLearned(int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="550"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="551"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -976,7 +977,7 @@
 <codeline lineno="557"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resultDefault;</highlight></codeline>
 <codeline lineno="559"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="560"><highlight class="normal"><sp/><sp/><ref refid="struct_protocol__t" kindref="compound">HUSKYLENSResult</ref><sp/>getArrowLearned(int16_t<sp/>index)</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/>HUSKYLENSResult<sp/>getArrowLearned(int16_t<sp/>index)</highlight></codeline>
 <codeline lineno="561"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="562"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/>counter<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="563"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>protocolInfo.protocolSize;<sp/>i++)</highlight></codeline>
@@ -1414,6 +1415,6 @@
 <codeline lineno="1000"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1001"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h"/>
+    <location file="lib/HUSKYLENS/HUSKYLENS.h"/>
   </compounddef>
 </doxygen>

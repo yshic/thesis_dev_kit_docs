@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="dir_b2487d639a26a5d9f7da817ab11178e9" kind="dir">
     <compoundname>lib/ArduinoJson/src/ArduinoJson/Polyfills</compoundname>
     <innerdir refid="dir_ab84a8c12e8177e71676119d3d0b1562">lib/ArduinoJson/src/ArduinoJson/Polyfills/mpl</innerdir>

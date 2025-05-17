@@ -1,0 +1,11 @@
+<map id="HttpClient::skipResponseHeaders" name="HttpClient::skipResponseHeaders">
+<area shape="rect" id="Node000001" title=" " alt="" coords="477,23,648,65"/>
+<area shape="rect" id="Node000002" href="$class_web_socket_client.html#a5ad90332484442e76d2bf5a96101c6e2" title=" " alt="" coords="263,5,424,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="461,35,425,31,425,25,462,30"/>
+<area shape="rect" id="Node000003" href="$class_http_client.html#a4b2a81da4067db97be35fe7c2c800f74" title=" " alt="" coords="259,56,429,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="462,58,430,62,429,57,461,53"/>
+<area shape="rect" id="Node000004" href="$class_http_client.html#a40e874de7466bfc201ee9fd73d2f51d7" title=" " alt="" coords="5,31,211,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="243,61,211,58,212,52,243,56"/>
+<area shape="rect" id="Node000005" href="$class_http_client.html#a05eb433f7d6ce865c6bd4e16526e72c3" title=" " alt="" coords="22,81,194,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="244,83,194,88,194,83,243,77"/>
+</map>

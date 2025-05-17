@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="dir_f8868e94cf7ce72f98e8cafd0d1bbc46" kind="dir">
     <compoundname>lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING</compoundname>
     <innerfile refid="_h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp">DFMobile.cpp</innerfile>

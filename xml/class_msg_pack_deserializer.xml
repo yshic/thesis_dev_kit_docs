@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_msg_pack_deserializer" kind="class" language="C++" prot="public">
     <compoundname>MsgPackDeserializer</compoundname>
     <templateparamlist>
@@ -10,7 +10,7 @@
         <type>typename TStringStorage</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_msg_pack_deserializer_1a8f6e6a2131efa58a20828882ddc26dae" prot="private" static="no" mutable="no">
         <type><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref> *</type>
         <definition>MemoryPool* MsgPackDeserializer&lt; TReader, TStringStorage &gt;::pool_</definition>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="557" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="557" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="557" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="557" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_msg_pack_deserializer_1a317bd2f3739f90512dc2897de9fc13e9" prot="private" static="no" mutable="no">
         <type>TReader</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="558" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="558" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="558" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="558" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_msg_pack_deserializer_1adf9b6ebbd545d7ca4e48133eca8c6ffe" prot="private" static="no" mutable="no">
         <type>TStringStorage</type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="559" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="559" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="559" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="559" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_msg_pack_deserializer_1ab34848211b1bbcd68e840778c2692963" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65,10 +65,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="560" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="560" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="560" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="560" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_msg_pack_deserializer_1a9848a483cb8e1036254cc42eacf87863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>MsgPackDeserializer&lt; TReader, TStringStorage &gt;::MsgPackDeserializer</definition>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="19" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="19" bodyend="24"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="19" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="19" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1afa759b26f9ed84c6dab096393e692131" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -124,10 +124,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="27" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="27" bodyend="32"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="27" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="27" bodyend="32"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_msg_pack_deserializer_1a4f8cb28ddee34d50f5ee383363589ce7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="36" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="36" bodyend="224"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="36" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="36" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a9f2232c6799e48ebf55b3043f58b7a7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DeserializationError::Code</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="226" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="226" bodyend="232"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="226" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="226" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1ade2366262f3bc313baf06fd4040427bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DeserializationError::Code</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="234" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="234" bodyend="238"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="234" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="234" bodyend="238"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a481667221d6a13bc52858ca43a794df1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="241" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="241" bodyend="243"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="241" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="241" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1adf457a8a1f0f5956b418422d5a1aeafe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DeserializationError::Code</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="245" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="245" bodyend="251"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="245" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="245" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a8a66aef89ef09f656336490571832bba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -261,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="254" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="254" bodyend="264"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="254" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="254" bodyend="264"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a0859fd616329ccc78cfc826d4e016dff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="267" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="267" bodyend="278"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="267" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="267" bodyend="278"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a92bcc4673481155e0f62521a0010fe26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -292,7 +292,7 @@
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; sizeof(T)==4, DeserializationError::Code &gt;::type</type>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; sizeof(T)==4, DeserializationError::Code &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
         <definition>enable_if&lt; sizeof(T)==4, DeserializationError::Code &gt;::type MsgPackDeserializer&lt; TReader, TStringStorage &gt;::readFloat</definition>
         <argsstring>(VariantData *variant)</argsstring>
         <name>readFloat</name>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="282" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="282" bodyend="294"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="282" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="282" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a62a72d78d99fdc2282c67842dc8a66e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -315,7 +315,7 @@
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; sizeof(T)==8, DeserializationError::Code &gt;::type</type>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; sizeof(T)==8, DeserializationError::Code &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
         <definition>enable_if&lt; sizeof(T)==8, DeserializationError::Code &gt;::type MsgPackDeserializer&lt; TReader, TStringStorage &gt;::readDouble</definition>
         <argsstring>(VariantData *variant)</argsstring>
         <name>readDouble</name>
@@ -330,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="298" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="298" bodyend="310"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="298" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="298" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a173be299629de6ecfc6e8ef21cd29bb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -338,7 +338,7 @@
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; sizeof(T)==4, DeserializationError::Code &gt;::type</type>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; sizeof(T)==4, DeserializationError::Code &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
         <definition>enable_if&lt; sizeof(T)==4, DeserializationError::Code &gt;::type MsgPackDeserializer&lt; TReader, TStringStorage &gt;::readDouble</definition>
         <argsstring>(VariantData *variant)</argsstring>
         <name>readDouble</name>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="314" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="314" bodyend="329"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="314" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="314" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a29584325a77bcb6b1afcd71df77d7694" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="332" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="332" bodyend="341"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="332" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="332" bodyend="341"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a20fb25bab0d0df531e6fa51f26df598f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="344" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="344" bodyend="353"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="344" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="344" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1aec4fa0b7bfbfb1ec54921af49fa35c84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="356" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="356" bodyend="365"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="356" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="356" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1afc02ce3206e8c263f956119f4ad4a173" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DeserializationError::Code</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="367" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="367" bodyend="376"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="367" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="367" bodyend="376"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a16438db5fdcbbb84684a3b0c260c0056" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DeserializationError::Code</type>
@@ -454,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="378" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="378" bodyend="396"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="378" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="378" bodyend="396"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a37fce8f5656eb45acc362866625083fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -488,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="399" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="399" bodyend="410"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="399" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="399" bodyend="410"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a9e68b83d4912057498726db7251a243e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -523,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="413" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="413" bodyend="451"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="413" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="413" bodyend="451"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1ac3042edea50ec4fbe7929e6bc9d163a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -557,7 +557,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="454" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="454" bodyend="465"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="454" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="454" bodyend="465"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a3cc06bbf0e68589833c51d05a7ca937b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -592,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="468" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="468" bodyend="517"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="468" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="468" bodyend="517"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1a36e717450107ca19001650a71d9f5ade" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DeserializationError::Code</type>
@@ -606,7 +606,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="519" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="519" bodyend="543"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="519" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="519" bodyend="543"/>
       </memberdef>
       <memberdef kind="function" id="class_msg_pack_deserializer_1ac8f383f52b2c488a5f325afa97efc2fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -625,14 +625,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="546" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="546" bodyend="555"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="546" column="30" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="546" bodyend="555"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="17" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="17" bodyend="561"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" line="17" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp" bodystart="17" bodyend="561"/>
     <listofallmembers>
       <member refid="class_msg_pack_deserializer_1ab34848211b1bbcd68e840778c2692963" prot="private" virt="non-virtual"><scope>MsgPackDeserializer</scope><name>foundSomething_</name></member>
       <member refid="class_msg_pack_deserializer_1a9848a483cb8e1036254cc42eacf87863" prot="public" virt="non-virtual"><scope>MsgPackDeserializer</scope><name>MsgPackDeserializer</name></member>

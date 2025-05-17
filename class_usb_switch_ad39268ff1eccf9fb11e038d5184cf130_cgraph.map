@@ -1,5 +1,0 @@
-<map id="UsbSwitch::UsbSwitch" name="UsbSwitch::UsbSwitch">
-<area shape="rect" id="node1" title="Constructor to initialize the USB Switch module with specified pins." alt="" coords="5,31,163,57"/>
-<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a9b2f7d9d0077df86b5fbd73942bcaffc" title="This function writes an analog value (PWM wave) to a pin." alt="" coords="211,5,350,32"/>
-<area shape="rect" id="node3" href="$bsp__gpio_8cpp.html#a566a8a135b7fc73ec916f8757d7018b4" title="This function sets the mode of a GPIO pin." alt="" coords="220,56,340,83"/>
-</map>

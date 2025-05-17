@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="http__parser_8c" kind="file" language="C++">
     <compoundname>http_parser.c</compoundname>
     <briefdescription>
@@ -597,8 +597,8 @@
 <codeline lineno="588"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTTP_PARSER_VERSION_PATCH<sp/>*<sp/>0x00001;</highlight></codeline>
 <codeline lineno="589"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="590"><highlight class="normal"></highlight></codeline>
-<codeline lineno="591"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>NO_HTTP_PARSER</highlight></codeline>
+<codeline lineno="591"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>NO_HTTP_PARSER</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/utility/URLParser/http_parser.c"/>
+    <location file="lib/ArduinoHttpClient/utility/URLParser/http_parser.c"/>
   </compounddef>
 </doxygen>

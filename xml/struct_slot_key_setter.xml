@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_slot_key_setter" kind="struct" language="C++" prot="public">
     <compoundname>SlotKeySetter</compoundname>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_slot_key_setter_1a5123cd16a28bfd1fa11d0ed1e0495234" prot="public" static="no" mutable="no">
         <type><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref> *</type>
         <definition>VariantSlot* SlotKeySetter::instance_</definition>
@@ -15,10 +15,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="23" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="23" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="23" column="15" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="struct_slot_key_setter_1a0090ff55068fd480ce47cf72954b0b10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>SlotKeySetter::SlotKeySetter</definition>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="13" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="13" bodyend="13"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="13" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="struct_slot_key_setter_1a3fda83b4f38542683b9d2eb6d8bd58d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -58,9 +58,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="16" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="16" bodyend="21"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="16" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="16" bodyend="21"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -78,7 +78,7 @@
         <link refid="class_variant_slot"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="12" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="12" bodyend="24"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp" bodystart="12" bodyend="24"/>
     <listofallmembers>
       <member refid="struct_slot_key_setter_1a5123cd16a28bfd1fa11d0ed1e0495234" prot="public" virt="non-virtual"><scope>SlotKeySetter</scope><name>instance_</name></member>
       <member refid="struct_slot_key_setter_1a3fda83b4f38542683b9d2eb6d8bd58d1" prot="public" virt="non-virtual"><scope>SlotKeySetter</scope><name>operator()</name></member>

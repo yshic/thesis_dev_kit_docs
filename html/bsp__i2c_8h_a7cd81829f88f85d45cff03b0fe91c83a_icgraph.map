@@ -1,0 +1,15 @@
+<map id="bspI2CReadByte" name="bspI2CReadByte">
+<area shape="rect" id="Node000001" title="Reads a single byte using I2C from a register." alt="" coords="535,107,656,133"/>
+<area shape="rect" id="Node000002" href="$class_ac_measure.html#a9921894e5d8991c64920b6e1520166ee" title="Retrieves the firmware version of the AC measurement device." alt="" coords="277,5,487,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="566,99,529,71,486,46,454,35,456,30,488,42,532,67,569,94"/>
+<area shape="rect" id="Node000003" href="$class_ac_measure.html#a012e847385b5c426bae7598a44689cdd" title="Retrieves the current I2C address of the device." alt="" coords="291,56,473,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="521,105,441,86,442,81,522,100"/>
+<area shape="rect" id="Node000004" href="$class_b_m_p280.html#a4cfab33bfc50e210fdbcf2fc7bd9481a" title="Reads the current status of the BMP280 sensor." alt="" coords="314,107,450,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,123,450,123,450,117,519,117"/>
+<area shape="rect" id="Node000006" href="$class_unit4_relay.html#a4afd86f0f07bd53cc2c52f1a1faaf708" title="Sets the state of an individual LED." alt="" coords="311,157,452,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="522,140,442,159,441,154,521,135"/>
+<area shape="rect" id="Node000007" href="$class_unit4_relay.html#a058eddf27fc3dacd823cb183016f7d48" title="Sets the state of an individual relay." alt="" coords="306,208,458,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="569,146,532,173,488,198,456,210,454,205,486,194,529,169,566,141"/>
+<area shape="rect" id="Node000005" href="$class_b_m_p280.html#ad05bced9afce99daf98d6d99918276f4" title="Triggers a forced measurement." alt="" coords="5,107,229,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="299,123,229,123,229,117,299,117"/>
+</map>

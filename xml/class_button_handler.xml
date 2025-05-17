@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_button_handler" kind="class" language="C++" prot="public">
     <compoundname>ButtonHandler</compoundname>
     <includes refid="button_8h" local="no">button.h</includes>
-      <sectiondef kind="private-type">
+    <sectiondef kind="private-type">
       <memberdef kind="enum" id="class_button_handler_1a0d2966226881559edb1863ddab249705" prot="private" static="no" strong="no">
         <type></type>
         <name>ButtonState</name>
@@ -49,10 +49,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="172" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="173" bodyend="179"/>
+        <location file="lib/button/src/button.h" line="172" column="3" bodyfile="lib/button/src/button.h" bodystart="173" bodyend="179"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-attrib">
+    </sectiondef>
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_button_handler_1a8f25d43e6d1d3c4e12911dbef7daf3f6" prot="private" static="no" mutable="no">
         <type>int</type>
         <definition>int ButtonHandler::buttonPin</definition>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="154" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="154" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="154" column="16" bodyfile="lib/button/src/button.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a094c3c53095ce162bdeab032105a38d1" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="155" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="155" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="155" column="16" bodyfile="lib/button/src/button.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1af4cd5e71552a8ee2dff6aa43a46481aa" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="156" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="156" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="156" column="16" bodyfile="lib/button/src/button.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a3bd0cf1d4ea105472df35809c4b573c1" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="157" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="157" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="157" column="16" bodyfile="lib/button/src/button.h" bodystart="157" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1ab741b12b65d726afecac27a3b2be3853" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="158" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="158" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="158" column="16" bodyfile="lib/button/src/button.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1ad10e20e183665d1c0e87c203634131fc" prot="private" static="no" mutable="no">
         <type>ButtonCallback</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="160" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="160" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="160" column="18" bodyfile="lib/button/src/button.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1ae21c90e749df4065ee738a1d9953babd" prot="private" static="no" mutable="no">
         <type>ButtonCallback</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="161" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="161" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="161" column="18" bodyfile="lib/button/src/button.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1aa1641e36196fe2d4d573ca757bbf3b73" prot="private" static="no" mutable="no">
         <type>ButtonCallback</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="162" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="162" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="162" column="18" bodyfile="lib/button/src/button.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1ad653fdd77d3989977183ce13ebe13613" prot="private" static="no" mutable="no">
         <type>ButtonCallback</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="163" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="163" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="163" column="18" bodyfile="lib/button/src/button.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a6fd3a1837a0b1748d9ca13daeb8e141e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="165" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="165" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="165" column="17" bodyfile="lib/button/src/button.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a4e42d79b6608582118cce469bfd7a2be" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="166" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="166" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="166" column="17" bodyfile="lib/button/src/button.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a75e6da0d7908f45e62a8bb607d5963d3" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="167" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="167" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="167" column="17" bodyfile="lib/button/src/button.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a69d4ec601baf68e9e4b60be91e9db1af" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="168" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="168" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="168" column="17" bodyfile="lib/button/src/button.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a5dd68b926c1b8424cfabf76c8898daa9" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="169" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="169" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="169" column="17" bodyfile="lib/button/src/button.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1a47d04edd8e856c60e822c44014d854d0" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -261,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="170" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="170" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="170" column="17" bodyfile="lib/button/src/button.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1aff40c2892f4a420ae2b12d1b0d3419e7" prot="private" static="no" mutable="no">
         <type>ButtonState</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="181" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="181" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="181" column="15" bodyfile="lib/button/src/button.h" bodystart="181" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_button_handler_1aba2bb6329c14ad5e6089482d1ac875a5" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -289,10 +289,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="184" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="184" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="184" column="17" bodyfile="lib/button/src/button.h" bodystart="184" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>ButtonHandler::ButtonHandler</definition>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="62" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="4" bodyend="14"/>
+        <location file="lib/button/src/button.h" line="62" column="3" bodyfile="lib/button/src/button.cpp" bodystart="4" bodyend="14"/>
         <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -388,7 +388,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="74" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="16" bodyend="24"/>
+        <location file="lib/button/src/button.h" line="74" column="26" bodyfile="lib/button/src/button.cpp" bodystart="16" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1ab5e0cbc1ab74e1cfb9ab7f4417584a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>button_handler_error_t</type>
@@ -423,7 +423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="86" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="26" bodyend="34"/>
+        <location file="lib/button/src/button.h" line="86" column="26" bodyfile="lib/button/src/button.cpp" bodystart="26" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1a772346688081ec9304bfbaf9920f49d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>button_handler_error_t</type>
@@ -458,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="98" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="36" bodyend="44"/>
+        <location file="lib/button/src/button.h" line="98" column="26" bodyfile="lib/button/src/button.cpp" bodystart="36" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1ab12ba9a377ff3dd9ddd09b3770549a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>button_handler_error_t</type>
@@ -493,7 +493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="110" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="46" bodyend="54"/>
+        <location file="lib/button/src/button.h" line="110" column="26" bodyfile="lib/button/src/button.cpp" bodystart="46" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>button_handler_error_t</type>
@@ -528,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="122" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="56" bodyend="64"/>
+        <location file="lib/button/src/button.h" line="122" column="26" bodyfile="lib/button/src/button.cpp" bodystart="56" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1aca1da4b0a47414a3221902947867bee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>button_handler_error_t</type>
@@ -563,7 +563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="134" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="66" bodyend="74"/>
+        <location file="lib/button/src/button.h" line="134" column="26" bodyfile="lib/button/src/button.cpp" bodystart="66" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1a5eaf04c0e2facda78d57a5642b6cf502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>button_handler_error_t</type>
@@ -598,7 +598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="146" column="26" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="76" bodyend="84"/>
+        <location file="lib/button/src/button.h" line="146" column="26" bodyfile="lib/button/src/button.cpp" bodystart="76" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -613,11 +613,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="151" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.cpp" bodystart="86" bodyend="168"/>
+        <location file="lib/button/src/button.h" line="151" column="8" bodyfile="lib/button/src/button.cpp" bodystart="86" bodyend="168"/>
         <references refid="bsp__gpio_8cpp_1a78c1d8d8fa1cad00fd20e9973e8b9d1a" compoundref="bsp__gpio_8cpp" startline="71" endline="71">bspGpioDigitalRead</references>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_button_handler_1af0faa715e2c71d11e5110a3d75dcf322" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool ButtonHandler::hasElapsed</definition>
@@ -638,7 +638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="186" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="186" bodyend="189"/>
+        <location file="lib/button/src/button.h" line="186" column="15" bodyfile="lib/button/src/button.h" bodystart="186" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="class_button_handler_1aee64f7b3cedd9c8cedceed9a8b19236b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -652,39 +652,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="192" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="192" bodyend="198"/>
+        <location file="lib/button/src/button.h" line="192" column="15" bodyfile="lib/button/src/button.h" bodystart="192" bodyend="198"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages button presses, handling debouncing, click detection, and hold events. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_button_handler" kindref="compound">ButtonHandler</ref></computeroutput> class provides functionality for processing button interactions, including single-click, double-click, and hold events. It utilizes a finite state machine (FSM) to ensure reliable event detection, minimizing issues related to button bouncing.</para>
-<sect3 id="class_button_handler_1autotoc_md13">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_button_handler_1autotoc_md13_1s1"><sect2 id="class_button_handler_1autotoc_md13_1s2"><sect3 id="class_button_handler_1autotoc_md13">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Configurable debounce duration for stable input.</para>
 </listitem><listitem><para>Detection of single-click, double-click, and hold events.</para>
 </listitem><listitem><para>Support for callback functions triggered by button events.</para>
 </listitem><listitem><para>Internal state tracking for efficient processing.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_button_handler_1autotoc_md14">
-<title>Usage:</title>
-<para>After instantiating the class, users should call the <computeroutput><ref refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" kindref="member">update()</ref></computeroutput> method periodically to process button states. Callback functions can be attached for various button events to respond dynamically.</para>
-</sect3>
-<sect3 id="class_button_handler_1autotoc_md15">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_button_handler_1autotoc_md14_1s1"><sect2 id="class_button_handler_1autotoc_md14_1s2"><sect3 id="class_button_handler_1autotoc_md14">
+<title>Usage:</title><para>After instantiating the class, users should call the <computeroutput><ref refid="class_button_handler_1aaed9117143aa1674a71aa012e558d4e8" kindref="member">update()</ref></computeroutput> method periodically to process button states. Callback functions can be attached for various button events to respond dynamically.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_button_handler_1autotoc_md15_1s1"><sect2 id="class_button_handler_1autotoc_md15_1s2"><sect3 id="class_button_handler_1autotoc_md15">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires connection to a digital input pin.</para>
 </listitem><listitem><para>Optional internal pull-up resistor activation.</para>
 </listitem><listitem><para>Callbacks should be defined before use. </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="47" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="48" bodyend="199"/>
+    <location file="lib/button/src/button.h" line="47" column="1" bodyfile="lib/button/src/button.h" bodystart="48" bodyend="199"/>
     <listofallmembers>
       <member refid="class_button_handler_1a094c3c53095ce162bdeab032105a38d1" prot="private" virt="non-virtual"><scope>ButtonHandler</scope><name>activeLow</name></member>
       <member refid="class_button_handler_1a7aa52c3f4139e23569529d30958091cc" prot="public" virt="non-virtual"><scope>ButtonHandler</scope><name>attachDoubleClickCallback</name></member>

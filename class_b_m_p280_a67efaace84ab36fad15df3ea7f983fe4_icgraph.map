@@ -1,4 +1,0 @@
-<map id="BMP280::setSampling" name="BMP280::setSampling">
-<area shape="rect" id="node1" title="Configures the sensor’s sampling and operating parameters." alt="" coords="164,5,315,32"/>
-<area shape="rect" id="node2" href="$class_b_m_p280.html#a7f793755576e8d937f97984ee8b42b07" title="Initializes the BMP280 sensor." alt="" coords="5,5,116,32"/>
-</map>

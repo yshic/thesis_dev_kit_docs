@@ -1,4 +1,0 @@
-<map id="ButtonHandler::ButtonHandler" name="ButtonHandler::ButtonHandler">
-<area shape="rect" id="node1" title="Initialize the ButtonHandler instance." alt="" coords="5,5,201,32"/>
-<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a566a8a135b7fc73ec916f8757d7018b4" title="This function sets the mode of a GPIO pin." alt="" coords="249,5,369,32"/>
-</map>

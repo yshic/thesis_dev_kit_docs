@@ -1,0 +1,7 @@
+<map id="Unit4Relay::ledWrite" name="Unit4Relay::ledWrite">
+<area shape="rect" id="Node000001" title="Sets the state of an individual LED." alt="" coords="5,31,147,57"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="195,5,316,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,31,179,27,180,32,148,37"/>
+<area shape="rect" id="Node000003" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="195,56,316,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,51,180,56,180,61,147,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="SoilMoisture::read" name="SoilMoisture::read">
+<area shape="rect" id="Node000001" title="Reads the analog value from the soil moisture sensor." alt="" coords="228,43,354,69"/>
+<area shape="rect" id="Node000002" href="$class_soil_moisture.html#af736d5983965759ed7f60edb415961f7" title="Computes the average sensor reading over multiple samples." alt="" coords="9,5,176,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,47,176,42,177,36,212,42"/>
+<area shape="rect" id="Node000003" href="$class_soil_moisture.html#a982b1e7ebe382617c8ccb2fa19629eae" title="Reads and maps the sensor value to a specified range." alt="" coords="5,72,180,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,70,181,75,180,70,212,65"/>
+</map>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_basic_json_document_8hpp" kind="file" language="C++">
     <compoundname>BasicJsonDocument.hpp</compoundname>
     <includes refid="_json_document_8hpp" local="no">ArduinoJson/Document/JsonDocument.hpp</includes>
-    <includedby refid="_dynamic_json_document_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</includedby>
+    <includedby refid="_dynamic_json_document_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Array/ElementProxy.hpp</label>
@@ -26,7 +26,7 @@
         <link refid="_configuration_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
         <link refid="_basic_json_document_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -700,17 +700,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
         <link refid="_basic_json_document_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -736,10 +736,10 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Helper<sp/>to<sp/>implement<sp/>the<sp/>&quot;base-from-member&quot;<sp/>idiom</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(we<sp/>need<sp/>to<sp/>store<sp/>the<sp/>allocator<sp/>before<sp/>constructing<sp/>JsonDocument)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAllocator&gt;</highlight></codeline>
-<codeline lineno="14" refid="class_allocator_owner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner</ref><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_allocator_owner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AllocatorOwner<sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner</ref>()<sp/>{}</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner</ref>(TAllocator<sp/>a)<sp/>:<sp/>allocator_(a)<sp/>{}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>AllocatorOwner()<sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>AllocatorOwner(TAllocator<sp/>a)<sp/>:<sp/>allocator_(a)<sp/>{}</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>allocate(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)<sp/>{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>allocator_.allocate(size);</highlight></codeline>
@@ -765,62 +765,62 @@
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>JsonDocument<sp/>that<sp/>uses<sp/>the<sp/>provided<sp/>allocator<sp/>to<sp/>allocate<sp/>its<sp/>memory<sp/>pool.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/basicjsondocument/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAllocator&gt;</highlight></codeline>
-<codeline lineno="43" refid="class_basic_json_document" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref><sp/>:<sp/><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner</ref>&lt;TAllocator&gt;,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref><sp/>{</highlight></codeline>
+<codeline lineno="43" refid="class_basic_json_document" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">BasicJsonDocument<sp/>:<sp/>AllocatorOwner&lt;TAllocator&gt;,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonDocument<sp/>{</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capa,<sp/>TAllocator<sp/>alloc<sp/>=<sp/>TAllocator())</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner&lt;TAllocator&gt;</ref>(alloc),<sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref>(allocPool(capa))<sp/>{}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/>BasicJsonDocument(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capa,<sp/>TAllocator<sp/>alloc<sp/>=<sp/>TAllocator())</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>AllocatorOwner&lt;TAllocator&gt;(alloc),<sp/>JsonDocument(allocPool(capa))<sp/>{}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy-constructor</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;<sp/>src)</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner&lt;TAllocator&gt;</ref>(src),<sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>BasicJsonDocument(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BasicJsonDocument&amp;<sp/>src)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>AllocatorOwner&lt;TAllocator&gt;(src),<sp/>JsonDocument()<sp/>{</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>copyAssignFrom(src);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Move-constructor</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>(<ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;&amp;<sp/>src)<sp/>:<sp/><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner&lt;TAllocator&gt;</ref>(src)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>BasicJsonDocument(BasicJsonDocument&amp;&amp;<sp/>src)<sp/>:<sp/>AllocatorOwner&lt;TAllocator&gt;(src)<sp/>{</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>moveAssignFrom(src);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref>&amp;<sp/>src)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>BasicJsonDocument(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>JsonDocument&amp;<sp/>src)<sp/>{</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>copyAssignFrom(src);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Construct<sp/>from<sp/>variant,<sp/>array,<sp/>or<sp/>object</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>src,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>BasicJsonDocument(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>src,</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>detail::enable_if&lt;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonVariant&gt;::value<sp/>||</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonVariantConst&gt;::value<sp/>||</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonArray&gt;::value<sp/>||</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonArrayConst&gt;::value<sp/>||</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonObject&gt;::value<sp/>||</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonObjectConst&gt;::value&gt;::type*<sp/>=<sp/>0)</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref>(allocPool(src.memoryUsage()))<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detail::is_same&lt;T,<sp/>JsonObjectConst&gt;::value&gt;<ref refid="structconditional" kindref="compound">::type</ref>*<sp/>=<sp/>0)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>JsonDocument(allocPool(src.memoryUsage()))<sp/>{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>set(src);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>disambiguate</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>(<ref refid="class_json_variant" kindref="compound">JsonVariant</ref><sp/>src)</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref>(allocPool(src.memoryUsage()))<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>BasicJsonDocument(<ref refid="class_json_variant" kindref="compound">JsonVariant</ref><sp/>src)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>JsonDocument(allocPool(src.memoryUsage()))<sp/>{</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>set(src);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">~BasicJsonDocument</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>~BasicJsonDocument()<sp/>{</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>freePool();</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;<sp/>src)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>BasicJsonDocument&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BasicJsonDocument&amp;<sp/>src)<sp/>{</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>copyAssignFrom(src);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;<sp/>operator=(<ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;&amp;<sp/>src)<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>BasicJsonDocument&amp;<sp/>operator=(BasicJsonDocument&amp;&amp;<sp/>src)<sp/>{</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>moveAssignFrom(src);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>src)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>BasicJsonDocument&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>src)<sp/>{</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>requiredSize<sp/>=<sp/>src.memoryUsage();</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(requiredSize<sp/>&gt;<sp/>capacity())</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>reallocPool(requiredSize);</highlight></codeline>
@@ -849,14 +849,14 @@
 <codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/jsondocument/garbagecollect/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>garbageCollect()<sp/>{</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>make<sp/>a<sp/>temporary<sp/>clone<sp/>and<sp/>move<sp/>assign</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref><sp/>tmp(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>BasicJsonDocument<sp/>tmp(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!tmp.capacity())</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>moveAssignFrom(tmp);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="class_allocator_owner" kindref="compound">AllocatorOwner</ref>&lt;TAllocator&gt;::allocator;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">AllocatorOwner&lt;TAllocator&gt;::allocator;</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/>detail::MemoryPool<sp/>allocPool(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>requiredSize)<sp/>{</highlight></codeline>
@@ -876,12 +876,12 @@
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;deallocate(getPool()-&gt;buffer());</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copyAssignFrom(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_json_document" kindref="compound">JsonDocument</ref>&amp;<sp/>src)<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copyAssignFrom(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>JsonDocument&amp;<sp/>src)<sp/>{</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>reallocPool(src.capacity());</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>set(src);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>moveAssignFrom(<ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&amp;<sp/>src)<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>moveAssignFrom(BasicJsonDocument&amp;<sp/>src)<sp/>{</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>freePool();</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>data_<sp/>=<sp/>src.data_;</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>pool_<sp/>=<sp/>src.pool_;</highlight></codeline>
@@ -892,6 +892,6 @@
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="168"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp"/>
   </compounddef>
 </doxygen>

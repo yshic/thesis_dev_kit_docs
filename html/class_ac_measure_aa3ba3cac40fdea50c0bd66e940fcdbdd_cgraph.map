@@ -1,0 +1,5 @@
+<map id="AcMeasure::getKWHString" name="AcMeasure::getKWHString">
+<area shape="rect" id="Node000001" title="Retrieves the energy consumption as a formatted string." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="233,5,361,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,16,217,16,217,21,185,21"/>
+</map>

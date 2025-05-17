@@ -1,5 +1,0 @@
-<map id="UsbSwitch::setOutputValuePercentage" name="UsbSwitch::setOutputValuePercentage">
-<area shape="rect" id="node1" title="Sets the output value as a percentage." alt="" coords="5,5,188,48"/>
-<area shape="rect" id="node2" href="$class_usb_switch.html#a98cf84d4be5cd0554188fc9838aac965" title="Sets the output value using a PWM value." alt="" coords="236,13,418,40"/>
-<area shape="rect" id="node3" href="$bsp__gpio_8cpp.html#a9b2f7d9d0077df86b5fbd73942bcaffc" title="This function writes an analog value (PWM wave) to a pin." alt="" coords="466,13,605,40"/>
-</map>

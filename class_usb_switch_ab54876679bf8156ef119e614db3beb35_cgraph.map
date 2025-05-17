@@ -1,4 +1,0 @@
-<map id="UsbSwitch::toggleOutput" name="UsbSwitch::toggleOutput">
-<area shape="rect" id="node1" title="Toggles the output state between ON and OFF." alt="" coords="5,5,173,32"/>
-<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a9b2f7d9d0077df86b5fbd73942bcaffc" title="This function writes an analog value (PWM wave) to a pin." alt="" coords="221,5,360,32"/>
-</map>

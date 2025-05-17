@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="ieee754_8hpp" kind="file" language="C++">
     <compoundname>ieee754.hpp</compoundname>
     <includes refid="_namespace_8hpp" local="no">ArduinoJson/Namespace.hpp</includes>
-    <includedby refid="_msg_pack_deserializer_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</includedby>
+    <includedby refid="_msg_pack_deserializer_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>ArduinoJson/Configuration.hpp</label>
         <link refid="_configuration_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp</label>
         <link refid="ieee754_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,23 +36,23 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp</label>
         <link refid="ieee754_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="ieee754_8hpp_1add8b9e9325d9b3cb593b70ee20d24e9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE void</type>
         <definition>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE void doubleToFloat</definition>
@@ -74,9 +74,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp" line="11" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp" bodystart="11" bodyend="16"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp" line="11" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp" bodystart="11" bodyend="16"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -101,6 +101,6 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp"/>
   </compounddef>
 </doxygen>

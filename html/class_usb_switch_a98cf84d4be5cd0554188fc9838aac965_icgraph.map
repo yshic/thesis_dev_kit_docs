@@ -1,0 +1,5 @@
+<map id="UsbSwitch::setOutputValue" name="UsbSwitch::setOutputValue">
+<area shape="rect" id="Node000001" title="Sets the output value using a PWM value." alt="" coords="236,13,418,40"/>
+<area shape="rect" id="Node000002" href="$class_usb_switch.html#a49648ccd4487e75f9dca6651fd8f782f" title="Sets the output value as a percentage." alt="" coords="5,5,188,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,29,188,29,188,24,220,24"/>
+</map>

@@ -1,4 +1,0 @@
-<map id="BMP280::getStatus" name="BMP280::getStatus">
-<area shape="rect" id="node1" title="Reads the current status of the BMP280 sensor." alt="" coords="5,5,141,32"/>
-<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="189,5,310,32"/>
-</map>

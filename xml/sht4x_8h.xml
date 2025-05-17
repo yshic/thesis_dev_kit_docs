@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="sht4x_8h" kind="file" language="C++">
     <compoundname>sht4x.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="sht4x_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp</includedby>
+    <includedby refid="sht4x_8cpp" local="yes">lib/sht4x/src/sht4x.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h</label>
+        <label>lib/sht4x/src/sht4x.h</label>
         <link refid="sht4x_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,18 +17,18 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp</label>
+        <label>lib/sht4x/src/sht4x.cpp</label>
         <link refid="sht4x_8cpp"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h</label>
+        <label>lib/sht4x/src/sht4x.h</label>
         <link refid="sht4x_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_s_h_t4_x" prot="public">SHT4X</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="sht4x_8h_1abe9ccba606128cbc067e62a606a407e1" prot="public" static="no">
         <name>SHT4X_LIB_VERSION</name>
         <initializer>(F(&quot;0.1.0&quot;))</initializer>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="24" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="24" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="24" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a90da7a7b7b4129eef7b1816e4a25d745" prot="public" static="no">
         <name>SHT40_I2C_ADDR_44</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="26" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="26" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1af5e956b6d3d59b5383b5177a3c6b0505" prot="public" static="no">
         <name>SHT40_I2C_ADDR_45</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="27" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="27" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a3d6c91d80d55f421db642d649a0d2da8" prot="public" static="no">
         <name>SHT41_I2C_ADDR_44</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="28" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="28" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="28" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1aa805d8f455503aecab017c2c7293e380" prot="public" static="no">
         <name>SHT41_I2C_ADDR_45</name>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="29" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="29" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="29" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a9f3db90f8e6a611a47e702b0f90d9326" prot="public" static="no">
         <name>SHT45_I2C_ADDR_44</name>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="30" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="30" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="30" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1ac88a08d2b48868cf1ae10558b3ddd324" prot="public" static="no">
         <name>SHT45_I2C_ADDR_45</name>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="31" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="31" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="31" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a4e62e47c6f2e65ea5808e35ca4979fc3" prot="public" static="no">
         <name>SHT4X_HUMIDITY_INDEX</name>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="33" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="33" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="33" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1ab12e1401f1798618eb079c83594e511c" prot="public" static="no">
         <name>SHT4X_TEMPERATURE_INDEX</name>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="34" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="34" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="34" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a91b57b4e93a9c7b13f1d669e73d7953e" prot="public" static="no">
         <name>SHT4x_CMD_NOHEAT_HIGHPRECISION</name>
@@ -138,7 +138,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="36" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="36" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="36" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1addcecb65679488737d7f6cf46a8b1c51" prot="public" static="no">
         <name>SHT4x_CMD_NOHEAT_MEDPRECISION</name>
@@ -150,7 +151,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="37" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="37" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="37" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a049294cd9be0242a004f03bf71e4040c" prot="public" static="no">
         <name>SHT4x_CMD_NOHEAT_LOWPRECISION</name>
@@ -162,7 +164,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="38" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="38" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="38" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a9fcd128872fa5ca952aca05aa13e044d" prot="public" static="no">
         <name>SHT4x_CMD_HIGHHEAT_1S</name>
@@ -174,7 +177,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="40" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="40" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="40" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a2fb7d88091e07c0cb8143c8afa2814e2" prot="public" static="no">
         <name>SHT4x_CMD_HIGHHEAT_100MS</name>
@@ -186,7 +190,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="41" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="41" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="41" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1accd53040e6490c381650e0993d3bddfc" prot="public" static="no">
         <name>SHT4x_CMD_MEDHEAT_1S</name>
@@ -198,7 +203,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="42" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="42" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="42" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a134c3a72f6889a7a8329a1f0c3770d94" prot="public" static="no">
         <name>SHT4x_CMD_MEDHEAT_100MS</name>
@@ -210,7 +216,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="43" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="43" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="43" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a24b51ccf081be32e9ca02f9378724ad9" prot="public" static="no">
         <name>SHT4x_CMD_LOWHEAT_1S</name>
@@ -222,7 +229,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="44" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="44" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="44" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1af9ddb1621a0326b1f63109eff76397a3" prot="public" static="no">
         <name>SHT4x_CMD_LOWHEAT_100MS</name>
@@ -234,7 +242,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="45" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="45" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="45" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1ac1f2c4e001c32116087ad040c43cd4bf" prot="public" static="no">
         <name>SHT4x_READSERIAL</name>
@@ -246,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="47" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="47" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="47" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="sht4x_8h_1a1830bf6fe9926c78966c7dc5c23e99d8" prot="public" static="no">
         <name>SHT4x_SOFTRESET</name>
@@ -258,10 +267,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="48" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="48" bodyend="-1"/>
+        <location file="lib/sht4x/src/sht4x.h" line="48" column="11" bodyfile="lib/sht4x/src/sht4x.h" bodystart="48" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="enum">
+    </sectiondef>
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" prot="public" static="no" strong="no">
         <type></type>
         <name>sht4x_error_t</name>
@@ -322,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="55" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="56" bodyend="64"/>
+        <location file="lib/sht4x/src/sht4x.h" line="55" column="1" bodyfile="lib/sht4x/src/sht4x.h" bodystart="56" bodyend="64"/>
       </memberdef>
       <memberdef kind="enum" id="sht4x_8h_1a302ae532119b7258d4291db14490ab90" prot="public" static="no" strong="no">
         <type></type>
@@ -354,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="66" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="67" bodyend="71"/>
+        <location file="lib/sht4x/src/sht4x.h" line="66" column="1" bodyfile="lib/sht4x/src/sht4x.h" bodystart="67" bodyend="71"/>
       </memberdef>
       <memberdef kind="enum" id="sht4x_8h_1a09de64040ffde758f50561c5d85e3b7d" prot="public" static="no" strong="no">
         <type></type>
@@ -415,9 +424,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" line="74" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h" bodystart="75" bodyend="83"/>
+        <location file="lib/sht4x/src/sht4x.h" line="74" column="1" bodyfile="lib/sht4x/src/sht4x.h" bodystart="75" bodyend="83"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Header file for <ref refid="class_s_h_t4_x" kindref="compound">SHT4X</ref> library. </para>
     </briefdescription>
@@ -432,6 +441,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SHT4X_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4X_H</highlight><highlight class="normal"></highlight></codeline>
@@ -444,7 +454,7 @@
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4X_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4X_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT40_I2C_ADDR_44<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x44</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT40_I2C_ADDR_45<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x45</highlight><highlight class="normal"></highlight></codeline>
@@ -456,17 +466,20 @@
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4X_HUMIDITY_INDEX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4X_TEMPERATURE_INDEX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="sht4x_8h_1a91b57b4e93a9c7b13f1d669e73d7953e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_NOHEAT_HIGHPRECISION<sp/>0xFD<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="sht4x_8h_1addcecb65679488737d7f6cf46a8b1c51" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_NOHEAT_MEDPRECISION<sp/><sp/>0xF6<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="sht4x_8h_1a049294cd9be0242a004f03bf71e4040c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_NOHEAT_LOWPRECISION<sp/><sp/>0xE0<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="sht4x_8h_1a9fcd128872fa5ca952aca05aa13e044d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_HIGHHEAT_1S<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x39<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="sht4x_8h_1a2fb7d88091e07c0cb8143c8afa2814e2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_HIGHHEAT_100MS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x32<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="sht4x_8h_1accd53040e6490c381650e0993d3bddfc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_MEDHEAT_1S<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2F<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="sht4x_8h_1a134c3a72f6889a7a8329a1f0c3770d94" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_MEDHEAT_100MS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x24<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="sht4x_8h_1a24b51ccf081be32e9ca02f9378724ad9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_LOWHEAT_1S<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1E<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="sht4x_8h_1af9ddb1621a0326b1f63109eff76397a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_LOWHEAT_100MS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x15<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="sht4x_8h_1ac1f2c4e001c32116087ad040c43cd4bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_READSERIAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x89<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="sht4x_8h_1a1830bf6fe9926c78966c7dc5c23e99d8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_SOFTRESET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x94<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="sht4x_8h_1a91b57b4e93a9c7b13f1d669e73d7953e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_NOHEAT_HIGHPRECISION<sp/>0xFD<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="sht4x_8h_1addcecb65679488737d7f6cf46a8b1c51" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_NOHEAT_MEDPRECISION<sp/><sp/>0xF6<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="sht4x_8h_1a049294cd9be0242a004f03bf71e4040c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_NOHEAT_LOWPRECISION<sp/><sp/>0xE0<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="sht4x_8h_1a9fcd128872fa5ca952aca05aa13e044d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_HIGHHEAT_1S<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x39<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="sht4x_8h_1a2fb7d88091e07c0cb8143c8afa2814e2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_HIGHHEAT_100MS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x32<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="sht4x_8h_1accd53040e6490c381650e0993d3bddfc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_MEDHEAT_1S<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2F<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="sht4x_8h_1a134c3a72f6889a7a8329a1f0c3770d94" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_MEDHEAT_100MS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x24<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="sht4x_8h_1a24b51ccf081be32e9ca02f9378724ad9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_LOWHEAT_1S<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1E<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="sht4x_8h_1af9ddb1621a0326b1f63109eff76397a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_CMD_LOWHEAT_100MS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x15<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="sht4x_8h_1ac1f2c4e001c32116087ad040c43cd4bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_READSERIAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x89<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="sht4x_8h_1a1830bf6fe9926c78966c7dc5c23e99d8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>SHT4x_SOFTRESET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x94<sp/></highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>enumerate/structure<sp/>-----------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55" refid="sht4x_8h_1a7d436030200a218d6c7c360cea6a7f02" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
@@ -531,8 +544,8 @@
 <codeline lineno="240"><highlight class="normal"></highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SHT40_h</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.h"/>
+    <location file="lib/sht4x/src/sht4x.h"/>
   </compounddef>
 </doxygen>

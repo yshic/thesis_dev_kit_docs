@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="convert_number_8hpp" kind="file" language="C++">
     <compoundname>convertNumber.hpp</compoundname>
     <includes refid="_float_traits_8hpp" local="no">ArduinoJson/Numbers/FloatTraits.hpp</includes>
     <includes refid="_json_float_8hpp" local="no">ArduinoJson/Numbers/JsonFloat.hpp</includes>
     <includes refid="limits_8hpp" local="no">ArduinoJson/Polyfills/limits.hpp</includes>
     <includes refid="type__traits_8hpp" local="no">ArduinoJson/Polyfills/type_traits.hpp</includes>
-    <includedby refid="parse_number_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</includedby>
-    <includedby refid="_variant_data_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</includedby>
-    <includedby refid="_variant_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</includedby>
+    <includedby refid="parse_number_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</includedby>
+    <includedby refid="_variant_data_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</includedby>
+    <includedby refid="_variant_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>ArduinoJson/Configuration.hpp</label>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp</label>
         <link refid="convert_number_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -316,11 +316,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="37">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
         <link refid="_element_proxy_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -330,7 +330,7 @@
         </childnode>
       </node>
       <node id="8">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
         <link refid="_json_array_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -344,49 +344,49 @@
         </childnode>
       </node>
       <node id="7">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
         <link refid="_json_array_const_8hpp_source"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
         <link refid="_json_array_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
         <link refid="_json_array_iterator_8hpp_source"/>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
         <link refid="_utilities_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
         <link refid="_collection_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="32">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
         <link refid="_reader_8hpp_source"/>
         <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="31">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
         <link refid="_variant_reader_8hpp_source"/>
         <childnode refid="32" relation="include">
         </childnode>
       </node>
       <node id="33">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
         <link refid="deserialize_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -394,19 +394,19 @@
         </childnode>
       </node>
       <node id="21">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
         <link refid="_basic_json_document_8hpp_source"/>
         <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="22">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="20">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
         <link refid="_json_document_8hpp_source"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -416,19 +416,19 @@
         </childnode>
       </node>
       <node id="23">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
         <link refid="_static_json_document_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="26">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -438,25 +438,25 @@
         </childnode>
       </node>
       <node id="27">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="13">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp</label>
         <link refid="convert_number_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -466,7 +466,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
         <link refid="parse_number_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -474,7 +474,7 @@
         </childnode>
       </node>
       <node id="19">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
         <link refid="_json_object_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -488,31 +488,31 @@
         </childnode>
       </node>
       <node id="18">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
         <link refid="_json_object_const_8hpp_source"/>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="11">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
         <link refid="_json_object_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="17">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
         <link refid="_json_object_iterator_8hpp_source"/>
         <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="34">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
         <link refid="_json_pair_8hpp_source"/>
         <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="38">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
         <link refid="_member_proxy_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -524,7 +524,7 @@
         </childnode>
       </node>
       <node id="25">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
         <link refid="measure_8hpp_source"/>
         <childnode refid="26" relation="include">
         </childnode>
@@ -534,7 +534,7 @@
         </childnode>
       </node>
       <node id="29">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
         <link refid="serialize_8hpp_source"/>
         <childnode refid="26" relation="include">
         </childnode>
@@ -544,13 +544,13 @@
         </childnode>
       </node>
       <node id="28">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="39">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
         <link refid="_json_variant_8hpp_source"/>
         <childnode refid="16" relation="include">
         </childnode>
@@ -560,7 +560,7 @@
         </childnode>
       </node>
       <node id="30">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
         <link refid="_json_variant_const_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -578,7 +578,7 @@
         </childnode>
       </node>
       <node id="15">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp</label>
         <link refid="_slot_functions_8hpp_source"/>
         <childnode refid="16" relation="include">
         </childnode>
@@ -586,7 +586,7 @@
         </childnode>
       </node>
       <node id="35">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
         <link refid="_variant_attorney_8hpp_source"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -594,7 +594,7 @@
         </childnode>
       </node>
       <node id="6">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</label>
         <link refid="_variant_data_8hpp_source"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -614,7 +614,7 @@
         </childnode>
       </node>
       <node id="24">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
         <link refid="_variant_functions_8hpp_source"/>
         <childnode refid="25" relation="include">
         </childnode>
@@ -626,13 +626,13 @@
         </childnode>
       </node>
       <node id="5">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
         <link refid="_variant_impl_8hpp_source"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="36">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
         <link refid="_variant_ref_base_8hpp_source"/>
         <childnode refid="37" relation="include">
         </childnode>
@@ -642,6 +642,33 @@
         </childnode>
       </node>
     </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="convert_number_8hpp_1ac6ca1772948a810c27667798296b8d72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TOut</type>
+          </param>
+          <param>
+            <type>typename TIn</type>
+          </param>
+        </templateparamlist>
+        <type>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE <ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; <ref refid="structis__integral" kindref="compound">is_integral</ref>&lt; TIn &gt;::value &amp;&amp;<ref refid="structis__unsigned" kindref="compound">is_unsigned</ref>&lt; TIn &gt;::value &amp;&amp;<ref refid="structis__integral" kindref="compound">is_integral</ref>&lt; TOut &gt;::value &amp;&amp;sizeof(TOut)&lt;=sizeof(TIn), bool &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE enable_if&lt; is_integral&lt; TIn &gt;::value &amp;&amp;is_unsigned&lt; TIn &gt;::value &amp;&amp;is_integral&lt; TOut &gt;::value &amp;&amp;sizeof(TOut)&lt;=sizeof(TIn), bool &gt;::type canConvertNumber</definition>
+        <argsstring>(TIn value)</argsstring>
+        <name>canConvertNumber</name>
+        <param>
+          <type>TIn</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp" line="28" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -671,18 +698,18 @@
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>uint32<sp/>-&gt;<sp/>int32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>uint64<sp/>-&gt;<sp/>int32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__unsigned" kindref="compound">is_unsigned&lt;TIn&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&lt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_unsigned&lt;TIn&gt;::value<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&lt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">canConvertNumber(TIn<sp/>value)<sp/>{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value<sp/>&lt;=<sp/>TIn(<ref refid="structnumeric__limits" kindref="compound">numeric_limits&lt;TOut&gt;::highest</ref>());</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>uint32<sp/>-&gt;<sp/>int64</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__unsigned" kindref="compound">is_unsigned&lt;TIn&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn)<sp/>&lt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut),</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_unsigned&lt;TIn&gt;::value<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn)<sp/>&lt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut),</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">canConvertNumber(TIn)<sp/>{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
@@ -690,18 +717,18 @@
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>uint32<sp/>-&gt;<sp/>float</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int32<sp/>-&gt;<sp/>float</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__floating__point" kindref="compound">is_floating_point&lt;TOut&gt;::value</ref>,</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_floating_point&lt;TOut&gt;::value,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">canConvertNumber(TIn)<sp/>{</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int64<sp/>-&gt;<sp/>int32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__signed" kindref="compound">is_signed&lt;TIn&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__signed" kindref="compound">is_signed&lt;TOut&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_signed&lt;TIn&gt;::value<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;<sp/>is_signed&lt;TOut&gt;::value<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&lt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="56"><highlight class="normal">canConvertNumber(TIn<sp/>value)<sp/>{</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value<sp/>&gt;=<sp/>TIn(<ref refid="structnumeric__limits" kindref="compound">numeric_limits&lt;TOut&gt;::lowest</ref>())<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>&lt;=<sp/>TIn(<ref refid="structnumeric__limits" kindref="compound">numeric_limits&lt;TOut&gt;::highest</ref>());</highlight></codeline>
@@ -710,10 +737,10 @@
 <codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int32<sp/>-&gt;<sp/>int32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int32<sp/>-&gt;<sp/>int64</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__signed" kindref="compound">is_signed&lt;TIn&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__signed" kindref="compound">is_signed&lt;TOut&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_signed&lt;TIn&gt;::value<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;<sp/>is_signed&lt;TOut&gt;::value<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn)<sp/>&lt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut),</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">canConvertNumber(TIn)<sp/>{</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="70"><highlight class="normal">}</highlight></codeline>
@@ -721,10 +748,10 @@
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int32<sp/>-&gt;<sp/>uint32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int32<sp/>-&gt;<sp/>uint64</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__signed" kindref="compound">is_signed&lt;TIn&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__unsigned" kindref="compound">is_unsigned&lt;TOut&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_signed&lt;TIn&gt;::value<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;<sp/>is_unsigned&lt;TOut&gt;::value<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&gt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="79"><highlight class="normal">canConvertNumber(TIn<sp/>value)<sp/>{</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(value<sp/>&lt;<sp/>0)</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
@@ -733,10 +760,10 @@
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>int32<sp/>-&gt;<sp/>uint16</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__signed" kindref="compound">is_signed&lt;TIn&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__unsigned" kindref="compound">is_unsigned&lt;TOut&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_integral&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_signed&lt;TIn&gt;::value<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;<sp/>is_unsigned&lt;TOut&gt;::value<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&lt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="91"><highlight class="normal">canConvertNumber(TIn<sp/>value)<sp/>{</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(value<sp/>&lt;<sp/>0)</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
@@ -746,9 +773,9 @@
 <codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>float32<sp/>-&gt;<sp/>int16</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">//<sp/>float64<sp/>-&gt;<sp/>int32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_floating_point&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_floating_point&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&lt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="103"><highlight class="normal">canConvertNumber(TIn<sp/>value)<sp/>{</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value<sp/>&gt;=<sp/><ref refid="structnumeric__limits" kindref="compound">numeric_limits&lt;TOut&gt;::lowest</ref>()<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>&lt;=<sp/>numeric_limits&lt;TOut&gt;::highest();</highlight></codeline>
@@ -761,9 +788,9 @@
 <codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//<sp/>float64<sp/>-&gt;<sp/>int64</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>float64<sp/>-&gt;<sp/>uint64</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TOut,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TIn&gt;</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_floating_point&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/><ref refid="structis__integral" kindref="compound">is_integral&lt;TOut&gt;::value</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if&lt;is_floating_point&lt;TIn&gt;::value</ref><sp/>&amp;&amp;<sp/>is_integral&lt;TOut&gt;::value<sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TOut)<sp/>&gt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(TIn),</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="118"><highlight class="normal">canConvertNumber(TIn<sp/>value)<sp/>{</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Avoid<sp/>error<sp/>&quot;9.22337e+18<sp/>is<sp/>outside<sp/>the<sp/>range<sp/>of<sp/>representable<sp/>values<sp/>of</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>type<sp/>&apos;long&apos;&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -783,6 +810,6 @@
 <codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>pragma<sp/>GCC<sp/>diagnostic<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,9 @@
+<map id="bspGpioDigitalRead" name="bspGpioDigitalRead">
+<area shape="rect" id="Node000001" title="This function reads the state of a digital pin." alt="" coords="262,56,399,83"/>
+<area shape="rect" id="Node000002" href="$class_p_i_r_sensor.html#ad580dd877f65e8263457e02a7e2e60ff" title="Checks if motion is continuously detected for a specified duration." alt="" coords="5,5,214,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,55,170,35,171,30,255,49"/>
+<area shape="rect" id="Node000003" href="$class_p_i_r_sensor.html#a333aef3852d9caa14fb64dad7d51404a" title="Reads the current motion status from the PIR sensor." alt="" coords="50,56,169,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,72,169,72,169,67,246,67"/>
+<area shape="rect" id="Node000004" href="$class_button_handler.html#aaed9117143aa1674a71aa012e558d4e8" title="Periodically process the button state." alt="" coords="34,107,185,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,89,171,109,170,103,253,84"/>
+</map>

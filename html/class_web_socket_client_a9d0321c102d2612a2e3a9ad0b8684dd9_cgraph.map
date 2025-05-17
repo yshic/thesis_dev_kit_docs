@@ -1,0 +1,16 @@
+<map id="WebSocketClient::parseMessage" name="WebSocketClient::parseMessage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,221,133"/>
+<area shape="rect" id="Node000002" href="$class_web_socket_client.html#abcb2421a827ad726a78d32730395c445" title=" " alt="" coords="269,5,483,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,104,195,73,268,42,291,34,293,39,270,46,198,78,139,109"/>
+<area shape="rect" id="Node000003" href="$class_web_socket_client.html#a0c759d104dfeb98f26d13893bbc5674b" title=" " alt="" coords="274,56,478,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,103,288,84,289,89,187,109"/>
+<area shape="rect" id="Node000004" href="$class_web_socket_client.html#a1e70a9603064456d9c418d841c262985" title=" " alt="" coords="270,107,482,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,117,255,117,255,123,221,123"/>
+<area shape="rect" id="Node000005" href="$class_http_client.html#a18ea928ad5adf203405e24070c67f84d" title=" " alt="" coords="319,157,432,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="187,131,305,154,303,160,186,137"/>
+<area shape="rect" id="Node000007" href="$class_web_socket_client.html#adfbbbff32d9c8b22b1ad887e39289e96" title=" " alt="" coords="298,232,454,259"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="143,132,270,194,332,223,329,227,268,198,141,136"/>
+<area shape="rect" id="Node000006" href="$class_http_client.html#a0c5e49fe34c3a05bdec7a215dd357d53" title=" " alt="" coords="531,149,703,192"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="433,168,516,168,516,173,433,173"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="335,233,328,223,333,213,349,207,376,205,405,208,420,215,418,220,404,213,376,211,350,213,337,217,333,223,340,230"/>
+</map>

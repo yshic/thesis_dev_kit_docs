@@ -1,4 +1,0 @@
-<map id="AcMeasure::getRawVoltage" name="AcMeasure::getRawVoltage">
-<area shape="rect" id="node1" title="Reads the raw voltage value from the device." alt="" coords="210,5,393,32"/>
-<area shape="rect" id="node2" href="$class_ac_measure.html#aeb401f8dd2b2d1164bc78438b9e99828" title="Retrieves the voltage in volts." alt="" coords="5,5,162,32"/>
-</map>

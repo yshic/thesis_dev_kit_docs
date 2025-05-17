@@ -1,0 +1,5 @@
+<map id="BMP280::reset" name="BMP280::reset">
+<area shape="rect" id="Node000001" title="Resets the BMP280 sensor." alt="" coords="5,5,114,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="162,5,282,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,16,146,16,146,21,114,21"/>
+</map>

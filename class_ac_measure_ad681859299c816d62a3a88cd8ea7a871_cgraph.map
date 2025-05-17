@@ -1,4 +1,0 @@
-<map id="AcMeasure::begin" name="AcMeasure::begin">
-<area shape="rect" id="node1" title="Initializes the AC measurement device by checking I2C connectivity." alt="" coords="5,5,132,32"/>
-<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#acc6322b83a6e34f4b9d486caaf87308c" title="Checks if an I2C device is present on the bus." alt="" coords="180,5,273,32"/>
-</map>

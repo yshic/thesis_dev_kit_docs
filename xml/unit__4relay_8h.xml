@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="unit__4relay_8h" kind="file" language="C++">
     <compoundname>unit_4relay.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="unit__4relay_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp</includedby>
+    <includedby refid="unit__4relay_8cpp" local="yes">lib/unit_4relay/src/unit_4relay.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h</label>
+        <label>lib/unit_4relay/src/unit_4relay.h</label>
         <link refid="unit__4relay_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,18 +17,18 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp</label>
+        <label>lib/unit_4relay/src/unit_4relay.cpp</label>
         <link refid="unit__4relay_8cpp"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h</label>
+        <label>lib/unit_4relay/src/unit_4relay.h</label>
         <link refid="unit__4relay_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_unit4_relay" prot="public">Unit4Relay</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="unit__4relay_8h_1a65b5e90bb2f90ae59a80c89bfe2988a2" prot="public" static="no">
         <name>UNIT_4RELAY_LIB_VERSION</name>
         <initializer>(F(&quot;0.1.0&quot;))</initializer>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="23" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="23" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="23" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a99883cf964269794ea7e2fc9c3fc1e9e" prot="public" static="no">
         <name>UNIT_4RELAY_I2C_ADDR</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="25" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="25" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="25" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a9c334538471c29476e55b283dd640c54" prot="public" static="no">
         <name>UNIT_4RELAY_REG</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="26" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="26" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a17ecc8e16923074d2a4e1fd82209590a" prot="public" static="no">
         <name>UNIT_4RELAY_RELAY_REG</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="27" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="27" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="unit__4relay_8h_1a1b53adc2b3a97fbdf477ae7d8d8b32c0" prot="public" static="no">
         <name>UNIT_4RELAY_MAX_RELAYS</name>
@@ -82,10 +82,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="29" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="29" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="29" column="11" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="29" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="enum">
+    </sectiondef>
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" prot="public" static="no" strong="no">
         <type></type>
         <name>unit_4relay_error_t</name>
@@ -132,9 +132,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="35" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="36" bodyend="42"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="35" column="1" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="36" bodyend="42"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Header file for UNIT_4RELAY library. </para>
     </briefdescription>
@@ -149,6 +149,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNIT_4RELAY_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_4RELAY_H</highlight><highlight class="normal"></highlight></codeline>
@@ -161,7 +162,7 @@
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_4RELAY_LIB_VERSION<sp/>(F(&quot;0.1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_4RELAY_LIB_VERSION<sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_4RELAY_I2C_ADDR<sp/><sp/><sp/><sp/>0x26</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_4RELAY_REG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x10</highlight><highlight class="normal"></highlight></codeline>
@@ -217,8 +218,8 @@
 <codeline lineno="268"><highlight class="normal"></highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>UNIT_4RELAY_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h"/>
+    <location file="lib/unit_4relay/src/unit_4relay.h"/>
   </compounddef>
 </doxygen>

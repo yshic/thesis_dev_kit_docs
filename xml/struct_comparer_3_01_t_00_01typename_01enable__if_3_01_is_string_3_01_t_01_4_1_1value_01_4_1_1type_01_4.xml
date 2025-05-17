@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct" language="C++" prot="public">
     <compoundname>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</compoundname>
     <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
@@ -8,7 +8,7 @@
         <type>typename T</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a17495d67f148cdc0b58ab10465163471" prot="public" static="no" mutable="no">
         <type>T</type>
         <definition>T Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::rhs</definition>
@@ -21,10 +21,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="25" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="25" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="25" column="5" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a26f74cbc8b9288fc9cc5d88bb58ca274" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;::Comparer</definition>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="27" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="27" bodyend="27"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="27" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a237f792e2ee3dac798752635db031acd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>CompareResult</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="29" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="29" bodyend="37"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="29" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="29" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1acd921d7fcb3140f74884bbf507428e75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>CompareResult</type>
@@ -77,9 +77,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="39" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="39" bodyend="44"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="39" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="39" bodyend="44"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -120,7 +120,7 @@
         <link refid="struct_visitor"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="23" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="24" bodyend="45"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="23" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="24" bodyend="45"/>
     <listofallmembers>
       <member refid="struct_comparer_3_01_t_00_01typename_01enable__if_3_01_is_string_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a26f74cbc8b9288fc9cc5d88bb58ca274" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>Comparer</name></member>
       <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>Comparer&lt; T, typename enable_if&lt; IsString&lt; T &gt;::value &gt;::type &gt;</scope><name>result_type</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_b_m_p280_1_1config" kind="struct" language="C++" prot="private">
     <compoundname>BMP280::config</compoundname>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_b_m_p280_1_1config_1ac09a98f356ccce7844d89a558c3df113" prot="public" static="no" mutable="no">
         <type>unsigned int</type>
         <definition>unsigned int BMP280::config::t_sb</definition>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="403" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="403" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="403" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="403" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_b_m_p280_1_1config_1abd1e54e56ee5cdb9cc110a716b9cd7c1" prot="public" static="no" mutable="no">
         <type>unsigned int</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="405" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="405" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="405" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="405" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_b_m_p280_1_1config_1a856f5a1e468e94ceeb21df0713969e05" prot="public" static="no" mutable="no">
         <type>unsigned int</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="407" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="407" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="407" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_b_m_p280_1_1config_1adc915e903b4f11e0f0e87627b99a29cc" prot="public" static="no" mutable="no">
         <type>unsigned int</type>
@@ -65,10 +65,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="409" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="409" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="409" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="409" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="struct_b_m_p280_1_1config_1a5f1c2a4034dd071043ebee92926eb924" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>BMP280::config::config</definition>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="401" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="401" bodyend="401"/>
+        <location file="lib/bmp280/src/bmp280.h" line="401" column="5" bodyfile="lib/bmp280/src/bmp280.h" bodystart="401" bodyend="401"/>
       </memberdef>
       <memberdef kind="function" id="struct_b_m_p280_1_1config_1a2b998151d38d4e87e745f929bad1532b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsigned int</type>
@@ -97,15 +97,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="411" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="411" bodyend="411"/>
+        <location file="lib/bmp280/src/bmp280.h" line="411" column="18" bodyfile="lib/bmp280/src/bmp280.h" bodystart="411" bodyend="411"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Encapsulates the config register </para>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="398" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="399" bodyend="412"/>
+    <location file="lib/bmp280/src/bmp280.h" line="398" column="3" bodyfile="lib/bmp280/src/bmp280.h" bodystart="399" bodyend="412"/>
     <listofallmembers>
       <member refid="struct_b_m_p280_1_1config_1a5f1c2a4034dd071043ebee92926eb924" prot="public" virt="non-virtual"><scope>BMP280::config</scope><name>config</name></member>
       <member refid="struct_b_m_p280_1_1config_1abd1e54e56ee5cdb9cc110a716b9cd7c1" prot="public" virt="non-virtual"><scope>BMP280::config</scope><name>filter</name></member>

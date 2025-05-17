@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_b_m_p280" kind="class" language="C++" prot="public">
     <compoundname>BMP280</compoundname>
     <includes refid="bmp280_8h" local="no">bmp280.h</includes>
     <innerclass refid="struct_b_m_p280_1_1config" prot="private">BMP280::config</innerclass>
     <innerclass refid="struct_b_m_p280_1_1ctrl__meas" prot="private">BMP280::ctrl_meas</innerclass>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_b_m_p280_1a1d4b74e79ad95bb3afad75e5057a52fd" prot="private" static="no" mutable="no">
         <type>float</type>
         <definition>float BMP280::sensorValue[3]</definition>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="391" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="391" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="391" column="9" bodyfile="lib/bmp280/src/bmp280.h" bodystart="391" bodyend="391"/>
       </memberdef>
       <memberdef kind="variable" id="class_b_m_p280_1a0dc9531d6160cdc1996aeb04354ef9a6" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="395" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="395" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="395" column="9" bodyfile="lib/bmp280/src/bmp280.h" bodystart="395" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_b_m_p280_1a1e6db3f459beb9bdec4d33c8cc385136" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="436" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="436" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="436" column="21" bodyfile="lib/bmp280/src/bmp280.h" bodystart="436" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_b_m_p280_1a51402e97668ab5800a0d49d90a5dcec5" prot="private" static="no" mutable="no">
         <type><ref refid="structbmp280__calib__data" kindref="compound">bmp280_calib_data</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="437" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="437" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="437" column="21" bodyfile="lib/bmp280/src/bmp280.h" bodystart="437" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_b_m_p280_1a8b5a5cd36132d70225fe6a3970890579" prot="private" static="no" mutable="no">
         <type>config</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="438" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="438" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="438" column="21" bodyfile="lib/bmp280/src/bmp280.h" bodystart="438" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_b_m_p280_1a805efea48e26dbcf530eb93c1fa0e268" prot="private" static="no" mutable="no">
         <type>ctrl_meas</type>
@@ -90,10 +90,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="439" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="439" bodyend="-1"/>
+        <location file="lib/bmp280/src/bmp280.h" line="439" column="21" bodyfile="lib/bmp280/src/bmp280.h" bodystart="439" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bmp280_error_t</type>
         <definition>bmp280_error_t BMP280::begin</definition>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="183" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="29" bodyend="39"/>
+        <location file="lib/bmp280/src/bmp280.h" line="183" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="29" bodyend="39"/>
         <references refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" compoundref="bsp__i2c_8cpp" startline="218" endline="222">bspI2CExist</references>
         <references refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" compoundref="bmp280_8cpp" startline="157" endline="172">setSampling</references>
       </memberdef>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="197" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="41" bodyend="47"/>
+        <location file="lib/bmp280/src/bmp280.h" line="197" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="41" bodyend="47"/>
         <references refid="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" compoundref="bmp280_8cpp" startline="116" endline="122">readAltitude</references>
         <references refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" compoundref="bmp280_8cpp" startline="62" endline="92">readPressure</references>
         <references refid="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" compoundref="bmp280_8cpp" startline="94" endline="114">readTemperature</references>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="211" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="49" bodyend="53"/>
+        <location file="lib/bmp280/src/bmp280.h" line="211" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="49" bodyend="53"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
         <references refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea3b1bc5f6d28bca2ff1222a3c7fb30831" compoundref="bmp280_8h" startline="57">MODE_SOFT_RESET_CODE</references>
       </memberdef>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="224" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="55" bodyend="60"/>
+        <location file="lib/bmp280/src/bmp280.h" line="224" column="11" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="55" bodyend="60"/>
         <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
         <referencedby refid="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" compoundref="bmp280_8cpp" startline="142" endline="155">takeForcedMeasurement</referencedby>
       </memberdef>
@@ -266,16 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="242" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="62" bodyend="92"/>
-        <references refid="structbmp280__calib__data_1aadffbb78b62b6b52d952c89bf78286e0" compoundref="bmp280_8h" startline="113">bmp280_calib_data::dig_P1</references>
-        <references refid="structbmp280__calib__data_1a8e8f4e91586272463abf5e7ca3d2a371" compoundref="bmp280_8h" startline="114">bmp280_calib_data::dig_P2</references>
-        <references refid="structbmp280__calib__data_1a088f2845708e76334f4a441c01977766" compoundref="bmp280_8h" startline="115">bmp280_calib_data::dig_P3</references>
-        <references refid="structbmp280__calib__data_1a73f05510565c594116b2074ab0ff73d7" compoundref="bmp280_8h" startline="116">bmp280_calib_data::dig_P4</references>
-        <references refid="structbmp280__calib__data_1a37e51f1053d031cc747e8700093719e6" compoundref="bmp280_8h" startline="117">bmp280_calib_data::dig_P5</references>
-        <references refid="structbmp280__calib__data_1a9a76e6e6a0ae74859a2f4ecc7b04f0a7" compoundref="bmp280_8h" startline="118">bmp280_calib_data::dig_P6</references>
-        <references refid="structbmp280__calib__data_1a65d0abb061f85a294731e4466f28e5c9" compoundref="bmp280_8h" startline="119">bmp280_calib_data::dig_P7</references>
-        <references refid="structbmp280__calib__data_1a84831980d460c469926abee7e4230714" compoundref="bmp280_8h" startline="120">bmp280_calib_data::dig_P8</references>
-        <references refid="structbmp280__calib__data_1a75facb42146d3294c4b3502429bb11ff" compoundref="bmp280_8h" startline="121">bmp280_calib_data::dig_P9</references>
+        <location file="lib/bmp280/src/bmp280.h" line="242" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="62" bodyend="92"/>
         <referencedby refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" compoundref="bmp280_8cpp" startline="41" endline="47">update</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1a4c27cecd6619562435b63c81a0295bae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -308,10 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="257" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="94" bodyend="114"/>
-        <references refid="structbmp280__calib__data_1a512563b392052c4d687d92e0fa4c69fc" compoundref="bmp280_8h" startline="110">bmp280_calib_data::dig_T1</references>
-        <references refid="structbmp280__calib__data_1a110637cd80d4c20cbf018370b1687a19" compoundref="bmp280_8h" startline="111">bmp280_calib_data::dig_T2</references>
-        <references refid="structbmp280__calib__data_1ab47d67ad2a52c66956c7c6aa7a5006d3" compoundref="bmp280_8h" startline="112">bmp280_calib_data::dig_T3</references>
+        <location file="lib/bmp280/src/bmp280.h" line="257" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="94" bodyend="114"/>
         <referencedby refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" compoundref="bmp280_8cpp" startline="41" endline="47">update</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -344,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="272" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="116" bodyend="122"/>
+        <location file="lib/bmp280/src/bmp280.h" line="272" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="116" bodyend="122"/>
         <references refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" compoundref="bmp280_8cpp" startline="124" endline="124">getPressure</references>
         <referencedby refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" compoundref="bmp280_8cpp" startline="41" endline="47">update</referencedby>
       </memberdef>
@@ -375,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="285" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="124" bodyend="124"/>
+        <location file="lib/bmp280/src/bmp280.h" line="285" column="9" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="124" bodyend="124"/>
         <referencedby refid="class_b_m_p280_1ad9d68ec2a3c74dd8ce6b1684cc1df79d" compoundref="bmp280_8cpp" startline="116" endline="122">readAltitude</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1af6ec438906352f7f4b0e46d03d7baa98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -405,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="298" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="126" bodyend="126"/>
+        <location file="lib/bmp280/src/bmp280.h" line="298" column="9" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="126" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1a693c846424c06654370222da04dcb51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -434,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="311" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="128" bodyend="128"/>
+        <location file="lib/bmp280/src/bmp280.h" line="311" column="9" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1aae63fd7ecb6c61963d77e5b256611ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -480,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="326" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="130" bodyend="133"/>
+        <location file="lib/bmp280/src/bmp280.h" line="326" column="9" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="130" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1a093ed9047d79ba87c18909b87887723f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -512,7 +500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="337" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="135" bodyend="135"/>
+        <location file="lib/bmp280/src/bmp280.h" line="337" column="8" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="135" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1a7cb008e675a64b08b165ab966a0c48d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -546,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="350" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="137" bodyend="140"/>
+        <location file="lib/bmp280/src/bmp280.h" line="350" column="9" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="137" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1ad05bced9afce99daf98d6d99918276f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -579,7 +567,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="367" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="142" bodyend="155"/>
+        <location file="lib/bmp280/src/bmp280.h" line="367" column="8" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="142" bodyend="155"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
         <references refid="class_b_m_p280_1a4cfab33bfc50e210fdbcf2fc7bd9481a" compoundref="bmp280_8cpp" startline="55" endline="60">getStatus</references>
         <references refid="bmp280_8h_1a591c10d85466fc2af5058a2af914635ea4ba4678ce33c0530ab0e2aec3fe3b200" compoundref="bmp280_8h" startline="55">MODE_FORCED</references>
@@ -672,12 +660,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="385" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="157" bodyend="172"/>
+        <location file="lib/bmp280/src/bmp280.h" line="385" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="157" bodyend="172"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
         <referencedby refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" compoundref="bmp280_8cpp" startline="29" endline="39">begin</referencedby>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_b_m_p280_1a33314cf559e72fe2983d0908f85f3495" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bmp280_error_t</type>
         <definition>bmp280_error_t BMP280::readCoefficients</definition>
@@ -693,7 +681,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="429" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="174" bodyend="191"/>
+        <location file="lib/bmp280/src/bmp280.h" line="429" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="174" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1ae740ccf31a7a0e2efc5e81b16e757a12" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -712,7 +700,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="430" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="196" bodyend="201"/>
+        <location file="lib/bmp280/src/bmp280.h" line="430" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="196" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1adf0871923a1d0e2cea6f2aaa81a7c297" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -731,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="431" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="219" bodyend="224"/>
+        <location file="lib/bmp280/src/bmp280.h" line="431" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="219" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1aa0a24dffa539bc35716423d48bfe02db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int16_t</type>
@@ -750,7 +738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="432" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="212" bodyend="212"/>
+        <location file="lib/bmp280/src/bmp280.h" line="432" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="212" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1ae2e09b76235467602f09d010016e5c97" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -768,7 +756,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="433" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="203" bodyend="207"/>
+        <location file="lib/bmp280/src/bmp280.h" line="433" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="203" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="class_b_m_p280_1a6114b9fa1e248227429f93290a0904c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int16_t</type>
@@ -786,17 +774,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="434" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp" bodystart="214" bodyend="214"/>
+        <location file="lib/bmp280/src/bmp280.h" line="434" column="18" bodyfile="lib/bmp280/src/bmp280.cpp" bodystart="214" bodyend="214"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages environmental measurements using the <ref refid="class_b_m_p280" kindref="compound">BMP280</ref> sensor, providing access to pressure, temperature, and altitude data. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_b_m_p280" kindref="compound">BMP280</ref></computeroutput> class facilitates interaction with the <ref refid="class_b_m_p280" kindref="compound">BMP280</ref> environmental sensor over I2C. It supports reading pressure, temperature, and altitude, with calibration and configuration options for sampling, filtering, and operating modes. The class stores converted sensor values for easy access and provides utility functions for sea level pressure and water boiling point calculations.</para>
-<sect3 id="class_b_m_p280_1autotoc_md10">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_b_m_p280_1autotoc_md10_1s1"><sect2 id="class_b_m_p280_1autotoc_md10_1s2"><sect3 id="class_b_m_p280_1autotoc_md10">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Reads pressure, temperature, and altitude with calibration adjustments.</para>
 </listitem><listitem><para>Supports configurable oversampling, filtering, and standby durations.</para>
 </listitem><listitem><para>Provides forced measurement mode for precise control.</para>
@@ -804,22 +791,20 @@
 </listitem><listitem><para>Stores sensor data in an internal array for retrieval via getter methods.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_b_m_p280_1autotoc_md11">
-<title>Usage:</title>
-<para>Instantiate the class and call <computeroutput><ref refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Use <computeroutput><ref refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" kindref="member">update()</ref></computeroutput> to read all measurements or individual methods like <computeroutput><ref refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" kindref="member">readPressure()</ref></computeroutput> for specific data. Getter methods (e.g., <computeroutput><ref refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" kindref="member">getPressure()</ref></computeroutput>) provide access to the latest values. Configure sampling settings with <computeroutput><ref refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" kindref="member">setSampling()</ref></computeroutput> for desired performance.</para>
-</sect3>
-<sect3 id="class_b_m_p280_1autotoc_md12">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_b_m_p280_1autotoc_md11_1s1"><sect2 id="class_b_m_p280_1autotoc_md11_1s2"><sect3 id="class_b_m_p280_1autotoc_md11">
+<title>Usage:</title><para>Instantiate the class and call <computeroutput><ref refid="class_b_m_p280_1a7f793755576e8d937f97984ee8b42b07" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Use <computeroutput><ref refid="class_b_m_p280_1a7c52cbbec998984b6d63e2162a0ed436" kindref="member">update()</ref></computeroutput> to read all measurements or individual methods like <computeroutput><ref refid="class_b_m_p280_1a945a1f5234d942ac1cd36b5146947e20" kindref="member">readPressure()</ref></computeroutput> for specific data. Getter methods (e.g., <computeroutput><ref refid="class_b_m_p280_1aeb4fc3f2a91697a23d9605dac27e8e14" kindref="member">getPressure()</ref></computeroutput>) provide access to the latest values. Configure sampling settings with <computeroutput><ref refid="class_b_m_p280_1a67efaace84ab36fad15df3ea7f983fe4" kindref="member">setSampling()</ref></computeroutput> for desired performance.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_b_m_p280_1autotoc_md12_1s1"><sect2 id="class_b_m_p280_1autotoc_md12_1s2"><sect3 id="class_b_m_p280_1autotoc_md12">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires I2C communication library (<computeroutput>bspI2C</computeroutput> functions).</para>
 </listitem><listitem><para>Sensor must be connected to a valid I2C bus at address <computeroutput>BMP280_I2C_ADDR</computeroutput> (0x76).</para>
 </listitem><listitem><para>Calibration coefficients must be read successfully during initialization. </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" line="166" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.h" bodystart="167" bodyend="440"/>
+    <location file="lib/bmp280/src/bmp280.h" line="166" column="1" bodyfile="lib/bmp280/src/bmp280.h" bodystart="167" bodyend="440"/>
     <listofallmembers>
       <member refid="class_b_m_p280_1a51402e97668ab5800a0d49d90a5dcec5" prot="private" virt="non-virtual"><scope>BMP280</scope><name>_bmp280_calib</name></member>
       <member refid="class_b_m_p280_1a8b5a5cd36132d70225fe6a3970890579" prot="private" virt="non-virtual"><scope>BMP280</scope><name>_configReg</name></member>

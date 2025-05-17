@@ -1,0 +1,9 @@
+<map id="BMP280::takeForcedMeasurement" name="BMP280::takeForcedMeasurement">
+<area shape="rect" id="Node000001" title="Triggers a forced measurement." alt="" coords="5,31,229,57"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="284,5,404,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,29,268,24,269,30,229,34"/>
+<area shape="rect" id="Node000003" href="$class_b_m_p280.html#a4cfab33bfc50e210fdbcf2fc7bd9481a" title="Reads the current status of the BMP280 sensor." alt="" coords="277,56,412,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,54,261,57,261,63,228,59"/>
+<area shape="rect" id="Node000004" href="$bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="460,56,581,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="412,67,444,67,444,72,412,72"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UsbSwitch::getOutputValuePercentage" name="UsbSwitch::getOutputValuePercentage">
+<area shape="rect" id="Node000001" title="Retrieves the current output value as a percentage." alt="" coords="5,5,188,48"/>
+<area shape="rect" id="Node000002" href="$class_usb_switch.html#aa2353b8a438a13ed68c42548853e64f8" title="Retrieves the current output value." alt="" coords="236,13,418,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,24,220,24,220,29,188,29"/>
+<area shape="rect" id="Node000003" href="$bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="466,13,606,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="418,24,450,24,450,29,418,29"/>
+</map>

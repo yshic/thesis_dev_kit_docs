@@ -1,4 +1,0 @@
-<map id="AcMeasure::getRawKWH" name="AcMeasure::getRawKWH">
-<area shape="rect" id="node1" title="Reads the raw energy consumption value from the device." alt="" coords="199,5,371,32"/>
-<area shape="rect" id="node2" href="$class_ac_measure.html#a354d97e8d07c12f4e873ef2c389e5bda" title="Retrieves the energy consumption in kilowatt&#45;hours." alt="" coords="5,5,151,32"/>
-</map>

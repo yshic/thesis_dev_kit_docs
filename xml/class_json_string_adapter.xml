@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_json_string_adapter" kind="class" language="C++" prot="public">
     <compoundname>JsonStringAdapter</compoundname>
     <basecompoundref refid="class_sized_ram_string" prot="public" virt="non-virtual">SizedRamString</basecompoundref>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_json_string_adapter_1a4680345f3b4c8c0b81279485118acb7b" prot="private" static="no" mutable="no">
         <type>bool</type>
         <definition>bool JsonStringAdapter::linked_</definition>
@@ -16,10 +16,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="24" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="24" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="24" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_json_string_adapter_1abd4a64c841824199ead3f8f1e7cc3aac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>JsonStringAdapter::JsonStringAdapter</definition>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="15" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="15" bodyend="16"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="15" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="15" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="class_json_string_adapter_1a3dcf27a2fd67effde95869b62aa4a43d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_string_storage_policy_1_1_link_or_copy" kindref="compound">StringStoragePolicy::LinkOrCopy</ref></type>
@@ -50,9 +50,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="18" column="35" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="18" bodyend="21"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="18" column="35" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="18" bodyend="21"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -81,7 +81,7 @@
         <link refid="class_sized_ram_string"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="13" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="13" bodyend="25"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp" bodystart="13" bodyend="25"/>
     <listofallmembers>
       <member refid="class_sized_ram_string_1a7bcaeab6afc550f54090c36f3f48df21" prot="public" virt="non-virtual"><scope>JsonStringAdapter</scope><name>data</name></member>
       <member refid="class_sized_ram_string_1acf27d58d8091f5368db792989eda3fbf" prot="public" virt="non-virtual"><scope>JsonStringAdapter</scope><name>isNull</name></member>

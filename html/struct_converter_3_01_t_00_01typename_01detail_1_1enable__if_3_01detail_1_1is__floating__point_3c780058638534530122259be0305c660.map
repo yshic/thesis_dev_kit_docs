@@ -1,0 +1,5 @@
+<map id="Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;" name="Converter&lt; T, typename detail::enable_if&lt; detail::is_floating_point&lt; T &gt;::value &gt;::type &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,167,155"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,5,161,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,48,89,79,83,79,83,48"/>
+</map>

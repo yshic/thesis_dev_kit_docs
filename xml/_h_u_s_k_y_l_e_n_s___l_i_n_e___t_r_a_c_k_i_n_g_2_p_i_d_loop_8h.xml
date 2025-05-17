@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h" kind="file" language="C++">
     <compoundname>PIDLoop.h</compoundname>
     <innerclass refid="class_p_i_d_loop" prot="public">PIDLoop</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a6acf03572542d23d435325bd40593ed9" prot="public" static="no">
         <name>PID_MAX_INTEGRAL</name>
         <initializer>2000</initializer>
@@ -13,7 +13,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="17" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="17" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="17" column="9" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a80aa387a70f5faacd6f6d4dd642bb644" prot="public" static="no">
         <name>ZUMO_BASE_DEADBAND</name>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="18" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="18" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="18" column="9" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a5361e5e4628b4f8577d2febafc4da088" prot="public" static="no">
         <name>PIXY_RCS_MIN_POS</name>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="21" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="21" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="21" column="9" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a2336b04d0e7669f8491241a455653af8" prot="public" static="no">
         <name>PIXY_RCS_MAX_POS</name>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="22" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="22" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="22" column="9" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_h_u_s_k_y_l_e_n_s___l_i_n_e___t_r_a_c_k_i_n_g_2_p_i_d_loop_8h_1a9182417344deee5ca45dba835416a1a3" prot="public" static="no">
         <name>PIXY_RCS_CENTER_POS</name>
@@ -57,9 +57,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="23" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="23" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" line="23" column="9" bodyfile="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h" bodystart="23" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -89,10 +89,10 @@
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PIXY_RCS_MAX_POS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1000L</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PIXY_RCS_CENTER_POS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((PIXY_RCS_MAX_POS-PIXY_RCS_MIN_POS)/2)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="class_p_i_d_loop" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_p_i_d_loop" kindref="compound">PIDLoop</ref></highlight></codeline>
+<codeline lineno="25" refid="class_p_i_d_loop" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PIDLoop</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="class_p_i_d_loop" kindref="compound">PIDLoop</ref>(int32_t<sp/>pgain,<sp/>int32_t<sp/>igain,<sp/>int32_t<sp/>dgain,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>servo)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>PIDLoop(int32_t<sp/>pgain,<sp/>int32_t<sp/>igain,<sp/>int32_t<sp/>dgain,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>servo)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pgain<sp/>=<sp/>pgain;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>m_igain<sp/>=<sp/>igain;</highlight></codeline>
@@ -166,6 +166,6 @@
 <codeline lineno="99"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h"/>
+    <location file="lib/HUSKYLENS/examples/HUSKYLENS_LINE_TRACKING/PIDLoop.h"/>
   </compounddef>
 </doxygen>

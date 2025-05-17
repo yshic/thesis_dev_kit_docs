@@ -1,4 +1,0 @@
-<map id="BMP280::getStatus" name="BMP280::getStatus">
-<area shape="rect" id="node1" title="Reads the current status of the BMP280 sensor." alt="" coords="277,5,412,32"/>
-<area shape="rect" id="node2" href="$class_b_m_p280.html#ad05bced9afce99daf98d6d99918276f4" title="Triggers a forced measurement." alt="" coords="5,5,229,32"/>
-</map>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_l_c_d___i2_c" kind="class" language="C++" prot="public">
     <compoundname>LCD_I2C</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Print</basecompoundref>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_l_c_d___i2_c_1a4630953a99ebadadc8a22183e838ade0" prot="private" static="no" mutable="no">
         <type>TwoWire *</type>
         <definition>TwoWire* LCD_I2C::_wire</definition>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="103" column="21" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="103" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="103" column="21" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1a00ef7b035b3a775d8d4fd2b3014f699b" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="104" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="104" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="104" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1a6fb05a41bbaf023955b8c1d0c40b49a0" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="105" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="105" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="105" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1a0e4a390668d7a6cd5d83975e11a0eaf9" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="106" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="106" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="106" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1a4e213222bce58d7146fcd331bb40a34c" prot="private" static="no" mutable="no">
         <type><ref refid="struct_output_state" kindref="compound">OutputState</ref></type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="107" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="107" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="107" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1acc8143f0db43845e03ef5f9c076b78c3" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="108" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="108" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="108" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1a6f81f37c9941f82b0f3215c4c83060d7" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="109" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="109" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="109" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_l_c_d___i2_c_1afc4575ae1857fee823e8b43535f726b8" prot="private" static="no" mutable="no">
         <type>lcd_screen_state_t</type>
@@ -118,10 +118,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="110" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="110" bodyend="-1"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="110" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="110" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_l_c_d___i2_c_1a9ab0aabe9eb94b74610e091467e43725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>LCD_I2C::LCD_I2C</definition>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="68" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="68" bodyend="71"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="68" column="3" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1aa5cb738174b216d2b06b7b11849ee61d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="73" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="10" bodyend="19"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="73" column="8" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="10" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a5262240ccbb83ec6f37522b8d9322bd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="74" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="25" bodyend="30"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="74" column="8" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="25" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a4f0d21551d40edb54ac1b942bef76d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="75" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="36" bodyend="41"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="75" column="8" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="36" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a777466d894f6ec2b770ed2d210791488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="77" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="47" bodyend="54"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="77" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="47" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1af64793f4fed5a850a998619d277248fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="78" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="62" bodyend="69"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="78" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="62" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a62a262300317053d98481750e588f12e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="79" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="77" bodyend="86"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="79" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="77" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a477dc9c04b7b0f010fcf5288be9f4050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="80" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="94" bodyend="103"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="80" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="94" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a5564c2b6fdb35ba40d7b99399e9ad100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="81" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="113" bodyend="122"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="81" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="113" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1ad0431cb8cd92563eaae80d73f6cb6d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="82" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="129" bodyend="138"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="82" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="129" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a9ecc6249b017a867ba83c0b37dbb4d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -312,7 +312,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="83" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="145" bodyend="154"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="83" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="145" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a3d309d59c218c17ce0da39a4b32b3be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -327,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="84" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="160" bodyend="169"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="84" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="160" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a090e1dc11adac2ecf4b51c33fbe2d16a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="85" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="175" bodyend="184"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="85" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="175" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a9148c308bc60405264acd2caebb42035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -357,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="86" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="190" bodyend="199"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="86" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="190" bodyend="199"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a824106f0d24f9cc3b133330491821390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="87" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="206" bodyend="215"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="87" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="206" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a3a77ab88ae1d7655a54f09d2e5159ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -387,7 +387,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="88" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="221" bodyend="230"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="88" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="221" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a5c77d5a6768b076dfd9a0cd4e54cf7e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -402,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="89" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="236" bodyend="243"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="89" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="236" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1ae12bf5d4ae108dcca9b879f3777df484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -417,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="90" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="249" bodyend="256"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="90" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="249" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="91" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="268" bodyend="282"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="91" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="268" bodyend="282"/>
         <references refid="class_l_c_d___i2_c_1a8852aad8dec8a780d31449fc3fab5056" compoundref="_l_c_d-_i2_c_8cpp" startline="290" endline="310">setCursor</references>
         <references refid="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" compoundref="_l_c_d-_i2_c_8cpp" startline="318" endline="327">write</references>
       </memberdef>
@@ -502,7 +502,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="92" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="290" bodyend="310"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="92" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="290" bodyend="310"/>
         <referencedby refid="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" compoundref="_l_c_d-_i2_c_8cpp" startline="268" endline="282">createChar</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1aaf831006a92860fc2e3e9f79578b2e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -533,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="93" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="375" bodyend="380"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="93" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="375" bodyend="380"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a669b57b170aa0dfcbc28f87a43ddc302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -555,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="94" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="428" bodyend="473"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="94" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="428" bodyend="473"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1aeeb5bee9ba464c8579c1e5abf95eebd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>lcd_screen_state_t</type>
@@ -569,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="95" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="475" bodyend="475"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="95" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="475" bodyend="475"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a5e292a6e8e968200d4ca9e86cc9f5ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -587,7 +587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="96" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="477" bodyend="477"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="96" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="477" bodyend="477"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a85c9e6f2e4e0898ba1daf4b96a91b28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -605,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="97" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="479" bodyend="499"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="97" column="22" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="479" bodyend="499"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a6e9c39f455ba8cefb804a0f5a118744e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -636,11 +636,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="100" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="318" bodyend="327"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="100" column="18" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="318" bodyend="327"/>
         <referencedby refid="class_l_c_d___i2_c_1aae5df230a517491bb6c4d7029199d4af" compoundref="_l_c_d-_i2_c_8cpp" startline="268" endline="282">createChar</referencedby>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_l_c_d___i2_c_1aa81db0b677f6e58498b06882880b562c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void LCD_I2C::InitializeLCD</definition>
@@ -654,7 +654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="112" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="333" bodyend="366"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="112" column="8" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="333" bodyend="366"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1a71db848d8826e6c08c2693d762f6a93b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -683,7 +683,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="113" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="387" bodyend="392"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="113" column="8" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="387" bodyend="392"/>
       </memberdef>
       <memberdef kind="function" id="class_l_c_d___i2_c_1ae98fa69bff62f2a850fb6104da7a6259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -725,9 +725,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="114" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="400" bodyend="426"/>
+        <location file="lib/LCD_I2C/src/LCD-I2C.h" line="114" column="8" bodyfile="lib/LCD_I2C/src/LCD-I2C.cpp" bodystart="400" bodyend="426"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -754,7 +754,7 @@
         <label>Print</label>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" line="65" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/LCD_I2C/src/LCD-I2C.h" bodystart="66" bodyend="115"/>
+    <location file="lib/LCD_I2C/src/LCD-I2C.h" line="65" column="1" bodyfile="lib/LCD_I2C/src/LCD-I2C.h" bodystart="66" bodyend="115"/>
     <listofallmembers>
       <member refid="class_l_c_d___i2_c_1a00ef7b035b3a775d8d4fd2b3014f699b" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_address</name></member>
       <member refid="class_l_c_d___i2_c_1a6fb05a41bbaf023955b8c1d0c40b49a0" prot="private" virt="non-virtual"><scope>LCD_I2C</scope><name>_columnMax</name></member>

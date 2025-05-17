@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_pub_sub_client_8cpp" kind="file" language="C++">
     <compoundname>PubSubClient.cpp</compoundname>
     <includes refid="_pub_sub_client_8h" local="yes">PubSubClient.h</includes>
@@ -9,7 +9,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/PubSubClient/PubSubClient.cpp</label>
+        <label>lib/PubSubClient/PubSubClient.cpp</label>
         <link refid="_pub_sub_client_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -38,7 +38,7 @@
         <label>Stream.h</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_pub_sub_client_8cpp_1a2a058a9bce477b71e5cc11907f69b716" prot="public" static="no">
         <name>MQTT_HEADER_VERSION_LENGTH</name>
         <initializer>7</initializer>
@@ -48,9 +48,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/PubSubClient/PubSubClient.cpp" line="207" column="9"/>
+        <location file="lib/PubSubClient/PubSubClient.cpp" line="207" column="9"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -826,6 +826,6 @@
 <codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="769"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/PubSubClient/PubSubClient.cpp"/>
+    <location file="lib/PubSubClient/PubSubClient.cpp"/>
   </compounddef>
 </doxygen>

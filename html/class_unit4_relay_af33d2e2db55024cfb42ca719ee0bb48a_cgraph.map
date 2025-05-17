@@ -1,0 +1,5 @@
+<map id="Unit4Relay::applyRelayState" name="Unit4Relay::applyRelayState">
+<area shape="rect" id="Node000001" title="Applies the staged relay states to the module." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="244,5,364,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,16,228,16,228,21,196,21"/>
+</map>

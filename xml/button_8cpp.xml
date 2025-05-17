@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="button_8cpp" kind="file" language="C++">
     <compoundname>button.cpp</compoundname>
     <includes refid="button_8h" local="yes">button.h</includes>
@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/button/src/button.cpp</label>
+        <label>lib/button/src/button.cpp</label>
         <link refid="button_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -203,6 +203,6 @@
 <codeline lineno="167"><highlight class="normal"><sp/><sp/>lastButtonState<sp/>=<sp/>isButtonPressed;</highlight></codeline>
 <codeline lineno="168"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/button/src/button.cpp"/>
+    <location file="lib/button/src/button.cpp"/>
   </compounddef>
 </doxygen>

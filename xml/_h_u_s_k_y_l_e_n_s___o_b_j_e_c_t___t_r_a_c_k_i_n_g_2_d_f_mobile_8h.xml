@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_d_f_mobile_8h" kind="file" language="C++">
     <compoundname>DFMobile.h</compoundname>
     <includes local="no">Arduino.h</includes>
-    <includedby refid="_h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.cpp</includedby>
+    <includedby refid="_h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_d_f_mobile_8cpp" local="yes">lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h</label>
+        <label>lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h</label>
         <link refid="_h_u_s_k_y_l_e_n_s___o_b_j_e_c_t___t_r_a_c_k_i_n_g_2_d_f_mobile_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -22,6 +22,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_d_f_mobile" kindref="compound">DFMobile</ref><sp/>{</highlight></codeline>
@@ -37,7 +38,7 @@
 <codeline lineno="20"><highlight class="normal"><sp/><sp/>uint8_t<sp/>_right_pwm;</highlight><highlight class="comment">//<sp/>=<sp/>6;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="class_d_f_mobile" kindref="compound">DFMobile</ref><sp/>(uint8_t<sp/>left_en,<sp/>uint8_t<sp/>left_pwm,<sp/>uint8_t<sp/>right_en,<sp/>uint8_t<sp/>right_pwm);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="class_d_f_mobile_1a59fc77c0f4d8fd2dab61ce8432c34825" kindref="member">DFMobile</ref><sp/>(uint8_t<sp/>left_en,<sp/>uint8_t<sp/>left_pwm,<sp/>uint8_t<sp/>right_en,<sp/>uint8_t<sp/>right_pwm);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Direction<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>left,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>right);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
@@ -46,6 +47,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h"/>
+    <location file="lib/HUSKYLENS/examples/HUSKYLENS_OBJECT_TRACKING/DFMobile.h"/>
   </compounddef>
 </doxygen>

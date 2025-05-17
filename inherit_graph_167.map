@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_visitor.html" title=" " alt="" coords="5,43,123,69"/>
-<area shape="rect" id="node2" href="$class_json_serializer.html" title=" " alt="" coords="171,13,339,40"/>
-<area shape="rect" id="node4" href="$class_msg_pack_serializer.html" title=" " alt="" coords="186,64,324,107"/>
-<area shape="rect" id="node3" href="$class_pretty_json_serializer.html" title=" " alt="" coords="387,5,525,48"/>
-</map>

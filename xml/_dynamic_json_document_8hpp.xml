@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_dynamic_json_document_8hpp" kind="file" language="C++">
     <compoundname>DynamicJsonDocument.hpp</compoundname>
     <includes refid="_basic_json_document_8hpp" local="no">ArduinoJson/Document/BasicJsonDocument.hpp</includes>
     <includes local="no">stdlib.h</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
     <incdepgraph>
       <node id="4">
         <label>ArduinoJson/Array/ElementProxy.hpp</label>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -709,18 +709,18 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="struct_default_allocator" prot="public">DefaultAllocator</innerclass>
-      <sectiondef kind="typedef">
+    <sectiondef kind="typedef">
       <memberdef kind="typedef" id="_dynamic_json_document_8hpp_1a1ce448e15bce3ab02dcaa763e7b6047e" prot="public" static="no">
         <type><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument</ref>&lt; <ref refid="struct_default_allocator" kindref="compound">DefaultAllocator</ref> &gt;</type>
         <definition>typedef BasicJsonDocument&lt;DefaultAllocator&gt; DynamicJsonDocument</definition>
@@ -732,9 +732,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="30" column="27" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="30" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" line="30" column="27" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -769,10 +769,10 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>JsonDocument<sp/>with<sp/>a<sp/>memory<sp/>pool<sp/>in<sp/>the<sp/>heap.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://arduinojson.org/v6/api/dynamicjsondocument/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument&lt;DefaultAllocator&gt;</ref><sp/><ref refid="class_basic_json_document" kindref="compound">DynamicJsonDocument</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_basic_json_document" kindref="compound">BasicJsonDocument&lt;DefaultAllocator&gt;</ref><sp/>DynamicJsonDocument;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">ARDUINOJSON_END_PUBLIC_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_ultrasonic" kind="class" language="C++" prot="public">
     <compoundname>Ultrasonic</compoundname>
     <includes refid="ultrasonic_8h" local="no">ultrasonic.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_ultrasonic_1a10cd04fcf38645df43ad5714bee96692" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
         <definition>uint8_t Ultrasonic::triggerPin</definition>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="88" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="88" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="88" column="17" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ultrasonic_1a846d5a9deffd01b9829255fea90efc69" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="89" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="89" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="89" column="17" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ultrasonic_1a30ac527a477658a3617c7b3e5880dcd4" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="90" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="90" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="90" column="17" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ultrasonic_1af89c7a2d8c425eb3140715b7924beade" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -58,10 +58,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="91" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="91" bodyend="-1"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="91" column="17" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="91" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_ultrasonic_1a201a098b634fc90598c2fb8b2fb93630" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned int</type>
         <definition>unsigned int Ultrasonic::duration</definition>
@@ -108,10 +108,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="109" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="36" bodyend="51"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="109" column="16" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="36" bodyend="51"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_ultrasonic_1a22efb22ed765d4841b842d5503a4f1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>Ultrasonic::Ultrasonic</definition>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="129" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="29" bodyend="34"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="129" column="3" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="29" bodyend="34"/>
         <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
       <memberdef kind="function" id="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="149" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="53" bodyend="69"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="149" column="8" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="53" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="class_ultrasonic_1a0412ed9332b7da42dd74cbff546af8c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned int</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="151" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="71" bodyend="88"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="151" column="16" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.cpp" bodystart="71" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -263,17 +263,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="167" column="15" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="167" bodyend="167"/>
+        <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="167" column="15" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="167" bodyend="167"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages distance measurements using an ultrasonic sensor. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_ultrasonic" kindref="compound">Ultrasonic</ref></computeroutput> class provides functionality for measuring distances with an ultrasonic sensor connected to an Arduino via trigger and echo pins. It supports calculating the echo pulse duration and converting it to distances in centimeters, millimeters, or inches, with configurable timeout settings.</para>
-<sect3 id="class_ultrasonic_1autotoc_md43">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_ultrasonic_1autotoc_md43_1s1"><sect2 id="class_ultrasonic_1autotoc_md43_1s2"><sect3 id="class_ultrasonic_1autotoc_md43">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Measures echo pulse duration for distance calculations.</para>
 </listitem><listitem><para>Converts pulse duration to distances in multiple units (cm, mm, inches).</para>
 </listitem><listitem><para>Supports configurable timeout for pulse measurements.</para>
@@ -281,22 +280,20 @@
 </listitem><listitem><para>Handles invalid unit inputs gracefully.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_ultrasonic_1autotoc_md44">
-<title>Usage:</title>
-<para>Instantiate the class with the appropriate trigger and echo pins and an optional timeout value. Call <computeroutput><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">read()</ref></computeroutput> to measure and store the distance in the desired unit, then use <computeroutput>getDistance()</computeroutput> to retrieve the value. Adjust the timeout with <computeroutput><ref refid="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" kindref="member">setTimeout()</ref></computeroutput> if needed for longer or shorter ranges.</para>
-</sect3>
-<sect3 id="class_ultrasonic_1autotoc_md45">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_ultrasonic_1autotoc_md44_1s1"><sect2 id="class_ultrasonic_1autotoc_md44_1s2"><sect3 id="class_ultrasonic_1autotoc_md44">
+<title>Usage:</title><para>Instantiate the class with the appropriate trigger and echo pins and an optional timeout value. Call <computeroutput><ref refid="class_ultrasonic_1ad348f27e733e674cce10921edc2f00c5" kindref="member">read()</ref></computeroutput> to measure and store the distance in the desired unit, then use <computeroutput>getDistance()</computeroutput> to retrieve the value. Adjust the timeout with <computeroutput><ref refid="class_ultrasonic_1a9da4e607558066d0e149d1e8c1075499" kindref="member">setTimeout()</ref></computeroutput> if needed for longer or shorter ranges.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_ultrasonic_1autotoc_md45_1s1"><sect2 id="class_ultrasonic_1autotoc_md45_1s2"><sect3 id="class_ultrasonic_1autotoc_md45">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires an Arduino-compatible board with digital I/O support.</para>
 </listitem><listitem><para>Sensor must be connected to valid digital pins (trigger as output, echo as input).</para>
 </listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for GPIO operations (<computeroutput>bspGpioPinMode</computeroutput>, <computeroutput>bspGpioDigitalWrite</computeroutput>, <computeroutput>bspGpioPulseIn</computeroutput>). </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" line="85" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="86" bodyend="168"/>
+    <location file="lib/ultrasonic_sensor/src/ultrasonic.h" line="85" column="1" bodyfile="lib/ultrasonic_sensor/src/ultrasonic.h" bodystart="86" bodyend="168"/>
     <listofallmembers>
       <member refid="class_ultrasonic_1a30ac527a477658a3617c7b3e5880dcd4" prot="private" virt="non-virtual"><scope>Ultrasonic</scope><name>distance</name></member>
       <member refid="class_ultrasonic_1a201a098b634fc90598c2fb8b2fb93630" prot="private" virt="non-virtual"><scope>Ultrasonic</scope><name>duration</name></member>

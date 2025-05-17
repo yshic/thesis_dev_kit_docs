@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_unit4_relay" kind="class" language="C++" prot="public">
     <compoundname>Unit4Relay</compoundname>
     <includes refid="unit__4relay_8h" local="no">unit_4relay.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_unit4_relay_1a20fa55440887ecdc739b7925e51ac8b6" prot="private" static="no" mutable="no">
         <type>bool</type>
         <definition>bool Unit4Relay::relayState[4]</definition>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="265" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="265" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="265" column="8" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="265" bodyend="265"/>
       </memberdef>
       <memberdef kind="variable" id="class_unit4_relay_1a165060cd18fe2b982bfeaa98896e5b49" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -32,10 +32,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="266" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="266" bodyend="-1"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="266" column="8" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="266" bodyend="266"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
         <definition>unit_4relay_error_t Unit4Relay::begin</definition>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="102" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="26" bodyend="34"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="102" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="26" bodyend="34"/>
         <references refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" compoundref="bsp__i2c_8cpp" startline="218" endline="222">bspI2CExist</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -93,7 +93,7 @@
 <para>Operating mode: <verbatim>            - `0`: Asynchronous mode
 
             - `1`: Synchronous mode
-</verbatim> </para>
+</verbatim></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="122" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="36" bodyend="49"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="122" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="36" bodyend="49"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="139" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="51" bodyend="76"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="139" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="51" bodyend="76"/>
         <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="151" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="78" bodyend="88"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="151" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="78" bodyend="88"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="167" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="90" bodyend="114"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="167" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="90" bodyend="114"/>
         <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="179" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="116" bodyend="126"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="179" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="116" bodyend="126"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -321,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="191" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="128" bodyend="133"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="191" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="128" bodyend="133"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="209" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="135" bodyend="143"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="209" column="7" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="135" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="227" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="145" bodyend="153"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="227" column="7" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="145" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1a33ce2623dcaaa547cd1e7bc5607b995b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
@@ -438,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="244" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="155" bodyend="165"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="244" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="155" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="unit__4relay_8h_1a764cc462a7195190fb8a45bb5de59930" kindref="member">unit_4relay_error_t</ref></type>
@@ -471,18 +471,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="262" column="23" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.cpp" bodystart="167" bodyend="182"/>
+        <location file="lib/unit_4relay/src/unit_4relay.h" line="262" column="23" bodyfile="lib/unit_4relay/src/unit_4relay.cpp" bodystart="167" bodyend="182"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages a 4-relay module with I2C interface for relay and LED control. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_unit4_relay" kindref="compound">Unit4Relay</ref></computeroutput> class provides functionality for controlling a 4-relay module over I2C, including initializing the module, setting relay and LED states individually or collectively, switching operating modes (synchronous/asynchronous), and retrieving relay and LED states. It maintains internal state arrays for relays and LEDs.</para>
-<sect3 id="class_unit4_relay_1autotoc_md46">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_unit4_relay_1autotoc_md46_1s1"><sect2 id="class_unit4_relay_1autotoc_md46_1s2"><sect3 id="class_unit4_relay_1autotoc_md46">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Controls up to four relays with ON/OFF states.</para>
 </listitem><listitem><para>Manages indicator LEDs corresponding to each relay.</para>
 </listitem><listitem><para>Supports synchronous and asynchronous operating modes.</para>
@@ -490,22 +489,20 @@
 </listitem><listitem><para>Retrieves current relay and LED states with error handling.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_unit4_relay_1autotoc_md47">
-<title>Usage:</title>
-<para>Instantiate the class and call <computeroutput><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin()</ref></computeroutput> to verify I2C connectivity, followed by <computeroutput><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">init()</ref></computeroutput> to set the operating mode and reset relays. Use <computeroutput><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">relayWrite()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">relayAll()</ref></computeroutput> to control relays, <computeroutput><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">ledWrite()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">ledAll()</ref></computeroutput> for LEDs, and <computeroutput><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">switchMode()</ref></computeroutput> to change modes. Retrieve states with <computeroutput><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">getRelayState()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">getLedState()</ref></computeroutput>. Use <computeroutput>setRelayState()</computeroutput> to stage relay states without immediate I2C writes.</para>
-</sect3>
-<sect3 id="class_unit4_relay_1autotoc_md48">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_unit4_relay_1autotoc_md47_1s1"><sect2 id="class_unit4_relay_1autotoc_md47_1s2"><sect3 id="class_unit4_relay_1autotoc_md47">
+<title>Usage:</title><para>Instantiate the class and call <computeroutput><ref refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" kindref="member">begin()</ref></computeroutput> to verify I2C connectivity, followed by <computeroutput><ref refid="class_unit4_relay_1aae6e0d7daca1902707378c714047ef65" kindref="member">init()</ref></computeroutput> to set the operating mode and reset relays. Use <computeroutput><ref refid="class_unit4_relay_1a058eddf27fc3dacd823cb183016f7d48" kindref="member">relayWrite()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1ae1ae938e7f9ef4a340da551b5ea2f157" kindref="member">relayAll()</ref></computeroutput> to control relays, <computeroutput><ref refid="class_unit4_relay_1a4afd86f0f07bd53cc2c52f1a1faaf708" kindref="member">ledWrite()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1afdca9c42a3cfb64c47273e9b03b0b9ea" kindref="member">ledAll()</ref></computeroutput> for LEDs, and <computeroutput><ref refid="class_unit4_relay_1a25c9b5c0263a67a95d58519cd1b6cad2" kindref="member">switchMode()</ref></computeroutput> to change modes. Retrieve states with <computeroutput><ref refid="class_unit4_relay_1ad1d85b5a5002356b938ce463c0821029" kindref="member">getRelayState()</ref></computeroutput> or <computeroutput><ref refid="class_unit4_relay_1a6b48921c7a0836ea7e36d5994c5e0a7e" kindref="member">getLedState()</ref></computeroutput>. Use <computeroutput>setRelayState()</computeroutput> to stage relay states without immediate I2C writes.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_unit4_relay_1autotoc_md48_1s1"><sect2 id="class_unit4_relay_1autotoc_md48_1s2"><sect3 id="class_unit4_relay_1autotoc_md48">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires an Arduino-compatible board with I2C support.</para>
 </listitem><listitem><para>Module must be connected to the I2C bus at address <computeroutput>UNIT_4RELAY_I2C_ADDR</computeroutput> (0x26).</para>
 </listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__i2c_8h" kindref="compound">bsp_i2c.h</ref></computeroutput> for I2C operations (<computeroutput>bspI2CExist</computeroutput>, <computeroutput>bspI2CWriteByte</computeroutput>, <computeroutput>bspI2CReadByte</computeroutput>). </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" line="85" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/unit_4relay/src/unit_4relay.h" bodystart="86" bodyend="267"/>
+    <location file="lib/unit_4relay/src/unit_4relay.h" line="85" column="1" bodyfile="lib/unit_4relay/src/unit_4relay.h" bodystart="86" bodyend="267"/>
     <listofallmembers>
       <member refid="class_unit4_relay_1af33d2e2db55024cfb42ca719ee0bb48a" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>applyRelayState</name></member>
       <member refid="class_unit4_relay_1adc660c2e5941b7921e8f32dec1a88172" prot="public" virt="non-virtual"><scope>Unit4Relay</scope><name>begin</name></member>

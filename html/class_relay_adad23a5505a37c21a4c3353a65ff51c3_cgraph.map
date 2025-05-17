@@ -1,0 +1,5 @@
+<map id="Relay::Relay" name="Relay::Relay">
+<area shape="rect" id="Node000001" title="Constructor for the Relay class." alt="" coords="5,5,103,32"/>
+<area shape="rect" id="Node000002" href="$bsp__gpio_8cpp.html#a566a8a135b7fc73ec916f8757d7018b4" title="This function sets the mode of a GPIO pin." alt="" coords="151,5,271,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,16,135,16,135,21,103,21"/>
+</map>

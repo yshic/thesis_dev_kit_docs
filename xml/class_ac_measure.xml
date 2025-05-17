@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_ac_measure" kind="class" language="C++" prot="public">
     <compoundname>AcMeasure</compoundname>
     <includes refid="ac__measure_8h" local="no">ac_measure.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_ac_measure_1ae725db0ec748e0a73d1a23ad8f79b9b4" prot="private" static="no" mutable="no">
         <type>uint8_t</type>
         <definition>uint8_t AcMeasure::_addr</definition>
@@ -17,10 +17,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="101" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="101" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="101" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="101" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ac_measure_error_t</type>
         <definition>ac_measure_error_t AcMeasure::begin</definition>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="119" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="29" bodyend="36"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="119" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="29" bodyend="36"/>
         <references refid="bsp__i2c_8cpp_1acc6322b83a6e34f4b9d486caaf87308c" compoundref="bsp__i2c_8cpp" startline="218" endline="222">bspI2CExist</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a9921894e5d8991c64920b6e1520166ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="132" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="37" bodyend="44"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="132" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="37" bodyend="44"/>
         <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a2299cd19d808e1bea7b39f913ad5ea01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="145" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="46" bodyend="53"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="145" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="46" bodyend="53"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a856cddd887e074bf338fd03fb51e113d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="158" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="55" bodyend="63"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="158" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="55" bodyend="63"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
         <referencedby refid="class_ac_measure_1aeb401f8dd2b2d1164bc78438b9e99828" compoundref="ac__measure_8cpp" startline="65" endline="70">getVoltage</referencedby>
       </memberdef>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="171" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="65" bodyend="70"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="171" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="65" bodyend="70"/>
         <references refid="class_ac_measure_1a856cddd887e074bf338fd03fb51e113d" compoundref="ac__measure_8cpp" startline="55" endline="63">getRawVoltage</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a78e2233a7b97ea4004ba03c3596e6fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="184" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="72" bodyend="80"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="184" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="72" bodyend="80"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
         <referencedby refid="class_ac_measure_1af174b4c4da8f50d16cc23f94dba5818c" compoundref="ac__measure_8cpp" startline="82" endline="87">getCurrent</referencedby>
       </memberdef>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="197" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="82" bodyend="87"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="197" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="82" bodyend="87"/>
         <references refid="class_ac_measure_1a78e2233a7b97ea4004ba03c3596e6fd1" compoundref="ac__measure_8cpp" startline="72" endline="80">getRawCurrent</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1ad7dbce6613d27f35b61a5bf511e21f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="210" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="89" bodyend="97"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="210" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="89" bodyend="97"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
         <referencedby refid="class_ac_measure_1aec66bea59d62f6478536246ba071f78d" compoundref="ac__measure_8cpp" startline="99" endline="104">getPower</referencedby>
       </memberdef>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="223" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="99" bodyend="104"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="223" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="99" bodyend="104"/>
         <references refid="class_ac_measure_1ad7dbce6613d27f35b61a5bf511e21f3c" compoundref="ac__measure_8cpp" startline="89" endline="97">getRawPower</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1ae8b63172bb9e9f041942838d94a49859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="236" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="106" bodyend="114"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="236" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="106" bodyend="114"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
         <referencedby refid="class_ac_measure_1a3edd0611ed8c28edabeb6670d33d9f15" compoundref="ac__measure_8cpp" startline="116" endline="121">getApparentPower</referencedby>
       </memberdef>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="249" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="116" bodyend="121"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="249" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="116" bodyend="121"/>
         <references refid="class_ac_measure_1ae8b63172bb9e9f041942838d94a49859" compoundref="ac__measure_8cpp" startline="106" endline="114">getRawApparentPower</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a0b272c14c6f3f360e415308c27a5b2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -422,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="262" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="123" bodyend="130"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="262" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="123" bodyend="130"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
         <referencedby refid="class_ac_measure_1a3be9132b760b88e37bd1463be9324b5c" compoundref="ac__measure_8cpp" startline="132" endline="137">getPowerFactor</referencedby>
       </memberdef>
@@ -456,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="275" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="132" bodyend="137"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="275" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="132" bodyend="137"/>
         <references refid="class_ac_measure_1a0b272c14c6f3f360e415308c27a5b2af" compoundref="ac__measure_8cpp" startline="123" endline="130">getRawPowerFactor</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a32c2005a9e2df3cdd349887b762028e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -489,7 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="288" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="139" bodyend="147"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="288" column="12" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="139" bodyend="147"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
         <referencedby refid="class_ac_measure_1a354d97e8d07c12f4e873ef2c389e5bda" compoundref="ac__measure_8cpp" startline="149" endline="153">getKWH</referencedby>
       </memberdef>
@@ -523,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="301" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="149" bodyend="153"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="301" column="9" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="149" bodyend="153"/>
         <references refid="class_ac_measure_1a32c2005a9e2df3cdd349887b762028e1" compoundref="ac__measure_8cpp" startline="139" endline="147">getRawKWH</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1ad27164dab1d1fcd42d2c2c570885aba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -561,7 +561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="315" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="155" bodyend="163"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="315" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="155" bodyend="163"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a5acc0093d85aa0923b5333fed43cbdb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -599,7 +599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="329" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="165" bodyend="173"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="329" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="165" bodyend="173"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a8c6c6775368882ad813a9eebbe2ba73a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -637,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="343" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="175" bodyend="183"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="343" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="175" bodyend="183"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a4480464cfc5f8f3d4ea325e0827f6b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -675,7 +675,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="357" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="185" bodyend="193"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="357" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="185" bodyend="193"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1ae51533e659b7a57d89fbb91f84a53263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -713,7 +713,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="371" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="195" bodyend="203"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="371" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="195" bodyend="203"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1aa3ba3cac40fdea50c0bd66e940fcdbdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -751,7 +751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="385" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="205" bodyend="213"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="385" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="205" bodyend="213"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a4c50c860c6f0f5200f8a438df06fcd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -789,7 +789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="399" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="215" bodyend="220"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="399" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="215" bodyend="220"/>
         <references refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" compoundref="bsp__i2c_8cpp" startline="207" endline="216">bspI2CWriteBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a24df8ac0625ebc45f628bdc6be5db88f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -822,7 +822,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="412" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="222" bodyend="229"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="412" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="222" bodyend="229"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a39c9067e093e95fc054310cf93471430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -855,7 +855,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="425" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="231" bodyend="238"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="425" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="231" bodyend="238"/>
         <references refid="bsp__i2c_8cpp_1a78cbdf9442b29147d38e4e23eaa0013e" compoundref="bsp__i2c_8cpp" startline="154" endline="177">bspI2CReadBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a902757839f9cbf4fcc6f1b14470a70d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -893,7 +893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="439" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="240" bodyend="245"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="439" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="240" bodyend="245"/>
         <references refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" compoundref="bsp__i2c_8cpp" startline="207" endline="216">bspI2CWriteBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a037a111fa065fde9c7838263575d71fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -931,7 +931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="453" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="247" bodyend="252"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="453" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="247" bodyend="252"/>
         <references refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" compoundref="bsp__i2c_8cpp" startline="207" endline="216">bspI2CWriteBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a370962e0beb2f9feeb42c244ce40b3d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -967,7 +967,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="467" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="254" bodyend="261"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="467" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="254" bodyend="261"/>
         <references refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" compoundref="bsp__i2c_8cpp" startline="207" endline="216">bspI2CWriteBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a9b6f76da8fa54f63d4cf2e83acb965d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -1003,7 +1003,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="481" column="22" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="263" bodyend="270"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="481" column="22" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="263" bodyend="270"/>
         <references refid="bsp__i2c_8cpp_1a6fa08d56ba5abcaf8827af4c3164f5b7" compoundref="bsp__i2c_8cpp" startline="207" endline="216">bspI2CWriteBytes</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1ad8c48c819863d6551b054dc7bf67f398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -1038,7 +1038,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="494" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="272" bodyend="277"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="494" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="272" bodyend="277"/>
         <references refid="bsp__i2c_8cpp_1a14000fc85c5999b783fcf2f826f27f78" compoundref="bsp__i2c_8cpp" startline="199" endline="205">bspI2CWriteByte</references>
       </memberdef>
       <memberdef kind="function" id="class_ac_measure_1a012e847385b5c426bae7598a44689cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -1071,18 +1071,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="507" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp" bodystart="278" bodyend="285"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="507" column="11" bodyfile="lib/ac_measure/src/ac_measure.cpp" bodystart="278" bodyend="285"/>
         <references refid="bsp__i2c_8cpp_1a7cd81829f88f85d45cff03b0fe91c83a" compoundref="bsp__i2c_8cpp" startline="115" endline="135">bspI2CReadByte</references>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages AC measurement operations over I2C, providing access to voltage, current, power, and energy data. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_ac_measure" kindref="compound">AcMeasure</ref></computeroutput> class facilitates interaction with an AC measurement device via I2C communication. It supports reading raw and converted electrical parameters such as voltage, current, power, apparent power, power factor, and energy consumption. Additionally, it allows configuration of calibration factors and I2C address.</para>
-<sect3 id="class_ac_measure_1autotoc_md0">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_ac_measure_1autotoc_md0_1s1"><sect2 id="class_ac_measure_1autotoc_md0_1s2"><sect3 id="class_ac_measure_1autotoc_md0">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Reads raw and converted values for voltage, current, power, and energy.</para>
 </listitem><listitem><para>Supports string representations of measurement data.</para>
 </listitem><listitem><para>Configurable voltage and current calibration factors.</para>
@@ -1090,22 +1089,20 @@
 </listitem><listitem><para>Firmware version and device readiness checks.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_ac_measure_1autotoc_md1">
-<title>Usage:</title>
-<para>Instantiate the class and call <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput> to initialize the device. Use the various getter methods to retrieve measurement data and setter methods to configure the device. Ensure periodic I2C communication checks for reliable operation.</para>
-</sect3>
-<sect3 id="class_ac_measure_1autotoc_md2">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_ac_measure_1autotoc_md1_1s1"><sect2 id="class_ac_measure_1autotoc_md1_1s2"><sect3 id="class_ac_measure_1autotoc_md1">
+<title>Usage:</title><para>Instantiate the class and call <computeroutput><ref refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" kindref="member">begin()</ref></computeroutput> to initialize the device. Use the various getter methods to retrieve measurement data and setter methods to configure the device. Ensure periodic I2C communication checks for reliable operation.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_ac_measure_1autotoc_md2_1s1"><sect2 id="class_ac_measure_1autotoc_md2_1s2"><sect3 id="class_ac_measure_1autotoc_md2">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires I2C communication library (<computeroutput>bspI2C</computeroutput> functions).</para>
 </listitem><listitem><para>Device must be connected to a valid I2C bus.</para>
 </listitem><listitem><para>Calibration factors should be set appropriately for accurate measurements. </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="98" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="99" bodyend="508"/>
+    <location file="lib/ac_measure/src/ac_measure.h" line="98" column="1" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="99" bodyend="508"/>
     <listofallmembers>
       <member refid="class_ac_measure_1ae725db0ec748e0a73d1a23ad8f79b9b4" prot="private" virt="non-virtual"><scope>AcMeasure</scope><name>_addr</name></member>
       <member refid="class_ac_measure_1ad681859299c816d62a3a88cd8ea7a871" prot="public" virt="non-virtual"><scope>AcMeasure</scope><name>begin</name></member>

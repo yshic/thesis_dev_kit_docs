@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_static_string_adapter" kind="class" language="C++" prot="public">
     <compoundname>StaticStringAdapter</compoundname>
     <basecompoundref refid="class_zero_terminated_ram_string" prot="public" virt="non-virtual">ZeroTerminatedRamString</basecompoundref>
-      <sectiondef kind="public-func">
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_static_string_adapter_1a1ec16eba07c3120d54033dfe50b41a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>StaticStringAdapter::StaticStringAdapter</definition>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="85" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="85" bodyend="85"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="85" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="85" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="class_static_string_adapter_1a2382537075cb2d64c3cd0e7f206c696c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_string_storage_policy_1_1_link" kindref="compound">StringStoragePolicy::Link</ref></type>
@@ -34,9 +34,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="87" column="29" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="87" bodyend="89"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="87" column="29" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="87" bodyend="89"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -65,7 +65,7 @@
         <link refid="class_zero_terminated_ram_string"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="83" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="83" bodyend="90"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" line="83" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp" bodystart="83" bodyend="90"/>
     <listofallmembers>
       <member refid="class_zero_terminated_ram_string_1a443a86099651ec33ad84f22da6054131" prot="public" virt="non-virtual"><scope>StaticStringAdapter</scope><name>data</name></member>
       <member refid="class_zero_terminated_ram_string_1ab01fde34234ffc354f1f9e985e744367" prot="public" virt="non-virtual"><scope>StaticStringAdapter</scope><name>isNull</name></member>

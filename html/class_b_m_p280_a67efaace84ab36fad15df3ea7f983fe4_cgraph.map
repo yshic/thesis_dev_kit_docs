@@ -1,0 +1,5 @@
+<map id="BMP280::setSampling" name="BMP280::setSampling">
+<area shape="rect" id="Node000001" title="Configures the sensor’s sampling and operating parameters." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="205,5,325,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,16,189,16,189,21,157,21"/>
+</map>

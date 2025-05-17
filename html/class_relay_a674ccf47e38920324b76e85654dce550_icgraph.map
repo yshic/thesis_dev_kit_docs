@@ -1,0 +1,5 @@
+<map id="Relay::on" name="Relay::on">
+<area shape="rect" id="Node000001" title="Turns the relay on." alt="" coords="152,5,229,32"/>
+<area shape="rect" id="Node000002" href="$class_relay.html#ad37d4481c9c5b74f0033564e916f4915" title="Toggles the relay state." alt="" coords="5,5,104,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,21,104,21,104,16,136,16"/>
+</map>

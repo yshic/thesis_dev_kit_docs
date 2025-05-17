@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="utility_8h" kind="file" language="C++">
     <compoundname>utility.h</compoundname>
     <includes local="yes">WProgram.h</includes>
     <includes local="yes">Wire.h</includes>
-    <includedby refid="bmp280_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/bmp280/src/bmp280.cpp</includedby>
-    <includedby refid="sht4x_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp</includedby>
-    <includedby refid="utility_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp</includedby>
+    <includedby refid="bmp280_8cpp" local="yes">lib/bmp280/src/bmp280.cpp</includedby>
+    <includedby refid="sht4x_8cpp" local="yes">lib/sht4x/src/sht4x.cpp</includedby>
+    <includedby refid="utility_8cpp" local="yes">lib/utility/src/utility.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/utility/src/utility.h</label>
+        <label>lib/utility/src/utility.h</label>
         <link refid="utility_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -25,15 +25,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/sht4x/src/sht4x.cpp</label>
+        <label>lib/sht4x/src/sht4x.cpp</label>
         <link refid="sht4x_8cpp"/>
       </node>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp</label>
+        <label>lib/utility/src/utility.cpp</label>
         <link refid="utility_8cpp"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/utility/src/utility.h</label>
+        <label>lib/utility/src/utility.h</label>
         <link refid="utility_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -41,7 +41,7 @@
         </childnode>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="utility_8h_1a8fae21c12475addf28c404a0e1c5eab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void scanI2CDevices</definition>
@@ -55,9 +55,8 @@
         </briefdescription>
         <detaileddescription>
 <para>The <computeroutput>scanI2CDevices</computeroutput> function probes the I2C bus for devices by attempting communication with addresses from 1 to 126. It reports detected devices and errors via the Serial interface, providing a summary of the scan results. The function is designed for debugging and identifying I2C device addresses on an Arduino-compatible board.</para>
-<sect3 id="utility_8h_1autotoc_md52">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="utility_8h_1autotoc_md52_1s1"><sect2 id="utility_8h_1autotoc_md52_1s2"><sect3 id="utility_8h_1autotoc_md52">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Scans I2C addresses 1 through 126 for responsive devices.</para>
 </listitem><listitem><para>Reports detected devices with their hexadecimal addresses.</para>
 </listitem><listitem><para>Identifies unknown errors during communication attempts.</para>
@@ -65,24 +64,22 @@
 </listitem><listitem><para>Includes a delay to allow periodic scanning without overwhelming the Serial output.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="utility_8h_1autotoc_md53">
-<title>Usage:</title>
-<para>Call <computeroutput><ref refid="utility_8h_1a8fae21c12475addf28c404a0e1c5eab3" kindref="member">scanI2CDevices()</ref></computeroutput> to initiate an I2C bus scan. Ensure the Serial interface is initialized (e.g., with <computeroutput>Serial.begin(9600)</computeroutput>) and the I2C bus is configured (e.g., with <computeroutput>Wire.begin()</computeroutput>) before calling. The function outputs results to the Serial monitor and pauses for 2 seconds before completing, suitable for repeated calls in a loop.</para>
-</sect3>
-<sect3 id="utility_8h_1autotoc_md54">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="utility_8h_1autotoc_md53_1s1"><sect2 id="utility_8h_1autotoc_md53_1s2"><sect3 id="utility_8h_1autotoc_md53">
+<title>Usage:</title><para>Call <computeroutput><ref refid="utility_8h_1a8fae21c12475addf28c404a0e1c5eab3" kindref="member">scanI2CDevices()</ref></computeroutput> to initiate an I2C bus scan. Ensure the Serial interface is initialized (e.g., with <computeroutput>Serial.begin(9600)</computeroutput>) and the I2C bus is configured (e.g., with <computeroutput>Wire.begin()</computeroutput>) before calling. The function outputs results to the Serial monitor and pauses for 2 seconds before completing, suitable for repeated calls in a loop.</para>
+</sect3></sect2></sect1>
+<sect1 id="utility_8h_1autotoc_md54_1s1"><sect2 id="utility_8h_1autotoc_md54_1s2"><sect3 id="utility_8h_1autotoc_md54">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires an Arduino-compatible board with I2C support.</para>
 </listitem><listitem><para>Depends on the <computeroutput>Wire</computeroutput> library for I2C communication (<computeroutput>Wire.beginTransmission</computeroutput>, <computeroutput>Wire.endTransmission</computeroutput>).</para>
 </listitem><listitem><para>Requires the <computeroutput>Serial</computeroutput> interface for output (<computeroutput>Serial.print</computeroutput>, <computeroutput>Serial.println</computeroutput>). </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.h" line="73" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" bodystart="29" bodyend="71" declfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.h" declline="73" declcolumn="6"/>
+        <location file="lib/utility/src/utility.h" line="73" column="6" bodyfile="lib/utility/src/utility.cpp" bodystart="29" bodyend="71" declfile="lib/utility/src/utility.h" declline="73" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="utility_8h_1a732bb003220387dc7af9c2751c1b2465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -137,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.h" line="97" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" bodystart="73" bodyend="99" declfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.h" declline="97" declcolumn="9"/>
+        <location file="lib/utility/src/utility.h" line="97" column="9" bodyfile="lib/utility/src/utility.cpp" bodystart="73" bodyend="99" declfile="lib/utility/src/utility.h" declline="97" declcolumn="9"/>
         <referencedby refid="class_s_h_t4_x_1a6b98f00ab94cb56a4472e08b468424c5" compoundref="sht4x_8cpp" startline="32" endline="101">SHT4X::update</referencedby>
       </memberdef>
       <memberdef kind="function" id="utility_8h_1ae035ab017746978f2bc4555ec5c8b86d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -188,9 +185,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.h" line="117" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp" bodystart="101" bodyend="135" declfile="thesis_mdt266_iotdevkit/lib/utility/src/utility.h" declline="117" declcolumn="5"/>
+        <location file="lib/utility/src/utility.h" line="117" column="5" bodyfile="lib/utility/src/utility.cpp" bodystart="101" bodyend="135" declfile="lib/utility/src/utility.h" declline="117" declcolumn="5"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Header file for Utility library. This library provides various utility functions for multiple purposes. </para>
     </briefdescription>
@@ -205,6 +202,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UTILITY_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UTILITY_H</highlight><highlight class="normal"></highlight></codeline>
@@ -238,8 +236,8 @@
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>UTILITY_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/utility/src/utility.h"/>
+    <location file="lib/utility/src/utility.h"/>
   </compounddef>
 </doxygen>

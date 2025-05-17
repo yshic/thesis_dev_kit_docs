@@ -1,5 +1,0 @@
-<map id="AcMeasure::getApparentPower" name="AcMeasure::getApparentPower">
-<area shape="rect" id="node1" title="Retrieves the apparent power in volt&#45;amperes." alt="" coords="5,13,208,40"/>
-<area shape="rect" id="node2" href="$class_ac_measure.html#ae8b63172bb9e9f041942838d94a49859" title="Reads the raw apparent power value from the device." alt="" coords="256,5,448,48"/>
-<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="496,13,624,40"/>
-</map>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_collection_impl_8hpp" kind="file" language="C++">
     <compoundname>CollectionImpl.hpp</compoundname>
     <includes refid="_collection_data_8hpp" local="no">ArduinoJson/Collection/CollectionData.hpp</includes>
     <includes refid="_storage_policy_8hpp" local="no">ArduinoJson/Strings/StoragePolicy.hpp</includes>
     <includes refid="_string_adapters_8hpp" local="no">ArduinoJson/Strings/StringAdapters.hpp</includes>
     <includes refid="_variant_data_8hpp" local="no">ArduinoJson/Variant/VariantData.hpp</includes>
-    <includedby refid="_arduino_json_8hpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
+    <includedby refid="_arduino_json_8hpp" local="yes">lib/ArduinoJson/src/ArduinoJson.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>ArduinoJson/Collection/CollectionData.hpp</label>
@@ -19,7 +19,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
         <link refid="_collection_impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -513,17 +513,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
         <link refid="_collection_impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="_collection_impl_8hpp_1a349ef8155589c541ffd173b799adada8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -548,9 +548,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" line="181" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="181" bodyend="187"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" line="181" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp" bodystart="181" bodyend="187"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -570,7 +570,7 @@
 <codeline lineno="12"><highlight class="normal">ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>CollectionData::addSlot(<ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>pool-&gt;allocVariant();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>pool-&gt;allocVariant();</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!slot)</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
@@ -594,7 +594,7 @@
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString&gt;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>CollectionData::addMember(TAdaptedString<sp/>key,</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>addSlot(pool);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>addSlot(pool);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!slotSetKey(slot,<sp/>key,<sp/>pool))<sp/>{</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>removeSlot(slot);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
@@ -615,10 +615,10 @@
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CollectionData::copyFrom(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_collection_data" kindref="compound">CollectionData</ref>&amp;<sp/>src,</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/>clear();</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>s<sp/>=<sp/>src.head_;<sp/>s;<sp/>s<sp/>=<sp/>s-&gt;next())<sp/>{</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>var;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(VariantSlot*<sp/>s<sp/>=<sp/>src.head_;<sp/>s;<sp/>s<sp/>=<sp/>s-&gt;next())<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>VariantData*<sp/>var;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s-&gt;key()<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_json_string" kindref="compound">JsonString</ref><sp/>key(s-&gt;key(),</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>JsonString<sp/>key(s-&gt;key(),</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s-&gt;ownsKey()<sp/>?<sp/>JsonString::Copied<sp/>:<sp/>JsonString::Linked);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>=<sp/>addMember(adaptString(key),<sp/>pool);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -636,7 +636,7 @@
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>CollectionData::getSlot(TAdaptedString<sp/>key)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(key.isNull())</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>head_;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>head_;</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(slot)<sp/>{</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringEquals(key,<sp/>adaptString(slot-&gt;key())))</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
@@ -652,9 +652,9 @@
 <codeline lineno="94"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>CollectionData::getPreviousSlot(<ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>target)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>current<sp/>=<sp/>head_;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>current<sp/>=<sp/>head_;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(current)<sp/>{</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>next<sp/>=<sp/>current-&gt;next();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>VariantSlot*<sp/>next<sp/>=<sp/>current-&gt;next();</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(next<sp/>==<sp/>target)</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>current;</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>current<sp/>=<sp/>next;</highlight></codeline>
@@ -664,7 +664,7 @@
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString&gt;</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>CollectionData::getMember(TAdaptedString<sp/>key)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>getSlot(key);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>getSlot(key);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>slot<sp/>?<sp/>slot-&gt;data()<sp/>:<sp/>0;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
@@ -676,7 +676,7 @@
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>search<sp/>a<sp/>matching<sp/>key</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>getSlot(key);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>getSlot(key);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(slot)</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>slot-&gt;data();</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
@@ -684,13 +684,13 @@
 <codeline lineno="126"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>CollectionData::getElement(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>getSlot(index);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>getSlot(index);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>slot<sp/>?<sp/>slot-&gt;data()<sp/>:<sp/>0;</highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_variant_data" kindref="compound">VariantData</ref>*<sp/>CollectionData::getOrAddElement(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index,</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_memory_pool" kindref="compound">MemoryPool</ref>*<sp/>pool)<sp/>{</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>head_;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>slot<sp/>=<sp/>head_;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(slot<sp/>&amp;&amp;<sp/>index<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>slot<sp/>=<sp/>slot-&gt;next();</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>index--;</highlight></codeline>
@@ -707,8 +707,8 @@
 <codeline lineno="149"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CollectionData::removeSlot(<ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot)<sp/>{</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!slot)</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>prev<sp/>=<sp/>getPreviousSlot(slot);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>next<sp/>=<sp/>slot-&gt;next();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>prev<sp/>=<sp/>getPreviousSlot(slot);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>VariantSlot*<sp/>next<sp/>=<sp/>slot-&gt;next();</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(prev)</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>prev-&gt;setNext(next);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
@@ -723,8 +723,8 @@
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>CollectionData::memoryUsage()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>total<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>s<sp/>=<sp/>head_;<sp/>s;<sp/>s<sp/>=<sp/>s-&gt;next())<sp/>{</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>total<sp/>+=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>)<sp/>+<sp/>s-&gt;data()-&gt;memoryUsage();</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(VariantSlot*<sp/>s<sp/>=<sp/>head_;<sp/>s;<sp/>s<sp/>=<sp/>s-&gt;next())<sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>total<sp/>+=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VariantSlot)<sp/>+<sp/>s-&gt;data()-&gt;memoryUsage();</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s-&gt;ownsKey())</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>total<sp/>+=<sp/>strlen(s-&gt;key())<sp/>+<sp/>1;</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
@@ -748,12 +748,12 @@
 <codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptrdiff_t<sp/>variantDistance)<sp/>{</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"><sp/><sp/>movePointer(head_,<sp/>variantDistance);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/>movePointer(tail_,<sp/>variantDistance);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="class_variant_slot" kindref="compound">VariantSlot</ref>*<sp/>slot<sp/>=<sp/>head_;<sp/>slot;<sp/>slot<sp/>=<sp/>slot-&gt;next())</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(VariantSlot*<sp/>slot<sp/>=<sp/>head_;<sp/>slot;<sp/>slot<sp/>=<sp/>slot-&gt;next())</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>slot-&gt;movePointers(stringDistance,<sp/>variantDistance);</highlight></codeline>
 <codeline lineno="195"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
 <codeline lineno="197"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp"/>
   </compounddef>
 </doxygen>

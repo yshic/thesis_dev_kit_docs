@@ -1,0 +1,19 @@
+<map id="bspGpioAnalogRead" name="bspGpioAnalogRead">
+<area shape="rect" id="Node000001" title="This function reads the value from the specified analog pin." alt="" coords="496,97,636,124"/>
+<area shape="rect" id="Node000002" href="$class_usb_switch.html#aa2353b8a438a13ed68c42548853e64f8" title="Retrieves the current output value." alt="" coords="266,31,448,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="506,95,401,60,402,55,508,90"/>
+<area shape="rect" id="Node000004" href="$class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9" title="Reads the analog value from the light sensor." alt="" coords="295,97,418,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,113,419,113,419,108,481,108"/>
+<area shape="rect" id="Node000007" href="$class_soil_moisture.html#ab1a0cb8f764d8e4745a12aa3c61f5241" title="Reads the analog value from the soil moisture sensor." alt="" coords="294,181,420,208"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="518,133,393,183,391,178,516,128"/>
+<area shape="rect" id="Node000003" href="$class_usb_switch.html#acadaf4d0e4e6b952099011820bd57d16" title="Retrieves the current output value as a percentage." alt="" coords="20,5,203,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,39,203,36,203,30,250,34"/>
+<area shape="rect" id="Node000005" href="$class_light_sensor.html#af31fbe6b1894a1a460097a78f6306363" title="Computes the average sensor reading over multiple samples." alt="" coords="5,72,218,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="279,105,218,99,218,94,280,100"/>
+<area shape="rect" id="Node000006" href="$class_light_sensor.html#a8fe3d926c42065e23b14b41c6a7bbbc1" title="Reads and maps the sensor value to a specified range." alt="" coords="26,123,197,149"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="280,121,198,130,198,124,280,116"/>
+<area shape="rect" id="Node000008" href="$class_soil_moisture.html#af736d5983965759ed7f60edb415961f7" title="Computes the average sensor reading over multiple samples." alt="" coords="28,173,195,216"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="278,197,196,197,196,192,278,192"/>
+<area shape="rect" id="Node000009" href="$class_soil_moisture.html#a982b1e7ebe382617c8ccb2fa19629eae" title="Reads and maps the sensor value to a specified range." alt="" coords="24,240,199,267"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="284,215,218,231,171,242,170,237,217,225,283,209"/>
+</map>

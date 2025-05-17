@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_husky_lens_protocol_core_8c" kind="file" language="C++">
     <compoundname>HuskyLensProtocolCore.c</compoundname>
     <includes refid="_husky_lens_protocol_core_8h" local="yes">HuskyLensProtocolCore.h</includes>
@@ -9,7 +9,7 @@
     <includes local="no">stdlib.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c</label>
+        <label>lib/HUSKYLENS/HuskyLensProtocolCore.c</label>
         <link refid="_husky_lens_protocol_core_8c"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -52,7 +52,7 @@
         <label>string.h</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1a7d23518d759519cde9b955735701ad46" prot="public" static="no">
         <name>FRAME_BUFFER_SIZE</name>
         <initializer>128</initializer>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="7" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="7" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="7" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="7" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1a4bf532b24eb9cd828f341a87f7d7337a" prot="public" static="no">
         <name>HEADER_0_INDEX</name>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="9" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="9" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="9" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="9" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1a5191001cf2df5518f208cc78f568aa22" prot="public" static="no">
         <name>HEADER_1_INDEX</name>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="10" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="10" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="10" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1abad4a4167a46ee48865f5c033e91a4b2" prot="public" static="no">
         <name>ADDRESS_INDEX</name>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="11" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="11" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="11" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1ac21c151711c213a1769bf9450c566c02" prot="public" static="no">
         <name>CONTENT_SIZE_INDEX</name>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="12" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="12" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="12" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1a59d6d5ba88924b3c1b75a58aab856099" prot="public" static="no">
         <name>COMMAND_INDEX</name>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="13" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="13" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="13" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1a71cbc2883943c8348463e3e12a7a77b9" prot="public" static="no">
         <name>CONTENT_INDEX</name>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="14" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="14" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="14" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_husky_lens_protocol_core_8c_1ad649636bb53707ca7a4001164f6ef5dc" prot="public" static="no">
         <name>PROTOCOL_SIZE</name>
@@ -139,10 +139,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="15" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="15" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="15" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="15" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="var">
+    </sectiondef>
+    <sectiondef kind="var">
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1aea475bed17d78caae05ddfe14014c51f" prot="public" static="yes" mutable="no">
         <type>uint8_t</type>
         <definition>uint8_t send_buffer[FRAME_BUFFER_SIZE]</definition>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="17" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="17" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="17" column="16" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1a466a25268c5e1f3030f8f44c5312518d" prot="public" static="yes" mutable="no">
         <type>uint8_t</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="18" column="16" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="18" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="18" column="16" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1a2501df72ede807900d72d4554ed2dd00" prot="public" static="yes" mutable="no">
         <type>short</type>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="20" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="20" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="20" column="14" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1a87657f94443badbb292a4aec3dfa91a2" prot="public" static="yes" mutable="no">
         <type>short</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="21" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="21" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="21" column="14" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1aeded0b0706673ffe946b36d3c0c55070" prot="public" static="yes" mutable="no">
         <type>bool</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="23" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="23" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="23" column="13" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1a07a5b81e340d431f1c9cd8c43f74890f" prot="public" static="yes" mutable="no">
         <type>bool</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="24" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="24" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="24" column="13" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1aafaa38df81baf5348bfbb0752bc4ce70" prot="public" static="yes" mutable="no">
         <type>short</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="26" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="26" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="26" column="14" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1a09cba39b8887114c6c909b2180603885" prot="public" static="yes" mutable="no">
         <type>short</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="27" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="27" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="27" column="14" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_husky_lens_protocol_core_8c_1a33d403fc42184c5402b4417a3cb96351" prot="public" static="yes" mutable="no">
         <type>bool</type>
@@ -265,10 +265,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="28" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="28" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="28" column="13" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="28" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a7c32c59fbb596b286f80e7c5f0380305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool validateCheckSum</definition>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="30" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="30" bodyend="40"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="30" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="30" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a9b16cdf4814f3f8519ee9dd4f947c433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="42" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="42" bodyend="71"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="42" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="42" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1ab114ee4ba98f77ed17a19d69de7f25c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="73" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="73" bodyend="82"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="73" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="73" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a64a67795748cae247905ccc85ce6cb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -327,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="84" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="84" bodyend="90"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="84" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="84" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a4904dc626dd964b4c227021e8ef263b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int16_t</type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="92" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="92" bodyend="99"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="92" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="92" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a3cfb630f08005c929b677b998633d6b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="101" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="101" bodyend="108"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="101" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="101" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1af86bdd2343a54ff54d50e6b708022f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -366,7 +366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="110" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="110" bodyend="117"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="110" column="7" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="110" bodyend="117"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a73507c062b731375ecf9f8a8ce683b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="119" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="119" bodyend="126"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="119" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="119" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a0ebbf9e36a6106522f8b9930c8d1a543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t *</type>
@@ -396,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="128" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="128" bodyend="136"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="128" column="9" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="128" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1a154f453fe823fefac3de096d3df17a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -413,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="138" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="138" bodyend="142"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="138" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="138" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1aaa3148f39ed4d451fcd9d3cfb2b5f80e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -430,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="144" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="144" bodyend="149"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="144" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="144" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1ac226d5d0c1bd4293aa9d5eb5df8a9826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -447,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="151" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="151" bodyend="156"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="151" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="151" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1afd53363acf69634029a8cddae25faae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -464,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="158" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="158" bodyend="163"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="158" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="158" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1ae4735c30c524a6896e652821f57f6f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="165" column="6" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="165" bodyend="170"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="165" column="6" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="165" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="_husky_lens_protocol_core_8c_1ad2343af21d33c7406560a7747e8a8b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -498,9 +498,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" line="172" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="172" bodyend="184"/>
+        <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c" line="172" column="5" bodyfile="lib/HUSKYLENS/HuskyLensProtocolCore.c" bodystart="172" bodyend="184"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -691,6 +691,6 @@
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>send_index;</highlight></codeline>
 <codeline lineno="184"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HuskyLensProtocolCore.c"/>
+    <location file="lib/HUSKYLENS/HuskyLensProtocolCore.c"/>
   </compounddef>
 </doxygen>

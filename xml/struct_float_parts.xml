@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_float_parts" kind="struct" language="C++" prot="public">
     <compoundname>FloatParts</compoundname>
     <templateparamlist>
@@ -7,7 +7,7 @@
         <type>typename TFloat</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_float_parts_1a20ab61a2dd754eaa598c11c0eb374521" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
         <definition>uint32_t FloatParts&lt; TFloat &gt;::integral</definition>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="15" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="15" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="15" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_float_parts_1a55ff0a87698005f654d08dbe756b6542" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="16" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="16" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="16" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_float_parts_1ad86a196df4db71e876655615d61e15be" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="17" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="17" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="17" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_float_parts_1a3b8eefd080e68a3f3214ae42e63c167d" prot="public" static="no" mutable="no">
         <type>int8_t</type>
@@ -62,10 +62,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="18" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="18" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="18" column="10" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="struct_float_parts_1a8d6c1208a6aa8a9960731f90e8684927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>FloatParts&lt; TFloat &gt;::FloatParts</definition>
@@ -82,10 +82,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="20" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="20" bodyend="55"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="20" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="20" bodyend="55"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-static-func">
+    </sectiondef>
+    <sectiondef kind="public-static-func">
       <memberdef kind="function" id="struct_float_parts_1a4299355754c55884c82cb3d6b198b844" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int16_t</type>
         <definition>static int16_t FloatParts&lt; TFloat &gt;::normalize</definition>
@@ -102,14 +102,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="57" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="57" bodyend="85"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="57" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="57" bodyend="85"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="14" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="14" bodyend="86"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" line="14" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp" bodystart="14" bodyend="86"/>
     <listofallmembers>
       <member refid="struct_float_parts_1a55ff0a87698005f654d08dbe756b6542" prot="public" virt="non-virtual"><scope>FloatParts</scope><name>decimal</name></member>
       <member refid="struct_float_parts_1a3b8eefd080e68a3f3214ae42e63c167d" prot="public" virt="non-virtual"><scope>FloatParts</scope><name>decimalPlaces</name></member>

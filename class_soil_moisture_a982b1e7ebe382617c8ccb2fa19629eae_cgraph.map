@@ -1,5 +1,0 @@
-<map id="SoilMoisture::readAndMap" name="SoilMoisture::readAndMap">
-<area shape="rect" id="node1" title="Reads and maps the sensor value to a specified range." alt="" coords="5,5,180,32"/>
-<area shape="rect" id="node2" href="$class_soil_moisture.html#ab1a0cb8f764d8e4745a12aa3c61f5241" title="Reads the analog value from the soil moisture sensor." alt="" coords="228,5,354,32"/>
-<area shape="rect" id="node3" href="$bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="402,5,542,32"/>
-</map>

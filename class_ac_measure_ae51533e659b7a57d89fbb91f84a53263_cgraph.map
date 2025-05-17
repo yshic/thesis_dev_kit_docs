@@ -1,4 +1,0 @@
-<map id="AcMeasure::getPowerFactorString" name="AcMeasure::getPowerFactorString">
-<area shape="rect" id="node1" title="Retrieves the power factor as a formatted string." alt="" coords="5,5,193,48"/>
-<area shape="rect" id="node2" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="241,13,369,40"/>
-</map>

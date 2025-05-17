@@ -1,0 +1,49 @@
+<map id="bspI2CReadBytes" name="bspI2CReadBytes">
+<area shape="rect" id="Node000001" title="Reads multiple bytes using I2C from a register." alt="" coords="518,459,646,485"/>
+<area shape="rect" id="Node000002" href="$class_ac_measure.html#a4480464cfc5f8f3d4ea325e0827f6b74" title="Retrieves the apparent power as a formatted string." alt="" coords="262,5,464,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,443,577,368,563,265,549,211,530,157,503,106,468,62,454,51,458,47,472,58,507,104,535,155,555,209,568,264,582,367,585,443"/>
+<area shape="rect" id="Node000003" href="$class_ac_measure.html#a39c9067e093e95fc054310cf93471430" title="Retrieves the current calibration factor." alt="" coords="266,72,460,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="578,443,574,375,559,286,545,239,526,193,500,150,468,113,452,101,455,97,472,109,505,147,530,190,550,237,564,285,579,375,584,443"/>
+<area shape="rect" id="Node000004" href="$class_ac_measure.html#a5acc0093d85aa0923b5333fed43cbdb1" title="Retrieves the current as a formatted string." alt="" coords="268,123,458,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="577,444,570,385,552,309,538,269,520,230,497,194,468,163,452,152,455,148,472,159,501,191,524,227,543,267,557,307,575,384,582,443"/>
+<area shape="rect" id="Node000005" href="$class_ac_measure.html#aa3ba3cac40fdea50c0bd66e940fcdbdd" title="Retrieves the energy consumption as a formatted string." alt="" coords="273,173,452,200"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="574,444,564,394,545,331,514,268,493,239,468,214,451,203,454,198,472,210,497,236,518,265,550,329,569,392,580,443"/>
+<area shape="rect" id="Node000006" href="$class_ac_measure.html#ae51533e659b7a57d89fbb91f84a53263" title="Retrieves the power factor as a formatted string." alt="" coords="269,224,456,267"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="570,445,556,408,534,364,505,319,468,281,451,269,454,265,472,277,509,316,539,361,560,406,575,443"/>
+<area shape="rect" id="Node000007" href="$class_ac_measure.html#a8c6c6775368882ad813a9eebbe2ba73a" title="Retrieves the power as a formatted string." alt="" coords="271,291,455,317"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="565,446,527,387,500,357,469,332,446,320,448,315,471,327,504,353,531,384,569,443"/>
+<area shape="rect" id="Node000008" href="$class_ac_measure.html#ae8b63172bb9e9f041942838d94a49859" title="Reads the raw apparent power value from the device." alt="" coords="267,341,459,384"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="551,451,513,424,469,398,442,387,444,382,471,394,516,420,554,447"/>
+<area shape="rect" id="Node000010" href="$class_ac_measure.html#a78e2233a7b97ea4004ba03c3596e6fd1" title="Reads the raw current value from the device." alt="" coords="271,408,454,435"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="506,457,423,438,424,433,507,452"/>
+<area shape="rect" id="Node000012" href="$class_ac_measure.html#a32c2005a9e2df3cdd349887b762028e1" title="Reads the raw energy consumption value from the device." alt="" coords="277,459,449,485"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="502,475,450,475,450,469,502,469"/>
+<area shape="rect" id="Node000014" href="$class_ac_measure.html#ad7dbce6613d27f35b61a5bf511e21f3c" title="Reads the raw power value from the device." alt="" coords="274,509,452,536"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="507,492,424,511,423,506,506,487"/>
+<area shape="rect" id="Node000016" href="$class_ac_measure.html#a0b272c14c6f3f360e415308c27a5b2af" title="Reads the raw power factor value from the device." alt="" coords="256,560,470,587"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="555,497,517,525,471,550,439,562,437,557,469,546,514,521,552,493"/>
+<area shape="rect" id="Node000018" href="$class_ac_measure.html#a856cddd887e074bf338fd03fb51e113d" title="Reads the raw voltage value from the device." alt="" coords="271,611,454,637"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="567,500,528,552,501,579,471,601,447,613,444,608,469,596,498,575,524,548,563,497"/>
+<area shape="rect" id="Node000020" href="$class_ac_measure.html#a2299cd19d808e1bea7b39f913ad5ea01" title="Checks the readiness status of the AC measurement device." alt="" coords="287,661,438,688"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="574,501,559,536,537,577,508,617,472,652,440,667,438,662,468,647,504,614,532,574,554,534,569,499"/>
+<area shape="rect" id="Node000021" href="$class_ac_measure.html#a24df8ac0625ebc45f628bdc6be5db88f" title="Retrieves the voltage calibration factor." alt="" coords="266,712,460,739"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="578,501,566,545,545,600,514,655,495,680,472,702,452,714,450,709,468,698,491,677,510,652,540,598,561,544,573,500"/>
+<area shape="rect" id="Node000022" href="$class_ac_measure.html#ad27164dab1d1fcd42d2c2c570885aba9" title="Retrieves the voltage as a formatted string." alt="" coords="268,763,458,789"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="581,501,571,555,553,623,538,658,521,693,498,725,472,753,454,764,451,760,468,749,494,722,516,690,534,656,548,621,566,554,575,500"/>
+<area shape="rect" id="Node000023" href="$class_s_h_t3_x.html#a6327ea11cd715edadedd6b0ea8018e72" title="Updates temperature and humidity readings from the SHT3X sensor." alt="" coords="307,813,418,840"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="583,501,577,564,560,645,545,688,527,730,502,769,472,803,447,819,419,827,418,822,445,814,468,799,498,766,522,728,540,687,554,644,571,563,577,501"/>
+<area shape="rect" id="Node000024" href="$class_s_h_t4_x.html#a6b98f00ab94cb56a4472e08b468424c5" title="Updates temperature and humidity readings from the SHT4X sensor." alt="" coords="307,864,418,891"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="584,501,581,572,566,667,552,718,533,768,506,814,472,854,447,870,420,878,418,873,445,865,468,850,502,811,528,765,547,716,561,666,576,572,579,501"/>
+<area shape="rect" id="Node000009" href="$class_ac_measure.html#a3edd0611ed8c28edabeb6670d33d9f15" title="Retrieves the apparent power in volt&#45;amperes." alt="" coords="5,349,208,376"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="251,365,208,365,208,360,251,360"/>
+<area shape="rect" id="Node000011" href="$class_ac_measure.html#af174b4c4da8f50d16cc23f94dba5818c" title="Retrieves the current in amperes." alt="" coords="28,408,185,435"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="255,424,185,424,185,419,255,419"/>
+<area shape="rect" id="Node000013" href="$class_ac_measure.html#a354d97e8d07c12f4e873ef2c389e5bda" title="Retrieves the energy consumption in kilowatt&#45;hours." alt="" coords="34,459,179,485"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="261,475,180,475,180,469,261,469"/>
+<area shape="rect" id="Node000015" href="$class_ac_measure.html#aec66bea59d62f6478536246ba071f78d" title="Retrieves the power in watts." alt="" coords="31,509,182,536"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="259,525,182,525,182,520,259,520"/>
+<area shape="rect" id="Node000017" href="$class_ac_measure.html#a3be9132b760b88e37bd1463be9324b5c" title="Retrieves the power factor." alt="" coords="13,560,200,587"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="240,576,201,576,201,571,240,571"/>
+<area shape="rect" id="Node000019" href="$class_ac_measure.html#aeb401f8dd2b2d1164bc78438b9e99828" title="Retrieves the voltage in volts." alt="" coords="28,611,185,637"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="255,627,185,627,185,621,255,621"/>
+</map>

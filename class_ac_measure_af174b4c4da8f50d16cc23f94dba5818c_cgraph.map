@@ -1,5 +1,0 @@
-<map id="AcMeasure::getCurrent" name="AcMeasure::getCurrent">
-<area shape="rect" id="node1" title="Retrieves the current in amperes." alt="" coords="5,5,162,32"/>
-<area shape="rect" id="node2" href="$class_ac_measure.html#a78e2233a7b97ea4004ba03c3596e6fd1" title="Reads the raw current value from the device." alt="" coords="210,5,393,32"/>
-<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="441,5,569,32"/>
-</map>

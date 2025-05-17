@@ -1,0 +1,5 @@
+<map id="AcMeasure::getI2CAddress" name="AcMeasure::getI2CAddress">
+<area shape="rect" id="Node000001" title="Retrieves the current I2C address of the device." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="236,5,357,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
+</map>

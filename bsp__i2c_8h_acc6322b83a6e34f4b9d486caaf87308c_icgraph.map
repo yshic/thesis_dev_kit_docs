@@ -1,8 +1,0 @@
-<map id="bspI2CExist" name="bspI2CExist">
-<area shape="rect" id="node1" title="Checks if an I2C device is present on the bus." alt="" coords="180,107,273,133"/>
-<area shape="rect" id="node2" href="$class_b_m_p280.html#a7f793755576e8d937f97984ee8b42b07" title="Initializes the BMP280 sensor." alt="" coords="13,5,124,32"/>
-<area shape="rect" id="node3" href="$class_s_h_t4_x.html#a8e85778bec0e7b9d4bf8add2490778f3" title="Initializes the SHT4X sensor." alt="" coords="17,56,120,83"/>
-<area shape="rect" id="node4" href="$class_unit4_relay.html#adc660c2e5941b7921e8f32dec1a88172" title="Initializes the Unit 4&#45;Relay module." alt="" coords="6,107,131,133"/>
-<area shape="rect" id="node5" href="$class_s_h_t3_x.html#a3e45c87d84b0510e909551ea6271ad95" title="Initializes the SHT3X sensor." alt="" coords="17,157,120,184"/>
-<area shape="rect" id="node6" href="$class_ac_measure.html#ad681859299c816d62a3a88cd8ea7a871" title="Initializes the AC measurement device by checking I2C connectivity." alt="" coords="5,208,132,235"/>
-</map>

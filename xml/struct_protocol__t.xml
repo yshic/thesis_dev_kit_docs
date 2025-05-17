@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_protocol__t" kind="struct" language="C++" prot="public">
     <compoundname>Protocol_t</compoundname>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_protocol__t_1a6d0634cc03ad2b1d7a778b33ce996bcc" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
         <definition>uint8_t Protocol_t::command</definition>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="96" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="96" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="96" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1aef0e8ccba90ca3411df687ed1b2adf91" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="99" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="99" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="99" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a741a51776bf33614f9a2b98bdc04ea26" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="100" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="100" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="100" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a3dd19ca600cb1e194d338621226c8e06" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="101" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="101" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="101" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1aec2bdca987339581270f6aeee291d781" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="102" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="102" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="102" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a6492f93f398cef3bacf857a85c32e60f" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="103" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="103" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="103" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1af3bf6dc7d5202e005a817c6c71970fea" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -99,21 +99,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="104" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="104" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="104" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="104" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="struct_protocol__t_1a9f7715f2d58fd48ee2c980f74b3829c0" prot="public" static="no" mutable="no">
-        <type>union Protocol_t::@7</type>
-        <definition>union Protocol_t::@7 Protocol_t::@8</definition>
+      <memberdef kind="variable" id="struct_protocol__t_1af923ede0bda8c9ae34d88c5539d036bd" prot="public" static="no" mutable="no">
+        <type>union <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref></type>
+        <definition>union Protocol_t Protocol_t</definition>
         <argsstring></argsstring>
-        <name>@8</name>
-        <qualifiedname>Protocol_t::@8</qualifiedname>
+        <name></name>
+        <qualifiedname>Protocol_t</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="105" column="3"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="105" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a0bbad13b684d45b057d8d93142cd05e7" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="108" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="108" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="108" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1ae1bdeec6b8b5084376a8beff1cbd05ed" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="109" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="109" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="109" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a06d518465364cb411375a7e72ce1817e" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="110" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="110" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="110" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1aa077e6509bde91d395019ec3b38e6809" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -169,21 +169,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="111" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="111" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="111" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="111" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="struct_protocol__t_1af58beb5cc42eea7bdc8a8a0f95731f09" prot="public" static="no" mutable="no">
-        <type>union Protocol_t::@9</type>
-        <definition>union Protocol_t::@9 Protocol_t::@10</definition>
+      <memberdef kind="variable" id="struct_protocol__t_1a948db53cc96c1c085b72e02b330875cf" prot="public" static="no" mutable="no">
+        <type>union <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref></type>
+        <definition>union Protocol_t Protocol_t</definition>
         <argsstring></argsstring>
-        <name>@10</name>
-        <qualifiedname>Protocol_t::@10</qualifiedname>
+        <name></name>
+        <qualifiedname>Protocol_t</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="112" column="3"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="112" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1ab9ed05fba0c8ad682c8ac0db5418c922" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="115" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="115" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="115" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1ab73fdf50a88ca009fdf3ac9c9ce154cc" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="116" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="116" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="116" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a861977b6b01f939d9d11c5fd3f70476d" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="117" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="117" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="117" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a193f13d607d73d2988792af04d11d793" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -239,21 +239,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="118" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="118" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="118" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="118" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="struct_protocol__t_1ac0f43153f48ed21edb418410920f88d9" prot="public" static="no" mutable="no">
-        <type>union Protocol_t::@11</type>
-        <definition>union Protocol_t::@11 Protocol_t::@12</definition>
+      <memberdef kind="variable" id="struct_protocol__t_1ab39eb2934b964043f336e09c6303fd8a" prot="public" static="no" mutable="no">
+        <type>union <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref></type>
+        <definition>union Protocol_t Protocol_t</definition>
         <argsstring></argsstring>
-        <name>@12</name>
-        <qualifiedname>Protocol_t::@12</qualifiedname>
+        <name></name>
+        <qualifiedname>Protocol_t</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="119" column="3"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="119" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a812eb75d3f0ae1690d43ced1485ec902" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="122" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="122" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="122" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a2375d07983071c0e5496335f64753d07" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="123" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="123" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="123" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a21ae482fb1a48f4529b5aef311fd28bc" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -295,21 +295,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="124" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="124" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="124" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="124" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="struct_protocol__t_1ad76d38dd16a273d1cc74557de5359b29" prot="public" static="no" mutable="no">
-        <type>union Protocol_t::@13</type>
-        <definition>union Protocol_t::@13 Protocol_t::@14</definition>
+      <memberdef kind="variable" id="struct_protocol__t_1a654d5b82b94f906e8e17d3724c1f16e4" prot="public" static="no" mutable="no">
+        <type>union <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref></type>
+        <definition>union Protocol_t Protocol_t</definition>
         <argsstring></argsstring>
-        <name>@14</name>
-        <qualifiedname>Protocol_t::@14</qualifiedname>
+        <name></name>
+        <qualifiedname>Protocol_t</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="125" column="3"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="125" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a8763545cb6d3370ff249112ecf703fd0" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -323,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="128" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="128" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="128" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a7da1de6521ffb583196644e9cf3935c4" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -337,21 +337,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="129" column="13" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="129" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="129" column="13" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="129" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="struct_protocol__t_1a73847aabc232369d4646f5c904298eed" prot="public" static="no" mutable="no">
-        <type>union Protocol_t::@15</type>
-        <definition>union Protocol_t::@15 Protocol_t::@16</definition>
+      <memberdef kind="variable" id="struct_protocol__t_1a61741ae3cc2bf898b7a08f21632228e9" prot="public" static="no" mutable="no">
+        <type>union <ref refid="struct_protocol__t" kindref="compound">Protocol_t</ref></type>
+        <definition>union Protocol_t Protocol_t</definition>
         <argsstring></argsstring>
-        <name>@16</name>
-        <qualifiedname>Protocol_t::@16</qualifiedname>
+        <name></name>
+        <qualifiedname>Protocol_t</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="130" column="3"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="130" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a13c114cb31724ffad5e50d7ea62ff70d" prot="public" static="no" mutable="no">
         <type><ref refid="struct_protocol_custom_name_header__t" kindref="compound">ProtocolCustomNameHeader_t</ref></type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="132" column="32" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="132" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="132" column="32" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1aa3ba0cf554e48b5bad584e840e2d2970" prot="public" static="no" mutable="no">
         <type><ref refid="struct_protocol_received_knowledges__t" kindref="compound">ProtocolReceivedKnowledges_t</ref></type>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="133" column="32" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="133" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="133" column="32" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a5459913f1f3e5be54c9e4aeed272abd0" prot="public" static="no" mutable="no">
         <type><ref refid="struct_protocol_custom_text__t" kindref="compound">ProtocolCustomText_t</ref></type>
@@ -393,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="134" column="32" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="134" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="134" column="32" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_protocol__t_1a60058a2afad78f8ec4aa05ba50b21f5a" prot="public" static="no" mutable="no">
         <type><ref refid="struct_protocol_firmware_version__t" kindref="compound">ProtocolFirmwareVersion_t</ref></type>
@@ -407,9 +407,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="135" column="32" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="135" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENS.h" line="135" column="32" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="135" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -448,7 +448,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" line="94" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" bodystart="95" bodyend="136"/>
+    <location file="lib/HUSKYLENS/HUSKYLENS.h" line="94" column="1" bodyfile="lib/HUSKYLENS/HUSKYLENS.h" bodystart="95" bodyend="136"/>
     <listofallmembers>
       <member refid="struct_protocol__t_1a6492f93f398cef3bacf857a85c32e60f" prot="public" virt="non-virtual"><scope>Protocol_t</scope><name>algorithmType</name></member>
       <member refid="struct_protocol__t_1a6d0634cc03ad2b1d7a778b33ce996bcc" prot="public" virt="non-virtual"><scope>Protocol_t</scope><name>command</name></member>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_array_comparer" kind="struct" language="C++" prot="public">
     <compoundname>ArrayComparer</compoundname>
     <basecompoundref refid="struct_comparer_base" prot="public" virt="non-virtual">ComparerBase</basecompoundref>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_array_comparer_1a61db3972c06d00aade62b73b09eb4094" prot="public" static="no" mutable="no">
         <type>const <ref refid="class_collection_data" kindref="compound">CollectionData</ref> *</type>
         <definition>const CollectionData* ArrayComparer::rhs_</definition>
@@ -16,10 +16,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="84" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="84" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="84" column="24" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="84" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="struct_array_comparer_1a067bc5b5b67686d8a7ccf7c075bb78e8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>ArrayComparer::ArrayComparer</definition>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="86" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="86" bodyend="86"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="86" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="86" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="struct_array_comparer_1a2c8542b7b4536afa17998af3613d03db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>CompareResult</type>
@@ -54,9 +54,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="88" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="88" bodyend="93"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="88" column="17" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="88" bodyend="93"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -104,7 +104,7 @@
         <link refid="struct_visitor"/>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="83" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="83" bodyend="94"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" line="83" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp" bodystart="83" bodyend="94"/>
     <listofallmembers>
       <member refid="struct_array_comparer_1a067bc5b5b67686d8a7ccf7c075bb78e8" prot="public" virt="non-virtual"><scope>ArrayComparer</scope><name>ArrayComparer</name></member>
       <member refid="struct_visitor_1ac299534ad2c896c7010fbaaecfe1a38a" prot="public" virt="non-virtual"><scope>ArrayComparer</scope><name>result_type</name></member>

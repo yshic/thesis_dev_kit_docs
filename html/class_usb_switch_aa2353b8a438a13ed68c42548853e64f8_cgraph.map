@@ -1,0 +1,5 @@
+<map id="UsbSwitch::getOutputValue" name="UsbSwitch::getOutputValue">
+<area shape="rect" id="Node000001" title="Retrieves the current output value." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="Node000002" href="$bsp__gpio_8cpp.html#a34347317f123b2222eb416e5e5c56091" title="This function reads the value from the specified analog pin." alt="" coords="236,5,376,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
+</map>

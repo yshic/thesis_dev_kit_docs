@@ -1,5 +1,0 @@
-<map id="AcMeasure::getPower" name="AcMeasure::getPower">
-<area shape="rect" id="node1" title="Retrieves the power in watts." alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$class_ac_measure.html#ad7dbce6613d27f35b61a5bf511e21f3c" title="Reads the raw power value from the device." alt="" coords="204,5,381,32"/>
-<area shape="rect" id="node3" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="429,5,557,32"/>
-</map>

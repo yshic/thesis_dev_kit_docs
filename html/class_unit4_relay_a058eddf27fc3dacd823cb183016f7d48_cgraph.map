@@ -1,0 +1,7 @@
+<map id="Unit4Relay::relayWrite" name="Unit4Relay::relayWrite">
+<area shape="rect" id="Node000001" title="Sets the state of an individual relay." alt="" coords="5,31,158,57"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a7cd81829f88f85d45cff03b0fe91c83a" title="Reads a single byte using I2C from a register." alt="" coords="206,5,327,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,31,190,26,190,32,158,36"/>
+<area shape="rect" id="Node000003" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="206,56,326,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,52,191,56,190,62,158,57"/>
+</map>

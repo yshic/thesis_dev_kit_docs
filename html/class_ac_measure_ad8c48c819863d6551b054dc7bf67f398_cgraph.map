@@ -1,0 +1,5 @@
+<map id="AcMeasure::setI2CAddress" name="AcMeasure::setI2CAddress">
+<area shape="rect" id="Node000001" title="Sets the I2C address of the device." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a14000fc85c5999b783fcf2f826f27f78" title="Writes a single byte to a register using I2C." alt="" coords="236,5,356,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
+</map>

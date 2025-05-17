@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_u_r_l_encoder_8cpp" kind="file" language="C++">
     <compoundname>URLEncoder.cpp</compoundname>
     <includes refid="_u_r_l_encoder_8h" local="yes">URLEncoder.h</includes>
@@ -8,7 +8,7 @@
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp</label>
+        <label>lib/ArduinoHttpClient/URLEncoder.cpp</label>
         <link refid="_u_r_l_encoder_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -20,7 +20,7 @@
         </childnode>
       </node>
     </incdepgraph>
-      <sectiondef kind="var">
+    <sectiondef kind="var">
       <memberdef kind="variable" id="_u_r_l_encoder_8cpp_1ae8c41672cddc661cf5cb8d679cda3f10" prot="public" static="no" mutable="no">
         <type><ref refid="class_u_r_l_encoder_class" kindref="compound">URLEncoderClass</ref></type>
         <definition>URLEncoderClass URLEncoder</definition>
@@ -32,9 +32,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp" line="53" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp" bodystart="53" bodyend="-1"/>
+        <location file="lib/ArduinoHttpClient/URLEncoder.cpp" line="53" column="17" bodyfile="lib/ArduinoHttpClient/URLEncoder.cpp" bodystart="53" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -94,6 +94,6 @@
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><ref refid="class_u_r_l_encoder_class" kindref="compound">URLEncoderClass</ref><sp/>URLEncoder;</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/URLEncoder.cpp"/>
+    <location file="lib/ArduinoHttpClient/URLEncoder.cpp"/>
   </compounddef>
 </doxygen>

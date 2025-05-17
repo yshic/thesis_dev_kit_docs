@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_usb_switch" kind="class" language="C++" prot="public">
     <compoundname>UsbSwitch</compoundname>
     <includes refid="usb__switch_8h" local="no">usb_switch.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_usb_switch_1aedea997188366e0a5d4a098b92917f7a" prot="private" static="no" mutable="no">
         <type>int</type>
         <definition>int UsbSwitch::_pin1</definition>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="163" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="163" bodyend="-1"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="163" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_usb_switch_1a81bb5b0ae5238875a2e8a7844690cd7a" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="164" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="164" bodyend="-1"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="164" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_usb_switch_1ade44f82363b56b31d3a5f9090d568c05" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="165" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="165" bodyend="-1"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="165" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_usb_switch_1aef474073fa4c5718ee6b4dfa64148880" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -61,10 +61,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="166" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="166" bodyend="-1"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="166" column="8" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="166" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_usb_switch_1ad39268ff1eccf9fb11e038d5184cf130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>UsbSwitch::UsbSwitch</definition>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="84" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="28" bodyend="36"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="84" column="3" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="28" bodyend="36"/>
         <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
         <references refid="bsp__gpio_8cpp_1a566a8a135b7fc73ec916f8757d7018b4" compoundref="bsp__gpio_8cpp" startline="32" endline="54">bspGpioPinMode</references>
       </memberdef>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="97" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="38" bodyend="52"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="97" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="38" bodyend="52"/>
         <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
         <referencedby refid="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f" compoundref="usb__switch_8cpp" startline="54" endline="59">setOutputValuePercentage</referencedby>
       </memberdef>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="110" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="54" bodyend="59"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="110" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="54" bodyend="59"/>
         <references refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" compoundref="usb__switch_8cpp" startline="38" endline="52">setOutputValue</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="123" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="61" bodyend="69"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="123" column="7" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="61" bodyend="69"/>
         <references refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" compoundref="bsp__gpio_8cpp" startline="75" endline="75">bspGpioAnalogRead</references>
         <referencedby refid="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16" compoundref="usb__switch_8cpp" startline="71" endline="75">getOutputValuePercentage</referencedby>
       </memberdef>
@@ -270,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="136" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="71" bodyend="75"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="136" column="7" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="71" bodyend="75"/>
         <references refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" compoundref="usb__switch_8cpp" startline="61" endline="69">getOutputValue</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -303,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="147" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="77" bodyend="89"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="147" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="77" bodyend="89"/>
         <references refid="bsp__gpio_8cpp_1a9b2f7d9d0077df86b5fbd73942bcaffc" compoundref="bsp__gpio_8cpp" startline="77" endline="77">bspGpioAnalogWrite</references>
       </memberdef>
       <memberdef kind="function" id="class_usb_switch_1a9610f9b91027ad99d84ad9dcef8b3be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -338,17 +338,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="160" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.cpp" bodystart="91" bodyend="99"/>
+        <location file="lib/usb_switch/src/usb_switch.h" line="160" column="8" bodyfile="lib/usb_switch/src/usb_switch.cpp" bodystart="91" bodyend="99"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages a USB switch module with two PWM-controlled outputs. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_usb_switch" kindref="compound">UsbSwitch</ref></computeroutput> class provides functionality for controlling a USB switch module with two outputs (USB_OUTPUT1 and USB_OUTPUT2) via PWM-capable pins. It supports setting output values as PWM or percentage, toggling output states, and retrieving current values and statuses. The class maintains internal state for both outputs.</para>
-<sect3 id="class_usb_switch_1autotoc_md49">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_usb_switch_1autotoc_md49_1s1"><sect2 id="class_usb_switch_1autotoc_md49_1s2"><sect3 id="class_usb_switch_1autotoc_md49">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Controls two USB outputs with PWM values (0–255).</para>
 </listitem><listitem><para>Sets and retrieves output values as percentages (0–100%).</para>
 </listitem><listitem><para>Toggles outputs between ON (full PWM) and OFF states.</para>
@@ -356,22 +355,20 @@
 </listitem><listitem><para>Supports simultaneous control of both outputs.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_usb_switch_1autotoc_md50">
-<title>Usage:</title>
-<para>Instantiate the class with two PWM-capable pins for USB_OUTPUT1 and USB_OUTPUT2. Use <computeroutput><ref refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" kindref="member">setOutputValue()</ref></computeroutput> or <computeroutput><ref refid="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f" kindref="member">setOutputValuePercentage()</ref></computeroutput> to control output levels, <computeroutput><ref refid="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" kindref="member">toggleOutput()</ref></computeroutput> to switch states, and <computeroutput><ref refid="class_usb_switch_1a9610f9b91027ad99d84ad9dcef8b3be4" kindref="member">getStatus()</ref></computeroutput>, <computeroutput><ref refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" kindref="member">getOutputValue()</ref></computeroutput>, or <computeroutput><ref refid="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16" kindref="member">getOutputValuePercentage()</ref></computeroutput> to monitor outputs. Specify output number (1, 2, or 0 for both) in method calls.</para>
-</sect3>
-<sect3 id="class_usb_switch_1autotoc_md51">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_usb_switch_1autotoc_md50_1s1"><sect2 id="class_usb_switch_1autotoc_md50_1s2"><sect3 id="class_usb_switch_1autotoc_md50">
+<title>Usage:</title><para>Instantiate the class with two PWM-capable pins for USB_OUTPUT1 and USB_OUTPUT2. Use <computeroutput><ref refid="class_usb_switch_1a98cf84d4be5cd0554188fc9838aac965" kindref="member">setOutputValue()</ref></computeroutput> or <computeroutput><ref refid="class_usb_switch_1a49648ccd4487e75f9dca6651fd8f782f" kindref="member">setOutputValuePercentage()</ref></computeroutput> to control output levels, <computeroutput><ref refid="class_usb_switch_1ab54876679bf8156ef119e614db3beb35" kindref="member">toggleOutput()</ref></computeroutput> to switch states, and <computeroutput><ref refid="class_usb_switch_1a9610f9b91027ad99d84ad9dcef8b3be4" kindref="member">getStatus()</ref></computeroutput>, <computeroutput><ref refid="class_usb_switch_1aa2353b8a438a13ed68c42548853e64f8" kindref="member">getOutputValue()</ref></computeroutput>, or <computeroutput><ref refid="class_usb_switch_1acadaf4d0e4e6b952099011820bd57d16" kindref="member">getOutputValuePercentage()</ref></computeroutput> to monitor outputs. Specify output number (1, 2, or 0 for both) in method calls.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_usb_switch_1autotoc_md51_1s1"><sect2 id="class_usb_switch_1autotoc_md51_1s2"><sect3 id="class_usb_switch_1autotoc_md51">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires an Arduino-compatible board with PWM support.</para>
 </listitem><listitem><para>Outputs must be connected to valid PWM-capable pins (yellow wire for USB_OUTPUT1, white wire for USB_OUTPUT2 if using Grove connector).</para>
 </listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for GPIO operations (<computeroutput>bspGpioPinMode</computeroutput>, <computeroutput>bspGpioAnalogWrite</computeroutput>, <computeroutput>bspGpioAnalogRead</computeroutput>). </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" line="70" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/usb_switch/src/usb_switch.h" bodystart="71" bodyend="167"/>
+    <location file="lib/usb_switch/src/usb_switch.h" line="70" column="1" bodyfile="lib/usb_switch/src/usb_switch.h" bodystart="71" bodyend="167"/>
     <listofallmembers>
       <member refid="class_usb_switch_1aedea997188366e0a5d4a098b92917f7a" prot="private" virt="non-virtual"><scope>UsbSwitch</scope><name>_pin1</name></member>
       <member refid="class_usb_switch_1a81bb5b0ae5238875a2e8a7844690cd7a" prot="private" virt="non-virtual"><scope>UsbSwitch</scope><name>_pin2</name></member>

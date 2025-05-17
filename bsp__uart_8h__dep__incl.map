@@ -1,6 +1,0 @@
-<map id="thesis_mdt266_iotdevkit/lib/bsp/bsp_uart.h" name="thesis_mdt266_iotdevkit/lib/bsp/bsp_uart.h">
-<area shape="rect" id="node1" title="Header file for BSP_UART library." alt="" coords="99,5,261,48"/>
-<area shape="rect" id="node2" href="$bsp__rs485_8h.html" title="Header file for BSP_RS485 library." alt="" coords="5,96,168,139"/>
-<area shape="rect" id="node4" href="$bsp__uart_8cpp.html" title="Source file for bsp_uart.cpp library." alt="" coords="192,96,354,139"/>
-<area shape="rect" id="node3" href="$bsp__rs485_8cpp.html" title="Source file for bsp_rs485.cpp library." alt="" coords="5,187,168,229"/>
-</map>

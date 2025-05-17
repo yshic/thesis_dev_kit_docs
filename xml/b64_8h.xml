@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="b64_8h" kind="file" language="C++">
     <compoundname>b64.h</compoundname>
-    <includedby refid="_http_client_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/HttpClient.cpp</includedby>
-    <includedby refid="_web_socket_client_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/WebSocketClient.cpp</includedby>
-    <includedby refid="b64_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/b64.cpp</includedby>
-      <sectiondef kind="func">
+    <includedby refid="_http_client_8cpp" local="yes">lib/ArduinoHttpClient/HttpClient.cpp</includedby>
+    <includedby refid="_web_socket_client_8cpp" local="yes">lib/ArduinoHttpClient/WebSocketClient.cpp</includedby>
+    <includedby refid="b64_8cpp" local="yes">lib/ArduinoHttpClient/b64.cpp</includedby>
+    <sectiondef kind="func">
       <memberdef kind="function" id="b64_8h_1a3fb97d3b3150f9399551f3403ae4d219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int b64_encode</definition>
@@ -33,9 +33,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/b64.h" line="4" column="5" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/b64.cpp" bodystart="21" bodyend="71" declfile="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/b64.h" declline="4" declcolumn="5"/>
+        <location file="lib/ArduinoHttpClient/b64.h" line="4" column="5" bodyfile="lib/ArduinoHttpClient/b64.cpp" bodystart="21" bodyend="71" declfile="lib/ArduinoHttpClient/b64.h" declline="4" declcolumn="5"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -48,6 +48,6 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoHttpClient/b64.h"/>
+    <location file="lib/ArduinoHttpClient/b64.h"/>
   </compounddef>
 </doxygen>

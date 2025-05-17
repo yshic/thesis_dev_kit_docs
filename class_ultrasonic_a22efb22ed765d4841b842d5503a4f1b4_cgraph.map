@@ -1,4 +1,0 @@
-<map id="Ultrasonic::Ultrasonic" name="Ultrasonic::Ultrasonic">
-<area shape="rect" id="node1" title="Initializes the Ultrasonic sensor with the specified trigger and echo pins, and sets the timeout valu..." alt="" coords="5,5,153,32"/>
-<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a566a8a135b7fc73ec916f8757d7018b4" title="This function sets the mode of a GPIO pin." alt="" coords="201,5,321,32"/>
-</map>

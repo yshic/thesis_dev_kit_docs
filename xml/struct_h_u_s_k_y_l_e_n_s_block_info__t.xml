@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_h_u_s_k_y_l_e_n_s_block_info__t" kind="struct" language="C++" prot="public">
     <compoundname>HUSKYLENSBlockInfo_t</compoundname>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_block_info__t_1a40f0826bc5060ac2f18e0550a016e676" prot="public" static="no" mutable="no">
         <type>int32_t</type>
         <definition>int32_t HUSKYLENSBlockInfo_t::xCenter</definition>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="8" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="8" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/DFRobot_HuskyLens.h" line="8" column="9" bodyfile="lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="8" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_block_info__t_1add422a506efe9e26c906d14101bdbc46" prot="public" static="no" mutable="no">
         <type>int32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="9" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="9" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/DFRobot_HuskyLens.h" line="9" column="9" bodyfile="lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="9" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_block_info__t_1a6d85673e9879305238dfae06416740df" prot="public" static="no" mutable="no">
         <type>int32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="10" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="10" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/DFRobot_HuskyLens.h" line="10" column="9" bodyfile="lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_h_u_s_k_y_l_e_n_s_block_info__t_1a812abc7b41ae0517cd5b285a4f9dd7ec" prot="public" static="no" mutable="no">
         <type>int32_t</type>
@@ -57,14 +57,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="11" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="11" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/DFRobot_HuskyLens.h" line="11" column="9" bodyfile="lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="11" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" line="6" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="7" bodyend="12"/>
+    <location file="lib/HUSKYLENS/DFRobot_HuskyLens.h" line="6" column="1" bodyfile="lib/HUSKYLENS/DFRobot_HuskyLens.h" bodystart="7" bodyend="12"/>
     <listofallmembers>
       <member refid="struct_h_u_s_k_y_l_e_n_s_block_info__t_1a812abc7b41ae0517cd5b285a4f9dd7ec" prot="public" virt="non-virtual"><scope>HUSKYLENSBlockInfo_t</scope><name>height</name></member>
       <member refid="struct_h_u_s_k_y_l_e_n_s_block_info__t_1a6d85673e9879305238dfae06416740df" prot="public" virt="non-virtual"><scope>HUSKYLENSBlockInfo_t</scope><name>width</name></member>

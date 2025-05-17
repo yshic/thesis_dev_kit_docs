@@ -1,4 +1,0 @@
-<map id="MiniFan::isFanRunning" name="MiniFan::isFanRunning">
-<area shape="rect" id="node1" title="Checks if the fan is currently running." alt="" coords="186,5,341,32"/>
-<area shape="rect" id="node2" href="$class_mini_fan.html#acfe1d6f95e9e4bfc0c88ddcc90fabec5" title="Toggles the fan state between ON and OFF." alt="" coords="5,5,138,32"/>
-</map>

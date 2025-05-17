@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_json_pair_ptr" kind="class" language="C++" prot="public">
     <compoundname>JsonPairPtr</compoundname>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_json_pair_ptr_1a6192fb0a8129b5d230f55495f8a741ca" prot="private" static="no" mutable="no">
         <type><ref refid="class_json_pair" kindref="compound">JsonPair</ref></type>
         <definition>JsonPair JsonPairPtr::pair_</definition>
@@ -15,10 +15,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="26" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="26" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="26" column="12" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_json_pair_ptr_1a8bf4eca8b03402fbe7ec44293c3a6aec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>JsonPairPtr::JsonPairPtr</definition>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="14" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="14" bodyend="15"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="14" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="14" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="class_json_pair_ptr_1ad2bb846c73e65bf30bbe5e8f5482db5f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="class_json_pair" kindref="compound">JsonPair</ref> *</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="17" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="17" bodyend="19"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="17" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="17" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="class_json_pair_ptr_1af09cd78f84c5bc6ad2c99a6495e8c86d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="class_json_pair" kindref="compound">JsonPair</ref> &amp;</type>
@@ -67,14 +67,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="21" column="18" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="21" bodyend="23"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="21" column="18" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="21" bodyend="23"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="12" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="12" bodyend="27"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" line="12" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp" bodystart="12" bodyend="27"/>
     <listofallmembers>
       <member refid="class_json_pair_ptr_1a8bf4eca8b03402fbe7ec44293c3a6aec" prot="public" virt="non-virtual"><scope>JsonPairPtr</scope><name>JsonPairPtr</name></member>
       <member refid="class_json_pair_ptr_1af09cd78f84c5bc6ad2c99a6495e8c86d" prot="public" virt="non-virtual"><scope>JsonPairPtr</scope><name>operator*</name></member>

@@ -1,4 +1,0 @@
-<map id="Relay::on" name="Relay::on">
-<area shape="rect" id="node1" title="Turns the relay on." alt="" coords="5,5,83,32"/>
-<area shape="rect" id="node2" href="$bsp__gpio_8cpp.html#a8c56622b894fbc2433dadc6fb4a95b97" title="This function writes the state of a digital pin." alt="" coords="131,5,267,32"/>
-</map>

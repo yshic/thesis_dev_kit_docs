@@ -1,0 +1,5 @@
+<map id="AcMeasure::getVoltageString" name="AcMeasure::getVoltageString">
+<area shape="rect" id="Node000001" title="Retrieves the voltage as a formatted string." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="Node000002" href="$bsp__i2c_8cpp.html#a78cbdf9442b29147d38e4e23eaa0013e" title="Reads multiple bytes using I2C from a register." alt="" coords="244,5,372,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,16,228,16,228,21,196,21"/>
+</map>

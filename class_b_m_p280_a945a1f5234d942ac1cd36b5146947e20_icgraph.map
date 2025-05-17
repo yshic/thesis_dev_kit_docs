@@ -1,4 +1,0 @@
-<map id="BMP280::readPressure" name="BMP280::readPressure">
-<area shape="rect" id="node1" title="Reads the pressure from the BMP280 sensor." alt="" coords="172,5,328,32"/>
-<area shape="rect" id="node2" href="$class_b_m_p280.html#a7c52cbbec998984b6d63e2162a0ed436" title="Updates all sensor measurements." alt="" coords="5,5,124,32"/>
-</map>

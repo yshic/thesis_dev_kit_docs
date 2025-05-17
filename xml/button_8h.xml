@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="button_8h" kind="file" language="C++">
     <compoundname>button.h</compoundname>
     <includes local="yes">Arduino.h</includes>
-    <includedby refid="button_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/button/src/button.cpp</includedby>
+    <includedby refid="button_8cpp" local="yes">lib/button/src/button.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>Arduino.h</label>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/button/src/button.h</label>
+        <label>lib/button/src/button.h</label>
         <link refid="button_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="class_button_handler" prot="public">ButtonHandler</innerclass>
-      <sectiondef kind="enum">
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="button_8h_1a24c06c718d50035c6c77794e475356a7" prot="public" static="no" strong="no">
         <type></type>
         <name>button_handler_error_t</name>
@@ -50,10 +50,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="7" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="8" bodyend="12"/>
+        <location file="lib/button/src/button.h" line="7" column="1" bodyfile="lib/button/src/button.h" bodystart="8" bodyend="12"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="typedef">
+    </sectiondef>
+    <sectiondef kind="typedef">
       <memberdef kind="typedef" id="button_8h_1a1215bb12352cdd7d958a3f346adf2f8c" prot="public" static="no">
         <type>void(*</type>
         <definition>typedef void(* ButtonCallback) (void)</definition>
@@ -65,9 +65,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h" line="15" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/button/src/button.h" bodystart="15" bodyend="-1"/>
+        <location file="lib/button/src/button.h" line="15" column="9" bodyfile="lib/button/src/button.h" bodystart="15" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -89,10 +89,10 @@
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Callback<sp/>function<sp/>type</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*ButtonCallback)(void);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="class_button_handler" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_button_handler" kindref="compound">ButtonHandler</ref></highlight></codeline>
+<codeline lineno="47" refid="class_button_handler" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" kindref="member">ButtonHandler</ref></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><ref refid="class_button_handler" kindref="compound">ButtonHandler</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isActiveLow<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePullup<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><ref refid="class_button_handler_1a4b213df8be2f5d90299e60b6a90c26c8" kindref="member">ButtonHandler</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pin,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isActiveLow<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePullup<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/>button_handler_error_t<sp/><ref refid="class_button_handler_1ad154bc08e128ee48b1f5add4c928298b" kindref="member">setDebounceDuration</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
@@ -160,6 +160,6 @@
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>BUTTON_H</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/button/src/button.h"/>
+    <location file="lib/button/src/button.h"/>
   </compounddef>
 </doxygen>

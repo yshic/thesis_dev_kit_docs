@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="ac__measure_8h" kind="file" language="C++">
     <compoundname>ac_measure.h</compoundname>
     <includes local="yes">WProgram.h</includes>
-    <includedby refid="ac__measure_8cpp" local="yes">thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp</includedby>
+    <includedby refid="ac__measure_8cpp" local="yes">lib/ac_measure/src/ac_measure.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h</label>
+        <label>lib/ac_measure/src/ac_measure.h</label>
         <link refid="ac__measure_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,18 +17,18 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.cpp</label>
+        <label>lib/ac_measure/src/ac_measure.cpp</label>
         <link refid="ac__measure_8cpp"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h</label>
+        <label>lib/ac_measure/src/ac_measure.h</label>
         <link refid="ac__measure_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_ac_measure" prot="public">AcMeasure</innerclass>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="ac__measure_8h_1a270001d76399800499bb4b95a009e174" prot="public" static="no">
         <name>AC_MEASURE_LIB_VERSION</name>
         <initializer>(F(&quot;0.1.0&quot;))</initializer>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="23" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="23" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="23" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a77097696f5d44e7eb7069b6bbbb7aa00" prot="public" static="no">
         <name>UNIT_ACMEASURE_DEFAULT_ADDR</name>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="25" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="25" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="25" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1ae37a38fb93e91877eac9189dd110c35e" prot="public" static="no">
         <name>UNIT_ACMEASURE_VOLTAGE_STRING_REG</name>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="26" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="26" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="26" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a0078eca2c595a6f26911216e44325cb9" prot="public" static="no">
         <name>UNIT_ACMEASURE_CURRENT_STRING_REG</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="27" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="27" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="27" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1ade25593a46506467ff87bd8fe286872c" prot="public" static="no">
         <name>UNIT_ACMEASURE_POWER_STRING_REG</name>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="28" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="28" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="28" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a6589362af4c1efdd7b98253698f9b149" prot="public" static="no">
         <name>UNIT_ACMEASURE_APPARENT_POWER_STRING_REG</name>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="29" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="29" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="29" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a19d603b78240edba870cf6a5813c6f3b" prot="public" static="no">
         <name>UNIT_ACMEASURE_POWER_FACTOR_STRING_REG</name>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="30" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="30" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="30" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1afd7a471c60c40c8dbfcb2b83f4170a03" prot="public" static="no">
         <name>UNIT_ACMEASURE_KWH_STRING_REG</name>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="31" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="31" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="31" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1aad9c452379c85cab9f915361683ab850" prot="public" static="no">
         <name>UNIT_ACMEASURE_VOLTAGE_REG</name>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="32" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="32" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="32" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1aa4e796a80339b98897f4e6264386e805" prot="public" static="no">
         <name>UNIT_ACMEASURE_CURRENT_REG</name>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="33" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="33" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="33" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a03427e66056b8927b19e159e839e3676" prot="public" static="no">
         <name>UNIT_ACMEASURE_POWER_REG</name>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="34" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="34" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="34" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a5a7228fcb610b63f7a25c277d73e0077" prot="public" static="no">
         <name>UNIT_ACMEASURE_APPARENT_POWER_REG</name>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="35" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="35" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="35" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a50c25290514e41c635168d25a8fb383e" prot="public" static="no">
         <name>UNIT_ACMEASURE_POWER_FACTOR_REG</name>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="36" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="36" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="36" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1af527b5813e7c3ea2df682b2b45f79036" prot="public" static="no">
         <name>UNIT_ACMEASURE_KWH_REG</name>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="37" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="37" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="37" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a545377612c87d394cf79c948eff0ba79" prot="public" static="no">
         <name>UNIT_ACMEASURE_VOLTAGE_FACTOR_REG</name>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="38" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="38" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="38" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1aed4fa052af06944dd1e8292ab09ddd1b" prot="public" static="no">
         <name>UNIT_ACMEASURE_CURRENT_FACTOR_REG</name>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="39" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="39" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="39" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a2473ee389e0f2f202a9f6c5cca5d397a" prot="public" static="no">
         <name>UNIT_ACMEASURE_SAVE_FACTOR_REG</name>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="40" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="40" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="40" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a51c95d2eeff54fe1460563031ed0a483" prot="public" static="no">
         <name>UNIT_ACMEASURE_GET_READY_REG</name>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="41" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="41" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="41" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a978b84f26c346d362540d1cd31b8336a" prot="public" static="no">
         <name>UNIT_ACMEASURE_JUMP_TO_BOOTLOADER_REG</name>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="42" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="42" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="42" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a14f202364c7a2251ae28128817606827" prot="public" static="no">
         <name>UNIT_ACMEASURE_FIRMWARE_VERSION_REG</name>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="43" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="43" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="43" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="ac__measure_8h_1a4ba49d096ae201a86675894c6ba8d79f" prot="public" static="no">
         <name>UNIT_ACMEASURE_I2C_ADDRESS_REG</name>
@@ -258,10 +258,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="44" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="44" bodyend="-1"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="44" column="11" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="44" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="enum">
+    </sectiondef>
+    <sectiondef kind="enum">
       <memberdef kind="enum" id="ac__measure_8h_1a75a12622a3394e35f043c54d03934203" prot="public" static="no" strong="no">
         <type></type>
         <name>ac_measure_error_t</name>
@@ -307,9 +307,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" line="48" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h" bodystart="49" bodyend="55"/>
+        <location file="lib/ac_measure/src/ac_measure.h" line="48" column="1" bodyfile="lib/ac_measure/src/ac_measure.h" bodystart="49" bodyend="55"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Header file for AC_MEASURE library. </para>
     </briefdescription>
@@ -324,6 +324,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>prevent<sp/>recursive<sp/>inclusion<sp/>------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AC_MEASURE_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>AC_MEASURE_H</highlight><highlight class="normal"></highlight></codeline>
@@ -336,7 +337,7 @@
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Public<sp/>defines<sp/>-----------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>AC_MEASURE_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>AC_MEASURE_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(F(&quot;0.1.0&quot;))</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_ACMEASURE_DEFAULT_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x42</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>UNIT_ACMEASURE_VOLTAGE_STRING_REG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
@@ -445,8 +446,8 @@
 <codeline lineno="509"><highlight class="normal"></highlight></codeline>
 <codeline lineno="510"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>AC_MEASURE_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="511"><highlight class="normal"></highlight></codeline>
-<codeline lineno="512"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>--------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ac_measure/src/ac_measure.h"/>
+    <location file="lib/ac_measure/src/ac_measure.h"/>
   </compounddef>
 </doxygen>

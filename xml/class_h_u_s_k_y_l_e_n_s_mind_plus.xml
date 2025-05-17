@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_h_u_s_k_y_l_e_n_s_mind_plus" kind="class" language="C++" prot="public">
     <compoundname>HUSKYLENSMindPlus</compoundname>
     <basecompoundref refid="class_h_u_s_k_y_l_e_n_s" prot="public" virt="non-virtual">HUSKYLENS</basecompoundref>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1afa09279af069bb43f9ce00d5af0b9450" prot="private" static="no" mutable="no">
         <type>bool</type>
         <definition>bool HUSKYLENSMindPlus::isWire</definition>
@@ -17,10 +17,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="49" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="49" bodyend="-1"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="49" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="49" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a3c01c596a3f61dcc911981b59f6553e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void HUSKYLENSMindPlus::beginI2CUntilSuccess</definition>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="52" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="52" bodyend="60"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="52" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="52" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1ab49c68649eb1bcc09085d4d7504f4227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="62" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="62" bodyend="70"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="62" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="62" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a1be55816851b05f1f357d75528373119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="73" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="73" bodyend="76"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="73" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="73" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a151ecb0678ddbb27fbce74208228e395" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="78" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="78" bodyend="81"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="78" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="78" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1ae89308707101a1aaaab7eae847a3e0c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="83" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="83" bodyend="93"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="83" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="83" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1ac284bff823482cd7eccd9cc41e87365b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_h_u_s_k_y_l_e_n_s_block_info__t" kindref="compound">HUSKYLENSBlockInfo</ref></type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="95" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="95" bodyend="103"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="95" column="24" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="95" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a76769ef9923b393d4e33f494f973b5c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_h_u_s_k_y_l_e_n_s_arrow_info__t" kindref="compound">HUSKYLENSArrowInfo</ref></type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="105" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="105" bodyend="113"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="105" column="24" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="105" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a6aad89e46a0729d62c74a7daa389a7a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="115" column="10" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="115" bodyend="125"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="115" column="10" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="115" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a3c9800aa42beac6e7a569d4484765ec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_h_u_s_k_y_l_e_n_s_block_direct_info__t" kindref="compound">HUSKYLENSBlockDirectInfo</ref></type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="127" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="127" bodyend="150"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="127" column="30" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="127" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a59134f4a7446363c9ab171cb268d6699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_h_u_s_k_y_l_e_n_s_arrow_direct_info__t" kindref="compound">HUSKYLENSArrowDirectInfo</ref></type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="152" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="152" bodyend="175"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="152" column="30" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="152" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a9f73c24db779128fc3e5760e1f21ed64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="177" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="177" bodyend="179"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="177" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="177" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1ac019d8fb6b666f7489e90a28029a1e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="181" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="181" bodyend="191"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="181" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="181" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a384d188d656048dc1a54f28a048ed5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="193" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="193" bodyend="206"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="193" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="193" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1af667babb6ca52834f28af9d8e97dea22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="208" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="208" bodyend="218"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="208" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="208" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1ab29a7f9d7ceb03a2ac32efdae59805a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_h_u_s_k_y_l_e_n_s_block_direct_info__t" kindref="compound">HUSKYLENSBlockDirectInfo</ref></type>
@@ -291,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="220" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="220" bodyend="229"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="220" column="30" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="220" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1ac41bc5e73bc99f390f56a9ff33d328e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_h_u_s_k_y_l_e_n_s_arrow_direct_info__t" kindref="compound">HUSKYLENSArrowDirectInfo</ref></type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="231" column="30" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="231" bodyend="240"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="231" column="30" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="231" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="class_h_u_s_k_y_l_e_n_s_mind_plus_1a81b90032007beb192267a6e25d7977d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -331,9 +331,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="242" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="242" bodyend="252"/>
+        <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="242" column="11" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="242" bodyend="252"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -362,7 +362,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="46" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="47" bodyend="255"/>
+    <location file="lib/HUSKYLENS/HUSKYLENSMindPlus.h" line="46" column="1" bodyfile="lib/HUSKYLENS/HUSKYLENSMindPlus.h" bodystart="47" bodyend="255"/>
     <listofallmembers>
       <member refid="class_h_u_s_k_y_l_e_n_s_1a1729436d1d5935cac5371c4f1d9c31d8" prot="public" virt="non-virtual"><scope>HUSKYLENSMindPlus</scope><name>available</name></member>
       <member refid="class_h_u_s_k_y_l_e_n_s_1a172b59d14c06dd70d1eb04803350f17d" prot="public" virt="non-virtual"><scope>HUSKYLENSMindPlus</scope><name>begin</name></member>

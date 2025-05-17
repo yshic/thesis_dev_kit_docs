@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_allocator_owner" kind="class" language="C++" prot="public">
     <compoundname>AllocatorOwner</compoundname>
+    <derivedcompoundref refid="class_basic_json_document" prot="private" virt="non-virtual">BasicJsonDocument&lt; DefaultAllocator &gt;</derivedcompoundref>
     <derivedcompoundref refid="class_basic_json_document" prot="private" virt="non-virtual">BasicJsonDocument&lt; TAllocator &gt;</derivedcompoundref>
     <templateparamlist>
       <param>
         <type>typename TAllocator</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_allocator_owner_1afa0e9e96ec76b6cec02c3b2c9c190ebb" prot="private" static="no" mutable="no">
         <type>TAllocator</type>
         <definition>TAllocator AllocatorOwner&lt; TAllocator &gt;::allocator_</definition>
@@ -21,10 +22,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="37" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="37" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="37" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_allocator_owner_1ac3f4e8ce4e948746abc2894449538669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>AllocatorOwner&lt; TAllocator &gt;::AllocatorOwner</definition>
@@ -37,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="16" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="16" bodyend="16"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="16" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="16" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="class_allocator_owner_1a3a43a41db558dd957bdf32bdfa775328" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -55,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="17" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="17" bodyend="17"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="17" column="3" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="17" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="class_allocator_owner_1aefd3ab629de5af556fd34ff30d21b485" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void *</type>
@@ -73,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="19" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="19" bodyend="21"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="19" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="19" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="class_allocator_owner_1a500fac981c3d862c346fe0f5e06a3131" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -91,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="23" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="23" bodyend="26"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="23" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="23" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="class_allocator_owner_1a187b5421ec381ad6b554701b0e864516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void *</type>
@@ -113,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="28" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="28" bodyend="30"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="28" column="8" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="28" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_allocator_owner_1a17c2382f4e324a65a38220055eb5e0b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>TAllocator &amp;</type>
@@ -127,9 +128,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="32" column="14" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="32" bodyend="34"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="32" column="14" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="32" bodyend="34"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -140,13 +141,19 @@
         <link refid="class_allocator_owner"/>
       </node>
       <node id="2">
+        <label>BasicJsonDocument&lt; DefaultAllocator &gt;</label>
+        <link refid="class_basic_json_document"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
         <label>BasicJsonDocument&lt; TAllocator &gt;</label>
         <link refid="class_basic_json_document"/>
         <childnode refid="1" relation="private-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="14" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="14" bodyend="38"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" line="14" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp" bodystart="14" bodyend="38"/>
     <listofallmembers>
       <member refid="class_allocator_owner_1aefd3ab629de5af556fd34ff30d21b485" prot="public" virt="non-virtual"><scope>AllocatorOwner</scope><name>allocate</name></member>
       <member refid="class_allocator_owner_1a17c2382f4e324a65a38220055eb5e0b8" prot="public" virt="non-virtual"><scope>AllocatorOwner</scope><name>allocator</name></member>

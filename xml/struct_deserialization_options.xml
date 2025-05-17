@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_deserialization_options" kind="struct" language="C++" prot="public">
     <compoundname>DeserializationOptions</compoundname>
     <templateparamlist>
@@ -7,7 +7,7 @@
         <type>typename TFilter</type>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_deserialization_options_1aaae4182fa948bde5927c6bb398c94580" prot="public" static="no" mutable="no">
         <type>TFilter</type>
         <definition>TFilter DeserializationOptions&lt; TFilter &gt;::filter</definition>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="14" column="11" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="14" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="14" column="11" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_deserialization_options_1a941fc57ea41f4e31800e6b235ac3f711" prot="public" static="no" mutable="no">
         <type><ref refid="class_deserialization_option_1_1_nesting_limit" kindref="compound">DeserializationOption::NestingLimit</ref></type>
@@ -34,9 +34,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="15" column="39" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="15" bodyend="-1"/>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="15" column="39" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="15" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="13" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="13" bodyend="16"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" line="13" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp" bodystart="13" bodyend="16"/>
     <listofallmembers>
       <member refid="struct_deserialization_options_1aaae4182fa948bde5927c6bb398c94580" prot="public" virt="non-virtual"><scope>DeserializationOptions</scope><name>filter</name></member>
       <member refid="struct_deserialization_options_1a941fc57ea41f4e31800e6b235ac3f711" prot="public" virt="non-virtual"><scope>DeserializationOptions</scope><name>nestingLimit</name></member>

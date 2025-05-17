@@ -1,0 +1,5 @@
+<map id="AcMeasure::getRawApparentPower" name="AcMeasure::getRawApparentPower">
+<area shape="rect" id="Node000001" title="Reads the raw apparent power value from the device." alt="" coords="256,5,448,48"/>
+<area shape="rect" id="Node000002" href="$class_ac_measure.html#a3edd0611ed8c28edabeb6670d33d9f15" title="Retrieves the apparent power in volt&#45;amperes." alt="" coords="5,13,208,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,29,208,29,208,24,240,24"/>
+</map>

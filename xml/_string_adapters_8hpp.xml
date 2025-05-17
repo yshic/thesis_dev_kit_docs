@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="_string_adapters_8hpp" kind="file" language="C++">
     <compoundname>StringAdapters.hpp</compoundname>
     <includes refid="type__traits_8hpp" local="no">ArduinoJson/Polyfills/type_traits.hpp</includes>
     <includes refid="_adapters_2_json_string_8hpp" local="no">ArduinoJson/Strings/Adapters/JsonString.hpp</includes>
     <includes refid="_ram_string_8hpp" local="no">ArduinoJson/Strings/Adapters/RamString.hpp</includes>
     <includes refid="_string_object_8hpp" local="no">ArduinoJson/Strings/Adapters/StringObject.hpp</includes>
-    <includedby refid="_collection_impl_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</includedby>
-    <includedby refid="_memory_pool_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp</includedby>
-    <includedby refid="_serialized_value_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp</includedby>
-    <includedby refid="_json_variant_const_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</includedby>
-    <includedby refid="_variant_compare_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</includedby>
-    <includedby refid="_variant_data_8hpp" local="no">thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</includedby>
+    <includedby refid="_collection_impl_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</includedby>
+    <includedby refid="_memory_pool_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp</includedby>
+    <includedby refid="_serialized_value_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp</includedby>
+    <includedby refid="_json_variant_const_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</includedby>
+    <includedby refid="_variant_compare_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</includedby>
+    <includedby refid="_variant_data_8hpp" local="no">lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>ArduinoJson/Configuration.hpp</label>
@@ -292,7 +292,7 @@
         <link refid="_string_adapter_8hpp_source"/>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp</label>
         <link refid="_string_adapters_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -324,11 +324,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson.hpp</label>
         <link refid="_arduino_json_8hpp_source"/>
       </node>
       <node id="30">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp</label>
         <link refid="_element_proxy_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -338,7 +338,7 @@
         </childnode>
       </node>
       <node id="28">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp</label>
         <link refid="_json_array_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -352,49 +352,49 @@
         </childnode>
       </node>
       <node id="27">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp</label>
         <link refid="_json_array_const_8hpp_source"/>
         <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="22">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp</label>
         <link refid="_json_array_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="33">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp</label>
         <link refid="_json_array_iterator_8hpp_source"/>
         <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp</label>
         <link refid="_utilities_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp</label>
         <link refid="_collection_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="17">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp</label>
         <link refid="_reader_8hpp_source"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp</label>
         <link refid="_variant_reader_8hpp_source"/>
         <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp</label>
         <link refid="deserialize_8hpp_source"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -402,19 +402,19 @@
         </childnode>
       </node>
       <node id="7">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp</label>
         <link refid="_basic_json_document_8hpp_source"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp</label>
         <link refid="_dynamic_json_document_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp</label>
         <link refid="_json_document_8hpp_source"/>
         <childnode refid="6" relation="include">
         </childnode>
@@ -424,19 +424,19 @@
         </childnode>
       </node>
       <node id="9">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp</label>
         <link refid="_static_json_document_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp</label>
         <link refid="_json_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="40">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp</label>
         <link refid="_json_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -446,13 +446,13 @@
         </childnode>
       </node>
       <node id="41">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp</label>
         <link refid="_pretty_json_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp</label>
         <link refid="_memory_pool_8hpp_source"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -468,25 +468,25 @@
         </childnode>
       </node>
       <node id="43">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp</label>
         <link refid="_serialized_value_8hpp_source"/>
         <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="11">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp</label>
         <link refid="_msg_pack_deserializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="35">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp</label>
         <link refid="_msg_pack_serializer_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="36">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp</label>
         <link refid="parse_number_8hpp_source"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -494,7 +494,7 @@
         </childnode>
       </node>
       <node id="21">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp</label>
         <link refid="_json_object_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -508,31 +508,31 @@
         </childnode>
       </node>
       <node id="20">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp</label>
         <link refid="_json_object_const_8hpp_source"/>
         <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="23">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp</label>
         <link refid="_json_object_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="19">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp</label>
         <link refid="_json_object_iterator_8hpp_source"/>
         <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="18">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp</label>
         <link refid="_json_pair_8hpp_source"/>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="31">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp</label>
         <link refid="_member_proxy_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -544,7 +544,7 @@
         </childnode>
       </node>
       <node id="39">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp</label>
         <link refid="measure_8hpp_source"/>
         <childnode refid="40" relation="include">
         </childnode>
@@ -554,7 +554,7 @@
         </childnode>
       </node>
       <node id="42">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp</label>
         <link refid="serialize_8hpp_source"/>
         <childnode refid="40" relation="include">
         </childnode>
@@ -564,19 +564,19 @@
         </childnode>
       </node>
       <node id="12">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp</label>
         <link refid="_string_copier_8hpp_source"/>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="13">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp</label>
         <link refid="_string_storage_8hpp_source"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp</label>
         <link refid="_string_adapters_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -592,13 +592,13 @@
         </childnode>
       </node>
       <node id="25">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp</label>
         <link refid="_converter_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="32">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp</label>
         <link refid="_json_variant_8hpp_source"/>
         <childnode refid="33" relation="include">
         </childnode>
@@ -608,7 +608,7 @@
         </childnode>
       </node>
       <node id="15">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp</label>
         <link refid="_json_variant_const_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -626,7 +626,7 @@
         </childnode>
       </node>
       <node id="37">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp</label>
         <link refid="_slot_functions_8hpp_source"/>
         <childnode refid="33" relation="include">
         </childnode>
@@ -634,7 +634,7 @@
         </childnode>
       </node>
       <node id="26">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp</label>
         <link refid="_variant_attorney_8hpp_source"/>
         <childnode refid="27" relation="include">
         </childnode>
@@ -642,13 +642,13 @@
         </childnode>
       </node>
       <node id="44">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp</label>
         <link refid="_variant_compare_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="34">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp</label>
         <link refid="_variant_data_8hpp_source"/>
         <childnode refid="27" relation="include">
         </childnode>
@@ -668,7 +668,7 @@
         </childnode>
       </node>
       <node id="38">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp</label>
         <link refid="_variant_functions_8hpp_source"/>
         <childnode refid="39" relation="include">
         </childnode>
@@ -680,13 +680,13 @@
         </childnode>
       </node>
       <node id="24">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp</label>
         <link refid="_variant_impl_8hpp_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="29">
-        <label>thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
+        <label>lib/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp</label>
         <link refid="_variant_ref_base_8hpp_source"/>
         <childnode refid="30" relation="include">
         </childnode>
@@ -696,6 +696,154 @@
         </childnode>
       </node>
     </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_string_adapters_8hpp_1ac67617b17e187bc669fae92cff0dbe9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString1</type>
+          </param>
+          <param>
+            <type>typename TAdaptedString2</type>
+          </param>
+        </templateparamlist>
+        <type>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE <ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; TAdaptedString1::typeSortKey&lt;=TAdaptedString2::typeSortKey, int &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>ARDUINOJSON_BEGIN_PRIVATE_NAMESPACE enable_if&lt; TAdaptedString1::typeSortKey&lt;=TAdaptedString2::typeSortKey, int &gt;::type stringCompare</definition>
+        <argsstring>(TAdaptedString1 s1, TAdaptedString2 s2)</argsstring>
+        <name>stringCompare</name>
+        <param>
+          <type>TAdaptedString1</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>TAdaptedString2</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" line="21" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" bodystart="21" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="_string_adapters_8hpp_1adcf8e4511f069c247c502e642aef6053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString1</type>
+          </param>
+          <param>
+            <type>typename TAdaptedString2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;(TAdaptedString1::typeSortKey &gt;TAdaptedString2::typeSortKey), int &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>enable_if&lt;(TAdaptedString1::typeSortKey &gt;TAdaptedString2::typeSortKey), int &gt;::type stringCompare</definition>
+        <argsstring>(TAdaptedString1 s1, TAdaptedString2 s2)</argsstring>
+        <name>stringCompare</name>
+        <param>
+          <type>TAdaptedString1</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>TAdaptedString2</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" line="41" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="_string_adapters_8hpp_1a09d0af07310cf7468ae7008a854c963f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString1</type>
+          </param>
+          <param>
+            <type>typename TAdaptedString2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt; TAdaptedString1::typeSortKey&lt;=TAdaptedString2::typeSortKey, bool &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>enable_if&lt; TAdaptedString1::typeSortKey&lt;=TAdaptedString2::typeSortKey, bool &gt;::type stringEquals</definition>
+        <argsstring>(TAdaptedString1 s1, TAdaptedString2 s2)</argsstring>
+        <name>stringEquals</name>
+        <param>
+          <type>TAdaptedString1</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>TAdaptedString2</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" line="48" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="_string_adapters_8hpp_1a4528bca4899a4f52d30b4114f5d56aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString1</type>
+          </param>
+          <param>
+            <type>typename TAdaptedString2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;(TAdaptedString1::typeSortKey &gt;TAdaptedString2::typeSortKey), bool &gt;<ref refid="structconditional" kindref="compound">::type</ref></type>
+        <definition>enable_if&lt;(TAdaptedString1::typeSortKey &gt;TAdaptedString2::typeSortKey), bool &gt;::type stringEquals</definition>
+        <argsstring>(TAdaptedString1 s1, TAdaptedString2 s2)</argsstring>
+        <name>stringEquals</name>
+        <param>
+          <type>TAdaptedString1</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>TAdaptedString2</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" line="65" column="1" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="_string_adapters_8hpp_1af7b5600b1f74aa7bbd6e3c5315592a0b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TAdaptedString</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void stringGetChars</definition>
+        <argsstring>(TAdaptedString s, char *p, size_t n)</argsstring>
+        <name>stringGetChars</name>
+        <param>
+          <type>TAdaptedString</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" line="70" column="13" bodyfile="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -720,7 +868,7 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString2&gt;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;TAdaptedString1::typeSortKey<sp/>&lt;=<sp/>TAdaptedString2::typeSortKey,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">stringCompare(TAdaptedString1<sp/>s1,<sp/>TAdaptedString2<sp/>s2)<sp/>{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/>ARDUINOJSON_ASSERT(!s1.isNull());</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/>ARDUINOJSON_ASSERT(!s2.isNull());</highlight></codeline>
@@ -740,14 +888,14 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString2&gt;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>(TAdaptedString1::typeSortKey<sp/>&gt;<sp/>TAdaptedString2::typeSortKey),<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>(TAdaptedString1::typeSortKey<sp/>&gt;<sp/>TAdaptedString2::typeSortKey),<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="41"><highlight class="normal">stringCompare(TAdaptedString1<sp/>s1,<sp/>TAdaptedString2<sp/>s2)<sp/>{</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-stringCompare(s2,<sp/>s1);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString2&gt;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;TAdaptedString1::typeSortKey<sp/>&lt;=<sp/>TAdaptedString2::typeSortKey,</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">stringEquals(TAdaptedString1<sp/>s1,<sp/>TAdaptedString2<sp/>s2)<sp/>{</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/>ARDUINOJSON_ASSERT(!s1.isNull());</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/>ARDUINOJSON_ASSERT(!s2.isNull());</highlight></codeline>
@@ -764,7 +912,7 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TAdaptedString2&gt;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structenable__if" kindref="compound">enable_if</ref>&lt;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>(TAdaptedString1::typeSortKey<sp/>&gt;<sp/>TAdaptedString2::typeSortKey),<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;::type</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>(TAdaptedString1::typeSortKey<sp/>&gt;<sp/>TAdaptedString2::typeSortKey),<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<ref refid="structconditional" kindref="compound">::type</ref></highlight></codeline>
 <codeline lineno="65"><highlight class="normal">stringEquals(TAdaptedString1<sp/>s1,<sp/>TAdaptedString2<sp/>s2)<sp/>{</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stringEquals(s2,<sp/>s1);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">}</highlight></codeline>
@@ -779,6 +927,6 @@
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal">ARDUINOJSON_END_PRIVATE_NAMESPACE</highlight></codeline>
     </programlisting>
-    <location file="thesis_mdt266_iotdevkit/lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp"/>
+    <location file="lib/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp"/>
   </compounddef>
 </doxygen>

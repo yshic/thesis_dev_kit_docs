@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_light_sensor" kind="class" language="C++" prot="public">
     <compoundname>LightSensor</compoundname>
     <includes refid="light__sensor_8h" local="no">light_sensor.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_light_sensor_1a27f49407f116c92f7df44a84a6048f82" prot="private" static="no" mutable="no">
         <type>int</type>
         <definition>int LightSensor::_pin</definition>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="197" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" bodystart="197" bodyend="-1"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="197" column="12" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_light_sensor_1a851a76e3775c9b6d504410bcfa15f928" prot="private" static="no" mutable="no">
         <type>uint32_t</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="198" column="12" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" bodystart="198" bodyend="-1"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="198" column="12" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="198" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_light_sensor_1acf5877df0effb774e11b1b13889ab7a9" prot="private" static="no" mutable="no">
         <type>void(*</type>
@@ -47,10 +47,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="199" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" bodystart="199" bodyend="-1"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="199" column="3" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="199" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_light_sensor_1a9add6ef1b1b4ff5bf6bd2dc34b84cbbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>LightSensor::LightSensor</definition>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="89" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="29" bodyend="36"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="89" column="3" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="29" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>light_sensor_error_t</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="106" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="38" bodyend="44"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="106" column="24" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="38" bodyend="44"/>
         <references refid="bsp__gpio_8cpp_1a34347317f123b2222eb416e5e5c56091" compoundref="bsp__gpio_8cpp" startline="75" endline="75">bspGpioAnalogRead</references>
         <referencedby refid="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" compoundref="light__sensor_8cpp" startline="63" endline="73">getAverageReading</referencedby>
         <referencedby refid="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" compoundref="light__sensor_8cpp" startline="46" endline="55">readAndMap</referencedby>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="121" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="46" bodyend="55"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="121" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="46" bodyend="55"/>
         <references refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" compoundref="light__sensor_8cpp" startline="38" endline="44">read</references>
       </memberdef>
       <memberdef kind="function" id="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="135" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="61" bodyend="61"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="135" column="8" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="61" bodyend="61"/>
         <referencedby refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" compoundref="light__sensor_8cpp" startline="75" endline="83">onThresholdCross</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_light_sensor_1a8e5f8fc679864dd9e7dd7e71e926a613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="148" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="57" bodyend="57"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="148" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="class_light_sensor_1a751212ac84d8b0541fbcdc35478f733e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="161" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="59" bodyend="59"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="161" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="59" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="175" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="63" bodyend="73"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="175" column="7" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="63" bodyend="73"/>
         <references refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" compoundref="light__sensor_8cpp" startline="38" endline="44">read</references>
       </memberdef>
       <memberdef kind="function" id="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -343,18 +343,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="194" column="24" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.cpp" bodystart="75" bodyend="83"/>
+        <location file="lib/light_sensor/src/light_sensor.h" line="194" column="24" bodyfile="lib/light_sensor/src/light_sensor.cpp" bodystart="75" bodyend="83"/>
         <references refid="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" compoundref="light__sensor_8cpp" startline="61" endline="61">isAboveThreshold</references>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages light intensity measurements using an analog light sensor. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_light_sensor" kindref="compound">LightSensor</ref></computeroutput> class provides functionality for reading and processing light intensity data from an analog light sensor connected to a specified Arduino pin. It supports raw analog readings with 12-bit ADC resolution, mapped values, threshold detection, averaging, and callback triggering for threshold events.</para>
-<sect3 id="class_light_sensor_1autotoc_md25">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_light_sensor_1autotoc_md25_1s1"><sect2 id="class_light_sensor_1autotoc_md25_1s2"><sect3 id="class_light_sensor_1autotoc_md25">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Reads raw analog light intensity values with 12-bit resolution.</para>
 </listitem><listitem><para>Maps raw values to a user-defined range (e.g., 0–100).</para>
 </listitem><listitem><para>Detects if light intensity exceeds a specified threshold.</para>
@@ -362,23 +361,21 @@
 </listitem><listitem><para>Supports callback functions for threshold-crossing events.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_light_sensor_1autotoc_md26">
-<title>Usage:</title>
-<para>Instantiate the class with the appropriate analog pin. Call <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to retrieve raw sensor data or <computeroutput><ref refid="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" kindref="member">readAndMap()</ref></computeroutput> for scaled values. Use <computeroutput><ref refid="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" kindref="member">isAboveThreshold()</ref></computeroutput> for conditional checks, <computeroutput><ref refid="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" kindref="member">getAverageReading()</ref></computeroutput> for smoothed data, or <computeroutput><ref refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" kindref="member">onThresholdCross()</ref></computeroutput> to set up event-driven callbacks. Regularly call <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to update sensor values.</para>
-</sect3>
-<sect3 id="class_light_sensor_1autotoc_md27">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_light_sensor_1autotoc_md26_1s1"><sect2 id="class_light_sensor_1autotoc_md26_1s2"><sect3 id="class_light_sensor_1autotoc_md26">
+<title>Usage:</title><para>Instantiate the class with the appropriate analog pin. Call <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to retrieve raw sensor data or <computeroutput><ref refid="class_light_sensor_1a8fe3d926c42065e23b14b41c6a7bbbc1" kindref="member">readAndMap()</ref></computeroutput> for scaled values. Use <computeroutput><ref refid="class_light_sensor_1aa3e88fce5560831b6ff8ccf508fa8328" kindref="member">isAboveThreshold()</ref></computeroutput> for conditional checks, <computeroutput><ref refid="class_light_sensor_1af31fbe6b1894a1a460097a78f6306363" kindref="member">getAverageReading()</ref></computeroutput> for smoothed data, or <computeroutput><ref refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" kindref="member">onThresholdCross()</ref></computeroutput> to set up event-driven callbacks. Regularly call <computeroutput><ref refid="class_light_sensor_1a7706fb1a75f1711ddcfa25b9b90c3fd9" kindref="member">read()</ref></computeroutput> to update sensor values.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_light_sensor_1autotoc_md27_1s1"><sect2 id="class_light_sensor_1autotoc_md27_1s2"><sect3 id="class_light_sensor_1autotoc_md27">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires an Arduino-compatible board with analog input support (12-bit ADC).</para>
 </listitem><listitem><para>Sensor must be connected to a valid analog pin.</para>
 </listitem><listitem><para>Depends on <computeroutput><ref refid="bsp__gpio_8h" kindref="compound">bsp_gpio.h</ref></computeroutput> for analog reading (<computeroutput>bspGpioAnalogRead</computeroutput>).</para>
 </listitem><listitem><para>Callback functions must be defined before use with <computeroutput><ref refid="class_light_sensor_1af02e3f37f34ecc55a5d3ecc75915dc47" kindref="member">onThresholdCross()</ref></computeroutput>. </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" line="76" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" bodystart="77" bodyend="200"/>
+    <location file="lib/light_sensor/src/light_sensor.h" line="76" column="1" bodyfile="lib/light_sensor/src/light_sensor.h" bodystart="77" bodyend="200"/>
     <listofallmembers>
       <member refid="class_light_sensor_1acf5877df0effb774e11b1b13889ab7a9" prot="private" virt="non-virtual"><scope>LightSensor</scope><name>_callback</name></member>
       <member refid="class_light_sensor_1a27f49407f116c92f7df44a84a6048f82" prot="private" virt="non-virtual"><scope>LightSensor</scope><name>_pin</name></member>

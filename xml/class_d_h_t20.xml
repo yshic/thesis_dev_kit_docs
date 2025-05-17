@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="class_d_h_t20" kind="class" language="C++" prot="public">
     <compoundname>DHT20</compoundname>
     <includes refid="dht20_8h" local="no">dht20.h</includes>
-      <sectiondef kind="private-attrib">
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_d_h_t20_1a3217933b98490ad3662282d49697425e" prot="private" static="no" mutable="no">
         <type>float</type>
         <definition>float DHT20::sensorValue[2]</definition>
@@ -16,10 +16,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="137" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="137" bodyend="-1"/>
+        <location file="lib/dht20/src/dht20.h" line="137" column="9" bodyfile="lib/dht20/src/dht20.h" bodystart="137" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_d_h_t20_1a40a083a5c1114c27e99dbe6a35333f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>DHT20::DHT20</definition>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="78" column="3" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="30" bodyend="30"/>
+        <location file="lib/dht20/src/dht20.h" line="78" column="3" bodyfile="lib/dht20/src/dht20.cpp" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>dht20_error_t</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="94" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="32" bodyend="37"/>
+        <location file="lib/dht20/src/dht20.h" line="94" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="32" bodyend="37"/>
         <referencedby refid="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" compoundref="dht20_8cpp" startline="148" endline="180">readTempAndHumidity</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="114" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="148" bodyend="180"/>
+        <location file="lib/dht20/src/dht20.h" line="114" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="148" bodyend="180"/>
         <references refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" compoundref="dht20_8cpp" startline="32" endline="37">begin</references>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="124" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="182" bodyend="182"/>
+        <location file="lib/dht20/src/dht20.h" line="124" column="9" bodyfile="lib/dht20/src/dht20.cpp" bodystart="182" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -151,10 +151,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="134" column="9" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="184" bodyend="184"/>
+        <location file="lib/dht20/src/dht20.h" line="134" column="9" bodyfile="lib/dht20/src/dht20.cpp" bodystart="184" bodyend="184"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_d_h_t20_1a1588d5663bf1c45f0cd01ff4b3a01b88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>dht20_error_t</type>
         <definition>dht20_error_t DHT20::readTargetData</definition>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="164" column="17" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="108" bodyend="146"/>
+        <location file="lib/dht20/src/dht20.h" line="164" column="17" bodyfile="lib/dht20/src/dht20.cpp" bodystart="108" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a34bc5381d463604f9789bc3a2dcfbfb0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="182" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="86" bodyend="106"/>
+        <location file="lib/dht20/src/dht20.h" line="182" column="7" bodyfile="lib/dht20/src/dht20.cpp" bodystart="86" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1affbb1ad27f215b9db2c74a0c130c5d73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="203" column="7" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="44" bodyend="60"/>
+        <location file="lib/dht20/src/dht20.h" line="203" column="7" bodyfile="lib/dht20/src/dht20.cpp" bodystart="44" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_d_h_t20_1a69419789f1b2d4bb8fe051eb4b568f84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -312,38 +312,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="219" column="8" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.cpp" bodystart="62" bodyend="83"/>
+        <location file="lib/dht20/src/dht20.h" line="219" column="8" bodyfile="lib/dht20/src/dht20.cpp" bodystart="62" bodyend="83"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>Manages communication with the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> temperature and humidity sensor. </para>
     </briefdescription>
     <detaileddescription>
 <para>The <computeroutput><ref refid="class_d_h_t20" kindref="compound">DHT20</ref></computeroutput> class provides an interface for interacting with the <ref refid="class_d_h_t20" kindref="compound">DHT20</ref> sensor using I2C communication. It allows users to initialize the sensor, read temperature and humidity data, and handle sensor status.</para>
-<sect3 id="class_d_h_t20_1autotoc_md19">
-<title>Features:</title>
-<para><itemizedlist>
+<sect1 id="class_d_h_t20_1autotoc_md19_1s1"><sect2 id="class_d_h_t20_1autotoc_md19_1s2"><sect3 id="class_d_h_t20_1autotoc_md19">
+<title>Features:</title><para><itemizedlist>
 <listitem><para>Initialization and status management.</para>
 </listitem><listitem><para>Reading humidity and temperature values.</para>
 </listitem><listitem><para>Handling errors related to sensor communication.</para>
 </listitem><listitem><para>Provides retry mechanisms for stable sensor interaction.</para>
 </listitem></itemizedlist>
 </para>
-</sect3>
-<sect3 id="class_d_h_t20_1autotoc_md20">
-<title>Usage:</title>
-<para>The class should be instantiated, followed by calling <computeroutput><ref refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Temperature and humidity data can be retrieved using <computeroutput><ref refid="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" kindref="member">readTempAndHumidity()</ref></computeroutput>, <computeroutput><ref refid="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" kindref="member">getTemperature()</ref></computeroutput>, and <computeroutput><ref refid="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" kindref="member">getHumidity()</ref></computeroutput>. The class also includes internal mechanisms to manage sensor resets and diagnostics.</para>
-</sect3>
-<sect3 id="class_d_h_t20_1autotoc_md21">
-<title>Dependencies:</title>
-<para><itemizedlist>
+</sect3></sect2></sect1>
+<sect1 id="class_d_h_t20_1autotoc_md20_1s1"><sect2 id="class_d_h_t20_1autotoc_md20_1s2"><sect3 id="class_d_h_t20_1autotoc_md20">
+<title>Usage:</title><para>The class should be instantiated, followed by calling <computeroutput><ref refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" kindref="member">begin()</ref></computeroutput> to initialize the sensor. Temperature and humidity data can be retrieved using <computeroutput><ref refid="class_d_h_t20_1acfd9286ea22e44a6d0b94497a8f7ed2c" kindref="member">readTempAndHumidity()</ref></computeroutput>, <computeroutput><ref refid="class_d_h_t20_1ac62b81dcc477a8f47c797849c5cf27f2" kindref="member">getTemperature()</ref></computeroutput>, and <computeroutput><ref refid="class_d_h_t20_1a3b4aa6dc2faac1e170773edc429d26cc" kindref="member">getHumidity()</ref></computeroutput>. The class also includes internal mechanisms to manage sensor resets and diagnostics.</para>
+</sect3></sect2></sect1>
+<sect1 id="class_d_h_t20_1autotoc_md21_1s1"><sect2 id="class_d_h_t20_1autotoc_md21_1s2"><sect3 id="class_d_h_t20_1autotoc_md21">
+<title>Dependencies:</title><para><itemizedlist>
 <listitem><para>Requires I2C communication for data retrieval.</para>
 </listitem><listitem><para>Ensure correct wiring for stable operation. </para>
 </listitem></itemizedlist>
 </para>
-</sect3>
+</sect3></sect2></sect1>
     </detaileddescription>
-    <location file="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" line="75" column="1" bodyfile="thesis_mdt266_iotdevkit/lib/dht20/src/dht20.h" bodystart="76" bodyend="220"/>
+    <location file="lib/dht20/src/dht20.h" line="75" column="1" bodyfile="lib/dht20/src/dht20.h" bodystart="76" bodyend="220"/>
     <listofallmembers>
       <member refid="class_d_h_t20_1a69419789f1b2d4bb8fe051eb4b568f84" prot="private" virt="non-virtual"><scope>DHT20</scope><name>_resetRegister</name></member>
       <member refid="class_d_h_t20_1a6fd2c9066864ddbc8f2ea5cb1026147b" prot="public" virt="non-virtual"><scope>DHT20</scope><name>begin</name></member>

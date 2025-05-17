@@ -1,0 +1,7 @@
+<map id="LCD_I2C::createChar" name="LCD_I2C::createChar">
+<area shape="rect" id="Node000001" title="Create a custom character (glyph) for use on the LCD. Up to eight characters of 5x8 pixels are suppor..." alt="" coords="5,31,154,57"/>
+<area shape="rect" id="Node000002" href="$class_l_c_d___i2_c.html#a8852aad8dec8a780d31449fc3fab5056" title="Set Cursor to position defined by column and row." alt="" coords="202,5,343,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,32,186,27,186,33,154,37"/>
+<area shape="rect" id="Node000003" href="$class_l_c_d___i2_c.html#a6e9c39f455ba8cefb804a0f5a118744e" title="Write a character to the LCD." alt="" coords="216,56,328,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,51,201,57,200,63,153,56"/>
+</map>

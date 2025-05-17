@@ -1,4 +1,0 @@
-<map id="AcMeasure::getRawCurrent" name="AcMeasure::getRawCurrent">
-<area shape="rect" id="node1" title="Reads the raw current value from the device." alt="" coords="210,5,393,32"/>
-<area shape="rect" id="node2" href="$class_ac_measure.html#af174b4c4da8f50d16cc23f94dba5818c" title="Retrieves the current in amperes." alt="" coords="5,5,162,32"/>
-</map>
