@@ -1,0 +1,5 @@
+<map id="HUSKYLENS::get" name="HUSKYLENS::get">
+<area shape="rect" id="Node000001" title="Retrieves a block or arrow by index." alt="" coords="190,5,319,32"/>
+<area shape="rect" id="Node000002" href="$class_h_u_s_k_y_l_e_n_s.html#a6726373ab7a44dc3a9c19babdec87035" title="Reads the next block or arrow from the buffer." alt="" coords="5,5,142,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>

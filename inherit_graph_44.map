@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_h_u_s_k_y_l_e_n_s_arrow_direct_info__t.html" title=" " alt="" coords="5,5,211,32"/>
+<area shape="rect" id="Node000000" href="$class_h_u_s_k_y_l_e_n_s.html" title="Manages communication with the HuskyLens vision sensor." alt="" coords="5,31,109,57"/>
+<area shape="rect" id="Node000001" href="$class_d_f_robot___husky_lens.html" title=" " alt="" coords="162,5,309,32"/>
+<area shape="poly" id="edge34_Node000000_Node000001" title=" " alt="" coords="124,32,161,27,161,32,124,37"/>
+<area shape="rect" id="Node000002" href="$class_h_u_s_k_y_l_e_n_s_mind_plus.html" title=" " alt="" coords="157,56,314,83"/>
+<area shape="poly" id="edge35_Node000000_Node000002" title=" " alt="" coords="125,51,157,56,156,61,124,56"/>
 </map>

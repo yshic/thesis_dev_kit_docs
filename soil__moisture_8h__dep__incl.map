@@ -1,5 +1,5 @@
-<map id="lib/soil_moisture_sensor/src/soil_moisture.h" name="lib/soil_moisture_sensor/src/soil_moisture.h">
-<area shape="rect" id="Node000001" title="Header for soil moisture sensor library." alt="" coords="5,5,167,48"/>
-<area shape="rect" id="Node000002" href="$soil__moisture_8cpp.html" title="Source file for soil moisture sensor library." alt="" coords="5,96,167,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,64,89,96,83,96,83,64"/>
+<map id="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h" name="thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/soil_moisture.h">
+<area shape="rect" id="Node000001" title="Header for soil moisture sensor library." alt="" coords="5,5,171,64"/>
+<area shape="rect" id="Node000002" href="$soil__moisture_8cpp.html" title="Source file for soil moisture sensor library." alt="" coords="5,112,171,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,80,91,112,85,112,85,80"/>
 </map>

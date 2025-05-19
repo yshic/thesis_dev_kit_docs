@@ -1,0 +1,5 @@
+<map id="HUSKYLENS::isLearned" name="HUSKYLENS::isLearned">
+<area shape="rect" id="Node000001" title="Checks if a specific ID has been learned." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="Node000002" href="$class_h_u_s_k_y_l_e_n_s.html#a125931d086dd65cc3c83fb3ca98b0f57" title="Retrieves the number of learned IDs." alt="" coords="221,5,431,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,16,205,16,205,21,173,21"/>
+</map>

@@ -1,5 +1,5 @@
-<map id="lib/light_sensor/src/light_sensor.h" name="lib/light_sensor/src/light_sensor.h">
-<area shape="rect" id="Node000001" title="Header for Light Sensor Library." alt="" coords="5,5,136,48"/>
-<area shape="rect" id="Node000002" href="$light__sensor_8cpp.html" title="Source file for Light Sensor Library." alt="" coords="5,96,136,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,64,73,96,68,96,68,64"/>
+<map id="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h" name="thesis_mdt266_iotdevkit/lib/light_sensor/src/light_sensor.h">
+<area shape="rect" id="Node000001" title="Header for Light Sensor Library." alt="" coords="5,5,168,64"/>
+<area shape="rect" id="Node000002" href="$light__sensor_8cpp.html" title="Source file for Light Sensor Library." alt="" coords="5,112,168,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,80,89,112,84,112,84,80"/>
 </map>

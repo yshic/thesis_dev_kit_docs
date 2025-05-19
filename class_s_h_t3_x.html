@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -136,7 +136,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages temperature and humidity measurements using the <a class="el" href="class_s_h_t3_x.html" title="Manages temperature and humidity measurements using the SHT3X sensor.">SHT3X</a> sensor. </p>
 <p>The <code><a class="el" href="class_s_h_t3_x.html" title="Manages temperature and humidity measurements using the SHT3X sensor.">SHT3X</a></code> class provides functionality for interfacing with the <a class="el" href="class_s_h_t3_x.html" title="Manages temperature and humidity measurements using the SHT3X sensor.">SHT3X</a> temperature and humidity sensor over an I2C interface. It supports initializing the sensor, updating temperature and humidity readings, and retrieving values in Celsius, Fahrenheit, or percentage humidity. The class stores sensor data internally for efficient access.</p>
-<h3><a class="anchor" id="autotoc_md34"></a>
+<h3><a class="anchor" id="autotoc_md133"></a>
 Features:</h3>
 <ul>
 <li>Reads temperature and humidity with high repeatability.</li>
@@ -145,10 +145,10 @@ Features:</h3>
 <li>Stores humidity as a percentage (0–100%).</li>
 <li>Handles I2C communication with error checking.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md35"></a>
+<h3><a class="anchor" id="autotoc_md134"></a>
 Usage:</h3>
 <p>Instantiate the class and call <code><a class="el" href="#a3e45c87d84b0510e909551ea6271ad95" title="Initializes the SHT3X sensor.">begin()</a></code> with the desired I2C address (default: 0x44) to initialize the sensor. Use <code><a class="el" href="#a6327ea11cd715edadedd6b0ea8018e72" title="Updates temperature and humidity readings from the SHT3X sensor.">update()</a></code> to refresh temperature and humidity readings, then retrieve values with <code><a class="el" href="#a3a319390dc73f5443f2dfee66a4ec569" title="Retrieves the last measured temperature in Celsius.">getTemperatureCelcius()</a></code>, <code><a class="el" href="#a7a5e300023f92886f16f153151726640" title="Retrieves the last measured temperature in Fahrenheit.">getTemperatureFahrenheit()</a></code>, or <code><a class="el" href="#a28b58bfa80e31c626e01658828a299bf" title="Retrieves the last measured humidity.">getHumidity()</a></code>. Ensure the sensor is connected to the I2C bus before use.</p>
-<h3><a class="anchor" id="autotoc_md36"></a>
+<h3><a class="anchor" id="autotoc_md135"></a>
 Dependencies:</h3>
 <ul>
 <li>Requires an Arduino-compatible board with I2C support.</li>
@@ -327,8 +327,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/sht3x/src/<a class="el" href="sht3x_8h_source.html">sht3x.h</a></li>
-<li>lib/sht3x/src/<a class="el" href="sht3x_8cpp.html">sht3x.cpp</a></li>
+<li>thesis_mdt266_iotdevkit/lib/sht3x/src/<a class="el" href="sht3x_8h_source.html">sht3x.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/sht3x/src/<a class="el" href="sht3x_8cpp.html">sht3x.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

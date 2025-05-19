@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>XIAO ESP32S3 Sense Development Kit: lib/utility/src/utility.cpp File Reference</title>
+<title>XIAO ESP32S3 Sense Development Kit: thesis_mdt266_iotdevkit/lib/utility/src/utility.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -115,15 +115,15 @@ $(function(){initNavTree('utility_8cpp.html',''); initResizable(true); });
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for utility.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="utility_8cpp__incl.png" border="0" usemap="#alib_2utility_2src_2utility_8cpp" alt=""/></div>
-<map name="alib_2utility_2src_2utility_8cpp" id="alib_2utility_2src_2utility_8cpp">
-<area shape="rect" title="Source file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="28,5,178,32"/>
-<area shape="rect" href="utility_8h.html" title="Header file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="72,80,134,107"/>
-<area shape="poly" title=" " alt="" coords="106,33,106,64,100,64,100,33"/>
-<area shape="rect" title=" " alt="" coords="5,155,100,181"/>
-<area shape="poly" title=" " alt="" coords="97,109,72,144,68,141,92,106"/>
-<area shape="rect" title=" " alt="" coords="124,155,184,181"/>
-<area shape="poly" title=" " alt="" coords="114,106,139,141,134,144,110,109"/>
+<div class="center"><img src="utility_8cpp__incl.png" border="0" usemap="#athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8cpp" alt=""/></div>
+<map name="athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8cpp" id="athesis__mdt266__iotdevkit_2lib_2utility_2src_2utility_8cpp">
+<area shape="rect" title="Source file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="22,5,184,48"/>
+<area shape="rect" href="utility_8h.html" title="Header file for Utility library. This library provides various utility functions for multiple purpose..." alt="" coords="72,96,134,123"/>
+<area shape="poly" title=" " alt="" coords="106,49,106,80,100,80,100,49"/>
+<area shape="rect" title=" " alt="" coords="5,171,100,197"/>
+<area shape="poly" title=" " alt="" coords="97,125,72,160,68,157,92,122"/>
+<area shape="rect" title=" " alt="" coords="124,171,184,197"/>
+<area shape="poly" title=" " alt="" coords="114,122,139,157,134,160,110,125"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -252,7 +252,7 @@ Here is the caller graph for this function:</div>
 
 <p>Scans the I2C bus for connected devices. </p>
 <p>The <code>scanI2CDevices</code> function probes the I2C bus for devices by attempting communication with addresses from 1 to 126. It reports detected devices and errors via the Serial interface, providing a summary of the scan results. The function is designed for debugging and identifying I2C device addresses on an Arduino-compatible board.</p>
-<h3><a class="anchor" id="autotoc_md52"></a>
+<h3><a class="anchor" id="autotoc_md151"></a>
 Features:</h3>
 <ul>
 <li>Scans I2C addresses 1 through 126 for responsive devices.</li>
@@ -261,10 +261,10 @@ Features:</h3>
 <li>Summarizes the number of devices found or indicates if none are detected.</li>
 <li>Includes a delay to allow periodic scanning without overwhelming the Serial output.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md53"></a>
+<h3><a class="anchor" id="autotoc_md152"></a>
 Usage:</h3>
 <p>Call <code><a class="el" href="utility_8h.html#a8fae21c12475addf28c404a0e1c5eab3" title="Scans the I2C bus for connected devices.">scanI2CDevices()</a></code> to initiate an I2C bus scan. Ensure the Serial interface is initialized (e.g., with <code>Serial.begin(9600)</code>) and the I2C bus is configured (e.g., with <code>Wire.begin()</code>) before calling. The function outputs results to the Serial monitor and pauses for 2 seconds before completing, suitable for repeated calls in a loop.</p>
-<h3><a class="anchor" id="autotoc_md54"></a>
+<h3><a class="anchor" id="autotoc_md153"></a>
 Dependencies:</h3>
 <ul>
 <li>Requires an Arduino-compatible board with I2C support.</li>
@@ -279,7 +279,7 @@ Dependencies:</h3>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_31153c7d8cc16ae64d9212a5c823a211.html">utility</a></li><li class="navelem"><a class="el" href="dir_77d916e9bb7fa9d9968d1ae2d87c64b5.html">src</a></li><li class="navelem"><a class="el" href="utility_8cpp.html">utility.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_779aade6bd8f9f4793ba67c0c3a369ae.html">thesis_mdt266_iotdevkit</a></li><li class="navelem"><a class="el" href="dir_886af127da27a9b719e97f412fb8ee78.html">lib</a></li><li class="navelem"><a class="el" href="dir_e3d7545438c247335ecc5edabfd8d5f8.html">utility</a></li><li class="navelem"><a class="el" href="dir_42004c8c535688355aa3ff5b140ed79a.html">src</a></li><li class="navelem"><a class="el" href="utility_8cpp.html">utility.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

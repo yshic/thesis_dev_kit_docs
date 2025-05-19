@@ -1,11 +1,11 @@
-<map id="lib/pir_sensor/src/pir_sensor.cpp" name="lib/pir_sensor/src/pir_sensor.cpp">
-<area shape="rect" id="Node000001" title="Source file for PIR Sensor Library." alt="" coords="48,5,169,48"/>
-<area shape="rect" id="Node000002" href="$pir__sensor_8h.html" title="Header for PIR Sensor Library." alt="" coords="6,96,99,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,50,72,85,68,82,92,47"/>
-<area shape="rect" id="Node000004" href="$bsp__gpio_8h.html" title="Header file for bsp_gpio." alt="" coords="122,96,207,123"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,47,149,82,145,85,121,50"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,171,100,197"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="55,123,55,155,50,155,50,123"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="126,171,203,197"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="167,123,167,155,162,155,162,123"/>
+<map id="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp" name="thesis_mdt266_iotdevkit/lib/pir_sensor/src/pir_sensor.cpp">
+<area shape="rect" id="Node000001" title="Source file for PIR Sensor Library." alt="" coords="27,5,190,64"/>
+<area shape="rect" id="Node000002" href="$pir__sensor_8h.html" title="Header for PIR Sensor Library." alt="" coords="6,112,99,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,66,71,100,66,97,88,63"/>
+<area shape="rect" id="Node000004" href="$bsp__gpio_8h.html" title="Header file for bsp_gpio." alt="" coords="122,112,207,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,63,151,97,146,100,124,66"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,187,100,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="55,139,55,171,50,171,50,139"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="126,187,203,213"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="167,139,167,171,162,171,162,139"/>
 </map>

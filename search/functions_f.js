@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['read_0',['read',['../class_http_client.html#a18ea928ad5adf203405e24070c67f84d',1,'HttpClient::read()'],['../class_web_socket_client.html#adfbbbff32d9c8b22b1ad887e39289e96',1,'WebSocketClient::read()'],['../class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9',1,'LightSensor::read()'],['../class_p_i_r_sensor.html#a333aef3852d9caa14fb64dad7d51404a',1,'PIRSensor::read()'],['../class_soil_moisture.html#ab1a0cb8f764d8e4745a12aa3c61f5241',1,'SoilMoisture::read()'],['../class_ultrasonic.html#ad348f27e733e674cce10921edc2f00c5',1,'Ultrasonic::read()']]],
+  ['read_0',['read',['../class_http_client.html#a18ea928ad5adf203405e24070c67f84d',1,'HttpClient::read()'],['../class_web_socket_client.html#adfbbbff32d9c8b22b1ad887e39289e96',1,'WebSocketClient::read()'],['../class_h_u_s_k_y_l_e_n_s.html#a6726373ab7a44dc3a9c19babdec87035',1,'HUSKYLENS::read()'],['../class_light_sensor.html#a7706fb1a75f1711ddcfa25b9b90c3fd9',1,'LightSensor::read()'],['../class_p_i_r_sensor.html#a333aef3852d9caa14fb64dad7d51404a',1,'PIRSensor::read()'],['../class_soil_moisture.html#ab1a0cb8f764d8e4745a12aa3c61f5241',1,'SoilMoisture::read()'],['../class_ultrasonic.html#ad348f27e733e674cce10921edc2f00c5',1,'Ultrasonic::read()']]],
   ['readaltitude_1',['readAltitude',['../class_b_m_p280.html#ad9d68ec2a3c74dd8ce6b1684cc1df79d',1,'BMP280']]],
   ['readandmap_2',['readAndMap',['../class_light_sensor.html#a8fe3d926c42065e23b14b41c6a7bbbc1',1,'LightSensor::readAndMap()'],['../class_soil_moisture.html#a982b1e7ebe382617c8ccb2fa19629eae',1,'SoilMoisture::readAndMap()']]],
   ['readheader_3',['readHeader',['../class_http_client.html#ad2c91a8d7e27b4912751b229d2229adc',1,'HttpClient']]],
@@ -22,9 +22,15 @@ var searchData=
   ['relay_19',['Relay',['../class_relay.html#adad23a5505a37c21a4c3353a65ff51c3',1,'Relay']]],
   ['relayall_20',['relayAll',['../class_unit4_relay.html#ae1ae938e7f9ef4a340da551b5ea2f157',1,'Unit4Relay']]],
   ['relaywrite_21',['relayWrite',['../class_unit4_relay.html#a058eddf27fc3dacd823cb183016f7d48',1,'Unit4Relay']]],
-  ['reset_22',['reset',['../class_b_m_p280.html#af0273f65cd8c3b4e3ee472668a0a8d6f',1,'BMP280::reset()'],['../class_p_i_r_sensor.html#aae89f9041cb5bbb925e358fb990eaf6f',1,'PIRSensor::reset()']]],
-  ['resetstate_23',['resetState',['../class_http_client.html#ab29155f574471c50d78b72484378b9b5',1,'HttpClient']]],
-  ['responsebody_24',['responseBody',['../class_http_client.html#a05eb433f7d6ce865c6bd4e16526e72c3',1,'HttpClient']]],
-  ['responsestatuscode_25',['responseStatusCode',['../class_http_client.html#a0fba0410f61b4317f42fd1d477d0162b',1,'HttpClient']]],
-  ['righttoleft_26',['rightToLeft',['../class_l_c_d___i2_c.html#a477dc9c04b7b0f010fcf5288be9f4050',1,'LCD_I2C']]]
+  ['request_22',['request',['../class_h_u_s_k_y_l_e_n_s.html#afc23efa07d3258d79fca54913ef266ae',1,'HUSKYLENS::request()'],['../class_h_u_s_k_y_l_e_n_s.html#a5ec292eaf1f3c57d5db5f9ee20a3e1fa',1,'HUSKYLENS::request(int16_t ID)']]],
+  ['requestarrows_23',['requestArrows',['../class_h_u_s_k_y_l_e_n_s.html#a2d9fb086803063a237c7b98e6167e49b',1,'HUSKYLENS::requestArrows()'],['../class_h_u_s_k_y_l_e_n_s.html#a2f184e18a4de1edf6bc1ed1f3eb7f055',1,'HUSKYLENS::requestArrows(int16_t ID)']]],
+  ['requestarrowslearned_24',['requestArrowsLearned',['../class_h_u_s_k_y_l_e_n_s.html#ac83be63e0702acd758547220dab8faf4',1,'HUSKYLENS']]],
+  ['requestblocks_25',['requestBlocks',['../class_h_u_s_k_y_l_e_n_s.html#a2268e25b82d994ca5be00f7c1179e22a',1,'HUSKYLENS::requestBlocks()'],['../class_h_u_s_k_y_l_e_n_s.html#a2902750278b20fab543e19a71ba4312a',1,'HUSKYLENS::requestBlocks(int16_t ID)']]],
+  ['requestblockslearned_26',['requestBlocksLearned',['../class_h_u_s_k_y_l_e_n_s.html#a6d313fad361c0401213b983f30f4b5e1',1,'HUSKYLENS']]],
+  ['requestlearned_27',['requestLearned',['../class_h_u_s_k_y_l_e_n_s.html#a085f3fdb87d7b2bb1f32a45d7c9e04eb',1,'HUSKYLENS']]],
+  ['reset_28',['reset',['../class_b_m_p280.html#af0273f65cd8c3b4e3ee472668a0a8d6f',1,'BMP280::reset()'],['../class_p_i_r_sensor.html#aae89f9041cb5bbb925e358fb990eaf6f',1,'PIRSensor::reset()']]],
+  ['resetstate_29',['resetState',['../class_http_client.html#ab29155f574471c50d78b72484378b9b5',1,'HttpClient']]],
+  ['responsebody_30',['responseBody',['../class_http_client.html#a05eb433f7d6ce865c6bd4e16526e72c3',1,'HttpClient']]],
+  ['responsestatuscode_31',['responseStatusCode',['../class_http_client.html#a0fba0410f61b4317f42fd1d477d0162b',1,'HttpClient']]],
+  ['righttoleft_32',['rightToLeft',['../class_l_c_d___i2_c.html#a477dc9c04b7b0f010fcf5288be9f4050',1,'LCD_I2C']]]
 ];

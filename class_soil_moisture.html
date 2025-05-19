@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -145,7 +145,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages soil moisture measurements using an analog soil moisture sensor. </p>
 <p>The <code><a class="el" href="class_soil_moisture.html" title="Manages soil moisture measurements using an analog soil moisture sensor.">SoilMoisture</a></code> class provides functionality for reading and processing soil moisture data from an analog sensor connected to an Arduino pin. It supports raw analog readings, mapped values, threshold detection, averaging, and callback triggering for threshold events.</p>
-<h3><a class="anchor" id="autotoc_md40"></a>
+<h3><a class="anchor" id="autotoc_md139"></a>
 Features:</h3>
 <ul>
 <li>Reads raw analog soil moisture values with 10-bit resolution.</li>
@@ -154,10 +154,10 @@ Features:</h3>
 <li>Computes average readings over multiple samples.</li>
 <li>Supports callback functions for threshold-crossing events.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md41"></a>
+<h3><a class="anchor" id="autotoc_md140"></a>
 Usage:</h3>
 <p>Instantiate the class with the appropriate analog pin. Call <code><a class="el" href="#ab1a0cb8f764d8e4745a12aa3c61f5241" title="Reads the analog value from the soil moisture sensor.">read()</a></code> to retrieve raw sensor data or <code><a class="el" href="#a982b1e7ebe382617c8ccb2fa19629eae" title="Reads and maps the sensor value to a specified range.">readAndMap()</a></code> for scaled values. Use <code><a class="el" href="#ab1d48d88b179d8a15972a5372664914e" title="Checks if the soil moisture level exceeds a threshold.">isAboveThreshold()</a></code> for conditional checks, <code><a class="el" href="#af736d5983965759ed7f60edb415961f7" title="Computes the average sensor reading over multiple samples.">getAverageReading()</a></code> for smoothed data, or <code><a class="el" href="#a0694736167edb84647f36dae55ed3f7e" title="Sets a callback function for threshold-crossing events.">onThresholdCross()</a></code> to set up event-driven callbacks. Regularly call <code><a class="el" href="#ab1a0cb8f764d8e4745a12aa3c61f5241" title="Reads the analog value from the soil moisture sensor.">read()</a></code> to update sensor values.</p>
-<h3><a class="anchor" id="autotoc_md42"></a>
+<h3><a class="anchor" id="autotoc_md141"></a>
 Dependencies:</h3>
 <ul>
 <li>Requires an Arduino-compatible board with analog input support (10-bit ADC).</li>
@@ -465,8 +465,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/soil_moisture_sensor/src/<a class="el" href="soil__moisture_8h_source.html">soil_moisture.h</a></li>
-<li>lib/soil_moisture_sensor/src/<a class="el" href="soil__moisture_8cpp.html">soil_moisture.cpp</a></li>
+<li>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/<a class="el" href="soil__moisture_8h_source.html">soil_moisture.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/soil_moisture_sensor/src/<a class="el" href="soil__moisture_8cpp.html">soil_moisture.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

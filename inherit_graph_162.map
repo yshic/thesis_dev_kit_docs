@@ -1,3 +1,22 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_variant_slot.html" title=" " alt="" coords="5,5,90,32"/>
+<area shape="rect" id="Node000000" href="$struct_variant_operator_tag.html" title=" " alt="" coords="5,72,138,99"/>
+<area shape="rect" id="Node000001" href="$struct_variant_operators.html" title=" " alt="" coords="209,5,388,48"/>
+<area shape="poly" id="edge94_Node000000_Node000001" title=" " alt="" coords="140,65,212,46,214,51,141,70"/>
+<area shape="rect" id="Node000007" href="$struct_variant_operators.html" title=" " alt="" coords="186,123,411,165"/>
+<area shape="poly" id="edge96_Node000000_Node000007" title=" " alt="" coords="141,100,214,119,212,125,140,106"/>
+<area shape="rect" id="Node000009" href="$struct_variant_operators.html" title=" " alt="" coords="204,72,393,99"/>
+<area shape="poly" id="edge98_Node000000_Node000009" title=" " alt="" coords="153,83,203,83,203,88,153,88"/>
+<area shape="rect" id="Node000002" href="$class_element_proxy.html" title=" " alt="" coords="459,133,650,160"/>
+<area shape="poly" id="edge95_Node000001_Node000002" title=" " alt="" coords="397,51,412,58,482,95,536,131,533,135,479,100,410,62,395,56"/>
+<area shape="rect" id="Node000006" href="$class_member_proxy.html" title=" " alt="" coords="464,188,646,231"/>
+<area shape="poly" id="edge97_Node000007_Node000006" title=" " alt="" coords="400,167,469,185,467,190,399,172"/>
+<area shape="rect" id="Node000004" href="$struct_variant_tag.html" title=" " alt="" coords="30,264,113,291"/>
+<area shape="rect" id="Node000003" href="$class_variant_ref_base.html" title=" " alt="" coords="195,189,402,232"/>
+<area shape="poly" id="edge99_Node000004_Node000003" title=" " alt="" coords="127,259,223,230,224,235,128,264"/>
+<area shape="rect" id="Node000005" href="$class_variant_ref_base.html" title=" " alt="" coords="196,256,401,299"/>
+<area shape="poly" id="edge101_Node000004_Node000005" title=" " alt="" coords="128,275,195,275,195,280,128,280"/>
+<area shape="rect" id="Node000008" href="$class_variant_ref_base.html" title=" " alt="" coords="204,323,392,349"/>
+<area shape="poly" id="edge103_Node000004_Node000008" title=" " alt="" coords="128,292,186,308,233,319,232,325,185,313,126,297"/>
+<area shape="poly" id="edge100_Node000003_Node000002" title=" " alt="" coords="400,182,497,158,499,163,402,188"/>
+<area shape="poly" id="edge102_Node000005_Node000006" title=" " alt="" coords="396,249,471,229,472,234,397,254"/>
 </map>

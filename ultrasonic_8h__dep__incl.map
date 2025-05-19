@@ -1,5 +1,5 @@
-<map id="lib/ultrasonic_sensor/src/ultrasonic.h" name="lib/ultrasonic_sensor/src/ultrasonic.h">
-<area shape="rect" id="Node000001" title="Header file for Ultrasonic sensor library." alt="" coords="5,5,146,48"/>
-<area shape="rect" id="Node000002" href="$ultrasonic_8cpp.html" title="Source file for Ultrasonic Sensor Library." alt="" coords="5,96,146,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,64,78,96,73,96,73,64"/>
+<map id="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h" name="thesis_mdt266_iotdevkit/lib/ultrasonic_sensor/src/ultrasonic.h">
+<area shape="rect" id="Node000001" title="Header file for Ultrasonic sensor library." alt="" coords="5,5,168,64"/>
+<area shape="rect" id="Node000002" href="$ultrasonic_8cpp.html" title="Source file for Ultrasonic Sensor Library." alt="" coords="5,112,168,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,80,89,112,84,112,84,80"/>
 </map>

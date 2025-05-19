@@ -1,9 +1,9 @@
-<map id="lib/bsp/bsp_uart.h" name="lib/bsp/bsp_uart.h">
-<area shape="rect" id="Node000001" title="Header file for BSP_UART library." alt="" coords="97,5,222,32"/>
-<area shape="rect" id="Node000002" href="$bsp__rs485_8h.html" title="Header file for BSP_RS485 library." alt="" coords="12,80,147,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,44,95,82,91,78,133,41"/>
-<area shape="rect" id="Node000004" href="$bsp__uart_8cpp.html" title="Source file for bsp_uart.cpp library." alt="" coords="170,80,309,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,41,228,78,224,82,183,44"/>
-<area shape="rect" id="Node000003" href="$bsp__rs485_8cpp.html" title="Source file for bsp_rs485.cpp library." alt="" coords="5,155,154,181"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,122,82,154,77,154,77,122"/>
+<map id="thesis_mdt266_iotdevkit/lib/bsp/bsp_uart.h" name="thesis_mdt266_iotdevkit/lib/bsp/bsp_uart.h">
+<area shape="rect" id="Node000001" title="Header file for BSP_UART library." alt="" coords="99,5,261,48"/>
+<area shape="rect" id="Node000002" href="$bsp__rs485_8h.html" title="Header file for BSP_RS485 library." alt="" coords="5,96,168,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,61,110,98,106,94,145,57"/>
+<area shape="rect" id="Node000004" href="$bsp__uart_8cpp.html" title="Source file for bsp_uart.cpp library." alt="" coords="192,96,354,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,57,253,94,250,98,211,61"/>
+<area shape="rect" id="Node000003" href="$bsp__rs485_8cpp.html" title="Source file for bsp_rs485.cpp library." alt="" coords="5,187,168,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,154,89,186,84,186,84,154"/>
 </map>

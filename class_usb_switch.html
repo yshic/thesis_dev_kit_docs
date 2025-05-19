@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages a USB switch module with two PWM-controlled outputs. </p>
 <p>The <code><a class="el" href="class_usb_switch.html" title="Manages a USB switch module with two PWM-controlled outputs.">UsbSwitch</a></code> class provides functionality for controlling a USB switch module with two outputs (USB_OUTPUT1 and USB_OUTPUT2) via PWM-capable pins. It supports setting output values as PWM or percentage, toggling output states, and retrieving current values and statuses. The class maintains internal state for both outputs.</p>
-<h3><a class="anchor" id="autotoc_md49"></a>
+<h3><a class="anchor" id="autotoc_md148"></a>
 Features:</h3>
 <ul>
 <li>Controls two USB outputs with PWM values (0–255).</li>
@@ -151,10 +151,10 @@ Features:</h3>
 <li>Tracks the ON/OFF status of each output.</li>
 <li>Supports simultaneous control of both outputs.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md50"></a>
+<h3><a class="anchor" id="autotoc_md149"></a>
 Usage:</h3>
 <p>Instantiate the class with two PWM-capable pins for USB_OUTPUT1 and USB_OUTPUT2. Use <code><a class="el" href="#a98cf84d4be5cd0554188fc9838aac965" title="Sets the output value using a PWM value.">setOutputValue()</a></code> or <code><a class="el" href="#a49648ccd4487e75f9dca6651fd8f782f" title="Sets the output value as a percentage.">setOutputValuePercentage()</a></code> to control output levels, <code><a class="el" href="#ab54876679bf8156ef119e614db3beb35" title="Toggles the output state between ON and OFF.">toggleOutput()</a></code> to switch states, and <code><a class="el" href="#a9610f9b91027ad99d84ad9dcef8b3be4" title="Checks the current status of the output.">getStatus()</a></code>, <code><a class="el" href="#aa2353b8a438a13ed68c42548853e64f8" title="Retrieves the current output value.">getOutputValue()</a></code>, or <code><a class="el" href="#acadaf4d0e4e6b952099011820bd57d16" title="Retrieves the current output value as a percentage.">getOutputValuePercentage()</a></code> to monitor outputs. Specify output number (1, 2, or 0 for both) in method calls.</p>
-<h3><a class="anchor" id="autotoc_md51"></a>
+<h3><a class="anchor" id="autotoc_md150"></a>
 Dependencies:</h3>
 <ul>
 <li>Requires an Arduino-compatible board with PWM support.</li>
@@ -457,8 +457,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/usb_switch/src/<a class="el" href="usb__switch_8h_source.html">usb_switch.h</a></li>
-<li>lib/usb_switch/src/<a class="el" href="usb__switch_8cpp.html">usb_switch.cpp</a></li>
+<li>thesis_mdt266_iotdevkit/lib/usb_switch/src/<a class="el" href="usb__switch_8h_source.html">usb_switch.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/usb_switch/src/<a class="el" href="usb__switch_8cpp.html">usb_switch.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

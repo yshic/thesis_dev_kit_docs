@@ -5,5 +5,5 @@ var _h_u_s_k_y_l_e_n_s_8h =
     [ "ProtocolCustomText_t", "struct_protocol_custom_text__t.html", null ],
     [ "ProtocolFirmwareVersion_t", "struct_protocol_firmware_version__t.html", null ],
     [ "Protocol_t", "struct_protocol__t.html", null ],
-    [ "HUSKYLENS", "class_h_u_s_k_y_l_e_n_s.html", null ]
+    [ "HUSKYLENS", "class_h_u_s_k_y_l_e_n_s.html", "class_h_u_s_k_y_l_e_n_s" ]
 ];

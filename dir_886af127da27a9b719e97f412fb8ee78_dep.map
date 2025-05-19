@@ -1,0 +1,76 @@
+<map id="thesis_mdt266_iotdevkit/lib" name="thesis_mdt266_iotdevkit/lib">
+<area shape="rect" id="node2" href="dir_f8d88bacdec55ab1d372195ae041f51c.html" title="ac_measure" alt="" coords="2246,64,2338,91"/>
+<area shape="rect" id="node6" href="dir_fbb6dd4bc06eb9668da5bb4a088a1e2b.html" title="bsp" alt="" coords="1532,139,1574,165"/>
+<area shape="poly" id="edge1" href="dir_000000_000007.html" alt="" coords="2246,91,2234,93,2045,117,1859,134,1591,152,1590,146,1859,128,2044,111,2233,88,2245,86"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000000_000007.html" title="1" alt="" coords="1590,149,1597,165"/>
+<area shape="rect" id="node8" href="dir_839899deed37697a7aac06f485dce13c.html" title="config" alt="" coords="1985,213,2042,240"/>
+<area shape="poly" id="edge2" href="dir_000000_000010.html" alt="" coords="2272,93,2139,168,2056,209,2053,204,2136,163,2269,89"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000000_000010.html" title="1" alt="" coords="2057,205,2064,221"/>
+<area shape="rect" id="node3" href="dir_e4c05bf6692d794450fc9d95367ee1a0.html" title="ArduinoHttpClient" alt="" coords="176,64,301,91"/>
+<area shape="rect" id="node4" href="dir_a262394071aebdc301bf64d3d1111822.html" title="ArduinoJson" alt="" coords="325,64,419,91"/>
+<area shape="rect" id="node5" href="dir_c790ca96885a5398735eb95ccb8cb493.html" title="bmp280" alt="" coords="2000,64,2067,91"/>
+<area shape="poly" id="edge3" href="dir_000006_000007.html" alt="" coords="2000,91,1989,93,1875,113,1763,130,1590,150,1590,144,1762,124,1874,108,1987,88,1999,86"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000006_000007.html" title="1" alt="" coords="1590,147,1597,163"/>
+<area shape="poly" id="edge4" href="dir_000006_000010.html" alt="" coords="2034,92,2020,198,2014,197,2029,91"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000006_000010.html" title="1" alt="" coords="2022,188,2029,204"/>
+<area shape="rect" id="node25" href="dir_e3d7545438c247335ecc5edabfd8d5f8.html" title="utility" alt="" coords="2039,139,2092,165"/>
+<area shape="poly" id="edge5" href="dir_000006_000071.html" alt="" coords="2041,90,2056,123,2051,126,2036,92"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000006_000071.html" title="1" alt="" coords="2057,110,2064,126"/>
+<area shape="poly" id="edge6" href="dir_000007_000010.html" alt="" coords="1575,154,1971,216,1970,221,1574,159"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000007_000010.html" title="2" alt="" coords="1965,202,1972,218"/>
+<area shape="rect" id="node7" href="dir_aebbca245a68863a51202f5c5244d3f1.html" title="button" alt="" coords="574,64,631,91"/>
+<area shape="poly" id="edge7" href="dir_000008_000007.html" alt="" coords="632,85,644,88,773,108,904,122,1159,141,1375,148,1516,148,1516,154,1375,153,1159,146,904,128,772,113,644,93,631,91"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000008_000007.html" title="1" alt="" coords="1510,135,1517,151"/>
+<area shape="rect" id="node9" href="dir_16d2b6ad93d7c5583e6cdba31e8d12b7.html" title="dht20" alt="" coords="99,64,152,91"/>
+<area shape="poly" id="edge8" href="dir_000012_000007.html" alt="" coords="153,85,164,88,292,104,463,117,871,135,1263,144,1517,148,1517,153,1263,150,871,140,463,122,292,109,164,93,152,91"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000012_000007.html" title="1" alt="" coords="1510,134,1517,150"/>
+<area shape="poly" id="edge9" href="dir_000012_000010.html" alt="" coords="153,85,165,88,289,111,396,126,577,142,760,150,995,163,1570,200,1969,221,1969,226,1570,205,995,168,760,155,577,147,395,131,289,116,163,93,152,91"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000012_000010.html" title="1" alt="" coords="1963,207,1970,223"/>
+<area shape="rect" id="node10" href="dir_f1888da5b6031137acff25fddb13090a.html" title="es_soil_7_in_1" alt="" coords="442,64,550,91"/>
+<area shape="poly" id="edge10" href="dir_000015_000007.html" alt="" coords="550,86,563,88,850,116,1129,133,1516,147,1516,153,1129,139,849,121,562,93,550,92"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000015_000007.html" title="1" alt="" coords="1510,133,1517,149"/>
+<area shape="poly" id="edge11" href="dir_000015_000010.html" alt="" coords="551,86,563,88,991,139,1407,178,1753,205,1970,220,1969,225,1753,211,1407,183,991,144,562,93,550,91"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000015_000010.html" title="1" alt="" coords="1964,206,1971,222"/>
+<area shape="rect" id="node11" href="dir_ddc800b3ffa3ec1f8a917802629824c8.html" title="HUSKYLENS" alt="" coords="866,64,969,91"/>
+<area shape="rect" id="node12" href="dir_009185ab5bd959dcab37288090e38f59.html" title="lcd_16x2" alt="" coords="993,64,1066,91"/>
+<area shape="rect" id="node13" href="dir_8b7ea24d7d98da99cfa5957722c733db.html" title="light_sensor" alt="" coords="656,64,747,91"/>
+<area shape="poly" id="edge12" href="dir_000024_000007.html" alt="" coords="748,86,760,88,985,114,1205,131,1517,147,1516,152,1204,136,984,119,760,93,747,91"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000024_000007.html" title="1" alt="" coords="1510,133,1517,149"/>
+<area shape="rect" id="node14" href="dir_e6837d17074001bc70912aa6ca30e5fb.html" title="mini_fan" alt="" coords="772,64,842,91"/>
+<area shape="poly" id="edge13" href="dir_000026_000007.html" alt="" coords="843,86,854,88,1049,115,1241,132,1517,147,1517,152,1240,138,1048,120,853,93,842,91"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000026_000007.html" title="1" alt="" coords="1511,133,1518,149"/>
+<area shape="rect" id="node15" href="dir_3dede2bc74233f9b94b8d5fe50370027.html" title="mqtt" alt="" coords="1268,64,1316,91"/>
+<area shape="rect" id="node16" href="dir_9b269f3eb0605e346d10fa3e7bda2ecf.html" title="pir_sensor" alt="" coords="1090,64,1171,91"/>
+<area shape="poly" id="edge14" href="dir_000033_000007.html" alt="" coords="1172,86,1184,88,1371,121,1517,143,1516,148,1371,126,1184,93,1171,91"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000033_000007.html" title="1" alt="" coords="1511,129,1518,145"/>
+<area shape="rect" id="node17" href="dir_3f928e9a43dfd94327deb10f0288823f.html" title="PubSubClient" alt="" coords="1508,64,1609,91"/>
+<area shape="rect" id="node18" href="dir_c147d5233f0a5c077b16cbb0ee9f1e18.html" title="relay" alt="" coords="1195,64,1245,91"/>
+<area shape="poly" id="edge15" href="dir_000037_000007.html" alt="" coords="1246,85,1257,88,1401,121,1517,142,1516,147,1400,126,1255,93,1244,90"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000037_000007.html" title="1" alt="" coords="1512,128,1519,144"/>
+<area shape="rect" id="node19" href="dir_cf0cc805f0c58936753470736a53ec88.html" title="sht3x" alt="" coords="2168,64,2221,91"/>
+<area shape="poly" id="edge16" href="dir_000039_000007.html" alt="" coords="2168,90,2157,93,1992,120,1830,138,1590,152,1590,147,1829,132,1991,115,2155,88,2167,85"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000039_000007.html" title="1" alt="" coords="1590,150,1597,166"/>
+<area shape="poly" id="edge17" href="dir_000039_000010.html" alt="" coords="2188,93,2158,128,2118,167,2086,190,2055,208,2052,203,2083,185,2114,163,2154,124,2183,89"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000039_000010.html" title="1" alt="" coords="2056,204,2063,220"/>
+<area shape="rect" id="node20" href="dir_ab8057e5be58cac40f97359916e97ec2.html" title="sht4x" alt="" coords="2091,64,2144,91"/>
+<area shape="poly" id="edge18" href="dir_000040_000007.html" alt="" coords="2091,90,2079,93,1938,118,1799,135,1590,152,1590,146,1798,130,1938,113,2078,88,2089,85"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000040_000007.html" title="1" alt="" coords="1590,149,1597,165"/>
+<area shape="poly" id="edge19" href="dir_000040_000010.html" alt="" coords="2121,91,2120,127,2115,147,2106,167,2084,192,2056,210,2054,205,2080,187,2102,164,2110,146,2114,126,2116,91"/>
+<area shape="rect" id="edge19-headlabel" href="dir_000040_000010.html" title="1" alt="" coords="2058,205,2065,221"/>
+<area shape="poly" id="edge20" href="dir_000040_000071.html" alt="" coords="2110,93,2085,128,2081,125,2106,90"/>
+<area shape="rect" id="edge20-headlabel" href="dir_000040_000071.html" title="1" alt="" coords="2088,121,2095,137"/>
+<area shape="rect" id="node21" href="dir_0b0ab5b7464c019ce0430138962b0b55.html" title="soil_moisture_sensor" alt="" coords="1340,64,1484,91"/>
+<area shape="poly" id="edge21" href="dir_000041_000007.html" alt="" coords="1438,89,1519,130,1517,135,1435,94"/>
+<area shape="rect" id="edge21-headlabel" href="dir_000041_000007.html" title="1" alt="" coords="1516,116,1523,132"/>
+<area shape="rect" id="node22" href="dir_94d73d03d9b8ab7d4af12793c9c42db6.html" title="ultrasonic_sensor" alt="" coords="1633,64,1756,91"/>
+<area shape="poly" id="edge22" href="dir_000066_000007.html" alt="" coords="1671,94,1590,135,1587,130,1669,89"/>
+<area shape="rect" id="edge22-headlabel" href="dir_000066_000007.html" title="1" alt="" coords="1591,131,1598,147"/>
+<area shape="rect" id="node23" href="dir_b93b24ab107bc9e7defc368dd481657c.html" title="unit_4relay" alt="" coords="1780,64,1865,91"/>
+<area shape="poly" id="edge23" href="dir_000067_000007.html" alt="" coords="1781,93,1590,144,1589,138,1779,87"/>
+<area shape="rect" id="edge23-headlabel" href="dir_000067_000007.html" title="1" alt="" coords="1591,140,1598,156"/>
+<area shape="rect" id="node24" href="dir_163f486728c2d7e4a3ca5aa8f514bcf4.html" title="usb_switch" alt="" coords="1888,64,1976,91"/>
+<area shape="poly" id="edge24" href="dir_000069_000007.html" alt="" coords="1888,91,1878,93,1590,147,1589,142,1877,88,1887,86"/>
+<area shape="rect" id="edge24-headlabel" href="dir_000069_000007.html" title="1" alt="" coords="1591,144,1598,160"/>
+<area shape="rect" id="clust2" href="dir_886af127da27a9b719e97f412fb8ee78.html" alt="" coords="27,53,2349,251"/>
+<area shape="rect" id="clust1" href="dir_779aade6bd8f9f4793ba67c0c3a369ae.html" title="thesis_mdt266_iotdevkit" alt="" coords="16,16,2360,261"/>
+</map>

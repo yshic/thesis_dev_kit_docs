@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_iterator_reader.html" title=" " alt="" coords="5,21,154,64"/>
-<area shape="rect" id="Node000001" href="$struct_bounded_reader_3_01_t_source_01_5_00_01typename_01enable__if_3_01_is_char_or_void_3_01_t_9b7dc667778463d5ab18e09c707348b4.html" title=" " alt="" coords="202,5,376,80"/>
-<area shape="poly" id="edge75_Node000000_Node000001" title=" " alt="" coords="169,40,201,40,201,45,169,45"/>
+<area shape="rect" id="Node000000" href="$struct_is_char_or_void.html" title=" " alt="" coords="5,5,136,32"/>
+<area shape="rect" id="Node000001" href="$struct_is_char_or_void_3_01const_01_t_01_4.html" title=" " alt="" coords="184,5,350,32"/>
+<area shape="poly" id="edge74_Node000000_Node000001" title=" " alt="" coords="151,16,183,16,183,21,151,21"/>
 </map>

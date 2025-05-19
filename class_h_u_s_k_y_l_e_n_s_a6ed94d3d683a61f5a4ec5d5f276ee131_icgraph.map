@@ -1,0 +1,5 @@
+<map id="HUSKYLENS::writeFirmwareVersion" name="HUSKYLENS::writeFirmwareVersion">
+<area shape="rect" id="Node000001" title="Writes a firmware version to the HuskyLens." alt="" coords="254,5,447,48"/>
+<area shape="rect" id="Node000002" href="$class_h_u_s_k_y_l_e_n_s.html#aad7fd1abfc80d65c5da24fd003602374" title="Checks if the firmware version is up to date." alt="" coords="5,5,206,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,29,206,29,206,24,238,24"/>
+</map>

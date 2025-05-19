@@ -6,5 +6,6 @@ var searchData=
   ['attachholdstartcallback_3',['attachHoldStartCallback',['../class_button_handler.html#aca1da4b0a47414a3221902947867bee0',1,'ButtonHandler']]],
   ['attachsingleclickcallback_4',['attachSingleClickCallback',['../class_button_handler.html#ab12ba9a377ff3dd9ddd09b3770549a2c',1,'ButtonHandler']]],
   ['autoscroll_5',['autoscroll',['../class_l_c_d___i2_c.html#a5564c2b6fdb35ba40d7b99399e9ad100',1,'LCD_I2C']]],
-  ['autoscrolloff_6',['autoscrollOff',['../class_l_c_d___i2_c.html#ad0431cb8cd92563eaae80d73f6cb6d9b',1,'LCD_I2C']]]
+  ['autoscrolloff_6',['autoscrollOff',['../class_l_c_d___i2_c.html#ad0431cb8cd92563eaae80d73f6cb6d9b',1,'LCD_I2C']]],
+  ['available_7',['available',['../class_h_u_s_k_y_l_e_n_s.html#a1729436d1d5935cac5371c4f1d9c31d8',1,'HUSKYLENS']]]
 ];

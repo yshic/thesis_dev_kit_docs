@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -154,7 +154,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages a 4-relay module with I2C interface for relay and LED control. </p>
 <p>The <code><a class="el" href="class_unit4_relay.html" title="Manages a 4-relay module with I2C interface for relay and LED control.">Unit4Relay</a></code> class provides functionality for controlling a 4-relay module over I2C, including initializing the module, setting relay and LED states individually or collectively, switching operating modes (synchronous/asynchronous), and retrieving relay and LED states. It maintains internal state arrays for relays and LEDs.</p>
-<h3><a class="anchor" id="autotoc_md46"></a>
+<h3><a class="anchor" id="autotoc_md145"></a>
 Features:</h3>
 <ul>
 <li>Controls up to four relays with ON/OFF states.</li>
@@ -163,10 +163,10 @@ Features:</h3>
 <li>Provides individual and collective control for relays and LEDs.</li>
 <li>Retrieves current relay and LED states with error handling.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md47"></a>
+<h3><a class="anchor" id="autotoc_md146"></a>
 Usage:</h3>
 <p>Instantiate the class and call <code><a class="el" href="#adc660c2e5941b7921e8f32dec1a88172" title="Initializes the Unit 4-Relay module.">begin()</a></code> to verify I2C connectivity, followed by <code><a class="el" href="#aae6e0d7daca1902707378c714047ef65" title="Configures the operating mode and turns off all relays.">init()</a></code> to set the operating mode and reset relays. Use <code><a class="el" href="#a058eddf27fc3dacd823cb183016f7d48" title="Sets the state of an individual relay.">relayWrite()</a></code> or <code><a class="el" href="#ae1ae938e7f9ef4a340da551b5ea2f157" title="Sets all relays to the same state.">relayAll()</a></code> to control relays, <code><a class="el" href="#a4afd86f0f07bd53cc2c52f1a1faaf708" title="Sets the state of an individual LED.">ledWrite()</a></code> or <code><a class="el" href="#afdca9c42a3cfb64c47273e9b03b0b9ea" title="Sets all LEDs to the same state.">ledAll()</a></code> for LEDs, and <code><a class="el" href="#a25c9b5c0263a67a95d58519cd1b6cad2" title="Sets the operating mode of the relay module.">switchMode()</a></code> to change modes. Retrieve states with <code><a class="el" href="#ad1d85b5a5002356b938ce463c0821029" title="Retrieves the state of a specific relay.">getRelayState()</a></code> or <code><a class="el" href="#a6b48921c7a0836ea7e36d5994c5e0a7e" title="Retrieves the state of a specific LED.">getLedState()</a></code>. Use <code>setRelayState()</code> to stage relay states without immediate I2C writes.</p>
-<h3><a class="anchor" id="autotoc_md48"></a>
+<h3><a class="anchor" id="autotoc_md147"></a>
 Dependencies:</h3>
 <ul>
 <li>Requires an Arduino-compatible board with I2C support.</li>
@@ -619,8 +619,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>lib/unit_4relay/src/<a class="el" href="unit__4relay_8h_source.html">unit_4relay.h</a></li>
-<li>lib/unit_4relay/src/<a class="el" href="unit__4relay_8cpp.html">unit_4relay.cpp</a></li>
+<li>thesis_mdt266_iotdevkit/lib/unit_4relay/src/<a class="el" href="unit__4relay_8h_source.html">unit_4relay.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/unit_4relay/src/<a class="el" href="unit__4relay_8cpp.html">unit_4relay.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

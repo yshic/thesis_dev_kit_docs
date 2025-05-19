@@ -44,6 +44,7 @@ var hierarchy =
     [ "enable_if< Condition, T >", "structenable__if.html", null ],
     [ "enable_if< true, T >", "structenable__if_3_01true_00_01_t_01_4.html", null ],
     [ "EscapeSequence", "class_escape_sequence.html", null ],
+    [ "Esp32Mqtt", "class_esp32_mqtt.html", null ],
     [ "EsSoil7n1", "class_es_soil7n1.html", null ],
     [ "DeserializationOption::Filter", "class_deserialization_option_1_1_filter.html", null ],
     [ "first_or_void<... >", "structfirst__or__void.html", null ],
@@ -221,6 +222,7 @@ var hierarchy =
     [ "StringAdapter< TChar[N], typename enable_if< IsChar< TChar >::value >::type >", "struct_string_adapter_3_01_t_char_0f_n_0e_00_01typename_01enable__if_3_01_is_char_3_01_t_char_01_4_1_1value_01_4_1_1type_01_4.html", null ],
     [ "StringCopier", "class_string_copier.html", null ],
     [ "StringMover", "class_string_mover.html", null ],
+    [ "TaskTimingLogger", "class_task_timing_logger.html", null ],
     [ "TextFormatter< TWriter >", "class_text_formatter.html", null ],
     [ "type_identity< T >", "structtype__identity.html", null ],
     [ "type_identity< unsigned char >", "structtype__identity.html", [

@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">XIAO ESP32S3 Sense Development Kit<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Documentation for the drivers/libraries included in the development kit</div>
   </td>
@@ -109,12 +109,17 @@ $(function(){initNavTree('class_h_u_s_k_y_l_e_n_s.html',''); initResizable(true)
   <div class="headertitle"><div class="title">HUSKYLENS Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Manages communication with the HuskyLens vision sensor.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_h_u_s_k_y_l_e_n_s_8h_source.html">HUSKYLENS.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for HUSKYLENS:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_h_u_s_k_y_l_e_n_s__inherit__graph.png" border="0" usemap="#a_h_u_s_k_y_l_e_n_s_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_h_u_s_k_y_l_e_n_s_inherit__map" id="a_h_u_s_k_y_l_e_n_s_inherit__map">
-<area shape="rect" title=" " alt="" coords="115,5,219,32"/>
+<area shape="rect" title="Manages communication with the HuskyLens vision sensor." alt="" coords="115,5,219,32"/>
 <area shape="rect" href="class_d_f_robot___husky_lens.html" title=" " alt="" coords="5,80,153,107"/>
 <area shape="poly" title=" " alt="" coords="142,44,96,82,92,78,138,40"/>
 <area shape="rect" href="class_h_u_s_k_y_l_e_n_s_mind_plus.html" title=" " alt="" coords="176,80,334,107"/>
@@ -124,164 +129,170 @@ Inheritance diagram for HUSKYLENS:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a172b59d14c06dd70d1eb04803350f17d" id="r_a172b59d14c06dd70d1eb04803350f17d"><td class="memItemLeft" align="right" valign="top"><a id="a172b59d14c06dd70d1eb04803350f17d" name="a172b59d14c06dd70d1eb04803350f17d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> (Stream &amp;streamInput)</td></tr>
+<tr class="memitem:a8a5864c8c6d52d3947acdc49d1b131de" id="r_a8a5864c8c6d52d3947acdc49d1b131de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a5864c8c6d52d3947acdc49d1b131de">HUSKYLENS</a> ()</td></tr>
+<tr class="memdesc:a8a5864c8c6d52d3947acdc49d1b131de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_h_u_s_k_y_l_e_n_s.html" title="Manages communication with the HuskyLens vision sensor.">HUSKYLENS</a> object.  <br /></td></tr>
+<tr class="separator:a8a5864c8c6d52d3947acdc49d1b131de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5b2c74c349580fd7954ba7d1e86966" id="r_a0c5b2c74c349580fd7954ba7d1e86966"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c5b2c74c349580fd7954ba7d1e86966">~HUSKYLENS</a> ()</td></tr>
+<tr class="memdesc:a0c5b2c74c349580fd7954ba7d1e86966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for the <a class="el" href="class_h_u_s_k_y_l_e_n_s.html" title="Manages communication with the HuskyLens vision sensor.">HUSKYLENS</a> object.  <br /></td></tr>
+<tr class="separator:a0c5b2c74c349580fd7954ba7d1e86966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172b59d14c06dd70d1eb04803350f17d" id="r_a172b59d14c06dd70d1eb04803350f17d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d">begin</a> (Stream &amp;streamInput)</td></tr>
+<tr class="memdesc:a172b59d14c06dd70d1eb04803350f17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes communication with the HuskyLens over serial.  <br /></td></tr>
 <tr class="separator:a172b59d14c06dd70d1eb04803350f17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34929275767a9609eb2aba22f6fa3e38" id="r_a34929275767a9609eb2aba22f6fa3e38"><td class="memItemLeft" align="right" valign="top"><a id="a34929275767a9609eb2aba22f6fa3e38" name="a34929275767a9609eb2aba22f6fa3e38"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> (TwoWire &amp;streamInput)</td></tr>
+<tr class="memitem:a34929275767a9609eb2aba22f6fa3e38" id="r_a34929275767a9609eb2aba22f6fa3e38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34929275767a9609eb2aba22f6fa3e38">begin</a> (TwoWire &amp;streamInput)</td></tr>
+<tr class="memdesc:a34929275767a9609eb2aba22f6fa3e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes communication with the HuskyLens over I2C.  <br /></td></tr>
 <tr class="separator:a34929275767a9609eb2aba22f6fa3e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15852303e30a8e7661c183cd8e2debff" id="r_a15852303e30a8e7661c183cd8e2debff"><td class="memItemLeft" align="right" valign="top"><a id="a15852303e30a8e7661c183cd8e2debff" name="a15852303e30a8e7661c183cd8e2debff"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimeOutDuration</b> (unsigned long timeOutDurationInput)</td></tr>
+<tr class="memitem:a15852303e30a8e7661c183cd8e2debff" id="r_a15852303e30a8e7661c183cd8e2debff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15852303e30a8e7661c183cd8e2debff">setTimeOutDuration</a> (unsigned long timeOutDurationInput)</td></tr>
+<tr class="memdesc:a15852303e30a8e7661c183cd8e2debff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the timeout duration for communication.  <br /></td></tr>
 <tr class="separator:a15852303e30a8e7661c183cd8e2debff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc23efa07d3258d79fca54913ef266ae" id="r_afc23efa07d3258d79fca54913ef266ae"><td class="memItemLeft" align="right" valign="top"><a id="afc23efa07d3258d79fca54913ef266ae" name="afc23efa07d3258d79fca54913ef266ae"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>request</b> ()</td></tr>
+<tr class="memitem:afc23efa07d3258d79fca54913ef266ae" id="r_afc23efa07d3258d79fca54913ef266ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc23efa07d3258d79fca54913ef266ae">request</a> ()</td></tr>
+<tr class="memdesc:afc23efa07d3258d79fca54913ef266ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests all blocks and arrows from the HuskyLens.  <br /></td></tr>
 <tr class="separator:afc23efa07d3258d79fca54913ef266ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ec292eaf1f3c57d5db5f9ee20a3e1fa" id="r_a5ec292eaf1f3c57d5db5f9ee20a3e1fa"><td class="memItemLeft" align="right" valign="top"><a id="a5ec292eaf1f3c57d5db5f9ee20a3e1fa" name="a5ec292eaf1f3c57d5db5f9ee20a3e1fa"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>request</b> (int16_t ID)</td></tr>
+<tr class="memitem:a5ec292eaf1f3c57d5db5f9ee20a3e1fa" id="r_a5ec292eaf1f3c57d5db5f9ee20a3e1fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ec292eaf1f3c57d5db5f9ee20a3e1fa">request</a> (int16_t ID)</td></tr>
+<tr class="memdesc:a5ec292eaf1f3c57d5db5f9ee20a3e1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests blocks and arrows with a specific ID.  <br /></td></tr>
 <tr class="separator:a5ec292eaf1f3c57d5db5f9ee20a3e1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2268e25b82d994ca5be00f7c1179e22a" id="r_a2268e25b82d994ca5be00f7c1179e22a"><td class="memItemLeft" align="right" valign="top"><a id="a2268e25b82d994ca5be00f7c1179e22a" name="a2268e25b82d994ca5be00f7c1179e22a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestBlocks</b> ()</td></tr>
+<tr class="memitem:a2268e25b82d994ca5be00f7c1179e22a" id="r_a2268e25b82d994ca5be00f7c1179e22a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2268e25b82d994ca5be00f7c1179e22a">requestBlocks</a> ()</td></tr>
+<tr class="memdesc:a2268e25b82d994ca5be00f7c1179e22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests all blocks from the HuskyLens.  <br /></td></tr>
 <tr class="separator:a2268e25b82d994ca5be00f7c1179e22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2902750278b20fab543e19a71ba4312a" id="r_a2902750278b20fab543e19a71ba4312a"><td class="memItemLeft" align="right" valign="top"><a id="a2902750278b20fab543e19a71ba4312a" name="a2902750278b20fab543e19a71ba4312a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestBlocks</b> (int16_t ID)</td></tr>
+<tr class="memitem:a2902750278b20fab543e19a71ba4312a" id="r_a2902750278b20fab543e19a71ba4312a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2902750278b20fab543e19a71ba4312a">requestBlocks</a> (int16_t ID)</td></tr>
+<tr class="memdesc:a2902750278b20fab543e19a71ba4312a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests blocks with a specific ID.  <br /></td></tr>
 <tr class="separator:a2902750278b20fab543e19a71ba4312a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d9fb086803063a237c7b98e6167e49b" id="r_a2d9fb086803063a237c7b98e6167e49b"><td class="memItemLeft" align="right" valign="top"><a id="a2d9fb086803063a237c7b98e6167e49b" name="a2d9fb086803063a237c7b98e6167e49b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestArrows</b> ()</td></tr>
+<tr class="memitem:a2d9fb086803063a237c7b98e6167e49b" id="r_a2d9fb086803063a237c7b98e6167e49b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d9fb086803063a237c7b98e6167e49b">requestArrows</a> ()</td></tr>
+<tr class="memdesc:a2d9fb086803063a237c7b98e6167e49b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests all arrows from the HuskyLens.  <br /></td></tr>
 <tr class="separator:a2d9fb086803063a237c7b98e6167e49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f184e18a4de1edf6bc1ed1f3eb7f055" id="r_a2f184e18a4de1edf6bc1ed1f3eb7f055"><td class="memItemLeft" align="right" valign="top"><a id="a2f184e18a4de1edf6bc1ed1f3eb7f055" name="a2f184e18a4de1edf6bc1ed1f3eb7f055"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestArrows</b> (int16_t ID)</td></tr>
+<tr class="memitem:a2f184e18a4de1edf6bc1ed1f3eb7f055" id="r_a2f184e18a4de1edf6bc1ed1f3eb7f055"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f184e18a4de1edf6bc1ed1f3eb7f055">requestArrows</a> (int16_t ID)</td></tr>
+<tr class="memdesc:a2f184e18a4de1edf6bc1ed1f3eb7f055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests arrows with a specific ID.  <br /></td></tr>
 <tr class="separator:a2f184e18a4de1edf6bc1ed1f3eb7f055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a085f3fdb87d7b2bb1f32a45d7c9e04eb" id="r_a085f3fdb87d7b2bb1f32a45d7c9e04eb"><td class="memItemLeft" align="right" valign="top"><a id="a085f3fdb87d7b2bb1f32a45d7c9e04eb" name="a085f3fdb87d7b2bb1f32a45d7c9e04eb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestLearned</b> ()</td></tr>
+<tr class="memitem:a085f3fdb87d7b2bb1f32a45d7c9e04eb" id="r_a085f3fdb87d7b2bb1f32a45d7c9e04eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085f3fdb87d7b2bb1f32a45d7c9e04eb">requestLearned</a> ()</td></tr>
+<tr class="memdesc:a085f3fdb87d7b2bb1f32a45d7c9e04eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests all learned blocks and arrows.  <br /></td></tr>
 <tr class="separator:a085f3fdb87d7b2bb1f32a45d7c9e04eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d313fad361c0401213b983f30f4b5e1" id="r_a6d313fad361c0401213b983f30f4b5e1"><td class="memItemLeft" align="right" valign="top"><a id="a6d313fad361c0401213b983f30f4b5e1" name="a6d313fad361c0401213b983f30f4b5e1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestBlocksLearned</b> ()</td></tr>
+<tr class="memitem:a6d313fad361c0401213b983f30f4b5e1" id="r_a6d313fad361c0401213b983f30f4b5e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d313fad361c0401213b983f30f4b5e1">requestBlocksLearned</a> ()</td></tr>
+<tr class="memdesc:a6d313fad361c0401213b983f30f4b5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests all learned blocks.  <br /></td></tr>
 <tr class="separator:a6d313fad361c0401213b983f30f4b5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac83be63e0702acd758547220dab8faf4" id="r_ac83be63e0702acd758547220dab8faf4"><td class="memItemLeft" align="right" valign="top"><a id="ac83be63e0702acd758547220dab8faf4" name="ac83be63e0702acd758547220dab8faf4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>requestArrowsLearned</b> ()</td></tr>
+<tr class="memitem:ac83be63e0702acd758547220dab8faf4" id="r_ac83be63e0702acd758547220dab8faf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83be63e0702acd758547220dab8faf4">requestArrowsLearned</a> ()</td></tr>
+<tr class="memdesc:ac83be63e0702acd758547220dab8faf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests all learned arrows.  <br /></td></tr>
 <tr class="separator:ac83be63e0702acd758547220dab8faf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1729436d1d5935cac5371c4f1d9c31d8" id="r_a1729436d1d5935cac5371c4f1d9c31d8"><td class="memItemLeft" align="right" valign="top"><a id="a1729436d1d5935cac5371c4f1d9c31d8" name="a1729436d1d5935cac5371c4f1d9c31d8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>available</b> ()</td></tr>
+<tr class="memitem:a1729436d1d5935cac5371c4f1d9c31d8" id="r_a1729436d1d5935cac5371c4f1d9c31d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1729436d1d5935cac5371c4f1d9c31d8">available</a> ()</td></tr>
+<tr class="memdesc:a1729436d1d5935cac5371c4f1d9c31d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of blocks and arrows available to read.  <br /></td></tr>
 <tr class="separator:a1729436d1d5935cac5371c4f1d9c31d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6726373ab7a44dc3a9c19babdec87035" id="r_a6726373ab7a44dc3a9c19babdec87035"><td class="memItemLeft" align="right" valign="top"><a id="a6726373ab7a44dc3a9c19babdec87035" name="a6726373ab7a44dc3a9c19babdec87035"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> ()</td></tr>
+<tr class="memitem:a6726373ab7a44dc3a9c19babdec87035" id="r_a6726373ab7a44dc3a9c19babdec87035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6726373ab7a44dc3a9c19babdec87035">read</a> ()</td></tr>
+<tr class="memdesc:a6726373ab7a44dc3a9c19babdec87035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the next block or arrow from the buffer.  <br /></td></tr>
 <tr class="separator:a6726373ab7a44dc3a9c19babdec87035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb2a9bf0e388df7668e73cdbc9b59282" id="r_adb2a9bf0e388df7668e73cdbc9b59282"><td class="memItemLeft" align="right" valign="top"><a id="adb2a9bf0e388df7668e73cdbc9b59282" name="adb2a9bf0e388df7668e73cdbc9b59282"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getResult</b> ()</td></tr>
+<tr class="memitem:adb2a9bf0e388df7668e73cdbc9b59282" id="r_adb2a9bf0e388df7668e73cdbc9b59282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb2a9bf0e388df7668e73cdbc9b59282">getResult</a> ()</td></tr>
+<tr class="memdesc:adb2a9bf0e388df7668e73cdbc9b59282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current result.  <br /></td></tr>
 <tr class="separator:adb2a9bf0e388df7668e73cdbc9b59282"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb4af6d1b0170d4805f2c032a8d41b36" id="r_aeb4af6d1b0170d4805f2c032a8d41b36"><td class="memItemLeft" align="right" valign="top"><a id="aeb4af6d1b0170d4805f2c032a8d41b36" name="aeb4af6d1b0170d4805f2c032a8d41b36"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraStatus</b> (bool state)</td></tr>
+<tr class="memitem:aeb4af6d1b0170d4805f2c032a8d41b36" id="r_aeb4af6d1b0170d4805f2c032a8d41b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb4af6d1b0170d4805f2c032a8d41b36">setCameraStatus</a> (bool state)</td></tr>
+<tr class="memdesc:aeb4af6d1b0170d4805f2c032a8d41b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the camera status.  <br /></td></tr>
 <tr class="separator:aeb4af6d1b0170d4805f2c032a8d41b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50124f938692b66a5902e6284e67d8b7" id="r_a50124f938692b66a5902e6284e67d8b7"><td class="memItemLeft" align="right" valign="top"><a id="a50124f938692b66a5902e6284e67d8b7" name="a50124f938692b66a5902e6284e67d8b7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getCameraStatus</b> ()</td></tr>
+<tr class="memitem:a50124f938692b66a5902e6284e67d8b7" id="r_a50124f938692b66a5902e6284e67d8b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50124f938692b66a5902e6284e67d8b7">getCameraStatus</a> ()</td></tr>
+<tr class="memdesc:a50124f938692b66a5902e6284e67d8b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the camera status.  <br /></td></tr>
 <tr class="separator:a50124f938692b66a5902e6284e67d8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b284a854508c71f7c3a84e5e9aeff7c" id="r_a8b284a854508c71f7c3a84e5e9aeff7c"><td class="memItemLeft" align="right" valign="top"><a id="a8b284a854508c71f7c3a84e5e9aeff7c" name="a8b284a854508c71f7c3a84e5e9aeff7c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isLearned</b> ()</td></tr>
+<tr class="memitem:a8b284a854508c71f7c3a84e5e9aeff7c" id="r_a8b284a854508c71f7c3a84e5e9aeff7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b284a854508c71f7c3a84e5e9aeff7c">isLearned</a> ()</td></tr>
+<tr class="memdesc:a8b284a854508c71f7c3a84e5e9aeff7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if any objects have been learned.  <br /></td></tr>
 <tr class="separator:a8b284a854508c71f7c3a84e5e9aeff7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7591d76b12833b26e7547439fe06392b" id="r_a7591d76b12833b26e7547439fe06392b"><td class="memItemLeft" align="right" valign="top"><a id="a7591d76b12833b26e7547439fe06392b" name="a7591d76b12833b26e7547439fe06392b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isLearned</b> (int ID)</td></tr>
+<tr class="memitem:a7591d76b12833b26e7547439fe06392b" id="r_a7591d76b12833b26e7547439fe06392b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7591d76b12833b26e7547439fe06392b">isLearned</a> (int ID)</td></tr>
+<tr class="memdesc:a7591d76b12833b26e7547439fe06392b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a specific ID has been learned.  <br /></td></tr>
 <tr class="separator:a7591d76b12833b26e7547439fe06392b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7b291a5eb5dc6ebd008c6393c87a2d1" id="r_ac7b291a5eb5dc6ebd008c6393c87a2d1"><td class="memItemLeft" align="right" valign="top"><a id="ac7b291a5eb5dc6ebd008c6393c87a2d1" name="ac7b291a5eb5dc6ebd008c6393c87a2d1"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>frameNumber</b> ()</td></tr>
+<tr class="memitem:ac7b291a5eb5dc6ebd008c6393c87a2d1" id="r_ac7b291a5eb5dc6ebd008c6393c87a2d1"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b291a5eb5dc6ebd008c6393c87a2d1">frameNumber</a> ()</td></tr>
+<tr class="memdesc:ac7b291a5eb5dc6ebd008c6393c87a2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of frames processed.  <br /></td></tr>
 <tr class="separator:ac7b291a5eb5dc6ebd008c6393c87a2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a125931d086dd65cc3c83fb3ca98b0f57" id="r_a125931d086dd65cc3c83fb3ca98b0f57"><td class="memItemLeft" align="right" valign="top"><a id="a125931d086dd65cc3c83fb3ca98b0f57" name="a125931d086dd65cc3c83fb3ca98b0f57"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countLearnedIDs</b> ()</td></tr>
+<tr class="memitem:a125931d086dd65cc3c83fb3ca98b0f57" id="r_a125931d086dd65cc3c83fb3ca98b0f57"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a125931d086dd65cc3c83fb3ca98b0f57">countLearnedIDs</a> ()</td></tr>
+<tr class="memdesc:a125931d086dd65cc3c83fb3ca98b0f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of learned IDs.  <br /></td></tr>
 <tr class="separator:a125931d086dd65cc3c83fb3ca98b0f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad54b4f727619893f04c0539893afea4e" id="r_ad54b4f727619893f04c0539893afea4e"><td class="memItemLeft" align="right" valign="top"><a id="ad54b4f727619893f04c0539893afea4e" name="ad54b4f727619893f04c0539893afea4e"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> ()</td></tr>
+<tr class="memitem:ad54b4f727619893f04c0539893afea4e" id="r_ad54b4f727619893f04c0539893afea4e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad54b4f727619893f04c0539893afea4e">count</a> ()</td></tr>
+<tr class="memdesc:ad54b4f727619893f04c0539893afea4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the total count of blocks and arrows.  <br /></td></tr>
 <tr class="separator:ad54b4f727619893f04c0539893afea4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03b31d8c8178f3bc9ca39c79cace7159" id="r_a03b31d8c8178f3bc9ca39c79cace7159"><td class="memItemLeft" align="right" valign="top"><a id="a03b31d8c8178f3bc9ca39c79cace7159" name="a03b31d8c8178f3bc9ca39c79cace7159"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (int16_t ID)</td></tr>
+<tr class="memitem:a03b31d8c8178f3bc9ca39c79cace7159" id="r_a03b31d8c8178f3bc9ca39c79cace7159"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b31d8c8178f3bc9ca39c79cace7159">count</a> (int16_t ID)</td></tr>
+<tr class="memdesc:a03b31d8c8178f3bc9ca39c79cace7159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the count of blocks and arrows with a specific ID.  <br /></td></tr>
 <tr class="separator:a03b31d8c8178f3bc9ca39c79cace7159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2862564ebbe520d09bd8d3aa37453c27" id="r_a2862564ebbe520d09bd8d3aa37453c27"><td class="memItemLeft" align="right" valign="top"><a id="a2862564ebbe520d09bd8d3aa37453c27" name="a2862564ebbe520d09bd8d3aa37453c27"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countBlocks</b> ()</td></tr>
+<tr class="memitem:a2862564ebbe520d09bd8d3aa37453c27" id="r_a2862564ebbe520d09bd8d3aa37453c27"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2862564ebbe520d09bd8d3aa37453c27">countBlocks</a> ()</td></tr>
+<tr class="memdesc:a2862564ebbe520d09bd8d3aa37453c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the total count of blocks.  <br /></td></tr>
 <tr class="separator:a2862564ebbe520d09bd8d3aa37453c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f25642154f147b10c7bad384220bf6" id="r_ac2f25642154f147b10c7bad384220bf6"><td class="memItemLeft" align="right" valign="top"><a id="ac2f25642154f147b10c7bad384220bf6" name="ac2f25642154f147b10c7bad384220bf6"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countBlocks</b> (int16_t ID)</td></tr>
+<tr class="memitem:ac2f25642154f147b10c7bad384220bf6" id="r_ac2f25642154f147b10c7bad384220bf6"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f25642154f147b10c7bad384220bf6">countBlocks</a> (int16_t ID)</td></tr>
+<tr class="memdesc:ac2f25642154f147b10c7bad384220bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the count of blocks with a specific ID.  <br /></td></tr>
 <tr class="separator:ac2f25642154f147b10c7bad384220bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd256ded36439e0cbaf135a7fb470dc4" id="r_acd256ded36439e0cbaf135a7fb470dc4"><td class="memItemLeft" align="right" valign="top"><a id="acd256ded36439e0cbaf135a7fb470dc4" name="acd256ded36439e0cbaf135a7fb470dc4"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countArrows</b> ()</td></tr>
+<tr class="memitem:acd256ded36439e0cbaf135a7fb470dc4" id="r_acd256ded36439e0cbaf135a7fb470dc4"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd256ded36439e0cbaf135a7fb470dc4">countArrows</a> ()</td></tr>
+<tr class="memdesc:acd256ded36439e0cbaf135a7fb470dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the total count of arrows.  <br /></td></tr>
 <tr class="separator:acd256ded36439e0cbaf135a7fb470dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0a528f28cfaadd10418f6a291cd94cf" id="r_ac0a528f28cfaadd10418f6a291cd94cf"><td class="memItemLeft" align="right" valign="top"><a id="ac0a528f28cfaadd10418f6a291cd94cf" name="ac0a528f28cfaadd10418f6a291cd94cf"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countArrows</b> (int16_t ID)</td></tr>
+<tr class="memitem:ac0a528f28cfaadd10418f6a291cd94cf" id="r_ac0a528f28cfaadd10418f6a291cd94cf"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0a528f28cfaadd10418f6a291cd94cf">countArrows</a> (int16_t ID)</td></tr>
+<tr class="memdesc:ac0a528f28cfaadd10418f6a291cd94cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the count of arrows with a specific ID.  <br /></td></tr>
 <tr class="separator:ac0a528f28cfaadd10418f6a291cd94cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa42a4595140f9274ca14aec30d62fbf6" id="r_aa42a4595140f9274ca14aec30d62fbf6"><td class="memItemLeft" align="right" valign="top"><a id="aa42a4595140f9274ca14aec30d62fbf6" name="aa42a4595140f9274ca14aec30d62fbf6"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countLearned</b> ()</td></tr>
+<tr class="memitem:aa42a4595140f9274ca14aec30d62fbf6" id="r_aa42a4595140f9274ca14aec30d62fbf6"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa42a4595140f9274ca14aec30d62fbf6">countLearned</a> ()</td></tr>
+<tr class="memdesc:aa42a4595140f9274ca14aec30d62fbf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the count of all learned blocks and arrows.  <br /></td></tr>
 <tr class="separator:aa42a4595140f9274ca14aec30d62fbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85391abf23e091825005b838a5e474d3" id="r_a85391abf23e091825005b838a5e474d3"><td class="memItemLeft" align="right" valign="top"><a id="a85391abf23e091825005b838a5e474d3" name="a85391abf23e091825005b838a5e474d3"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countBlocksLearned</b> ()</td></tr>
+<tr class="memitem:a85391abf23e091825005b838a5e474d3" id="r_a85391abf23e091825005b838a5e474d3"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85391abf23e091825005b838a5e474d3">countBlocksLearned</a> ()</td></tr>
+<tr class="memdesc:a85391abf23e091825005b838a5e474d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the count of learned blocks.  <br /></td></tr>
 <tr class="separator:a85391abf23e091825005b838a5e474d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8ca8c79796c0de27da5aa114ead9de9" id="r_aa8ca8c79796c0de27da5aa114ead9de9"><td class="memItemLeft" align="right" valign="top"><a id="aa8ca8c79796c0de27da5aa114ead9de9" name="aa8ca8c79796c0de27da5aa114ead9de9"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>countArrowsLearned</b> ()</td></tr>
+<tr class="memitem:aa8ca8c79796c0de27da5aa114ead9de9" id="r_aa8ca8c79796c0de27da5aa114ead9de9"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8ca8c79796c0de27da5aa114ead9de9">countArrowsLearned</a> ()</td></tr>
+<tr class="memdesc:aa8ca8c79796c0de27da5aa114ead9de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the count of learned arrows.  <br /></td></tr>
 <tr class="separator:aa8ca8c79796c0de27da5aa114ead9de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a5868ba01046c5fbcd41ac2c4b4e44" id="r_ab1a5868ba01046c5fbcd41ac2c4b4e44"><td class="memItemLeft" align="right" valign="top"><a id="ab1a5868ba01046c5fbcd41ac2c4b4e44" name="ab1a5868ba01046c5fbcd41ac2c4b4e44"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (int16_t index)</td></tr>
+<tr class="memitem:ab1a5868ba01046c5fbcd41ac2c4b4e44" id="r_ab1a5868ba01046c5fbcd41ac2c4b4e44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1a5868ba01046c5fbcd41ac2c4b4e44">get</a> (int16_t index)</td></tr>
+<tr class="memdesc:ab1a5868ba01046c5fbcd41ac2c4b4e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a block or arrow by index.  <br /></td></tr>
 <tr class="separator:ab1a5868ba01046c5fbcd41ac2c4b4e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d633a7fbb1885fb4d60f4612b0ab11c" id="r_a2d633a7fbb1885fb4d60f4612b0ab11c"><td class="memItemLeft" align="right" valign="top"><a id="a2d633a7fbb1885fb4d60f4612b0ab11c" name="a2d633a7fbb1885fb4d60f4612b0ab11c"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (int16_t ID, int16_t index)</td></tr>
+<tr class="memitem:a2d633a7fbb1885fb4d60f4612b0ab11c" id="r_a2d633a7fbb1885fb4d60f4612b0ab11c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d633a7fbb1885fb4d60f4612b0ab11c">get</a> (int16_t ID, int16_t index)</td></tr>
+<tr class="memdesc:a2d633a7fbb1885fb4d60f4612b0ab11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a block or arrow with a specific ID by index.  <br /></td></tr>
 <tr class="separator:a2d633a7fbb1885fb4d60f4612b0ab11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac59293cd8ad26f90ecaee7591266ba2" id="r_aac59293cd8ad26f90ecaee7591266ba2"><td class="memItemLeft" align="right" valign="top"><a id="aac59293cd8ad26f90ecaee7591266ba2" name="aac59293cd8ad26f90ecaee7591266ba2"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBlock</b> (int16_t index)</td></tr>
+<tr class="memitem:aac59293cd8ad26f90ecaee7591266ba2" id="r_aac59293cd8ad26f90ecaee7591266ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac59293cd8ad26f90ecaee7591266ba2">getBlock</a> (int16_t index)</td></tr>
+<tr class="memdesc:aac59293cd8ad26f90ecaee7591266ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a block by index.  <br /></td></tr>
 <tr class="separator:aac59293cd8ad26f90ecaee7591266ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb44a32188b4b68787d1c5bd967f306c" id="r_afb44a32188b4b68787d1c5bd967f306c"><td class="memItemLeft" align="right" valign="top"><a id="afb44a32188b4b68787d1c5bd967f306c" name="afb44a32188b4b68787d1c5bd967f306c"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBlock</b> (int16_t ID, int16_t index)</td></tr>
+<tr class="memitem:afb44a32188b4b68787d1c5bd967f306c" id="r_afb44a32188b4b68787d1c5bd967f306c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb44a32188b4b68787d1c5bd967f306c">getBlock</a> (int16_t ID, int16_t index)</td></tr>
+<tr class="memdesc:afb44a32188b4b68787d1c5bd967f306c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a block with a specific ID by index.  <br /></td></tr>
 <tr class="separator:afb44a32188b4b68787d1c5bd967f306c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fab5c0140d800977a60b7b8e6f793fb" id="r_a1fab5c0140d800977a60b7b8e6f793fb"><td class="memItemLeft" align="right" valign="top"><a id="a1fab5c0140d800977a60b7b8e6f793fb" name="a1fab5c0140d800977a60b7b8e6f793fb"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getArrow</b> (int16_t index)</td></tr>
+<tr class="memitem:a1fab5c0140d800977a60b7b8e6f793fb" id="r_a1fab5c0140d800977a60b7b8e6f793fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fab5c0140d800977a60b7b8e6f793fb">getArrow</a> (int16_t index)</td></tr>
+<tr class="memdesc:a1fab5c0140d800977a60b7b8e6f793fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an arrow by index.  <br /></td></tr>
 <tr class="separator:a1fab5c0140d800977a60b7b8e6f793fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a4dd4459f22d0e0fde3acf74c61c248" id="r_a1a4dd4459f22d0e0fde3acf74c61c248"><td class="memItemLeft" align="right" valign="top"><a id="a1a4dd4459f22d0e0fde3acf74c61c248" name="a1a4dd4459f22d0e0fde3acf74c61c248"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getArrow</b> (int16_t ID, int16_t index)</td></tr>
+<tr class="memitem:a1a4dd4459f22d0e0fde3acf74c61c248" id="r_a1a4dd4459f22d0e0fde3acf74c61c248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a4dd4459f22d0e0fde3acf74c61c248">getArrow</a> (int16_t ID, int16_t index)</td></tr>
+<tr class="memdesc:a1a4dd4459f22d0e0fde3acf74c61c248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an arrow with a specific ID by index.  <br /></td></tr>
 <tr class="separator:a1a4dd4459f22d0e0fde3acf74c61c248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af29f4abc7741ded4ddf34ee03e0f45d8" id="r_af29f4abc7741ded4ddf34ee03e0f45d8"><td class="memItemLeft" align="right" valign="top"><a id="af29f4abc7741ded4ddf34ee03e0f45d8" name="af29f4abc7741ded4ddf34ee03e0f45d8"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getLearned</b> (int16_t index)</td></tr>
+<tr class="memitem:af29f4abc7741ded4ddf34ee03e0f45d8" id="r_af29f4abc7741ded4ddf34ee03e0f45d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af29f4abc7741ded4ddf34ee03e0f45d8">getLearned</a> (int16_t index)</td></tr>
+<tr class="memdesc:af29f4abc7741ded4ddf34ee03e0f45d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a learned block or arrow by index.  <br /></td></tr>
 <tr class="separator:af29f4abc7741ded4ddf34ee03e0f45d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1175374bb2f2b1f176aadf1a052fde75" id="r_a1175374bb2f2b1f176aadf1a052fde75"><td class="memItemLeft" align="right" valign="top"><a id="a1175374bb2f2b1f176aadf1a052fde75" name="a1175374bb2f2b1f176aadf1a052fde75"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBlockLearned</b> (int16_t index)</td></tr>
+<tr class="memitem:a1175374bb2f2b1f176aadf1a052fde75" id="r_a1175374bb2f2b1f176aadf1a052fde75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1175374bb2f2b1f176aadf1a052fde75">getBlockLearned</a> (int16_t index)</td></tr>
+<tr class="memdesc:a1175374bb2f2b1f176aadf1a052fde75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a learned block by index.  <br /></td></tr>
 <tr class="separator:a1175374bb2f2b1f176aadf1a052fde75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c26ecae5dbd32b1ba04238b5624a975" id="r_a0c26ecae5dbd32b1ba04238b5624a975"><td class="memItemLeft" align="right" valign="top"><a id="a0c26ecae5dbd32b1ba04238b5624a975" name="a0c26ecae5dbd32b1ba04238b5624a975"></a>
-<a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getArrowLearned</b> (int16_t index)</td></tr>
+<tr class="memitem:a0c26ecae5dbd32b1ba04238b5624a975" id="r_a0c26ecae5dbd32b1ba04238b5624a975"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c26ecae5dbd32b1ba04238b5624a975">getArrowLearned</a> (int16_t index)</td></tr>
+<tr class="memdesc:a0c26ecae5dbd32b1ba04238b5624a975"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a learned arrow by index.  <br /></td></tr>
 <tr class="separator:a0c26ecae5dbd32b1ba04238b5624a975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5db2d53e3a4150aecf3dcf08157db83c" id="r_a5db2d53e3a4150aecf3dcf08157db83c"><td class="memItemLeft" align="right" valign="top"><a id="a5db2d53e3a4150aecf3dcf08157db83c" name="a5db2d53e3a4150aecf3dcf08157db83c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeAlgorithm</b> (protocolAlgorithm algorithmType)</td></tr>
+<tr class="memitem:a5db2d53e3a4150aecf3dcf08157db83c" id="r_a5db2d53e3a4150aecf3dcf08157db83c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db2d53e3a4150aecf3dcf08157db83c">writeAlgorithm</a> (protocolAlgorithm algorithmType)</td></tr>
+<tr class="memdesc:a5db2d53e3a4150aecf3dcf08157db83c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the HuskyLens to the specified algorithm.  <br /></td></tr>
 <tr class="separator:a5db2d53e3a4150aecf3dcf08157db83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467f6e550701d8c9b839a066b078348d" id="r_a467f6e550701d8c9b839a066b078348d"><td class="memItemLeft" align="right" valign="top"><a id="a467f6e550701d8c9b839a066b078348d" name="a467f6e550701d8c9b839a066b078348d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeLearn</b> (int ID)</td></tr>
+<tr class="memitem:a467f6e550701d8c9b839a066b078348d" id="r_a467f6e550701d8c9b839a066b078348d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a467f6e550701d8c9b839a066b078348d">writeLearn</a> (int ID)</td></tr>
+<tr class="memdesc:a467f6e550701d8c9b839a066b078348d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instructs the HuskyLens to learn an object with a specific ID.  <br /></td></tr>
 <tr class="separator:a467f6e550701d8c9b839a066b078348d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35a92f6158d7e00e75c508acf83c8148" id="r_a35a92f6158d7e00e75c508acf83c8148"><td class="memItemLeft" align="right" valign="top"><a id="a35a92f6158d7e00e75c508acf83c8148" name="a35a92f6158d7e00e75c508acf83c8148"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeForget</b> ()</td></tr>
+<tr class="memitem:a35a92f6158d7e00e75c508acf83c8148" id="r_a35a92f6158d7e00e75c508acf83c8148"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35a92f6158d7e00e75c508acf83c8148">writeForget</a> ()</td></tr>
+<tr class="memdesc:a35a92f6158d7e00e75c508acf83c8148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instructs the HuskyLens to forget all learned objects.  <br /></td></tr>
 <tr class="separator:a35a92f6158d7e00e75c508acf83c8148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fc91bb0913ff53a3673e20fff52a0a8" id="r_a8fc91bb0913ff53a3673e20fff52a0a8"><td class="memItemLeft" align="right" valign="top"><a id="a8fc91bb0913ff53a3673e20fff52a0a8" name="a8fc91bb0913ff53a3673e20fff52a0a8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeSensor</b> (int sensor0, int sensor1, int sensor2)</td></tr>
+<tr class="memitem:a8fc91bb0913ff53a3673e20fff52a0a8" id="r_a8fc91bb0913ff53a3673e20fff52a0a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fc91bb0913ff53a3673e20fff52a0a8">writeSensor</a> (int sensor0, int sensor1, int sensor2)</td></tr>
+<tr class="memdesc:a8fc91bb0913ff53a3673e20fff52a0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets sensor parameters.  <br /></td></tr>
 <tr class="separator:a8fc91bb0913ff53a3673e20fff52a0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4be10297e5099fcc3c88b5d521376e6f" id="r_a4be10297e5099fcc3c88b5d521376e6f"><td class="memItemLeft" align="right" valign="top"><a id="a4be10297e5099fcc3c88b5d521376e6f" name="a4be10297e5099fcc3c88b5d521376e6f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>setCustomName</b> (String name, uint8_t id)</td></tr>
+<tr class="memitem:a4be10297e5099fcc3c88b5d521376e6f" id="r_a4be10297e5099fcc3c88b5d521376e6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be10297e5099fcc3c88b5d521376e6f">setCustomName</a> (String name, uint8_t id)</td></tr>
+<tr class="memdesc:a4be10297e5099fcc3c88b5d521376e6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom name for a learned object.  <br /></td></tr>
 <tr class="separator:a4be10297e5099fcc3c88b5d521376e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a584abcb3f2b7180555c3d14ee9246dde" id="r_a584abcb3f2b7180555c3d14ee9246dde"><td class="memItemLeft" align="right" valign="top"><a id="a584abcb3f2b7180555c3d14ee9246dde" name="a584abcb3f2b7180555c3d14ee9246dde"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>savePictureToSDCard</b> ()</td></tr>
+<tr class="memitem:a584abcb3f2b7180555c3d14ee9246dde" id="r_a584abcb3f2b7180555c3d14ee9246dde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a584abcb3f2b7180555c3d14ee9246dde">savePictureToSDCard</a> ()</td></tr>
+<tr class="memdesc:a584abcb3f2b7180555c3d14ee9246dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a photo to the SD card.  <br /></td></tr>
 <tr class="separator:a584abcb3f2b7180555c3d14ee9246dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0f29608ca72ffa8b2a6d3a3b91c9014" id="r_ab0f29608ca72ffa8b2a6d3a3b91c9014"><td class="memItemLeft" align="right" valign="top"><a id="ab0f29608ca72ffa8b2a6d3a3b91c9014" name="ab0f29608ca72ffa8b2a6d3a3b91c9014"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>saveModelToSDCard</b> (int fileNum)</td></tr>
+<tr class="memitem:ab0f29608ca72ffa8b2a6d3a3b91c9014" id="r_ab0f29608ca72ffa8b2a6d3a3b91c9014"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f29608ca72ffa8b2a6d3a3b91c9014">saveModelToSDCard</a> (int fileNum)</td></tr>
+<tr class="memdesc:ab0f29608ca72ffa8b2a6d3a3b91c9014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current algorithm model to the SD card.  <br /></td></tr>
 <tr class="separator:ab0f29608ca72ffa8b2a6d3a3b91c9014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a283f797b9a9ac7bc7be8bbdd904bfe5c" id="r_a283f797b9a9ac7bc7be8bbdd904bfe5c"><td class="memItemLeft" align="right" valign="top"><a id="a283f797b9a9ac7bc7be8bbdd904bfe5c" name="a283f797b9a9ac7bc7be8bbdd904bfe5c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadModelFromSDCard</b> (int fileNum)</td></tr>
+<tr class="memitem:a283f797b9a9ac7bc7be8bbdd904bfe5c" id="r_a283f797b9a9ac7bc7be8bbdd904bfe5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a283f797b9a9ac7bc7be8bbdd904bfe5c">loadModelFromSDCard</a> (int fileNum)</td></tr>
+<tr class="memdesc:a283f797b9a9ac7bc7be8bbdd904bfe5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an algorithm model from the SD card.  <br /></td></tr>
 <tr class="separator:a283f797b9a9ac7bc7be8bbdd904bfe5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97c5cdaadd6fd39b4ee75e7670e23bc6" id="r_a97c5cdaadd6fd39b4ee75e7670e23bc6"><td class="memItemLeft" align="right" valign="top"><a id="a97c5cdaadd6fd39b4ee75e7670e23bc6" name="a97c5cdaadd6fd39b4ee75e7670e23bc6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>clearCustomText</b> ()</td></tr>
+<tr class="memitem:a97c5cdaadd6fd39b4ee75e7670e23bc6" id="r_a97c5cdaadd6fd39b4ee75e7670e23bc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97c5cdaadd6fd39b4ee75e7670e23bc6">clearCustomText</a> ()</td></tr>
+<tr class="memdesc:a97c5cdaadd6fd39b4ee75e7670e23bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all custom text from the HuskyLens UI.  <br /></td></tr>
 <tr class="separator:a97c5cdaadd6fd39b4ee75e7670e23bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48d3f6aef7ee96d531e1e8c338bf88f1" id="r_a48d3f6aef7ee96d531e1e8c338bf88f1"><td class="memItemLeft" align="right" valign="top"><a id="a48d3f6aef7ee96d531e1e8c338bf88f1" name="a48d3f6aef7ee96d531e1e8c338bf88f1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>customText</b> (String text, uint16_t x, uint8_t y)</td></tr>
+<tr class="memitem:a48d3f6aef7ee96d531e1e8c338bf88f1" id="r_a48d3f6aef7ee96d531e1e8c338bf88f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d3f6aef7ee96d531e1e8c338bf88f1">customText</a> (String text, uint16_t x, uint8_t y)</td></tr>
+<tr class="memdesc:a48d3f6aef7ee96d531e1e8c338bf88f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays custom text on the HuskyLens UI.  <br /></td></tr>
 <tr class="separator:a48d3f6aef7ee96d531e1e8c338bf88f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1a43caa61b0316fcb8f105cf552820" id="r_a4b1a43caa61b0316fcb8f105cf552820"><td class="memItemLeft" align="right" valign="top"><a id="a4b1a43caa61b0316fcb8f105cf552820" name="a4b1a43caa61b0316fcb8f105cf552820"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>saveScreenshotToSDCard</b> ()</td></tr>
+<tr class="memitem:a4b1a43caa61b0316fcb8f105cf552820" id="r_a4b1a43caa61b0316fcb8f105cf552820"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1a43caa61b0316fcb8f105cf552820">saveScreenshotToSDCard</a> ()</td></tr>
+<tr class="memdesc:a4b1a43caa61b0316fcb8f105cf552820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a screenshot of the HuskyLens UI to the SD card.  <br /></td></tr>
 <tr class="separator:a4b1a43caa61b0316fcb8f105cf552820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a119f6bbd163dca1c601ebf2d5e6e7f7c" id="r_a119f6bbd163dca1c601ebf2d5e6e7f7c"><td class="memItemLeft" align="right" valign="top"><a id="a119f6bbd163dca1c601ebf2d5e6e7f7c" name="a119f6bbd163dca1c601ebf2d5e6e7f7c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPro</b> ()</td></tr>
+<tr class="memitem:a119f6bbd163dca1c601ebf2d5e6e7f7c" id="r_a119f6bbd163dca1c601ebf2d5e6e7f7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a119f6bbd163dca1c601ebf2d5e6e7f7c">isPro</a> ()</td></tr>
+<tr class="memdesc:a119f6bbd163dca1c601ebf2d5e6e7f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the HuskyLens is a Pro model.  <br /></td></tr>
 <tr class="separator:a119f6bbd163dca1c601ebf2d5e6e7f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad7fd1abfc80d65c5da24fd003602374" id="r_aad7fd1abfc80d65c5da24fd003602374"><td class="memItemLeft" align="right" valign="top"><a id="aad7fd1abfc80d65c5da24fd003602374" name="aad7fd1abfc80d65c5da24fd003602374"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkFirmwareVersion</b> ()</td></tr>
+<tr class="memitem:aad7fd1abfc80d65c5da24fd003602374" id="r_aad7fd1abfc80d65c5da24fd003602374"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7fd1abfc80d65c5da24fd003602374">checkFirmwareVersion</a> ()</td></tr>
+<tr class="memdesc:aad7fd1abfc80d65c5da24fd003602374"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the firmware version is up to date.  <br /></td></tr>
 <tr class="separator:aad7fd1abfc80d65c5da24fd003602374"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed94d3d683a61f5a4ec5d5f276ee131" id="r_a6ed94d3d683a61f5a4ec5d5f276ee131"><td class="memItemLeft" align="right" valign="top"><a id="a6ed94d3d683a61f5a4ec5d5f276ee131" name="a6ed94d3d683a61f5a4ec5d5f276ee131"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeFirmwareVersion</b> (String version)</td></tr>
+<tr class="memitem:a6ed94d3d683a61f5a4ec5d5f276ee131" id="r_a6ed94d3d683a61f5a4ec5d5f276ee131"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ed94d3d683a61f5a4ec5d5f276ee131">writeFirmwareVersion</a> (String version)</td></tr>
+<tr class="memdesc:a6ed94d3d683a61f5a4ec5d5f276ee131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a firmware version to the HuskyLens.  <br /></td></tr>
 <tr class="separator:a6ed94d3d683a61f5a4ec5d5f276ee131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4874b8ded83fa7bf1cc6ea64a906fcf3" id="r_a4874b8ded83fa7bf1cc6ea64a906fcf3"><td class="memItemLeft" align="right" valign="top"><a id="a4874b8ded83fa7bf1cc6ea64a906fcf3" name="a4874b8ded83fa7bf1cc6ea64a906fcf3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>protocolWriteCommand</b> (<a class="el" href="struct_protocol__t.html">Protocol_t</a> &amp;protocol, uint8_t command)</td></tr>
@@ -326,8 +337,2153 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>protocolReadFirmwareV
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>protocolWriteFirmwareVersion</b> (<a class="el" href="struct_protocol__t.html">Protocol_t</a> &amp;protocol, uint8_t command)</td></tr>
 <tr class="separator:a20180801f42876f00df32e4943602590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manages communication with the HuskyLens vision sensor. </p>
+<p>The <code><a class="el" href="class_h_u_s_k_y_l_e_n_s.html" title="Manages communication with the HuskyLens vision sensor.">HUSKYLENS</a></code> class provides an interface for interacting with the HuskyLens vision sensor over I2C or serial communication. It supports multiple vision algorithms (e.g., face recognition, object tracking), retrieving blocks and arrows with associated IDs, managing learned objects, and controlling UI elements like custom text and screenshots. The class handles protocol-level communication, data parsing, and result storage for efficient access.</p>
+<h3><a class="anchor" id="autotoc_md67"></a>
+Features:</h3>
+<ul>
+<li>Supports multiple algorithms: face recognition, object tracking, line tracking, and more.</li>
+<li>Retrieves blocks (rectangular regions) and arrows (directional indicators) with position and ID data.</li>
+<li>Manages learned objects with custom names and IDs for identification.</li>
+<li>Provides SD card operations for saving/loading models, photos, and screenshots.</li>
+<li>Allows custom text display on the HuskyLens UI with position control.</li>
+<li>Checks firmware version and Pro model status.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md68"></a>
+Usage:</h3>
+<p>Instantiate the class and call <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code> with a <code>TwoWire</code> (I2C) or <code>Stream</code> (serial) object to initialize communication. Select an algorithm with <code><a class="el" href="#a5db2d53e3a4150aecf3dcf08157db83c" title="Switches the HuskyLens to the specified algorithm.">writeAlgorithm()</a></code>. Use <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> methods to fetch blocks or arrows (all, by ID, or learned), then access results with <code><a class="el" href="#a6726373ab7a44dc3a9c19babdec87035" title="Reads the next block or arrow from the buffer.">read()</a></code>, <code><a class="el" href="#ab1a5868ba01046c5fbcd41ac2c4b4e44" title="Retrieves a block or arrow by index.">get()</a></code>, or specific <code><a class="el" href="#aac59293cd8ad26f90ecaee7591266ba2" title="Retrieves a block by index.">getBlock()</a></code>/<code><a class="el" href="#a1fab5c0140d800977a60b7b8e6f793fb" title="Retrieves an arrow by index.">getArrow()</a></code> methods. Manage learned objects with <code><a class="el" href="#a467f6e550701d8c9b839a066b078348d" title="Instructs the HuskyLens to learn an object with a specific ID.">writeLearn()</a></code> or <code><a class="el" href="#a35a92f6158d7e00e75c508acf83c8148" title="Instructs the HuskyLens to forget all learned objects.">writeForget()</a></code>, and use SD card or UI functions as needed.</p>
+<h3><a class="anchor" id="autotoc_md69"></a>
+Dependencies:</h3>
+<ul>
+<li>Requires an Arduino-compatible board with I2C or serial support.</li>
+<li>Depends on <code>Wire.h</code> for I2C communication and <code>Arduino.h</code> for core functionality.</li>
+<li>Requires <code><a class="el" href="_husky_lens_protocol_core_8h_source.html">HuskyLensProtocolCore.h</a></code> for protocol handling.</li>
+<li>HuskyLens must be connected to the appropriate interface (I2C address 0x32 or serial port). </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8a5864c8c6d52d3947acdc49d1b131de" name="a8a5864c8c6d52d3947acdc49d1b131de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5864c8c6d52d3947acdc49d1b131de">&#9670;&#160;</a></span>HUSKYLENS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HUSKYLENS::HUSKYLENS </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="class_h_u_s_k_y_l_e_n_s.html" title="Manages communication with the HuskyLens vision sensor.">HUSKYLENS</a> object. </p>
+<p>Initializes the object with default settings, preparing it for communication setup.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0c5b2c74c349580fd7954ba7d1e86966" name="a0c5b2c74c349580fd7954ba7d1e86966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c5b2c74c349580fd7954ba7d1e86966">&#9670;&#160;</a></span>~HUSKYLENS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HUSKYLENS::~HUSKYLENS </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor for the <a class="el" href="class_h_u_s_k_y_l_e_n_s.html" title="Manages communication with the HuskyLens vision sensor.">HUSKYLENS</a> object. </p>
+<p>Cleans up allocated resources, if any.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1729436d1d5935cac5371c4f1d9c31d8" name="a1729436d1d5935cac5371c4f1d9c31d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1729436d1d5935cac5371c4f1d9c31d8">&#9670;&#160;</a></span>available()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HUSKYLENS::available </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of blocks and arrows available to read. </p>
+<p>Provides the count of remaining blocks and arrows in the buffer after a request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int The number of blocks and arrows left to read. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_a1729436d1d5935cac5371c4f1d9c31d8_cgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_a1729436d1d5935cac5371c4f1d9c31d8_cgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_a1729436d1d5935cac5371c4f1d9c31d8_cgraph" id="aclass_h_u_s_k_y_l_e_n_s_a1729436d1d5935cac5371c4f1d9c31d8_cgraph">
+<area shape="rect" title="Returns the number of blocks and arrows available to read." alt="" coords="5,5,168,32"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#ad54b4f727619893f04c0539893afea4e" title="Retrieves the total count of blocks and arrows." alt="" coords="216,5,359,32"/>
+<area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a172b59d14c06dd70d1eb04803350f17d" name="a172b59d14c06dd70d1eb04803350f17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172b59d14c06dd70d1eb04803350f17d">&#9670;&#160;</a></span>begin() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::begin </td>
+          <td>(</td>
+          <td class="paramtype">Stream &amp;</td>          <td class="paramname"><span class="paramname"><em>streamInput</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes communication with the HuskyLens over serial. </p>
+<p>Attempts to establish a connection with the HuskyLens via a serial interface and verifies communication.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">streamInput</td><td>The <code>Stream</code> object (e.g., Serial, SoftwareSerial) for serial communication.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is connected to the serial port before calling.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if connection and communication are successful, <code>false</code> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a34929275767a9609eb2aba22f6fa3e38" name="a34929275767a9609eb2aba22f6fa3e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34929275767a9609eb2aba22f6fa3e38">&#9670;&#160;</a></span>begin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::begin </td>
+          <td>(</td>
+          <td class="paramtype">TwoWire &amp;</td>          <td class="paramname"><span class="paramname"><em>streamInput</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes communication with the HuskyLens over I2C. </p>
+<p>Attempts to establish a connection with the HuskyLens at I2C address 0x32 and verifies communication.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">streamInput</td><td>The <code>TwoWire</code> object for I2C communication.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is connected to the I2C bus before calling.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if connection and communication are successful, <code>false</code> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="aad7fd1abfc80d65c5da24fd003602374" name="aad7fd1abfc80d65c5da24fd003602374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7fd1abfc80d65c5da24fd003602374">&#9670;&#160;</a></span>checkFirmwareVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::checkFirmwareVersion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the firmware version is up to date. </p>
+<p>Verifies the HuskyLens firmware version and displays a UI message if it is outdated.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the check is performed successfully, <code>false</code> if communication fails. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_aad7fd1abfc80d65c5da24fd003602374_cgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_aad7fd1abfc80d65c5da24fd003602374_cgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_aad7fd1abfc80d65c5da24fd003602374_cgraph" id="aclass_h_u_s_k_y_l_e_n_s_aad7fd1abfc80d65c5da24fd003602374_cgraph">
+<area shape="rect" title="Checks if the firmware version is up to date." alt="" coords="5,5,206,48"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a6ed94d3d683a61f5a4ec5d5f276ee131" title="Writes a firmware version to the HuskyLens." alt="" coords="254,5,447,48"/>
+<area shape="poly" title=" " alt="" coords="206,24,238,24,238,29,206,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a97c5cdaadd6fd39b4ee75e7670e23bc6" name="a97c5cdaadd6fd39b4ee75e7670e23bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c5cdaadd6fd39b4ee75e7670e23bc6">&#9670;&#160;</a></span>clearCustomText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::clearCustomText </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears all custom text from the HuskyLens UI. </p>
+<p>Removes all user-defined text displayed on the HuskyLens screen.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="ad54b4f727619893f04c0539893afea4e" name="ad54b4f727619893f04c0539893afea4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54b4f727619893f04c0539893afea4e">&#9670;&#160;</a></span>count() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::count </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the total count of blocks and arrows. </p>
+<p>Returns the number of all detected blocks and arrows in the current request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The total count of blocks and arrows. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_ad54b4f727619893f04c0539893afea4e_icgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_ad54b4f727619893f04c0539893afea4e_icgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_ad54b4f727619893f04c0539893afea4e_icgraph" id="aclass_h_u_s_k_y_l_e_n_s_ad54b4f727619893f04c0539893afea4e_icgraph">
+<area shape="rect" title="Retrieves the total count of blocks and arrows." alt="" coords="400,31,543,57"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a1729436d1d5935cac5371c4f1d9c31d8" title="Returns the number of blocks and arrows available to read." alt="" coords="190,5,352,32"/>
+<area shape="poly" title=" " alt="" coords="384,36,352,32,353,26,385,30"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#ab1a5868ba01046c5fbcd41ac2c4b4e44" title="Retrieves a block or arrow by index." alt="" coords="206,56,336,83"/>
+<area shape="poly" title=" " alt="" coords="385,58,336,64,336,59,384,52"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a6726373ab7a44dc3a9c19babdec87035" title="Reads the next block or arrow from the buffer." alt="" coords="5,56,142,83"/>
+<area shape="poly" title=" " alt="" coords="191,72,142,72,142,67,191,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a03b31d8c8178f3bc9ca39c79cace7159" name="a03b31d8c8178f3bc9ca39c79cace7159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b31d8c8178f3bc9ca39c79cace7159">&#9670;&#160;</a></span>count() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::count </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the count of blocks and arrows with a specific ID. </p>
+<p>Returns the number of blocks and arrows tagged with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID (0 for unlearned, 1+ for learned).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The count of blocks and arrows with the specified ID. </dd></dl>
+
+</div>
+</div>
+<a id="acd256ded36439e0cbaf135a7fb470dc4" name="acd256ded36439e0cbaf135a7fb470dc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd256ded36439e0cbaf135a7fb470dc4">&#9670;&#160;</a></span>countArrows() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countArrows </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the total count of arrows. </p>
+<p>Returns the number of all detected arrows in the current request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The total count of arrows. </dd></dl>
+
+</div>
+</div>
+<a id="ac0a528f28cfaadd10418f6a291cd94cf" name="ac0a528f28cfaadd10418f6a291cd94cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a528f28cfaadd10418f6a291cd94cf">&#9670;&#160;</a></span>countArrows() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countArrows </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the count of arrows with a specific ID. </p>
+<p>Returns the number of arrows tagged with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID (0 for unlearned, 1+ for learned).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The count of arrows with the specified ID. </dd></dl>
+
+</div>
+</div>
+<a id="aa8ca8c79796c0de27da5aa114ead9de9" name="aa8ca8c79796c0de27da5aa114ead9de9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8ca8c79796c0de27da5aa114ead9de9">&#9670;&#160;</a></span>countArrowsLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countArrowsLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the count of learned arrows. </p>
+<p>Returns the number of arrows with IDs &gt;= 1.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The count of learned arrows. </dd></dl>
+
+</div>
+</div>
+<a id="a2862564ebbe520d09bd8d3aa37453c27" name="a2862564ebbe520d09bd8d3aa37453c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2862564ebbe520d09bd8d3aa37453c27">&#9670;&#160;</a></span>countBlocks() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countBlocks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the total count of blocks. </p>
+<p>Returns the number of all detected blocks in the current request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The total count of blocks. </dd></dl>
+
+</div>
+</div>
+<a id="ac2f25642154f147b10c7bad384220bf6" name="ac2f25642154f147b10c7bad384220bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f25642154f147b10c7bad384220bf6">&#9670;&#160;</a></span>countBlocks() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countBlocks </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the count of blocks with a specific ID. </p>
+<p>Returns the number of blocks tagged with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID (0 for unlearned, 1+ for learned).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The count of blocks with the specified ID. </dd></dl>
+
+</div>
+</div>
+<a id="a85391abf23e091825005b838a5e474d3" name="a85391abf23e091825005b838a5e474d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85391abf23e091825005b838a5e474d3">&#9670;&#160;</a></span>countBlocksLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countBlocksLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the count of learned blocks. </p>
+<p>Returns the number of blocks with IDs &gt;= 1.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The count of learned blocks. </dd></dl>
+
+</div>
+</div>
+<a id="aa42a4595140f9274ca14aec30d62fbf6" name="aa42a4595140f9274ca14aec30d62fbf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42a4595140f9274ca14aec30d62fbf6">&#9670;&#160;</a></span>countLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the count of all learned blocks and arrows. </p>
+<p>Returns the number of blocks and arrows with IDs &gt;= 1.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The count of learned blocks and arrows. </dd></dl>
+
+</div>
+</div>
+<a id="a125931d086dd65cc3c83fb3ca98b0f57" name="a125931d086dd65cc3c83fb3ca98b0f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a125931d086dd65cc3c83fb3ca98b0f57">&#9670;&#160;</a></span>countLearnedIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::countLearnedIDs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the number of learned IDs. </p>
+<p>Returns the count of unique learned objects (e.g., faces, colors, lines).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The number of learned IDs. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_a125931d086dd65cc3c83fb3ca98b0f57_icgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_a125931d086dd65cc3c83fb3ca98b0f57_icgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_a125931d086dd65cc3c83fb3ca98b0f57_icgraph" id="aclass_h_u_s_k_y_l_e_n_s_a125931d086dd65cc3c83fb3ca98b0f57_icgraph">
+<area shape="rect" title="Retrieves the number of learned IDs." alt="" coords="221,31,431,57"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a8b284a854508c71f7c3a84e5e9aeff7c" title="Checks if any objects have been learned." alt="" coords="5,5,173,32"/>
+<area shape="poly" title=" " alt="" coords="205,34,173,30,173,25,205,28"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a7591d76b12833b26e7547439fe06392b" title="Checks if a specific ID has been learned." alt="" coords="5,56,173,83"/>
+<area shape="poly" title=" " alt="" coords="205,60,173,63,173,58,205,54"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a48d3f6aef7ee96d531e1e8c338bf88f1" name="a48d3f6aef7ee96d531e1e8c338bf88f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d3f6aef7ee96d531e1e8c338bf88f1">&#9670;&#160;</a></span>customText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::customText </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays custom text on the HuskyLens UI. </p>
+<p>Places a text string (up to 20 characters) at the specified (x, y) coordinates on the HuskyLens screen. Up to 10 texts can be displayed, with new texts overwriting older ones in a circular buffer. Texts at the same coordinates replace existing text.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The text to display (max 20 characters). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x-coordinate of the top-left corner (0–320). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y-coordinate of the top-left corner (0–240).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the text is 20 characters or fewer and coordinates are within bounds.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if the text is too long or communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="ac7b291a5eb5dc6ebd008c6393c87a2d1" name="ac7b291a5eb5dc6ebd008c6393c87a2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7b291a5eb5dc6ebd008c6393c87a2d1">&#9670;&#160;</a></span>frameNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HUSKYLENS::frameNumber </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the number of frames processed. </p>
+<p>Returns the total number of frames processed by the HuskyLens.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t The frame count. </dd></dl>
+
+</div>
+</div>
+<a id="a2d633a7fbb1885fb4d60f4612b0ab11c" name="a2d633a7fbb1885fb4d60f4612b0ab11c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d633a7fbb1885fb4d60f4612b0ab11c">&#9670;&#160;</a></span>get() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::get </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a block or arrow with a specific ID by index. </p>
+<p>Returns the block or arrow with the specified ID at the given index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID (0 for unlearned, 1+ for learned). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the block or arrow for the ID (0 to <code>count(ID)</code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; count(ID)</code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block or arrow data, or a default result if invalid. </dd></dl>
+
+</div>
+</div>
+<a id="ab1a5868ba01046c5fbcd41ac2c4b4e44" name="ab1a5868ba01046c5fbcd41ac2c4b4e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a5868ba01046c5fbcd41ac2c4b4e44">&#9670;&#160;</a></span>get() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::get </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a block or arrow by index. </p>
+<p>Returns the block or arrow at the specified index from the current request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the block or arrow (0 to <code><a class="el" href="#ad54b4f727619893f04c0539893afea4e" title="Retrieves the total count of blocks and arrows.">count()</a></code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; <a class="el" href="#ad54b4f727619893f04c0539893afea4e" title="Retrieves the total count of blocks and arrows.">count()</a></code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block or arrow data, or a default result if the index is invalid. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_cgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_cgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_cgraph" id="aclass_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_cgraph">
+<area shape="rect" title="Retrieves a block or arrow by index." alt="" coords="5,5,135,32"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#ad54b4f727619893f04c0539893afea4e" title="Retrieves the total count of blocks and arrows." alt="" coords="183,5,326,32"/>
+<area shape="poly" title=" " alt="" coords="135,16,167,16,167,21,135,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_icgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_icgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_icgraph" id="aclass_h_u_s_k_y_l_e_n_s_ab1a5868ba01046c5fbcd41ac2c4b4e44_icgraph">
+<area shape="rect" title="Retrieves a block or arrow by index." alt="" coords="190,5,319,32"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a6726373ab7a44dc3a9c19babdec87035" title="Reads the next block or arrow from the buffer." alt="" coords="5,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1a4dd4459f22d0e0fde3acf74c61c248" name="a1a4dd4459f22d0e0fde3acf74c61c248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4dd4459f22d0e0fde3acf74c61c248">&#9670;&#160;</a></span>getArrow() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getArrow </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves an arrow with a specific ID by index. </p>
+<p>Returns the arrow with the specified ID at the given index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID (0 for unlearned, 1+ for learned). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arrow for the ID (0 to <code>countArrows(ID)</code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; countArrows(ID)</code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The arrow data, or a default result if invalid. </dd></dl>
+
+</div>
+</div>
+<a id="a1fab5c0140d800977a60b7b8e6f793fb" name="a1fab5c0140d800977a60b7b8e6f793fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fab5c0140d800977a60b7b8e6f793fb">&#9670;&#160;</a></span>getArrow() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getArrow </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves an arrow by index. </p>
+<p>Returns the arrow at the specified index from the current request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arrow (0 to <code><a class="el" href="#acd256ded36439e0cbaf135a7fb470dc4" title="Retrieves the total count of arrows.">countArrows()</a></code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; <a class="el" href="#acd256ded36439e0cbaf135a7fb470dc4" title="Retrieves the total count of arrows.">countArrows()</a></code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The arrow data, or a default result if the index is invalid. </dd></dl>
+
+</div>
+</div>
+<a id="a0c26ecae5dbd32b1ba04238b5624a975" name="a0c26ecae5dbd32b1ba04238b5624a975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c26ecae5dbd32b1ba04238b5624a975">&#9670;&#160;</a></span>getArrowLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getArrowLearned </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a learned arrow by index. </p>
+<p>Returns the learned arrow (ID &gt;= 1) at the specified index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the learned arrow (0 to <code><a class="el" href="#aa8ca8c79796c0de27da5aa114ead9de9" title="Retrieves the count of learned arrows.">countArrowsLearned()</a></code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; <a class="el" href="#aa8ca8c79796c0de27da5aa114ead9de9" title="Retrieves the count of learned arrows.">countArrowsLearned()</a></code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The arrow data, or a default result if invalid. </dd></dl>
+
+</div>
+</div>
+<a id="afb44a32188b4b68787d1c5bd967f306c" name="afb44a32188b4b68787d1c5bd967f306c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb44a32188b4b68787d1c5bd967f306c">&#9670;&#160;</a></span>getBlock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getBlock </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a block with a specific ID by index. </p>
+<p>Returns the block with the specified ID at the given index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID (0 for unlearned, 1+ for learned). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the block for the ID (0 to <code>countBlocks(ID)</code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; countBlocks(ID)</code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block data, or a default result if invalid. </dd></dl>
+
+</div>
+</div>
+<a id="aac59293cd8ad26f90ecaee7591266ba2" name="aac59293cd8ad26f90ecaee7591266ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac59293cd8ad26f90ecaee7591266ba2">&#9670;&#160;</a></span>getBlock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getBlock </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a block by index. </p>
+<p>Returns the block at the specified index from the current request.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the block (0 to <code><a class="el" href="#a2862564ebbe520d09bd8d3aa37453c27" title="Retrieves the total count of blocks.">countBlocks()</a></code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; <a class="el" href="#a2862564ebbe520d09bd8d3aa37453c27" title="Retrieves the total count of blocks.">countBlocks()</a></code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block data, or a default result if the index is invalid. </dd></dl>
+
+</div>
+</div>
+<a id="a1175374bb2f2b1f176aadf1a052fde75" name="a1175374bb2f2b1f176aadf1a052fde75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1175374bb2f2b1f176aadf1a052fde75">&#9670;&#160;</a></span>getBlockLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getBlockLearned </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a learned block by index. </p>
+<p>Returns the learned block (ID &gt;= 1) at the specified index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the learned block (0 to <code><a class="el" href="#a85391abf23e091825005b838a5e474d3" title="Retrieves the count of learned blocks.">countBlocksLearned()</a></code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; <a class="el" href="#a85391abf23e091825005b838a5e474d3" title="Retrieves the count of learned blocks.">countBlocksLearned()</a></code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block data, or a default result if invalid. </dd></dl>
+
+</div>
+</div>
+<a id="a50124f938692b66a5902e6284e67d8b7" name="a50124f938692b66a5902e6284e67d8b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50124f938692b66a5902e6284e67d8b7">&#9670;&#160;</a></span>getCameraStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::getCameraStatus </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the camera status. </p>
+<p>Returns the custom status flag set for the camera.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool The current camera status (<code>true</code> for ON, <code>false</code> for OFF). </dd></dl>
+
+</div>
+</div>
+<a id="af29f4abc7741ded4ddf34ee03e0f45d8" name="af29f4abc7741ded4ddf34ee03e0f45d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af29f4abc7741ded4ddf34ee03e0f45d8">&#9670;&#160;</a></span>getLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getLearned </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a learned block or arrow by index. </p>
+<p>Returns the learned block or arrow (ID &gt;= 1) at the specified index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the learned block or arrow (0 to <code><a class="el" href="#aa42a4595140f9274ca14aec30d62fbf6" title="Retrieves the count of all learned blocks and arrows.">countLearned()</a></code> - 1).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the index is valid (<code>index &lt; <a class="el" href="#aa42a4595140f9274ca14aec30d62fbf6" title="Retrieves the count of all learned blocks and arrows.">countLearned()</a></code>).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block or arrow data, or a default result if invalid. </dd></dl>
+
+</div>
+</div>
+<a id="adb2a9bf0e388df7668e73cdbc9b59282" name="adb2a9bf0e388df7668e73cdbc9b59282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb2a9bf0e388df7668e73cdbc9b59282">&#9670;&#160;</a></span>getResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_protocol__t.html">HUSKYLENSResult</a> HUSKYLENS::getResult </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the current result. </p>
+<p>Returns the most recently read block or arrow result.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior call to <code><a class="el" href="#a6726373ab7a44dc3a9c19babdec87035" title="Reads the next block or arrow from the buffer.">read()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The current block or arrow data. </dd></dl>
+
+</div>
+</div>
+<a id="a8b284a854508c71f7c3a84e5e9aeff7c" name="a8b284a854508c71f7c3a84e5e9aeff7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b284a854508c71f7c3a84e5e9aeff7c">&#9670;&#160;</a></span>isLearned() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::isLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if any objects have been learned. </p>
+<p>Determines if the HuskyLens has learned any objects (IDs &gt;= 1).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if at least one object is learned, <code>false</code> otherwise. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_a8b284a854508c71f7c3a84e5e9aeff7c_cgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_a8b284a854508c71f7c3a84e5e9aeff7c_cgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_a8b284a854508c71f7c3a84e5e9aeff7c_cgraph" id="aclass_h_u_s_k_y_l_e_n_s_a8b284a854508c71f7c3a84e5e9aeff7c_cgraph">
+<area shape="rect" title="Checks if any objects have been learned." alt="" coords="5,5,173,32"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a125931d086dd65cc3c83fb3ca98b0f57" title="Retrieves the number of learned IDs." alt="" coords="221,5,431,32"/>
+<area shape="poly" title=" " alt="" coords="173,16,205,16,205,21,173,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7591d76b12833b26e7547439fe06392b" name="a7591d76b12833b26e7547439fe06392b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7591d76b12833b26e7547439fe06392b">&#9670;&#160;</a></span>isLearned() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::isLearned </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if a specific ID has been learned. </p>
+<p>Verifies if an object with the specified ID has been learned.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID to check (1+ for learned objects).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the ID is learned, <code>false</code> otherwise. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_a7591d76b12833b26e7547439fe06392b_cgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_a7591d76b12833b26e7547439fe06392b_cgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_a7591d76b12833b26e7547439fe06392b_cgraph" id="aclass_h_u_s_k_y_l_e_n_s_a7591d76b12833b26e7547439fe06392b_cgraph">
+<area shape="rect" title="Checks if a specific ID has been learned." alt="" coords="5,5,173,32"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#a125931d086dd65cc3c83fb3ca98b0f57" title="Retrieves the number of learned IDs." alt="" coords="221,5,431,32"/>
+<area shape="poly" title=" " alt="" coords="173,16,205,16,205,21,173,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a119f6bbd163dca1c601ebf2d5e6e7f7c" name="a119f6bbd163dca1c601ebf2d5e6e7f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a119f6bbd163dca1c601ebf2d5e6e7f7c">&#9670;&#160;</a></span>isPro()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::isPro </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the HuskyLens is a Pro model. </p>
+<p>Queries the HuskyLens to determine if it is a Pro or Standard model.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the HuskyLens is a Pro model, <code>false</code> if Standard or if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a283f797b9a9ac7bc7be8bbdd904bfe5c" name="a283f797b9a9ac7bc7be8bbdd904bfe5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a283f797b9a9ac7bc7be8bbdd904bfe5c">&#9670;&#160;</a></span>loadModelFromSDCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::loadModelFromSDCard </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fileNum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads an algorithm model from the SD card. </p>
+<p>Loads a model file ("AlgorithmName_Backup_FileNum.conf") from the SD card and refreshes the current algorithm.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileNum</td><td>The file number of the model to load.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires an SD card inserted with the specified file. A UI popup may appear on error.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a6726373ab7a44dc3a9c19babdec87035" name="a6726373ab7a44dc3a9c19babdec87035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6726373ab7a44dc3a9c19babdec87035">&#9670;&#160;</a></span>read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HUSKYLENS::read </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads the next block or arrow from the buffer. </p>
+<p>Retrieves the next available block or arrow, advancing the internal index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires a prior successful <code><a class="el" href="#afc23efa07d3258d79fca54913ef266ae" title="Requests all blocks and arrows from the HuskyLens.">request()</a></code> call and available data (<code><a class="el" href="#a1729436d1d5935cac5371c4f1d9c31d8" title="Returns the number of blocks and arrows available to read.">available()</a></code> &gt; 0).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>HUSKYLENSResult The block or arrow data, including position and ID. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_a6726373ab7a44dc3a9c19babdec87035_cgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_a6726373ab7a44dc3a9c19babdec87035_cgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_a6726373ab7a44dc3a9c19babdec87035_cgraph" id="aclass_h_u_s_k_y_l_e_n_s_a6726373ab7a44dc3a9c19babdec87035_cgraph">
+<area shape="rect" title="Reads the next block or arrow from the buffer." alt="" coords="5,5,142,32"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#ab1a5868ba01046c5fbcd41ac2c4b4e44" title="Retrieves a block or arrow by index." alt="" coords="190,5,319,32"/>
+<area shape="poly" title=" " alt="" coords="142,16,174,16,174,21,142,21"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#ad54b4f727619893f04c0539893afea4e" title="Retrieves the total count of blocks and arrows." alt="" coords="367,5,510,32"/>
+<area shape="poly" title=" " alt="" coords="319,16,351,16,351,21,319,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afc23efa07d3258d79fca54913ef266ae" name="afc23efa07d3258d79fca54913ef266ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc23efa07d3258d79fca54913ef266ae">&#9670;&#160;</a></span>request() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::request </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests all blocks and arrows from the HuskyLens. </p>
+<p>Initiates a request for all detected blocks and arrows, storing results for subsequent access.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is initialized with <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a5ec292eaf1f3c57d5db5f9ee20a3e1fa" name="a5ec292eaf1f3c57d5db5f9ee20a3e1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec292eaf1f3c57d5db5f9ee20a3e1fa">&#9670;&#160;</a></span>request() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::request </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests blocks and arrows with a specific ID. </p>
+<p>Requests only blocks and arrows tagged with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID of blocks and arrows (0 for unlearned, 1+ for learned).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the ID is valid and the HuskyLens is initialized.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a2d9fb086803063a237c7b98e6167e49b" name="a2d9fb086803063a237c7b98e6167e49b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d9fb086803063a237c7b98e6167e49b">&#9670;&#160;</a></span>requestArrows() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestArrows </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests all arrows from the HuskyLens. </p>
+<p>Initiates a request for all detected arrows, regardless of ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is initialized with <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a2f184e18a4de1edf6bc1ed1f3eb7f055" name="a2f184e18a4de1edf6bc1ed1f3eb7f055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f184e18a4de1edf6bc1ed1f3eb7f055">&#9670;&#160;</a></span>requestArrows() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestArrows </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests arrows with a specific ID. </p>
+<p>Requests only arrows tagged with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID of arrows (0 for unlearned, 1+ for learned).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the ID is valid and the HuskyLens is initialized.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="ac83be63e0702acd758547220dab8faf4" name="ac83be63e0702acd758547220dab8faf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac83be63e0702acd758547220dab8faf4">&#9670;&#160;</a></span>requestArrowsLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestArrowsLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests all learned arrows. </p>
+<p>Requests arrows with IDs &gt;= 1 (learned objects).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is initialized with <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a2268e25b82d994ca5be00f7c1179e22a" name="a2268e25b82d994ca5be00f7c1179e22a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2268e25b82d994ca5be00f7c1179e22a">&#9670;&#160;</a></span>requestBlocks() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestBlocks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests all blocks from the HuskyLens. </p>
+<p>Initiates a request for all detected blocks, regardless of ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is initialized with <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a2902750278b20fab543e19a71ba4312a" name="a2902750278b20fab543e19a71ba4312a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2902750278b20fab543e19a71ba4312a">&#9670;&#160;</a></span>requestBlocks() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestBlocks </td>
+          <td>(</td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests blocks with a specific ID. </p>
+<p>Requests only blocks tagged with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The target ID of blocks (0 for unlearned, 1+ for learned).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the ID is valid and the HuskyLens is initialized.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a6d313fad361c0401213b983f30f4b5e1" name="a6d313fad361c0401213b983f30f4b5e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d313fad361c0401213b983f30f4b5e1">&#9670;&#160;</a></span>requestBlocksLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestBlocksLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests all learned blocks. </p>
+<p>Requests blocks with IDs &gt;= 1 (learned objects).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is initialized with <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a085f3fdb87d7b2bb1f32a45d7c9e04eb" name="a085f3fdb87d7b2bb1f32a45d7c9e04eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085f3fdb87d7b2bb1f32a45d7c9e04eb">&#9670;&#160;</a></span>requestLearned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::requestLearned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requests all learned blocks and arrows. </p>
+<p>Requests blocks and arrows with IDs &gt;= 1 (learned objects).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the HuskyLens is initialized with <code><a class="el" href="#a172b59d14c06dd70d1eb04803350f17d" title="Initializes communication with the HuskyLens over serial.">begin()</a></code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the request is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="ab0f29608ca72ffa8b2a6d3a3b91c9014" name="ab0f29608ca72ffa8b2a6d3a3b91c9014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f29608ca72ffa8b2a6d3a3b91c9014">&#9670;&#160;</a></span>saveModelToSDCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::saveModelToSDCard </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fileNum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves the current algorithm model to the SD card. </p>
+<p>Saves the learned object data for the current algorithm to a file named "AlgorithmName_Backup_FileNum.conf".</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileNum</td><td>The file number to include in the filename.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires an SD card inserted. A UI popup may appear on error.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a584abcb3f2b7180555c3d14ee9246dde" name="a584abcb3f2b7180555c3d14ee9246dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584abcb3f2b7180555c3d14ee9246dde">&#9670;&#160;</a></span>savePictureToSDCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::savePictureToSDCard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves a photo to the SD card. </p>
+<p>Captures and saves a photo from the HuskyLens camera to the SD card.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires an SD card inserted in the HuskyLens. A UI popup may appear on error.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a4b1a43caa61b0316fcb8f105cf552820" name="a4b1a43caa61b0316fcb8f105cf552820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b1a43caa61b0316fcb8f105cf552820">&#9670;&#160;</a></span>saveScreenshotToSDCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::saveScreenshotToSDCard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves a screenshot of the HuskyLens UI to the SD card. </p>
+<p>Captures and saves the current HuskyLens UI as an image to the SD card.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Requires an SD card inserted. A UI popup may appear on error.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="aeb4af6d1b0170d4805f2c032a8d41b36" name="aeb4af6d1b0170d4805f2c032a8d41b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4af6d1b0170d4805f2c032a8d41b36">&#9670;&#160;</a></span>setCameraStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HUSKYLENS::setCameraStatus </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the camera status. </p>
+<p>Configures a custom status flag for the camera (not directly tied to hardware).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>The desired status (<code>true</code> for ON, <code>false</code> for OFF). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4be10297e5099fcc3c88b5d521376e6f" name="a4be10297e5099fcc3c88b5d521376e6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be10297e5099fcc3c88b5d521376e6f">&#9670;&#160;</a></span>setCustomName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::setCustomName </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a custom name for a learned object. </p>
+<p>Assigns a custom name (up to 20 characters) to a learned object with the specified ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>The custom name for the object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The ID of the learned object (1+).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>The name must be 20 characters or fewer.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if the name is too long or communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a15852303e30a8e7661c183cd8e2debff" name="a15852303e30a8e7661c183cd8e2debff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15852303e30a8e7661c183cd8e2debff">&#9670;&#160;</a></span>setTimeOutDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HUSKYLENS::setTimeOutDuration </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em>timeOutDurationInput</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the timeout duration for communication. </p>
+<p>Configures the maximum time to wait for a response from the HuskyLens (default: 100ms).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeOutDurationInput</td><td>Timeout duration in milliseconds.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Set an appropriate timeout to balance responsiveness and reliability. </dd></dl>
+
+</div>
+</div>
+<a id="a5db2d53e3a4150aecf3dcf08157db83c" name="a5db2d53e3a4150aecf3dcf08157db83c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db2d53e3a4150aecf3dcf08157db83c">&#9670;&#160;</a></span>writeAlgorithm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::writeAlgorithm </td>
+          <td>(</td>
+          <td class="paramtype">protocolAlgorithm</td>          <td class="paramname"><span class="paramname"><em>algorithmType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Switches the HuskyLens to the specified algorithm. </p>
+<p>Configures the HuskyLens to use the target vision algorithm (e.g., face recognition, line tracking).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">algorithmType</td><td>The target algorithm (see <code>protocolAlgorithm</code> enum).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the algorithm is supported by the HuskyLens model.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the switch is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a6ed94d3d683a61f5a4ec5d5f276ee131" name="a6ed94d3d683a61f5a4ec5d5f276ee131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed94d3d683a61f5a4ec5d5f276ee131">&#9670;&#160;</a></span>writeFirmwareVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::writeFirmwareVersion </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>version</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes a firmware version to the HuskyLens. </p>
+<p>Sends a firmware version string to the HuskyLens for verification or update purposes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">version</td><td>The firmware version string to send.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure the version string is valid and compatible with the HuskyLens.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_h_u_s_k_y_l_e_n_s_a6ed94d3d683a61f5a4ec5d5f276ee131_icgraph.png" border="0" usemap="#aclass_h_u_s_k_y_l_e_n_s_a6ed94d3d683a61f5a4ec5d5f276ee131_icgraph" alt=""/></div>
+<map name="aclass_h_u_s_k_y_l_e_n_s_a6ed94d3d683a61f5a4ec5d5f276ee131_icgraph" id="aclass_h_u_s_k_y_l_e_n_s_a6ed94d3d683a61f5a4ec5d5f276ee131_icgraph">
+<area shape="rect" title="Writes a firmware version to the HuskyLens." alt="" coords="254,5,447,48"/>
+<area shape="rect" href="class_h_u_s_k_y_l_e_n_s.html#aad7fd1abfc80d65c5da24fd003602374" title="Checks if the firmware version is up to date." alt="" coords="5,5,206,48"/>
+<area shape="poly" title=" " alt="" coords="238,29,206,29,206,24,238,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a35a92f6158d7e00e75c508acf83c8148" name="a35a92f6158d7e00e75c508acf83c8148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a92f6158d7e00e75c508acf83c8148">&#9670;&#160;</a></span>writeForget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::writeForget </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instructs the HuskyLens to forget all learned objects. </p>
+<p>Clears all learned objects (used in Object Classification).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Only works in Object Classification mode.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a467f6e550701d8c9b839a066b078348d" name="a467f6e550701d8c9b839a066b078348d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467f6e550701d8c9b839a066b078348d">&#9670;&#160;</a></span>writeLearn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::writeLearn </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instructs the HuskyLens to learn an object with a specific ID. </p>
+<p>Triggers learning for the current object, assigning it the specified ID (used in Object Classification).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>The ID to assign to the learned object (1+).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Only works in Object Classification mode.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if learning is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
+<a id="a8fc91bb0913ff53a3673e20fff52a0a8" name="a8fc91bb0913ff53a3673e20fff52a0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc91bb0913ff53a3673e20fff52a0a8">&#9670;&#160;</a></span>writeSensor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HUSKYLENS::writeSensor </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sensor0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sensor1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sensor2</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets sensor parameters. </p>
+<p>Configures the HuskyLens with three sensor parameters (purpose depends on context).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor0</td><td>First sensor parameter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor1</td><td>Second sensor parameter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor2</td><td>Third sensor parameter.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>Ensure parameters are valid for the current algorithm.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool <code>true</code> if the operation is successful, <code>false</code> if communication fails. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/HUSKYLENS/<a class="el" href="_h_u_s_k_y_l_e_n_s_8h_source.html">HUSKYLENS.h</a></li>
+<li>thesis_mdt266_iotdevkit/lib/HUSKYLENS/<a class="el" href="_h_u_s_k_y_l_e_n_s_8h_source.html">HUSKYLENS.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

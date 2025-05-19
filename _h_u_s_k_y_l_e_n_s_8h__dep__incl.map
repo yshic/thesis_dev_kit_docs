@@ -1,7 +1,7 @@
-<map id="lib/HUSKYLENS/HUSKYLENS.h" name="lib/HUSKYLENS/HUSKYLENS.h">
-<area shape="rect" id="Node000001" title="HUSKYLENS &#45; An Easy&#45;to&#45;use AI Machine Vision Sensor &#160;&#160;Header file for HUSKYLENS." alt="" coords="100,5,317,32"/>
-<area shape="rect" id="Node000002" href="$_d_f_robot___husky_lens_8h_source.html" title=" " alt="" coords="5,80,183,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,43,125,82,122,77,177,39"/>
-<area shape="rect" id="Node000003" href="$_h_u_s_k_y_l_e_n_s_mind_plus_8h_source.html" title=" " alt="" coords="206,80,440,123"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,39,295,77,292,82,238,43"/>
+<map id="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h" name="thesis_mdt266_iotdevkit/lib/HUSKYLENS/HUSKYLENS.h">
+<area shape="rect" id="Node000001" title="Header file for HUSKYLENS." alt="" coords="101,5,323,48"/>
+<area shape="rect" id="Node000002" href="$_d_f_robot___husky_lens_8h_source.html" title=" " alt="" coords="5,96,187,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,60,132,98,129,94,174,56"/>
+<area shape="rect" id="Node000003" href="$_h_u_s_k_y_l_e_n_s_mind_plus_8h_source.html" title=" " alt="" coords="210,96,448,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,56,296,94,293,98,247,60"/>
 </map>

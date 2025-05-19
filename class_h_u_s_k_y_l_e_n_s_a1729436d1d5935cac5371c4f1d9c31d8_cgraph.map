@@ -1,0 +1,5 @@
+<map id="HUSKYLENS::available" name="HUSKYLENS::available">
+<area shape="rect" id="Node000001" title="Returns the number of blocks and arrows available to read." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="Node000002" href="$class_h_u_s_k_y_l_e_n_s.html#ad54b4f727619893f04c0539893afea4e" title="Retrieves the total count of blocks and arrows." alt="" coords="216,5,359,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
+</map>
